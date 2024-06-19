@@ -334,7 +334,7 @@ return {
 			{ name = 'ev_battery',           label = 'EV Battery',           price = 0 },
 			{ name = 'ev_coolant',           label = 'EV Coolant',           price = 0 },
 			{ name = 'awd_drivetrain',       label = 'AWD Drivetrain',       price = 0 },
-			{ name = 'ceramic_brakes',       label = 'AWD Drivetrain',       price = 0 },
+			{ name = 'ceramic_brakes',       label = 'Ceramic Brakes',       price = 0 },
 			{ name = 'rwd_drivetrain',       label = 'RWD Drivetrain',       price = 0 },
 			{ name = 'fwd_drivetrain',       label = 'FWD Drivetrain',       price = 0 },
 			{ name = 'slick_tyres',          label = 'Slick Tyres',          price = 0 },
