@@ -215,7 +215,7 @@ return {
 		weight = 1,
 		stack = true,
 		close = true,
-		description = 'Basketball'
+		description = 'Use /basketball to use!'
 	},
 
 	['football'] = {
