@@ -200,6 +200,48 @@ return {
 		description = 'Support your local artist!'
 	},
 
+	--- SPORTS
+
+	['soccerball'] = {
+		label = 'Soccer Ball',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = 'Soccer Ball'
+	},
+
+	['basketball'] = {
+		label = 'Basketball',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = 'Basketball'
+	},
+
+	['football'] = {
+		label = 'Football',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = 'Football'
+	},
+
+	['baseball'] = {
+		label = 'Baseball',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = 'A baseball'
+	},
+
+	['rocketball'] = {
+		label = 'Rocket Ball',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = 'Rocket Ball (Best Used With Cars)'
+	},
+
 	--- TOYS
 
 	['alienpillow'] = {

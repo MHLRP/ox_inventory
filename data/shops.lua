@@ -587,6 +587,7 @@ return {
 			{ name = 'customizableplate',   price = 2000, currency = 'money' },
 			{ name = 'nitrous_bottle',      price = 3000, currency = 'money' },
 			{ name = 'lighting_controller', price = 2500, currency = 'money' },
+			{ name = 'rocketball',          price = 500,  currency = 'money' },
 		},
 		targets = {
 			{
@@ -609,6 +610,7 @@ return {
 			{ name = 'customizableplate',   price = 2000, currency = 'money' },
 			{ name = 'nitrous_bottle',      price = 3000, currency = 'money' },
 			{ name = 'lighting_controller', price = 2500, currency = 'money' },
+			{ name = 'rocketball',          price = 500,  currency = 'money' },
 		},
 		targets = {
 			{
@@ -1184,6 +1186,7 @@ return {
 			{ name = 'goldpan',          price = 800,   currency = 'money' },
 			{ name = 'cwnotepad',        price = 500,   currency = 'money' },
 			{ name = 'repair_kit',       price = 250,   currency = 'money' },
+			{ name = 'rocketball',       price = 500,   currency = 'money' },
 			{ name = 'megaphone',        price = 500,   currency = 'money' },
 			{ name = 'yogamat',          price = 800,   currency = 'money' },
 			{ name = 'diving_gear',      price = 500,   currency = 'money' },
@@ -1217,6 +1220,10 @@ return {
 			{ name = 'firework2',        price = 50,    currency = 'money' },
 			{ name = 'firework3',        price = 50,    currency = 'money' },
 			{ name = 'firework4',        price = 50,    currency = 'money' },
+			{ name = 'soccerball',        price = 50,    currency = 'money' },
+			{ name = 'football',        price = 50,    currency = 'money' },
+			{ name = 'basketball',        price = 50,    currency = 'money' },
+			{ name = 'baseball',        price = 50,    currency = 'money' },
 			{ name = 'fitbit',           price = 400,   currency = 'money' },
 			{ name = 'cleaningkit',      price = 150,   currency = 'money' },
 			{ name = 'cleaning_kit',     price = 150,   currency = 'money' },
