@@ -22,6 +22,7 @@ return {
 			{ name = 'radio',                price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'briefcase',            price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'pdcamera',             price = 0, metadata = { description = "Police Property" }, },
+			{ name = 'specialbadge',         price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'badge_lspd',           price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'badge_fib',            price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'badge_bcso',           price = 0, metadata = { description = "Police Property" }, },
@@ -29,8 +30,8 @@ return {
 			{ name = 'printscanner',         price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'empty_evidence_bag',   price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'evidencecleaningkit',  price = 0, metadata = { description = "Police Property" }, },
-			{ name = 'screwdriver',  price = 0, metadata = { description = "Police Property" }, },
-			{ name = 'wiring_kit',  price = 0, metadata = { description = "Police Property" }, },
+			{ name = 'screwdriver',          price = 0, metadata = { description = "Police Property" }, },
+			{ name = 'wiring_kit',           price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'WEAPON_PISTOL',        price = 0, metadata = { registered = true, description = "Police Property", components = { 'at_flashlight', 'at_scope_holo' }, tint = 5, weapontint = "LSPD Tint", police_property = true, serial = 'POL' } },
 			{ name = 'WEAPON_COMBATPISTOL',  price = 0, metadata = { registered = true, description = "Police Property", components = { 'at_flashlight' }, tint = 5, weapontint = "LSPD Tint", police_property = true, serial = 'POL' }, },
 			{ name = 'WEAPON_CERAMICPISTOL', price = 0, metadata = { registered = true, description = "Police Property", tint = 5, weapontint = "LSPD Tint", police_property = true, serial = 'POL' }, },
@@ -1311,7 +1312,7 @@ return {
 	ingredients = {
 		name = 'Ingredients',
 		inventory = {
-			{ name = 'black_usb',           price = 0 },
+			{ name = 'black_usb', price = 0 },
 		},
 	},
 
