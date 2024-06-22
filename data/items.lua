@@ -4172,7 +4172,7 @@ return {
 
 	["goldbar"] = {
 		label = "Gold Bar",
-		weight = 7000,
+		weight = 80,
 		stack = true,
 		close = true,
 		description = "Looks pretty expensive to me",
@@ -5606,6 +5606,15 @@ return {
 		stack = true,
 		close = false,
 		description = "The real deal...",
+	},
+
+
+	["electricsaw"] = {
+		label = "Electric Saw",
+		weight = 2000,
+		stack = true,
+		close = false,
+		description = "An electric saw",
 	},
 
 	--- HEISTS
@@ -13094,5 +13103,683 @@ return {
 		label = "Mixing Board",
 		weight = 360,
 		description = 'Pricey Mixer.'
+	},
+
+	["milk_pail"] = {
+		label = "Milk Pail",
+		weight = 1000,
+		stack = true,
+		close = false,
+		description = "Fresh milk, straight from the cow!",
+		client = {
+			image = "milk_pail.png",
+		}
+	},
+
+	["magic_mushroom"] = {
+		label = "Magic Mushroom",
+		weight = 20,
+		stack = true,
+		close = false,
+		description = "A handful of magic mushrooms!",
+		client = {
+			image = "magic_mushroom.png",
+		}
+	},
+
+	["moonshine_mash"] = {
+		label = "Moonshine Mash",
+		weight = 5000,
+		stack = true,
+		close = false,
+		description = "A bucket of moonshine mash!",
+		client = {
+			image = "moonshine_mash.png",
+		}
+	},
+
+	["mushroom_seed"] = {
+		label = "Mushroom Seed",
+		weight = 1,
+		stack = true,
+		close = false,
+		description = "A handful of mushroom seeds!",
+		client = {
+			image = "mushroom_seed.png",
+		}
+	},
+
+	["mushroom_sack"] = {
+		label = "Mushroom Sack",
+		weight = 5000,
+		stack = true,
+		close = false,
+		description = "A sack of mushrooms ready for selling!",
+		client = {
+			image = "mushroom_sack.png",
+		}
+	},
+
+	["cherry"] = {
+		label = "Cherry",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "Cherry!",
+		client = {
+			image = "cherry.png",
+		}
+	},
+
+	["milk_crate"] = {
+		label = "Milk Crate",
+		weight = 5500,
+		stack = true,
+		close = false,
+		description = "A crate of milk bottles ready for selling!",
+		client = {
+			image = "milk_crate.png",
+		}
+	},
+
+	["cactusfruit_crate"] = {
+		label = "Cactus Fruit Crate",
+		weight = 3500,
+		stack = true,
+		close = false,
+		description = "A crate of cactus fruits ready for selling!",
+		client = {
+			image = "cactusfruit_crate.png",
+		}
+	},
+
+	["blueberry_seed"] = {
+		label = "Blueberry Seed",
+		weight = 1,
+		stack = true,
+		close = false,
+		description = "A handful of blueberry seeds!",
+		client = {
+			image = "blueberry_seed.png",
+		}
+	},
+
+	["egg"] = {
+		label = "Egg",
+		weight = 50,
+		stack = true,
+		close = false,
+		description = "Fresh eggs!",
+		client = {
+			image = "egg.png",
+		}
+	},
+
+	["strawberry_crate"] = {
+		label = "Strawberry Crate",
+		weight = 2500,
+		stack = true,
+		close = false,
+		description = "A crate of strawberries ready for selling!",
+		client = {
+			image = "strawberry_crate.png",
+		}
+	},
+
+	["barley"] = {
+		label = "Barley",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "Barley!",
+		client = {
+			image = "barley.png",
+		}
+	},
+
+	["farm_fertilizer"] = {
+		label = "Fertilizer",
+		weight = 1500,
+		stack = true,
+		close = false,
+		description = "A bag of organic fertilizer!",
+		client = {
+			image = "farm_fertilizer.png",
+		}
+	},
+
+	["pineapple"] = {
+		label = "Pineapple",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "Lemon!",
+		client = {
+			image = "pineapple.png",
+		}
+	},
+
+	["lettuce_crate"] = {
+		label = "Lettuce Crate",
+		weight = 3500,
+		stack = true,
+		close = false,
+		description = "A crate of lettuce ready for selling!",
+		client = {
+			image = "lettuce_crate.png",
+		}
+	},
+
+	["watering_can"] = {
+		label = "Watering Can",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "A empty watering can!",
+		client = {
+			image = "watering_can.png",
+		}
+	},
+
+	["growler"] = {
+		label = "Growler",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "A empty growler!",
+		client = {
+			image = "growler.png",
+		}
+	},
+
+	["apple_crate"] = {
+		label = "Apple Crate",
+		weight = 3500,
+		stack = true,
+		close = false,
+		description = "A crate of apples ready for selling!",
+		client = {
+			image = "apple_crate.png",
+		}
+	},
+
+	["bootlegvodka"] = {
+		label = "Bootleg Vodka",
+		weight = 500,
+		stack = true,
+		close = false,
+		description = "A bottle of bootleg vodka!",
+		client = {
+			image = "bootlegvodka.png",
+		}
+	},
+
+	["blueberry_crate"] = {
+		label = "Blueberry Crate",
+		weight = 2500,
+		stack = true,
+		close = false,
+		description = "A crate of blueberries ready for selling!",
+		client = {
+			image = "blueberry_crate.png",
+		}
+	},
+
+	["barley_sack"] = {
+		label = "Barley Sack",
+		weight = 5000,
+		stack = true,
+		close = false,
+		description = "A sack of barley ready for selling!",
+		client = {
+			image = "barley_sack.png",
+		}
+	},
+
+	["blueberry"] = {
+		label = "Blueberry",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "Blueberry!",
+		client = {
+			image = "blueberry.png",
+		}
+	},
+
+	["pineapple_seed"] = {
+		label = "Pineapple Seed",
+		weight = 1,
+		stack = true,
+		close = false,
+		description = "A handful of pineapple seeds!",
+		client = {
+			image = "pineapple_seed.png",
+		}
+	},
+
+	["barley_seed"] = {
+		label = "Barley Seed",
+		weight = 1,
+		stack = true,
+		close = false,
+		description = "A handful of barley seeds!",
+		client = {
+			image = "barley_seed.png",
+		}
+	},
+
+	["maize_seed"] = {
+		label = "Maize Seed",
+		weight = 1,
+		stack = true,
+		close = false,
+		description = "A handful of maize seeds!",
+		client = {
+			image = "maize_seed.png",
+		}
+	},
+
+	["yeast"] = {
+		label = "Yeast",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "A packet of yeast!",
+		client = {
+			image = "yeast.png",
+		}
+	},
+
+	["milking_pail"] = {
+		label = "Milking Pail",
+		weight = 250,
+		stack = true,
+		close = false,
+		description = "A milking pail for collecting milk!",
+		client = {
+			image = "milking_pail.png",
+		}
+	},
+
+	["mushroom"] = {
+		label = "Mushroom",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "Mushroom!",
+		client = {
+			image = "mushroom.png",
+		}
+	},
+
+	["peyote_button"] = {
+		label = "Peyote Button",
+		weight = 20,
+		stack = true,
+		close = false,
+		description = "A handful of peyote buttons!",
+		client = {
+			image = "peyote_button.png",
+		}
+	},
+
+	["potato_sack"] = {
+		label = "Potato Sack",
+		weight = 5000,
+		stack = true,
+		close = false,
+		description = "A sack of potatoes ready for selling!",
+		client = {
+			image = "potato_sack.png",
+		}
+	},
+
+	["strawberry_seed"] = {
+		label = "Strawberry Seed",
+		weight = 1,
+		stack = true,
+		close = false,
+		description = "A handful of strawberry seeds!",
+		client = {
+			image = "strawberry_seed.png",
+		}
+	},
+
+	["emptysack"] = {
+		label = "Sack",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "A empty sack for storing crops!",
+		client = {
+			image = "emptysack.png",
+		}
+	},
+
+	["emptycrate"] = {
+		label = "Crate",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "A empty crate for storing things!",
+		client = {
+			image = "emptycrate.png",
+		}
+	},
+
+	["tomato"] = {
+		label = "Tomato",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "Tomato!",
+		client = {
+			image = "tomato.png",
+		}
+	},
+
+	["peyote_seed"] = {
+		label = "Peyote Seed",
+		weight = 1,
+		stack = true,
+		close = false,
+		description = "A handful of peyote seeds!",
+		client = {
+			image = "peyote_seed.png",
+		}
+	},
+
+	["maize"] = {
+		label = "Maize",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "Maize!",
+		client = {
+			image = "maize.png",
+		}
+	},
+
+	["lemon"] = {
+		label = "Lemon",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "Lemon!",
+		client = {
+			image = "lemon.png",
+		}
+	},
+
+	["lettuce_seed"] = {
+		label = "Lettuce Seed",
+		weight = 1,
+		stack = true,
+		close = false,
+		description = "A handful of lettuce seeds!",
+		client = {
+			image = "lettuce_seed.png",
+		}
+	},
+
+	["orange_crate"] = {
+		label = "Orange Crate",
+		weight = 3500,
+		stack = true,
+		close = false,
+		description = "A crate of oranges ready for selling!",
+		client = {
+			image = "orange_crate.png",
+		}
+	},
+
+	["pineapple_crate"] = {
+		label = "Pineapple Crate",
+		weight = 2500,
+		stack = true,
+		close = false,
+		description = "A crate of pineapples ready for selling!",
+		client = {
+			image = "pineapple_crate.png",
+		}
+	},
+
+	["moonshine"] = {
+		label = "Moonshine",
+		weight = 500,
+		stack = true,
+		close = false,
+		description = "A bottle of moonshine!",
+		client = {
+			image = "moonshine.png",
+		}
+	},
+
+	["tomato_seed"] = {
+		label = "Tomato Seed",
+		weight = 1,
+		stack = true,
+		close = false,
+		description = "A handful of tomato seeds!",
+		client = {
+			image = "tomato_seed.png",
+		}
+	},
+
+	["maize_sack"] = {
+		label = "Maize Sack",
+		weight = 5000,
+		stack = true,
+		close = false,
+		description = "A sack of maize ready for selling!",
+		client = {
+			image = "maize_sack.png",
+		}
+	},
+
+	["egg_crate"] = {
+		label = "Egg Crate",
+		weight = 2500,
+		stack = true,
+		close = false,
+		description = "A crate of eggs ready for selling!",
+	},
+
+	["watering_can_full"] = {
+		label = "Full Watering Can",
+		weight = 500,
+		stack = true,
+		close = false,
+		description = "A watering can full of water!",
+	},
+
+	["emptymilkbottle"] = {
+		label = "Empty Milk Bottle",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "A empty milk bottle!",
+	},
+
+	["lime_crate"] = {
+		label = "Lime Crate",
+		weight = 3500,
+		stack = true,
+		close = false,
+		description = "A crate of limes ready for selling!",
+	},
+
+	["vodka_mash"] = {
+		label = "Vodka Mash",
+		weight = 5000,
+		stack = true,
+		close = false,
+		description = "A bucket of vodka mash!",
+	},
+
+	["psilocybin_seed"] = {
+		label = "Psilocybin Seed",
+		weight = 1,
+		stack = true,
+		close = false,
+		description = "A handful of psilocybin seeds!",
+	},
+
+	["vodka_distill"] = {
+		label = "Distilled Vodka",
+		weight = 5000,
+		stack = true,
+		close = false,
+		description = "A bucket of distilled vodka!",
+	},
+
+	["trowel"] = {
+		label = "Trowel",
+		weight = 1000,
+		stack = true,
+		close = false,
+		description = "Small handheld garden shovel",
+	},
+
+	["moonshine_distill"] = {
+		label = "Distilled Moonshine",
+		weight = 5000,
+		stack = true,
+		close = false,
+		description = "A bucket of distilled moonshine!",
+	},
+
+	["bucket"] = {
+		label = "Bucket",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "A empty bucket!",
+	},
+
+	["coconut"] = {
+		label = "Coconut",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "Coconut!",
+	},
+
+	["strawberry"] = {
+		label = "Strawberry",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "Straqwberry!",
+	},
+
+	["cactus_seed"] = {
+		label = "Cactus Seed",
+		weight = 1,
+		stack = true,
+		close = false,
+		description = "A handful of cactus seeds!",
+	},
+
+	["tomato_crate"] = {
+		label = "Tomato Crate",
+		weight = 2500,
+		stack = true,
+		close = false,
+		description = "A crate of tomatoes ready for selling!",
+	},
+
+	["moonshine_ferm"] = {
+		label = "Fermented Moonshine",
+		weight = 5000,
+		stack = true,
+		close = false,
+		description = "A bucket of fermented moonshine!",
+	},
+
+	["farmguide"] = {
+		label = "Farming Handbook",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Learn all about farming with this handbook!",
+	},
+
+	["cactusfruit"] = {
+		label = "Cactus Fruit",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "Cactus Fruit!",
+		client = {
+			image = "cactusfruit.png",
+		}
+	},
+
+	["potato"] = {
+		label = "Potato",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "Potato!",
+		client = {
+			image = "potato.png",
+		}
+	},
+
+	["potato_seed"] = {
+		label = "Potato Seed",
+		weight = 1,
+		stack = true,
+		close = false,
+		description = "A handful of seed potatoes!",
+		client = {
+			image = "potato_seed.png",
+		}
+	},
+
+	["vodka_ferm"] = {
+		label = "Fermented Vodka",
+		weight = 5000,
+		stack = true,
+		close = false,
+		description = "A bucket of fermented vodka!",
+		client = {
+			image = "vodka_ferm.png",
+		}
+	},
+
+	["lemon_crate"] = {
+		label = "Lemon Crate",
+		weight = 3500,
+		stack = true,
+		close = false,
+		description = "A crate of lemons ready for selling!",
+		client = {
+			image = "lemon_crate.png",
+		}
+	},
+
+	["gold_ingot"] = {
+		label = "Gold Ingot",
+		weight = 1,
+		stack = true,
+		close = false,
+		description = "Pretty shiny",
+		client = {
+			image = "gold_ingot.png",
+		}
+	},
+
+	["grinder"] = {
+		label = "Grinder",
+		weight = 10,
+		stack = true,
+		close = false,
+		description = "Just a regular grinder.",
+		client = {
+			image = "grinder.png",
+		}
 	},
 }
