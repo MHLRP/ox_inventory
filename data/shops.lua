@@ -408,6 +408,10 @@ return {
 			{ name = 'mansionlaptop', price = 1200, currency = 'black_money' },
 			{ name = 'armour',        price = 1200, currency = 'black_money' },
 			{ name = 'jammer',        price = 8000, currency = 'black_money' },
+			{ name = 'redphone',      price = 2500, currency = 'black_money' },
+			{ name = 'goldenphone',   price = 5000, currency = 'black_money' },
+			{ name = 'greenphone',    price = 3500, currency = 'black_money' },
+
 			--{ name = 'rag',           price = 800,  currency = 'black_money' },
 		},
 		locations = {
@@ -1221,10 +1225,10 @@ return {
 			{ name = 'firework2',        price = 50,    currency = 'money' },
 			{ name = 'firework3',        price = 50,    currency = 'money' },
 			{ name = 'firework4',        price = 50,    currency = 'money' },
-			{ name = 'soccerball',        price = 50,    currency = 'money' },
-			{ name = 'football',        price = 50,    currency = 'money' },
-			{ name = 'basketball',        price = 50,    currency = 'money' },
-			{ name = 'baseball',        price = 50,    currency = 'money' },
+			{ name = 'soccerball',       price = 50,    currency = 'money' },
+			{ name = 'football',         price = 50,    currency = 'money' },
+			{ name = 'basketball',       price = 50,    currency = 'money' },
+			{ name = 'baseball',         price = 50,    currency = 'money' },
 			{ name = 'radiocell',        price = 25,    currency = 'money' },
 			{ name = 'fitbit',           price = 400,   currency = 'money' },
 			{ name = 'cleaningkit',      price = 150,   currency = 'money' },
@@ -1332,8 +1336,8 @@ return {
 		},
 		inventory = {
 			{ name = 'weapon_fireextinguisher', price = 200 },
-			{ name = 'watertank', price = 200 },
-			{ name = 'gps_tracker', price = 0 },
+			{ name = 'watertank',               price = 200 },
+			{ name = 'gps_tracker',             price = 0 },
 		},
 		locations = {
 			vec3(198.0423, -1650.7327, 29.8032)
@@ -1341,7 +1345,7 @@ return {
 		targets = {
 			{ loc = vec3(198.0423, -1650.7327, 29.8032), length = 0.6, width = 0.5, heading = 51.4918, minZ = 28.2, maxZ = 28.6, distance = 2 }
 		}
-	}, 
+	},
 
 	-- fireshop2 = {
 	-- 	name = 'Firefighter Shop',
