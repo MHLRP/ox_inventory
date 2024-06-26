@@ -1323,6 +1323,39 @@ return {
 		},
 	},
 
+	fireshop = {
+		name = 'Firefighter Shop',
+		groups = {
+			['firefighter'] = 0
+		},
+		inventory = {
+			{ name = 'weapon_fireextinguisher', price = 200 },
+			{ name = 'watertank', price = 200 },
+			{ name = 'gps_tracker', price = 0 },
+		},
+		locations = {
+			vec3(198.0423, -1650.7327, 29.8032)
+		},
+		targets = {
+			{ loc = vec3(198.0423, -1650.7327, 29.8032), length = 0.6, width = 0.5, heading = 51.4918, minZ = 28.2, maxZ = 28.6, distance = 2 }
+		}
+	}, 
+
+	-- fireshop2 = {
+	-- 	name = 'Firefighter Shop',
+	-- 	inventory = {
+	-- 		{ name = 'weapon_fireextinguisher', price = 200 },
+	-- 		{ name = 'watertank', price = 200 },
+	-- 		{ name = 'gps_tracker', price = 0 },
+	-- 	},
+	-- 	locations = {
+	-- 		vec3(207.7617, -1658.9697, 29.8032, 225.5889)
+	-- 	},
+	-- 	targets = {
+	-- 		{ loc = vec3(-285.1, 233.24, 78.87), length = 0.6, width = 0.5, heading = 225.5889, minZ = 28.2, maxZ = 28.6, distance = 2 }
+	-- 	}
+	-- },
+
 	burgershot2 = {
 		name = 'Burgershot Menu',
 		inventory = {
