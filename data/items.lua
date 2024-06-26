@@ -5458,23 +5458,24 @@ return {
 		label = 'Radio',
 		weight = 1000,
 		allowArmed = true,
+		consume = 0,
 		client = {
 			event = 'mm_radio:client:use'
 		}
 	},
-
+	
 	['jammer'] = {
 		label = 'Radio Jammer',
-		weight = 10000,
+		weight = 5000,
 		allowArmed = true,
 		client = {
 			event = 'mm_radio:client:usejammer'
 		}
 	},
-
+	
 	['radiocell'] = {
 		label = 'AAA Cells',
-		weight = 1000,
+		weight = 100,
 		stack = true,
 		allowArmed = true,
 		client = {
