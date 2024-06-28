@@ -1206,6 +1206,7 @@ return {
 			{ name = 'backpack1',        price = 1000,  currency = 'money' },
 			{ name = 'backpack2',        price = 1000,  currency = 'money' },
 			{ name = 'duffle1',          price = 1000,  currency = 'money' },
+			{ name = 'clothing_bag',     price = 1500,  currency = 'money' },
 			{ name = 'backpack4',        price = 1000,  currency = 'money' },
 			{ name = 'backpack5',        price = 1000,  currency = 'money' },
 			{ name = 'backpack6',        price = 1000,  currency = 'money' },
