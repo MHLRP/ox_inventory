@@ -3920,6 +3920,25 @@ return {
 		description = "This car was taken out through car rental.",
 	},
 
+	["paper"] = {
+		label = "Print paper",
+		weight = 50,
+		stack = true,
+		close = true,
+		description = "Printer Paper",
+	},
+
+	["doc"] = {
+		label = "Document",
+		weight = 50,
+		stack = false,
+		close = false,
+		description = "Document",
+		client = {
+			export = "nkt-printer.doc"
+		}
+	},
+
 	["latte-uwu"] = {
 		label = "Latte",
 		weight = 1000,
@@ -5463,7 +5482,7 @@ return {
 			event = 'mm_radio:client:use'
 		}
 	},
-	
+
 	['jammer'] = {
 		label = 'Radio Jammer',
 		weight = 5000,
@@ -5472,7 +5491,7 @@ return {
 			event = 'mm_radio:client:usejammer'
 		}
 	},
-	
+
 	['radiocell'] = {
 		label = 'AAA Cells',
 		weight = 100,
@@ -13768,9 +13787,6 @@ return {
 		stack = true,
 		close = false,
 		description = "Pretty shiny",
-		client = {
-			image = "gold_ingot.png",
-		}
 	},
 
 	["grinder"] = {
@@ -13779,8 +13795,54 @@ return {
 		stack = true,
 		close = false,
 		description = "Just a regular grinder.",
-		client = {
-			image = "grinder.png",
-		}
+
+	},
+
+	["business_card"] = {
+		label = "A business card",
+		weight = 0,
+		stack = false,
+		close = false,
+		description = "A businesscard",
+	},
+
+	["menu"] = {
+		label = "Menu",
+		weight = 0,
+		stack = false,
+		close = false,
+		description = "A Menu",
+	},
+
+	["flyer"] = {
+		label = "Flyer",
+		weight = 0,
+		stack = false,
+		close = false,
+		description = "A Flyer",
+	},
+
+	["newspaper"] = {
+		label = "newspaper",
+		weight = 0,
+		stack = false,
+		close = false,
+		description = "A newspaper",
+	},
+
+	["coupon"] = {
+		label = "Coupon",
+		weight = 0,
+		stack = false,
+		close = false,
+		description = "A Coupon",
+	},
+
+	["book"] = {
+		label = "Book",
+		weight = 0,
+		stack = false,
+		close = false,
+		description = "A book",
 	},
 }
