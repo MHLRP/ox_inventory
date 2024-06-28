@@ -1700,6 +1700,7 @@ return {
 			{ name = 'caixa-amoras',         price = 10,  currency = 'money' },
 			{ name = 'chocolate',            price = 10,  currency = 'money' },
 			{ name = 'carbonated-water',     price = 10,  currency = 'money' },
+			{ name = 'leancup',              price = 20,  currency = 'money' },
 			{ name = 'sugar-cubes',          price = 10,  currency = 'money' },
 			{ name = 'pacote-acucar',        price = 10,  currency = 'money' },
 			{ name = 'pacote-oreo',          price = 10,  currency = 'money' },
