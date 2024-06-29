@@ -5777,10 +5777,13 @@ return {
 
 	['prescription_pad'] = {
 		label = 'Prescription Pad',
-		weight = 200,
+		weight = 100,
 		stack = false,
 		close = true,
-		description = 'For use by medical professionals only',
+		description = "Prescription Pad",
+		server = {
+			export = 'MrNewbPrescriptions.prescriptionpad'
+		}
 	},
 	['prescription'] = {
 		label = 'Prescription Receipt',
@@ -5788,6 +5791,35 @@ return {
 		stack = false,
 		close = true,
 		description = nil,
+	},
+	["medicalprescription"] = {
+		label = "medicalprescription",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "Medical Prescription",
+	},
+
+	["zombix"] = {
+		label = "zombix",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "Zombix 250 MG",
+		server = {
+			export = 'MrNewbPrescriptions.zombix'
+		}
+	},
+
+	["willies"] = {
+		label = "willies",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "Willies Butt Drain",
+		server = {
+			export = 'MrNewbPrescriptions.willies'
+		}
 	},
 	['adrenaline'] = {
 		label = 'Adrenaline',
@@ -12459,8 +12491,13 @@ return {
 	},
 	["medicine_mollis"] = {
 		label = "Medicine: Mollis",
-		weight = 1,
-		stack = true,
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "Mollis 50 MG",
+		server = {
+			export = 'MrNewbPrescriptions.mollis'
+		}
 	},
 	["medicine_betta"] = {
 		label = "Medicine: Betta",
