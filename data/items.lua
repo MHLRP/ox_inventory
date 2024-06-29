@@ -6963,7 +6963,7 @@ return {
 		weight = 100,
 		stack = true,
 		close = false,
-		description = "Labkey A",
+		description = "Weedlabs Key",
 	},
 
 	["keyb"] = {
@@ -6971,7 +6971,7 @@ return {
 		weight = 100,
 		stack = true,
 		close = false,
-		description = "Labkey B",
+		description = "Meth Labs Key",
 	},
 
 	["keyc"] = {
@@ -6979,7 +6979,7 @@ return {
 		weight = 100,
 		stack = true,
 		close = false,
-		description = "Labkey C",
+		description = "Cocaine Labs Key",
 	},
 
 
