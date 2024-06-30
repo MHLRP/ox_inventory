@@ -13887,4 +13887,15 @@ return {
 		close = false,
 		description = "A book",
 	},
+
+	["blank_usb"] = {
+		label = "Blank USB",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "This blank USB stick could be turned into anything in a professional's hands...",
+		client = {
+			image = "usb_device.png",
+		}
+	},
 }
