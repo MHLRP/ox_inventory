@@ -20,6 +20,7 @@ return {
 			{ name = 'armour',               price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'ifaks',                price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'radio',                price = 0, metadata = { description = "Police Property" }, },
+			{ name = 'radiocell',                price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'briefcase',            price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'pdcamera',             price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'specialbadge',         price = 0, metadata = { description = "Police Property" }, },
@@ -294,12 +295,9 @@ return {
 			{ name = 'needle',                  label = 'Needle',           price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'painkillers',             label = 'Pain Killers',     price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'bandage',                 label = 'Bandage',          price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'prescription_pad',        label = 'Prescription Pad', price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'medbag',                  label = 'Medical Bag',      price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } }, -- Pretty self explanatory, price may be set to 'false' to make free
-			{ name = 'medikit',                 label = 'First-Aid Kit',    price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'diving_gear',             label = 'Dive Gear',        price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'diving_fill',             label = 'Diving Fill',      price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'radio',                   price = 0,                  metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'radiocell',                   price = 0,                  metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'WEAPON_STUNGUN',          price = 0,                  metadata = { registered = true, description = "Property of Los Santos Medical Center", tint = 3, weapontint = "EMS Tint", serial = 'EMS' } },
 			{ name = 'WEAPON_FLASHLIGHT',       price = 0,                  metadata = { registered = true, description = "Property of Los Santos Medical Center", serial = 'EMS' } },
 			{ name = 'weapon_fireextinguisher', price = 0,                  metadata = { description = "Property of Los Santos Medical Center" } },
@@ -1339,6 +1337,8 @@ return {
 			{ name = 'weapon_fireextinguisher', price = 200 },
 			{ name = 'watertank',               price = 200 },
 			{ name = 'gps_tracker',             price = 0 },
+			{ name = 'radio',             price = 0 },
+			{ name = 'radiocell',             price = 0 },
 		},
 		locations = {
 			vec3(198.0423, -1650.7327, 29.8032)

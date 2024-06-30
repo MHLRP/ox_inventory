@@ -12489,15 +12489,19 @@ return {
 		weight = 1,
 		stack = true,
 	},
+	["mollis"] = {
+		label = "mollis",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "Mollis 50 MG",
+	},
 	["medicine_mollis"] = {
 		label = "Medicine: Mollis",
 		weight = 100,
 		stack = false,
 		close = true,
 		description = "Mollis 50 MG",
-		server = {
-			export = 'MrNewbPrescriptions.mollis'
-		}
 	},
 	["medicine_betta"] = {
 		label = "Medicine: Betta",
