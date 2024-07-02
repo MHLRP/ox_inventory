@@ -10764,6 +10764,48 @@ return {
 		description = "Show your gps location to others",
 	},
 
+	['tintmeter'] = {
+		label = 'Tint Meter',
+		weight = 10,
+		stack = false,
+		close = true
+	},
+
+	['nikkit'] = {
+		label = 'NIK Kit',
+		weight = 10,
+		stack = true,
+		close = true
+	},
+
+	['usednikkit'] = {
+		label = 'Used NIK Kit',
+		weight = 10,
+		stack = true,
+		close = true
+	},
+
+	['nightvision'] = {
+		label = 'Nightvision Goggles',
+		weight = 1000,
+		stack = false,
+	},
+
+	['thermalvision'] = {
+		label = 'FLIR Goggles',
+		weight = 1000,
+		stack = false,
+	},
+
+	['gasmask'] = {
+		label = 'CBRN Mask',
+		weight = 1000,
+		stack = false,
+		client = {
+			export = 'shark-leotools.vision'
+		}
+	},
+
 	["rag"] = {
 		label = "Rag",
 		weight = 100,
