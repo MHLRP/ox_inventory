@@ -3509,6 +3509,35 @@ return {
 		description = "Taco Menu.",
 	},
 
+	["getwell1"] = {
+		label = "Get Well Card",
+		weight = 5,
+		stack = true,
+		close = true,
+		description = "You can give this to a friend!",
+	},
+
+	['teddy'] = {
+		label = 'Teddy',
+		weight = 10,
+		stack = true,
+		close = true,
+		consume = 0,
+		description = "You can give this to a friend!",
+		client = {
+			anim = { dict = 'anim@male_bskball_hold', clip = 'bskball_hold_clip' },
+			prop = {
+				model = 'v_club_vu_bear',
+				pos = vec3(-0.01, -0.06, 0.10),
+				rot = vec3(0.0, 90.0, 60.2),
+
+			},
+			usetime = 7500,
+		}
+	},
+
+	
+
 	["ciggie"] = {
 		label = "Ciggie",
 		weight = 100,

@@ -208,6 +208,8 @@ return {
 			{ name = 'sprunk',        price = 10 },
 			{ name = 'cigbox',        price = 100 },
 			{ name = 'egobar',        price = 10 },
+			{ name = 'teddy',         price = 50, },
+			{ name = 'getwell1',      price = 100, },
 			{ name = 'crisps',        price = 10 },
 			{ name = 'bakingsoda',    price = 7 },
 			{ name = 'beer',          price = 7 },
@@ -249,6 +251,8 @@ return {
 			{ name = 'soda',           price = 10 },
 			{ name = 'sprunk',         price = 10 },
 			{ name = 'cigbox',         price = 100 },
+			{ name = 'teddy',          price = 50, },
+			{ name = 'getwell1',       price = 100, },
 			{ name = 'egobar',         price = 10 },
 			{ name = 'crisps',         price = 10 },
 			{ name = 'bakingsoda',     price = 7 },
@@ -724,7 +728,7 @@ return {
 			{ name = 'water',         price = 15, currency = 'money' },
 			{ name = 'fr_fries',      price = 15, currency = 'money' },
 			{ name = 'coffee',        price = 15, currency = 'money' },
-			{ name = 'sandwich',      price = 2,  currency = 'money' },
+			{ name = 'sandwich',      price = 20, currency = 'money' },
 			{ name = 'pizza_pep',     price = 25, currency = 'money' },
 			{ name = 'pizza_chs',     price = 25, currency = 'money' },
 			{ name = 'pizza_msh',     price = 50, currency = 'money' },
@@ -1037,7 +1041,7 @@ return {
 	MansionBar = {
 		name = 'Bar',
 		inventory = {
-			{ name = 'beer',    price = 0,  currency = 'money' },
+			{ name = 'beer',    price = 0, currency = 'money' },
 			{ name = 'whiskey', price = 0, currency = 'money' },
 			{ name = 'vodka',   price = 0, currency = 'money' },
 		},
@@ -1810,6 +1814,8 @@ return {
 			{ name = 'raw_meat',             price = 20,  currency = 'money' },
 			{ name = 'burger-raw',           price = 20,  currency = 'money' },
 			{ name = 'ground-beef',          price = 20,  currency = 'money' },
+			{ name = 'teddy',                price = 50,  currency = 'money' },
+			{ name = 'getwell1',             price = 100, currency = 'money' },
 			{ name = 'flour',                price = 10,  currency = 'money' },
 			{ name = 'milk',                 price = 10,  currency = 'money' },
 			{ name = 'sandwich',             price = 10,  currency = 'money' },
@@ -1924,6 +1930,38 @@ return {
 				scenario = 'WORLD_HUMAN_STAND_MOBILE',
 				loc = vec3(-1107.3740, -1695.0557, 3.3737),
 				heading = 302.7655,
+			}
+		}
+	},
+
+	OceanHospital = {
+		name = 'Food Lounge',
+		inventory = {
+			{ name = 'hotdog',        price = 20, currency = 'money' },
+			{ name = 'mustard',       price = 10, currency = 'money' },
+			{ name = 'ketchup',       price = 10, currency = 'money' },
+			{ name = 'cola',          price = 25, currency = 'money' },
+			{ name = 'water',         price = 15, currency = 'money' },
+			{ name = 'fr_fries',      price = 15, currency = 'money' },
+			{ name = 'coffee',        price = 15, currency = 'money' },
+			{ name = 'sandwich',      price = 20, currency = 'money' },
+			{ name = 'orange',        price = 10, currency = 'money' },
+			{ name = 'apple',         price = 10, currency = 'money' },
+			{ name = 'pizza_pep',     price = 25, currency = 'money' },
+			{ name = 'pizza_chs',     price = 25, currency = 'money' },
+			{ name = 'pizza_msh',     price = 50, currency = 'money' },
+			{ name = 'pizza_mgt',     price = 15, currency = 'money' },
+			{ name = 'pizza_dmt',     price = 50, currency = 'money' },
+			{ name = 'burger',        price = 15, currency = 'money' },
+			{ name = 'burger_chs',    price = 25, currency = 'money' },
+			{ name = 'burger_chsbcn', price = 50, currency = 'money' },
+		},
+		targets = {
+			{
+				ped = `ig_chef`,
+				scenario = 'WORLD_HUMAN_STAND_MOBILE',
+				loc = vec3(-1869.6641, -339.3705, 52.7563),
+				heading = 135.1564,
 			}
 		}
 	},
