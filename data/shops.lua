@@ -1034,6 +1034,24 @@ return {
 		}
 	},
 
+	MansionBar = {
+		name = 'Bar',
+		blip = {
+			id = 93, colour = 0, scale = 0.6
+		},
+		inventory = {
+			{ name = 'beer',    price = 0,  currency = 'money' },
+			{ name = 'whiskey', price = 0, currency = 'money' },
+			{ name = 'vodka',   price = 0, currency = 'money' },
+		},
+		locations = {
+			vec3(-3368.13, 1772.95, 34.38)
+		},
+		targets = {
+			{ loc = vec3(-3368.13, 1772.95, 34.38), length = 0.6, width = 0.5, heading = 216.36, minZ = 28.2, maxZ = 28.6, distance = 2 }
+		}
+	},
+
 	Fishing = {
 		name = 'Fishing Shop',
 		blip = {
