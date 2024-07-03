@@ -1036,9 +1036,6 @@ return {
 
 	MansionBar = {
 		name = 'Bar',
-		blip = {
-			id = 93, colour = 0, scale = 0.6
-		},
 		inventory = {
 			{ name = 'beer',    price = 0,  currency = 'money' },
 			{ name = 'whiskey', price = 0, currency = 'money' },
