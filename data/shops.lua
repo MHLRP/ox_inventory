@@ -1257,6 +1257,8 @@ return {
 			{ name = 'boombox',          price = 500,   currency = 'money' },
 			{ name = 'umbrella',         price = 50,    currency = 'money' },
 			{ name = 'camera',           price = 150,   currency = 'money' },
+			{ name = 'cybernuts',        price = 40,   currency = 'money' },
+			{ name = 'cyberoil',         price = 60,   currency = 'money' },
 		},
 		targets = {
 			{

@@ -13965,8 +13965,50 @@ return {
 		stack = true,
 		close = false,
 		description = "This blank USB stick could be turned into anything in a professional's hands...",
+	},
+
+	--- ROBOT FOOD
+
+	["cybernuts"] = {
+		label = "Cyber Nuts",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "Should only be consumed by cyborgs.",
 		client = {
-			image = "usb_device.png",
+			status = { hunger = 60 },
+			prop = {
+				[1] = {
+					model = 'scully_spoon_pho',
+					bone = 57005,
+					pos = vec3(0.14, 0.02, 0.01),
+					rot = vec3(-118.0, 192.0, 24.0)
+				},
+				[2] = {
+					model = 'prop_cs_bowl_01b',
+					--bone = 57005	
+					pos = vec3(-0.03, 0.01, 0.05),
+					rot = vec3(0.0, 0.0, -40.0)
+				},
+			},
+			anim = { dict = 'anim@eat@fork', clip = 'fork_clip' },
+			usetime = 8000,
+		},
+	},
+
+	["cyberoil"] = {
+		label = "Cyber Oil",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "Should only be consumed by cyborgs.",
+		client = {
+			status = { thirst = 60 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_oiltub_04`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 2500,
+			cancel = true,
+			notification = 'You drank some refreshing water'
 		}
 	},
 }
