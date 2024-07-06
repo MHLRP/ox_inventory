@@ -35,6 +35,8 @@ return {
 			{ name = 'evidencecleaningkit',  price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'screwdriver',          price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'wiring_kit',           price = 0, metadata = { description = "Police Property" }, },
+			{ name = 'policepouches',        price = 0, metadata = { description = "Police Property" }, },
+			{ name = 'policepouches1',       price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'WEAPON_PISTOL',        price = 0, metadata = { registered = true, description = "Police Property", components = { 'at_flashlight', 'at_scope_holo' }, tint = 5, weapontint = "LSPD Tint", police_property = true, serial = 'POL' } },
 			{ name = 'WEAPON_COMBATPISTOL',  price = 0, metadata = { registered = true, description = "Police Property", components = { 'at_flashlight' }, tint = 5, weapontint = "LSPD Tint", police_property = true, serial = 'POL' }, },
 			{ name = 'WEAPON_CERAMICPISTOL', price = 0, metadata = { registered = true, description = "Police Property", tint = 5, weapontint = "LSPD Tint", police_property = true, serial = 'POL' }, },
@@ -408,14 +410,14 @@ return {
 	BlackMarketTwo = {
 		name = 'Black Market',
 		inventory = {
-			{ name = 'houselaptop',   price = 800,  currency = 'black_money' },
-			{ name = 'mansionlaptop', price = 1200, currency = 'black_money' },
-			{ name = 'armour',        price = 1200, currency = 'black_money' },
-			{ name = 'jammer',        price = 8000, currency = 'black_money' },
-			{ name = 'drone',        price = 10000, currency = 'black_money' },
-			{ name = 'redphone',      price = 2500, currency = 'black_money' },
-			{ name = 'goldenphone',   price = 7500, currency = 'black_money' },
-			{ name = 'greenphone',    price = 5000, currency = 'black_money' },
+			{ name = 'houselaptop',   price = 800,   currency = 'black_money' },
+			{ name = 'mansionlaptop', price = 1200,  currency = 'black_money' },
+			{ name = 'armour',        price = 1200,  currency = 'black_money' },
+			{ name = 'jammer',        price = 8000,  currency = 'black_money' },
+			{ name = 'drone',         price = 10000, currency = 'black_money' },
+			{ name = 'redphone',      price = 2500,  currency = 'black_money' },
+			{ name = 'goldenphone',   price = 7500,  currency = 'black_money' },
+			{ name = 'greenphone',    price = 5000,  currency = 'black_money' },
 
 			--{ name = 'rag',           price = 800,  currency = 'black_money' },
 		},
@@ -1255,8 +1257,8 @@ return {
 			{ name = 'boombox',          price = 500,   currency = 'money' },
 			{ name = 'umbrella',         price = 50,    currency = 'money' },
 			{ name = 'camera',           price = 150,   currency = 'money' },
-			{ name = 'cybernuts',        price = 40,   currency = 'money' },
-			{ name = 'cyberoil',         price = 60,   currency = 'money' },
+			{ name = 'cybernuts',        price = 40,    currency = 'money' },
+			{ name = 'cyberoil',         price = 60,    currency = 'money' },
 		},
 		targets = {
 			{
