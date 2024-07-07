@@ -13983,6 +13983,13 @@ return {
 		description = "This blank USB stick could be turned into anything in a professional's hands...",
 	},
 
+	['metal_wand'] = {
+		label = 'Metal Wand',
+		weight = 1,
+		stack = true,
+		description = ""
+	},
+
 	--- ROBOT FOOD
 
 	["cybernuts"] = {

@@ -34,6 +34,7 @@ return {
 			{ name = 'empty_evidence_bag',   price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'evidencecleaningkit',  price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'screwdriver',          price = 0, metadata = { description = "Police Property" }, },
+			{ name = 'metal_wand',          price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'wiring_kit',           price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'policepouches',        price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'policepouches1',       price = 0, metadata = { description = "Police Property" }, },
