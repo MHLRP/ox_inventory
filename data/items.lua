@@ -3919,6 +3919,22 @@ return {
 		description = "Random House Keys",
 	},
 
+	["clubkeys"] = {
+		label = "Club Keys",
+		weight = 10,
+		stack = true,
+		close = false,
+		description = "Nightclub Keys",
+	},
+
+	["kq_club_card"] = {
+		label = "Nightclub Access Card",
+		weight = 10,
+		stack = true,
+		close = false,
+		description = "Nightclub Access Card",
+	},
+
 	["fertilizer_spray"] = {
 		label = "Fertilizer",
 		weight = 75,
