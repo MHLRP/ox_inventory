@@ -66,8 +66,8 @@ return {
 	},
 
 	["frasco-nutela"] = {
-		label = "Jar of Nutella",
-		weight = 1,
+		label = "Jar of Nutta",
+		weight = 50,
 		degrade = 60 * 12,
 		stack = true,
 		close = true,
@@ -741,8 +741,8 @@ return {
 	},
 
 	["pacote-oreo"] = {
-		label = "Oreo Pack",
-		weight = 1500,
+		label = "Happy Crunchy Pack",
+		weight = 150,
 		degrade = 60 * 12,
 		stack = true,
 		close = true,

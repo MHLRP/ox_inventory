@@ -220,7 +220,7 @@ Item('clothing', function(data, slot)
 				end
 
 				-- { prop = 0, drawable = 2, texture = 1 } = grey beanie
-				SetPedPropIndex(cache.ped, metadata.prop, metadata.drawable, metadata.texture, false);
+				exports["illenium-appearance"]:setPedProp(cache.ped, metadata.prop, metadata.drawable, metadata.texture, false);
 			elseif metadata.component then
 				local drawable = GetPedDrawableVariation(cache.ped, metadata.component)
 				local texture = GetPedTextureVariation(cache.ped, metadata.component)
