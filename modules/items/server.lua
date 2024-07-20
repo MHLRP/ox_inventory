@@ -15,7 +15,7 @@ local trash = {
 	{description = 'A mouldy piece of bread.', weight = 70, image = 'trash_bread'},
 	{description = 'An empty chips bag.', weight = 5, image = 'trash_chips'},
 	{description = 'A slightly used pair of panties.', weight = 20, image = 'panties'},
-	{description = 'An old rolled up newspaper.', weight = 200, image = 'WEAPON_ACIDPACKAGE'},
+	{description = 'An old rolled up newspaper.', weight = 20, image = 'WEAPON_ACIDPACKAGE'},
 }
 
 ---@param _ table?
