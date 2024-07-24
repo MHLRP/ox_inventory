@@ -3536,7 +3536,7 @@ return {
 		}
 	},
 
-	
+
 
 	["ciggie"] = {
 		label = "Ciggie",
@@ -4638,7 +4638,7 @@ return {
 		stack = false,
 		consume = 1,
 		client = {
-			disable = { move = true, car = true, combat = true },
+			event = 'wx_outfitbag:place'
 		}
 	},
 
