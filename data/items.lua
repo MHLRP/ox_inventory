@@ -5507,12 +5507,14 @@ return {
 		description = "Some protection won't hurt... right?",
 	},
 
-	["megaphone"] = {
-		label = "Megaphone",
-		weight = 200,
-		stack = true,
-		close = false,
-		description = "Get heard.",
+    ['megaphone'] = {
+		label = 'Megaphone',
+		weight = 500,
+		consume = 0,
+		stack = false,
+		client = {
+			export = 'cb-megaphone.useMegaphone',
+		}
 	},
 
 	['money'] = {
