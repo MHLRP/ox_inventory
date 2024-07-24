@@ -464,6 +464,37 @@ end
 -- 	end
 -- end)
 
+-- Pizza Boxes
+Item('box_pizza_chs', function(event, item, inventory, data, slot)
+    if event == 'usedItem' then
+        Inventory.AddItem(inventory, 'pizza_chs', 8)
+    end
+end)
+
+Item('box_pizza_pep', function(event, item, inventory, data, slot)
+    if event == 'usedItem' then
+        Inventory.AddItem(inventory, 'pizza_pep', 8)
+    end
+end)
+
+Item('box_pizza_msh', function(event, item, inventory, data, slot)
+    if event == 'usedItem' then
+        Inventory.AddItem(inventory, 'pizza_msh', 8)
+    end
+end)
+
+Item('box_pizza_mgt', function(event, item, inventory, data, slot)
+    if event == 'usedItem' then
+        Inventory.AddItem(inventory, 'pizza_mgt', 8)
+    end
+end)
+
+Item('box_pizza_dmt', function(event, item, inventory, data, slot)
+    if event == 'usedItem' then
+        Inventory.AddItem(inventory, 'pizza_dmt', 8)
+    end
+end)
+
 -----------------------------------------------------------------------------------------------
 
 return Items
