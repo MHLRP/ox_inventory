@@ -236,6 +236,14 @@ Item('clothing', function(data, slot)
 	end)
 end)
 
+Item('rc-bandito', function(data, slot)
+    ox_inventory:useItem(data, function(data)
+        if data then
+            TriggerEvent('mth-rc:client:SpawnRcCar')
+        end
+    end)
+end)
+
 -----------------------------------------------------------------------------------------------
 
 exports('Items', function(item) return getItem(nil, item) end)
