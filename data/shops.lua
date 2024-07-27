@@ -289,7 +289,6 @@ return {
 			id = 403, colour = 69, scale = 0.8
 		},
 		inventory = {
-			{ name = 'bandage',                 label = 'Bandage',          price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'prescription_pad',        label = 'Prescription Pad', price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'medbag',                  label = 'Medical Bag',      price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } }, -- Pretty self explanatory, price may be set to 'false' to make free
 			{ name = 'medikit',                 label = 'First-Aid Kit',    price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
@@ -312,11 +311,12 @@ return {
 			{ name = 'weapon_fireextinguisher', price = 0,                  metadata = { description = "Property of Los Santos Medical Center" } },
 		},
 		locations = {
-			vec3(330.34, -599.69, 42.79)
+			vec3(330.34, -599.69, 42.79),
+			vec3(-1834.74, -340.70, 49.46)
 		},
 		targets = {
-			{ loc = vec3(330.34, -599.69, 42.79), length = 1.5, width = 3.0, heading = 270.0, minZ = 41.5, maxZ = 43.0, distance = 3 }
-
+			{ loc = vec3(330.34, -599.69, 42.79), length = 1.5, width = 3.0, heading = 270.0, minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(-1834.74, -340.70, 49.46), length = 1.5, width = 3.0, heading = 47.3, minZ = 41.5, maxZ = 43.0, distance = 3 }
 		}
 	},
 
