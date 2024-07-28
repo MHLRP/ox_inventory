@@ -278,6 +278,7 @@ return {
 		owner = false,
 		slots = 70,
 		weight = 70000,
+		groups = { ['whitewidow'] = 0 }
 	},
 	{
 		coords = vec3(-288.2890, 234.1284, 78.8262),
