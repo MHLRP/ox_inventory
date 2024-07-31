@@ -30,11 +30,12 @@ return {
 			{ name = 'badge_lssd',           price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'thermalvision',        price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'nightvision',          price = 0, metadata = { description = "Police Property" }, },
+			{ name = 'bodycam',              price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'printscanner',         price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'empty_evidence_bag',   price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'evidencecleaningkit',  price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'screwdriver',          price = 0, metadata = { description = "Police Property" }, },
-			{ name = 'metal_wand',          price = 0, metadata = { description = "Police Property" }, },
+			{ name = 'metal_wand',           price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'wiring_kit',           price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'policepouches',        price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'policepouches1',       price = 0, metadata = { description = "Police Property" }, },
@@ -302,7 +303,8 @@ return {
 			{ name = 'covidvaccine',            label = 'Covid Vaccine',    price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'needle',                  label = 'Needle',           price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'painkillers',             label = 'Pain Killers',     price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'bandage',                 label = 'Bandage',          price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'bandage',                 label = 'Bandage',          price = 0,  
+			{ name = 'bodycam',                 label = 'EMS Body Cam',     price = 0,                                                                                                             metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'diving_fill',             label = 'Diving Fill',      price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'radio',                   price = 0,                  metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'radiocell',               price = 0,                  metadata = { description = "Property of Los Santos Medical Center" } },
@@ -315,8 +317,8 @@ return {
 			vec3(-1834.74, -340.70, 49.46)
 		},
 		targets = {
-			{ loc = vec3(330.34, -599.69, 42.79), length = 1.5, width = 3.0, heading = 270.0, minZ = 41.5, maxZ = 43.0, distance = 3 },
-			{ loc = vec3(-1834.74, -340.70, 49.46), length = 1.5, width = 3.0, heading = 47.3, minZ = 41.5, maxZ = 43.0, distance = 3 }
+			{ loc = vec3(330.34, -599.69, 42.79),   length = 1.5, width = 3.0, heading = 270.0, minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(-1834.74, -340.70, 49.46), length = 1.5, width = 3.0, heading = 47.3,  minZ = 41.5, maxZ = 43.0, distance = 3 }
 		}
 	},
 
@@ -374,8 +376,8 @@ return {
 			vec3(-337.3834, -141.5923, 39.0640)
 		},
 		targets = {
-			{ loc = vec3(-319.3883, -131.5472, 38.9818), length = 1.5, width = 3.0, heading = 117.3, minZ = 41.5, maxZ = 43.0, distance = 3 },
-			{ loc = vec3(124.1108, -3047.4905, 7.0405),  length = 1.5, width = 3.0, heading = 93.81, minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(-319.3883, -131.5472, 38.9818), length = 1.5, width = 3.0, heading = 117.3,  minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(124.1108, -3047.4905, 7.0405),  length = 1.5, width = 3.0, heading = 93.81,  minZ = 41.5, maxZ = 43.0, distance = 3 },
 			{ loc = vec3(-337.3834, -141.5923, 39.0640), length = 1.5, width = 3.0, heading = 160.64, minZ = 41.5, maxZ = 43.0, distance = 3 },
 		}
 	},
@@ -1243,7 +1245,7 @@ return {
 			{ name = 'weapon_hammer',    price = 250,   currency = 'money' },
 			{ name = 'screwdriverset',   price = 350,   currency = 'money' },
 			{ name = 'radio',            price = 100,   currency = 'money' },
-			{ name = 'rc-bandito',       price = 1200,   currency = 'money' },
+			{ name = 'rc-bandito',       price = 1200,  currency = 'money' },
 			{ name = 'binoculars',       price = 100,   currency = 'money' },
 			{ name = 'firework1',        price = 50,    currency = 'money' },
 			{ name = 'firework2',        price = 50,    currency = 'money' },

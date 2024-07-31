@@ -5507,7 +5507,7 @@ return {
 		description = "Some protection won't hurt... right?",
 	},
 
-    ['megaphone'] = {
+	['megaphone'] = {
 		label = 'Megaphone',
 		weight = 500,
 		consume = 0,
@@ -8758,6 +8758,23 @@ return {
 			disable = { move = false, car = false, combat = false },
 			usetime = 5000,
 		}
+	},
+
+	--- Police equipment
+
+	['bodycam'] = {
+		label = 'Bodycam',
+		weight = 500,
+		stack = false,
+		close = true,
+		description = "Use /recordcam when used to send recording to database",
+	},
+	
+	['dashcam'] = {
+		label = 'Dashcam',
+		weight = 500,
+		stack = false,
+		close = true
 	},
 
 	--- TICKETS: MBA Events
