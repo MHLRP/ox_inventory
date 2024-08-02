@@ -14053,4 +14053,15 @@ return {
 			notification = 'You drank some refreshing water'
 		}
 	},
+
+	["coin"] = {
+		label = "Coin",
+		weight = 1,
+		stack = false,
+		close = true,
+		description = "Heads or Tails, find it out!",
+		client = {
+			image = "coin.png",
+		}
+	},
 }
