@@ -14064,4 +14064,15 @@ return {
 			image = "coin.png",
 		}
 	},
+
+	["dart"] = {
+		label = "Dart",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Dart",
+		client = {
+			image = "dart.png",
+		}
+	},
 }
