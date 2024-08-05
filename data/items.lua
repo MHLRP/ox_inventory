@@ -155,6 +155,22 @@ return {
 		description = "",
 	},
 
+	--- Truth Or Dare Cards
+
+	['todcards'] = {
+		label = 'Truth Or Dare Cards',
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	['truthdare_bottle'] = {
+		label = 'Truth Or Dare Bottle',
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
 	--- TRADING CARDS
 
 	['lstradingcard'] = {
@@ -8769,7 +8785,7 @@ return {
 		close = true,
 		description = "Use /recordcam when used to send recording to database",
 	},
-	
+
 	['dashcam'] = {
 		label = 'Dashcam',
 		weight = 500,

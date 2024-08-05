@@ -78,7 +78,7 @@ return {
 		}
 	},
 
-	
+
 	PoliceArmoury2 = {
 		name = 'Trooper Armoury',
 		groups = {
@@ -142,8 +142,8 @@ return {
 			vec3(813.9670, -1291.7347, 19.8455),
 		},
 		targets = {
-			{ loc = vec3(813.4315, -1295.3818, 19.8455),  length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
-			{ loc = vec3(813.9670, -1291.7347, 19.8455),  length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
+			{ loc = vec3(813.4315, -1295.3818, 19.8455), length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
+			{ loc = vec3(813.9670, -1291.7347, 19.8455), length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
 		}
 	},
 
@@ -1328,6 +1328,7 @@ return {
 			{ name = 'fitbit',           price = 400,   currency = 'money' },
 			{ name = 'cleaningkit',      price = 150,   currency = 'money' },
 			{ name = 'cleaning_kit',     price = 150,   currency = 'money' },
+			{ name = 'todcards',         price = 150,   currency = 'money' },
 			-- { name = 'drone',            price = 10000, currency = 'money' },
 			{ name = 'boombox',          price = 500,   currency = 'money' },
 			{ name = 'umbrella',         price = 50,    currency = 'money' },
