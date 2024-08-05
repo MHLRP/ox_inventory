@@ -18,6 +18,24 @@ return {
 		groups = shared.police
 	},
 	{
+		coords = vec3(834.7792, -1292.3243, 20.2916),
+		target = {
+			loc = vec3(834.7792, -1292.3243, 20.2916),
+			length = 1.2,
+			width = 5.6,
+			heading = 0,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Open personal locker'
+		},
+		name = 'policelocker',
+		label = 'Personal locker',
+		owner = true,
+		slots = 70,
+		weight = 70000,
+		groups = { ['statetrooper'] = 0 }
+	},
+	{
 		coords = vec3(310.45, -603.4, 42.51),
 		target = {
 			loc = vec3(310.45, -603.4, 42.51),
