@@ -1310,6 +1310,7 @@ return {
 			{ name = 'syphoningkit',     price = 800,   currency = 'money' },
 			{ name = 'bolt_cutter',      price = 800,   currency = 'money' },
 			{ name = 'ziptie',           price = 650,   currency = 'money' },
+			{ name = 'dart',             price = 20,    currency = 'money' },
 			{ name = 'weapon_flare',     price = 850,   currency = 'money' },
 			{ name = 'poster',           price = 400,   currency = 'money' },
 			{ name = 'flush_cutter',     price = 600,   currency = 'money' },
