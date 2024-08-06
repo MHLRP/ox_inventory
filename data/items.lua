@@ -14091,10 +14091,66 @@ return {
 			image = "dart.png",
 		}
 	},
+	
 	["slaptable"] = {
 		label = 'Slap Table',
 		weight = 600,
 		stack = true,
 		description = "Get to slappin!"
-	}
+	},
+
+	["frisbee"] = {
+		label = "Frisbee",
+		weight = 100,
+		stack = false,
+		close = false,
+		description = "A flying disc",
+		client = {
+			image = "frisbee.png",
+		}
+	},
+
+	["frisbee_r"] = {
+		label = "Red Frisbee",
+		weight = 100,
+		stack = false,
+		close = false,
+		description = "A flying disc",
+		client = {
+			image = "frisbee_r.png",
+		}
+	},
+
+	["frisbee_g"] = {
+		label = "Green Frisbee",
+		weight = 100,
+		stack = false,
+		close = false,
+		description = "A flying disc",
+		client = {
+			image = "frisbee_g.png",
+		}
+	},
+
+	["frisbee_b"] = {
+		label = "Blue Frisbee",
+		weight = 100,
+		stack = false,
+		close = false,
+		description = "A flying disc",
+		client = {
+			image = "frisbee_b.png",
+		}
+	},
+
+	["frisbee_y"] = {
+		label = "Yellow Frisbee",
+		weight = 100,
+		stack = false,
+		close = false,
+		description = "A flying disc",
+		client = {
+			image = "frisbee_y.png",
+		}
+	},
 }
