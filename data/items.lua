@@ -14091,4 +14091,10 @@ return {
 			image = "dart.png",
 		}
 	},
+	["slaptable"] = {
+		label = 'Slap Table',
+		weight = 600,
+		stack = true,
+		description = "Get to slappin!"
+	}
 }

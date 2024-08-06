@@ -1302,6 +1302,7 @@ return {
 			{ name = 'pickaxe',          price = 1500,  currency = 'money' },
 			{ name = 'fertilizer',       price = 500,   currency = 'money' },
 			{ name = 'wateringcan',      price = 500,   currency = 'money' },
+			{ name = 'slaptable',        price = 400,   currency = 'money' },
 			{ name = 'backpack1',        price = 1000,  currency = 'money' },
 			{ name = 'backpack2',        price = 1000,  currency = 'money' },
 			{ name = 'duffle1',          price = 1000,  currency = 'money' },
