@@ -10943,7 +10943,7 @@ return {
 		close = true,
 		description = "A high-yield, timed explosive charge..",
 		client = {
-			image = "weapon_stickybomb.png",
+			image = "c4.png",
 		}
 	},
 
