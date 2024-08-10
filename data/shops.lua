@@ -2,7 +2,10 @@ return {
 
 	PoliceArmoury = {
 		name = 'Police Armoury',
-		groups = shared.police,
+		groups = {
+			['statetrooper'] = 0,
+			['police'] = 0
+		},
 		blip = {
 			--id = 110, colour = 84, scale = 0.8
 		},
@@ -83,7 +86,8 @@ return {
 	PoliceArmoury2 = {
 		name = 'Trooper Armoury',
 		groups = {
-			['statetrooper'] = 0
+			['statetrooper'] = 0,
+			['police'] = 0
 		},
 		blip = {
 			--id = 110, colour = 84, scale = 0.8

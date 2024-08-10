@@ -15,7 +15,10 @@ return {
 		owner = true,
 		slots = 70,
 		weight = 70000,
-		groups = shared.police
+		groups = {
+			['statetrooper'] = 0,
+			['police'] = 0
+		},
 	},
 	{
 		coords = vec3(834.7792, -1292.3243, 20.2916),
@@ -28,12 +31,15 @@ return {
 			maxZ = 32.09,
 			label = 'Open personal locker'
 		},
-		name = 'policelocker',
+		name = 'policelocker2',
 		label = 'Personal locker',
 		owner = true,
 		slots = 70,
 		weight = 70000,
-		groups = { ['statetrooper'] = 0 }
+		groups = {
+			['statetrooper'] = 0,
+			['police'] = 0
+		},
 	},
 	{
 		coords = vec3(310.45, -603.4, 42.51),
