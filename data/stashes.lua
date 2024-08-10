@@ -333,4 +333,22 @@ return {
 		weight = 70000,
 		groups = { ['uwu'] = 0 }
 	},
+	{
+		coords = vec3(-351.0203, -127.1841, 39.0640),
+		target = {
+			loc = vec3(-351.0203, -127.1841, 39.0640),
+			length = 1.2,
+			width = 5.6,
+			heading = 0,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Open personal stash'
+		},
+		name = 'midnightautos',
+		label = 'Personal Stash',
+		owner = true,
+		slots = 70,
+		weight = 70000,
+		groups = { ['mechanic'] = 0 }
+	},
 }
