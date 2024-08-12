@@ -7098,8 +7098,8 @@ return {
 
 	['driedweed'] = {
 		label = 'Dry Bud',
-		weight = 50,
-		description = "70 Grams Of Dry Weed",
+		weight = 5,
+		description = "5 Grams Per Nugget Of Dry Weed",
 		buttons = {
 			{
 				label = 'Make into a brick',
@@ -7130,8 +7130,8 @@ return {
 
 	['weedbrick'] = {
 		label = 'Weed Brick',
-		description = '500 Gram Weed Brick',
-		weight = 5,
+		description = '50 Gram Weed Brick',
+		weight = 50,
 	},
 
 	['emptybag'] = {
