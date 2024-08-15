@@ -585,27 +585,6 @@ return {
 		}
 	},
 
-	CigarShop = {
-		name = 'Cigar Shop',
-		inventory = {
-			{ name = 'rolling_paper', price = 5,   currency = 'money' },
-			{ name = 'joint_roller',  price = 200, currency = 'money' },
-			{ name = 'lighter',       price = 200, currency = 'money' },
-			{ name = 'butane',        price = 200, currency = 'money' },
-			{ name = 'weedgrinder',   price = 200, currency = 'money' },
-			{ name = 'mdwoods',       price = 20,  currency = 'money' },
-			{ name = 'cigar',         price = 20,  currency = 'money' },
-		},
-		targets = {
-			{
-				ped = `a_m_m_hasjew_01`,
-				scenario = 'WORLD_HUMAN_STAND_MOBILE',
-				loc = vec3(1215.2317, -463.2733, 65.4308),
-				heading = 161.9085,
-			}
-		}
-	},
-
 	SmokeShop = {
 		name = 'Smoke Shop',
 		groups = {
@@ -629,10 +608,7 @@ return {
 			{ name = 'weedgrinder',           price = 0, currency = 'money' },
 			{ name = 'dabrig',                price = 0, currency = 'money' },
 			{ name = 'bong',                  price = 0, currency = 'money' },
-			{ name = 'vape',                  price = 0, currency = 'money' },
-			{ name = 'mdwoods',               price = 0, currency = 'money' },
-			{ name = 'empty_weed_bag',        price = 0, currency = 'money' },
-			{ name = 'weedscissors',          price = 0, currency = 'money' },
+			{ name = 'cigar',               price = 0, currency = 'money' },
 			{ name = 'weed_license',          price = 0, currency = 'money' },
 		},
 		locations = {
@@ -658,6 +634,7 @@ return {
 			{ name = 'vape',           price = 200, currency = 'money' },
 			{ name = 'mdwoods',        price = 20,  currency = 'money' },
 			{ name = 'empty_weed_bag', price = 10,  currency = 'money' },
+			{ name = 'cigar',        price = 40,  currency = 'money' },
 		},
 		targets = {
 			{
