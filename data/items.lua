@@ -4521,104 +4521,18 @@ return {
 		description = "With a pinger and your phone you can send out your location",
 	},
 
-	['phone'] = {
-		label = 'Classic Phone',
-		weight = 150,
+	["phone"] = {
+		label = "Phone",
+		weight = 190,
 		stack = false,
 		consume = 0,
 		client = {
-			export = "qs-smartphone-pro.UsePhoneItem",
-			add = function(total)
-				TriggerServerEvent('phone:itemAdd')
+			export = "lb-phone.UsePhoneItem",
+			remove = function()
+				TriggerEvent("lb-phone:itemRemoved")
 			end,
-
-			remove = function(total)
-				TriggerServerEvent('phone:itemDelete')
-			end
-		}
-	},
-
-	['white_phone'] = {
-		label = 'White Phone',
-		weight = 150,
-		stack = false,
-		consume = 0,
-		client = {
-			export = "qs-smartphone-pro.UsePhoneItem",
-			add = function(total)
-				TriggerServerEvent('phone:itemAdd')
-			end,
-
-			remove = function(total)
-				TriggerServerEvent('phone:itemDelete')
-			end
-		}
-	},
-
-	['yellow_phone'] = {
-		label = 'Yellow Phone',
-		weight = 150,
-		stack = false,
-		consume = 0,
-		client = {
-			export = "qs-smartphone-pro.UsePhoneItem",
-			add = function(total)
-				TriggerServerEvent('phone:itemAdd')
-			end,
-
-			remove = function(total)
-				TriggerServerEvent('phone:itemDelete')
-			end
-		}
-	},
-
-	['black_phone'] = {
-		label = 'Black Phone',
-		weight = 150,
-		stack = false,
-		consume = 0,
-		client = {
-			export = "qs-smartphone-pro.UsePhoneItem",
-			add = function(total)
-				TriggerServerEvent('phone:itemAdd')
-			end,
-
-			remove = function(total)
-				TriggerServerEvent('phone:itemDelete')
-			end
-		}
-	},
-
-	['red_phone'] = {
-		label = 'Red Phone',
-		weight = 150,
-		stack = false,
-		consume = 0,
-		client = {
-			export = "qs-smartphone-pro.UsePhoneItem",
-			add = function(total)
-				TriggerServerEvent('phone:itemAdd')
-			end,
-
-			remove = function(total)
-				TriggerServerEvent('phone:itemDelete')
-			end
-		}
-	},
-
-	['green_phone'] = {
-		label = 'Green Phone',
-		weight = 150,
-		stack = false,
-		consume = 0,
-		client = {
-			export = "qs-smartphone-pro.UsePhoneItem",
-			add = function(total)
-				TriggerServerEvent('phone:itemAdd')
-			end,
-
-			remove = function(total)
-				TriggerServerEvent('phone:itemDelete')
+			add = function()
+				TriggerEvent("lb-phone:itemAdded")
 			end
 		}
 	},
@@ -14151,6 +14065,61 @@ return {
 		description = "A flying disc",
 		client = {
 			image = "frisbee_y.png",
+		}
+	},
+
+	["red_phone"] = {
+		label = "Red Phone",
+		weight = 150,
+		stack = false,
+		close = true,
+		description = "They say that Quasar Smartphone is the same as an iPhone, what do you think?",
+		client = {
+			image = "red_phone.png",
+		}
+	},
+
+	["white_phone"] = {
+		label = "White Phone",
+		weight = 150,
+		stack = false,
+		close = true,
+		description = "They say that Quasar Smartphone is the same as an iPhone, what do you think?",
+		client = {
+			image = "white_phone.png",
+		}
+	},
+
+	["yellow_phone"] = {
+		label = "Yellow Phone",
+		weight = 150,
+		stack = false,
+		close = true,
+		description = "They say that Quasar Smartphone is the same as an iPhone, what do you think?",
+		client = {
+			image = "yellow_phone.png",
+		}
+	},
+
+	["black_phone"] = {
+		label = "Black Phone",
+		weight = 150,
+		stack = false,
+		close = true,
+		description = "They say that Quasar Smartphone is the same as an iPhone, what do you think?",
+		client = {
+			image = "black_phone.png",
+		}
+	},
+
+	["green_phone"] = {
+		label = "Green Phone",
+		weight = 150,
+		stack = false,
+		close = true,
+		description = "They say that Quasar Smartphone is the same as an iPhone, what do you think?",
+		client = {
+			image = "green_phone.png",
 		}
 	},
 }

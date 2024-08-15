@@ -1145,11 +1145,6 @@ return {
 			{ name = 'fitbit',       price = 600,  currency = 'money' },
 			{ name = 'powerbank',    price = 150,  currency = 'money' },
 			{ name = 'phone',        price = 800,  currency = 'money' },
-			{ name = 'black_phone',  price = 800,  currency = 'money' },
-			{ name = 'yellow_phone', price = 800,  currency = 'money' },
-			{ name = 'red_phone',    price = 800,  currency = 'money' },
-			{ name = 'green_phone',  price = 800,  currency = 'money' },
-			{ name = 'white_phone',  price = 800,  currency = 'money' },
 		},
 		targets = {
 			{
@@ -1171,13 +1166,7 @@ return {
 			{ name = 'laptop',       price = 1000, currency = 'money' },
 			{ name = 'keeptablet',   price = 1000, currency = 'money' },
 			{ name = 'fitbit',       price = 600,  currency = 'money' },
-			{ name = 'powerbank',    price = 150,  currency = 'money' },
 			{ name = 'phone',        price = 800,  currency = 'money' },
-			{ name = 'black_phone',  price = 800,  currency = 'money' },
-			{ name = 'yellow_phone', price = 800,  currency = 'money' },
-			{ name = 'red_phone',    price = 800,  currency = 'money' },
-			{ name = 'green_phone',  price = 800,  currency = 'money' },
-			{ name = 'white_phone',  price = 800,  currency = 'money' },
 		},
 		targets = {
 			{
@@ -1196,13 +1185,7 @@ return {
 			{ name = 'laptop',       price = 1000, currency = 'money' },
 			{ name = 'keeptablet',   price = 1000, currency = 'money' },
 			{ name = 'fitbit',       price = 600,  currency = 'money' },
-			{ name = 'powerbank',    price = 150,  currency = 'money' },
 			{ name = 'phone',        price = 800,  currency = 'money' },
-			{ name = 'black_phone',  price = 800,  currency = 'money' },
-			{ name = 'yellow_phone', price = 800,  currency = 'money' },
-			{ name = 'red_phone',    price = 800,  currency = 'money' },
-			{ name = 'green_phone',  price = 800,  currency = 'money' },
-			{ name = 'white_phone',  price = 800,  currency = 'money' },
 		},
 		targets = {
 			{
