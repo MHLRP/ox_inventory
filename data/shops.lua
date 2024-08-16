@@ -1490,6 +1490,23 @@ return {
 		}
 	},
 
+	luxmenu = {
+		name = 'Luxe Menu',
+		groups = {
+			['lux'] = 0
+		},
+		inventory = {
+			{ name = 'lux_menu', price = 0 },
+		},
+		locations = {
+			vec3(79.093, -354.305, 205.905)
+		},
+		targets = {
+			{ loc = vec3(79.093, -354.305, 205.905), length = 0.6, width = 0.5, heading = 160.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
+
+		}
+	},
+
 	taco = {
 		name = 'taco',
 		groups = {

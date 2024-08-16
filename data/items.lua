@@ -3525,6 +3525,14 @@ return {
 		description = "Taco Menu.",
 	},
 
+	["lux_menu"] = {
+		label = "Luxe Menu",
+		weight = 5,
+		stack = true,
+		close = true,
+		description = "Luxe Menu.",
+	},
+
 	["getwell1"] = {
 		label = "Get Well Card",
 		weight = 5,
