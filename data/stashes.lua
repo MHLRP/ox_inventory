@@ -393,4 +393,38 @@ return {
 		weight = 70000,
 		groups = { ['lux'] = 0 }
 	},
+	{
+		coords = vec3(76.8396, -359.0788, 205.8400),
+		target = {
+			loc = vec3(76.8396, -359.0788, 205.8400),
+			length = 1.2,
+			width = 5.6,
+			heading = 0,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Tray'
+		},
+		name = 'luxtray',
+		label = 'Tray',
+		owner = false,
+		slots = 70,
+		weight = 70000,
+	},
+	{
+		coords = vec3(78.0335, -355.7962, 205.8399),
+		target = {
+			loc = vec3(78.0335, -355.7962, 205.8399),
+			length = 1.2,
+			width = 5.6,
+			heading = 0,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Tray'
+		},
+		name = 'luxtray2',
+		label = 'Tray',
+		owner = false,
+		slots = 70,
+		weight = 70000,
+	},
 }
