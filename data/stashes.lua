@@ -357,4 +357,40 @@ return {
 		weight = 70000,
 		groups = { ['mechanic'] = 0 }
 	},
+	{
+		coords = vec3(76.894004821777, -357.32565307617, 206.3415222168),
+		target = {
+			loc = vec3(76.894004821777, -357.32565307617, 206.3415222168),
+			length = 1.2,
+			width = 5.6,
+			heading = 0,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Alcohol Shelf'
+		},
+		name = 'luxstash',
+		label = 'Shelf',
+		owner = true,
+		slots = 70,
+		weight = 70000,
+		groups = { ['lux'] = 0 }
+	},
+	{
+		coords = vec3(77.5602, -357.0329, 205.8398),
+		target = {
+			loc = vec3(77.5602, -357.0329, 205.8398),
+			length = 1.2,
+			width = 5.6,
+			heading = 0,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Fridge'
+		},
+		name = 'luxstash2',
+		label = 'Fridge',
+		owner = true,
+		slots = 70,
+		weight = 70000,
+		groups = { ['lux'] = 0 }
+	},
 }
