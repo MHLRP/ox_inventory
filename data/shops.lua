@@ -1492,9 +1492,6 @@ return {
 
 	luxmenu = {
 		name = 'Luxe Menu',
-		groups = {
-			['lux'] = 0
-		},
 		inventory = {
 			{ name = 'lux_menu', price = 0 },
 		},
