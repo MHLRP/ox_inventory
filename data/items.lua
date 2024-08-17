@@ -58,7 +58,7 @@ return {
 	["limao"] = {
 		label = "Lemon",
 		weight = 1,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -68,7 +68,7 @@ return {
 	["frasco-nutela"] = {
 		label = "Jar of Nutta",
 		weight = 50,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "",
@@ -77,7 +77,7 @@ return {
 	["frango"] = {
 		label = "Chicken",
 		weight = 1500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "",
@@ -86,7 +86,7 @@ return {
 	["pacote-farinha"] = {
 		label = "Flour Package",
 		weight = 1500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "",
@@ -96,7 +96,7 @@ return {
 		label = "Grape",
 		weight = 1,
 		decay = true,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		stack = true,
 		close = false,
 		description = "Mmmmh yummie, grapes",
@@ -113,7 +113,7 @@ return {
 	["extrato-menta"] = {
 		label = "Mint Extract",
 		weight = 1500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "",
@@ -122,7 +122,7 @@ return {
 	["flour"] = {
 		label = "Flour",
 		weight = 1,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -140,7 +140,7 @@ return {
 	["graos-cafe"] = {
 		label = "Coffee Beans",
 		weight = 1500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "",
@@ -149,7 +149,7 @@ return {
 	["pacote-acucar"] = {
 		label = "Sugar Pack",
 		weight = 1500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "",
@@ -337,7 +337,7 @@ return {
 	["popcorn"] = {
 		label = "Popcorn",
 		weight = 100,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -358,7 +358,7 @@ return {
 	["pho"] = {
 		label = "Pho",
 		weight = 200,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -387,7 +387,7 @@ return {
 	["cake"] = {
 		label = "Unicorn Cake",
 		weight = 200,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -416,7 +416,7 @@ return {
 	["birthdaycake"] = {
 		label = "Birthday Cake",
 		weight = 15,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -445,7 +445,7 @@ return {
 	["strawberrycake"] = {
 		label = "Strawberry Cake",
 		weight = 200,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -474,7 +474,7 @@ return {
 	["cupcake-limao"] = {
 		label = "Lemon Cupcake",
 		weight = 1000,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -494,7 +494,7 @@ return {
 	["leite-condensado"] = {
 		label = "Condensed Milk",
 		weight = 1500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "",
@@ -503,7 +503,7 @@ return {
 	["specialmuffin"] = {
 		label = "Special Muffin",
 		weight = 100,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -513,7 +513,7 @@ return {
 	["pacote-natas"] = {
 		label = "Package of Cream",
 		weight = 1500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "",
@@ -522,7 +522,7 @@ return {
 	["caixa-morangos"] = {
 		label = "Strawberries Box",
 		weight = 1500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "",
@@ -531,7 +531,7 @@ return {
 	["cupcake-chocolate"] = {
 		label = "Chocolate Cupcake",
 		weight = 1000,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -551,7 +551,7 @@ return {
 	["barra-manteiga"] = {
 		label = "Butter Bar",
 		weight = 1500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "",
@@ -560,7 +560,7 @@ return {
 	["tosti"] = {
 		label = "Grilled Cheese Sandwich",
 		weight = 200,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -580,7 +580,7 @@ return {
 	["pacote-leite"] = {
 		label = "Milk Pack",
 		weight = 1500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "",
@@ -589,7 +589,7 @@ return {
 	["caixa-amoras"] = {
 		label = "Box of Blackberries",
 		weight = 1500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -599,7 +599,7 @@ return {
 	["snikkel_candy"] = {
 		label = "Snikkel",
 		weight = 100,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "Some delicious candy :O",
@@ -608,7 +608,7 @@ return {
 	["lollipop1"] = {
 		label = "Lolli Pop (Red)",
 		weight = 1000,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -629,7 +629,7 @@ return {
 	["bubble-menta"] = {
 		label = "Mint Bubble Tea",
 		weight = 1000,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -650,7 +650,7 @@ return {
 	["grapejuice"] = {
 		label = "Grape Juice",
 		weight = 200,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = false,
@@ -660,7 +660,7 @@ return {
 	["pastel-frango"] = {
 		label = "Chicken Pastel",
 		weight = 1000,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "",
@@ -669,7 +669,7 @@ return {
 	["nachos"] = {
 		label = "Nacho Chips",
 		weight = 100,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -689,7 +689,7 @@ return {
 	["egobar"] = {
 		label = "Egobar",
 		weight = 100,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -699,7 +699,7 @@ return {
 	["bubble-amora"] = {
 		label = "Blackberry Bubble Tea",
 		weight = 1000,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -720,7 +720,7 @@ return {
 	["extrato-baunilha"] = {
 		label = "Vanilla Extract",
 		weight = 1500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "",
@@ -729,7 +729,7 @@ return {
 	["cupcake-morango"] = {
 		label = "Strawberry Cupcake",
 		weight = 1000,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -749,7 +749,7 @@ return {
 	["egochaser"] = {
 		label = "Ego Chaser",
 		weight = 100,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -759,7 +759,7 @@ return {
 	["pacote-oreo"] = {
 		label = "Happy Crunchy Pack",
 		weight = 150,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "",
@@ -768,7 +768,7 @@ return {
 	["panqueca-oreo"] = {
 		label = "Oreo Pancake",
 		weight = 1000,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "",
@@ -777,7 +777,7 @@ return {
 	["gelado-chocolate"] = {
 		label = "Chocolate Icecream Sandwich",
 		weight = 1000,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -797,7 +797,7 @@ return {
 	["crisps"] = {
 		label = "Phat Chips",
 		weight = 100,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -807,7 +807,7 @@ return {
 	["hamburger"] = {
 		label = "Hamburger",
 		weight = 1000,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "",
@@ -816,7 +816,7 @@ return {
 	["panqueca-nutela"] = {
 		label = "Nutella Pancake",
 		weight = 1000,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "",
@@ -825,7 +825,7 @@ return {
 	["muffin-chocolate"] = {
 		label = "Chocolate Muffin",
 		weight = 1000,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "",
@@ -834,7 +834,7 @@ return {
 	['burger'] = { -- A test hamburger that you can eat
 		label = 'Hamburger',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -854,7 +854,7 @@ return {
 	['sandwich'] = { -- A simple sandwich for a simple day
 		label = 'Sandwich',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -874,7 +874,7 @@ return {
 	['burger_chs'] = { -- A test hamburger that you can eat
 		label = 'Cheese Burger',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -894,7 +894,7 @@ return {
 	['burger_chsbcn'] = { -- A test hamburger that you can eat
 		label = 'Cheese Burger with Bacon',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -914,7 +914,7 @@ return {
 	['hotdog'] = { -- A test hamburger that you can eat
 		label = 'Hotdog',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -924,7 +924,7 @@ return {
 	['noodles'] = { -- Fuck those baked shits are good af
 		label = 'Thai Noodles',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -944,7 +944,7 @@ return {
 	['fr_fries'] = { -- A test hamburger that you can eat
 		label = 'French Fries',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -964,7 +964,7 @@ return {
 	['mustard'] = {
 		label = 'Mustard',
 		weight = 1,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -980,7 +980,7 @@ return {
 	['ketchup'] = {
 		label = 'Ketchup',
 		weight = 1,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -998,7 +998,7 @@ return {
 	['pizza_pep'] = { -- A simple sandwich for a simple day
 		label = 'Peperoni Pizza',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1019,7 +1019,7 @@ return {
 	['pizza_chs'] = { -- A simple sandwich for a simple day
 		label = 'Cheese Pizza',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1040,7 +1040,7 @@ return {
 	['pizza_msh'] = { -- A simple sandwich for a simple day
 		label = 'Mushroom Pizza',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1061,7 +1061,7 @@ return {
 	['pizza_mgt'] = { -- A simple sandwich for a simple day
 		label = 'Margherita Pizza',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1082,7 +1082,7 @@ return {
 	['pizza_dmt'] = { -- A simple sandwich for a simple day
 		label = 'Double Meat Pizza',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1105,7 +1105,7 @@ return {
 	['phatc_rib'] = { -- A skeletons favorite snack
 		label = 'Phat Chips: Ribs',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1125,7 +1125,7 @@ return {
 	['phatc_bch'] = { -- Biggie Cheese
 		label = 'Phat Chips: Big Cheese',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1145,7 +1145,7 @@ return {
 	['ps_qs'] = { -- is that candy
 		label = 'P\'s & Q\'s',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1165,7 +1165,7 @@ return {
 	["twerks_candy"] = {
 		label = "Twerks",
 		weight = 100,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "Some delicious candy :O",
@@ -1174,7 +1174,7 @@ return {
 	['apple'] = { -- Apple good
 		label = 'Apple',
 		weight = 1,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1195,7 +1195,7 @@ return {
 	['banana'] = { -- banana good
 		label = 'Banana',
 		weight = 1,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1215,7 +1215,7 @@ return {
 	['orange'] = { -- banana good
 		label = 'Orange',
 		weight = 1,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1237,7 +1237,7 @@ return {
 	["waffle-nutela"] = {
 		label = "Nutela Waffle",
 		weight = 1000,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "",
@@ -1246,7 +1246,7 @@ return {
 	["gelado-baunilha"] = {
 		label = "Vanilla Icecream",
 		weight = 1000,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1266,7 +1266,7 @@ return {
 	["bubble-morango"] = {
 		label = "Strawberry Bubble Tea",
 		weight = 1000,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1287,7 +1287,7 @@ return {
 	["barra-chocolate"] = {
 		label = "Chocolate Bar",
 		weight = 1500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1307,7 +1307,7 @@ return {
 	['donut_chc'] = { -- Fuck those baked shits are good af
 		label = 'Chocolate Donut',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1328,7 +1328,7 @@ return {
 	['donut_sby'] = { -- Fuck those baked shits are good af
 		label = 'Strawberry Donut',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1349,7 +1349,7 @@ return {
 	['smore'] = { -- Fuck those baked shits are good af
 		label = 'Smore',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1370,7 +1370,7 @@ return {
 	['icecream_chr'] = { -- brain cold go brrrrr
 		label = 'Cherry Ice Cream',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1391,7 +1391,7 @@ return {
 	['icecream_chc'] = { -- brain cold go brrrrr
 		label = 'Chocolate Ice Cream',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1412,7 +1412,7 @@ return {
 	['icecream_lmn'] = { -- brain cold go brrrrr
 		label = 'Lemon Ice Cream',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1433,7 +1433,7 @@ return {
 	['icecream_pso'] = { -- brain cold go brrrrr
 		label = 'Pistachio Ice Cream',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1454,7 +1454,7 @@ return {
 	['icecream_rpy'] = { -- brain cold go brrrrr
 		label = 'Raspberry Ice Cream',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1475,7 +1475,7 @@ return {
 	['icecream_ckd'] = { -- brain cold go brrrrr
 		label = 'Cookie Dough Ice Cream',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1496,7 +1496,7 @@ return {
 	['icecream_sby'] = { -- brain cold go brrrrr
 		label = 'Strawberry Ice Cream',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1517,7 +1517,7 @@ return {
 	['icecream_vna'] = { -- brain cold go brrrrr
 		label = 'Vanilla Ice Cream',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1538,7 +1538,7 @@ return {
 	["milkshake-morango"] = {
 		label = "Strawberry Milkshake",
 		weight = 1000,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1559,7 +1559,7 @@ return {
 	["gelado-morango"] = {
 		label = "Strawberry Icecream",
 		weight = 1000,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1579,7 +1579,7 @@ return {
 	["milkshake-chocolate"] = {
 		label = "Chocolate Milkshake",
 		weight = 1000,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1600,7 +1600,7 @@ return {
 	["specialchocolate"] = {
 		label = "Special Chocolate",
 		weight = 100,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "",
@@ -1609,7 +1609,7 @@ return {
 	["chocolate"] = {
 		label = "Chocolate",
 		weight = 100,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1631,7 +1631,7 @@ return {
 	["ecoladiet"] = {
 		label = "ECola Diet",
 		weight = 500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "For all the thirsty out there",
@@ -1655,7 +1655,7 @@ return {
 	["kurkakola"] = {
 		label = "Cola",
 		weight = 500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "For all the thirsty out there",
@@ -1664,7 +1664,7 @@ return {
 	["sprunklight"] = {
 		label = "Sprunk Light",
 		weight = 500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "For all the thirsty out there",
@@ -1681,7 +1681,7 @@ return {
 	['milk'] = { -- milky milky milky
 		label = 'Milk Carton',
 		weight = 1,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1698,12 +1698,155 @@ return {
 			usetime = 7500,
 		}
 	},
+
+	--- FOOD
+
+	["tequila"] = {
+		label = "Tequila",
+		weight = 5,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Tequilaaaa!",
+	},
+
+	["rum"] = {
+		label = "Rum",
+		weight = 5,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Rum",
+	},
+
+	["raw-tofu"] = {
+		label = "Raw Tofu",
+		weight = 10,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Raw Tofu",
+	},
+
+	["raspberries"] = {
+		label = "Raspberries",
+		weight = 20,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Raspberries",
+	},
+
+	["pepper"] = {
+		label = "Pepper",
+		weight = 5,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Pepper",
+	},
+
+	["pasta"] = {
+		label = "Pasta",
+		weight = 5,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Pastaaaa",
+	},
+
+	["okra"] = {
+		label = "Okra",
+		weight = 10,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Organic Okra",
+	},
+
+	["garlic-bread"] = {
+		label = "Garlic Bread",
+		weight = 5,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Garlic Bread",
+	},
+
+	["cranberries"] = {
+		label = "Cranberries",
+		weight = 5,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Cranberries",
+	},
+
+	["chickpeas"] = {
+		label = "Chickpeas",
+		weight = 5,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Chickpeas",
+	},
+
+	["champagne"] = {
+		label = "Champagne",
+		weight = 5,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Champagne",
+	},
+
+	["cauliflower"] = {
+		label = "Cauliflower",
+		weight = 5,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Cauliflower",
+	},
+
+	["passionfruit"] = {
+		label = "Passionfruit",
+		weight = 5,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Passionfruit",
+	},
+
+	["parmesan-cheese"] = {
+		label = "Parmesan Cheese",
+		weight = 5,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Parmesan Cheese",
+	},
+
 	--- COFFEE
 
 	["coffeefrap"] = {
 		label = "Cloud Cafe",
 		weight = 200,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1713,7 +1856,7 @@ return {
 	["coffee"] = {
 		label = "Coffee",
 		weight = 200,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1723,7 +1866,7 @@ return {
 	['coffee_black'] = { -- Carbonized syrup is good for the soul
 		label = 'Black Coffee',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1733,7 +1876,7 @@ return {
 	['coffee_mocha'] = { -- Carbonized syrup is good for the soul
 		label = 'Mocha',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1743,7 +1886,7 @@ return {
 	['coffee_cpcno'] = { -- Carbonized syrup is good for the soul
 		label = 'Cappuccino',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1753,7 +1896,7 @@ return {
 	['coffee_amrcno'] = { -- Carbonized syrup is good for the soul
 		label = 'Americano',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1765,7 +1908,7 @@ return {
 	["soda"] = {
 		label = "Soda",
 		weight = 500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "",
@@ -1774,7 +1917,7 @@ return {
 	['cola'] = {
 		label = 'eCola',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1790,7 +1933,7 @@ return {
 	["ecola"] = {
 		label = 'Cola',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1809,7 +1952,7 @@ return {
 	['sprunk'] = {
 		label = 'Sprunk',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1829,7 +1972,7 @@ return {
 	['orangotang'] = { -- Carbonized syrup is good for the soul
 		label = 'Orang-o-tang',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1849,7 +1992,7 @@ return {
 	['ejunk'] = { -- Drinking too much of this wont kill you. I think.
 		label = 'Junk Energy',
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1871,7 +2014,7 @@ return {
 	["beer"] = {
 		label = "Beer",
 		weight = 500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1881,7 +2024,7 @@ return {
 	['rancho_beer'] = { -- Good ol imported beer from mexico
 		label = 'Cerbesa Barracho',
 		weight = 290,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1891,7 +2034,7 @@ return {
 	['dusche_beer'] = { -- Good ol imported beer from germany
 		label = 'Dusche Beer',
 		weight = 290,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1901,7 +2044,7 @@ return {
 	['stronzo_beer'] = { -- Good ol imported beer from italy
 		label = 'Stronzo Beer',
 		weight = 290,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1911,7 +2054,7 @@ return {
 	['blarny_beer'] = { -- Good ol imported beer from italy
 		label = 'Blarny\'s Stout',
 		weight = 290,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1921,7 +2064,7 @@ return {
 	['patriot_beer'] = { -- Good ol homemade beer from the brewery
 		label = 'Patriot Beer',
 		weight = 290,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1933,7 +2076,7 @@ return {
 	["vodka"] = {
 		label = "Vodka",
 		weight = 500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1943,7 +2086,7 @@ return {
 	["wine"] = {
 		label = "Wine",
 		weight = 300,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = false,
@@ -1953,7 +2096,7 @@ return {
 	["whiskey"] = {
 		label = "Whiskey",
 		weight = 500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1963,7 +2106,7 @@ return {
 	['bb_bourgeoix'] = { -- Good ol imported beer from mexico
 		label = 'Bottle of Bourgeoix Cognac',
 		weight = 290,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1973,7 +2116,7 @@ return {
 	['bb_cariaque'] = { -- Good ol imported beer from mexico
 		label = 'Bottle of Cariaque Bourbon',
 		weight = 290,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1983,7 +2126,7 @@ return {
 	['cb_bleuterd'] = { -- Good ol imported beer from mexico
 		label = 'Bottle of Bleuter\'d Champagne',
 		weight = 290,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1993,7 +2136,7 @@ return {
 	['rb_ragga'] = { -- Good ol imported beer from mexico
 		label = 'Bottle of Ragga Rum',
 		weight = 290,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2003,7 +2146,7 @@ return {
 	['tb_tequilya'] = { -- Good ol imported beer from mexico
 		label = 'Bottle of Tequilya Tequila',
 		weight = 290,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2013,7 +2156,7 @@ return {
 	['vb_nogo'] = { -- Good ol imported beer from mexico
 		label = 'Bottle of Nogo Vodka',
 		weight = 290,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2023,7 +2166,7 @@ return {
 	['wb_mount'] = { -- Good ol imported beer from mexico
 		label = 'Bottle of Mount Whiskey',
 		weight = 290,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2033,7 +2176,7 @@ return {
 	['wb_richards'] = { -- Good ol imported beer from mexico
 		label = 'Bottle of Richard\'s Whiskey',
 		weight = 290,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2045,7 +2188,7 @@ return {
 	['bg_bourgeiox'] = { -- Good ol imported beer from mexico
 		label = 'Glass of Bourgeoix Cognac',
 		weight = 290,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2055,7 +2198,7 @@ return {
 	['bg_cariaque'] = { -- Good ol imported beer from mexico
 		label = 'Glass of Cariaque Bourbon',
 		weight = 290,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2065,7 +2208,7 @@ return {
 	['bs_bourgeiox'] = { -- Good ol imported beer from mexico
 		label = 'Shot of Bourgeoix Cognac',
 		weight = 290,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2075,7 +2218,7 @@ return {
 	['bs_cariaque'] = { -- Good ol imported beer from mexico
 		label = 'Shot of Cariaque Bourbon',
 		weight = 290,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2085,7 +2228,7 @@ return {
 	['cg_bleuterd'] = { -- Good ol imported beer from mexico
 		label = 'Glass of Bleuter\'d Champagne',
 		weight = 290,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2095,7 +2238,7 @@ return {
 	['tg_martini'] = { -- Good ol imported beer from mexico
 		label = 'Martini',
 		weight = 290,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2105,7 +2248,7 @@ return {
 	['tg_sunrise'] = { -- Good ol imported beer from mexico
 		label = 'Tequilya Sunrise',
 		weight = 290,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2115,7 +2258,7 @@ return {
 	['tg_tequilya'] = { -- Good ol imported beer from mexico
 		label = 'Glass of Tequilya',
 		weight = 290,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2125,7 +2268,7 @@ return {
 	['ts_tequilya'] = { -- Good ol imported beer from mexico
 		label = 'Shot of Tequilya',
 		weight = 290,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2135,7 +2278,7 @@ return {
 	['vg_nogo'] = { -- Good ol imported beer from mexico
 		label = 'Glass of Nogo Vodka',
 		weight = 290,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2145,7 +2288,7 @@ return {
 	['vs_nogo'] = { -- Good ol imported beer from mexico
 		label = 'Shot of Nogo Vodka',
 		weight = 290,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2155,7 +2298,7 @@ return {
 	['wg_mount'] = { -- Good ol imported beer from mexico
 		label = 'Glass of Mount Whiskey',
 		weight = 290,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2165,7 +2308,7 @@ return {
 	['wg_richards'] = { -- Good ol imported beer from mexico
 		label = 'Glass of Richard\'s Whiskey',
 		weight = 290,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2175,7 +2318,7 @@ return {
 	['ws_mount'] = { -- Good ol imported beer from mexico
 		label = 'Shot of Mount Whiskey',
 		weight = 290,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2185,7 +2328,7 @@ return {
 	['ws_richards'] = { -- Good ol imported beer from mexico
 		label = 'Shot of Richard\'s Whiskey',
 		weight = 290,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2197,7 +2340,7 @@ return {
 	['box_rancho_beer'] = { -- idea: Player uses item to show badge prop
 		label = 'Case of Rancho Beer',
 		weight = 3500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "Oh boy I love beer",
@@ -2221,7 +2364,7 @@ return {
 	['box_dusche_beer'] = { -- idea: Player uses item to show badge prop
 		label = 'Case of Dusche Beer',
 		weight = 3500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "Oh boy I love beer",
@@ -2245,7 +2388,7 @@ return {
 	['box_blarny_beer'] = { -- idea: Player uses item to show badge prop
 		label = 'Case of Blarny Beer',
 		weight = 3500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "Oh boy I love beer",
@@ -2269,7 +2412,7 @@ return {
 	['box_patriot_beer'] = { -- idea: Player uses item to show badge prop
 		label = 'Case of Patriot Beer',
 		weight = 3500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "Oh boy I love beer",
@@ -2293,7 +2436,7 @@ return {
 	['box_stronzo_beer'] = { -- idea: Player uses item to show badge prop
 		label = 'Case of Stronzo Beer',
 		weight = 3500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "Oh boy I love beer",
@@ -2317,7 +2460,7 @@ return {
 	['box_bourgeoix_liquor'] = { -- idea: Player uses item to show badge prop
 		label = 'Case of Bourgeoix Cognac',
 		weight = 3500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "Oh boy I love liquor",
@@ -2341,7 +2484,7 @@ return {
 	['box_cariaque_liquor'] = { -- idea: Player uses item to show badge prop
 		label = 'Case of Cariaque Bourbon',
 		weight = 3500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "Oh boy I love liquor",
@@ -2365,7 +2508,7 @@ return {
 	['box_bleuterd_liquor'] = { -- idea: Player uses item to show badge prop
 		label = 'Case of Bleuter\'d Champagne',
 		weight = 3500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "Oh boy I love liquor",
@@ -2389,7 +2532,7 @@ return {
 	['box_ragga_liquor'] = { -- idea: Player uses item to show badge prop
 		label = 'Case of Ragga Rum',
 		weight = 3500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "Oh boy I love liquor",
@@ -2413,7 +2556,7 @@ return {
 	['box_tequilya_liquor'] = { -- idea: Player uses item to show badge prop
 		label = 'Case of Tequilya Tequila',
 		weight = 3500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "Oh boy I love liquor",
@@ -2437,7 +2580,7 @@ return {
 	['box_nogo_liquor'] = { -- idea: Player uses item to show badge prop
 		label = 'Case of Nogo Vodka',
 		weight = 3500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "Oh boy I love liquor",
@@ -2461,7 +2604,7 @@ return {
 	['box_mount_liquor'] = { -- idea: Player uses item to show badge prop
 		label = 'Case of Mount Whiskey',
 		weight = 3500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "Oh boy I love liquor",
@@ -2485,7 +2628,7 @@ return {
 	['box_richards_liquor'] = { -- idea: Player uses item to show badge prop
 		label = 'Case of Richard\'s Whiskey',
 		weight = 3500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "Oh boy I love liquor",
@@ -2514,7 +2657,7 @@ return {
 	['box_pizza_chs'] = { -- idea: Player uses item to show badge prop
 		label = 'Box of Cheese Pizza',
 		weight = 3500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "A box of cheesy goodness, my guy",
@@ -2534,7 +2677,7 @@ return {
 	['box_pizza_pep'] = { -- idea: Player uses item to show badge prop
 		label = 'Box of Pepperoni Pizza',
 		weight = 3500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "A box of cheesy goodness, my guy",
@@ -2554,7 +2697,7 @@ return {
 	['box_pizza_msh'] = { -- idea: Player uses item to show badge prop
 		label = 'Box of Mushroom Pizza',
 		weight = 3500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "A box of cheesy goodness, my guy",
@@ -2574,7 +2717,7 @@ return {
 	['box_pizza_mgt'] = { -- idea: Player uses item to show badge prop
 		label = 'Box of Margherita Pizza',
 		weight = 3500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "A box of cheesy goodness, my guy",
@@ -2594,7 +2737,7 @@ return {
 	['box_pizza_dmt'] = { -- idea: Player uses item to show badge prop
 		label = 'Box of Double Meat Pizza',
 		weight = 3500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "A box of cheesy goodness, my guy",
@@ -2616,7 +2759,7 @@ return {
 	['mre_1'] = {
 		label = 'MRE-001',
 		weight = 3500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = false,
 		close = false,
@@ -2626,7 +2769,7 @@ return {
 	['mre_2'] = {
 		label = 'MRE-002',
 		weight = 3500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = false,
 		close = false,
@@ -2636,7 +2779,7 @@ return {
 	['mre_3'] = {
 		label = 'MRE-003',
 		weight = 3500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = false,
 		close = false,
@@ -2646,7 +2789,7 @@ return {
 	['mre_4'] = {
 		label = 'MRE-004',
 		weight = 3500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = false,
 		close = false,
@@ -2656,7 +2799,7 @@ return {
 	['mre_5'] = {
 		label = 'MRE-005',
 		weight = 3500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = false,
 		close = false,
@@ -2667,7 +2810,7 @@ return {
 	['mre_chilimac'] = {
 		label = 'MRE - Chili Mac',
 		weight = 1250,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2687,7 +2830,7 @@ return {
 	['mre_beefstew'] = {
 		label = 'MRE - Beef Stew',
 		weight = 1250,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2707,7 +2850,7 @@ return {
 	['mre_chkenchilada'] = {
 		label = 'MRE - Chkn Enchiladas',
 		weight = 1250,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2727,7 +2870,7 @@ return {
 	['mre_veggieomelet'] = {
 		label = 'MRE - Veggie Omelet',
 		weight = 1250,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2747,7 +2890,7 @@ return {
 	['mre_chknking'] = {
 		label = 'MRE - Chicken-a-la-king',
 		weight = 1250,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2768,7 +2911,7 @@ return {
 	['mre_tmsoup'] = {
 		label = 'MRE Tom. soup',
 		weight = 1250,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2788,7 +2931,7 @@ return {
 	['mre_corn'] = {
 		label = 'MRE Canned Corn',
 		weight = 1250,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2808,7 +2951,7 @@ return {
 	['mre_bread'] = {
 		label = 'MRE Bread',
 		weight = 1250,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -3447,7 +3590,7 @@ return {
 		label = "Chocolate Flowers",
 		weight = 200,
 		stack = true,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		close = true,
 		consume = 0,
@@ -9122,7 +9265,7 @@ return {
 	['cooked_meat'] = {
 		label = 'Cooked Meat',
 		weight = 200,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		consume = 1,
 		client = {
@@ -9141,7 +9284,7 @@ return {
 	['raw_meat'] = {
 		label = 'Raw Meat',
 		weight = 1,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 	},
@@ -10872,7 +11015,7 @@ return {
 	["burger-bun"] = {
 		label = "Bun",
 		weight = 1,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -10901,7 +11044,7 @@ return {
 	["burger-moneyshot"] = {
 		label = "Moneyshot",
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -10922,7 +11065,7 @@ return {
 	["burger-heartstopper"] = {
 		label = "Heartstopper",
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -10943,7 +11086,7 @@ return {
 	["burger-lettuce"] = {
 		label = "Lettuce",
 		weight = 125,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -10956,7 +11099,7 @@ return {
 	["burger-fries"] = {
 		label = "Fries",
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -10977,7 +11120,7 @@ return {
 	["burger-mshakeformula"] = {
 		label = "Milkshake Formula",
 		weight = 125,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -10990,7 +11133,7 @@ return {
 	["burger-meatfree"] = {
 		label = "MeatFree",
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11027,7 +11170,7 @@ return {
 	["burger-bleeder"] = {
 		label = "Bleeder",
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11048,7 +11191,7 @@ return {
 	["burger-raw"] = {
 		label = "Raw Patty",
 		weight = 1,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11061,7 +11204,7 @@ return {
 	["burger-meat"] = {
 		label = "Cooked Patty",
 		weight = 125,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11074,7 +11217,7 @@ return {
 	["burger-tomato"] = {
 		label = "Tomato",
 		weight = 125,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11087,7 +11230,7 @@ return {
 	["burger-sodasyrup"] = {
 		label = "Soda Syrup",
 		weight = 125,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11100,7 +11243,7 @@ return {
 	["burger-potato"] = {
 		label = "Bag of Potatoes",
 		weight = 1500,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11113,7 +11256,7 @@ return {
 	["burger-torpedo"] = {
 		label = "Torpedo",
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11134,7 +11277,7 @@ return {
 	["tortilla-chips"] = {
 		label = "Tortilla Chips",
 		weight = 150,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11147,7 +11290,7 @@ return {
 	["quesadilla"] = {
 		label = "Quesadilla",
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11167,7 +11310,7 @@ return {
 	["beef-taco"] = {
 		label = "Beef Taco",
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11187,7 +11330,7 @@ return {
 	["chicken"] = {
 		label = "Chicken",
 		weight = 1,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11200,7 +11343,7 @@ return {
 	["ground-beef"] = {
 		label = "Ground Beef",
 		weight = 1,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11213,7 +11356,7 @@ return {
 	["chicken-burrito"] = {
 		label = "Chicken Burrito",
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11233,7 +11376,7 @@ return {
 	["butter"] = {
 		label = "Butter",
 		weight = 125,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11246,7 +11389,7 @@ return {
 	["tortillas"] = {
 		label = "Tortillas",
 		weight = 150,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11259,7 +11402,7 @@ return {
 	["cheddar-cheese"] = {
 		label = "Cheddar Cheese",
 		weight = 125,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11272,7 +11415,7 @@ return {
 	["taco-tomato"] = {
 		label = "Tomatoes",
 		weight = 100,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11285,7 +11428,7 @@ return {
 	["sugar-cubes"] = {
 		label = "Sugar Cubes",
 		weight = 100,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11298,7 +11441,7 @@ return {
 	["fanta"] = {
 		label = "Fanta",
 		weight = 180,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11311,7 +11454,7 @@ return {
 	["lettuce"] = {
 		label = "Lettuce",
 		weight = 150,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11335,7 +11478,7 @@ return {
 	["coke-soda"] = {
 		label = "Coke Soda",
 		weight = 180,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11378,7 +11521,7 @@ return {
 	["bhoneyhazelnutoatlatte"] = {
 		label = "Honey Hazelnut Oat Latte",
 		weight = 100,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11391,7 +11534,7 @@ return {
 	["bespressocoffeecup"] = {
 		label = "Espresso Coffee Cup",
 		weight = 100,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11415,7 +11558,7 @@ return {
 	["bstrawberryvanillaoatlatte"] = {
 		label = "Strawberry Vanilla Oat Latte",
 		weight = 100,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11452,7 +11595,7 @@ return {
 		label = "Ice",
 		weight = 1000,
 		stack = true,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		close = true,
 		description = "Ice",
@@ -11464,7 +11607,7 @@ return {
 	["bjavachipfrappuccino"] = {
 		label = "Java Chip Frappuccino",
 		weight = 100,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11477,7 +11620,7 @@ return {
 	["bcaramelsyrup"] = {
 		label = "Caramel Syrup",
 		weight = 1000,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		stack = true,
 		decay = true,
 		close = true,
@@ -11490,7 +11633,7 @@ return {
 	["bcream"] = {
 		label = "Whipped Cream",
 		weight = 100,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11503,7 +11646,7 @@ return {
 	["borangeslush"] = {
 		label = "Orange Slush",
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11518,7 +11661,7 @@ return {
 	["bespresso"] = {
 		label = "Espresso",
 		weight = 100,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11531,7 +11674,7 @@ return {
 	["bstrawberrycreamfrappuccino"] = {
 		label = "Strawberry Cream Frappuccino",
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11597,7 +11740,7 @@ return {
 	["bcaramelfrappucino"] = {
 		label = "Caramel Frappucino",
 		weight = 100,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11621,7 +11764,7 @@ return {
 	["blemonslush"] = {
 		label = "Lemon Slush",
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11637,7 +11780,7 @@ return {
 	["bespressomacchiato"] = {
 		label = "Espresso Macchiato",
 		weight = 100,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11661,7 +11804,7 @@ return {
 	["bhotchoc"] = {
 		label = "Hot Choc",
 		weight = 100,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11671,7 +11814,7 @@ return {
 	["bicedcaffelatte"] = {
 		label = "Iced Caffe Latte",
 		weight = 100,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -11706,7 +11849,7 @@ return {
 	["bcoldbrewlatte"] = {
 		label = "Cold Brew Latte",
 		weight = 100,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12331,7 +12474,7 @@ return {
 	["chips_cheese"] = {
 		label = "Chips Big Cheese",
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12350,7 +12493,7 @@ return {
 	["chips_paprika"] = {
 		label = "Chips Paprika",
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12369,7 +12512,7 @@ return {
 	["chips_ribs"] = {
 		label = "Chips Sticky Ribs",
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12388,7 +12531,7 @@ return {
 	["chips_salt"] = {
 		label = "Chips: Salt & Sauce",
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12407,7 +12550,7 @@ return {
 	["chips_supersalt"] = {
 		label = "Chips: Super Salt",
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12426,7 +12569,7 @@ return {
 	["chips_habanero"] = {
 		label = "Chips: Habanero",
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12445,7 +12588,7 @@ return {
 	["chocolate_meteorite"] = {
 		label = "Candy: Meteorite",
 		weight = 1,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12464,7 +12607,7 @@ return {
 	["chocolate_captain"] = {
 		label = "Candy: Captain's Log",
 		weight = 1,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12488,7 +12631,7 @@ return {
 	["candy_zebra"] = {
 		label = "Candy: Zebrabar",
 		weight = 1,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12507,7 +12650,7 @@ return {
 	["candy_psqs"] = {
 		label = "Candy: P's & Q's",
 		weight = 1,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12555,7 +12698,7 @@ return {
 	["gum_peppermint"] = {
 		label = "Gum: Peppermint",
 		weight = 1,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12574,7 +12717,7 @@ return {
 	["gum_cinnamon"] = {
 		label = "Gum: Cinnamon",
 		weight = 1,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12593,7 +12736,7 @@ return {
 	["gum_spearmint"] = {
 		label = "Gum: Spearmint",
 		weight = 1,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12612,7 +12755,7 @@ return {
 	["bottle_cola"] = {
 		label = "Cola",
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12627,7 +12770,7 @@ return {
 	["bottle_junk"] = {
 		label = "Junk",
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12642,7 +12785,7 @@ return {
 	["bottle_orang"] = {
 		label = "Orang Tang",
 		weight = 350,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12661,7 +12804,7 @@ return {
 	["bottle_tonic"] = {
 		label = "Tonic",
 		weight = 20,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12680,7 +12823,7 @@ return {
 	["bottle_water"] = {
 		label = "Water",
 		weight = 20,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12699,7 +12842,7 @@ return {
 	["bottle_sprunk"] = {
 		label = "Sprunk",
 		weight = 20,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12718,7 +12861,7 @@ return {
 	["can_cola"] = {
 		label = "Cola Canweight = 1,",
 		weight = 20,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12737,7 +12880,7 @@ return {
 	["can_orang"] = {
 		label = "Orang Tang Can",
 		weight = 20,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12756,7 +12899,7 @@ return {
 	["can_junk"] = {
 		label = "Junk Canweight = 1,",
 		weight = 20,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12775,7 +12918,7 @@ return {
 	["can_sprunk"] = {
 		label = "Sprunk Can",
 		weight = 20,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12794,7 +12937,7 @@ return {
 	["can_logger"] = {
 		label = "Logger Can",
 		weight = 20,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12813,7 +12956,7 @@ return {
 	["can_blarneys"] = {
 		label = "Blarneys Can",
 		weight = 20,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12832,7 +12975,7 @@ return {
 	["can_hoplivion"] = {
 		label = "Hoplivion Can",
 		weight = 20,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12851,7 +12994,7 @@ return {
 	["can_cerbeza"] = {
 		label = "Cerbeza Can",
 		weight = 20,
-		degrade = 60 * 12,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
