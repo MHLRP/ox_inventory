@@ -1098,6 +1098,26 @@ return {
 			}
 		}
 	},
+	
+	Bar9 = {
+		name = 'Bar',
+		blip = {
+			id = 93, colour = 0, scale = 0.6
+		},
+		inventory = {
+			{ name = 'beer',    price = 7,  currency = 'money' },
+			{ name = 'whiskey', price = 10, currency = 'money' },
+			{ name = 'vodka',   price = 12, currency = 'money' },
+		},
+		locations = {
+			vec3(954.83, 66.65, 16.54),
+			vec3(951.58, 54.69, 16.52),
+		},
+		targets = {
+			{ loc = vec3(954.83, 66.65, 16.54), length = 0.6, width = 0.5, heading = -124.260, minZ = 28.2, maxZ = 28.6, distance = 2 },
+			{ loc = vec3(951.58, 54.69, 16.52), length = 0.6, width = 0.5, heading = -124.260, minZ = 28.2, maxZ = 28.6, distance = 2 }
+		}
+	},
 
 	MansionBar = {
 		name = 'Bar',
