@@ -287,7 +287,7 @@ function client.openInventory(inv, data)
         currentInventory.coords = GetEntityCoords(playerPed)
     end
 
-    if inv == 'trunk' then
+    if inv == 'trunk' and not exports["snipe-menu"]:isAdmin() then
         SetTimeout(200, function()
             ---@todo animation for vans?
             -- Utils.PlayAnim(0, 'anim@heists@prison_heiststation@cop_reactions', 'cop_b_idle', 3.0, 3.0, -1, 49, 0.0, 0, 0, 0)

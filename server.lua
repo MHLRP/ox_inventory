@@ -97,106 +97,134 @@ end
 ---@param ignoreSecurityChecks boolean?
 ---@return table | false | nil, table | false | nil, string?
 local function openInventory(source, invType, data, ignoreSecurityChecks)
-	if Inventory.Lock then return false end
+    if Inventory.Lock then return false end
 
-	local left = Inventory(source) --[[@as OxInventory]]
-	local right, closestCoords
+    local left = Inventory(source) --[[@as OxInventory]]
+    local right, closestCoords
 
     left:closeInventory(true)
-	Inventory.CloseAll(left, source)
+    Inventory.CloseAll(left, source)
 
     if invType == 'player' and data == source then
         data = nil
     end
 
-	if data then
+    if data then
         local isDataTable = type(data) == 'table'
 
-		if invType == 'stash' then
-			right = Inventory(data, left)
-			if right == false then return false end
-		elseif isDataTable then
-			if data.netid then
+        if invType == 'stash' then
+            right = Inventory(data, left)
+            if not right then return false end
+
+        elseif isDataTable then
+            if data.netid then
                 if invType == 'trunk' then
+                    right = Inventory(data.id)
                     local entity = NetworkGetEntityFromNetworkId(data.netid)
                     local lockStatus = entity > 0 and GetVehicleDoorLockStatus(entity)
-
                     -- 0: no lock; 1: unlocked; 8: boot unlocked
                     if lockStatus > 1 and lockStatus ~= 8 then
                         return false, false, 'vehicle_locked'
                     end
                 end
 
-				data.type = invType
-				right = Inventory(data)
-			elseif invType == 'drop' then
-				right = Inventory(data.id)
-			else
-				return
-			end
-		elseif invType == 'policeevidence' then
-			if server.hasGroup(left, shared.police) then
-				right = Inventory(('evidence-%s'):format(data))
-			end
-		elseif invType == 'dumpster' then
-			---@cast data string
-			right = Inventory(data)
+                data.type = invType
+                right = Inventory(data)
 
-			if not right then
-				local netid = tonumber(data:sub(9))
+            elseif invType == 'drop' then
+                right = Inventory(data.id)
+                
+            elseif invType == 'glovebox' then
+                right = Inventory(data)
 
-				-- dumpsters do not work with entity lockdown. need to rewrite, but having to do
-				-- distance checks to some ~7000 dumpsters and freeze the entities isn't ideal
-				if netid and NetworkGetEntityFromNetworkId(netid) > 0 then
-					right = Inventory.Create(data, locale('dumpster'), invType, 15, 0, 100000, false)
-				end
-			end
-		elseif invType == 'container' then
-			left.containerSlot = data --[[@as number]]
-			data = left.items[data]
+                if not right then
+                    local netid = tonumber(data:sub(9))
+                    if netid and NetworkGetEntityFromNetworkId(netid) > 0 then
+                        right = Inventory.Create(data, locale('glovebox'), invType, 15, 0, 100000, false)
+                    end
+                end
 
-			if data then
-				right = Inventory(data.metadata.container)
+            elseif invType == 'container' then
+                left.containerSlot = data --[[@as number]]
+                data = left.items[data]
 
-				if not right then
-					right = Inventory.Create(data.metadata.container, data.label, invType, data.metadata.size[1], 0, data.metadata.size[2], false)
-				end
-			else left.containerSlot = nil end
-		else right = Inventory(data) end
+                if data then
+                    right = Inventory(data.metadata.container)
 
-		if not right then return end
+                    if not right then
+                        right = Inventory.Create(data.metadata.container, data.label, invType, data.metadata.size[1], 0, data.metadata.size[2], false)
+                    end
+                else
+                    left.containerSlot = nil
+                end
 
-		if not ignoreSecurityChecks and right.groups and not server.hasGroup(left, right.groups) then return end
+            else
+                right = Inventory(data)
+            end
 
-		local hookPayload = {
-			source = source,
-			inventoryId = right.id,
-			inventoryType = right.type,
-		}
+        elseif invType == 'policeevidence' then
+            if server.hasGroup(left, shared.police) then
+                right = Inventory(('evidence-%s'):format(data))
+            end
 
-		if invType == 'container' then hookPayload.slot = left.containerSlot end
-		if isDataTable and data.netid then hookPayload.netId = data.netid end
+        elseif invType == 'dumpster' then
+            ---@cast data string
+            right = Inventory(data)
 
-		if not TriggerEventHooks('openInventory', hookPayload) then return end
+            if not right then
+                local netid = tonumber(data:sub(9))
+                if netid and NetworkGetEntityFromNetworkId(netid) > 0 then
+                    right = Inventory.Create(data, locale('dumpster'), invType, 15, 0, 100000, false)
+                end
+            end
+
+        else
+            return
+        end
+
+        if not right then return end
+
+        if not ignoreSecurityChecks and right.groups and not server.hasGroup(left, right.groups) then
+            return
+        end
+
+        local hookPayload = {
+            source = source,
+            inventoryId = right.id,
+            inventoryType = right.type,
+        }
+
+        if invType == 'container' then
+            hookPayload.slot = left.containerSlot
+        end
+
+        if isDataTable and data.netid then
+            hookPayload.netId = data.netid
+        end
+
+        if not TriggerEventHooks('openInventory', hookPayload) then
+            return
+        end
 
         if left == right then return end
 
-		if right.player then
-			if right.open then return end
+        if right.player then
+            if right.open then return end
 
-			right.coords = not ignoreSecurityChecks and GetEntityCoords(right.player.ped) or nil
-		end
+            right.coords = not ignoreSecurityChecks and GetEntityCoords(right.player.ped) or nil
+        end
 
-		if not ignoreSecurityChecks and right.coords then
-			closestCoords = getClosestStashCoords(left.player.ped, right.coords)
+        if not ignoreSecurityChecks and right.coords then
+            closestCoords = getClosestStashCoords(left.player.ped, right.coords)
 
-			if not closestCoords then return end
-		end
+            if not closestCoords then return end
+        end
 
-		left:openInventory(right)
-	else
-		left:openInventory(left)
-	end
+        left:openInventory(right)
+
+    else
+        left:openInventory(left)
+    end
 
 	return {
 		id = left.id,
