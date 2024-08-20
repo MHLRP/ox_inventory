@@ -9283,8 +9283,7 @@ return {
 
 	['raw_meat'] = {
 		label = 'Raw Meat',
-		weight = 1,
-		degrade = 60 * 36,
+		weight = 2,
 		decay = true,
 		stack = true,
 	},

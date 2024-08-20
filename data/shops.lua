@@ -1242,7 +1242,7 @@ return {
 		inventory = {
 			{ name = 'hunting_guide',        price = 5,    currency = 'money' },
 			{ name = 'huntingbait',          price = 25,   currency = 'money' },
-			{ name = 'weapon_musket',        price = 2500, currency = 'money' },
+			{ name = 'weapon_musket',        price = 2500, metadata = { registered = true }, license = 'weapon' },
 			{ name = 'ammo-musket',          price = 50,   currency = 'money' },
 			{ name = 'weapon_marksmanrifle', price = 8000, metadata = { registered = true }, license = 'weapon' },
 			{ name = 'ammo-sniper',          price = 80,   currency = 'money' },
