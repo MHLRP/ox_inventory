@@ -365,22 +365,21 @@ return {
 			id = 403, colour = 69, scale = 0.8
 		},
 		inventory = {
-			{ name = 'prescription_pad',        label = 'Prescription Pad', price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'medbag',                  label = 'Medical Bag',      price = 0, metadata = { description = "Property of Los Santos Medical Center" } }, -- Pretty self explanatory, price may be set to 'false' to make free
-			{ name = 'medikit',                 label = 'First-Aid Kit',    price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'morphine10',              label = 'Morphine 10MG',    price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'tylenol',                 label = 'Tylenol',          price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'peptobismol',             label = 'Peptobismol',      price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'loperamide',              label = 'Loperamide',       price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'aspirin',                 label = 'Aspirin',          price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'ibuprofen',               label = 'Ibuprofen',        price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'dramamine',               label = 'Dramamine',        price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'covidvaccine',            label = 'Covid Vaccine',    price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'needle',                  label = 'Needle',           price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'painkillers',             label = 'Pain Killers',     price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'bandage',                 label = 'Bandage',          price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'bodycam',                 label = 'EMS Body Cam',     price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'diving_fill',             label = 'Diving Fill',      price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'prescription_pad',        label = 'Prescription Pad', price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'medbag',                  label = 'Medical Bag',      price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } }, -- Pretty self explanatory, price may be set to 'false' to make free
+			{ name = 'medikit',                 label = 'First-Aid Kit',    price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'morphine10',              label = 'Morphine 10MG',    price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'peptobismol',             label = 'Peptobismol',      price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'loperamide',              label = 'Loperamide',       price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'aspirin',                 label = 'Aspirin',          price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'ibuprofen',               label = 'Ibuprofen',        price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'dramamine',               label = 'Dramamine',        price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'covidvaccine',            label = 'Covid Vaccine',    price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'needle',                  label = 'Needle',           price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'painkillers',             label = 'Pain Killers',     price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'bandage',                 label = 'Bandage',          price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'bodycam',                 label = 'EMS Body Cam',     price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'diving_fill',             label = 'Diving Fill',      price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'radio',                   price = 0,                  metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'weapon_flare',            price = 0,                  metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'radiocell',               price = 0,                  metadata = { description = "Property of Los Santos Medical Center" } },
@@ -713,13 +712,13 @@ return {
 	Pharmacy = {
 		name = 'Pharmacy',
 		inventory = {
-			{ name = 'tylenol',     price = 20,  currency = 'money' },
-			{ name = 'aspirin',     price = 20,  currency = 'money' },
-			{ name = 'ibuprofen',   price = 20,  currency = 'money' },
-			{ name = 'bandage',     price = 20,  currency = 'money' },
-			{ name = 'painkillers', price = 50,  currency = 'money' },
-			{ name = 'emptyvial',   price = 100, currency = 'money' },
-			{ name = 'needle',      price = 200, currency = 'money' },
+			{ name = 'aspirin',      price = 20,  currency = 'money' },
+			{ name = 'ibuprofen',    price = 20,  currency = 'money' },
+			{ name = 'bandage',      price = 20,  currency = 'money' },
+			{ name = 'painkillers',  price = 50,  currency = 'money' },
+			{ name = 'emptyvial',    price = 100, currency = 'money' },
+			{ name = 'needle',       price = 200, currency = 'money' },
+			{ name = 'covidvaccine', price = 200, currency = 'money' },
 		},
 		targets = {
 			{
@@ -734,13 +733,13 @@ return {
 	Pharmacy2 = {
 		name = 'Pharmacy',
 		inventory = {
-			{ name = 'tylenol',     price = 20,  currency = 'money' },
-			{ name = 'aspirin',     price = 20,  currency = 'money' },
-			{ name = 'ibuprofen',   price = 20,  currency = 'money' },
-			{ name = 'bandage',     price = 20,  currency = 'money' },
-			{ name = 'painkillers', price = 50,  currency = 'money' },
-			{ name = 'emptyvial',   price = 100, currency = 'money' },
-			{ name = 'needle',      price = 200, currency = 'money' },
+			{ name = 'aspirin',      price = 20,  currency = 'money' },
+			{ name = 'ibuprofen',    price = 20,  currency = 'money' },
+			{ name = 'bandage',      price = 20,  currency = 'money' },
+			{ name = 'painkillers',  price = 50,  currency = 'money' },
+			{ name = 'emptyvial',    price = 100, currency = 'money' },
+			{ name = 'needle',       price = 200, currency = 'money' },
+			{ name = 'covidvaccine', price = 200, currency = 'money' },
 		},
 		targets = {
 			{
@@ -758,13 +757,13 @@ return {
 			id = 403, colour = 0, scale = 0.6
 		},
 		inventory = {
-			{ name = 'tylenol',     price = 20,  currency = 'money' },
-			{ name = 'aspirin',     price = 20,  currency = 'money' },
-			{ name = 'ibuprofen',   price = 20,  currency = 'money' },
-			{ name = 'bandage',     price = 20,  currency = 'money' },
-			{ name = 'painkillers', price = 50,  currency = 'money' },
-			{ name = 'emptyvial',   price = 100, currency = 'money' },
-			{ name = 'needle',      price = 200, currency = 'money' },
+			{ name = 'aspirin',      price = 20,  currency = 'money' },
+			{ name = 'ibuprofen',    price = 20,  currency = 'money' },
+			{ name = 'bandage',      price = 20,  currency = 'money' },
+			{ name = 'painkillers',  price = 50,  currency = 'money' },
+			{ name = 'emptyvial',    price = 100, currency = 'money' },
+			{ name = 'needle',       price = 200, currency = 'money' },
+			{ name = 'covidvaccine', price = 200, currency = 'money' },
 		},
 		targets = {
 			{
@@ -1098,7 +1097,7 @@ return {
 			}
 		}
 	},
-	
+
 	Bar9 = {
 		name = 'Bar',
 		blip = {
@@ -2008,13 +2007,13 @@ return {
 	Pharmacy4 = {
 		name = 'Pharmacy',
 		inventory = {
-			{ name = 'tylenol',     price = 20,  currency = 'money' },
-			{ name = 'aspirin',     price = 20,  currency = 'money' },
-			{ name = 'ibuprofen',   price = 20,  currency = 'money' },
-			{ name = 'bandage',     price = 20,  currency = 'money' },
-			{ name = 'painkillers', price = 50,  currency = 'money' },
-			{ name = 'emptyvial',   price = 100, currency = 'money' },
-			{ name = 'needle',      price = 200, currency = 'money' },
+			{ name = 'covidvaccine', price = 200, currency = 'money' },
+			{ name = 'aspirin',      price = 20,  currency = 'money' },
+			{ name = 'ibuprofen',    price = 20,  currency = 'money' },
+			{ name = 'bandage',      price = 20,  currency = 'money' },
+			{ name = 'painkillers',  price = 50,  currency = 'money' },
+			{ name = 'emptyvial',    price = 100, currency = 'money' },
+			{ name = 'needle',       price = 200, currency = 'money' },
 		},
 		targets = {
 			{
