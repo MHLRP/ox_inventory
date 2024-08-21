@@ -305,6 +305,7 @@ return {
 			vec3(2677.47, 3279.76, 55.24),
 			vec3(2556.66, 380.84, 108.62),
 			vec3(372.66, 326.98, 103.57),
+			vec3(432.81, 5412.82, 672.28),
 		},
 		targets = {
 			{ loc = vec3(24.47, -1346.62, 29.5),    length = 1.5, width = 3.0, heading = 271.66, minZ = 41.5, maxZ = 43.0, distance = 3 },
@@ -315,7 +316,8 @@ return {
 			{ loc = vec3(549.13, 2670.85, 42.16),   length = 1.5, width = 3.0, heading = 99.39,  minZ = 41.5, maxZ = 43.0, distance = 3 },
 			{ loc = vec3(2677.47, 3279.76, 55.24),  length = 1.5, width = 3.0, heading = 335.08, minZ = 41.5, maxZ = 43.0, distance = 3 },
 			{ loc = vec3(2556.66, 380.84, 108.62),  length = 1.5, width = 3.0, heading = 356.67, minZ = 41.5, maxZ = 43.0, distance = 3 },
-			{ loc = vec3(372.66, 326.98, 103.57),   length = 1.5, width = 3.0, heading = 253.73, minZ = 41.5, maxZ = 43.0, distance = 3 }
+			{ loc = vec3(372.66, 326.98, 103.57),   length = 1.5, width = 3.0, heading = 253.73, minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(432.81, 5412.82, 672.28),   length = 1.5, width = 3.0, heading = 268.38, minZ = 41.5, maxZ = 43.0, distance = 3 }
 		}
 	},
 
@@ -804,6 +806,34 @@ return {
 				scenario = 'WORLD_HUMAN_STAND_MOBILE',
 				loc = vec3(-2182.8179, 4287.4985, 48.1822),
 				heading = 323.5141,
+			}
+		}
+	},
+
+	Chilliad = {
+		name = 'Chilliad Desert',
+		inventory = {
+			{ name = 'cake',        price = 20, currency = 'money' },
+			{ name = 'birthdaycake',       price = 10, currency = 'money' },
+			{ name = 'strawberrycake',       price = 10, currency = 'money' },
+			{ name = 'lollipop1',          price = 25, currency = 'money' },
+			{ name = 'icecream_chr',      price = 20, currency = 'money' },
+			{ name = 'icecream_chc',     price = 25, currency = 'money' },
+			{ name = 'icecream_lmn',     price = 25, currency = 'money' },
+			{ name = 'icecream_pso',     price = 50, currency = 'money' },
+			{ name = 'icecream_rpy',     price = 15, currency = 'money' },
+			{ name = 'icecream_ckd',     price = 50, currency = 'money' },
+			{ name = 'icecream_sby',        price = 15, currency = 'money' },
+			{ name = 'icecream_vna',    price = 25, currency = 'money' },
+			{ name = 'milkshake-morango', price = 50, currency = 'money' },
+			{ name = 'milkshake-chocolate', price = 50, currency = 'money' },
+		},
+		targets = {
+			{
+				ped = `ig_chef`,
+				scenario = 'WORLD_HUMAN_STAND_MOBILE',
+				loc = vec3(473.2962, 5382.8916, 670.8709),
+				heading = 181.1142,
 			}
 		}
 	},
