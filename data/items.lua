@@ -4837,14 +4837,14 @@ return {
 		weight = 15,
 		stack = false,
 		close = true,
-		description = "A stylish backpack"
+		description = "Crossbody Brown Monogram"
 	},
 	["backpack2"] = {
 		label = "backpack2",
 		weight = 15,
 		stack = false,
 		close = true,
-		description = "A stylish backpack"
+		description = "Crossbody Eclipse Monogram"
 	},
 	["duffle1"] = {
 		label = "Duffle bag",
@@ -9283,7 +9283,8 @@ return {
 
 	['raw_meat'] = {
 		label = 'Raw Meat',
-		weight = 2,
+		weight = 1,
+		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 	},
