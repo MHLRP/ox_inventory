@@ -623,7 +623,7 @@ return {
 	SmokeShop2 = {
 		name = 'Smoke Shop',
 		blip = {
-			id = 140, colour = 0, scale = 0.6
+			id = 140, colour = 43, scale = 0.6
 		},
 		inventory = {
 			{ name = 'rolling_paper',  price = 5,   currency = 'money' },
@@ -900,9 +900,6 @@ return {
 
 	Pizza = {
 		name = 'Pizza',
-		blip = {
-			id = 267, colour = 0, scale = 0.6
-		},
 		inventory = {
 			{ name = 'pizza_pep',     price = 20, currency = 'money' },
 			{ name = 'pizza_chs',     price = 20, currency = 'money' },
@@ -1194,9 +1191,9 @@ return {
 
 	Electronics = {
 		name = 'Electronics Store',
-		blip = {
-			id = 606, colour = 0, scale = 0.6
-		},
+		-- blip = {
+		-- 	id = 606, colour = 0, scale = 0.6
+		-- },
 		inventory = {
 			{ name = 'radio',      price = 100,  currency = 'money' },
 			{ name = 'laptop',     price = 1000, currency = 'money' },
