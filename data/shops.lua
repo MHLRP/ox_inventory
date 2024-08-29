@@ -1217,9 +1217,9 @@ return {
 
 	Electronics2 = {
 		name = 'Electronics Store',
-		blip = {
-			id = 606, colour = 0, scale = 0.6
-		},
+		-- blip = {
+		-- 	id = 606, colour = 0, scale = 0.6
+		-- },
 		inventory = {
 			{ name = 'radio',      price = 100,  currency = 'money' },
 			{ name = 'laptop',     price = 1000, currency = 'money' },
