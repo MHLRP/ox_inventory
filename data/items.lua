@@ -4052,8 +4052,11 @@ return {
 		stack = false,
 		close = true,
 		description = "Oh boy a gift!",
-		client = {
+		server = {
 			export = 'qb-multicharacter.giftbox',
+		},
+		client = {
+			-- export = 'qb-multicharacter.giftbox',
 			anim = {
 				dict = 'anim@amb@clubhouse@tutorial@bkr_tut_ig3@',
 				clip = 'machinic_loop_mechandplayer',
