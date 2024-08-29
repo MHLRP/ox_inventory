@@ -1124,9 +1124,6 @@ return {
 
 	Bar9 = {
 		name = 'Bar',
-		blip = {
-			id = 93, colour = 0, scale = 0.6
-		},
 		inventory = {
 			{ name = 'beer',    price = 7,  currency = 'money' },
 			{ name = 'whiskey', price = 10, currency = 'money' },
