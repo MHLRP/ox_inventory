@@ -306,7 +306,6 @@ return {
 			vec3(2556.66, 380.84, 108.62),
 			vec3(372.66, 326.98, 103.57),
 			vec3(432.81, 5412.82, 672.28),
-			vec3(2542.43, 2638.91, 38.06),
 		},
 		targets = {
 			{ loc = vec3(24.47, -1346.62, 29.5),    length = 1.5, width = 3.0, heading = 271.66, minZ = 41.5, maxZ = 43.0, distance = 3 },
@@ -318,8 +317,38 @@ return {
 			{ loc = vec3(2677.47, 3279.76, 55.24),  length = 1.5, width = 3.0, heading = 335.08, minZ = 41.5, maxZ = 43.0, distance = 3 },
 			{ loc = vec3(2556.66, 380.84, 108.62),  length = 1.5, width = 3.0, heading = 356.67, minZ = 41.5, maxZ = 43.0, distance = 3 },
 			{ loc = vec3(372.66, 326.98, 103.57),   length = 1.5, width = 3.0, heading = 253.73, minZ = 41.5, maxZ = 43.0, distance = 3 },
-			{ loc = vec3(432.81, 5412.82, 672.28),  length = 1.5, width = 3.0, heading = 268.38, minZ = 41.5, maxZ = 43.0, distance = 3 },
-			{ loc = vec3(2542.43, 2638.91, 38.06),  length = 1.5, width = 3.0, heading = 90.0, minZ = 41.5, maxZ = 43.0, distance = 3 }
+			{ loc = vec3(432.81, 5412.82, 672.28),  length = 1.5, width = 3.0, heading = 268.38, minZ = 41.5, maxZ = 43.0, distance = 3 }
+		}
+	},
+
+	GeneralStore3 = {
+		name = 'Fleetwoods Store',
+		inventory = {
+			{ name = 'water',          price = 10 },
+			{ name = 'sandwich',       price = 10 },
+			{ name = 'bandage',        price = 25 },
+			{ name = 'lighter',        price = 2 },
+			{ name = 'rolling_paper',  price = 2 },
+			{ name = 'soda',           price = 10 },
+			{ name = 'sprunk',         price = 10 },
+			{ name = 'cigbox',         price = 100 },
+			{ name = 'teddy',          price = 50, },
+			{ name = 'getwell1',       price = 100, },
+			{ name = 'egobar',         price = 10 },
+			{ name = 'crisps',         price = 10 },
+			{ name = 'bakingsoda',     price = 7 },
+			{ name = 'beer',           price = 7 },
+			{ name = 'whiskey',        price = 10 },
+			{ name = 'vodka',          price = 12 },
+			{ name = 'fx_scratchcard', price = 20, },
+		},
+		targets = {
+			{
+				ped = `cs_old_man2`,
+				scenario = 'WORLD_HUMAN_STAND_MOBILE',
+				loc = vec3(2543.08, 2638.28, 36.94),
+				heading = 88.50,
+			}
 		}
 	},
 
@@ -356,7 +385,7 @@ return {
 			{ loc = vec3(-706.06, -913.97, 19.22),  length = 1.5, width = 3.0, heading = 88.04,  minZ = 41.5, maxZ = 43.0, distance = 3 },
 			{ loc = vec3(-1820.02, 794.03, 138.09), length = 1.5, width = 3.0, heading = 135.45, minZ = 41.5, maxZ = 43.0, distance = 3 },
 			{ loc = vec3(1164.71, -322.94, 69.21),  length = 1.5, width = 3.0, heading = 101.72, minZ = 41.5, maxZ = 43.0, distance = 3 },
-			{ loc = vec3(1697.87, 4922.96, 42.06),  length = 1.5, width = 3.0, heading = 324.71, minZ = 41.5, maxZ = 43.0, distance = 3 }
+			{ loc = vec3(1697.87, 4922.96, 42.06),  length = 1.5, width = 3.0, heading = 324.71, minZ = 41.5, maxZ = 43.0, distance = 3 },
 		}
 	},
 
