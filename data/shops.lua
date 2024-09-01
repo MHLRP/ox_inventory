@@ -534,7 +534,8 @@ return {
 			{ name = 'redphone',      price = 2500,  currency = 'black_money' },
 			{ name = 'goldenphone',   price = 7500,  currency = 'black_money' },
 			{ name = 'greenphone',    price = 5000,  currency = 'black_money' },
-
+			{ name = 'cocaine_seed',   price = 6000,  currency = 'black_money' },
+			{ name = 'heroin_seed',    price = 6000,  currency = 'black_money' },
 			--{ name = 'rag',           price = 800,  currency = 'black_money' },
 		},
 		locations = {
