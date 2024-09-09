@@ -14478,83 +14478,6 @@ return {
 		}
 	},
 
-	["fried_chocolate"] = {
-		label = "Fried Chocolate Bar",
-		weight = 200,
-		stack = true,
-		close = true,
-		description = "",
-		client = {
-			image = "fried_chocolate.png",
-		}
-	},
-
-	["frozen_pollock_fillet"] = {
-		label = "Frozen Pollock",
-		weight = 200,
-		stack = true,
-		close = true,
-		description = "",
-		client = {
-			image = "frozen_pollock_fillet.png",
-		}
-	},
-
-	["fried_sausage"] = {
-		label = "Fried Sausage",
-		weight = 200,
-		stack = true,
-		close = true,
-		description = "",
-		client = {
-			image = "fried_sausage.png",
-		}
-	},
-
-	["fishnchipstea"] = {
-		label = "Tea",
-		weight = 200,
-		stack = true,
-		close = true,
-		description = "",
-		client = {
-			image = "fishnchipstea.png",
-		}
-	},
-
-	["fishnchipsorangesoda"] = {
-		label = "Orange Soda",
-		weight = 200,
-		stack = true,
-		close = true,
-		description = "",
-		client = {
-			image = "fishnchipsorangesoda.png",
-		}
-	},
-
-	["fishnchipsgelato"] = {
-		label = "Gelato",
-		weight = 200,
-		stack = true,
-		close = true,
-		description = "",
-		client = {
-			image = "fishnchipsgelato.png",
-		}
-	},
-
-	["fishnchipsbreadknife"] = {
-		label = "Bread Knife",
-		weight = 200,
-		stack = true,
-		close = true,
-		description = "",
-		client = {
-			image = "fishnchipsbreadknife.png",
-		}
-	},
-
 	["fishnchipskitchenknife"] = {
 		label = "Kitchen Knife",
 		weight = 200,
@@ -14566,25 +14489,25 @@ return {
 		}
 	},
 
-	["fishnchipschickenpatty"] = {
-		label = "Chicken Burger Patty",
+	["fishnchipsfries"] = {
+		label = "Cooked Fries",
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "",
 		client = {
-			image = "fishnchipschickenpatty.png",
+			image = "fishnchipsfries.png",
 		}
 	},
 
-	["fishnchipsnuggets"] = {
-		label = "Chicken Nuggets",
+	["fried_sole"] = {
+		label = "Fried Dover Sole",
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "",
 		client = {
-			image = "fishnchipsnuggets.png",
+			image = "fried_sole.png",
 		}
 	},
 
@@ -14599,91 +14522,47 @@ return {
 		}
 	},
 
-	["fishnchipsrimjob"] = {
-		label = "Rim Job",
+	["fried_sausage"] = {
+		label = "Fried Sausage",
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "",
 		client = {
-			image = "fishnchipsrimjob.png",
+			image = "fried_sausage.png",
 		}
 	},
 
-	["frozen_fishcake"] = {
-		label = "Frozen Fish Cake",
+	["fishnchipsbreadknife"] = {
+		label = "Bread Knife",
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "",
 		client = {
-			image = "frozen_fishcake.png",
+			image = "fishnchipsbreadknife.png",
 		}
 	},
 
-	["frozen_sole_battered"] = {
-		label = "Battered Dover Sole",
+	["fishnchipsgelato"] = {
+		label = "Gelato",
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "",
 		client = {
-			image = "frozen_sole_battered.png",
+			image = "fishnchipsgelato.png",
 		}
 	},
 
-	["frozen_sole_fillet"] = {
-		label = "Frozen Dover Sole",
+	["fried_chocolate"] = {
+		label = "Fried Chocolate Bar",
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "",
 		client = {
-			image = "frozen_sole_fillet.png",
-		}
-	},
-
-	["fishnchipsrawnuggets"] = {
-		label = "RAW Chicken Nuggets",
-		weight = 200,
-		stack = true,
-		close = true,
-		description = "",
-		client = {
-			image = "fishnchipsrawnuggets.png",
-		}
-	},
-
-	["fishnchipspotato"] = {
-		label = "Potato",
-		weight = 200,
-		stack = true,
-		close = true,
-		description = "",
-		client = {
-			image = "fishnchipspotato.png",
-		}
-	},
-
-	["fishnchipscheeseburger"] = {
-		label = "Cheese Burger",
-		weight = 200,
-		stack = true,
-		close = true,
-		description = "",
-		client = {
-			image = "fishnchipscheeseburger.png",
-		}
-	},
-
-	["fried_plaice"] = {
-		label = "Fried Plaice",
-		weight = 200,
-		stack = true,
-		close = true,
-		description = "",
-		client = {
-			image = "fried_plaice.png",
+			image = "fried_chocolate.png",
 		}
 	},
 
@@ -14698,102 +14577,14 @@ return {
 		}
 	},
 
-	["fishnchipsrawfries"] = {
-		label = "RAW Fries",
+	["frozen_sausage_battered"] = {
+		label = "Battered Sausage",
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "",
 		client = {
-			image = "fishnchipsrawfries.png",
-		}
-	},
-
-	["fishnchipscheeseslice"] = {
-		label = "Cheese Slice",
-		weight = 200,
-		stack = true,
-		close = true,
-		description = "",
-		client = {
-			image = "fishnchipscheeseslice.png",
-		}
-	},
-
-	["frozen_plaice_battered"] = {
-		label = "Battered Plaice",
-		weight = 200,
-		stack = true,
-		close = true,
-		description = "",
-		client = {
-			image = "frozen_plaice_battered.png",
-		}
-	},
-
-	["frozen_sausage"] = {
-		label = "Frozen Sausage",
-		weight = 200,
-		stack = true,
-		close = true,
-		description = "",
-		client = {
-			image = "frozen_sausage.png",
-		}
-	},
-
-	["fishnchipschickenstrips_battered"] = {
-		label = "Battered Chicken Strips",
-		weight = 200,
-		stack = true,
-		close = true,
-		description = "",
-		client = {
-			image = "fishnchipschickenstrips_battered.png",
-		}
-	},
-
-	["fishnchipscoffee"] = {
-		label = "Coffee",
-		weight = 200,
-		stack = true,
-		close = true,
-		description = "",
-		client = {
-			image = "fishnchipscoffee.png",
-		}
-	},
-
-	["frozen_haddock_battered"] = {
-		label = "Battered Haddock",
-		weight = 200,
-		stack = true,
-		close = true,
-		description = "",
-		client = {
-			image = "frozen_haddock_battered.png",
-		}
-	},
-
-	["fried_pollock"] = {
-		label = "Fried Pollock",
-		weight = 200,
-		stack = true,
-		close = true,
-		description = "",
-		client = {
-			image = "fried_pollock.png",
-		}
-	},
-
-	["battermix"] = {
-		label = "Batter Mix",
-		weight = 200,
-		stack = true,
-		close = true,
-		description = "",
-		client = {
-			image = "battermix.png",
+			image = "frozen_sausage_battered.png",
 		}
 	},
 
@@ -14819,25 +14610,190 @@ return {
 		}
 	},
 
-	["fishnchips_chocolate_battered"] = {
-		label = "Battered Chocolate Bar",
+	["battermix"] = {
+		label = "Batter Mix",
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "",
 		client = {
-			image = "fishnchips_chocolate_battered.png",
+			image = "battermix.png",
 		}
 	},
 
-	["fried_fishcake"] = {
-		label = "Fried Fish Cake",
+	["fishnchipscoffee"] = {
+		label = "Coffee",
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "",
 		client = {
-			image = "fried_fishcake.png",
+			image = "fishnchipscoffee.png",
+		}
+	},
+
+	["fishnchipsnuggets"] = {
+		label = "Chicken Nuggets",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "fishnchipsnuggets.png",
+		}
+	},
+
+	["frozen_sole_fillet"] = {
+		label = "Frozen Dover Sole",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "frozen_sole_fillet.png",
+		}
+	},
+
+	["fishnchipscoffeecup"] = {
+		label = "Coffee Cup",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "fishnchipscoffeecup.png",
+		}
+	},
+
+	["fishnchipsrawfries"] = {
+		label = "RAW Fries",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "fishnchipsrawfries.png",
+		}
+	},
+
+	["frozen_sole_battered"] = {
+		label = "Battered Dover Sole",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "frozen_sole_battered.png",
+		}
+	},
+
+	["fishnchipsburgerpatty"] = {
+		label = "Burger Patty",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "fishnchipsburgerpatty.png",
+		}
+	},
+
+	["fishnchipscheeseslice"] = {
+		label = "Cheese Slice",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "fishnchipscheeseslice.png",
+		}
+	},
+
+	["fishnchipsorangesoda"] = {
+		label = "Orange Soda",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "fishnchipsorangesoda.png",
+		}
+	},
+
+	["fishnchipsrimjob"] = {
+		label = "Rim Job",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "fishnchipsrimjob.png",
+		}
+	},
+
+	["fishnchipschickenpatty"] = {
+		label = "Chicken Burger Patty",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "fishnchipschickenpatty.png",
+		}
+	},
+
+	["fishnchipsrawchickenstrips"] = {
+		label = "RAW Chicken Strips",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "fishnchipsrawchickenstrips.png",
+		}
+	},
+
+	["frozen_pollock_fillet"] = {
+		label = "Frozen Pollock",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "frozen_pollock_fillet.png",
+		}
+	},
+
+	["fishnchipscheeseburger"] = {
+		label = "Cheese Burger",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "fishnchipscheeseburger.png",
+		}
+	},
+
+	["fishnchipssprunk"] = {
+		label = "Sprunk",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "fishnchipssprunk.png",
+		}
+	},
+
+	["fishnchipsfriedchickenstrips"] = {
+		label = "Fried Chicken Strips",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "fishnchipsfriedchickenstrips.png",
 		}
 	},
 
@@ -14863,58 +14819,36 @@ return {
 		}
 	},
 
-	["frozen_sausage_battered"] = {
-		label = "Battered Sausage",
+	["frozen_pollock_battered"] = {
+		label = "Battered Pollock",
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "",
 		client = {
-			image = "frozen_sausage_battered.png",
+			image = "frozen_pollock_battered.png",
 		}
 	},
 
-	["fishnchipschickenburger"] = {
-		label = "Chicken Burger",
+	["fishnchipsslicedburgerbun"] = {
+		label = "Sliced Burger Bun",
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "",
 		client = {
-			image = "fishnchipschickenburger.png",
+			image = "fishnchipsslicedburgerbun.png",
 		}
 	},
 
-	["fried_sole"] = {
-		label = "Fried Dover Sole",
+	["fried_plaice"] = {
+		label = "Fried Plaice",
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "",
 		client = {
-			image = "fried_sole.png",
-		}
-	},
-
-	["fishnchipsrawchickenstrips"] = {
-		label = "RAW Chicken Strips",
-		weight = 200,
-		stack = true,
-		close = true,
-		description = "",
-		client = {
-			image = "fishnchipsrawchickenstrips.png",
-		}
-	},
-
-	["fried_cod"] = {
-		label = "Fried Cod",
-		weight = 200,
-		stack = true,
-		close = true,
-		description = "",
-		client = {
-			image = "fried_cod.png",
+			image = "fried_plaice.png",
 		}
 	},
 
@@ -14929,36 +14863,44 @@ return {
 		}
 	},
 
-	["fishnchipsburgerpatty"] = {
-		label = "Burger Patty",
+	["frozen_plaice_battered"] = {
+		label = "Battered Plaice",
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "",
 		client = {
-			image = "fishnchipsburgerpatty.png",
+			image = "frozen_plaice_battered.png",
 		}
 	},
 
-	["fishnchipssprunk"] = {
-		label = "Sprunk",
+	["fishnchipsrawnuggets"] = {
+		label = "RAW Chicken Nuggets",
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "",
 		client = {
-			image = "fishnchipssprunk.png",
+			image = "fishnchipsrawnuggets.png",
 		}
 	},
 
-	["fishnchipsfries"] = {
-		label = "Cooked Fries",
+	["frozen_cod_fillet"] = {
+		label = "Frozen Cod",
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "",
 		client = {
-			image = "fishnchipsfries.png",
+			image = "frozen_cod_fillet.png",
+		}
+	},
+
+	["fried_pollock"] = {
+		label = "Fried Pollock",
+		description = "",
+		client = {
+			image = "fried_pollock.png",
 		}
 	},
 
@@ -14967,9 +14909,52 @@ return {
 		weight = 200,
 		stack = true,
 		close = true,
-		description = "",
 		client = {
 			image = "frozen_plaice_fillet.png",
+		}
+	},
+
+	["fried_cod"] = {
+		label = "Fried Cod",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "fried_cod.png",
+		}
+	},
+
+	["fishnchipschickenburger"] = {
+		label = "Chicken Burger",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "fishnchipschickenburger.png",
+		}
+	},
+
+	["frozen_fishcake"] = {
+		label = "Frozen Fish Cake",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "frozen_fishcake.png",
+		}
+	},
+
+	["fishnchips_chocolate_battered"] = {
+		label = "Battered Chocolate Bar",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "fishnchips_chocolate_battered.png",
 		}
 	},
 
@@ -14995,47 +14980,58 @@ return {
 		}
 	},
 
-	["fishnchipscoffeecup"] = {
-		label = "Coffee Cup",
+	["fried_fishcake"] = {
+		label = "Fried Fish Cake",
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "",
 		client = {
-			image = "fishnchipscoffeecup.png",
+			image = "fried_fishcake.png",
 		}
 	},
 
-	["frozen_cod_fillet"] = {
-		label = "Frozen Cod",
+	["frozen_sausage"] = {
+		label = "Frozen Sausage",
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "",
 		client = {
-			image = "frozen_cod_fillet.png",
+			image = "frozen_sausage.png",
 		}
 	},
 
-	["fishnchipsslicedburgerbun"] = {
-		label = "Sliced Burger Bun",
+	["fishnchipstea"] = {
+		label = "Tea",
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "",
 		client = {
-			image = "fishnchipsslicedburgerbun.png",
+			image = "fishnchipstea.png",
 		}
 	},
 
-	["frozen_pollock_battered"] = {
-		label = "Battered Pollock",
+	["fishnchipschickenstrips_battered"] = {
+		label = "Battered Chicken Strips",
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "",
 		client = {
-			image = "frozen_pollock_battered.png",
+			image = "fishnchipschickenstrips_battered.png",
+		}
+	},
+
+	["frozen_haddock_battered"] = {
+		label = "Battered Haddock",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "frozen_haddock_battered.png",
 		}
 	},
 
@@ -15050,14 +15046,14 @@ return {
 		}
 	},
 
-	["fishnchipsfriedchickenstrips"] = {
-		label = "Fried Chicken Strips",
+	["fishnchipspotato"] = {
+		label = "Potato",
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "",
 		client = {
-			image = "fishnchipsfriedchickenstrips.png",
+			image = "fishnchipspotato.png",
 		}
 	},
 }
