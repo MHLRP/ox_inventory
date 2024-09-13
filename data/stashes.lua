@@ -427,4 +427,21 @@ return {
 		slots = 70,
 		weight = 70000,
 	},
+	{
+		coords = vec3(539.6855, -2049.8350, 6.1816),
+		target = {
+			loc = vec3(539.6855, -2049.8350, 6.1816),
+			length = 1.2,
+			width = 5.6,
+			heading = 85.5589,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Storage'
+		},
+		name = 'fleetwoods1',
+		label = 'Storage',
+		owner = false,
+		slots = 70,
+		weight = 70000,
+	},
 }

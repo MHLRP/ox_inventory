@@ -1202,6 +1202,21 @@ return {
 		}
 	},
 
+	FleetwoodsBar = {
+		name = 'Fleetwoods Bar',
+		inventory = {
+			{ name = 'beer',    price = 0, currency = 'money' },
+			{ name = 'whiskey', price = 0, currency = 'money' },
+			{ name = 'vodka',   price = 0, currency = 'money' },
+		},
+		locations = {
+			vec3(556.59613037109, -2066.978515625, 2.3579893112183)
+		},
+		targets = {
+			{ loc = vec3(556.59613037109, -2066.978515625, 2.3579893112183), length = 0.6, width = 0.5, heading = 264.6005, minZ = 28.2, maxZ = 28.6, distance = 2 }
+		}
+	},
+
 	Fishing = {
 		name = 'Fishing Shop',
 		blip = {
