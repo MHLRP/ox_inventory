@@ -713,15 +713,11 @@ return {
 	Bennys = {
 		name = 'Bennys Shop',
 		inventory = {
-			{ name = 'repair_kit',          price = 350,  currency = 'money' },
-			{ name = 'driftkit',            price = 4500, currency = 'money' },
+			{ name = 'duct_tape',          price = 250,  currency = 'money' },
 			{ name = 'cleaning_kit',        price = 150,  currency = 'money' },
-			{ name = 'engine_oil',          price = 400,  currency = 'money' },
-			{ name = 'stancing_kit',        price = 2500, currency = 'money' },
-			{ name = 'customizableplate',   price = 2000, currency = 'money' },
-			{ name = 'nitrous_bottle',      price = 3000, currency = 'money' },
-			{ name = 'lighting_controller', price = 2500, currency = 'money' },
+			{ name = 'customizableplate',   price = 25000, currency = 'money' },
 			{ name = 'rocketball',          price = 500,  currency = 'money' },
+			{ name = 'stancing_kit',          price = 5000,  currency = 'money' },
 		},
 		targets = {
 			{
@@ -736,15 +732,10 @@ return {
 	Bennys2 = {
 		name = 'Auto Sunset Shop',
 		inventory = {
-			{ name = 'repair_kit',          price = 350,  currency = 'money' },
-			{ name = 'driftkit',            price = 4500, currency = 'money' },
+			{ name = 'duct_tape',          price = 250,  currency = 'money' },
 			{ name = 'cleaning_kit',        price = 150,  currency = 'money' },
-			{ name = 'engine_oil',          price = 400,  currency = 'money' },
-			{ name = 'stancing_kit',        price = 2500, currency = 'money' },
-			{ name = 'customizableplate',   price = 2000, currency = 'money' },
-			{ name = 'nitrous_bottle',      price = 3000, currency = 'money' },
-			{ name = 'lighting_controller', price = 2500, currency = 'money' },
 			{ name = 'rocketball',          price = 500,  currency = 'money' },
+			{ name = 'stancing_kit',          price = 5000,  currency = 'money' },
 		},
 		targets = {
 			{
@@ -1384,7 +1375,7 @@ return {
 			{ name = 'scissors',         price = 200,   currency = 'money' },
 			{ name = 'goldpan',          price = 800,   currency = 'money' },
 			{ name = 'cwnotepad',        price = 500,   currency = 'money' },
-			{ name = 'repair_kit',       price = 250,   currency = 'money' },
+			{ name = 'duct_tape',          price = 250,  currency = 'money' },
 			{ name = 'rocketball',       price = 500,   currency = 'money' },
 			{ name = 'megaphone',        price = 500,   currency = 'money' },
 			{ name = 'yogamat',          price = 800,   currency = 'money' },
