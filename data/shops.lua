@@ -1427,6 +1427,7 @@ return {
 			{ name = 'cleaning_kit',     price = 150,   currency = 'money' },
 			{ name = 'todcards',         price = 150,   currency = 'money' },
 			{ name = 'truthdare_bottle', price = 50,    currency = 'money' },
+			{ name = 'kq_winch',         price = 2000,  currency = 'money' },
 			-- { name = 'drone',            price = 10000, currency = 'money' },
 			{ name = 'boombox',          price = 500,   currency = 'money' },
 			{ name = 'umbrella',         price = 50,    currency = 'money' },
