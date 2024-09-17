@@ -15056,4 +15056,14 @@ return {
 			image = "fishnchipspotato.png",
 		}
 	},
+
+	--- GRUPPE6 
+
+	['inked_cash_bag'] = {
+    	label = 'Gruppe 6 Inked Cash Bag',
+    	weight = 1000,
+		name = 'inked_cash_bag',
+		description = "Bag full of useless inked cash.",
+		useable = true,
+    },
 }
