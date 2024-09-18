@@ -10392,7 +10392,7 @@ return {
 
 	["goldore"] = {
 		label = "Gold Ore",
-		weight = 1000,
+		weight = 400,
 		stack = true,
 		close = false,
 		description = "Gold Ore",
@@ -10582,7 +10582,7 @@ return {
 
 	["uncut_emerald"] = {
 		label = "Uncut Emerald",
-		weight = 100,
+		weight = 200,
 		stack = true,
 		close = false,
 		description = "A rough Emerald",
@@ -10626,7 +10626,7 @@ return {
 
 	["uncut_diamond"] = {
 		label = "Uncut Diamond",
-		weight = 100,
+		weight = 200,
 		stack = true,
 		close = false,
 		description = "A rough Diamond",
@@ -10750,7 +10750,7 @@ return {
 
 	["uncut_ruby"] = {
 		label = "Uncut Ruby",
-		weight = 100,
+		weight = 200,
 		stack = true,
 		close = false,
 		description = "A rough Ruby",
@@ -10849,7 +10849,7 @@ return {
 
 	["uncut_sapphire"] = {
 		label = "Uncut Sapphire",
-		weight = 100,
+		weight = 200,
 		stack = true,
 		close = false,
 		description = "A rough Sapphire",

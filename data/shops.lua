@@ -377,7 +377,7 @@ return {
 			vec3(1921.3940, 2892.0803, 45.6875),
 		},
 		targets = {
-			{ loc = vec3(1921.3940, 2892.0803, 45.6875),    length = 1.5, width = 3.0, heading = 102.9645, minZ = 41.5, maxZ = 43.0, distance = 3 }
+			{ loc = vec3(1921.3940, 2892.0803, 45.6875), length = 1.5, width = 3.0, heading = 102.9645, minZ = 41.5, maxZ = 43.0, distance = 3 }
 		}
 	},
 
@@ -555,15 +555,15 @@ return {
 		name = 'Black Market',
 		inventory = {
 			{ name = 'houselaptop',   price = 1600,   currency = 'black_money' },
-			{ name = 'mansionlaptop', price = 2200,  currency = 'black_money' },
+			{ name = 'mansionlaptop', price = 2200,   currency = 'black_money' },
 			{ name = 'armour',        price = 12000,  currency = 'black_money' },
 			{ name = 'jammer',        price = 22000,  currency = 'black_money' },
-			{ name = 'drone',         price = 45000, currency = 'black_money' },
+			{ name = 'drone',         price = 45000,  currency = 'black_money' },
 			{ name = 'redphone',      price = 85000,  currency = 'black_money' },
-			{ name = 'goldenphone',   price = 165000,  currency = 'black_money' },
+			{ name = 'goldenphone',   price = 165000, currency = 'black_money' },
 			{ name = 'greenphone',    price = 12000,  currency = 'black_money' },
-			{ name = 'cocaine_seed',   price = 6000,  currency = 'black_money' },
-			{ name = 'heroin_seed',    price = 6500,  currency = 'black_money' },
+			{ name = 'cocaine_seed',  price = 6000,   currency = 'black_money' },
+			{ name = 'heroin_seed',   price = 6500,   currency = 'black_money' },
 			--{ name = 'rag',           price = 800,  currency = 'black_money' },
 		},
 		locations = {
@@ -713,11 +713,11 @@ return {
 	Bennys = {
 		name = 'Bennys Shop',
 		inventory = {
-			{ name = 'duct_tape',          price = 250,  currency = 'money' },
-			{ name = 'cleaning_kit',        price = 150,  currency = 'money' },
-			{ name = 'customizableplate',   price = 25000, currency = 'money' },
-			{ name = 'rocketball',          price = 500,  currency = 'money' },
-			{ name = 'stancing_kit',          price = 5000,  currency = 'money' },
+			{ name = 'duct_tape',         price = 250,   currency = 'money' },
+			{ name = 'cleaning_kit',      price = 150,   currency = 'money' },
+			{ name = 'customizableplate', price = 25000, currency = 'money' },
+			{ name = 'rocketball',        price = 500,   currency = 'money' },
+			{ name = 'stancing_kit',      price = 5000,  currency = 'money' },
 		},
 		targets = {
 			{
@@ -732,10 +732,10 @@ return {
 	Bennys2 = {
 		name = 'Auto Sunset Shop',
 		inventory = {
-			{ name = 'duct_tape',          price = 250,  currency = 'money' },
-			{ name = 'cleaning_kit',        price = 150,  currency = 'money' },
-			{ name = 'rocketball',          price = 500,  currency = 'money' },
-			{ name = 'stancing_kit',          price = 5000,  currency = 'money' },
+			{ name = 'duct_tape',    price = 250,  currency = 'money' },
+			{ name = 'cleaning_kit', price = 150,  currency = 'money' },
+			{ name = 'rocketball',   price = 500,  currency = 'money' },
+			{ name = 'stancing_kit', price = 5000, currency = 'money' },
 		},
 		targets = {
 			{
@@ -1375,7 +1375,7 @@ return {
 			{ name = 'scissors',         price = 200,   currency = 'money' },
 			{ name = 'goldpan',          price = 800,   currency = 'money' },
 			{ name = 'cwnotepad',        price = 500,   currency = 'money' },
-			{ name = 'duct_tape',          price = 250,  currency = 'money' },
+			{ name = 'duct_tape',        price = 250,   currency = 'money' },
 			{ name = 'rocketball',       price = 500,   currency = 'money' },
 			{ name = 'megaphone',        price = 500,   currency = 'money' },
 			{ name = 'yogamat',          price = 800,   currency = 'money' },
@@ -1404,6 +1404,7 @@ return {
 			{ name = 'ziptie',           price = 650,   currency = 'money' },
 			{ name = 'dart',             price = 20,    currency = 'money' },
 			{ name = 'weapon_flare',     price = 850,   currency = 'money' },
+			{ name = 'walkstick',        price = 250,   currency = 'money' },
 			{ name = 'poster',           price = 400,   currency = 'money' },
 			{ name = 'flush_cutter',     price = 600,   currency = 'money' },
 			{ name = 'advancedlockpick', price = 600,   currency = 'money' },
