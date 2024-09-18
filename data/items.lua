@@ -3434,55 +3434,55 @@ return {
 
 	['stone'] = {
 		label = 'Stone',
-		weight = 265,
+		weight = 500,
 		stack = true,
 	},
 
 	['raw_copper'] = {
 		label = 'Raw Copper',
-		weight = 245,
+		weight = 400,
 		stack = true,
 	},
 
 	['raw_iron'] = {
 		label = 'Raw Iron',
-		weight = 225,
+		weight = 400,
 		stack = true,
 	},
 
 	['raw_steel'] = {
 		label = 'Raw Steel',
-		weight = 210,
+		weight = 400,
 		stack = true,
 	},
 
 	['raw_silver'] = {
 		label = 'Raw Silver',
-		weight = 190,
+		weight = 400,
 		stack = true,
 	},
 
 	['raw_gold'] = {
 		label = 'Raw Gold',
-		weight = 190,
+		weight = 400,
 		stack = true,
 	},
 
 	['raw_diamond'] = {
 		label = 'Raw Diamond',
-		weight = 165,
+		weight = 200,
 		stack = true,
 	},
 
 	['raw_emerald'] = {
 		label = 'Raw Emerald',
-		weight = 140,
+		weight = 200,
 		stack = true,
 	},
 
 	["copper"] = {
 		label = "Copper",
-		weight = 1,
+		weight = 400,
 		stack = true,
 		close = false,
 		description = "Nice piece of metal that you can probably use for something",
@@ -3490,7 +3490,7 @@ return {
 
 	["iron"] = {
 		label = "Iron",
-		weight = 1,
+		weight = 400,
 		stack = true,
 		close = false,
 		description = "Handy piece of metal that you can probably use for something",
@@ -3498,7 +3498,7 @@ return {
 
 	["steel"] = {
 		label = "Steel",
-		weight = 1,
+		weight = 400,
 		stack = true,
 		close = false,
 		description = "Nice piece of metal that you can probably use for something",
@@ -3506,19 +3506,19 @@ return {
 
 	['silver'] = {
 		label = 'Silver',
-		weight = 175,
+		weight = 400,
 		stack = true,
 	},
 
 	['gold'] = {
 		label = 'Gold',
-		weight = 155,
+		weight = 400,
 		stack = true,
 	},
 
 	["diamond"] = {
 		label = "Diamond",
-		weight = 1000,
+		weight = 200,
 		stack = true,
 		close = true,
 		description = "A diamond seems like the jackpot to me!",
@@ -3526,7 +3526,7 @@ return {
 
 	['emerald'] = {
 		label = 'Emerald',
-		weight = 125,
+		weight = 200,
 		stack = true,
 	},
 
