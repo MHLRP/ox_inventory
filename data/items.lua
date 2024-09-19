@@ -12795,7 +12795,7 @@ return {
 		description = "I didn't even know people wanted this",
 		client = {
 			status = { thirst = 30 },
-			anim = { dict = 'mxc_vend_prop_item_bottle3', clip = 'loop_bottle' },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = {
 				model = 'mxc_vend_prop_item_bottle3',
 				pos = vec3(0.0, 0.0, 0.0),
@@ -12814,7 +12814,7 @@ return {
 		description = "I didn't even know people wanted this",
 		client = {
 			status = { thirst = 30 },
-			anim = { dict = 'mxc_vend_prop_item_bottle4', clip = 'loop_bottle' },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = {
 				model = 'mxc_vend_prop_item_bottle4',
 				pos = vec3(0.0, 0.0, 0.0),
