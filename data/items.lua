@@ -9580,20 +9580,60 @@ return {
 		description = "Speed up, gas pedal! :D",
 	},
 
+    ["k20a"] = {
+        label = "K20a Type R", 
+		weight = 500,
+		stack = false,
+		close = true,
+		description = ''
+    }, 
+
+    ["v8engine"] = {
+        label = "Brabus 850", 
+		weight = 500,
+		stack = false,
+		close = true,
+		description = ''
+    }, 
+
+    ["shonen"] = {
+        label = "Shonen Engine", 
+		weight = 500,
+		stack = false,
+		close = true,
+		description = ''
+    }, 
+
+    ["predatorv8"] = {
+        label = "Predator v8", 
+		weight = 500,
+		stack = false,
+		close = true,
+		description = ''
+    },  
+
+	["lambov10"] = {
+		label = "Lambo v10", 
+		weight = 500,
+		stack = false,
+		close = true,
+		description = ''
+	}, 
+	
+	["rotary7"] = {
+		label = "Rotary 7", 
+		weight = 500,
+		stack = false,
+		close = true,
+		description = ''
+	}, 
+
 	["veh_interior"] = {
 		label = "Interior",
 		weight = 1000,
 		stack = true,
 		close = true,
 		description = "Upgrade vehicle interior",
-	},
-
-	["k20a"] = {
-		label = "ENGINE",
-		weight = 100,
-		stack = true,
-		close = true,
-		description = "Speed up, gas pedal! :D",
 	},
 
 	["veh_turbo"] = {
