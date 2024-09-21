@@ -10027,7 +10027,7 @@ return {
 	},
 	-- Engine Items
 	["i4_engine"] = {
-		label = "POLICE V6 3.3L",
+		label = "POLICE I4 Turbo 2.5L",
 		weight = 1000,
 	},
 	["v6_engine"] = {
