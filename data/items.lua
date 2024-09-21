@@ -9933,11 +9933,11 @@ return {
 	},
 
 	["perfov10"] = {
-		label = "Lando V10 5.2L Performance (Perfov10)",
+		label = "Lando V10 5.2L Performance",
 		weight = 100,
 		stack = true,
 		close = true,
-		description = "",
+		description = "Perfov10",
 	},
 
 	["rx713b"] = {
@@ -9957,11 +9957,11 @@ return {
 	},
 
 	["murciev12"] = {
-		label = "Lando V12 6.5L (Murciev12)",
+		label = "Lando V12 6.5L",
 		weight = 100,
 		stack = true,
 		close = true,
-		description = "",
+		description = "Murciev12",
 	},
 
 	["p60b40"] = {
