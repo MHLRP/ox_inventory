@@ -9573,15 +9573,15 @@ return {
 	},
 
 	["veyronsound"] = {
-		label = "ENGINE",
+		label = "Bud W16 8.0L (Veyron)",
 		weight = 100,
 		stack = true,
 		close = true,
-		description = "Speed up, gas pedal! :D",
+		description = "",
 	},
 
     ["k20a"] = {
-        label = "K20a Type R", 
+        label = "K20a Engine Type R", 
 		weight = 500,
 		stack = false,
 		close = true,
@@ -9589,7 +9589,7 @@ return {
     }, 
 
     ["v8engine"] = {
-        label = "Brabus 850", 
+        label = "V8 5.0L (STOCK)", 
 		weight = 500,
 		stack = false,
 		close = true,
@@ -9597,7 +9597,7 @@ return {
     }, 
 
     ["shonen"] = {
-        label = "Shonen Engine", 
+        label = "Inline-4 Turbo 1.8L (Shonen)", 
 		weight = 500,
 		stack = false,
 		close = true,
@@ -9605,7 +9605,7 @@ return {
     }, 
 
     ["predatorv8"] = {
-        label = "Predator v8", 
+        label = "Predator V8 5.2L", 
 		weight = 500,
 		stack = false,
 		close = true,
@@ -9613,7 +9613,7 @@ return {
     },  
 
 	["lambov10"] = {
-		label = "Lambo v10", 
+		label = "Lando V10 5.2L", 
 		weight = 500,
 		stack = false,
 		close = true,
@@ -9621,7 +9621,7 @@ return {
 	}, 
 	
 	["rotary7"] = {
-		label = "Rotary 7", 
+		label = "Rotary 2.6L", 
 		weight = 500,
 		stack = false,
 		close = true,
@@ -9661,11 +9661,11 @@ return {
 	},
 
 	["mclarenv8"] = {
-		label = "ENGINE",
+		label = "Flare V8 4.0L",
 		weight = 100,
 		stack = true,
 		close = true,
-		description = "Speed up, gas pedal! :D",
+		description = "",
 	},
 
 	["veh_engine"] = {
@@ -9717,15 +9717,15 @@ return {
 	},
 
 	["f50v12"] = {
-		label = "ENGINE",
+		label = "Favo F50 V12 4.7L",
 		weight = 100,
 		stack = true,
 		close = true,
-		description = "Speed up, gas pedal! :D",
+		description = "",
 	},
 
 	["avesvv12"] = {
-		label = "ENGINE",
+		label = "Adventure SV V12 6.5L",
 		weight = 100,
 		stack = true,
 		close = true,
@@ -9741,11 +9741,11 @@ return {
 	},
 
 	["m297zonda"] = {
-		label = "ENGINE",
+		label = "M297 Zonda 6.0L",
 		weight = 100,
 		stack = true,
 		close = true,
-		description = "Speed up, gas pedal! :D",
+		description = "",
 	},
 
 	["turbostreet"] = {
@@ -9789,11 +9789,11 @@ return {
 	},
 
 	["viperv10"] = {
-		label = "ENGINE",
+		label = "Viper V10 8.4L",
 		weight = 100,
 		stack = true,
 		close = true,
-		description = "Speed up, gas pedal! :D",
+		description = "",
 	},
 
 	["kq_tow_rope"] = {
@@ -9805,11 +9805,11 @@ return {
 	},
 
 	["musv8"] = {
-		label = "ENGINE",
+		label = "Lisson V8 5.0L",
 		weight = 100,
 		stack = true,
 		close = true,
-		description = "Speed up, gas pedal! :D",
+		description = "",
 	},
 
 	["b16b"] = {
@@ -9837,11 +9837,11 @@ return {
 	},
 
 	["ferrarif12"] = {
-		label = "ENGINE",
+		label = "Favo F12 V12 6.3L",
 		weight = 100,
 		stack = true,
 		close = true,
-		description = "Speed up, gas pedal! :D",
+		description = "",
 	},
 
 	["rb26dett"] = {
@@ -9853,75 +9853,75 @@ return {
 	},
 
 	["r35sound"] = {
-		label = "ENGINE",
+		label = "Missin GTR R35 3.8L",
 		weight = 100,
 		stack = true,
 		close = true,
-		description = "Speed up, gas pedal! :D",
+		description = "",
 	},
 
 	["urusv8"] = {
-		label = "ENGINE",
+		label = "Urus V8 4.0L",
 		weight = 100,
 		stack = true,
 		close = true,
-		description = "Speed up, gas pedal! :D",
+		description = "",
 	},
 
 	["m158huayra"] = {
-		label = "ENGINE",
+		label = "ASG V12 6.0L",
 		weight = 100,
 		stack = true,
 		close = true,
-		description = "Speed up, gas pedal! :D",
+		description = "",
 	},
 
 	["gtaspanov10"] = {
-		label = "ENGINE",
+		label = "Spano V10 8.0L",
 		weight = 100,
 		stack = true,
 		close = true,
-		description = "Speed up, gas pedal! :D",
+		description = "",
 	},
 
 	["apollosv8"] = {
-		label = "ENGINE",
-		weight = 100,
+		label = "Apollo V8 4.0L",
+		weight = 500,
 		stack = true,
 		close = true,
-		description = "Speed up, gas pedal! :D",
+		description = "",
 	},
 
 	["sestov10"] = {
-		label = "ENGINE",
-		weight = 100,
+		label = "Lando V10 5.2L Sesto",
+		weight = 500,
 		stack = true,
 		close = true,
-		description = "Speed up, gas pedal! :D",
+		description = "",
 	},
 
 	["r488sound"] = {
-		label = "ENGINE",
-		weight = 100,
+		label = "R488 Engine 2.5L",
+		weight = 500,
 		stack = true,
 		close = true,
-		description = "Speed up, gas pedal! :D",
+		description = "",
 	},
 
 	["supra2jzgtett"] = {
-		label = "ENGINE",
-		weight = 100,
+		label = "Super 2JZ-GTE",
+		weight = 500,
 		stack = true,
 		close = true,
-		description = "Speed up, gas pedal! :D",
+		description = "",
 	},
 
 	["diablov12"] = {
-		label = "ENGINE",
-		weight = 100,
+		label = "Diablo V12 6.0L",
+		weight = 500,
 		stack = true,
 		close = true,
-		description = "Speed up, gas pedal! :D",
+		description = "",
 	},
 
 	["harness"] = {
@@ -9933,11 +9933,11 @@ return {
 	},
 
 	["perfov10"] = {
-		label = "ENGINE",
+		label = "Lando V10 5.2L Performance (Perfov10)",
 		weight = 100,
 		stack = true,
 		close = true,
-		description = "Speed up, gas pedal! :D",
+		description = "",
 	},
 
 	["rx713b"] = {
@@ -9949,19 +9949,19 @@ return {
 	},
 
 	["f40v8"] = {
-		label = "ENGINE",
+		label = "Favo F40 V8 2.9L",
 		weight = 100,
 		stack = true,
 		close = true,
-		description = "Speed up, gas pedal! :D",
+		description = "",
 	},
 
 	["murciev12"] = {
-		label = "ENGINE",
+		label = "Lando V12 6.5L (Murciev12)",
 		weight = 100,
 		stack = true,
 		close = true,
-		description = "Speed up, gas pedal! :D",
+		description = "",
 	},
 
 	["p60b40"] = {
@@ -9973,11 +9973,11 @@ return {
 	},
 
 	["gt3flat6"] = {
-		label = "ENGINE",
+		label = "Flat-6 3.8L",
 		weight = 100,
 		stack = true,
 		close = true,
-		description = "Speed up, gas pedal! :D",
+		description = "",
 	},
 
 	["street_tirekit"] = {
@@ -10027,11 +10027,11 @@ return {
 	},
 	-- Engine Items
 	["i4_engine"] = {
-		label = "I4 Engine",
+		label = "POLICE V6 3.3L",
 		weight = 1000,
 	},
 	["v6_engine"] = {
-		label = "V6 Engine",
+		label = "POLICE V6 3.3L",
 		weight = 1000,
 	},
 	["v8_engine"] = {
