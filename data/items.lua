@@ -8360,7 +8360,7 @@ return {
 		label = '3oz Amnesia Haze',
 		consume = 0.267,
 		weight = 85,
-		description = "Oh man, what a dingus, just Look at em",
+		description = "Sativa 3oz",
 		client = {
 			anim = { dict = 'amb@world_human_aa_smoke@male@idle_a', clip = 'idle_c', flag = 49 },
 			prop = {
@@ -8378,7 +8378,7 @@ return {
 		label = '3oz Afghan Kush',
 		consume = 0.267,
 		weight = 85,
-		description = "Oh man, what a dingus, just Look at em",
+		description = "Indica 3oz",
 		client = {
 			anim = { dict = 'amb@world_human_aa_smoke@male@idle_a', clip = 'idle_c', flag = 49 },
 			prop = {
@@ -8396,7 +8396,7 @@ return {
 		label = '3oz White Widow',
 		consume = 0.267,
 		weight = 85,
-		description = "Oh man, what a dingus, just Look at em",
+		description = "Hybrid 3oz",
 		client = {
 			anim = { dict = 'amb@world_human_aa_smoke@male@idle_a', clip = 'idle_c', flag = 49 },
 			prop = {
@@ -13202,6 +13202,7 @@ return {
 		label = "Cigarettes: Redwood",
 		weight = 1,
 		stack = true
+		
 	},
 	["cigs_redwood2"] = {
 		label = "Cigarettes: Redwood2",
