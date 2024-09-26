@@ -1831,6 +1831,48 @@ return {
 		description = "Passionfruit",
 	},
 
+	["pinkcottoncandy"] = {
+		label = "Pink Cotton Candy",
+		weight = 5,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Sugar rush!",
+		client = {
+			status = { hunger = 20 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'z_ccandy_p',
+				bone = 18905,
+				pos = vec3(0.14, 0.03, 0.01),
+				rot = vec3(85.0, 70.0, -203.0)
+			},
+			usetime = 7500,
+		}
+	},
+
+	["bluecottoncandy"] = {
+		label = "Blue Cotton Candy",
+		weight = 5,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Sugar rush!",
+		client = {
+			status = { hunger = 20 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'z_ccandy_b',
+				bone = 18905,
+				pos = vec3(0.18, 0.18, 0.04),
+				rot = vec3(85.0, 70.0, -203.0)
+			},
+			usetime = 7500,
+		}
+	},
+
 	["parmesan-cheese"] = {
 		label = "Parmesan Cheese",
 		weight = 5,
@@ -1838,7 +1880,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		description = "Parmesan Cheese",
+		description = "Some parmesan cheese",
+		client = {
+			status = { hunger = 60 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'dl_cheese_maroilles_cut_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(150.0, 340.0, 170.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	--- COFFEE
@@ -11449,9 +11501,16 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		description = "Ingredient",
+		description = "Some cheddar cheese",
 		client = {
-			image = "cheddar-cheese.png",
+			status = { hunger = 60 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'dl_cheese_cheddar_full_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(150.0, 340.0, 170.0)
+			},
+			usetime = 7500,
 		}
 	},
 
@@ -13202,7 +13261,6 @@ return {
 		label = "Cigarettes: Redwood",
 		weight = 1,
 		stack = true
-		
 	},
 	["cigs_redwood2"] = {
 		label = "Cigarettes: Redwood2",
@@ -14744,9 +14802,16 @@ return {
 		weight = 200,
 		stack = true,
 		close = true,
-		description = "",
+		description = "Cheese slice",
 		client = {
-			image = "fishnchipscheeseslice.png",
+			status = { hunger = 20 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'dl_cheese_slate_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(150.0, 340.0, 170.0)
+			},
+			usetime = 7500,
 		}
 	},
 

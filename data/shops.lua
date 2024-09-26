@@ -536,7 +536,7 @@ return {
 			vec3(124.1108, -3047.4905, 7.0405),
 		},
 		targets = {
-			{ loc = vec3(124.1108, -3047.4905, 7.0405),  length = 1.5, width = 3.0, heading = 93.81,  minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(124.1108, -3047.4905, 7.0405), length = 1.5, width = 3.0, heading = 93.81, minZ = 41.5, maxZ = 43.0, distance = 3 },
 		}
 	},
 
@@ -617,7 +617,7 @@ return {
 			vec3(-337.9443, -141.4142, 39.0640),
 		},
 		targets = {
-			{ loc = vec3(-337.9443, -141.4142, 39.0640), length = 1.5, width = 3.0, heading = 155.6184,  minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(-337.9443, -141.4142, 39.0640), length = 1.5, width = 3.0, heading = 155.6184, minZ = 41.5, maxZ = 43.0, distance = 3 },
 		}
 	},
 
@@ -1060,6 +1060,8 @@ return {
 			{ name = 'icecream_ckd',        price = 50, currency = 'money' },
 			{ name = 'icecream_sby',        price = 15, currency = 'money' },
 			{ name = 'icecream_vna',        price = 25, currency = 'money' },
+			{ name = 'pinkcottoncandy',     price = 20, currency = 'money' },
+			{ name = 'bluecottoncandy',     price = 20, currency = 'money' },
 			{ name = 'milkshake-morango',   price = 50, currency = 'money' },
 			{ name = 'milkshake-chocolate', price = 50, currency = 'money' },
 		},
