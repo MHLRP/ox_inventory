@@ -1180,7 +1180,7 @@ return {
 		close = true,
 		description = "Yes, from the trees comes deez apples",
 		client = {
-			status = { hunger = 30 },
+			status = { hunger = 60 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = {
 				model = 'sf_prop_sf_apple_01a',
@@ -1201,7 +1201,7 @@ return {
 		close = true,
 		description = "b a n a n a n a n a n a",
 		client = {
-			status = { hunger = 30 },
+			status = { hunger = 60 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = {
 				model = 'v_res_tre_banana',
@@ -1221,7 +1221,7 @@ return {
 		close = true,
 		description = "Orange",
 		client = {
-			status = { hunger = 30 },
+			status = { hunger = 60 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = {
 				model = 'knjgh_orange',
@@ -7165,14 +7165,6 @@ return {
 		description = "Empty watering can",
 	},
 
-	["full_watering_can"] = {
-		label = "Full Watering Can",
-		weight = 100,
-		stack = true,
-		close = false,
-		description = "Watering can filled with water",
-	},
-
 	["keya"] = {
 		label = "Labkey A",
 		weight = 100,
@@ -8361,7 +8353,7 @@ return {
 		close = true,
 		description = "Desktop",
 	},
-	
+
 	["mdmonitor"] = {
 		label = "Monitor",
 		weight = 1000,
