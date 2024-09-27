@@ -63,6 +63,12 @@ setContainerProperties('briefcase', {
 	whitelist = { 'money','certificate','cwnote','cwnotepad','rentalpapers','printerdocument','laptop','keeptablet', 'filled_evidence_bag', 'empty_evidence_bag', 'recoveredbullet', 'bulletcasings' }	
 })
 
+setContainerProperties('rextakeoutbag', {
+	slots = 8,
+	maxWeight = 8500,
+	whitelist = { 'fried_cod', 'fried_haddock', 'fried_plaice', 'fried_pollock', 'fried_sole', 'fried_fishcake', 'fried_sausage', 'fishnchipsfries',  'fishnchipscheeseburger', 'fishnchipschickenburger', 'fishnchipsnuggets', 'fishnchipsfriedchickenstrips', 'fishnchips_chocolate', 'fried_chocolate', 'fishnchipsrimjob', 'fishnchipscreampie', 'fishnchipsbrownie', 'fishnchipsgelato', 'fishnchipsecolalight', 'fishnchipsecola', 'fishnchipsorangesoda', 'fishnchipssprunk', 'fishnchipscoffee', 'fishnchipstea' }	
+})
+
 setContainerProperties('keyring', {
 	slots = 20,
 	maxWeight = 7500,

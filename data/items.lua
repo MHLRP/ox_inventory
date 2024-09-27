@@ -845,7 +845,7 @@ return {
 			prop = {
 				model = 'prop_cs_burger_01',
 				pos = vec3(0.05, -0.02, -0.03),
-				rot = vec3(150.0, 340.0, 170.0)
+				rot = vec3(0.0, 0.0, 0.0)
 			},
 			usetime = 7500,
 		}
@@ -883,9 +883,9 @@ return {
 			status = { hunger = 30 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = {
-				model = 'prop_cs_burger_01',
+				model = 'dh_burger3',
 				pos = vec3(0.05, -0.02, -0.03),
-				rot = vec3(150.0, 340.0, 170.0)
+				rot = vec3(0.0, 0.0, 0.0)
 			},
 			usetime = 7500,
 		}
@@ -903,9 +903,9 @@ return {
 			status = { hunger = 30 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = {
-				model = 'prop_cs_burger_01',
+				model = 'dh_burger4',
 				pos = vec3(0.05, -0.02, -0.03),
-				rot = vec3(150.0, 340.0, 170.0)
+				rot = vec3(0.0, 0.0, 0.0)
 			},
 			usetime = 7500,
 		}
@@ -8361,6 +8361,7 @@ return {
 		close = true,
 		description = "Desktop",
 	},
+	
 	["mdmonitor"] = {
 		label = "Monitor",
 		weight = 1000,
@@ -11149,9 +11150,9 @@ return {
 			status = { hunger = 30 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = {
-				model = 'prop_cs_burger_01',
+				model = 'dh_burger4',
 				pos = vec3(0.05, -0.02, -0.03),
-				rot = vec3(150.0, 340.0, 170.0)
+				rot = vec3(0.0, 0.0, 0.0)
 			},
 			usetime = 7500,
 		}
@@ -11170,9 +11171,9 @@ return {
 			status = { hunger = 30 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = {
-				model = 'prop_cs_burger_01',
+				model = 'dh_burger4',
 				pos = vec3(0.05, -0.02, -0.03),
-				rot = vec3(150.0, 340.0, 170.0)
+				rot = vec3(0.0, 0.0, 0.0)
 			},
 			usetime = 7500,
 		}
@@ -11238,9 +11239,9 @@ return {
 			status = { hunger = 30 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = {
-				model = 'prop_cs_burger_01',
+				model = 'dh_burger3',
 				pos = vec3(0.05, -0.02, -0.03),
-				rot = vec3(150.0, 340.0, 170.0)
+				rot = vec3(0.0, 0.0, 0.0)
 			},
 			usetime = 7500,
 		}
@@ -11253,7 +11254,6 @@ return {
 		close = true,
 		description = "Burgershot soft drink",
 		client = {
-			image = "bs_softdrink.png",
 			status = { thirst = 30 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = `prop_cs_bs_cup`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
@@ -11275,9 +11275,9 @@ return {
 			status = { hunger = 30 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = {
-				model = 'prop_cs_burger_01',
+				model = 'dh_burger4',
 				pos = vec3(0.05, -0.02, -0.03),
-				rot = vec3(150.0, 340.0, 170.0)
+				rot = vec3(0.0, 0.0, 0.0)
 			},
 			usetime = 7500,
 		}
@@ -11363,7 +11363,7 @@ return {
 			prop = {
 				model = 'prop_cs_burger_01',
 				pos = vec3(0.05, -0.02, -0.03),
-				rot = vec3(150.0, 340.0, 170.0)
+				rot = vec3(0.0, 0.0, 0.0)
 			},
 			usetime = 7500,
 		}
@@ -14590,12 +14590,20 @@ return {
 
 	["fishnchipsfries"] = {
 		label = "Cooked Fries",
+		degrade = 60 * 36,
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "",
 		client = {
-			image = "fishnchipsfries.png",
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = {
+				model = 'prop_food_chips',
+				pos = vec3(-0.01, 0.0, -0.02),
+				rot = vec3(0.0, 0.0, -45.0)
+			},
+			usetime = 5000,
 		}
 	},
 
@@ -14612,6 +14620,7 @@ return {
 
 	["fishnchipsbrownie"] = {
 		label = "Brownie",
+		degrade = 60 * 36,
 		weight = 200,
 		stack = true,
 		close = true,
@@ -14672,7 +14681,11 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "fishnchipsecolalight.png",
+			status = { thirst = 30 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_cs_bs_cup`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 2500,
+			cancel = true,
 		}
 	},
 
@@ -14732,13 +14745,21 @@ return {
 	},
 
 	["fishnchipsnuggets"] = {
-		label = "Chicken Nuggets",
+		label = "Dino Nuggets",
+		degrade = 60 * 36,
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "",
 		client = {
-			image = "fishnchipsnuggets.png",
+			status = { hunger = 60 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'dh_nuggets',
+				pos = vec3(0.00, 0.01, -0.00),
+				rot = vec3(150.0, 340.0, 170.0)
+			},
+			usetime = 7500,
 		}
 	},
 
@@ -14788,6 +14809,7 @@ return {
 
 	["fishnchipsburgerpatty"] = {
 		label = "Burger Patty",
+		degrade = 60 * 36,
 		weight = 200,
 		stack = true,
 		close = true,
@@ -14799,6 +14821,7 @@ return {
 
 	["fishnchipscheeseslice"] = {
 		label = "Cheese Slice",
+		degrade = 60 * 36,
 		weight = 200,
 		stack = true,
 		close = true,
@@ -14822,12 +14845,17 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "fishnchipsorangesoda.png",
+			status = { thirst = 30 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `v_62_ecolacup002`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 2500,
+			cancel = true,
 		}
 	},
 
 	["fishnchipsrimjob"] = {
 		label = "Rim Job",
+		degrade = 60 * 36,
 		weight = 200,
 		stack = true,
 		close = true,
@@ -14872,12 +14900,20 @@ return {
 
 	["fishnchipscheeseburger"] = {
 		label = "Cheese Burger",
+		degrade = 60 * 36,
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "",
 		client = {
-			image = "fishnchipscheeseburger.png",
+			status = { hunger = 60 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'dh_burger3',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
 		}
 	},
 
@@ -14888,12 +14924,17 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "fishnchipssprunk.png",
+			status = { thirst = 30 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_cs_bs_cup`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 2500,
+			cancel = true,
 		}
 	},
 
 	["fishnchipsfriedchickenstrips"] = {
 		label = "Fried Chicken Strips",
+		degrade = 60 * 36,
 		weight = 200,
 		stack = true,
 		close = true,
@@ -14905,6 +14946,7 @@ return {
 
 	["fishnchipscreampie"] = {
 		label = "Cream Pie",
+		degrade = 60 * 36,
 		weight = 200,
 		stack = true,
 		close = true,
@@ -14921,7 +14963,11 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "fishnchipsecola.png",
+			status = { thirst = 30 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_cs_bs_cup`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 2500,
+			cancel = true,
 		}
 	},
 
@@ -15033,12 +15079,20 @@ return {
 
 	["fishnchipschickenburger"] = {
 		label = "Chicken Burger",
+		degrade = 60 * 36,
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "",
 		client = {
-			image = "fishnchipschickenburger.png",
+			status = { hunger = 60 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'dh_burger3',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
 		}
 	},
 
@@ -15115,7 +15169,15 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "fishnchipstea.png",
+			status = { hunger = 40 },
+			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_b' },
+			prop = {
+				model = 'v_res_mcofcupdirt',
+				pos = vec3(0.0, 0.0, 0.0),
+				rot = vec3(0.0, 0.0, 0.0),
+				bone = 28422,
+			},
+			usetime = 5000,
 		}
 	},
 
@@ -15161,6 +15223,14 @@ return {
 		client = {
 			image = "fishnchipspotato.png",
 		}
+	},
+
+	["rextakeoutbag"] = {
+		label = "Rex Diner Takeout Bag",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
 	},
 
 	--- GRUPPE6 
