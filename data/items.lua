@@ -15234,4 +15234,15 @@ return {
 		description = "Bag full of useless inked cash.",
 		useable = true,
     },
+
+    ["cash"] = {
+        label = "Cash",
+        weight = 0,
+        stack = true,
+        close = true,
+        description = "Cash",
+        client = {
+            image = "cash.png",
+        }
+    },
 }
