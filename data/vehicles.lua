@@ -31,7 +31,7 @@ return {
 		[`visione`] = 1,
 		[`prototipo`] = 1,
 		[`zentorno`] = 1,
-		[`trophytruck`] = 0,
+		[`trophytruck`] = 1,
 		[`trophytruck2`] = 0,
 	},
 
@@ -58,7 +58,8 @@ return {
 		[19] = {11, 88000},		-- Military
 		[20] = {11, 88000},		-- Commercial (trucks)
 		models = {
-			[`xa21`] = {11, 88000}
+			[`xa21`] = {11, 88000},
+			[`trophytruck`] = {11, 88000}
 		}
 	},
 
@@ -71,7 +72,7 @@ return {
 		[5] = {31, 248000},		-- Sports Classic
 		[6] = {31, 248000},		-- Sports
 		[7] = {21, 168000},		-- Super
-		[8] = {5, 40000},		-- Motorcycle
+		-- [8] = {5, 40000},		-- Motorcycle
 		[9] = {51, 408000},		-- Offroad
 		[10] = {51, 408000},	-- Industrial
 		[11] = {41, 328000},	-- Utility
@@ -84,7 +85,9 @@ return {
 		[19] = {41, 328000},	-- Military
 		[20] = {61, 488000},	-- Commercial
 		models = {
-			[`xa21`] = {11, 10000}
+			[`xa21`] = {11, 10000},
+			[`trophytruck`] = {11, 88000},
+			[`baller`] = {51, 88000}
 		},
 	}
 }
