@@ -3712,6 +3712,14 @@ return {
 		description = "Beanmachine Menu.",
 	},
 
+	["castones_menu"] = {
+		label = "Castones Menu",
+		weight = 5,
+		stack = true,
+		close = true,
+		description = "Castone's Menu.",
+	},
+
 	["taco_menu"] = {
 		label = "Taco Menu",
 		weight = 5,

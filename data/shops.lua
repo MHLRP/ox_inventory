@@ -1782,6 +1782,20 @@ return {
 		}
 	},
 
+	castonesmenu = {
+		name = 'Castones Menu',
+		inventory = {
+			{ name = 'castones_menu', price = 0 },
+		},
+		locations = {
+			vec3(320.698, -1079.694, 28.945)
+		},
+		targets = {
+			{ loc = vec3(320.698, -1079.694, 28.945), length = 0.6, width = 0.5, heading = 0.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
+		}
+	},
+
+
 	tacomenu = {
 		name = 'Taco Menu',
 		groups = {
@@ -1795,7 +1809,6 @@ return {
 		},
 		targets = {
 			{ loc = vec3(20.2, -1600.78, 29.39), length = 0.6, width = 0.5, heading = 3.02, minZ = 28.2, maxZ = 28.6, distance = 2 }
-
 		}
 	},
 
