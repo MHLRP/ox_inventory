@@ -8823,15 +8823,16 @@ return {
 		consume = 0,
 		description = "For official use by FIB Agents only",
 		client = {
-			anim = { dict = 'paper_1_rcm_alt1-8', clip = 'player_one_dual-8', flag = 49 },
-			prop = {
-				model = 'prop_fibb_badge', -- need badge props repo
-				pos = vec3(0.13, 0.023, -0.04),
-				rot = vec3(-90.0, -180.0, 300.0),
-				bone = 28422
-			},
-			disable = { move = false, car = false, combat = false },
-			usetime = 5000,
+			-- anim = { dict = 'paper_1_rcm_alt1-8', clip = 'player_one_dual-8', flag = 49 },
+			-- prop = {
+			-- 	model = 'prop_fibb_badge', -- need badge props repo
+			-- 	pos = vec3(0.13, 0.023, -0.04),
+			-- 	rot = vec3(-90.0, -180.0, 300.0),
+			-- 	bone = 28422
+			-- },
+			-- disable = { move = false, car = false, combat = false },
+			-- usetime = 5000,
+			event = "badge:openPD"
 		}
 	},
 
@@ -8841,15 +8842,16 @@ return {
 		consume = 0,
 		description = "For official use by BCSO officers only",
 		client = {
-			anim = { dict = 'paper_1_rcm_alt1-8', clip = 'player_one_dual-8', flag = 49 },
-			prop = {
-				model = 'prop_bcso_badge', -- need badge props repo
-				pos = vec3(0.13, 0.023, -0.04),
-				rot = vec3(-90.0, -180.0, 300.0),
-				bone = 28422
-			},
-			disable = { move = false, car = false, combat = false },
-			usetime = 5000,
+			-- anim = { dict = 'paper_1_rcm_alt1-8', clip = 'player_one_dual-8', flag = 49 },
+			-- prop = {
+			-- 	model = 'prop_bcso_badge', -- need badge props repo
+			-- 	pos = vec3(0.13, 0.023, -0.04),
+			-- 	rot = vec3(-90.0, -180.0, 300.0),
+			-- 	bone = 28422
+			-- },
+			-- disable = { move = false, car = false, combat = false },
+			-- usetime = 5000,
+			event = "badge:openPD"
 		}
 	},
 
@@ -8859,15 +8861,16 @@ return {
 		consume = 0,
 		description = "For official use by LSSD officers only",
 		client = {
-			anim = { dict = 'paper_1_rcm_alt1-8', clip = 'player_one_dual-8', flag = 49 },
-			prop = {
-				model = 'prop_lssd_badge', -- need badge props repo
-				pos = vec3(0.13, 0.023, -0.04),
-				rot = vec3(-90.0, -180.0, 300.0),
-				bone = 28422
-			},
-			disable = { move = false, car = false, combat = false },
-			usetime = 5000,
+			-- anim = { dict = 'paper_1_rcm_alt1-8', clip = 'player_one_dual-8', flag = 49 },
+			-- prop = {
+			-- 	model = 'prop_lssd_badge', -- need badge props repo
+			-- 	pos = vec3(0.13, 0.023, -0.04),
+			-- 	rot = vec3(-90.0, -180.0, 300.0),
+			-- 	bone = 28422
+			-- },
+			-- disable = { move = false, car = false, combat = false },
+			-- usetime = 5000,
+			event = "badge:openPD"
 		}
 	},
 
@@ -8877,15 +8880,16 @@ return {
 		consume = 0,
 		description = "For official use by LSPD officers only",
 		client = {
-			anim = { dict = 'paper_1_rcm_alt1-8', clip = 'player_one_dual-8', flag = 49 },
-			prop = {
-				model = 'prop_lspd_badge', -- need badge props repo
-				pos = vec3(0.13, 0.023, -0.04),
-				rot = vec3(-90.0, -180.0, 300.0),
-				bone = 28422
-			},
-			disable = { move = false, car = false, combat = false },
-			usetime = 5000,
+			-- anim = { dict = 'paper_1_rcm_alt1-8', clip = 'player_one_dual-8', flag = 49 },
+			-- prop = {
+			-- 	model = 'prop_lspd_badge', -- need badge props repo
+			-- 	pos = vec3(0.13, 0.023, -0.04),
+			-- 	rot = vec3(-90.0, -180.0, 300.0),
+			-- 	bone = 28422
+			-- },
+			-- disable = { move = false, car = false, combat = false },
+			-- usetime = 5000,
+			event = "badge:openPD"
 		}
 	},
 
