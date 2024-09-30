@@ -8839,7 +8839,7 @@ return {
 		label = 'BCSO Badge',
 		weight = 444,
 		consume = 0,
-		description = "For official use by BSCO officers only",
+		description = "For official use by BCSO officers only",
 		client = {
 			anim = { dict = 'paper_1_rcm_alt1-8', clip = 'player_one_dual-8', flag = 49 },
 			prop = {
