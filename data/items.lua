@@ -4165,6 +4165,14 @@ return {
 		description = "Nightclub Access Card",
 	},
 
+	["kq_club_keys"] = {
+		label = "Nightclub Access Keys",
+		weight = 10,
+		stack = true,
+		close = false,
+		description = "Nightclub Access Keys",
+	},
+
 	["fertilizer_spray"] = {
 		label = "Fertilizer",
 		weight = 75,
