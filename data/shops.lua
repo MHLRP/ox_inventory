@@ -1603,6 +1603,7 @@ return {
 			{ name = 'dart',             price = 20,    currency = 'money' },
 			{ name = 'weapon_flare',     price = 850,   currency = 'money' },
 			{ name = 'walkstick',        price = 250,   currency = 'money' },
+			{ name = 'Jackolantern',     price = 100,   currency = 'money' },
 			{ name = 'poster',           price = 400,   currency = 'money' },
 			{ name = 'flush_cutter',     price = 600,   currency = 'money' },
 			{ name = 'advancedlockpick', price = 600,   currency = 'money' },

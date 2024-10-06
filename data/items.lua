@@ -5428,6 +5428,15 @@ return {
 		description = "Might work better if you use with /e sitshair and /delchair",
 	},
 
+	--- HALLOWEEN
+	
+	
+	['jackolantern'] = {
+		label = 'Jackolantern',
+		weight = 100,
+		stack = false,
+		description = "Trick or Treat!",
+	},
 
 	-- MORE INVENTORY ITEMS
 
