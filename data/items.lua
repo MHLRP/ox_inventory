@@ -5173,6 +5173,21 @@ return {
 		description = "A nice tool to break into doors",
 	},
 
+	['fingerprints'] ={
+		label = 'Evidence',
+    	weight = 100, 
+    	stack = false,
+    	close = true,
+    	description = 'A finger print collected at a crime scene.',
+    	client = {
+    	    image = 'fingerprints.png',
+    	},
+    	consume = 0,
+    	metadata = {
+    	    assailant = 'Unknown'
+    	},
+	},
+
 	--- FIREFIGHTER
 
 	['watertank'] = {
@@ -5598,6 +5613,48 @@ return {
 		weight = 115,
 		description = "Use /e vape2 for enhanced smoke instead of the use option!",
 		degrade = 60,
+	},
+
+	['waka_blueberry'] = {
+		label = 'Vape',
+		weight = 115,
+		description = "Mmm.. Blueberry Flavor!",
+	},
+
+	['waka_cherry'] = {
+		label = 'Vape',
+		weight = 115,
+		description = "Mmm.. Cherry Flavor!",
+	},
+
+	['waka_grape'] = {
+		label = 'Vape',
+		weight = 115,
+		description = "Mmm.. Grape Flavor!",
+	},
+
+	['waka_kiwi'] = {
+		label = 'Vape',
+		weight = 115,
+		description = "Mmm.. Kiwi Flavor!",
+	},
+
+	['waka_mango'] = {
+		label = 'Vape',
+		weight = 115,
+		description = "Mmm.. Mango Flavor!",
+	},
+
+	['waka_melon'] = {
+		label = 'Vape',
+		weight = 115,
+		description = "Mmm.. Melon Flavor!",
+	},
+
+	['waka_strawberry'] = {
+		label = 'Vape',
+		weight = 115,
+		description = "Mmm.. Strawberry Flavor!",
 	},
 
 	['armour'] = {
