@@ -3538,6 +3538,9 @@ return {
 		stack = true,
 		close = false,
 		description = "Nice piece of metal that you can probably use for something",
+		client = {
+			image = "copper.png",
+		}
 	},
 
 	["iron"] = {
@@ -3546,6 +3549,9 @@ return {
 		stack = true,
 		close = false,
 		description = "Handy piece of metal that you can probably use for something",
+		client = {
+			image = "iron.png",
+		}
 	},
 
 	["steel"] = {
@@ -3554,6 +3560,9 @@ return {
 		stack = true,
 		close = false,
 		description = "Nice piece of metal that you can probably use for something",
+		client = {
+			image = "steel.png",
+		}
 	},
 
 	['silver'] = {
@@ -3864,6 +3873,9 @@ return {
 		stack = true,
 		close = false,
 		description = "RECYCLE! - Greta Thunberg 2019",
+		client = {
+			image = "plastic.png",
+		}
 	},
 
 	["boombox"] = {
@@ -3990,6 +4002,9 @@ return {
 		stack = true,
 		close = false,
 		description = "Nice piece of metal that you can probably use for something",
+		client = {
+			image = "aluminum.png",
+		}
 	},
 
 	["ancientcoin"] = {
@@ -4006,6 +4021,9 @@ return {
 		stack = true,
 		close = false,
 		description = "Rubber, I believe you can make your own rubber ducky with it :D",
+		client = {
+			image = "rubber.png",
+		}
 	},
 
 	["walkstick"] = {
@@ -4495,6 +4513,9 @@ return {
 		stack = true,
 		close = false,
 		description = "It is very fragile, watch out",
+		client = {
+			image = "glass.png",
+		}
 	},
 
 	["casino_goldchip"] = {
@@ -6020,6 +6041,9 @@ return {
 	['scrapmetal'] = {
 		label = 'Scrap Metal',
 		weight = 1,
+		client = {
+			image = "scrapmetal.png",
+		}
 	},
 
 	["crackburner"] = {
