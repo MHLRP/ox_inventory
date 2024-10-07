@@ -3494,6 +3494,9 @@ return {
 		label = 'Raw Copper',
 		weight = 400,
 		stack = true,
+		client = {
+			image = "raw_copper.png",
+		}
 	},
 
 	['raw_iron'] = {
@@ -3583,12 +3586,18 @@ return {
 		stack = true,
 		close = true,
 		description = "A diamond seems like the jackpot to me!",
+		client = {
+			image = "diamond.png",
+		}
 	},
 
 	['emerald'] = {
 		label = 'Emerald',
 		weight = 200,
 		stack = true,
+		client = {
+			image = "emerald.png",
+		}
 	},
 
 	--- INVENTORY: Items
@@ -3986,6 +3995,9 @@ return {
 		stack = true,
 		close = true,
 		description = "A diamond ring seems like the jackpot to me!",
+		client = {
+			image = "diamond_ring.png",
+		}
 	},
 
 	["binoculars"] = {
@@ -4311,6 +4323,9 @@ return {
 		stack = true,
 		close = true,
 		description = "A golden chain seems like the jackpot to me!",
+		client = {
+			image = "goldchain.png",
+		}
 	},
 
 	["electronickit"] = {
@@ -4922,6 +4937,9 @@ return {
 		stack = true,
 		close = true,
 		description = "10 carat golden chain",
+		client = {
+			image = "10kgoldchain.png",
+		}
 	},
 
 	["backpack1"] = {
