@@ -4396,10 +4396,21 @@ return {
 
 	["casino_burger"] = {
 		label = "Casino Burger",
+		degrade = 60 * 36,
 		weight = 0,
 		stack = true,
 		close = false,
 		description = "Casino Burger",
+		client = {
+			status = { hunger = 60 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.0, 0.0, 0.0),
+				rot = vec3(0.0, 0.0, 130.0)
+			},
+			usetime = 5000,
+		}
 	},
 
 	["casino_chips"] = {
@@ -4412,66 +4423,152 @@ return {
 
 	["casino_coffee"] = {
 		label = "Casino Coffee",
+		degrade = 60 * 36,
 		weight = 0,
 		stack = true,
 		close = false,
 		description = "Casino Coffee",
+		client = {
+			status = { hunger = 40 },
+			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_b' },
+			prop = {
+				model = 'ng_proc_coffee_01a',
+				pos = vec3(0.0, 0.0, 0.0),
+				rot = vec3(0.0, 0.0, 0.0),
+				bone = 28422,
+			},
+			usetime = 5000,
+		}
 	},
 
 	["casino_donut"] = {
 		label = "Casino Donut",
+		degrade = 60 * 36,
 		weight = 0,
 		stack = true,
 		close = false,
 		description = "Casino Donut",
+		client = {
+			status = { hunger = 20 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'bzzz_foodpack_donut001',
+				bone = 18905,
+				pos = vec3(0.13, 0.050, 0.020),
+				rot = vec3(-50.0, 100.0, 270.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["casino_coke"] = {
 		label = "Casino Coke",
+		degrade = 60 * 36,
 		weight = 0,
 		stack = true,
 		close = false,
 		description = "Casino Kofola",
+		client = {
+			status = { thirst = 40 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_ecola_can`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'You quenched your thirst with cola'
+		}
 	},
 
 	["casino_ego_chaser"] = {
 		label = "Casino Ego Chaser",
+		degrade = 60 * 36,
 		weight = 0,
 		stack = true,
 		close = false,
 		description = "Casino Ego Chaser",
+		client = {
+			status = { hunger = 20 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_choc_ego',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(150.0, 340.0, 170.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["casino_luckypotion"] = {
 		label = "Casino Lucky Potion",
+		degrade = 60 * 36,
 		weight = 0,
 		stack = true,
 		close = false,
 		description = "Casino Lucky Potion",
+		client = {
+			status = { thirst = 30 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = {
+				model = 'p_weed_bottle_s',
+				pos = vec3(-0.01, 0.0, -0.02),
+				rot = vec3(0.0, 0.0, -45.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["casino_psqs"] = {
 		label = "Casino Ps & Qs",
+		degrade = 60 * 36,
 		weight = 0,
 		stack = true,
 		close = false,
 		description = "Casino Ps & Qs",
+		client = {
+			status = { hunger = 10 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'mxc_vend_prop_item_candybar2',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(150.0, 340.0, 170.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["casino_sandwitch"] = {
 		label = "Casino Sandwich",
+		degrade = 60 * 36,
 		weight = 0,
 		stack = true,
 		close = false,
 		description = "Casino Sandwich",
+		client = {
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_sandwich_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(150.0, 340.0, 170.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["casino_sprite"] = {
-		label = "Casino Sprite",
+		label = "Casino Sprunk",
 		weight = 0,
 		stack = true,
 		close = false,
-		description = "Casino Sprite",
+		description = "Casino Sprunk",
+		client = {
+			status = { thirst = 60 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = {
+				model = 'mxc_vend_prop_item_cansoda4',
+				pos = vec3(0.0, 0.0, 0.0),
+				rot = vec3(0.0, 0.0, 130.0)
+			},
+			usetime = 5000,
+		}
 	},
 
 	["burriedtreasure"] = {
@@ -5212,19 +5309,19 @@ return {
 		description = "A nice tool to break into doors",
 	},
 
-	['fingerprints'] ={
+	['fingerprints'] = {
 		label = 'Evidence',
-    	weight = 100, 
-    	stack = false,
-    	close = true,
-    	description = 'A finger print collected at a crime scene.',
-    	client = {
-    	    image = 'fingerprints.png',
-    	},
-    	consume = 0,
-    	metadata = {
-    	    assailant = 'Unknown'
-    	},
+		weight = 100,
+		stack = false,
+		close = true,
+		description = 'A finger print collected at a crime scene.',
+		client = {
+			image = 'fingerprints.png',
+		},
+		consume = 0,
+		metadata = {
+			assailant = 'Unknown'
+		},
 	},
 
 	--- FIREFIGHTER
@@ -5468,8 +5565,8 @@ return {
 	},
 
 	--- HALLOWEEN
-	
-	
+
+
 	['jackolantern'] = {
 		label = 'Jackolantern',
 		weight = 100,
@@ -9753,53 +9850,53 @@ return {
 		description = "",
 	},
 
-    ["k20a"] = {
-        label = "K20a Engine Type R", 
+	["k20a"] = {
+		label = "K20a Engine Type R",
 		weight = 500,
 		stack = false,
 		close = true,
 		description = ''
-    }, 
+	},
 
-    ["v8engine"] = {
-        label = "V8 5.0L (STOCK)", 
+	["v8engine"] = {
+		label = "V8 5.0L (STOCK)",
 		weight = 500,
 		stack = false,
 		close = true,
 		description = ''
-    }, 
+	},
 
-    ["shonen"] = {
-        label = "Inline-4 Turbo 1.8L (Shonen)", 
+	["shonen"] = {
+		label = "Inline-4 Turbo 1.8L (Shonen)",
 		weight = 500,
 		stack = false,
 		close = true,
 		description = ''
-    }, 
+	},
 
-    ["predatorv8"] = {
-        label = "Predator V8 5.2L", 
+	["predatorv8"] = {
+		label = "Predator V8 5.2L",
 		weight = 500,
 		stack = false,
 		close = true,
 		description = ''
-    },  
+	},
 
 	["lambov10"] = {
-		label = "Lando V10 5.2L", 
+		label = "Lando V10 5.2L",
 		weight = 500,
 		stack = false,
 		close = true,
 		description = ''
-	}, 
-	
+	},
+
 	["rotary7"] = {
-		label = "Rotary 2.6L", 
+		label = "Rotary 2.6L",
 		weight = 500,
 		stack = false,
 		close = true,
 		description = ''
-	}, 
+	},
 
 	["veh_interior"] = {
 		label = "Interior",
@@ -15353,24 +15450,24 @@ return {
 		description = "",
 	},
 
-	--- GRUPPE6 
+	--- GRUPPE6
 
 	['inked_cash_bag'] = {
-    	label = 'Gruppe 6 Inked Cash Bag',
-    	weight = 1000,
+		label = 'Gruppe 6 Inked Cash Bag',
+		weight = 1000,
 		name = 'inked_cash_bag',
 		description = "Bag full of useless inked cash.",
 		useable = true,
-    },
+	},
 
-    ["cash"] = {
-        label = "Cash",
-        weight = 0,
-        stack = true,
-        close = true,
-        description = "Cash",
-        client = {
-            image = "cash.png",
-        }
-    },
+	["cash"] = {
+		label = "Cash",
+		weight = 0,
+		stack = true,
+		close = true,
+		description = "Cash",
+		client = {
+			image = "cash.png",
+		}
+	},
 }
