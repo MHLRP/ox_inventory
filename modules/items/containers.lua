@@ -72,7 +72,7 @@ setContainerProperties('rextakeoutbag', {
 setContainerProperties('keyring', {
 	slots = 20,
 	maxWeight = 7500,
-	whitelist = { 'vehiclekeys' }	
+	whitelist = { 'vehiclekeys', 'moneywash_key', 'keya', 'keyb', 'keyc' }	
 })
 
 setContainerProperties('box_small', {
