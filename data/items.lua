@@ -5352,6 +5352,13 @@ return {
 		close = true,
 	},
 
+	['iak_wheelchair'] = {
+		label = 'Wheelchair',
+		weight = 540,
+		stack = false,
+		close = true,
+	},
+
 	['medkit'] = {
 		label = 'Medical Kit',
 		weight = 1500,
