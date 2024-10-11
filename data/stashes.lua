@@ -444,4 +444,55 @@ return {
 		slots = 70,
 		weight = 70000,
 	},
+	{
+		coords = vec3(415.7579, -1499.4043, 30.1553),
+		target = {
+			loc = vec3(415.7579, -1499.4043, 30.1553),
+			length = 1.2,
+			width = 5.6,
+			heading = 209.1391,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Storage'
+		}, 
+		name = 'castones',
+		label = 'Kitchen Storage',
+		owner = false,
+		slots = 60,
+		weight = 70000,
+	},
+	{
+		coords = vec3(414.714, -1504.460, 32.813),
+		target = {
+			loc = vec3(414.714, -1504.460, 32.813),
+			length = 1.2,
+			width = 5.6,
+			heading = 27.6270,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Storage'
+		}, 
+		name = 'castones2',
+		label = "Castone's Storage",
+		owner = false,
+		slots = 60,
+		weight = 70000,
+	},
+	{
+		coords = vec3(413.4223, -1498.3284, 33.8073),
+		target = {
+			loc = vec3(413.4223, -1498.3284, 33.8073),
+			length = 1.2,
+			width = 5.6,
+			heading = 30.3732,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Storage'
+		}, 
+		name = 'castones3',
+		label = "Closet Storage",
+		owner = false,
+		slots = 40,
+		weight = 40000,
+	},
 }

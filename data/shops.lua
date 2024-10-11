@@ -532,6 +532,8 @@ return {
 			{ name = 'mechanic_tablet',      label = 'Mechanic Tablet',            price = 0 },
 			{ name = 'kq_winch',             label = 'Mechanic Tablet',            price = 0 },
 			{ name = 'kq_tow_rope',          label = 'Mechanic Tablet',            price = 0 },
+			{ name = 'customizableplate',    label = 'Customizable Plate',         price = 0 },
+			{ name = 'rocketball',           label = 'Rocketball',                 price = 0 },
 		},
 		locations = {
 			vec3(124.1108, -3047.4905, 7.0405),
@@ -902,25 +904,6 @@ return {
 				scenario = 'WORLD_HUMAN_SMOKING_POT',
 				loc = vec3(-1168.1553, -1572.5336, 3.6635),
 				heading = 118.1103,
-			}
-		}
-	},
-
-	Bennys = {
-		name = 'Bennys Shop',
-		inventory = {
-			{ name = 'duct_tape',         price = 250,   currency = 'money' },
-			{ name = 'cleaning_kit',      price = 150,   currency = 'money' },
-			{ name = 'customizableplate', price = 25000, currency = 'money' },
-			{ name = 'rocketball',        price = 500,   currency = 'money' },
-			{ name = 'stancing_kit',      price = 5000,  currency = 'money' },
-		},
-		targets = {
-			{
-				ped = `mp_m_waremech_01`,
-				scenario = 'WORLD_HUMAN_STAND_MOBILE',
-				loc = vec3(148.0863, -3018.7139, 6.1131),
-				heading = 267.2463,
 			}
 		}
 	},
@@ -1325,9 +1308,14 @@ return {
 	Bar6 = {
 		name = 'Bar',
 		inventory = {
-			{ name = 'beer',    price = 7,  currency = 'money' },
-			{ name = 'whiskey', price = 10, currency = 'money' },
-			{ name = 'vodka',   price = 12, currency = 'money' },
+			{ name = 'beer',          price = 7,  currency = 'money' },
+			{ name = 'whiskey',       price = 10, currency = 'money' },
+			{ name = 'vodka',         price = 12, currency = 'money' },
+			{ name = 'cola',          price = 7,  currency = 'money' },
+			{ name = 'sprunk',        price = 10, currency = 'money' },
+			{ name = 'vodka',         price = 12, currency = 'money' },
+			{ name = 'chips_cheese',  price = 7,  currency = 'money' },
+			{ name = 'chips_paprika', price = 10, currency = 'money' },
 		},
 		targets = {
 			{
@@ -1803,13 +1791,12 @@ return {
 			{ name = 'castones_menu', price = 0 },
 		},
 		locations = {
-			vec3(320.698, -1079.694, 28.945)
+			vec3(415.602, -1496.601, 30.216)
 		},
 		targets = {
-			{ loc = vec3(320.698, -1079.694, 28.945), length = 0.6, width = 0.5, heading = 0.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{ loc = vec3(415.602, -1496.601, 30.216), length = 0.6, width = 0.5, heading = 0.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
 		}
 	},
-
 
 	tacomenu = {
 		name = 'Taco Menu',

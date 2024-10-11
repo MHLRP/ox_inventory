@@ -1353,8 +1353,9 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		description = "Mmmmm, refrence",
+		description = "Mmmmm, smore",
 		client = {
+			image = "smore.png",
 			status = { hunger = 15 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = {
@@ -11416,7 +11417,7 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		description = "Rib flavored chips, made with real wood chips",
+		description = "Salted fries made with real potatoes",
 		client = {
 			image = "bs_fries.png",
 			status = { hunger = 25 },
@@ -13821,7 +13822,7 @@ return {
 		weight = 100,
 		stack = true,
 		close = false,
-		description = "Lemon!",
+		description = "",
 		client = {
 			image = "pineapple.png",
 		}
