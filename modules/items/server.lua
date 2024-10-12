@@ -394,6 +394,143 @@ Item('box_pizza_dmt', function(event, item, inventory, data, slot)
     end
 end)
 
+-- Beer Cases
+Item('box_rancho_beer', function(event, item, inventory, data, slot)
+	if event == 'usedItem' then
+    	Inventory.AddItem(inventory, 'rancho_beer', 6)
+	end
+end)
+
+Item('box_dusche_beer', function(event, item, inventory, data, slot)
+	if event == 'usedItem' then
+    	Inventory.AddItem(inventory, 'dusche_beer', 6)
+	end
+end)
+
+Item('box_stronzo_beer', function(event, item, inventory, data, slot)
+	if event == 'usedItem' then
+    	Inventory.AddItem(inventory, 'stronzo_beer', 6)
+	end
+end)
+
+Item('box_patriot_beer', function(event, item, inventory, data, slot)
+	if event == 'usedItem' then
+    	Inventory.AddItem(inventory, 'patriot_beer', 6)
+	end
+end)
+
+----------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------- 
+-- Ammo
+
+Item('box_ammo_rifle1', function(event, item, inventory, data, slot)
+	if event == 'usedItem' then
+    	Inventory.AddItem(inventory, 'ammo-rifle', 50)
+	end
+end)
+
+Item('box_ammo_rifle2', function(event, item, inventory, data, slot)
+	if event == 'usedItem' then
+    	Inventory.AddItem(inventory, 'ammo-rifle2', 50)
+	end
+end)
+
+Item('box_ammo_shotgun', function(event, item, inventory, data, slot)
+	if event == 'usedItem' then
+    	Inventory.AddItem(inventory, 'ammo-shotgun', 50)
+	end
+end)
+
+Item('box_ammo_sniper', function(event, item, inventory, data, slot)
+	if event == 'usedItem' then
+    	Inventory.AddItem(inventory, 'ammo-sniper', 50)
+	end
+end)
+
+Item('box_ammo_9', function(event, item, inventory, data, slot)
+	if event == 'usedItem' then
+    	Inventory.AddItem(inventory, 'ammo-9', 50)
+	end
+end)
+
+Item('box_ammo_22', function(event, item, inventory, data, slot)
+	if event == 'usedItem' then
+    	Inventory.AddItem(inventory, 'ammo-22', 50)
+	end
+end)
+
+Item('box_ammo_38', function(event, item, inventory, data, slot)
+	if event == 'usedItem' then
+    	Inventory.AddItem(inventory, 'ammo-38', 50)
+	end
+end)
+
+Item('box_ammo_44', function(event, item, inventory, data, slot)
+	if event == 'usedItem' then
+    	Inventory.AddItem(inventory, 'ammo-44', 50)
+	end
+end)
+
+Item('box_ammo_45', function(event, item, inventory, data, slot)
+	if event == 'usedItem' then
+    	Inventory.AddItem(inventory, 'ammo-45', 50)
+	end
+end)
+
+Item('box_ammo_50', function(event, item, inventory, data, slot)
+	if event == 'usedItem' then
+    	Inventory.AddItem(inventory, 'ammo-50', 50)
+	end
+end)
+
+----------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------- 
+-- FOOD: Meal-ready-eat
+Item('mre_1', function(event, item, inventory, data, slot)
+	if event == 'usedItem' then
+    	Inventory.AddItem(inventory, 'mre_beefstew', 1) -- meal
+		Inventory.AddItem(inventory, 'mre_tmsoup', 1) -- side
+		Inventory.AddItem(inventory, 'mre_bread', 2) -- bread
+		Inventory.AddItem(inventory, 'ps_qs', 1) -- dessert
+	end
+end)
+
+Item('mre_2', function(event, item, inventory, data, slot)
+	if event == 'usedItem' then
+    	Inventory.AddItem(inventory, 'mre_chkenchilada', 1) -- meal
+		Inventory.AddItem(inventory, 'mre_corn', 1) -- side
+		Inventory.AddItem(inventory, 'mre_bread', 2) -- bread
+		Inventory.AddItem(inventory, 'ps_qs', 1) -- dessert
+	end
+end)
+
+Item('mre_3', function(event, item, inventory, data, slot)
+	if event == 'usedItem' then
+    	Inventory.AddItem(inventory, 'mre_veggieomelet', 1) -- meal
+		Inventory.AddItem(inventory, 'mre_tmsoup', 1) -- side
+		Inventory.AddItem(inventory, 'mre_bread', 2) -- bread
+		Inventory.AddItem(inventory, 'ps_qs', 1) -- dessert
+	end
+end)
+
+Item('mre_4', function(event, item, inventory, data, slot)
+	if event == 'usedItem' then
+    	Inventory.AddItem(inventory, 'mre_chilimac', 1) -- meal
+		Inventory.AddItem(inventory, 'mre_corn', 1) -- side
+		Inventory.AddItem(inventory, 'mre_bread', 2) -- bread
+		Inventory.AddItem(inventory, 'ps_qs', 1) -- dessert
+	end
+end)
+
+Item('mre_5', function(event, item, inventory, data, slot)
+	if event == 'usedItem' then
+    	Inventory.AddItem(inventory, 'mre_chknking', 1) -- meal
+		Inventory.AddItem(inventory, 'mre_tmsoup', 1) -- side
+		Inventory.AddItem(inventory, 'mre_bread', 2) -- bread
+		Inventory.AddItem(inventory, 'ps_qs', 1) -- dessert
+	end
+end)
+
 -----------------------------------------------------------------------------------------------
 
 return Items
