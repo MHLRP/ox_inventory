@@ -294,13 +294,13 @@ lib.callback.register('ox_inventory:buyItem', function(source, data)
 				if canAfford == "cash" then
 					removeCurrency(playerInv, currency, price, shop.society)
 					if (shop.society) then
-						exports["qb-banking"]:AddMoney(shop.society, math.floor(price * 0.1 + 0.5))
+						exports["qb-banking"]:AddMoney(shop.society, math.floor(price * 0.5 + 0.5))
 					end
 				elseif canAfford == "bank" then
 					local Player = exports.qbx_core:GetPlayer(source)
 					Player.Functions.RemoveMoney("bank", price)
 					if (shop.society) then
-						exports["qb-banking"]:AddMoney(shop.society, math.floor(price * 0.1 + 0.5))
+						exports["qb-banking"]:AddMoney(shop.society, math.floor(price * 0.5 + 0.5))
 					end
 				else
 					removeCurrency(playerInv, 'money', price, shop.society)
