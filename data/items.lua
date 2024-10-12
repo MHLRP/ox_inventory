@@ -11627,6 +11627,142 @@ return {
 		}
 	},
 
+	["pineapplejuice"] = {
+		label = "Pineapple Juice",
+		weight = 350,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "This might be good for you!",
+		client = {
+			status = { thirst = 20 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = {
+				model = 'brum_summercocktail_yellow',
+				pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 7500,
+		}
+	},
+
+	["ouzo"] = {
+		label = "Greek Alchohol",
+		weight = 350,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["pitahummus"] = {
+		label = "Pita Hummus",
+		weight = 350,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "This might be good for you!",
+		client = {
+			status = { hunger = 60 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'ng_proc_concchips01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(150.0, 340.0, 170.0)
+			},
+			usetime = 7500,
+		}
+	},
+
+	["olives"] = {
+		label = "Olives",
+		weight = 350,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			status = { hunger = 60 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'apa_mpa_06_olivevase',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(150.0, 340.0, 170.0)
+			},
+			usetime = 7500,
+		}
+	},
+
+	["pitagyros"] = {
+		label = "Pita Gyros",
+		weight = 350,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			status = { hunger = 60 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_taco_02',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(150.0, 340.0, 170.0)
+			},
+			usetime = 7500,
+		}
+	},
+
+	["greeksalad"] = {
+		label = "Greek Salad",
+		weight = 350,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			status = { hunger = 60 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'bkr_prop_weed_leaf_01a',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(150.0, 340.0, 170.0)
+			},
+			usetime = 7500,
+		}
+	},
+
+	["peanutbowl"] = {
+		label = "Peanut Bowl",
+		weight = 350,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			status = { hunger = 60 },
+			prop = {
+				[1] = {
+					model = 'scully_spoon_pho',
+					bone = 57005,
+					pos = vec3(0.14, 0.02, 0.01),
+					rot = vec3(-118.0, 192.0, 24.0)
+				},
+				[2] = {
+					model = 'prop_bar_nuts',
+					--bone = 57005	
+					pos = vec3(-0.03, 0.01, 0.05),
+					rot = vec3(0.0, 0.0, -40.0)
+				},
+			},
+			anim = { dict = 'anim@eat@fork', clip = 'fork_clip' },
+			usetime = 8000,
+		},
+	},
+
 	["beef-taco"] = {
 		label = "Beef Taco",
 		weight = 350,

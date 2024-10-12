@@ -1309,14 +1309,20 @@ return {
 	Bar6 = {
 		name = 'Bar',
 		inventory = {
-			{ name = 'beer',          price = 7,  currency = 'money' },
-			{ name = 'whiskey',       price = 10, currency = 'money' },
-			{ name = 'vodka',         price = 12, currency = 'money' },
-			{ name = 'cola',          price = 7,  currency = 'money' },
-			{ name = 'sprunk',        price = 10, currency = 'money' },
-			{ name = 'vodka',         price = 12, currency = 'money' },
-			{ name = 'chips_cheese',  price = 7,  currency = 'money' },
-			{ name = 'chips_paprika', price = 10, currency = 'money' },
+			{ name = 'beer',           price = 7,  currency = 'money' },
+			{ name = 'whiskey',        price = 10, currency = 'money' },
+			{ name = 'vodka',          price = 12, currency = 'money' },
+			{ name = 'cola',           price = 7,  currency = 'money' },
+			{ name = 'sprunk',         price = 10, currency = 'money' },
+			{ name = 'chips_cheese',   price = 7,  currency = 'money' },
+			{ name = 'chips_paprika',  price = 10, currency = 'money' },
+			{ name = 'pitahummus',     price = 7,  currency = 'money' },
+			{ name = 'olives',         price = 10, currency = 'money' },
+			{ name = 'ouzo',           price = 7,  currency = 'money' },
+			{ name = 'pitagyros',      price = 10, currency = 'money' },
+			{ name = 'greeksalad',     price = 7,  currency = 'money' },
+			{ name = 'pineapplejuice', price = 10, currency = 'money' },
+			{ name = 'peanutbowl',     price = 10, currency = 'money' },
 		},
 		targets = {
 			{
