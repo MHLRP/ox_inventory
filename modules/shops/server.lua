@@ -57,6 +57,7 @@ local function registerShopType(shopType, properties)
 	else
 		Shops[shopType] = {
 			label = properties.name,
+			society = properties.society or false,
 			id = shopType,
 			groups = properties.groups or properties.jobs,
 			items = properties.inventory,
@@ -96,6 +97,7 @@ local function createShop(shopType, id)
 	---@type OxShop
 	shop[id] = {
 		label = shop.name,
+		society = shop.society or false,
 		id = shopType .. ' ' .. id,
 		groups = groups,
 		items = table.clone(shop.inventory),
@@ -188,7 +190,7 @@ local function canAffordItem(inv, currency, price, source, cashOnly)
 	}
 end
 
-local function removeCurrency(inv, currency, price)
+local function removeCurrency(inv, currency, price, society)
 	Inventory.RemoveItem(inv, currency, price)
 end
 
@@ -290,12 +292,18 @@ lib.callback.register('ox_inventory:buyItem', function(source, data)
 				Inventory.SetSlot(playerInv, fromItem, count, metadata, data.toSlot)
 				playerInv.weight = newWeight
 				if canAfford == "cash" then
-					removeCurrency(playerInv, currency, price)
+					removeCurrency(playerInv, currency, price, shop.society)
+					if (shop.society) then
+						exports["qb-banking"]:AddMoney(shop.society, math.floor(price * 0.1 + 0.5))
+					end
 				elseif canAfford == "bank" then
 					local Player = exports.qbx_core:GetPlayer(source)
 					Player.Functions.RemoveMoney("bank", price)
+					if (shop.society) then
+						exports["qb-banking"]:AddMoney(shop.society, math.floor(price * 0.1 + 0.5))
+					end
 				else
-					removeCurrency(playerInv, 'money', price)
+					removeCurrency(playerInv, 'money', price, shop.society)
 				end
 
 				if fromData.count then
