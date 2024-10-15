@@ -1177,8 +1177,8 @@ return {
 			{
 				ped = `csb_burgerdrug`,
 				scenario = 'WORLD_HUMAN_STAND_MOBILE',
-				loc = vec3(-201.2166, -147.2869, 29.3337),
-				heading = 357.3933,
+				loc = vec3(-586.0784, -612.7078, 33.6818),
+				heading = 265.9554,
 			}
 		}
 	},
@@ -1193,8 +1193,8 @@ return {
 			{
 				ped = `a_f_m_ktown_02`,
 				scenario = 'WORLD_HUMAN_STAND_MOBILE',
-				loc = vec3(-186.3872, -93.8319, 29.3337),
-				heading = 176.2224,
+				loc = vec3(-534.6309, -610.7326, 33.6818),
+				heading = 89.2074,
 			}
 		}
 	},
@@ -1489,8 +1489,8 @@ return {
 			{
 				ped = `a_f_y_smartcaspat_01`,
 				scenario = 'WORLD_HUMAN_STAND_MOBILE',
-				loc = vec3(-230.1107, -303.6853, 36.3673),
-				heading = 237.2772,
+				loc = vec3(-529.0688, -582.7499, 33.6818),
+				heading = 180.0955,
 			}
 		}
 	},
