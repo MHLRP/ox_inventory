@@ -11106,7 +11106,7 @@ return {
 	["miningdrill"] = {
 		label = "Mining Drill",
 		weight = 1000,
-		stack = true,
+		stack = false,
 		close = false,
 		consume = 0.05,
 		--degrade = 30, -- This is the time in minutes it takes for a pickaxe to degrade to 0
