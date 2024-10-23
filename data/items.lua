@@ -14873,6 +14873,14 @@ return {
 		description = "A newspaper",
 	},
 
+	['glowsaber'] = {
+		label = 'Glowsaber',
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
 	["coupon"] = {
 		label = "Coupon",
 		weight = 0,
