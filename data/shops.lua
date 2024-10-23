@@ -1006,8 +1006,8 @@ return {
 			{
 				ped = `s_f_y_scrubs_01`,
 				scenario = 'WORLD_HUMAN_CLIPBOARD',
-				loc = vec3(375.3012, -829.8359, 28.2914),
-				heading = 266.2341,
+				loc = vec3(91.2590, -231.6788, 53.6406), --
+				heading = 331.9083,
 			}
 		}
 	},
@@ -1179,6 +1179,28 @@ return {
 				scenario = 'WORLD_HUMAN_STAND_MOBILE',
 				loc = vec3(-586.0784, -612.7078, 33.6818),
 				heading = 265.9554,
+			}
+		}
+	},
+
+	Burger2 = {
+		name = 'Burger Shot',
+		inventory = {
+			{ name = 'burger',        price = 15, currency = 'money' },
+			{ name = 'burger_chs',    price = 25, currency = 'money' },
+			{ name = 'burger_chsbcn', price = 50, currency = 'money' },
+			{ name = 'fr_fries',      price = 15, currency = 'money' },
+			{ name = 'mustard',       price = 10, currency = 'money' },
+			{ name = 'ketchup',       price = 10, currency = 'money' },
+			{ name = 'cola',          price = 15, currency = 'money' },
+			{ name = 'sprunk_bottle', price = 15, currency = 'money' },
+		},
+		targets = {
+			{
+				ped = `csb_burgerdrug`,
+				scenario = 'WORLD_HUMAN_STAND_MOBILE',
+				loc = vec3(-160.9238, -240.0125, 43.4509),
+				heading = 246.0315,
 			}
 		}
 	},
