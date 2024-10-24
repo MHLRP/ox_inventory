@@ -1006,8 +1006,8 @@ return {
 			{
 				ped = `s_f_y_scrubs_01`,
 				scenario = 'WORLD_HUMAN_CLIPBOARD',
-				loc = vec3(91.2590, -231.6788, 53.6406), --
-				heading = 331.9083,
+				loc = vec3(375.2799, -829.9399, 28.2914),
+				heading = 267.9131,
 			}
 		}
 	},
