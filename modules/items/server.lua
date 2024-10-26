@@ -363,6 +363,13 @@ end
 -- 	end
 -- end)
 
+-- Giftbox 
+Item('giftbox', function(event, item, inventory, data, slot)
+    if event == 'usedItem' then
+        Inventory.AddItem(inventory, 'pineapple_express_joint', 1)
+    end
+end)
+
 -- Pizza Boxes
 Item('box_pizza_chs', function(event, item, inventory, data, slot)
     if event == 'usedItem' then
