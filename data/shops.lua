@@ -504,6 +504,14 @@ return {
 		}
 	},
 
+	HealthShop = {
+		name = 'Medkit',
+		inventory = {
+			{ name = 'water', price = 40 },
+			{ name = 'bandage', price = 80 },
+		},
+	},
+
 	MechanicShop = {
 		name = 'Mechanic Shop',
 		groups = {
