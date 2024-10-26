@@ -5879,6 +5879,8 @@ return {
 		description = "Weapon License Doc",
 	},
 
+
+
 	["driver_license"] = {
 		label = "Drivers License",
 		weight = 0,
@@ -15767,6 +15769,19 @@ return {
 		description = "Cash",
 		client = {
 			image = "cash.png",
+		}
+	},
+
+	--- WATER ACTIVITIES 
+	
+	["surfboard"] = {
+		label = "Surfboard",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Surfboard",
+		client = {
+			image = "surfboard.png",
 		}
 	},
 }

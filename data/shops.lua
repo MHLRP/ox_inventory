@@ -2394,6 +2394,7 @@ return {
 			{ name = 'circle',      price = 100, currency = 'money' },
 			{ name = 'parasailing', price = 200, currency = 'money' },
 			{ name = 'inflatable',  price = 100, currency = 'money' },
+			{ name = 'surfboard',   price = 100, currency = 'money' },
 			{ name = 'ski',         price = 100, currency = 'money' },
 		},
 		targets = {
