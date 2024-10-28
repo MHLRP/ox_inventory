@@ -1888,6 +1888,20 @@ return {
 		}
 	},
 
+	unipunkmenu = {
+		name = 'Unipunk Menu',
+		inventory = {
+			{ name = 'unipunk_menu', price = 0 },
+		},
+		locations = {
+			vec3(96.2347, -1326.7034, 20.2039)
+		},
+		targets = {
+			{ loc = vec3(96.2347, -1326.7034, 20.2039), length = 0.6, width = 0.5, heading = 115.8455, minZ = 28.2, maxZ = 28.6, distance = 2 }
+
+		}
+	},
+
 	taco = {
 		name = 'taco',
 		groups = {
