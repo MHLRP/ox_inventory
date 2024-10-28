@@ -1632,7 +1632,6 @@ return {
 	["ecoladiet"] = {
 		label = "ECola Diet",
 		weight = 500,
-		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "For all the thirsty out there",
@@ -1656,7 +1655,6 @@ return {
 	["kurkakola"] = {
 		label = "Cola",
 		weight = 500,
-		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "For all the thirsty out there",
@@ -1665,7 +1663,6 @@ return {
 	["sprunklight"] = {
 		label = "Sprunk Light",
 		weight = 500,
-		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "For all the thirsty out there",
@@ -1705,7 +1702,6 @@ return {
 	["tequila"] = {
 		label = "Tequila",
 		weight = 5,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1715,7 +1711,6 @@ return {
 	["rum"] = {
 		label = "Rum",
 		weight = 5,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1899,7 +1894,6 @@ return {
 	["coffeefrap"] = {
 		label = "Cloud Cafe",
 		weight = 200,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1909,7 +1903,6 @@ return {
 	["coffee"] = {
 		label = "Coffee",
 		weight = 200,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1919,7 +1912,6 @@ return {
 	['coffee_black'] = { -- Carbonized syrup is good for the soul
 		label = 'Black Coffee',
 		weight = 350,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1929,7 +1921,6 @@ return {
 	['coffee_mocha'] = { -- Carbonized syrup is good for the soul
 		label = 'Mocha',
 		weight = 350,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1939,7 +1930,6 @@ return {
 	['coffee_cpcno'] = { -- Carbonized syrup is good for the soul
 		label = 'Cappuccino',
 		weight = 350,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1949,7 +1939,6 @@ return {
 	['coffee_amrcno'] = { -- Carbonized syrup is good for the soul
 		label = 'Americano',
 		weight = 350,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1961,7 +1950,6 @@ return {
 	["soda"] = {
 		label = "Soda",
 		weight = 500,
-		degrade = 60 * 36,
 		stack = true,
 		close = true,
 		description = "",
@@ -1970,7 +1958,6 @@ return {
 	['cola'] = {
 		label = 'eCola',
 		weight = 350,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1986,7 +1973,6 @@ return {
 	["ecola"] = {
 		label = 'Cola',
 		weight = 350,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2005,7 +1991,6 @@ return {
 	['sprunk'] = {
 		label = 'Sprunk',
 		weight = 350,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2025,7 +2010,6 @@ return {
 	['orangotang'] = { -- Carbonized syrup is good for the soul
 		label = 'Orang-o-tang',
 		weight = 350,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2045,7 +2029,6 @@ return {
 	['ejunk'] = { -- Drinking too much of this wont kill you. I think.
 		label = 'Junk Energy',
 		weight = 350,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2067,7 +2050,6 @@ return {
 	["beer"] = {
 		label = "Beer",
 		weight = 500,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2077,7 +2059,6 @@ return {
 	['rancho_beer'] = { -- Good ol imported beer from mexico
 		label = 'Cerbesa Barracho',
 		weight = 290,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2087,7 +2068,6 @@ return {
 	['dusche_beer'] = { -- Good ol imported beer from germany
 		label = 'Dusche Beer',
 		weight = 290,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2097,7 +2077,6 @@ return {
 	['stronzo_beer'] = { -- Good ol imported beer from italy
 		label = 'Stronzo Beer',
 		weight = 290,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2107,7 +2086,6 @@ return {
 	['blarny_beer'] = { -- Good ol imported beer from italy
 		label = 'Blarny\'s Stout',
 		weight = 290,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2117,7 +2095,6 @@ return {
 	['patriot_beer'] = { -- Good ol homemade beer from the brewery
 		label = 'Patriot Beer',
 		weight = 290,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2129,7 +2106,6 @@ return {
 	["vodka"] = {
 		label = "Vodka",
 		weight = 500,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2139,7 +2115,6 @@ return {
 	["wine"] = {
 		label = "Wine",
 		weight = 300,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = false,
@@ -2149,7 +2124,6 @@ return {
 	["whiskey"] = {
 		label = "Whiskey",
 		weight = 500,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2159,7 +2133,6 @@ return {
 	['bb_bourgeoix'] = { -- Good ol imported beer from mexico
 		label = 'Bottle of Bourgeoix Cognac',
 		weight = 290,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2169,7 +2142,6 @@ return {
 	['bb_cariaque'] = { -- Good ol imported beer from mexico
 		label = 'Bottle of Cariaque Bourbon',
 		weight = 290,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2179,7 +2151,6 @@ return {
 	['cb_bleuterd'] = { -- Good ol imported beer from mexico
 		label = 'Bottle of Bleuter\'d Champagne',
 		weight = 290,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2189,7 +2160,6 @@ return {
 	['rb_ragga'] = { -- Good ol imported beer from mexico
 		label = 'Bottle of Ragga Rum',
 		weight = 290,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2199,7 +2169,6 @@ return {
 	['tb_tequilya'] = { -- Good ol imported beer from mexico
 		label = 'Bottle of Tequilya Tequila',
 		weight = 290,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2209,7 +2178,6 @@ return {
 	['vb_nogo'] = { -- Good ol imported beer from mexico
 		label = 'Bottle of Nogo Vodka',
 		weight = 290,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2219,7 +2187,6 @@ return {
 	['wb_mount'] = { -- Good ol imported beer from mexico
 		label = 'Bottle of Mount Whiskey',
 		weight = 290,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2229,7 +2196,6 @@ return {
 	['wb_richards'] = { -- Good ol imported beer from mexico
 		label = 'Bottle of Richard\'s Whiskey',
 		weight = 290,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2241,7 +2207,6 @@ return {
 	['bg_bourgeiox'] = { -- Good ol imported beer from mexico
 		label = 'Glass of Bourgeoix Cognac',
 		weight = 290,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2251,7 +2216,6 @@ return {
 	['bg_cariaque'] = { -- Good ol imported beer from mexico
 		label = 'Glass of Cariaque Bourbon',
 		weight = 290,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2261,7 +2225,6 @@ return {
 	['bs_bourgeiox'] = { -- Good ol imported beer from mexico
 		label = 'Shot of Bourgeoix Cognac',
 		weight = 290,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2271,7 +2234,6 @@ return {
 	['bs_cariaque'] = { -- Good ol imported beer from mexico
 		label = 'Shot of Cariaque Bourbon',
 		weight = 290,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2281,7 +2243,6 @@ return {
 	['cg_bleuterd'] = { -- Good ol imported beer from mexico
 		label = 'Glass of Bleuter\'d Champagne',
 		weight = 290,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2291,7 +2252,6 @@ return {
 	['tg_martini'] = { -- Good ol imported beer from mexico
 		label = 'Martini',
 		weight = 290,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2301,7 +2261,6 @@ return {
 	['tg_sunrise'] = { -- Good ol imported beer from mexico
 		label = 'Tequilya Sunrise',
 		weight = 290,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2311,7 +2270,6 @@ return {
 	['tg_tequilya'] = { -- Good ol imported beer from mexico
 		label = 'Glass of Tequilya',
 		weight = 290,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2321,7 +2279,6 @@ return {
 	['ts_tequilya'] = { -- Good ol imported beer from mexico
 		label = 'Shot of Tequilya',
 		weight = 290,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2331,7 +2288,6 @@ return {
 	['vg_nogo'] = { -- Good ol imported beer from mexico
 		label = 'Glass of Nogo Vodka',
 		weight = 290,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2341,7 +2297,6 @@ return {
 	['vs_nogo'] = { -- Good ol imported beer from mexico
 		label = 'Shot of Nogo Vodka',
 		weight = 290,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2351,7 +2306,6 @@ return {
 	['wg_mount'] = { -- Good ol imported beer from mexico
 		label = 'Glass of Mount Whiskey',
 		weight = 290,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2361,7 +2315,6 @@ return {
 	['wg_richards'] = { -- Good ol imported beer from mexico
 		label = 'Glass of Richard\'s Whiskey',
 		weight = 290,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2371,7 +2324,6 @@ return {
 	['ws_mount'] = { -- Good ol imported beer from mexico
 		label = 'Shot of Mount Whiskey',
 		weight = 290,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2381,7 +2333,6 @@ return {
 	['ws_richards'] = { -- Good ol imported beer from mexico
 		label = 'Shot of Richard\'s Whiskey',
 		weight = 290,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -2393,7 +2344,6 @@ return {
 	['box_rancho_beer'] = { -- idea: Player uses item to show badge prop
 		label = 'Case of Rancho Beer',
 		weight = 3500,
-		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "Oh boy I love beer",
@@ -2417,7 +2367,6 @@ return {
 	['box_dusche_beer'] = { -- idea: Player uses item to show badge prop
 		label = 'Case of Dusche Beer',
 		weight = 3500,
-		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "Oh boy I love beer",
@@ -2441,7 +2390,6 @@ return {
 	['box_blarny_beer'] = { -- idea: Player uses item to show badge prop
 		label = 'Case of Blarny Beer',
 		weight = 3500,
-		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "Oh boy I love beer",
@@ -2465,7 +2413,6 @@ return {
 	['box_patriot_beer'] = { -- idea: Player uses item to show badge prop
 		label = 'Case of Patriot Beer',
 		weight = 3500,
-		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "Oh boy I love beer",
@@ -2489,7 +2436,6 @@ return {
 	['box_stronzo_beer'] = { -- idea: Player uses item to show badge prop
 		label = 'Case of Stronzo Beer',
 		weight = 3500,
-		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "Oh boy I love beer",
@@ -2513,7 +2459,6 @@ return {
 	['box_bourgeoix_liquor'] = { -- idea: Player uses item to show badge prop
 		label = 'Case of Bourgeoix Cognac',
 		weight = 3500,
-		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "Oh boy I love liquor",
@@ -2537,7 +2482,6 @@ return {
 	['box_cariaque_liquor'] = { -- idea: Player uses item to show badge prop
 		label = 'Case of Cariaque Bourbon',
 		weight = 3500,
-		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "Oh boy I love liquor",
@@ -2561,7 +2505,6 @@ return {
 	['box_bleuterd_liquor'] = { -- idea: Player uses item to show badge prop
 		label = 'Case of Bleuter\'d Champagne',
 		weight = 3500,
-		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "Oh boy I love liquor",
@@ -2585,7 +2528,6 @@ return {
 	['box_ragga_liquor'] = { -- idea: Player uses item to show badge prop
 		label = 'Case of Ragga Rum',
 		weight = 3500,
-		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "Oh boy I love liquor",
@@ -2609,7 +2551,6 @@ return {
 	['box_tequilya_liquor'] = { -- idea: Player uses item to show badge prop
 		label = 'Case of Tequilya Tequila',
 		weight = 3500,
-		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "Oh boy I love liquor",
@@ -2633,7 +2574,6 @@ return {
 	['box_nogo_liquor'] = { -- idea: Player uses item to show badge prop
 		label = 'Case of Nogo Vodka',
 		weight = 3500,
-		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "Oh boy I love liquor",
@@ -2657,7 +2597,6 @@ return {
 	['box_mount_liquor'] = { -- idea: Player uses item to show badge prop
 		label = 'Case of Mount Whiskey',
 		weight = 3500,
-		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "Oh boy I love liquor",
@@ -2681,7 +2620,6 @@ return {
 	['box_richards_liquor'] = { -- idea: Player uses item to show badge prop
 		label = 'Case of Richard\'s Whiskey',
 		weight = 3500,
-		degrade = 60 * 36,
 		decay = true,
 		--consume = 0,
 		description = "Oh boy I love liquor",
@@ -2702,8 +2640,45 @@ return {
 		}
 	},
 
+	["viperspoison"] = {
+		label = "Viper's Poison",
+		weight = 290,
+		stack = true,
+		close = true,
+		description = "A dangerous drink for daring souls.",
+	},
 
+	["purevodkashot"] = {
+		label = "Pure Vodka Shot",
+		weight = 290,
+		stack = true,
+		close = true,
+		description = "A shot of the finest vodka.",
+	},
 
+	["nightsky"] = {
+		label = "Night Sky",
+		weight = 290,
+		stack = true,
+		close = true,
+		description = "A cocktail that captures the essence of the night.",
+	},
+
+	["vanillaunicorn"] = {
+		label = "Vanilla Unicorn",
+		weight = 290,
+		stack = true,
+		close = true,
+		description = "A sweet and whimsical drink.",
+	},
+
+	["grapeseeddaquiri"] = {
+		label = "Grapeseed Daiquiri",
+		weight = 290,
+		stack = true,
+		close = true,
+		description = "A refreshing daiquiri with a twist.",
+	},
 
 	--- USABLES: Pizza Boxes
 
@@ -11804,7 +11779,9 @@ return {
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = {
 				model = 'brum_summercocktail_yellow',
-				pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+				pos = vec3(0.01, 0.01, 0.06),
+				rot = vec3(5.0, 5.0, -180.5)
+			},
 			usetime = 7500,
 		}
 	},
@@ -12216,6 +12193,14 @@ return {
 		client = {
 			image = "bhighcoffeeglasscup.png",
 		}
+	},
+
+	["alcoholglass"] = {
+		label = "Alcohol Glass",
+		weight = 5,
+		stack = true,
+		close = true,
+		description = "Empty Glass",
 	},
 
 	["bice"] = {
@@ -15787,8 +15772,8 @@ return {
 		}
 	},
 
-	--- WATER ACTIVITIES 
-	
+	--- WATER ACTIVITIES
+
 	["surfboard"] = {
 		label = "Surfboard",
 		weight = 100,

@@ -426,6 +426,57 @@ Item('box_patriot_beer', function(event, item, inventory, data, slot)
 	end
 end)
 
+-- Alcohol Crates
+
+Item('box_bourgeoix_liquor', function(event, item, inventory, data, slot)
+	if event == 'usedItem' then
+    	Inventory.AddItem(inventory, 'bb_bourgeoix', 6)
+	end
+end)
+
+Item('box_cariaque_liquor', function(event, item, inventory, data, slot)
+	if event == 'usedItem' then
+    	Inventory.AddItem(inventory, 'bb_cariaque', 6)
+	end
+end)
+
+Item('box_bleuterd_liquor', function(event, item, inventory, data, slot)
+	if event == 'usedItem' then
+    	Inventory.AddItem(inventory, 'cb_bleuterd', 6)
+	end
+end)
+
+Item('box_ragga_liquor', function(event, item, inventory, data, slot)
+	if event == 'usedItem' then
+    	Inventory.AddItem(inventory, 'rb_ragga', 6)
+	end
+end)
+
+Item('box_tequilya_liquor', function(event, item, inventory, data, slot)
+	if event == 'usedItem' then
+    	Inventory.AddItem(inventory, 'tb_tequilya', 6)
+	end
+end)
+
+Item('box_nogo_liquor', function(event, item, inventory, data, slot)
+	if event == 'usedItem' then
+    	Inventory.AddItem(inventory, 'vb_nogo', 6)
+	end
+end)
+
+Item('box_mount_liquor', function(event, item, inventory, data, slot)
+	if event == 'usedItem' then
+    	Inventory.AddItem(inventory, 'wb_mount', 6)
+	end
+end)
+
+Item('box_richards_liquor', function(event, item, inventory, data, slot)
+	if event == 'usedItem' then
+    	Inventory.AddItem(inventory, 'wb_richards', 6)
+	end
+end)
+
+
 ----------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------- 
 -- Ammo
