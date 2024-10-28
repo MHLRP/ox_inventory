@@ -608,7 +608,6 @@ return {
 	["lollipop1"] = {
 		label = "Lolli Pop (Red)",
 		weight = 1000,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1800,7 +1799,6 @@ return {
 	["champagne"] = {
 		label = "Champagne",
 		weight = 5,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -4554,7 +4552,6 @@ return {
 
 	["casino_coffee"] = {
 		label = "Casino Coffee",
-		degrade = 60 * 36,
 		weight = 0,
 		stack = true,
 		close = false,
@@ -4594,7 +4591,6 @@ return {
 
 	["casino_coke"] = {
 		label = "Casino Coke",
-		degrade = 60 * 36,
 		weight = 0,
 		stack = true,
 		close = false,
@@ -12045,7 +12041,6 @@ return {
 	["fanta"] = {
 		label = "Fanta",
 		weight = 180,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12082,7 +12077,6 @@ return {
 	["coke-soda"] = {
 		label = "Coke Soda",
 		weight = 180,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -13367,7 +13361,6 @@ return {
 	["bottle_cola"] = {
 		label = "Cola",
 		weight = 350,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -13382,7 +13375,6 @@ return {
 	["bottle_junk"] = {
 		label = "Junk",
 		weight = 350,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -13397,7 +13389,6 @@ return {
 	["bottle_orang"] = {
 		label = "Orang Tang",
 		weight = 350,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -13416,7 +13407,6 @@ return {
 	["bottle_tonic"] = {
 		label = "Tonic",
 		weight = 20,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -13435,7 +13425,6 @@ return {
 	["bottle_water"] = {
 		label = "Water",
 		weight = 20,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -13454,7 +13443,6 @@ return {
 	["bottle_sprunk"] = {
 		label = "Sprunk",
 		weight = 20,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -13473,7 +13461,6 @@ return {
 	["can_cola"] = {
 		label = "Cola Canweight = 1,",
 		weight = 20,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -13492,7 +13479,6 @@ return {
 	["can_orang"] = {
 		label = "Orang Tang Can",
 		weight = 20,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -13511,7 +13497,6 @@ return {
 	["can_junk"] = {
 		label = "Junk Canweight = 1,",
 		weight = 20,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -13530,7 +13515,6 @@ return {
 	["can_sprunk"] = {
 		label = "Sprunk Can",
 		weight = 20,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
