@@ -5738,6 +5738,13 @@ return {
 		description = "Dont use this to look in windows you sicko!",
 	},
 
+	['cyberdrone'] = {
+		label = 'Cyber Drone',
+		weight = 400,
+		stack = false,
+		description = "Your very own cyber drone",
+	},
+
 	['cig_69brand'] = {
 		label = 'Pack of 69Brand Smokes',
 		weight = 250,
