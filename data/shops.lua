@@ -1201,7 +1201,7 @@ return {
 			{ name = 'mustard',       price = 10, currency = 'money' },
 			{ name = 'ketchup',       price = 10, currency = 'money' },
 			{ name = 'cola',          price = 15, currency = 'money' },
-			{ name = 'sprunk_bottle', price = 15, currency = 'money' },
+			{ name = 'sprunk', price = 15, currency = 'money' },
 		},
 		targets = {
 			{
@@ -1223,7 +1223,7 @@ return {
 			{ name = 'mustard',       price = 10, currency = 'money' },
 			{ name = 'ketchup',       price = 10, currency = 'money' },
 			{ name = 'cola',          price = 15, currency = 'money' },
-			{ name = 'sprunk_bottle', price = 15, currency = 'money' },
+			{ name = 'sprunk', price = 15, currency = 'money' },
 		},
 		targets = {
 			{
