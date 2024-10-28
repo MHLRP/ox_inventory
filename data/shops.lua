@@ -235,6 +235,7 @@ return {
 			{ name = 'bcoffeeglass',           price = 10,  currency = 'money' },
 			{ name = 'bespressocoffeecup',     price = 10,  currency = 'money' },
 			{ name = 'orange',                 price = 45,  currency = 'money' },
+			{ name = 'grape',                  price = 45,  currency = 'money' },
 			{ name = 'banana',                 price = 20,  currency = 'money' },
 			{ name = 'apple',                  price = 45,  currency = 'money' },
 			{ name = 'limao',                  price = 10,  currency = 'money' },
@@ -459,7 +460,7 @@ return {
 		},
 		targets = {
 			{ loc = vec3(330.34, -599.69, 42.79),        length = 1.5, width = 3.0, heading = 270.0,    minZ = 41.5, maxZ = 43.0, distance = 3 },
-			{ loc = vec3(1822.8713, 3666.3740, 34.2710),      length = 1.5, width = 3.0, heading = 210.8633,     minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(1822.8713, 3666.3740, 34.2710), length = 1.5, width = 3.0, heading = 210.8633, minZ = 41.5, maxZ = 43.0, distance = 3 },
 			{ loc = vec3(-254.9789, 6326.5845, 32.4273), length = 1.5, width = 3.0, heading = 315.1287, minZ = 41.5, maxZ = 43.0, distance = 3 },
 		}
 	},
@@ -500,14 +501,14 @@ return {
 			vec3(330.34, -599.69, 42.79),
 		},
 		targets = {
-			{ loc = vec3(330.34, -599.69, 42.79),   length = 1.5, width = 3.0, heading = 270.0, minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(330.34, -599.69, 42.79), length = 1.5, width = 3.0, heading = 270.0, minZ = 41.5, maxZ = 43.0, distance = 3 },
 		}
 	},
 
 	HealthShop = {
 		name = 'Medkit',
 		inventory = {
-			{ name = 'water', price = 40 },
+			{ name = 'water',   price = 40 },
 			{ name = 'bandage', price = 80 },
 		},
 	},
@@ -1976,6 +1977,7 @@ return {
 		inventory = {
 			{ name = 'orange', price = 45, currency = 'money' },
 			{ name = 'banana', price = 20, currency = 'money' },
+			{ name = 'grape',  price = 45, currency = 'money' },
 			{ name = 'apple',  price = 45, currency = 'money' },
 			{ name = 'limao',  price = 10, currency = 'money' },
 		},
@@ -2222,6 +2224,7 @@ return {
 			{ name = 'bcoffeeglass',           price = 10,  currency = 'money' },
 			{ name = 'bespressocoffeecup',     price = 10,  currency = 'money' },
 			{ name = 'orange',                 price = 45,  currency = 'money' },
+			{ name = 'grape',                  price = 45,  currency = 'money' },
 			{ name = 'banana',                 price = 20,  currency = 'money' },
 			{ name = 'apple',                  price = 45,  currency = 'money' },
 			{ name = 'limao',                  price = 10,  currency = 'money' },
