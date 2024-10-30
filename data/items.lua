@@ -13533,7 +13533,6 @@ return {
 	["can_logger"] = {
 		label = "Logger Can",
 		weight = 20,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -13552,7 +13551,6 @@ return {
 	["can_blarneys"] = {
 		label = "Blarneys Can",
 		weight = 20,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -13571,7 +13569,6 @@ return {
 	["can_hoplivion"] = {
 		label = "Hoplivion Can",
 		weight = 20,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -13590,7 +13587,6 @@ return {
 	["can_cerbeza"] = {
 		label = "Cerbeza Can",
 		weight = 20,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
