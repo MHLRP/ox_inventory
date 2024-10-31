@@ -1615,6 +1615,7 @@ return {
 			id = 566, colour = 0, scale = 0.6
 		},
 		inventory = {
+			{ name = 'ghostcam',      price = 500, currency = 'money' },
 			{ name = 'miningdrill',      price = 15000, currency = 'money' },
 			{ name = 'mininglaser',      price = 30000, currency = 'money' },
 			{ name = 'campfire',         price = 400,   currency = 'money' },

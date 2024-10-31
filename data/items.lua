@@ -4105,6 +4105,18 @@ return {
 		description = "Camera to take pretty pictures.",
 	},
 
+	['ghostcam'] = {
+		label = 'Ghost Camera',
+		weight = 400,
+		stack = true,
+		close = true,
+		consume = 0,
+		description = 'A camera for capturing spookies.',
+		server = {
+			export = 'randol_ghosthunting.ghostcam',
+		},
+	},
+
 	["pdcamera"] = {
 		label = "PD Camera",
 		weight = 400,
