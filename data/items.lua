@@ -11619,6 +11619,27 @@ return {
 		}
 	},
 
+	["burger-bullet"] = {
+		label = "Bullet",
+		weight = 350,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Bullet Burger",
+		client = {
+			image = "bs_the-heart-stopper.png",
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'dh_burger3',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
+		}
+	},
+
 	["burger-softdrink"] = {
 		label = "Soft Drink",
 		weight = 200,
