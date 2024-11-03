@@ -27,6 +27,7 @@ return {
 			{ name = 'briefcase',           price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'pdcamera',            price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'specialbadge',        price = 0, metadata = { description = "Police Property" }, },
+			{ name = 'megaphone',           price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'badge_lspd',          price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'badge_fib',           price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'badge_bcso',          price = 0, metadata = { description = "Police Property" }, },
@@ -107,6 +108,7 @@ return {
 			{ name = 'ifaks',               price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'radio',               price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'radiocell',           price = 0, metadata = { description = "Police Property" }, },
+			{ name = 'megaphone',           price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'briefcase',           price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'pdcamera',            price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'specialbadge',        price = 0, metadata = { description = "Police Property" }, },
@@ -1201,7 +1203,7 @@ return {
 			{ name = 'mustard',       price = 10, currency = 'money' },
 			{ name = 'ketchup',       price = 10, currency = 'money' },
 			{ name = 'cola',          price = 15, currency = 'money' },
-			{ name = 'sprunk', price = 15, currency = 'money' },
+			{ name = 'sprunk',        price = 15, currency = 'money' },
 		},
 		targets = {
 			{
@@ -1223,7 +1225,7 @@ return {
 			{ name = 'mustard',       price = 10, currency = 'money' },
 			{ name = 'ketchup',       price = 10, currency = 'money' },
 			{ name = 'cola',          price = 15, currency = 'money' },
-			{ name = 'sprunk', price = 15, currency = 'money' },
+			{ name = 'sprunk',        price = 15, currency = 'money' },
 		},
 		targets = {
 			{
