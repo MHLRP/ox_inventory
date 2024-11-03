@@ -495,4 +495,55 @@ return {
 		slots = 40,
 		weight = 40000,
 	},
+	{
+		coords = vec3(2539.7991, 6148.2275, 167.1216),
+		target = {
+			loc = vec3(2539.7991, 6148.2275, 167.1216),
+			length = 1.2,
+			width = 5.6,
+			heading = 280.0730,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Cozy Cottage'
+		},
+		name = 'cozy',
+		label = 'Cozy Cottage Storage',
+		owner = false,
+		slots = 70,
+		weight = 70000,
+	},
+	{
+		coords = vec3(2534.6941, 6153.7695, 167.1212),
+		target = {
+			loc = vec3(2534.6941, 6153.7695, 167.1212),
+			length = 1.2,
+			width = 5.6,
+			heading = 22.5601,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Cozy Cottage'
+		},
+		name = 'cozy2',
+		label = 'Cozy Cottage Storage 2',
+		owner = false,
+		slots = 70,
+		weight = 70000,
+	},
+	{
+		coords = vec3(2540.6831, 6136.1777, 167.3121),
+		target = {
+			loc = vec3(2540.6831, 6136.1777, 167.3121),
+			length = 1.2,
+			width = 5.6,
+			heading = 197.1993,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Cozy Cottage'
+		},
+		name = 'cozy3',
+		label = 'Cozy Cottage Storage 3',
+		owner = false,
+		slots = 70,
+		weight = 70000,
+	},
 }
