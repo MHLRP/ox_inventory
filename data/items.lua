@@ -5896,7 +5896,7 @@ return {
 	},
 
 	['panties'] = {
-		label = 'Knickers',
+		label = 'Panties',
 		weight = 10,
 		consume = 0,
 		client = {
