@@ -99,6 +99,7 @@ Item('bandage', function(data, slot)
 	local health = GetEntityHealth(cache.ped)
 	ox_inventory:useItem(data, function(data)
 		if data then
+			exports.wasabi_ambulance:clearPlayerInjury(false)
 			SetEntityHealth(cache.ped, math.min(maxHealth, math.floor(health + maxHealth / 12)))
 			lib.notify({ description = 'You feel better already' })
 		end
