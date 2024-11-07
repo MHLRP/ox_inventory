@@ -4241,19 +4241,7 @@ return {
 		weight = 2200,
 		stack = false,
 		close = true,
-		consume = 0,
-		description = "Carry News Camera",
-		client = {
-			anim = { dict = 'amb@world_human_paparazzi@male@base', clip = 'base', flag = 49 },
-			prop = {
-				model = 'prop_v_cam_01', -- need badge props repo
-				pos = vec3(0.2100, 0.0300, 0.0100),
-				rot = vec3(-90.0000, 176.0000, 79.9999),
-				bone = 28422
-			},
-			disable = { move = false, car = false, combat = false },
-			usetime = 30000,
-		}
+		description = "News Camera",
 	},
 
 	["rolex"] = {
