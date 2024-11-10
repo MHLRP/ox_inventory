@@ -672,6 +672,7 @@ return {
 			{ name = 'mechanic_tablet',      label = 'Mechanic Tablet',            price = 0 },
 			{ name = 'kq_winch',             label = 'Mechanic Tablet',            price = 0 },
 			{ name = 'kq_tow_rope',          label = 'Mechanic Tablet',            price = 0 },
+			{ name = 'customizableplate',    label = 'Customizable Plate',         price = 0 },
 		},
 		locations = {
 			vec3(-337.9443, -141.4142, 39.0640),
