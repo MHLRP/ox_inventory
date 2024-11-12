@@ -5681,21 +5681,21 @@ return {
 		label = 'tent',
 		weight = 250,
 		stack = false,
-		description = "Use this with /tent and /deltent",
+		description = "You can use this!",
 	},
 
 	['firewood'] = {
 		label = 'Firewood',
 		weight = 250,
 		stack = false,
-		description = "You can use this with /campfire and /delcampfire",
+		description = "You can use this!",
 	},
 
 	['chair'] = {
 		label = 'Chair',
 		weight = 250,
 		stack = false,
-		description = "Might work better if you use with /e sitshair and /delchair",
+		description = "You can use this!",
 	},
 
 	--- HALLOWEEN
