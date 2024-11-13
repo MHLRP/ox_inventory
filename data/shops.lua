@@ -521,6 +521,7 @@ return {
 			['medusamechanics'] = 0
 		},
 		inventory = {
+			{ name = 'harness',              label = 'Racing Harness',             price = 0 },
 			{ name = 'engine_oil',           label = 'Engine Oil',                 price = 0 },
 			{ name = 'tyre_replacement',     label = 'Tyre Replacement',           price = 0 },
 			{ name = 'clutch_replacement',   label = 'Clutch Replacement',         price = 0 },
@@ -605,6 +606,7 @@ return {
 			['midnightautos'] = 0
 		},
 		inventory = {
+			{ name = 'harness',              label = 'Racing Harness',             price = 0 },
 			{ name = 'engine_oil',           label = 'Engine Oil',                 price = 0 },
 			{ name = 'tyre_replacement',     label = 'Tyre Replacement',           price = 0 },
 			{ name = 'clutch_replacement',   label = 'Clutch Replacement',         price = 0 },

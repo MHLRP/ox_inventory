@@ -10338,11 +10338,11 @@ return {
 	},
 
 	["harness"] = {
-		label = "Race Harness",
+		label = "Racing Harness",
 		weight = 1000,
 		stack = false,
 		close = true,
-		description = "Racing Harness so no matter what you stay in the car",
+		description = "Racing Harness so no matter what, you stay buckled up!",
 	},
 
 	["perfov10"] = {
