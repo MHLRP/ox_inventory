@@ -93,8 +93,28 @@ return {
 	},
 
 	["grape"] = {
-		label = "Grape",
-		weight = 1,
+		label = "Grapes",
+		weight = 10,
+		decay = true,
+		degrade = 60 * 36,
+		stack = true,
+		close = false,
+		description = "Mmmmh yummie, grapes",
+	},
+
+	["redgrape"] = {
+		label = "Red Grapes",
+		weight = 10,
+		decay = true,
+		degrade = 60 * 36,
+		stack = true,
+		close = false,
+		description = "Mmmmh yummie, grapes",
+	},
+
+	["whitegrape"] = {
+		label = "White Grapes",
+		weight = 10,
 		decay = true,
 		degrade = 60 * 36,
 		stack = true,
@@ -2118,6 +2138,33 @@ return {
 		close = false,
 		description = "Some good wine to drink on a fine evening",
 	},
+
+	['redwinebottle'] = {
+		label = 'Red Whine',
+		weight = 300,
+		decay = true,
+		stack = true,
+		close = false,
+		description = "Some good wine to drink on a fine evening",
+	},
+
+	['whitewinebottle'] = {
+		label = 'White Whine',
+		weight = 300,
+		decay = true,
+		stack = true,
+		close = false,
+		description = "Some good wine to drink on a fine evening",
+	},
+
+	['emptywinebottle'] = {
+		label = 'Empty Wine Bottle',
+		weight = 100,
+		decay = true,
+		stack = true,
+		close = false,
+	},
+	
 
 	["whiskey"] = {
 		label = "Whiskey",
