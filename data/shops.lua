@@ -518,7 +518,7 @@ return {
 	CyberDoc = {
 		name = 'Cyber Doc',
 		inventory = {
-			{ name = 'cybereye',   price = 42000 },
+			{ name = 'cybereye',   price = 82000 },
 		},
 	},
 
