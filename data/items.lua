@@ -15004,6 +15004,16 @@ return {
 		}
 	},
 
+	---- ROBOT ACCESSORIES 
+	
+	["cybereye"] = {
+		label = "Cyber Eye",
+		weight = 1000,
+		stack = false,
+		close = true,
+		description = "Cyberoptics Implant",
+	},
+
 	["coin"] = {
 		label = "Coin",
 		weight = 1,

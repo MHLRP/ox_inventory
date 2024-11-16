@@ -515,6 +515,13 @@ return {
 		},
 	},
 
+	CyberDoc = {
+		name = 'Cyber Doc',
+		inventory = {
+			{ name = 'cybereye',   price = 42000 },
+		},
+	},
+
 	MechanicShop = {
 		name = 'Mechanic Shop',
 		groups = {

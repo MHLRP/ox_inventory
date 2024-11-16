@@ -546,4 +546,39 @@ return {
 		slots = 70,
 		weight = 70000,
 	},
+	{
+		coords = vec3(348.3399, -1412.6246, 32.5172),
+		target = {
+			loc = vec3(348.3399, -1412.6246, 32.5172),
+			length = 1.2,
+			width = 5.6,
+			heading = 315.9084,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Cyberdoc Storage'
+		},
+		name = 'cyberdoc',
+		label = 'Storage',
+		owner = false,
+		slots = 70,
+		weight = 70000,
+	},
+	{
+		coords = vec3(-332.313, -125.943, 38.062),
+		target = {
+			loc = vec3(-332.313, -125.943, 38.062),
+			length = 1.2,
+			width = 5.6,
+			heading = -20.460,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Autosunset Storage'
+		},
+		name = 'autosunset',
+		label = 'Storage',
+		owner = true,
+		slots = 70,
+		weight = 70000,
+		groups = { ['medusamechanics'] = 0 }
+	},
 }
