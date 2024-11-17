@@ -3960,8 +3960,6 @@ return {
 		}
 	},
 
-
-
 	["ciggie"] = {
 		label = "Ciggie",
 		weight = 100,
@@ -13145,6 +13143,40 @@ return {
 			image = "Clothing_1_53.png",
 		}
 	},
+
+	['parcel'] = {
+        label = 'Parcel',
+        weight = 300, -- Adjust the weight as needed
+        stack = true,
+        close = true,
+        description = 'A package that can be picked up or delivered.',
+		client = {
+			image = "parcel.png",
+		}
+    },
+
+    ['shoebox'] = {
+        label = 'Shoe Box',
+        weight = 100, -- Adjust the weight as needed
+        stack = false,
+        close = true,
+        description = 'Shoe Box',
+		client = {
+			image = "shoebox.png",
+		}
+    },
+
+    ['shoeboxrare'] = {
+        label = 'Rare Shoe',
+        weight = 100, -- Adjust the weight as needed
+        stack = false,
+        close = true,
+        description = 'Rare Shoe Box',
+		client = {
+			image = "shoeboxrare.png",
+		}
+    },
+
 	["chips_cheese"] = {
 		label = "Chips Big Cheese",
 		weight = 350,
