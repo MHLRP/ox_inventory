@@ -15874,4 +15874,59 @@ return {
 			image = "surfboard.png",
 		}
 	},
+
+    ["piperidine"] = {
+        label = "Piperidine",
+        weight = 1000,
+        stack = true,
+        close = false,
+        description = "Piperidine",
+        client = {
+            image = "piperidine.png",
+        }
+    },
+
+    ["fentanyltable"] = {
+        label = "Fentanyl Table",
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = "Fentanyl Table",
+        client = {
+            image = "fentanyltable.png",
+        }
+    },
+
+    ["pseudoephedrine"] = {
+        label = "Pseudoephedrine",
+        weight = 1000,
+        stack = true,
+        close = false,
+        description = "pseudoephedrine",
+        client = {
+            image = "pseudoephedrine.png",
+        }
+    },
+
+    ["fentanyl"] = {
+        label = "fentanyl",
+        weight = 1000,
+        stack = true,
+        close = false,
+        description = "fentanyl",
+        client = {
+            image = "pseudoephedrine.png",
+        }
+    },
+
+    ["btheroine"] = {
+        label = "Black Tar Heroin",
+        weight = 1000,
+        stack = true,
+        close = false,
+        description = "Black Tar Heroin",
+        client = {
+            image = "btheroine.png",
+        }
+    },
 }
