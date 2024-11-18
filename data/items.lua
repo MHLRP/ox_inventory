@@ -15875,6 +15875,8 @@ return {
 		}
 	},
 
+	--- FENTANYL 
+
     ["piperidine"] = {
         label = "Piperidine",
         weight = 1000,
