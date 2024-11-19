@@ -3941,6 +3941,14 @@ return {
 		description = "You can give this to a friend!",
 	},
 
+	["birthday_cardsao"] = {
+		label = "Birthday Card",
+		weight = 5,
+		stack = true,
+		close = true,
+		description = "Birthday Card!",
+	},
+
 	['teddy'] = {
 		label = 'Teddy',
 		weight = 10,
