@@ -44,6 +44,7 @@ return {
 			{ name = 'wiring_kit',          price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'policepouches',       price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'policepouches1',      price = 0, metadata = { description = "Police Property" }, },
+			{ name = 'harness',             price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'WEAPON_COMBATPISTOL', price = 0, metadata = { registered = true, description = "Police Property", components = { 'at_flashlight' }, tint = 5, weapontint = "LSPD Tint", police_property = true, serial = 'POL' }, },
 			-- { name = 'WEAPON_CERAMICPISTOL', price = 0, metadata = { registered = true, description = "Police Property", tint = 5, weapontint = "LSPD Tint", police_property = true, serial = 'POL' }, },
 			-- { name = 'WEAPON_PISTOLXM3',     price = 0, metadata = { registered = true, description = "Police Property", components = { 'at_flashlight' }, tint = 22, weapontint = "LSPD Tint", police_property = true, serial = 'POL' }, },
