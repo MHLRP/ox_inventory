@@ -519,7 +519,9 @@ return {
 	CyberDoc = {
 		name = 'Cyber Doc',
 		inventory = {
-			{ name = 'cybereye',   price = 82000 },
+			{ name = 'cybereye',   price = 300000 },
+			{ name = 'leftcyberleg',   price = 250000 },
+			{ name = 'rightcyberleg',   price = 250000 },
 		},
 	},
 

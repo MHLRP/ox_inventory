@@ -15052,6 +15052,22 @@ return {
 		description = "Cyberoptics Implant",
 	},
 
+	["leftcyberleg"] = {
+		label = "Left Cyber Leg",
+		weight = 2500,
+		stack = false,
+		close = true,
+		description = "Left Cyberleg Implant",
+	},
+
+	["rightcyberleg"] = {
+		label = "Right Cyber Leg",
+		weight = 2500,
+		stack = false,
+		close = true,
+		description = "Right Cyberleg Implant",
+	},
+
 	["coin"] = {
 		label = "Coin",
 		weight = 1,
