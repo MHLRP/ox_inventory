@@ -877,11 +877,16 @@ return {
 	BlackMarketSixth = {
 		name = 'Black Market',
 		inventory = {
-			{ name = 'craftingtable', price = 60000, currency = 'money' },
+			{ name = 'solargas_banana_box', price = 20000, currency = 'money' },
+			{ name = 'solargas_cottoncandy_box', price = 20000, currency = 'money' },
+			{ name = 'solargas_grape_box', price = 20000, currency = 'money' },
+			{ name = 'solargas_orange_box', price = 20000, currency = 'money' },
+			{ name = 'solargas_strawberry_box', price = 20000, currency = 'money' },
+			{ name = 'solargas_watermelon_box', price = 20000, currency = 'money' },
 		},
 		targets = {
 			{
-				ped = `a_m_m_og_boss_01`,
+				ped = `a_m_m_skidrow_01`,
 				scenario = 'WORLD_HUMAN_STAND_MOBILE',
 				loc = vec3(2973.5562, 3478.0789, 70.4422),
 				heading = 352.7609,
