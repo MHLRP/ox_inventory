@@ -11668,7 +11668,7 @@ return {
 		description = "Bullet Burger",
 		client = {
 			image = "bs_the-heart-stopper.png",
-			status = { hunger = 40 },
+			status = { hunger = 60 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = {
 				model = 'dh_burger3',
@@ -12522,6 +12522,14 @@ return {
 		client = {
 			image = "bcoffeeglass.png",
 		}
+	},
+
+	["teabag"] = {
+		label = "Tea Bag",
+		weight = 20,
+		stack = true,
+		close = true,
+		description = "It's a tea bag.",
 	},
 
 	["bcoldbrewlatte"] = {
@@ -15793,6 +15801,25 @@ return {
 	},
 
 	["fishnchipstea"] = {
+		label = "Tea",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			status = { hunger = 40 },
+			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_b' },
+			prop = {
+				model = 'v_res_mcofcupdirt',
+				pos = vec3(0.0, 0.0, 0.0),
+				rot = vec3(0.0, 0.0, 0.0),
+				bone = 28422,
+			},
+			usetime = 5000,
+		}
+	},
+
+	["cupoftea"] = {
 		label = "Tea",
 		weight = 200,
 		stack = true,

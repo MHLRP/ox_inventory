@@ -236,6 +236,7 @@ return {
 			{ name = 'burger-sodasyrup',       price = 10,  currency = 'money' },
 			{ name = 'bhighcoffeeglasscup',    price = 10,  currency = 'money' },
 			{ name = 'bcoffeeglass',           price = 10,  currency = 'money' },
+			{ name = 'teabag',                 price = 10,  currency = 'money' },
 			{ name = 'bespressocoffeecup',     price = 10,  currency = 'money' },
 			{ name = 'orange',                 price = 45,  currency = 'money' },
 			{ name = 'grape',                  price = 45,  currency = 'money' },
@@ -519,9 +520,9 @@ return {
 	CyberDoc = {
 		name = 'Cyber Doc',
 		inventory = {
-			{ name = 'cybereye',   price = 300000 },
-			{ name = 'leftcyberleg',   price = 250000 },
-			{ name = 'rightcyberleg',   price = 250000 },
+			{ name = 'cybereye',      price = 300000 },
+			{ name = 'leftcyberleg',  price = 250000 },
+			{ name = 'rightcyberleg', price = 250000 },
 		},
 	},
 
@@ -877,12 +878,12 @@ return {
 	BlackMarketSixth = {
 		name = 'Black Market',
 		inventory = {
-			{ name = 'solargas_banana_box', price = 20000, currency = 'money' },
+			{ name = 'solargas_banana_box',      price = 20000, currency = 'money' },
 			{ name = 'solargas_cottoncandy_box', price = 20000, currency = 'money' },
-			{ name = 'solargas_grape_box', price = 20000, currency = 'money' },
-			{ name = 'solargas_orange_box', price = 20000, currency = 'money' },
-			{ name = 'solargas_strawberry_box', price = 20000, currency = 'money' },
-			{ name = 'solargas_watermelon_box', price = 20000, currency = 'money' },
+			{ name = 'solargas_grape_box',       price = 20000, currency = 'money' },
+			{ name = 'solargas_orange_box',      price = 20000, currency = 'money' },
+			{ name = 'solargas_strawberry_box',  price = 20000, currency = 'money' },
+			{ name = 'solargas_watermelon_box',  price = 20000, currency = 'money' },
 		},
 		targets = {
 			{
@@ -2246,6 +2247,7 @@ return {
 			{ name = 'burger-sodasyrup',       price = 10,  currency = 'money' },
 			{ name = 'bhighcoffeeglasscup',    price = 10,  currency = 'money' },
 			{ name = 'bcoffeeglass',           price = 10,  currency = 'money' },
+			{ name = 'teabag',                 price = 10,  currency = 'money' },
 			{ name = 'bespressocoffeecup',     price = 10,  currency = 'money' },
 			{ name = 'orange',                 price = 45,  currency = 'money' },
 			{ name = 'grape',                  price = 45,  currency = 'money' },
