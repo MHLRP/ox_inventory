@@ -60,6 +60,23 @@ return {
 		groups = { ['ambulance'] = 0 }
 	},
 	{
+		coords = vec3(359.2386, -580.8401, 43.1895),
+		target = {
+			loc = vec3(359.2386, -580.8401, 43.1895),
+			length = 1.2,
+			width = 5.6,
+			heading = 340,
+			minZ = 42.34,
+			maxZ = 45.74,
+			label = 'Open personal locker'
+		},
+		name = 'emslocker2',
+		label = 'Personal EMS Locker',
+		owner = true,
+		slots = 70,
+		weight = 500000,
+	},
+	{
 		coords = vec3(987.07, -92.91, 74.84),
 		target = {
 			loc = vec3(987.07, -92.91, 74.84),
