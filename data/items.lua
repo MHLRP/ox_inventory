@@ -6199,7 +6199,8 @@ return {
 		stack = false,
 		close = true,
 		description = "For testing purposes..",
-		client = { image = "alcoholtester.png",
+		server = {
+			export = 'BS-Breathalyzer.openBreathalyzer'
 		}
 	},
 
