@@ -4422,6 +4422,14 @@ return {
 		description = "Printer Paper",
 	},
 
+	["trash_paper"] = {
+		label = "Trash Paper",
+		weight = 50,
+		stack = true,
+		close = true,
+		description = "Trash Paper",
+	},
+
 	["doc"] = {
 		label = "Document",
 		weight = 50,
