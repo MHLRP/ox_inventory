@@ -458,8 +458,42 @@ return {
 		name = 'fleetwoods1',
 		label = 'Storage',
 		owner = false,
-		slots = 70,
-		weight = 70000,
+		slots = 80,
+		weight = 120000,
+	},
+	{
+		coords = vec3(535.6890, -2068.8132, 2.7296),
+		target = {
+			loc = vec3(535.6890, -2068.8132, 2.7296),
+			length = 1.2,
+			width = 5.6,
+			heading = 85.5589,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Storage'
+		},
+		name = 'fleetwoods2',
+		label = 'Storage',
+		owner = false,
+		slots = 40,
+		weight = 60000,
+	},
+	{
+		coords = vec3(553.2941, -2064.4355, 1.8968),
+		target = {
+			loc = vec3(553.2941, -2064.4355, 1.8968),
+			length = 1.2,
+			width = 5.6,
+			heading = 85.5589,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Storage'
+		},
+		name = 'fleetwoods3',
+		label = 'Storage',
+		owner = false,
+		slots = 40,
+		weight = 60000,
 	},
 	{
 		coords = vec3(415.7579, -1499.4043, 30.1553),
@@ -471,7 +505,7 @@ return {
 			minZ = 29.49,
 			maxZ = 32.09,
 			label = 'Storage'
-		}, 
+		},
 		name = 'castones',
 		label = 'Kitchen Storage',
 		owner = false,
@@ -488,7 +522,7 @@ return {
 			minZ = 29.49,
 			maxZ = 32.09,
 			label = 'Storage'
-		}, 
+		},
 		name = 'castones2',
 		label = "Castone's Storage",
 		owner = false,
@@ -505,7 +539,7 @@ return {
 			minZ = 29.49,
 			maxZ = 32.09,
 			label = 'Storage'
-		}, 
+		},
 		name = 'castones3',
 		label = "Closet Storage",
 		owner = false,
