@@ -462,9 +462,9 @@ return {
 		weight = 120000,
 	},
 	{
-		coords = vec3(535.6890, -2068.8132, 2.7296),
+		coords = vec3(535.710, -2068.519, 1.015),
 		target = {
-			loc = vec3(535.6890, -2068.8132, 2.7296),
+			loc = vec3(535.710, -2068.519, 1.015),
 			length = 1.2,
 			width = 5.6,
 			heading = 85.5589,
@@ -475,13 +475,13 @@ return {
 		name = 'fleetwoods2',
 		label = 'Storage',
 		owner = false,
-		slots = 40,
-		weight = 60000,
+		slots = 60,
+		weight = 85000,
 	},
 	{
-		coords = vec3(553.2941, -2064.4355, 1.8968),
+		coords = vec3(553.941, -2064.458, 1.769),
 		target = {
-			loc = vec3(553.2941, -2064.4355, 1.8968),
+			loc = vec3(553.941, -2064.458, 1.769),
 			length = 1.2,
 			width = 5.6,
 			heading = 85.5589,
