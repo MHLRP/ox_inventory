@@ -360,6 +360,48 @@ return {
 			durability = 0.1,
 		},
 
+		['WEAPON_KATANA1'] = {
+			label = 'Cyan Katana',
+			weight = 1200,
+			durability = 0.1,
+		},
+
+		['WEAPON_KATANA2'] = {
+			label = 'Lime Katana',
+			weight = 1200,
+			durability = 0.1,
+		},
+
+		['WEAPON_KATANA3'] = {
+			label = 'Yellow Katana',
+			weight = 1200,
+			durability = 0.1,
+		},
+
+		['WEAPON_KATANA4'] = {
+			label = 'Pink Katana',
+			weight = 1200,
+			durability = 0.1,
+		},
+
+		['WEAPON_KATANA5'] = {
+			label = 'Purple Katana',
+			weight = 1200,
+			durability = 0.1,
+		},
+
+		['WEAPON_KATANA6'] = {
+			label = 'Red Katana',
+			weight = 1200,
+			durability = 0.1,
+		},
+
+		['WEAPON_KATANA7'] = {
+			label = 'White Katana',
+			weight = 1200,
+			durability = 0.1,
+		},
+
 		['WEAPON_MACHINEPISTOL'] = {
 			label = 'Machine Pistol',
 			weight = 1400,
@@ -631,6 +673,13 @@ return {
 			label = 'Brick',
 			weight = 200,
 			throwable = true,
+		},
+
+		['WEAPON_BEANBAG'] = {
+			label = 'Bean Bag Shotgun',
+			weight = 1400,
+			durability = 0.1,
+			ammoname = 'ammo-beanbag',
 		},
 
 		['WEAPON_SNSPISTOL'] = {
@@ -1822,6 +1871,11 @@ return {
 			weight = 7,
 		},
 
+		['ammo-beanbag'] = {
+			label = 'Bean Bag',
+			weight = 20,
+		},
+		
 		['ammo-firework'] = {
 			label = 'Firework',
 			weight = 200,
