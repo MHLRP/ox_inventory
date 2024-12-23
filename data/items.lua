@@ -6278,9 +6278,12 @@ return {
 	},
 
 	['lockpick'] = {
-		label = 'Lockpick',
-		weight = 160,
-	},
+        label = 'Lockpick',
+        weight = 100,
+        stack = true,
+        close = true,
+        description = ""
+},
 
 	["gatecrack"] = {
 		label = "Gatecrack",
@@ -9993,10 +9996,7 @@ return {
 		label = 'Vehicle Keys',
 		weight = 220,
 		stack = false,
-		consume = 0,
-		server = {
-			export = 'MrNewbVehicleKeys.vehiclekeys'
-		}
+		close = true,
 	},
 
 	["nitro"] = {
