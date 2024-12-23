@@ -360,33 +360,33 @@ return {
 		}
 	},
 
-	GeneralStore4 = {
-		name = 'General Store',
-		inventory = {
-			{ name = 'water',         price = 10 },
-			{ name = 'sandwich',      price = 10 },
-			{ name = 'bandage',       price = 25 },
-			{ name = 'lighter',       price = 2 },
-			{ name = 'rolling_paper', price = 2 },
-			{ name = 'soda',          price = 10 },
-			{ name = 'sprunk',        price = 10 },
-			{ name = 'cigbox',        price = 100 },
-			{ name = 'egobar',        price = 10 },
-			{ name = 'teddy',         price = 50, },
-			{ name = 'getwell1',      price = 100, },
-			{ name = 'crisps',        price = 10 },
-			{ name = 'bakingsoda',    price = 7 },
-			{ name = 'beer',          price = 7 },
-			{ name = 'whiskey',       price = 10 },
-			{ name = 'vodka',         price = 12 },
-		},
-		locations = {
-			vec3(1921.3940, 2892.0803, 45.6875),
-		},
-		targets = {
-			{ loc = vec3(1921.3940, 2892.0803, 45.6875), length = 1.5, width = 3.0, heading = 102.9645, minZ = 41.5, maxZ = 43.0, distance = 3 }
-		}
-	},
+	-- GeneralStore4 = {
+	-- 	name = 'General Store',
+	-- 	inventory = {
+	-- 		{ name = 'water',         price = 10 },
+	-- 		{ name = 'sandwich',      price = 10 },
+	-- 		{ name = 'bandage',       price = 25 },
+	-- 		{ name = 'lighter',       price = 2 },
+	-- 		{ name = 'rolling_paper', price = 2 },
+	-- 		{ name = 'soda',          price = 10 },
+	-- 		{ name = 'sprunk',        price = 10 },
+	-- 		{ name = 'cigbox',        price = 100 },
+	-- 		{ name = 'egobar',        price = 10 },
+	-- 		{ name = 'teddy',         price = 50, },
+	-- 		{ name = 'getwell1',      price = 100, },
+	-- 		{ name = 'crisps',        price = 10 },
+	-- 		{ name = 'bakingsoda',    price = 7 },
+	-- 		{ name = 'beer',          price = 7 },
+	-- 		{ name = 'whiskey',       price = 10 },
+	-- 		{ name = 'vodka',         price = 12 },
+	-- 	},
+	-- 	locations = {
+	-- 		vec3(1921.3940, 2892.0803, 45.6875),
+	-- 	},
+	-- 	targets = {
+	-- 		{ loc = vec3(1921.3940, 2892.0803, 45.6875), length = 1.5, width = 3.0, heading = 102.9645, minZ = 41.5, maxZ = 43.0, distance = 3 }
+	-- 	}
+	-- },
 
 	LTDGas = {
 		name = 'LTD Store',
