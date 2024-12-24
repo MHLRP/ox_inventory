@@ -11980,6 +11980,14 @@ return {
 		},
 	},
 
+	["bowl"] = {
+		label = "Bowl",
+		weight = 20,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
 	["beef-taco"] = {
 		label = "Beef Taco",
 		weight = 350,

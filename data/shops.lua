@@ -2258,6 +2258,7 @@ return {
 			{ name = 'battermix',              price = 10,  currency = 'money' },
 			{ name = 'yeast',                  price = 40,  currency = 'money' },
 			{ name = 'water',                  price = 10,  currency = 'money' },
+			{ name = 'bowl',                   price = 10,  currency = 'money' },
 			{ name = 'water_bottle',           price = 10,  currency = 'money' },
 			{ name = 'mustard',                price = 10,  currency = 'money' },
 			{ name = 'ketchup',                price = 10,  currency = 'money' },
