@@ -1191,7 +1191,6 @@ return {
 	['apple'] = { -- Apple good
 		label = 'Apple',
 		weight = 1,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1212,7 +1211,6 @@ return {
 	['banana'] = { -- banana good
 		label = 'Banana',
 		weight = 1,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1232,7 +1230,6 @@ return {
 	['orange'] = { -- banana good
 		label = 'Orange',
 		weight = 1,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1696,7 +1693,6 @@ return {
 	['milk'] = { -- milky milky milky
 		label = 'Milk Carton',
 		weight = 1,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12103,7 +12099,6 @@ return {
 	["taco-tomato"] = {
 		label = "Tomatoes",
 		weight = 100,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12141,7 +12136,6 @@ return {
 	["lettuce"] = {
 		label = "Lettuce",
 		weight = 150,
-		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
@@ -12256,7 +12250,7 @@ return {
 
 	["bstrawberry"] = {
 		label = "Strawberry",
-		weight = 1000,
+		weight = 100,
 		stack = true,
 		decay = true,
 		close = true,
@@ -14568,6 +14562,17 @@ return {
 		stack = true,
 		close = false,
 		description = "A crate of limes ready for selling!",
+	},
+
+	["lime"] = {
+		label = "Lime",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "Issa Lime!",
+		client = {
+			image = "lime.png",
+		}
 	},
 
 	["vodka_mash"] = {
