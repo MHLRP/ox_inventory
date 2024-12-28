@@ -733,6 +733,12 @@ return {
 			durability = 0.1,
 		},
 
+		['WEAPON_DIGISCANNER'] = {
+			label = 'Digital Scanner',
+			weight = 125,
+			durability = 0.1,
+		},
+
 		['WEAPON_AUTOSHOTGUN'] = {
 			label = 'Sweeper Shotgun',
 			weight = 4400,
