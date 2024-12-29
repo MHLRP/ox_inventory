@@ -236,6 +236,7 @@ return {
 			{ name = 'burger-sodasyrup',       price = 10,  currency = 'money' },
 			{ name = 'bhighcoffeeglasscup',    price = 10,  currency = 'money' },
 			{ name = 'bcoffeeglass',           price = 10,  currency = 'money' },
+			{ name = 'emptywinebottle',        price = 10,  currency = 'money' },
 			{ name = 'teabag',                 price = 10,  currency = 'money' },
 			{ name = 'bespressocoffeecup',     price = 10,  currency = 'money' },
 			{ name = 'orange',                 price = 45,  currency = 'money' },
