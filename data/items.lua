@@ -300,25 +300,68 @@ return {
 		label = 'Uwu Blue Plush!',
 		weight = 500,
 		consume = 0,
-		usetime = 7500,
+		description = "Blue plushie!",
+		client = {
+			anim = { dict = 'anim@male_bskball_hold', clip = 'bskball_hold_clip' },
+			prop = {
+				model = 'ch_prop_arcade_claw_plush_03a',
+				pos = vec3(0.075836309364036, 0.028468755417225, -0.10840663364229),
+				rot = vec3(0.0, 90.0, 60.0),
+				bone = 28422
+			},
+			usetime = 7500,
+		}
 	},
 
 	['uwuyellowplush'] = {
 		label = 'Uwu Yellow Plush!',
 		weight = 500,
 		consume = 0,
+		description = "Yellow plushie!",
+		client = {
+			anim = { dict = 'anim@male_bskball_hold', clip = 'bskball_hold_clip' },
+			prop = {
+				model = 'ch_prop_arcade_claw_plush_05a',
+				pos = vec3(0.075836309364036, 0.028468755417225, -0.10840663364229),
+				rot = vec3(0.0, 90.0, 60.0),
+				bone = 28422
+			},
+			usetime = 7500,
+		}
 	},
 
 	['uwupurpleplush'] = {
 		label = 'Uwu Purple Plush!',
 		weight = 500,
 		consume = 0,
+		description = "Purple plushie!",
+		client = {
+			anim = { dict = 'anim@male_bskball_hold', clip = 'bskball_hold_clip' },
+			prop = {
+				model = 'ch_prop_arcade_claw_plush_01a',
+				pos = vec3(0.075836309364036, 0.028468755417225, -0.10840663364229),
+				rot = vec3(0.0, 90.0, 60.0),
+				bone = 28422
+			},
+			usetime = 7500,
+		}
 	},
 
 	['uwugreenplush'] = {
 		label = 'Uwu Green Plush!',
 		weight = 500,
 		consume = 0,
+		description = "Green plushie!",
+		client = {
+			anim = { dict = 'anim@male_bskball_hold', clip = 'bskball_hold_clip' },
+			prop = {
+				model = 'ch_prop_arcade_claw_plush_02a',
+				pos = vec3(0.075836309364036, 0.028468755417225, -0.10840663364229),
+				rot = vec3(0.0, 90.0, 60.0),
+				bone = 28422
+			},
+			usetime = 7500,
+		}
 	},
 
 
@@ -326,27 +369,69 @@ return {
 		label = 'Uwu Brown Plush!',
 		weight = 500,
 		consume = 0,
+		description = "Brown plushie!",
+		client = {
+			anim = { dict = 'anim@male_bskball_hold', clip = 'bskball_hold_clip' },
+			prop = {
+				model = 'ch_prop_arcade_claw_plush_04a',
+				pos = vec3(0.075836309364036, 0.028468755417225, -0.10840663364229),
+				rot = vec3(0.0, 90.0, 60.0),
+				bone = 28422
+			},
+			usetime = 7500,
+		}
 	},
 
 	['uwuredplush'] = {
 		label = 'Uwu Red Plush!',
 		weight = 500,
 		consume = 0,
+		description = "Red plushie!",
+		client = {
+			anim = { dict = 'anim@male_bskball_hold', clip = 'bskball_hold_clip' },
+			prop = {
+				model = 'ch_prop_arcade_claw_plush_06a',
+				pos = vec3(0.075836309364036, 0.028468755417225, -0.10840663364229),
+				rot = vec3(0.0, 90.0, 60.0),
+				bone = 28422
+			},
+			usetime = 7500,
+		}
 	},
 
 	['uwugreenrareplush'] = {
-		label = 'Uwu RARE Green Plush!',
+		label = 'Uwu RARE Green Wasabi Plush!',
 		weight = 500,
 		consume = 0,
+		description = "Green wasabi plushie!",
+		client = {
+			anim = { dict = 'anim@male_bskball_hold', clip = 'bskball_hold_clip' },
+			prop = {
+				model = 'ch_prop_shiny_wasabi_plush_08a',
+				pos = vec3(0.075836309364036, 0.028468755417225, -0.10840663364229),
+				rot = vec3(0.0, 90.0, 60.0),
+				bone = 28422
+			},
+			usetime = 7500,
+		}
 	},
 
 	['uwupinkrareplush'] = {
-		label = 'Uwu Rare Pink Plush!',
+		label = 'Uwu Rare Robo Pink Plush!',
 		weight = 500,
 		consume = 0,
+		description = "Pink robo plushie!",
+		client = {
+			anim = { dict = 'anim@male_bskball_hold', clip = 'bskball_hold_clip' },
+			prop = {
+				model = 'ch_prop_princess_robo_plush_07a',
+				pos = vec3(0.075836309364036, 0.028468755417225, -0.10840663364229),
+				rot = vec3(0.0, 90.0, 60.0),
+				bone = 28422
+			},
+			usetime = 7500,
+		}
 	},
-
-
 
 	--- BUTCHER ITEMS
 
@@ -5728,6 +5813,20 @@ return {
 		stack = true,
 		close = true,
 		description = nil
+	},
+	
+	['prison_plans'] = {
+		label = 'Breakout Plans',
+		weight = 10,
+		stack = false,
+		close = true,
+	},
+
+	['inmate_card'] = {
+		label = 'Inmate Card',
+		weight = 10,
+		stack = false,
+		close = true,
 	},
 
 	--- CAMPING
