@@ -729,13 +729,13 @@ return {
 
 		['WEAPON_STUNGUN'] = {
 			label = 'Tazer',
-			weight = 227,
+			weight = 200,
 			durability = 0.1,
 		},
 
 		['WEAPON_DIGISCANNER'] = {
 			label = 'Digital Scanner',
-			weight = 125,
+			weight = 120,
 			durability = 0.1,
 		},
 
