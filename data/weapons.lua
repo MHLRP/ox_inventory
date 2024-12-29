@@ -735,7 +735,7 @@ return {
 
 		['WEAPON_DIGISCANNER'] = {
 			label = 'Digital Scanner',
-			weight = 120,
+			weight = 122,
 			durability = 0.1,
 		},
 
