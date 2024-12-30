@@ -9336,6 +9336,16 @@ return {
 
 	-- end of DRUGS
 
+	['gunrack'] = {
+		label = 'Gun Rack',
+		weight = 10000,
+		stack = false,
+		consume = 0,
+		client = {
+			export = 'js5m_gunrack.placeGunRack',
+		},
+	  },
+
 	--- BADGES: Police
 
 	['badge_fib'] = { -- idea: Player uses item to show badge prop

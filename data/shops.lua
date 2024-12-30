@@ -835,6 +835,7 @@ return {
 		name = 'Black Market',
 		inventory = {
 			{ name = 'craftingtable', price = 50000, currency = 'money' },
+			{ name = 'gunrack', price = 20000, currency = 'money' },
 		},
 		targets = {
 			{
@@ -850,6 +851,7 @@ return {
 		name = 'Black Market',
 		inventory = {
 			{ name = 'craftingtable', price = 60000, currency = 'money' },
+			{ name = 'gunrack', price = 20000, currency = 'money' },
 		},
 		targets = {
 			{
@@ -865,6 +867,7 @@ return {
 		name = 'Black Market',
 		inventory = {
 			{ name = 'craftingtable', price = 60000, currency = 'money' },
+			{ name = 'gunrack', price = 20000, currency = 'money' },
 		},
 		targets = {
 			{
