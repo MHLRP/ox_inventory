@@ -105,7 +105,7 @@ return {
 			maxZ = 32.09,
 			label = 'Open personal safe'
 		},
-		name = 'lostmc',
+		name = 'lostmc2',
 		label = 'Personal Safe',
 		owner = true,
 		slots = 70,
@@ -123,7 +123,7 @@ return {
 			maxZ = 32.09,
 			label = 'Open personal locker'
 		},
-		name = 'lostmc',
+		name = 'lostmc3',
 		label = 'Personal locker',
 		owner = true,
 		slots = 70,
