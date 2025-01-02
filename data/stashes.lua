@@ -89,9 +89,9 @@ return {
 		},
 		name = 'lostmc',
 		label = 'Personal locker',
-		owner = true,
+		owner = false,
 		slots = 70,
-		weight = 70000,
+		weight = 100000,
 		groups = { ['lostmc'] = 0 }
 	},
 	{
@@ -107,9 +107,9 @@ return {
 		},
 		name = 'lostmc2',
 		label = 'Personal Safe',
-		owner = true,
+		owner = false,
 		slots = 70,
-		weight = 70000,
+		weight = 100000,
 		groups = { ['lostmc'] = 0 }
 	},
 	{
@@ -125,9 +125,9 @@ return {
 		},
 		name = 'lostmc3',
 		label = 'Personal locker',
-		owner = true,
+		owner = false,
 		slots = 70,
-		weight = 70000,
+		weight = 100000,
 		groups = { ['lostmc'] = 0 }
 	},
 	{
