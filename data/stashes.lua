@@ -92,25 +92,7 @@ return {
 		owner = false,
 		slots = 70,
 		weight = 100000,
-		groups = { ['lostmc'] = 0 }
-	},
-	{
-		coords = vec3(977.37, -103.93, 74.84),
-		target = {
-			loc = vec3(977.37, -103.93, 74.84),
-			length = 1.2,
-			width = 5.6,
-			heading = 0,
-			minZ = 29.49,
-			maxZ = 32.09,
-			label = 'Open Gang Safe'
-		},
-		name = 'lostmc2',
-		label = 'Personal Safe',
-		owner = false,
-		slots = 70,
-		weight = 100000,
-		groups = { ['lostmc'] = 0 }
+		groups = { ['lostmc'] = 1 }
 	},
 	{
 		coords = vec3(972.22, -98.13, 74.87),
@@ -124,11 +106,29 @@ return {
 			label = 'Open Gang Locker 2'
 		},
 		name = 'lostmc3',
-		label = 'Personal locker',
+		label = 'Gang Locker 2',
 		owner = false,
 		slots = 70,
 		weight = 100000,
-		groups = { ['lostmc'] = 0 }
+		groups = { ['lostmc'] = 1 }
+	},
+	{
+		coords = vec3(977.37, -103.93, 74.84),
+		target = {
+			loc = vec3(977.37, -103.93, 74.84),
+			length = 1.2,
+			width = 5.6,
+			heading = 0,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Open Gang Safe'
+		},
+		name = 'lostmc2',
+		label = 'Gang Safe',
+		owner = false,
+		slots = 70,
+		weight = 100000,
+		groups = { ['lostmc'] = 3 }
 	},
 	{
 		coords = vec3(-1092.83, -1669.71, 8.41),
