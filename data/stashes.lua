@@ -85,7 +85,7 @@ return {
 			heading = 0,
 			minZ = 29.49,
 			maxZ = 32.09,
-			label = 'Open personal locker'
+			label = 'Open Gang Locker'
 		},
 		name = 'lostmc',
 		label = 'Personal locker',
@@ -103,7 +103,7 @@ return {
 			heading = 0,
 			minZ = 29.49,
 			maxZ = 32.09,
-			label = 'Open personal safe'
+			label = 'Open Gang Safe'
 		},
 		name = 'lostmc2',
 		label = 'Personal Safe',
@@ -121,7 +121,7 @@ return {
 			heading = 0,
 			minZ = 29.49,
 			maxZ = 32.09,
-			label = 'Open personal locker'
+			label = 'Open Gang Locker 2'
 		},
 		name = 'lostmc3',
 		label = 'Personal locker',
