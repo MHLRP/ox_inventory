@@ -128,7 +128,7 @@ return {
 		owner = false,
 		slots = 70,
 		weight = 100000,
-		groups = { ['lostmc'] = 3 }
+		groups = { ['lostmc'] = 2 }
 	},
 	{
 		coords = vec3(-1092.83, -1669.71, 8.41),
