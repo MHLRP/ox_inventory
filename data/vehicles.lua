@@ -59,7 +59,7 @@ return {
 		[20] = {11, 88000},		-- Commercial (trucks)
 		models = {
 			[`xa21`] = {11, 88000},
-			[`trophytruck`] = {11, 88000}
+			[`trophytruck`] = {11, 88000},
 		}
 	},
 
@@ -87,7 +87,8 @@ return {
 		models = {
 			[`xa21`] = {11, 10000},
 			[`trophytruck`] = {11, 88000},
-			[`baller`] = {51, 88000}
+			[`baller`] = {51, 88000},
+			[`biff`] = {11, 88000}
 		},
 	}
 }
