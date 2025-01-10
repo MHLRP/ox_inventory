@@ -91,7 +91,7 @@ return {
 		label = 'Personal locker',
 		owner = false,
 		slots = 70,
-		weight = 100000,
+		weight = 300000,
 		groups = { ['lostmc'] = 1 }
 	},
 	{
@@ -109,7 +109,7 @@ return {
 		label = 'Gang Locker 2',
 		owner = false,
 		slots = 70,
-		weight = 100000,
+		weight = 300000,
 		groups = { ['lostmc'] = 1 }
 	},
 	{
@@ -127,7 +127,7 @@ return {
 		label = 'Gang Safe',
 		owner = false,
 		slots = 70,
-		weight = 100000,
+		weight = 500000,
 		groups = { ['lostmc'] = 2 }
 	},
 	{
