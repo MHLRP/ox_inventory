@@ -1653,6 +1653,7 @@ return {
 			{ name = 'goldpan',          price = 800,   currency = 'money' },
 			{ name = 'cwnotepad',        price = 500,   currency = 'money' },
 			{ name = 'duct_tape',        price = 250,   currency = 'money' },
+			{ name = 'carradio',         price = 800,   currency = 'money' },
 			{ name = 'rocketball',       price = 500,   currency = 'money' },
 			{ name = 'megaphone',        price = 500,   currency = 'money' },
 			{ name = 'yogamat',          price = 800,   currency = 'money' },

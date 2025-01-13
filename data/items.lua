@@ -4937,6 +4937,14 @@ return {
 		description = "With this you can get some police alerts. Not 100% effective however",
 	},
 
+	["carradio"] = {
+		label = "Car Radio",
+		weight = 800,
+		stack = true,
+		close = true,
+		description = "With this you can listen to music in your car!",
+	},
+
 	['dingus'] = {
 		label = 'Dingus',
 		weight = 6969,
@@ -11566,9 +11574,6 @@ return {
 		label = 'CBRN Mask',
 		weight = 1000,
 		stack = false,
-		client = {
-			export = 'shark-leotools.vision'
-		}
 	},
 
 	["rag"] = {
@@ -11623,12 +11628,23 @@ return {
 
 	["c4_bomb"] = {
 		label = "C4 Explosive",
-		weight = 1000,
+		weight = 600,
 		stack = false,
 		close = true,
 		description = "A high-yield, timed explosive charge..",
 		client = {
 			image = "c4.png",
+		}
+	},
+	
+	["bomb_suitcase"] = {
+		label = "Bomb Suitcase",
+		weight = 1000,
+		stack = false,
+		close = true,
+		description = "A bomb in a suitcase..",
+		client = {
+			image = "c4_briefcase.png",
 		}
 	},
 
@@ -15615,7 +15631,7 @@ return {
 		client = {
 			status = { thirst = 30 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = `v_62_ecolacup002`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			prop = { model = `prop_cs_bs_cup`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
 			usetime = 2500,
 			cancel = true,
 		}
