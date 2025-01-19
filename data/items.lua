@@ -5209,7 +5209,7 @@ return {
 		stack = false,
 		consume = 1,
 		client = {
-			export = 'LGF_OutfitBag.placeBag'
+			event = 'wx_outfitbag:place'
 		}
 	},
 
