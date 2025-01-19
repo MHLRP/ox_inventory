@@ -69,6 +69,12 @@ setContainerProperties('rextakeoutbag', {
 	whitelist = { 'fried_cod', 'fried_haddock', 'fried_plaice', 'fried_pollock', 'fried_sole', 'fried_fishcake', 'fried_sausage', 'fishnchipsfries',  'fishnchipscheeseburger', 'fishnchipschickenburger', 'fishnchipsnuggets', 'fishnchipsfriedchickenstrips', 'fishnchips_chocolate', 'fried_chocolate', 'fishnchipsrimjob', 'fishnchipscreampie', 'fishnchipsbrownie', 'fishnchipsgelato', 'fishnchipsecolalight', 'fishnchipsecola', 'fishnchipsorangesoda', 'fishnchipssprunk', 'fishnchipscoffee', 'fishnchipstea' }	
 })
 
+setContainerProperties('bstakeoutbag', {
+	slots = 8,
+	maxWeight = 8500,
+	whitelist = { 'burger-bleeder', 'burger-moneyshot', 'burger-torpedo', 'burger-heartstopper', 'burger-meatfree', 'burger-bullet', 'burger-fries', 'burger-softdrink', 'burger-mshake' }	
+})
+
 setContainerProperties('screwdriverset', {
 	slots = 8,
 	maxWeight = 8500,

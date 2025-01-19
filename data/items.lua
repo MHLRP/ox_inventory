@@ -16036,6 +16036,14 @@ return {
 		description = "",
 	},
 
+	["bstakeoutbag"] = {
+		label = "Burgershot Takeout Bag",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
 	--- GRUPPE6
 
 	['inked_cash_bag'] = {
