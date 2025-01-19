@@ -3875,6 +3875,17 @@ return {
 		description = "A spray can.",
 	},
 
+	["toolbox"] = {
+		label = "Toolbox",
+		weight = 1000,
+		stack = true,
+		close = false,
+		description = "An interactive toolbox",
+		client = {
+			event = 'qb-toolbox:client:placeToolbox'
+		}
+	},
+
 	['spray'] = {
 		label = 'Spray',
 		weight = 1,
