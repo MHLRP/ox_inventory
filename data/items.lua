@@ -5990,44 +5990,23 @@ return {
 
 	['boat_licence'] = {
 		label = 'Boating License',
-		weight = 1,
-		close = true,
+		weight = 100,
+		close = false,
 		stack = false,
-		client = {
-			event = 'boii_rptests:cl:use_licence',
-			notification = 'You are viewing your Boating License.'
-		},
-		metadata = {
-			licence_type = 'boat'
-		}
 	},
 
 	['plane_licence'] = {
 		label = 'Pilot License',
-		weight = 1,
-		close = true,
+		weight = 100,
+		close = false,
 		stack = false,
-		client = {
-			event = 'boii_rptests:cl:use_licence',
-			notification = 'You are viewing your Pilot License.'
-		},
-		metadata = {
-			licence_type = 'plane'
-		}
 	},
 
 	['helicopter_licence'] = {
 		label = 'Helicopter License',
-		weight = 1,
-		close = true,
+		weight = 100,
+		close = false,
 		stack = false,
-		client = {
-			event = 'boii_rptests:cl:use_licence',
-			notification = 'You are viewing your Helicopter License.'
-		},
-		metadata = {
-			licence_type = 'helicopter'
-		}
 	},
 
 	["doc_paper"] = {
@@ -6037,8 +6016,6 @@ return {
 		close = true,
 		description = "Weapon License Doc",
 	},
-
-
 
 	["driver_license"] = {
 		label = "Drivers License",
