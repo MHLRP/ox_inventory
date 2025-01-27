@@ -95,6 +95,78 @@ return {
 		groups = { ['lostmc'] = 1 }
 	},
 	{
+		coords = vec3(1076.0576, 2236.5505, 21.7129),
+		target = {
+			loc = vec3(1076.0576, 2236.5505, 21.7129),
+			length = 1.2,
+			width = 5.6,
+			heading = 152.0237,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Open Gang Storage'
+		},
+		name = 'viper1',
+		label = 'Personal locker',
+		owner = false,
+		slots = 70,
+		weight = 200000,
+		groups = { ['viperidae'] = 0 }
+	},
+	{
+		coords = vec3(1036.8942, 2214.5325, 21.9925),
+		target = {
+			loc = vec3(1036.8942, 2214.5325, 21.9925),
+			length = 1.2,
+			width = 5.6,
+			heading = 63.8348,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Open Gang Safe'
+		},
+		name = 'viper2',
+		label = 'Personal locker',
+		owner = false,
+		slots = 70,
+		weight = 50000,
+		groups = { ['viperidae'] = 3 }
+	},
+	{
+		coords = vec3(1067.0288, 2250.9973, 21.7293),
+		target = {
+			loc = vec3(1067.0288, 2250.9973, 21.7293),
+			length = 1.2,
+			width = 5.6,
+			heading = 341.1927,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Open Gang Storage'
+		},
+		name = 'viper2',
+		label = 'Personal locker',
+		owner = false,
+		slots = 70,
+		weight = 50000,
+		groups = { ['viperidae'] = 0 }
+	},
+	{
+		coords = vec3(1052.5757, 2200.2388, 22.0419),
+		target = {
+			loc = vec3(1052.5757, 2200.2388, 22.0419),
+			length = 1.2,
+			width = 5.6,
+			heading = 154.6479,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Open Gang Storage'
+		},
+		name = 'viper2',
+		label = 'Personal locker',
+		owner = false,
+		slots = 70,
+		weight = 200000,
+		groups = { ['viperidae'] = 2 }
+	},
+	{
 		coords = vec3(972.22, -98.13, 74.87),
 		target = {
 			loc = vec3(972.22, -98.13, 74.87),
