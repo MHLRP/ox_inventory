@@ -1773,6 +1773,16 @@ return {
 		stack = true,
 		close = true,
 		description = "For all the thirsty out there",
+		client = {
+			status = { thirst = 30 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = {
+				model = 'mxc_vend_prop_item_bottle5',
+				pos = vec3(0.0, 0.0, 0.0),
+				rot = vec3(0.0, 0.0, 130.0)
+			},
+			usetime = 5000,
+		}
 	},
 
 	['milk'] = { -- milky milky milky
