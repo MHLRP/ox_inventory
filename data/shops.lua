@@ -531,6 +531,7 @@ return {
 			{ name = 'cybereye',      price = 300000 },
 			{ name = 'leftcyberleg',  price = 250000 },
 			{ name = 'rightcyberleg', price = 250000 },
+			{ name = 'mantisblades', price = 300000 },
 		},
 	},
 

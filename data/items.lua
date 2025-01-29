@@ -15220,6 +15220,14 @@ return {
 		description = "Right Cyberleg Implant",
 	},
 
+	["mantisblades"] = {
+		label = "Mantis Blades",
+		weight = 10000,
+		stack = false,
+		close = true,
+		description = "Killer Cyber Blades",
+	},
+
 	["coin"] = {
 		label = "Coin",
 		weight = 1,
