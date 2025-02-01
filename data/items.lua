@@ -5881,6 +5881,19 @@ return {
 		description = "You can use this!",
 	},
 
+	--- HAIRTIE 
+	
+	["scrunchie"] = {
+        label = "Scrunchie",
+        description = "Use this if your hair is getting in the way",
+        weight = 10,
+        stack = true,
+        close = true,
+        client = {
+          event = "ember-extras:useScrunchie",
+        }
+    },
+
 	--- HALLOWEEN
 
 
