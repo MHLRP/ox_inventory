@@ -1781,6 +1781,7 @@ return {
 			{ name = 'weapon_hammer',    price = 250,   currency = 'money' },
 			{ name = 'screwdriverset',   price = 350,   currency = 'money' },
 			{ name = 'radio',            price = 100,   currency = 'money' },
+			{ name = 'scrunchie',        price = 100,   currency = 'money' },
 			{ name = 'rc-bandito',       price = 1200,  currency = 'money' },
 			{ name = 'binoculars',       price = 100,   currency = 'money' },
 			{ name = 'firework1',        price = 50,    currency = 'money' },
