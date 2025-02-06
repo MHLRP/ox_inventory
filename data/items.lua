@@ -15467,6 +15467,39 @@ return {
 		}
 	},
 
+	["bread"] = {
+		label = "Bread",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "bread.png",
+		}
+	},
+
+	["breadcrumbs"] = {
+		label = "Bread",
+		weight = 5,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "breadcrumbs.png",
+		}
+	},
+
+	["mozzarella"] = {
+		label = "Bread",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "mozzarella.png",
+		}
+	},
+
 	["fishnchipsbreadknife"] = {
 		label = "Bread Knife",
 		weight = 200,
