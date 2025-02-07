@@ -1877,12 +1877,112 @@ return {
 
 	["garlic-bread"] = {
 		label = "Garlic Bread",
+		weight = 20,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["italianbread"] = {
+		label = "Italian Bread",
+		weight = 20,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["garlic"] = {
+		label = "Garlic",
 		weight = 5,
 		degrade = 60 * 36,
 		decay = true,
 		stack = true,
 		close = true,
-		description = "Garlic Bread",
+		description = "",
+	},
+
+	["bruschetta"] = {
+		label = "Bruschetta",
+		weight = 5,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["italiansausage"] = {
+		label = "Italian Sausage",
+		weight = 20,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["canoli"] = {
+		label = "Canoli",
+		weight = 5,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["tiramisu"] = {
+		label = "Tiramisu",
+		weight = 5,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["cheesecake"] = {
+		label = "Cheesecake",
+		weight = 5,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["friedcalamari"] = {
+		label = "Fried Calamari",
+		weight = 5,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["calamari"] = {
+		label = "Calamari",
+		weight = 5,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["jarofherbs"] = {
+		label = "Jar of herbs",
+		weight = 10,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
 	},
 
 	["cranberries"] = {
@@ -12083,6 +12183,26 @@ return {
 		}
 	},
 
+	["capresesalad"] = {
+		label = "Caprese Salad",
+		weight = 350,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			status = { hunger = 60 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'bkr_prop_weed_leaf_01a',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(150.0, 340.0, 170.0)
+			},
+			usetime = 7500,
+		}
+	},
+
 	["peanutbowl"] = {
 		label = "Peanut Bowl",
 		weight = 350,
@@ -15497,6 +15617,17 @@ return {
 		description = "",
 		client = {
 			image = "mozzarella.png",
+		}
+	},
+
+	["antipasto"] = {
+		label = "Antipasto",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "antipasto.png",
 		}
 	},
 
