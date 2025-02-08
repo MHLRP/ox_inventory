@@ -1915,8 +1915,8 @@ return {
 			['firefighter'] = 0
 		},
 		inventory = {
-			{ name = 'weapon_fireextinguisher', price = 200 },
-			{ name = 'watertank',               price = 200 },
+			{ name = 'weapon_fireextinguisher', price = 0 },
+			{ name = 'watertank',               price = 0 },
 			{ name = 'gps_tracker',             price = 0 },
 			{ name = 'radio',                   price = 0 },
 			{ name = 'radiocell',               price = 0 },
