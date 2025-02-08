@@ -447,10 +447,11 @@ return {
 		},
 		inventory = {
 			{ name = 'prescription_pad',        label = 'Prescription Pad',  price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'medbag',                  label = 'Medical Bag',       price = 0, metadata = { description = "Property of Los Santos Medical Center" } }, -- Pretty self explanatory, price may be set to 'false' to make free
+			{ name = 'paramedicbag',            label = 'Medical Bag',       price = 0, metadata = { description = "Property of Los Santos Medical Center" } }, -- Pretty self explanatory, price may be set to 'false' to make free
 			{ name = 'medikit',                 label = 'First-Aid Kit',     price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'morphine10',              label = 'Morphine 10MG',     price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'iak_wheelchair',          label = 'Wheelchair',        price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'crutch',                  label = 'Crutch',            price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'peptobismol',             label = 'Peptobismol',       price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'loperamide',              label = 'Loperamide',        price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'aspirin',                 label = 'Aspirin',           price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
@@ -498,7 +499,7 @@ return {
 		},
 		inventory = {
 			{ name = 'prescription_pad',        label = 'Prescription Pad', price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'medbag',                  label = 'Medical Bag',      price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } }, -- Pretty self explanatory, price may be set to 'false' to make free
+			{ name = 'paramedicbag',            label = 'Medical Bag',      price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } }, -- Pretty self explanatory, price may be set to 'false' to make free
 			{ name = 'medikit',                 label = 'First-Aid Kit',    price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'morphine10',              label = 'Morphine 10MG',    price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'iak_wheelchair',          label = 'Wheelchair',       price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
@@ -549,6 +550,7 @@ return {
 	Mansion = {
 		name = 'Mansion Mech Shop',
 		inventory = {
+			{ name = 'carradio',             label = 'Car Radio',                  price = 0 },
 			{ name = 'harness',              label = 'Racing Harness',             price = 0 },
 			{ name = 'engine_oil',           label = 'Engine Oil',                 price = 0 },
 			{ name = 'tyre_replacement',     label = 'Tyre Replacement',           price = 0 },
@@ -634,6 +636,7 @@ return {
 			['medusamechanics'] = 0
 		},
 		inventory = {
+			{ name = 'carradio',             label = 'Car Radio',                  price = 0 },
 			{ name = 'harness',              label = 'Racing Harness',             price = 0 },
 			{ name = 'engine_oil',           label = 'Engine Oil',                 price = 0 },
 			{ name = 'tyre_replacement',     label = 'Tyre Replacement',           price = 0 },
@@ -719,6 +722,7 @@ return {
 			['midnightautos'] = 0
 		},
 		inventory = {
+			{ name = 'carradio',             label = 'Car Radio',                  price = 0 },
 			{ name = 'harness',              label = 'Racing Harness',             price = 0 },
 			{ name = 'engine_oil',           label = 'Engine Oil',                 price = 0 },
 			{ name = 'tyre_replacement',     label = 'Tyre Replacement',           price = 0 },
@@ -803,6 +807,7 @@ return {
 			['rexsgarage'] = 0
 		},
 		inventory = {
+			{ name = 'carradio',             label = 'Car Radio',                  price = 0 },
 			{ name = 'engine_oil',           label = 'Engine Oil',                 price = 0 },
 			{ name = 'tyre_replacement',     label = 'Tyre Replacement',           price = 0 },
 			{ name = 'clutch_replacement',   label = 'Clutch Replacement',         price = 0 },
