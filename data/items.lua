@@ -1975,8 +1975,238 @@ return {
 		description = "",
 	},
 
+	["stuffedmushroom"] = {
+		label = "Stuffed Mushroom",
+		weight = 10,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
 	["jarofherbs"] = {
 		label = "Jar of herbs",
+		weight = 10,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["meatballs"] = {
+		label = "Italian Meatballs",
+		weight = 10,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["sausagenpepper"] = {
+		label = "Italian Sausage & Peppers",
+		weight = 10,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["garlicknots"] = {
+		label = "Garlic Knots",
+		weight = 10,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["spaghetti"] = {
+		label = "Spaghetti Noodles",
+		weight = 10,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["spagnmeatballs"] = {
+		label = "Spaghetti & Meatballs",
+		weight = 10,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["marinara"] = {
+		label = "Marinara",
+		weight = 10,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["fettuccine"] = {
+		label = "Fettuccine Noodles",
+		weight = 10,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["lasagne"] = {
+		label = "Lasagne",
+		weight = 10,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["ziti"] = {
+		label = "Ziti Noodles",
+		weight = 10,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["zitipasta"] = {
+		label = "Ziti Pasta",
+		weight = 10,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["alfredo"] = {
+		label = "Alfredo Sauce",
+		weight = 10,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["ricotta"] = {
+		label = "Ricotta Cheese",
+		weight = 10,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["carbonara"] = {
+		label = "Carbonara Pasta",
+		weight = 10,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["lasagna"] = {
+		label = "Lasagna",
+		weight = 10,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["raw_shrimp"] = {
+		label = "Raw Shrimp",
+		weight = 10,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["chickenparmesan"] = {
+		label = "Chicken Parmesan",
+		weight = 10,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["fettuccinealfredo"] = {
+		label = "Fettuccine Alfredo",
+		weight = 10,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["shrimpscampi"] = {
+		label = "Shrimp Scampi",
+		weight = 10,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["whitewinesauce"] = {
+		label = "White Wine Sauce",
+		weight = 10,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["redwinesauce"] = {
+		label = "Red Wine Sauce",
+		weight = 10,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["marsala"] = {
+		label = "Marsala",
+		weight = 10,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
+	["marsalawine"] = {
+		label = "Marsala Wine",
 		weight = 10,
 		degrade = 60 * 36,
 		decay = true,
@@ -10080,6 +10310,14 @@ return {
 		stack = true,
 		close = false,
 		description = "Rabbit Fur",
+	},
+
+	["veal_meat"] = {
+		label = "Veal Meat",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "",
 	},
 
 	--- FOR CARS
