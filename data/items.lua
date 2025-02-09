@@ -10585,6 +10585,12 @@ return {
 		close = true,
 		description = "Upgrade vehicle transmission",
 	},
+	
+	-- Gearbox
+	["manual_gearbox"] = {
+	  label = "Manual Gearbox",
+	  weight = 1000,
+	},
 
 	["jerry_can"] = {
 		label = "Jerrycan 20L",
