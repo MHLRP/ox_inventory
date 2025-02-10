@@ -16611,7 +16611,7 @@ return {
 	--- HOTTUB ANYWHERE 
 	
 	["hottub1"] = {
-		label = "Hottub 1",
+		label = "Hottub without stairs",
 		weight = 100,
 		stack = true,
 		close = true,
@@ -16622,7 +16622,7 @@ return {
 	},
 
 	["hottub2"] = {
-		label = "Hottub 2",
+		label = "Hottub without stairs",
 		weight = 100,
 		stack = true,
 		close = true,
@@ -16633,7 +16633,7 @@ return {
 	},
 
 	["hottub3"] = {
-		label = "Hottub 3",
+		label = "Hottub without stairs",
 		weight = 100,
 		stack = true,
 		close = true,
@@ -16644,33 +16644,33 @@ return {
 	},
 
 	["hottub1stairs"] = {
-		label = "1 Stair",
+		label = "Hottub with Stair 1",
 		weight = 100,
 		stack = true,
 		close = true,
-		description = "Hottub 1 Stair",
+		description = "Hottub anywhere with friends!",
 		client = {
 			image = "hottub1stairs.png",
 		}
 	},
 
 	["hottub2stairs"] = {
-		label = "2 Stairs",
+		label = "Hottub with Stairs 2",
 		weight = 100,
 		stack = true,
 		close = true,
-		description = "Hottub 2 Stairs",
+		description = "Hottub anywhere with friends!",
 		client = {
 			image = "hottub2stairs.png",
 		}
 	},
-	
+
 	["hottub3stairs"] = {
-		label = "3 Stairs",
+		label = "Hottub with Stairs 3",
 		weight = 100,
 		stack = true,
 		close = true,
-		description = "Hottub 3 Stairs",
+		description = "Hottub anywhere with friends!",
 		client = {
 			image = "hottub3stairs.png",
 		}
