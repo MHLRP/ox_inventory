@@ -10585,7 +10585,7 @@ return {
 		close = true,
 		description = "Upgrade vehicle transmission",
 	},
-	
+
 	-- Gearbox
 	["manual_gearbox"] = {
 	  label = "Manual Gearbox",
@@ -16605,6 +16605,74 @@ return {
 		description = "Surfboard",
 		client = {
 			image = "surfboard.png",
+		}
+	},
+
+	--- HOTTUB ANYWHERE 
+	
+	["hottub1"] = {
+		label = "Hottub 1",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Hottub anywhere with friends!",
+		client = {
+			image = "hottub1.png",
+		}
+	},
+
+	["hottub2"] = {
+		label = "Hottub 2",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Hottub anywhere with friends!",
+		client = {
+			image = "hottub2.png",
+		}
+	},
+
+	["hottub3"] = {
+		label = "Hottub 3",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Hottub anywhere with friends!",
+		client = {
+			image = "hottub3.png",
+		}
+	},
+
+	["hottub1stairs"] = {
+		label = "1 Stair",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Hottub 1 Stair",
+		client = {
+			image = "hottub1stairs.png",
+		}
+	},
+
+	["hottub2stairs"] = {
+		label = "2 Stairs",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Hottub 2 Stairs",
+		client = {
+			image = "hottub2stairs.png",
+		}
+	},
+	
+	["hottub3stairs"] = {
+		label = "3 Stairs",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Hottub 3 Stairs",
+		client = {
+			image = "hottub3stairs.png",
 		}
 	},
 
