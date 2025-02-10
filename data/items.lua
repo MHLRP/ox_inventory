@@ -16611,7 +16611,7 @@ return {
 	--- HOTTUB ANYWHERE 
 	
 	["hottub1"] = {
-		label = "Hottub without stairs",
+		label = "Hottub without stairs 1",
 		weight = 100,
 		stack = true,
 		close = true,
@@ -16622,7 +16622,7 @@ return {
 	},
 
 	["hottub2"] = {
-		label = "Hottub without stairs",
+		label = "Hottub without stairs 2",
 		weight = 100,
 		stack = true,
 		close = true,
@@ -16633,7 +16633,7 @@ return {
 	},
 
 	["hottub3"] = {
-		label = "Hottub without stairs",
+		label = "Hottub without stairs 3",
 		weight = 100,
 		stack = true,
 		close = true,
