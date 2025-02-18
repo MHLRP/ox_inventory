@@ -6828,15 +6828,12 @@ return {
 
 	--- DRUGS
 
-	['prescription_pad'] = {
-		label = 'Prescription Pad',
-		weight = 100,
-		stack = false,
-		close = true,
-		description = "Prescription Pad",
-		server = {
-			export = 'MrNewbPrescriptions.prescriptionpad'
-		}
+	['prescription_pad'] = {        
+		label = 'Prescription Pad',        
+		weight = 100,         
+		stack = false,        
+		close = true,        
+		description = 'For use by medical professionals only',    
 	},
 	['prescription'] = {
 		label = 'Prescription Receipt',
@@ -14485,6 +14482,17 @@ return {
 		description = "Parasailing",
 		client = {
 			image = "parasailing.png",
+		}
+	},
+
+	["bananaboat"] = {
+		label = "Banana Boat",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Banana Boat",
+		client = {
+			image = "bananaboat.png",
 		}
 	},
 
