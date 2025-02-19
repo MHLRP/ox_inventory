@@ -462,6 +462,7 @@ return {
 			{ name = 'icepack',                 label = 'Ice Pack',          price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'burncream',               label = 'Burn Cream',        price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'defib',                   label = 'Defib',             price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'weed_license',            label = 'Weed License',      price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'sedative',                label = 'Sedative',          price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'ibuprofen',               label = 'Ibuprofen',         price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'dramamine',               label = 'Dramamine',         price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
@@ -1058,7 +1059,6 @@ return {
 			{ name = 'dabrig',                price = 0, currency = 'money' },
 			{ name = 'bong',                  price = 0, currency = 'money' },
 			{ name = 'cigar',                 price = 0, currency = 'money' },
-			{ name = 'weed_license',          price = 0, currency = 'money' },
 		},
 		locations = {
 			vec3(185.17, -242.75, 54.12)
@@ -1799,7 +1799,6 @@ return {
 			{ name = 'jerrycan',         price = 350,   currency = 'money' },
 			{ name = 'syphoningkit',     price = 800,   currency = 'money' },
 			{ name = 'bolt_cutter',      price = 800,   currency = 'money' },
-			{ name = 'ziptie',           price = 650,   currency = 'money' },
 			{ name = 'dart',             price = 20,    currency = 'money' },
 			{ name = 'weapon_flare',     price = 850,   currency = 'money' },
 			{ name = 'walkstick',        price = 250,   currency = 'money' },

@@ -6402,49 +6402,64 @@ return {
 	['vape'] = {
 		label = 'Vape',
 		weight = 115,
+		decay = true,
 		description = "Use /e vape2 for enhanced smoke instead of the use option!",
-		degrade = 60,
+		degrade = 120 * 36,
 	},
 
 	['waka_blueberry'] = {
 		label = 'Vape',
 		weight = 115,
+		decay = true,
+		degrade = 120 * 36,
 		description = "Mmm.. Blueberry Flavor!",
 	},
 
 	['waka_cherry'] = {
 		label = 'Vape',
 		weight = 115,
+		decay = true,
+		degrade = 120 * 36,
 		description = "Mmm.. Cherry Flavor!",
 	},
 
 	['waka_grape'] = {
 		label = 'Vape',
 		weight = 115,
+		decay = true,
+		degrade = 120 * 36,
 		description = "Mmm.. Grape Flavor!",
 	},
 
 	['waka_kiwi'] = {
 		label = 'Vape',
 		weight = 115,
+		decay = true,
+		degrade = 120 * 36,
 		description = "Mmm.. Kiwi Flavor!",
 	},
 
 	['waka_mango'] = {
 		label = 'Vape',
 		weight = 115,
+		decay = true,
+		degrade = 120 * 36,
 		description = "Mmm.. Mango Flavor!",
 	},
 
 	['waka_melon'] = {
 		label = 'Vape',
 		weight = 115,
+		decay = true,
+		degrade = 120 * 36,
 		description = "Mmm.. Melon Flavor!",
 	},
 
 	['waka_strawberry'] = {
 		label = 'Vape',
 		weight = 115,
+		decay = true,
+		degrade = 120 * 36,
 		description = "Mmm.. Strawberry Flavor!",
 	},
 
@@ -11200,6 +11215,14 @@ return {
 		stack = false,
 		close = false,
 		description = "Permit to grow up to 40 plants at a time legally.",
+	},
+
+	["medical_license"] = {
+		label = "Medical License",
+		weight = 1,
+		stack = false,
+		close = false,
+		description = "License to practice medical",
 	},
 
 	["metalscrap"] = {
