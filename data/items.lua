@@ -6401,65 +6401,49 @@ return {
 	-- If you are below the mpchristmas3 update, change the prop to 'ba_prop_battle_vape_01'
 	['vape'] = {
 		label = 'Vape',
-		weight = 115,
-		decay = true,
-		description = "Use /e vape2 for enhanced smoke instead of the use option!",
-		degrade = 120 * 36,
+		weight = 200,
+		description = "No flavor.. just smoke.",
 	},
 
 	['waka_blueberry'] = {
 		label = 'Vape',
 		weight = 115,
-		decay = true,
-		degrade = 120 * 36,
 		description = "Mmm.. Blueberry Flavor!",
 	},
 
 	['waka_cherry'] = {
 		label = 'Vape',
 		weight = 115,
-		decay = true,
-		degrade = 120 * 36,
 		description = "Mmm.. Cherry Flavor!",
 	},
 
 	['waka_grape'] = {
 		label = 'Vape',
 		weight = 115,
-		decay = true,
-		degrade = 120 * 36,
 		description = "Mmm.. Grape Flavor!",
 	},
 
 	['waka_kiwi'] = {
 		label = 'Vape',
 		weight = 115,
-		decay = true,
-		degrade = 120 * 36,
 		description = "Mmm.. Kiwi Flavor!",
 	},
 
 	['waka_mango'] = {
 		label = 'Vape',
 		weight = 115,
-		decay = true,
-		degrade = 120 * 36,
 		description = "Mmm.. Mango Flavor!",
 	},
 
 	['waka_melon'] = {
 		label = 'Vape',
 		weight = 115,
-		decay = true,
-		degrade = 120 * 36,
 		description = "Mmm.. Melon Flavor!",
 	},
 
 	['waka_strawberry'] = {
 		label = 'Vape',
 		weight = 115,
-		decay = true,
-		degrade = 120 * 36,
 		description = "Mmm.. Strawberry Flavor!",
 	},
 
