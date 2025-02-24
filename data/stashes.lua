@@ -394,6 +394,142 @@ return {
 		groups = { ['whitewidow'] = 0 }
 	},
 	{
+		coords = vec3(199.538, -247.007, 53.069),
+		target = {
+			loc = vec3(199.538, -247.007, 53.069),
+			length = 1.2,
+			width = 5.6,
+			heading = 0,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'White Widow Table'
+		},
+		name = 'weedtable',
+		label = 'White Widow Table',
+		owner = false,
+		slots = 12,
+		weight = 60000,
+	},
+	{
+		coords = vec3(197.352, -253.096, 53.069),
+		target = {
+			loc = vec3(197.352, -253.096, 53.069),
+			length = 1.2,
+			width = 5.6,
+			heading = 0,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'White Widow Table'
+		},
+		name = 'weedtable2',
+		label = 'White Widow Table',
+		owner = false,
+		slots = 12,
+		weight = 60000,
+	},
+	{
+		coords = vec3(195.729, -257.554, 53.069),
+		target = {
+			loc = vec3(195.729, -257.554, 53.069),
+			length = 1.2,
+			width = 5.6,
+			heading = 0,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'White Widow Table'
+		},
+		name = 'weedtable3',
+		label = 'White Widow Table',
+		owner = false,
+		slots = 12,
+		weight = 60000, 
+	},
+	{
+		coords = vec3(193.707, -263.112, 53.069),
+		target = {
+			loc = vec3(193.707, -263.112, 53.069),
+			length = 1.2,
+			width = 5.6,
+			heading = 0,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'White Widow Table'
+		},
+		name = 'weedtable4',
+		label = 'White Widow Table',
+		owner = false,
+		slots = 12,
+		weight = 60000,
+	},
+	{
+		coords = vec3(192.018, -267.752, 53.069),
+		target = {
+			loc = vec3(192.018, -267.752, 53.069),
+			length = 1.2,
+			width = 5.6,
+			heading = 0,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'White Widow Table'
+		},
+		name = 'weedtable5',
+		label = 'White Widow Table',
+		owner = false,
+		slots = 12,
+		weight = 60000,
+	},
+	{
+		coords = vec3(183.751, -264.743, 53.069),
+		target = {
+			loc = vec3(183.751, -264.743, 53.069),
+			length = 1.2,
+			width = 5.6,
+			heading = 0,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'White Widow Table'
+		},
+		name = 'weedtable6',
+		label = 'White Widow Table',
+		owner = false,
+		slots = 12,
+		weight = 60000,
+	},
+	{
+		coords = vec3(186.012, -258.532, 53.069),
+		target = {
+			loc = vec3(186.012, -258.532, 53.069),
+			length = 1.2,
+			width = 5.6,
+			heading = 0,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'White Widow Table'
+		},
+		name = 'weedtable7',
+		label = 'White Widow Table',
+		owner = false,
+		slots = 12,
+		weight = 60000,
+	},
+	{
+		coords = vec3(188.094, -252.811, 53.069),
+		target = {
+			loc = vec3(188.094, -252.811, 53.069),
+			length = 1.2,
+			width = 5.6,
+			heading = 0,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'White Widow Table'
+		},
+		name = 'weedtable8',
+		label = 'White Widow Table',
+		owner = false,
+		slots = 12,
+		weight = 60000,
+	},
+	{
 		coords = vec3(-288.2890, 234.1284, 78.8262),
 		target = {
 			loc = vec3(-288.2890, 234.1284, 78.8262),
