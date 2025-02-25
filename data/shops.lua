@@ -344,7 +344,7 @@ return {
 	},
 
 	GeneralStore3 = {
-		name = 'Fleetwoods Store',
+		name = 'Vendetta Store',
 		inventory = {
 			{ name = 'water',          price = 10 },
 			{ name = 'sandwich',       price = 10 },
@@ -1609,8 +1609,8 @@ return {
 		}
 	},
 
-	FleetwoodsBar = {
-		name = 'Fleetwoods Bar',
+	VendettaBar = {
+		name = 'Vendetta Bar',
 		inventory = {
 			{ name = 'beer',    price = 0, currency = 'money' },
 			{ name = 'whiskey', price = 0, currency = 'money' },

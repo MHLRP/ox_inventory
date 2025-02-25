@@ -663,7 +663,7 @@ return {
 			maxZ = 32.09,
 			label = 'Storage'
 		},
-		name = 'fleetwoods1',
+		name = 'vendetta1',
 		label = 'Storage',
 		owner = false,
 		slots = 80,
@@ -680,7 +680,7 @@ return {
 			maxZ = 32.09,
 			label = 'Storage'
 		},
-		name = 'fleetwoods2',
+		name = 'vendetta2',
 		label = 'Storage',
 		owner = false,
 		slots = 60,
@@ -697,7 +697,7 @@ return {
 			maxZ = 32.09,
 			label = 'Storage'
 		},
-		name = 'fleetwoods3',
+		name = 'vendetta3',
 		label = 'Storage',
 		owner = false,
 		slots = 40,

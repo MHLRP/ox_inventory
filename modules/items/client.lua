@@ -84,9 +84,9 @@ local function Item(name, cb)
 end
 
 Item('craftingtable', function(data, slot)
-    local model = "gr_prop_gr_bench_04b"
-    local id = "CraftingTable"..math.random(111111,999999)
-    TriggerEvent("zat-crafting:client:PlaceTable", id, model)
+	local model = "gr_prop_gr_bench_04b"
+	local id = "CraftingTable" .. math.random(111111, 999999)
+	TriggerEvent("zat-crafting:client:PlaceTable", id, model)
 end)
 
 local ox_inventory = exports[shared.resource]
@@ -155,8 +155,9 @@ Item('ifaks', function(data, slot)
 	local health = GetEntityHealth(cache.ped)
 	ox_inventory:useItem(data, function(data)
 		if data then
-			SetEntityHealth(cache.ped, math.min(maxHealth, math.floor(health + maxHealth / 15)))
+			SetEntityHealth(cache.ped, math.min(maxHealth, math.floor(health + maxHealth / 8)))
 			lib.notify({ description = 'You feel better already' })
+			TriggerServerEvent('ox_inventory:removeItem', 'ifaks', 1, nil, slot)
 		end
 	end)
 end)
@@ -171,7 +172,7 @@ Item('parachute', function(data, slot)
 				GiveWeaponToPed(cache.ped, chute, 0, true, false)
 				SetPedGadget(cache.ped, chute, true)
 				lib.requestModel(1269906701)
-				client.parachute = {CreateParachuteBagObject(cache.ped, true, true), slot?.metadata?.type or -1}
+				client.parachute = { CreateParachuteBagObject(cache.ped, true, true), slot?.metadata?.type or -1 }
 				if slot.metadata.type then
 					SetPlayerParachuteTintIndex(PlayerData.id, slot.metadata.type)
 				end
@@ -239,11 +240,11 @@ Item('clothing', function(data, slot)
 end)
 
 Item('rc-bandito', function(data, slot)
-    ox_inventory:useItem(data, function(data)
-        if data then
-            TriggerEvent('mth-rc:client:SpawnRcCar')
-        end
-    end)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			TriggerEvent('mth-rc:client:SpawnRcCar')
+		end
+	end)
 end)
 
 -----------------------------------------------------------------------------------------------
