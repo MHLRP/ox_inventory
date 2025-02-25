@@ -390,7 +390,7 @@ return {
 		label = 'Safe',
 		owner = false,
 		slots = 70,
-		weight = 70000,
+		weight = 120000,
 		groups = { ['whitewidow'] = 0 }
 	},
 	{
