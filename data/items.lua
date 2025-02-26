@@ -5291,9 +5291,12 @@ return {
 	["carradio"] = {
 		label = "Car Radio",
 		weight = 800,
-		stack = true,
+		stack = false,
 		close = true,
-		description = "With this you can listen to music in your car!",
+		description = "A portable car radio system",
+		client = {
+			export = "moonlit-radio.useRadio"
+		}
 	},
 
 	['dingus'] = {
