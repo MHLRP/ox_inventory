@@ -15872,13 +15872,24 @@ return {
 	},
 
 	["mozzarella"] = {
-		label = "Bread",
-		weight = 200,
+		label = "Mozzarella",
+		weight = 100,
 		stack = true,
 		close = true,
 		description = "",
 		client = {
 			image = "mozzarella.png",
+		}
+	},
+
+	["mozzarellabread"] = {
+		label = "Mozzarella Bread",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "mozzarellabread.png",
 		}
 	},
 
