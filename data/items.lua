@@ -1883,6 +1883,16 @@ return {
 		stack = true,
 		close = true,
 		description = "",
+		client = {
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["italianbread"] = {
@@ -1913,6 +1923,16 @@ return {
 		stack = true,
 		close = true,
 		description = "",
+		client = {
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["italiansausage"] = {
@@ -1933,6 +1953,16 @@ return {
 		stack = true,
 		close = true,
 		description = "",
+		client = {
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["tiramisu"] = {
@@ -1943,6 +1973,16 @@ return {
 		stack = true,
 		close = true,
 		description = "",
+		client = {
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["cheesecake"] = {
@@ -1953,6 +1993,16 @@ return {
 		stack = true,
 		close = true,
 		description = "",
+		client = {
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["friedcalamari"] = {
@@ -1963,6 +2013,16 @@ return {
 		stack = true,
 		close = true,
 		description = "",
+		client = {
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["calamari"] = {
@@ -1983,6 +2043,16 @@ return {
 		stack = true,
 		close = true,
 		description = "",
+		client = {
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["jarofherbs"] = {
@@ -2003,6 +2073,16 @@ return {
 		stack = true,
 		close = true,
 		description = "",
+		client = {
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["sausagenpepper"] = {
@@ -2013,6 +2093,16 @@ return {
 		stack = true,
 		close = true,
 		description = "",
+		client = {
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["garlicknots"] = {
@@ -2023,6 +2113,16 @@ return {
 		stack = true,
 		close = true,
 		description = "",
+		client = {
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["spaghetti"] = {
@@ -2033,6 +2133,16 @@ return {
 		stack = true,
 		close = true,
 		description = "",
+		client = {
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["spagnmeatballs"] = {
@@ -2043,6 +2153,16 @@ return {
 		stack = true,
 		close = true,
 		description = "",
+		client = {
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["marinara"] = {
@@ -2093,6 +2213,16 @@ return {
 		stack = true,
 		close = true,
 		description = "",
+		client = {
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["alfredo"] = {
@@ -2123,6 +2253,16 @@ return {
 		stack = true,
 		close = true,
 		description = "",
+		client = {
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["lasagna"] = {
@@ -2133,6 +2273,16 @@ return {
 		stack = true,
 		close = true,
 		description = "",
+		client = {
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["raw_shrimp"] = {
@@ -2153,6 +2303,16 @@ return {
 		stack = true,
 		close = true,
 		description = "",
+		client = {
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["fettuccinealfredo"] = {
@@ -2173,6 +2333,16 @@ return {
 		stack = true,
 		close = true,
 		description = "",
+		client = {
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["whitewinesauce"] = {
@@ -2203,6 +2373,16 @@ return {
 		stack = true,
 		close = true,
 		description = "",
+		client = {
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["marsalawine"] = {
@@ -15889,7 +16069,14 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "mozzarellabread.png",
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
 		}
 	},
 
@@ -15900,7 +16087,14 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "antipasto.png",
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
 		}
 	},
 
