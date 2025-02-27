@@ -2405,7 +2405,7 @@ return {
 			{ name = 'fishnchipscheeseslice',  price = 10,  currency = 'money' },
 			{ name = 'ground-beef',            price = 20,  currency = 'money' },
 			{ name = 'flour',                  price = 10,  currency = 'money' },
-			{ name = 'milk',                   price = 10,  currency = 'money' },
+			{ name = 'milk',                   price = 45,  currency = 'money' },
 			{ name = 'sandwich',               price = 10,  currency = 'money' },
 			{ name = 'bandage',                price = 25,  currency = 'money' },
 			{ name = 'lighter',                price = 2,   currency = 'money' },
