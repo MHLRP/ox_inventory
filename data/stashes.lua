@@ -555,10 +555,28 @@ return {
 			heading = 0,
 			minZ = 29.49,
 			maxZ = 32.09,
-			label = 'Open Stash'
+			label = 'Open Uwu Stash'
 		},
 		name = 'uwu',
-		label = 'Stash',
+		label = 'Uwu Stash',
+		owner = false,
+		slots = 70,
+		weight = 70000,
+		groups = { ['uwu'] = 0 }
+	},
+	{
+		coords = vec3(-597.4825, -1049.3970, 22.3442),
+		target = {
+			loc = vec3(-597.4825, -1049.3970, 22.3442),
+			length = 1.2,
+			width = 5.6,
+			heading = 0,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Open Uwu Stash'
+		},
+		name = 'uwu2',
+		label = 'Uwu Stash',
 		owner = false,
 		slots = 70,
 		weight = 70000,
