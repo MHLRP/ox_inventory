@@ -2010,6 +2010,19 @@ return {
 		}
 	},
 
+	uwumenu = {
+		name = 'Uwu Menu',
+		inventory = {
+			{ name = 'uwu_menu', price = 0 },
+		},
+		locations = {
+			vec3(-584.049, -1062.053, 22.384)
+		},
+		targets = {
+			{ loc = vec3(-584.049, -1062.053, 22.384), length = 0.6, width = 0.5, heading = 90.6912, minZ = 28.2, maxZ = 28.6, distance = 2 }
+		}
+	},
+
 	tacomenu = {
 		name = 'Taco Menu',
 		groups = {
