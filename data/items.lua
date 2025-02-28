@@ -4511,6 +4511,14 @@ return {
 		description = "Beanmachine Menu.",
 	},
 
+	["uwu_menu"] = {
+		label = "Uwu Cafe Menu",
+		weight = 5,
+		stack = true,
+		close = true,
+		description = "Uwu Cafe Menu.",
+	},
+
 	["castones_menu"] = {
 		label = "Castones Menu",
 		weight = 5,
