@@ -2763,7 +2763,7 @@ return {
 		stack = true,
 		close = false,
 	},
-	
+
 
 	["whiskey"] = {
 		label = "Whiskey",
@@ -6364,7 +6364,7 @@ return {
 		close = true,
 		description = nil
 	},
-	
+
 	['prison_plans'] = {
 		label = 'Breakout Plans',
 		weight = 10,
@@ -6402,18 +6402,18 @@ return {
 		description = "You can use this!",
 	},
 
-	--- HAIRTIE 
-	
+	--- HAIRTIE
+
 	["scrunchie"] = {
-        label = "Scrunchie",
-        description = "Use this if your hair is getting in the way",
-        weight = 10,
-        stack = true,
-        close = true,
-        client = {
-          event = "ember-extras:useScrunchie",
-        }
-    },
+		label = "Scrunchie",
+		description = "Use this if your hair is getting in the way",
+		weight = 10,
+		stack = true,
+		close = true,
+		client = {
+			event = "ember-extras:useScrunchie",
+		}
+	},
 
 	--- HALLOWEEN
 
@@ -6912,12 +6912,12 @@ return {
 	},
 
 	['lockpick'] = {
-        label = 'Lockpick',
-        weight = 100,
-        stack = true,
-        close = true,
-        description = ""
-},
+		label = 'Lockpick',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = ""
+	},
 
 	["gatecrack"] = {
 		label = "Gatecrack",
@@ -7018,12 +7018,12 @@ return {
 
 	--- DRUGS
 
-	['prescription_pad'] = {        
-		label = 'Prescription Pad',        
-		weight = 100,         
-		stack = false,        
-		close = true,        
-		description = 'For use by medical professionals only',    
+	['prescription_pad'] = {
+		label = 'Prescription Pad',
+		weight = 100,
+		stack = false,
+		close = true,
+		description = 'For use by medical professionals only',
 	},
 	['prescription'] = {
 		label = 'Prescription Receipt',
@@ -9880,7 +9880,7 @@ return {
 		client = {
 			export = 'js5m_gunrack.placeGunRack',
 		},
-	  },
+	},
 
 	--- BADGES: Police
 
@@ -10775,8 +10775,8 @@ return {
 
 	-- Gearbox
 	["manual_gearbox"] = {
-	  label = "Manual Gearbox",
-	  weight = 1000,
+		label = "Manual Gearbox",
+		weight = 1000,
 	},
 
 	["jerry_can"] = {
@@ -12186,7 +12186,7 @@ return {
 			image = "c4.png",
 		}
 	},
-	
+
 	["bomb_suitcase"] = {
 		label = "Bomb Suitcase",
 		weight = 1000,
@@ -13864,37 +13864,37 @@ return {
 	},
 
 	['parcel'] = {
-        label = 'Parcel',
-        weight = 300, -- Adjust the weight as needed
-        stack = true,
-        close = true,
-        description = 'A package that can be picked up or delivered.',
+		label = 'Parcel',
+		weight = 300, -- Adjust the weight as needed
+		stack = true,
+		close = true,
+		description = 'A package that can be picked up or delivered.',
 		client = {
 			image = "parcel.png",
 		}
-    },
+	},
 
-    ['shoebox'] = {
-        label = 'Shoe Box',
-        weight = 100, -- Adjust the weight as needed
-        stack = false,
-        close = true,
-        description = 'Shoe Box',
+	['shoebox'] = {
+		label = 'Shoe Box',
+		weight = 100, -- Adjust the weight as needed
+		stack = false,
+		close = true,
+		description = 'Shoe Box',
 		client = {
 			image = "shoebox.png",
 		}
-    },
+	},
 
-    ['shoeboxrare'] = {
-        label = 'Rare Shoe',
-        weight = 100, -- Adjust the weight as needed
-        stack = false,
-        close = true,
-        description = 'Rare Shoe Box',
+	['shoeboxrare'] = {
+		label = 'Rare Shoe',
+		weight = 100, -- Adjust the weight as needed
+		stack = false,
+		close = true,
+		description = 'Rare Shoe Box',
 		client = {
 			image = "shoeboxrare.png",
 		}
-    },
+	},
 
 	["chips_cheese"] = {
 		label = "Chips Big Cheese",
@@ -15777,8 +15777,8 @@ return {
 		}
 	},
 
-	---- ROBOT ACCESSORIES 
-	
+	---- ROBOT ACCESSORIES
+
 	["cybereye"] = {
 		label = "Cyber Eye",
 		weight = 1000,
@@ -16441,7 +16441,7 @@ return {
 		}
 	},
 
-	
+
 
 	["fishnchipscreampie"] = {
 		label = "Cream Pie",
@@ -16839,8 +16839,8 @@ return {
 		}
 	},
 
-	--- HOTTUB ANYWHERE 
-	
+	--- HOTTUB ANYWHERE
+
 	["hottub1"] = {
 		label = "Hottub without stairs 1",
 		weight = 100,
@@ -16907,64 +16907,64 @@ return {
 		}
 	},
 
-	--- FENTANYL 
+	--- FENTANYL
 
-    ["piperidine"] = {
-        label = "Piperidine",
-        weight = 1000,
-        stack = true,
-        close = false,
-        description = "Piperidine",
-        client = {
-            image = "piperidine.png",
-        }
-    },
+	["piperidine"] = {
+		label = "Piperidine",
+		weight = 1000,
+		stack = true,
+		close = false,
+		description = "Piperidine",
+		client = {
+			image = "piperidine.png",
+		}
+	},
 
-    ["fentanyltable"] = {
-        label = "Fentanyl Table",
-        weight = 1000,
-        stack = true,
-        close = true,
-        description = "Fentanyl Table",
-        client = {
-            image = "fentanyltable.png",
-        }
-    },
+	["fentanyltable"] = {
+		label = "Fentanyl Table",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Fentanyl Table",
+		client = {
+			image = "fentanyltable.png",
+		}
+	},
 
-    ["pseudoephedrine"] = {
-        label = "Pseudoephedrine",
-        weight = 1000,
-        stack = true,
-        close = false,
-        description = "pseudoephedrine",
-        client = {
-            image = "pseudoephedrine.png",
-        }
-    },
+	["pseudoephedrine"] = {
+		label = "Pseudoephedrine",
+		weight = 1000,
+		stack = true,
+		close = false,
+		description = "pseudoephedrine",
+		client = {
+			image = "pseudoephedrine.png",
+		}
+	},
 
-    ["fentanyl"] = {
-        label = "fentanyl",
-        weight = 1000,
-        stack = true,
-        close = false,
-        description = "fentanyl",
-        client = {
-            image = "pseudoephedrine.png",
-        }
-    },
+	["fentanyl"] = {
+		label = "fentanyl",
+		weight = 1000,
+		stack = true,
+		close = false,
+		description = "fentanyl",
+		client = {
+			image = "pseudoephedrine.png",
+		}
+	},
 
-    ["btheroine"] = {
-        label = "Black Tar Heroin",
-        weight = 1000,
-        stack = true,
-        close = false,
-        description = "Black Tar Heroin",
-        client = {
-            image = "btheroine.png",
-        }
-    },
+	["btheroine"] = {
+		label = "Black Tar Heroin",
+		weight = 1000,
+		stack = true,
+		close = false,
+		description = "Black Tar Heroin",
+		client = {
+			image = "btheroine.png",
+		}
+	},
 
-	-- WHIPPETS 
+	-- WHIPPETS
 
 	['solargas_banana'] = {
 		label = 'Solar Gas Banana',
@@ -16972,81 +16972,171 @@ return {
 		stack = false,
 		close = true,
 	},
-	
+
 	['solargas_banana_box'] = {
 		label = 'Solar Gas Banana Box',
 		weight = 150,
 		stack = false,
 		close = true,
 	},
-	
+
 	['solargas_cottoncandy'] = {
 		label = 'Solar Gas Cotton Candy',
 		weight = 100,
 		stack = true,
 		close = true,
 	},
-	
+
 	['solargas_cottoncandy_box'] = {
 		label = 'Solar Gas Cotton Candy Box',
 		weight = 150,
 		stack = true,
 		close = true,
 	},
-	
+
 	['solargas_grape'] = {
 		label = 'Solar Gas Grape',
 		weight = 100,
 		stack = false,
 		close = true,
 	},
-	
+
 	['solargas_grape_box'] = {
 		label = 'Solar Gas Grape Box',
 		weight = 150,
 		stack = false,
 		close = true,
 	},
-	
+
 	['solargas_orange'] = {
 		label = 'Solar Gas Orange',
 		weight = 100,
 		stack = false,
 		close = true,
 	},
-	
+
 	['solargas_orange_box'] = {
 		label = 'Solar Gas Orange Box',
 		weight = 150,
 		stack = false,
 		close = true,
 	},
-	
+
 	['solargas_strawberry'] = {
 		label = 'Solar Gas Strawberry',
 		weight = 100,
 		stack = false,
 		close = true,
 	},
-	
+
 	['solargas_strawberry_box'] = {
 		label = 'Solar Gas Strawberry Box',
 		weight = 150,
 		stack = false,
 		close = true,
 	},
-	
+
 	['solargas_watermelon'] = {
 		label = 'Solar Gas Watermelon',
 		weight = 100,
 		stack = false,
 		close = true,
 	},
-	
+
 	['solargas_watermelon_box'] = {
 		label = 'Solar Gas Watermelon Box',
 		weight = 150,
 		stack = false,
 		close = true,
+	},
+
+	--- RTX PLUSHIES
+
+	['rtxplush1'] = {
+		label = 'Plushie 1',
+		weight = 100,
+		stack = true,
+		close = true
+	},
+	['rtxplush2'] = {
+		label = 'Plushie 2',
+		weight = 100,
+		stack = true,
+		close = true
+	},
+	['rtxplush3'] = {
+		label = 'Plushie 3',
+		weight = 100,
+		stack = true,
+		close = true
+	},
+	['rtxplush4'] = {
+		label = 'Plushie 4',
+		weight = 100,
+		stack = true,
+		close = true
+	},
+	['rtxplush5'] = {
+		label = 'Plushie 5',
+		weight = 100,
+		stack = true,
+		close = true
+	},
+	['rtxplush6'] = {
+		label = 'Plushie 6',
+		weight = 100,
+		stack = true,
+		close = true
+	},
+	['rtxplush7'] = {
+		label = 'Plushie 7',
+		weight = 100,
+		stack = true,
+		close = true
+	},
+	['rtxplush8'] = {
+		label = 'Plushie 8',
+		weight = 100,
+		stack = true,
+		close = true
+	},
+	['rtxplush9'] = {
+		label = 'Plushie 9',
+		weight = 100,
+		stack = true,
+		close = true
+	},
+	['rtxplush10'] = {
+		label = 'Plushie 10',
+		weight = 100,
+		stack = true,
+		close = true
+	},
+
+	--- 17MOV CARWASH
+	
+	['mov_advanced_ceramic'] = {
+		label = 'Advanced Ceramic Wax',
+		weight = 150,
+		stack = true,
+		close = true
+	},
+	['mov_advanced_wax'] = {
+		label = 'Advanced Wax',
+		weight = 120,
+		stack = true,
+		close = true
+	},
+	['mov_basic_ceramic'] = {
+		label = 'Basic Ceramic Wax',
+		weight = 100,
+		stack = true,
+		close = true
+	},
+	['mov_basic_wax'] = {
+		label = 'Basic Wax',
+		weight = 80,
+		stack = true,
+		close = true
 	},
 }
