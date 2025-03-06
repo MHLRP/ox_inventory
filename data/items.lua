@@ -1281,7 +1281,7 @@ return {
 		close = true,
 		description = "Yes, from the trees comes deez apples",
 		client = {
-			status = { hunger = 60 },
+			status = { hunger = 40 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = {
 				model = 'sf_prop_sf_apple_01a',
@@ -1320,7 +1320,7 @@ return {
 		close = true,
 		description = "Orange",
 		client = {
-			status = { hunger = 60 },
+			status = { hunger = 30 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = {
 				model = 'knjgh_orange',
@@ -17138,5 +17138,58 @@ return {
 		weight = 80,
 		stack = true,
 		close = true
+	},
+
+	--- HOOKAH 
+	
+	['oceanbreeze'] = {
+		label = 'Ocean Breeze',
+		weight = 50,
+		stack = true,
+	},
+	['lavenderlush'] = {
+		label = 'Lavender Lush',
+		weight = 50,
+		stack = true,
+	},
+	['berryblaze'] = {
+		label = 'Berry Blaze',
+		weight = 50,
+		stack = true,
+	},
+	['citrussunshine'] = {
+		label = 'Citrus Sunshine',
+		weight = 50,
+		stack = true,
+	},
+	['limee'] = {
+		label = 'Lime',
+		weight = 50,
+		stack = true,
+	},
+	['foilpoked'] = {
+		label = 'Poked Foil',
+		weight = 50,
+		stack = true,
+	},
+	['hotcoals'] = {
+		label = 'Hot Coals',
+		weight = 50,
+		stack = true,
+	},
+	['hose'] = {
+		label = 'Hookah Hose',
+		weight = 50,
+		stack = true,
+	},
+	['coals'] = {
+		label = 'Coals',
+		weight = 50,
+		stack = true,
+	},
+	['hookah'] = {
+		label = 'Portable Hookah',
+		weight = 150,
+		stack = true,
 	},
 }
