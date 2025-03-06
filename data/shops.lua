@@ -1680,6 +1680,26 @@ return {
 		}
 	},
 
+	Bar11 = {
+		name = 'Bar',
+		inventory = {
+			{ name = 'beer',    price = 7,  currency = 'money' },
+			{ name = 'whiskey', price = 10, currency = 'money' },
+			{ name = 'vodka',   price = 12, currency = 'money' },
+		},
+		locations = {
+			vec3(267.1402, 3870.9988, 52.0337),
+		},
+		targets = {
+			{
+				ped = 'a_f_y_beach_01',
+				scenario = 'WORLD_HUMAN_STAND_MOBILE',
+				loc = vec3(267.1402, 3870.9988, 52.0337),
+				heading = 179.7831,
+			}
+		}
+	},
+
 	MansionBar = {
 		name = 'Bar',
 		inventory = {
