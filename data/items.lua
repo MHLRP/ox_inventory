@@ -6767,6 +6767,14 @@ return {
 		description = "Gym Membership",
 	},
 
+	["luxaccess"] = {
+		label = "Apartment Card",
+		weight = 0,
+		stack = false,
+		close = true,
+		description = "LUX VIP Card",
+	},
+
 	["id_card"] = {
 		label = "ID Card",
 		weight = 1,
