@@ -1905,7 +1905,6 @@ return {
 			{ name = 'jerrycan',         price = 350,   currency = 'money' },
 			{ name = 'syphoningkit',     price = 800,   currency = 'money' },
 			{ name = 'bolt_cutter',      price = 800,   currency = 'money' },
-			{ name = 'rope',             price = 1200,  currency = 'money' },
 			{ name = 'dart',             price = 20,    currency = 'money' },
 			{ name = 'weapon_flare',     price = 850,   currency = 'money' },
 			{ name = 'walkstick',        price = 250,   currency = 'money' },
