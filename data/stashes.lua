@@ -722,6 +722,91 @@ return {
 		weight = 60000,
 	},
 	{
+		coords = vec3(516.9129, -2759.5100, 6.6410),
+		target = {
+			loc = vec3(516.9129, -2759.5100, 6.6410),
+			length = 1.2,
+			width = 5.6,
+			heading = 33.7912,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Safe'
+		},
+		name = 'blackdiamond',
+		label = 'Safe Storage',
+		owner = false,
+		slots = 80,
+		weight = 40000,
+	},
+	{
+		coords = vec3(504.641, -2758.448, 2.074),
+		target = {
+			loc = vec3(504.641, -2758.448, 2.074),
+			length = 1.2,
+			width = 5.6,
+			heading = 44.6603,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Storage'
+		},
+		name = 'blackdiamond2',
+		label = 'Storage',
+		owner = false,
+		slots = 60,
+		weight = 60000,
+	},
+	{
+		coords = vec3(507.305, -2753.104, 2.211),
+		target = {
+			loc = vec3(507.305, -2753.104, 2.211),
+			length = 1.2,
+			width = 5.6,
+			heading = 258.9305,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Storage'
+		},
+		name = 'blackdiamond3',
+		label = 'Storage',
+		owner = false,
+		slots = 40,
+		weight = 60000,
+	},
+	{
+		coords = vec3(575.3325, -2795.7546, 6.1042),
+		target = {
+			loc = vec3(575.3325, -2795.7546, 6.1042),
+			length = 1.2,
+			width = 5.6,
+			heading = 334.0724,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Storage'
+		},
+		name = 'blackdiamond4',
+		label = 'Storage',
+		owner = false,
+		slots = 80,
+		weight = 120000,
+	},
+	{
+		coords = vec3(559.3923, -2798.9392, 6.0814),
+		target = {
+			loc = vec3(559.3923, -2798.9392, 6.0814),
+			length = 1.2,
+			width = 5.6,
+			heading = 58.9361,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Storage'
+		},
+		name = 'blackdiamond5',
+		label = 'Storage',
+		owner = false,
+		slots = 60,
+		weight = 85000,
+	},
+	{
 		coords = vec3(415.7579, -1499.4043, 30.1553),
 		target = {
 			loc = vec3(415.7579, -1499.4043, 30.1553),
