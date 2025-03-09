@@ -464,7 +464,6 @@ return {
 			{ name = 'icepack',                 label = 'Ice Pack',          price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'burncream',               label = 'Burn Cream',        price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'defib',                   label = 'Defib',             price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'weed_license',            label = 'Weed License',      price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'sedative',                label = 'Sedative',          price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'ibuprofen',               label = 'Ibuprofen',         price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'dramamine',               label = 'Dramamine',         price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
@@ -492,6 +491,23 @@ return {
 			{ loc = vec3(330.34, -599.69, 42.79),        length = 1.5, width = 3.0, heading = 270.0,    minZ = 41.5, maxZ = 43.0, distance = 3 },
 			{ loc = vec3(1822.8713, 3666.3740, 34.2710), length = 1.5, width = 3.0, heading = 210.8633, minZ = 41.5, maxZ = 43.0, distance = 3 },
 			{ loc = vec3(-254.9789, 6326.5845, 32.4273), length = 1.5, width = 3.0, heading = 315.1287, minZ = 41.5, maxZ = 43.0, distance = 3 },
+		}
+	},
+
+	Medicine2 = {
+		name = 'Cards Cabinet',
+		groups = {
+			['ambulance'] = 7
+		},
+		inventory = {
+			{ name = 'weed_license', label = 'Weed License', price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'medical_license', label = 'Medical Bag',  price = 0, metadata = { description = "Property of Los Santos Medical Center" } },        -- Pretty self explanatory, price may be set to 'false' to make free
+		},
+		locations = {
+			vec3(327.521, -596.243, 42.222),
+		},
+		targets = {
+			{ loc = vec3(327.521, -596.243, 42.222), length = 1.5, width = 3.0, heading = 70.000, minZ = 41.5, maxZ = 43.0, distance = 3 },
 		}
 	},
 
