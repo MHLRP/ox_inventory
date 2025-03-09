@@ -106,6 +106,18 @@ Item('bandage', function(data, slot)
 	end)
 end)
 
+Item('ifaks', function(data, slot)
+	local maxHealth = GetEntityMaxHealth(cache.ped)
+	local health = GetEntityHealth(cache.ped)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			exports.wasabi_ambulance:clearPlayerInjury(false)
+			SetEntityHealth(cache.ped, math.min(maxHealth, math.floor(health + maxHealth / 8)))
+			lib.notify({ description = 'You feel better already' })
+		end
+	end)
+end)
+
 Item('armour', function(data, slot)
 	if GetPedArmour(cache.ped) < 100 then
 		ox_inventory:useItem(data, function(data)
@@ -148,18 +160,6 @@ Item('higharmor', function(data, slot)
 			end
 		end)
 	end
-end)
-
-Item('ifaks', function(data, slot)
-	local maxHealth = GetEntityMaxHealth(cache.ped)
-	local health = GetEntityHealth(cache.ped)
-	ox_inventory:useItem(data, function(data)
-		if data then
-			SetEntityHealth(cache.ped, math.min(maxHealth, math.floor(health + maxHealth / 8)))
-			lib.notify({ description = 'You feel better already' })
-			TriggerServerEvent('ox_inventory:removeItem', 'ifaks', 1, nil, slot)
-		end
-	end)
 end)
 
 client.parachute = false
