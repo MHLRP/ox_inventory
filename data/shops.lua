@@ -1682,11 +1682,12 @@ return {
 	},
 
 	Bar11 = {
-		name = 'Bar',
+		name = 'Hookah Bar',
 		inventory = {
-			{ name = 'beer',    price = 7,  currency = 'money' },
-			{ name = 'whiskey', price = 10, currency = 'money' },
-			{ name = 'vodka',   price = 12, currency = 'money' },
+			{ name = 'beer',       price = 8,  currency = 'money' },
+			{ name = 'whiskey',    price = 10, currency = 'money' },
+			{ name = 'vodka',      price = 12, currency = 'money' },
+			{ name = 'bubblewand', price = 20, currency = 'money' },
 		},
 		locations = {
 			vec3(267.1402, 3870.9988, 52.0337),
@@ -2100,6 +2101,21 @@ return {
 		},
 		targets = {
 			{ loc = vec3(-636.6, 233.79, 82.41), length = 0.6, width = 0.5, heading = 3.02, minZ = 28.2, maxZ = 28.6, distance = 2 }
+
+		}
+	},
+
+	pillbox_menu = {
+		society = "ambulance",
+		name = 'Pillbox Menu',
+		inventory = {
+			{ name = 'pillbox_menu', price = 5 },
+		},
+		locations = {
+			vec3(307.899, -588.074, 43.492)
+		},
+		targets = {
+			{ loc = vec3(307.899, -588.074, 43.492), length = 0.6, width = 0.5, heading = 75.096, minZ = 28.2, maxZ = 28.6, distance = 2 }
 
 		}
 	},

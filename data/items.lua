@@ -4519,6 +4519,14 @@ return {
 		description = "Uwu Cafe Menu.",
 	},
 
+	["pillbox_menu"] = {
+		label = "Pillbox Insurance Menu",
+		weight = 5,
+		stack = true,
+		close = true,
+		description = "Pillbox Menu.",
+	},
+
 	["castones_menu"] = {
 		label = "Castones Menu",
 		weight = 5,
@@ -17199,5 +17207,20 @@ return {
 		label = 'Portable Hookah',
 		weight = 150,
 		stack = true,
+	},
+
+	['bubblewand'] = {
+		label = 'Bubble Wand',
+		weight = 100,
+		description = 'Creates bubbles',
+		client = {
+			anim = { dict = 'anim@mp_player_intselfieblow_kiss', clip = 'exit' },
+			prop = { 
+				model = 'bubble',
+				pos = vec3(0.08, -0.01, 0.0),
+				rot = vec3(20.0, 90.0, 180.0),
+				bone = 26612
+			},
+		}
 	},
 }
