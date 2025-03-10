@@ -17227,4 +17227,12 @@ return {
 			},
 		}
 	},
+
+	['spyspikes'] = {
+		label = 'Spy Spikes',
+		weight = 1500,
+		stack = false,
+		close = true,
+		description = 'Vehicle spy spike strips',
+	},
 }

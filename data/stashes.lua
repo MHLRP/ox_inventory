@@ -858,6 +858,24 @@ return {
 		weight = 40000,
 	},
 	{
+		coords = vec3(5010.4482, -5758.9038, 28.8594),
+		target = {
+			loc = vec3(5010.4482, -5758.9038, 28.8594),
+			length = 1.2,
+			width = 5.6,
+			heading = 149.4581,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Storage'
+		},
+		name = 'greekmafia',
+		label = "Safe Storage",
+		owner = true,
+		slots = 40,
+		weight = 60000,
+		groups = { ['greekmafiafamily'] = 4 }
+	},
+	{
 		coords = vec3(2539.7991, 6148.2275, 167.1216),
 		target = {
 			loc = vec3(2539.7991, 6148.2275, 167.1216),
