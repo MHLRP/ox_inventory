@@ -253,6 +253,7 @@ return {
 			{ name = 'bespressocoffeecup',     price = 10,  currency = 'money' },
 			{ name = 'orange',                 price = 45,  currency = 'money' },
 			{ name = 'grape',                  price = 45,  currency = 'money' },
+			{ name = 'alfredo',                price = 20,  currency = 'money' },
 			{ name = 'banana',                 price = 20,  currency = 'money' },
 			{ name = 'apple',                  price = 45,  currency = 'money' },
 			{ name = 'lemon',                  price = 10,  currency = 'money' },
@@ -264,6 +265,7 @@ return {
 			{ name = 'mustard',                price = 10,  currency = 'money' },
 			{ name = 'ketchup',                price = 10,  currency = 'money' },
 			{ name = 'raw_meat',               price = 20,  currency = 'money' },
+			{ name = 'meatballs',              price = 20,  currency = 'money' },
 			{ name = 'veal_meat',              price = 20,  currency = 'money' },
 			{ name = 'raw_shrimp',             price = 20,  currency = 'money' },
 			{ name = 'burger-raw',             price = 20,  currency = 'money' },
@@ -500,8 +502,8 @@ return {
 			['ambulance'] = 7
 		},
 		inventory = {
-			{ name = 'weed_license', label = 'Weed License', price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'medical_license', label = 'Medical Bag',  price = 0, metadata = { description = "Property of Los Santos Medical Center" } },        -- Pretty self explanatory, price may be set to 'false' to make free
+			{ name = 'weed_license',    label = 'Weed License', price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'medical_license', label = 'Medical Bag',  price = 0, metadata = { description = "Property of Los Santos Medical Center" } }, -- Pretty self explanatory, price may be set to 'false' to make free
 		},
 		locations = {
 			vec3(327.521, -596.243, 42.222),
@@ -2506,6 +2508,7 @@ return {
 			{ name = 'extrato-baunilha',       price = 10,  currency = 'money' },
 			{ name = 'bhoney',                 price = 10,  currency = 'money' },
 			{ name = 'bice',                   price = 10,  currency = 'money' },
+			{ name = 'graham_cracker',         price = 10,  currency = 'money' },
 			{ name = 'bcaramelsyrup',          price = 10,  currency = 'money' },
 			{ name = 'tortillas',              price = 10,  currency = 'money' },
 			{ name = 'taco-tomato',            price = 40,  currency = 'money' },
@@ -2587,6 +2590,7 @@ return {
 			{ name = 'raspberries',            price = 10,  currency = 'money' },
 			{ name = 'raw-tofu',               price = 10,  currency = 'money' },
 			{ name = 'pasta',                  price = 10,  currency = 'money' },
+			{ name = 'egg',                    price = 30,  currency = 'money' },
 		},
 		targets = {
 			{
