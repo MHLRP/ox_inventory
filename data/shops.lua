@@ -1839,7 +1839,8 @@ return {
 			id = 120, colour = 0, scale = 0.6
 		},
 		inventory = {
-			{ name = 'skateboard', price = 50, currency = 'money' },
+			{ name = 'skateboard',  price = 50, currency = 'money' },
+			{ name = 'skateboard2', price = 50, currency = 'money' },
 		},
 		targets = {
 			{
