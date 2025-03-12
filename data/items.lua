@@ -5757,7 +5757,15 @@ return {
 		weight = 1,
 		stack = false,
 		close = true,
-		description = "A skateboard (Press G to get off)",
+		description = "A strawberry skateboard",
+	},
+
+	["skateboard2"] = {
+		label = "Skateboard",
+		weight = 1,
+		stack = false,
+		close = true,
+		description = "A chocolate skateboard",
 	},
 
 	["newsmic"] = {
