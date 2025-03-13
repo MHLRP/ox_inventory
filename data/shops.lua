@@ -2519,6 +2519,7 @@ return {
 			{ name = 'cheddar-cheese',         price = 10,  currency = 'money' },
 			{ name = 'ricotta',                price = 10,  currency = 'money' },
 			{ name = 'mozzarella',             price = 20,  currency = 'money' },
+			{ name = 'bread',                  price = 10,  currency = 'money' },
 			{ name = 'italianbread',           price = 10,  currency = 'money' },
 			{ name = 'italiansausage',         price = 20,  currency = 'money' },
 			{ name = 'caixa-amoras',           price = 10,  currency = 'money' },

@@ -821,7 +821,7 @@ return {
 		label = 'Kitchen Storage',
 		owner = false,
 		slots = 60,
-		weight = 70000,
+		weight = 100000,
 	},
 	{
 		coords = vec3(414.714, -1504.460, 32.813),
@@ -837,8 +837,8 @@ return {
 		name = 'castones2',
 		label = "Castone's Storage",
 		owner = false,
-		slots = 60,
-		weight = 70000,
+		slots = 80,
+		weight = 350000,
 	},
 	{
 		coords = vec3(413.4223, -1498.3284, 33.8073),
@@ -854,8 +854,8 @@ return {
 		name = 'castones3',
 		label = "Closet Storage",
 		owner = false,
-		slots = 40,
-		weight = 40000,
+		slots = 60,
+		weight = 200000,
 	},
 	{
 		coords = vec3(5010.4482, -5758.9038, 28.8594),
