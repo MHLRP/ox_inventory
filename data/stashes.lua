@@ -859,6 +859,23 @@ return {
 		weight = 200000,
 	},
 	{
+		coords = vec3(-1044.1195, -1392.9631, 4.9819),
+		target = {
+			loc = vec3(-1044.1195, -1392.9631, 4.9819),
+			length = 1.2,
+			width = 5.6,
+			heading = 160.7149,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Fridge'
+		},
+		name = 'firefridge',
+		label = "Storage Fridge",
+		owner = false,
+		slots = 40,
+		weight = 200000,
+	},
+	{
 		coords = vec3(5010.4482, -5758.9038, 28.8594),
 		target = {
 			loc = vec3(5010.4482, -5758.9038, 28.8594),

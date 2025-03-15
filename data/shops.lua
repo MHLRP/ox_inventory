@@ -513,6 +513,24 @@ return {
 		}
 	},
 
+	Medicine3 = {
+		name = 'Emergency Storage',
+		groups = {
+			['firefighter'] = 0,
+			['ambulance'] = 0
+		},
+		inventory = {
+			{ name = 'bandage',      label = 'Bandage',     price = 0, metadata = { description = "Property of Vespucci Firestation" } },
+			{ name = 'paramedicbag', label = 'Medical Bag', price = 0, metadata = { description = "Property of Vespucci Firestation" } },
+		},
+		locations = {
+			vec3(-1034.1595, -1425.2166, 4.9661),
+		},
+		targets = {
+			{ loc = vec3(-1034.1595, -1425.2166, 4.9661), length = 1.5, width = 3.0, heading = 164.0481, minZ = 41.5, maxZ = 43.0, distance = 3 },
+		}
+	},
+
 	Cyberdocs = {
 		name = 'Medicine Cabinet',
 		groups = {
@@ -2060,7 +2078,8 @@ return {
 		},
 		inventory = {
 			{ name = 'weapon_fireextinguisher', price = 0 },
-			{ name = 'watertank',               price = 0 },
+			{ name = 'kq_winch',                price = 0 },
+			{ name = 'kq_tow_rope',             price = 0 },
 			{ name = 'gps_tracker',             price = 0 },
 			{ name = 'radio',                   price = 0 },
 			{ name = 'radiocell',               price = 0 },
