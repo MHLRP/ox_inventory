@@ -6934,6 +6934,14 @@ return {
 		description = "A ticket to ride the metro",
 	},
 
+	["monorail_ticket"] = {
+		label = "Monorail Ticket",
+		weight = 1,
+		stack = true,
+		close = true,
+		description = "A ticket to ride the monorail",
+	},
+
 	["specialbadge"] = {
 		label = "Official Police Badge",
 		weight = 1,
