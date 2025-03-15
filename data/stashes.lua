@@ -815,13 +815,14 @@ return {
 			heading = 209.1391,
 			minZ = 29.49,
 			maxZ = 32.09,
-			label = 'Storage'
+			label = 'Bar Storage'
 		},
 		name = 'castones',
-		label = 'Kitchen Storage',
+		label = "Castone's Bar Storage",
 		owner = false,
 		slots = 60,
 		weight = 100000,
+		groups = { ['castones'] = 0 }
 	},
 	{
 		coords = vec3(414.714, -1504.460, 32.813),
