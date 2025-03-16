@@ -4505,6 +4505,14 @@ return {
 		}
 	},
 
+	["weldertool"] = {
+		label = "Welder Tool",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "A welder tool.",
+	},
+
 	['spray'] = {
 		label = 'Spray',
 		weight = 1,
@@ -6181,6 +6189,22 @@ return {
 		server = {
 			export = 'itemcollection.use'
 		}
+	},
+
+	["wheelclamp"] = {
+		label = "Wheel Clamp",
+		weight = 500,
+		stack = true,
+		close = true,
+		description = "Wheel Clamp.",
+	},
+
+	["clampkey"] = {
+		label = "Clamp Key",
+		weight = 40,
+		stack = true,
+		close = true,
+		description = "A clamp key.",
 	},
 
 	["briefcaselockpicker"] = {
