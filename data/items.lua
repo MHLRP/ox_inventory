@@ -2093,7 +2093,7 @@ return {
 	},
 
 	["meatballs"] = {
-		label = "Italian Meatballs",
+		label = "Meatballs",
 		weight = 10,
 		degrade = 60 * 36,
 		decay = true,
