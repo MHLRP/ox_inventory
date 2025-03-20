@@ -1823,7 +1823,7 @@ return {
 		inventory = {
 			{ name = 'miningdrill',      price = 15000, currency = 'money' },
 			{ name = 'mininglaser',      price = 30000, currency = 'money' },
-			{ name = 'campfire',         price = 400,   currency = 'money' },
+			{ name = 'firewood',         price = 400,   currency = 'money' },
 			{ name = 'tent',             price = 800,   currency = 'money' },
 			{ name = 'chair',            price = 200,   currency = 'money' },
 			{ name = 'drillbit',         price = 100,   currency = 'money' },
