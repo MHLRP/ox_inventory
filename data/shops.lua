@@ -506,8 +506,9 @@ return {
 			['ambulance'] = 7
 		},
 		inventory = {
-			{ name = 'weed_license',    label = 'Weed License', price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'medical_license', label = 'Medical Bag',  price = 0, metadata = { description = "Property of Los Santos Medical Center" } }, -- Pretty self explanatory, price may be set to 'false' to make free
+			{ name = 'weed_license',        label = 'Weed License',        price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'medical_license',     label = 'Medical Bag',         price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'cybernetics_license', label = 'Cybernetics License', price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 		},
 		locations = {
 			vec3(327.521, -596.243, 42.222),
@@ -2464,7 +2465,7 @@ return {
 			{ name = 'italiansausage',         price = 20,  currency = 'money' },
 			{ name = 'caixa-amoras',           price = 10,  currency = 'money' },
 			{ name = 'chocolate',              price = 10,  currency = 'money' },
-			{ name = 'butter',                 price = 10,   currency = 'money' },
+			{ name = 'butter',                 price = 10,  currency = 'money' },
 			{ name = 'fishnchips_chocolate',   price = 20,  currency = 'money' },
 			{ name = 'carbonated-water',       price = 10,  currency = 'money' },
 			{ name = 'leancup',                price = 20,  currency = 'money' },

@@ -16014,6 +16014,14 @@ return {
 		description = "Killer Cyber Blades",
 	},
 
+	["cybernetics_license"] = {
+		label = "Pillbox Cybernetics ",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "Legal Cybernetics ID",
+	},
+
 	["coin"] = {
 		label = "Coin",
 		weight = 1,
