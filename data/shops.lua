@@ -536,43 +536,46 @@ return {
 		}
 	},
 
-	Cyberdocs = {
+	Ripperdoc = {
 		name = 'Medicine Cabinet',
 		groups = {
-			['cyberdoc'] = 0
+			['ripperdoc'] = 0
 		},
 		blip = {
 			id = 403, colour = 69, scale = 0.8
 		},
 		inventory = {
-			{ name = 'prescription_pad',        label = 'Prescription Pad', price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'paramedicbag',            label = 'Medical Bag',      price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } }, -- Pretty self explanatory, price may be set to 'false' to make free
-			{ name = 'medikit',                 label = 'First-Aid Kit',    price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'morphine10',              label = 'Morphine 10MG',    price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'iak_wheelchair',          label = 'Wheelchair',       price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'peptobismol',             label = 'Peptobismol',      price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'loperamide',              label = 'Loperamide',       price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'aspirin',                 label = 'Aspirin',          price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'ibuprofen',               label = 'Ibuprofen',        price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'dramamine',               label = 'Dramamine',        price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'covidvaccine',            label = 'Covid Vaccine',    price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'needle',                  label = 'Needle',           price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'painkillers',             label = 'Pain Killers',     price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'bandage',                 label = 'Bandage',          price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'bodycam',                 label = 'EMS Body Cam',     price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'diving_fill',             label = 'Diving Fill',      price = 0,                                                                                                                                 metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'radio',                   price = 0,                  metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'weapon_flare',            price = 0,                  metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'radiocell',               price = 0,                  metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'WEAPON_STUNGUN',          price = 0,                  metadata = { registered = true, description = "Property of Los Santos Medical Center", tint = 3, weapontint = "EMS Tint", serial = 'EMS' } },
+			{ name = 'cybereye',                label = 'Cybereye',         price = 0 },
+			{ name = 'leftcyberleg',            label = 'Left Cyberleg',    price = 0 },
+			{ name = 'rightcyberleg',           label = 'Right Cyberleg',   price = 0 },
+			{ name = 'mantisblades',            label = 'Mantis Blades',    price = 0 },
+			{ name = 'prescription_pad',        label = 'Prescription Pad', price = 0, },
+			{ name = 'paramedicbag',            label = 'Medical Bag',      price = 0, },
+			{ name = 'medikit',                 label = 'First-Aid Kit',    price = 0, },
+			{ name = 'morphine10',              label = 'Morphine 10MG',    price = 0, },
+			{ name = 'iak_wheelchair',          label = 'Wheelchair',       price = 0, },
+			{ name = 'peptobismol',             label = 'Peptobismol',      price = 0, },
+			{ name = 'loperamide',              label = 'Loperamide',       price = 0, },
+			{ name = 'aspirin',                 label = 'Aspirin',          price = 0, },
+			{ name = 'ibuprofen',               label = 'Ibuprofen',        price = 0, },
+			{ name = 'dramamine',               label = 'Dramamine',        price = 0, },
+			{ name = 'covidvaccine',            label = 'Covid Vaccine',    price = 0, },
+			{ name = 'needle',                  label = 'Needle',           price = 0, },
+			{ name = 'painkillers',             label = 'Pain Killers',     price = 0, },
+			{ name = 'bandage',                 label = 'Bandage',          price = 0, },
+			{ name = 'bodycam',                 label = 'EMS Body Cam',     price = 0, },
+			{ name = 'diving_fill',             label = 'Diving Fill',      price = 0, },
+			{ name = 'radio',                   price = 0, },
+			{ name = 'weapon_flare',            price = 0, },
+			{ name = 'radiocell',               price = 0, },
 			{ name = 'WEAPON_FLASHLIGHT',       price = 0,                  metadata = { registered = true, description = "Property of Los Santos Medical Center", serial = 'EMS' } },
 			{ name = 'weapon_fireextinguisher', price = 0,                  metadata = { description = "Property of Los Santos Medical Center" } },
 		},
 		locations = {
-			vec3(330.34, -599.69, 42.79),
+			vec3(880.326, -2231.510, 29.989),
 		},
 		targets = {
-			{ loc = vec3(330.34, -599.69, 42.79), length = 1.5, width = 3.0, heading = 270.0, minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(880.326, -2231.510, 29.989), length = 1.5, width = 3.0, heading = 172.0, minZ = 41.5, maxZ = 43.0, distance = 3 },
 		}
 	},
 
@@ -1641,19 +1644,19 @@ return {
 	Bar11 = {
 		name = 'Hookah Bar',
 		inventory = {
-			{ name = 'beer',       price = 8,  currency = 'money' },
-			{ name = 'whiskey',    price = 10, currency = 'money' },
-			{ name = 'vodka',      price = 12, currency = 'money' },
-			{ name = 'bubblewand', price = 20, currency = 'money' },
-			{ name = 'oceanbreeze', price = 80, currency = 'money' },
-			{ name = 'lavenderlush', price = 80, currency = 'money' },
-			{ name = 'berryblaze', price = 80, currency = 'money' },
+			{ name = 'beer',           price = 8,  currency = 'money' },
+			{ name = 'whiskey',        price = 10, currency = 'money' },
+			{ name = 'vodka',          price = 12, currency = 'money' },
+			{ name = 'bubblewand',     price = 20, currency = 'money' },
+			{ name = 'oceanbreeze',    price = 80, currency = 'money' },
+			{ name = 'lavenderlush',   price = 80, currency = 'money' },
+			{ name = 'berryblaze',     price = 80, currency = 'money' },
 			{ name = 'citrussunshine', price = 80, currency = 'money' },
-			{ name = 'limee', price = 80, currency = 'money' },
-			{ name = 'foilpoked', price = 25, currency = 'money' },
-			{ name = 'hose', price = 20, currency = 'money' },
-			{ name = 'coals', price = 20, currency = 'money' },
-			{ name = 'hookah', price = 20, currency = 'money' },
+			{ name = 'limee',          price = 80, currency = 'money' },
+			{ name = 'foilpoked',      price = 25, currency = 'money' },
+			{ name = 'hose',           price = 20, currency = 'money' },
+			{ name = 'coals',          price = 20, currency = 'money' },
+			{ name = 'hookah',         price = 20, currency = 'money' },
 		},
 		locations = {
 			vec3(267.1402, 3870.9988, 52.0337),
