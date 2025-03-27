@@ -264,6 +264,7 @@ return {
 			{ name = 'battermix',              price = 10,  currency = 'money' },
 			{ name = 'yeast',                  price = 40,  currency = 'money' },
 			{ name = 'burger-bun',             price = 10,  currency = 'money' },
+			{ name = 'hotdog-bun',             price = 10,  currency = 'money' },
 			{ name = 'water',                  price = 10,  currency = 'money' },
 			{ name = 'marinara',               price = 10,  currency = 'money' },
 			{ name = 'mustard',                price = 10,  currency = 'money' },
@@ -2389,6 +2390,7 @@ return {
 		name = 'Grocery Store',
 		inventory = {
 			{ name = 'burger-bun', price = 10, currency = 'money' },
+			{ name = 'hotdog-bun', price = 10, currency = 'money' },
 		},
 		locations = {
 			vec3(2707.1140, 3359.1091, 57.1163)
@@ -2496,6 +2498,7 @@ return {
 			{ name = 'apple',                  price = 45,  currency = 'money' },
 			{ name = 'lemon',                  price = 10,  currency = 'money' },
 			{ name = 'burger-bun',             price = 10,  currency = 'money' },
+			{ name = 'hotdog-bun',             price = 10,  currency = 'money' },
 			{ name = 'battermix',              price = 10,  currency = 'money' },
 			{ name = 'yeast',                  price = 40,  currency = 'money' },
 			{ name = 'water',                  price = 10,  currency = 'money' },

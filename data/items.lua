@@ -12414,6 +12414,19 @@ return {
 		}
 	},
 
+	["hotdog-bun"] = {
+		label = "Hotdog Bun",
+		weight = 1,
+		degrade = 60 * 36,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "An Ingredient",
+		client = {
+			image = "hotdog-bun.png",
+		}
+	},
+
 	["burger-mshake"] = {
 		label = "Milkshake",
 		weight = 200,
