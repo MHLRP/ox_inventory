@@ -1654,7 +1654,7 @@ return {
 			{ name = 'foilpoked',      price = 25, currency = 'money' },
 			{ name = 'hose',           price = 20, currency = 'money' },
 			{ name = 'coals',          price = 20, currency = 'money' },
-			{ name = 'hookah',         price = 20, currency = 'money' },
+			{ name = 'hookah',         price = 200, currency = 'money' },
 		},
 		locations = {
 			vec3(267.1402, 3870.9988, 52.0337),
