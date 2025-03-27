@@ -1232,9 +1232,6 @@ return {
 
 	Hookies = {
 		name = 'Hookies',
-		blip = {
-			id = 105, colour = 0, scale = 0.6
-		},
 		inventory = {
 			{ name = 'hotdog',        price = 20, currency = 'money' },
 			{ name = 'mustard',       price = 10, currency = 'money' },

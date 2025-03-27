@@ -6555,6 +6555,41 @@ return {
 		description = "You can use this!",
 	},
 
+	['bbq1'] = {
+		label = 'BBQ Pit',
+		weight = 200,
+		stack = false,
+		description = 'A Sturdy BBQ Pit.',
+	},
+	
+	['bbq2'] = {
+		label = 'BBQ Pit',
+		weight = 200,
+		stack = false,
+		description = 'A Sturdy BBQ Pit.',
+	},
+	
+	['bbq3'] = {
+		label = 'BBQ Pit',
+		weight = 200,
+		stack = false,
+		description = 'A Sturdy BBQ Pit.',
+	},
+	
+	['bbq4'] = {
+		label = 'BBQ Pit',
+		weight = 200,
+		stack = false,
+		description = 'A Sturdy BBQ Pit.',
+	},
+	
+	['bbq5'] = {
+		label = 'BBQ Pit',
+		weight = 200,
+		stack = false,
+		description = 'A Sturdy BBQ Pit.',
+	},	
+
 	['chair'] = {
 		label = 'Chair',
 		weight = 250,
