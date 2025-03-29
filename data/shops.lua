@@ -542,36 +542,50 @@ return {
 		groups = {
 			['ripperdoc'] = 0
 		},
-		blip = {
-			id = 403, colour = 69, scale = 0.8
-		},
 		inventory = {
-			{ name = 'cybereye',                label = 'Cybereye',         price = 0 },
-			{ name = 'leftcyberleg',            label = 'Left Cyberleg',    price = 0 },
-			{ name = 'rightcyberleg',           label = 'Right Cyberleg',   price = 0 },
-			{ name = 'mantisblades',            label = 'Mantis Blades',    price = 0 },
-			{ name = 'prescription_pad',        label = 'Prescription Pad', price = 0, },
-			{ name = 'paramedicbag',            label = 'Medical Bag',      price = 0, },
-			{ name = 'medikit',                 label = 'First-Aid Kit',    price = 0, },
-			{ name = 'morphine10',              label = 'Morphine 10MG',    price = 0, },
-			{ name = 'iak_wheelchair',          label = 'Wheelchair',       price = 0, },
-			{ name = 'peptobismol',             label = 'Peptobismol',      price = 0, },
-			{ name = 'loperamide',              label = 'Loperamide',       price = 0, },
-			{ name = 'aspirin',                 label = 'Aspirin',          price = 0, },
-			{ name = 'ibuprofen',               label = 'Ibuprofen',        price = 0, },
-			{ name = 'dramamine',               label = 'Dramamine',        price = 0, },
-			{ name = 'covidvaccine',            label = 'Covid Vaccine',    price = 0, },
-			{ name = 'needle',                  label = 'Needle',           price = 0, },
-			{ name = 'painkillers',             label = 'Pain Killers',     price = 0, },
-			{ name = 'bandage',                 label = 'Bandage',          price = 0, },
-			{ name = 'weapon_flare',            price = 0, },
-			{ name = 'weapon_fireextinguisher', price = 0,                  metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'prescription_pad',        label = 'Prescription Pad',  price = 0, },
+			{ name = 'paramedicbag',            label = 'Medical Bag',       price = 0, },
+			{ name = 'medikit',                 label = 'First-Aid Kit',     price = 0, },
+			{ name = 'defib',                   label = 'Defib',             price = 0, },
+			{ name = 'morphine10',              label = 'Morphine 10MG',     price = 0, },
+			{ name = 'iak_wheelchair',          label = 'Wheelchair',        price = 0, },
+			{ name = 'peptobismol',             label = 'Peptobismol',       price = 0, },
+			{ name = 'loperamide',              label = 'Loperamide',        price = 0, },
+			{ name = 'aspirin',                 label = 'Aspirin',           price = 0, },
+			{ name = 'ibuprofen',               label = 'Ibuprofen',         price = 0, },
+			{ name = 'dramamine',               label = 'Dramamine',         price = 0, },
+			{ name = 'covidvaccine',            label = 'Covid Vaccine',     price = 0, },
+			{ name = 'needle',                  label = 'Needle',            price = 0, },
+			{ name = 'painkillers',             label = 'Pain Killers',      price = 0, },
+			{ name = 'bandage',                 label = 'Bandage',           price = 0, },
+			{ name = 'weapon_flare',            label = 'Flare',             price = 0, },
+			{ name = 'weapon_fireextinguisher', label = 'Fire Extinguisher', price = 0, },
 		},
 		locations = {
 			vec3(880.326, -2231.510, 29.989),
 		},
 		targets = {
 			{ loc = vec3(880.326, -2231.510, 29.989), length = 1.5, width = 3.0, heading = 172.0, minZ = 41.5, maxZ = 43.0, distance = 3 },
+		}
+	},
+
+	Ripperdoc2 = {
+		name = 'Medicine Cabinet',
+		groups = {
+			['ripperdoc'] = 2
+		},
+		inventory = {
+			{ name = 'cybereye',      label = 'Cybereye',       price = 0 },
+			{ name = 'leftcyberleg',  label = 'Left Cyberleg',  price = 0 },
+			{ name = 'rightcyberleg', label = 'Right Cyberleg', price = 0 },
+			{ name = 'mantisblades',  label = 'Mantis Blades',  price = 0 },
+			{ name = 'centralchip',   label = 'Central Chip',   price = 0 },
+		},
+		locations = {
+			vec3(881.282, -2225.521, 30.126),
+		},
+		targets = {
+			{ loc = vec3(881.282, -2225.521, 30.126), length = 1.5, width = 3.0, heading = 172.0, minZ = 41.5, maxZ = 43.0, distance = 3 },
 		}
 	},
 
@@ -1637,18 +1651,18 @@ return {
 	Bar11 = {
 		name = 'Hookah Bar',
 		inventory = {
-			{ name = 'beer',           price = 8,  currency = 'money' },
-			{ name = 'whiskey',        price = 10, currency = 'money' },
-			{ name = 'vodka',          price = 12, currency = 'money' },
-			{ name = 'bubblewand',     price = 20, currency = 'money' },
-			{ name = 'oceanbreeze',    price = 80, currency = 'money' },
-			{ name = 'lavenderlush',   price = 80, currency = 'money' },
-			{ name = 'berryblaze',     price = 80, currency = 'money' },
-			{ name = 'citrussunshine', price = 80, currency = 'money' },
-			{ name = 'limee',          price = 80, currency = 'money' },
-			{ name = 'foilpoked',      price = 25, currency = 'money' },
-			{ name = 'hose',           price = 20, currency = 'money' },
-			{ name = 'coals',          price = 20, currency = 'money' },
+			{ name = 'beer',           price = 8,   currency = 'money' },
+			{ name = 'whiskey',        price = 10,  currency = 'money' },
+			{ name = 'vodka',          price = 12,  currency = 'money' },
+			{ name = 'bubblewand',     price = 20,  currency = 'money' },
+			{ name = 'oceanbreeze',    price = 80,  currency = 'money' },
+			{ name = 'lavenderlush',   price = 80,  currency = 'money' },
+			{ name = 'berryblaze',     price = 80,  currency = 'money' },
+			{ name = 'citrussunshine', price = 80,  currency = 'money' },
+			{ name = 'limee',          price = 80,  currency = 'money' },
+			{ name = 'foilpoked',      price = 25,  currency = 'money' },
+			{ name = 'hose',           price = 20,  currency = 'money' },
+			{ name = 'coals',          price = 20,  currency = 'money' },
 			{ name = 'hookah',         price = 200, currency = 'money' },
 		},
 		locations = {
@@ -1850,10 +1864,10 @@ return {
 			{ name = 'hottub2stairs',    price = 20000, currency = 'money' },
 			{ name = 'hottub3stairs',    price = 20000, currency = 'money' },
 			{ name = 'bbq1',             price = 2000,  currency = 'money' },
-			{ name = 'bbq2',             price = 800,  currency = 'money' },
+			{ name = 'bbq2',             price = 800,   currency = 'money' },
 			{ name = 'bbq3',             price = 1400,  currency = 'money' },
-			{ name = 'bbq4',             price = 1800,   currency = 'money' },
-			{ name = 'bbq5',             price = 2600,   currency = 'money' },
+			{ name = 'bbq4',             price = 1800,  currency = 'money' },
+			{ name = 'bbq5',             price = 2600,  currency = 'money' },
 			{ name = 'sprayremover',     price = 600,   currency = 'money' },
 			{ name = 'wallet',           price = 500,   currency = 'money' },
 			{ name = 'gasmask',          price = 8000,  currency = 'money' },
