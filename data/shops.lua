@@ -564,12 +564,7 @@ return {
 			{ name = 'needle',                  label = 'Needle',           price = 0, },
 			{ name = 'painkillers',             label = 'Pain Killers',     price = 0, },
 			{ name = 'bandage',                 label = 'Bandage',          price = 0, },
-			{ name = 'bodycam',                 label = 'EMS Body Cam',     price = 0, },
-			{ name = 'diving_fill',             label = 'Diving Fill',      price = 0, },
-			{ name = 'radio',                   price = 0, },
 			{ name = 'weapon_flare',            price = 0, },
-			{ name = 'radiocell',               price = 0, },
-			{ name = 'WEAPON_FLASHLIGHT',       price = 0,                  metadata = { registered = true, description = "Property of Los Santos Medical Center", serial = 'EMS' } },
 			{ name = 'weapon_fireextinguisher', price = 0,                  metadata = { description = "Property of Los Santos Medical Center" } },
 		},
 		locations = {
