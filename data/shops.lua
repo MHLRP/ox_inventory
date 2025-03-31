@@ -1734,12 +1734,19 @@ return {
 		-- 	id = 606, colour = 0, scale = 0.6
 		-- },
 		inventory = {
-			{ name = 'radio',      price = 100,  currency = 'money' },
-			{ name = 'laptop',     price = 1000, currency = 'money' },
-			{ name = 'keeptablet', price = 1000, currency = 'money' },
-			{ name = 'fitbit',     price = 600,  currency = 'money' },
-			{ name = 'powerbank',  price = 150,  currency = 'money' },
-			{ name = 'phone',      price = 800,  currency = 'money' },
+			{ name = 'radio',      price = 100,   currency = 'money' },
+			{ name = 'laptop',     price = 1000,  currency = 'money' },
+			{ name = 'keeptablet', price = 1000,  currency = 'money' },
+			{ name = 'fitbit',     price = 600,   currency = 'money' },
+			{ name = 'powerbank',  price = 150,   currency = 'money' },
+			{ name = 'phone',      price = 800,   currency = 'money' },
+			{ name = 'shitgpu',    price = 1200,  currency = 'money' },
+			{ name = '1050gpu',    price = 1800,  currency = 'money' },
+			{ name = '1060gpu',    price = 2600,  currency = 'money' },
+			{ name = '1080gpu',    price = 3200,  currency = 'money' },
+			{ name = '2080gpu',    price = 4500,  currency = 'money' },
+			{ name = '3060gpu',    price = 7500,  currency = 'money' },
+			{ name = '4090gpu',    price = 10000, currency = 'money' },
 		},
 		targets = {
 			{
@@ -1842,6 +1849,7 @@ return {
 			id = 566, colour = 0, scale = 0.6
 		},
 		inventory = {
+			{ name = 'thermalpaste',     price = 100,   currency = 'money' },
 			{ name = 'miningdrill',      price = 15000, currency = 'money' },
 			{ name = 'mininglaser',      price = 30000, currency = 'money' },
 			{ name = 'firewood',         price = 400,   currency = 'money' },
