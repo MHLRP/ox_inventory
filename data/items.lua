@@ -17483,4 +17483,61 @@ return {
 		close = true,
 		description = 'Vehicle spy spike strips',
 	},
+
+	["shitgpu"] = {
+		label = "A Trash GPU",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "A relic from the past. Barely runs Solitaire, but hey, it's still a GPU... technically."
+	},
+	["1050gpu"] = {
+		label = "GTX 1050",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "An entry-level card that gets the job done. Just don't expect high frame rates."
+	},
+	["1060gpu"] = {
+		label = "GTX 1060",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "A solid mid-range card. It can handle most games... on medium settings."
+	},
+	["1080gpu"] = {
+		label = "GTX 1080",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "A powerful card in its prime. Three fans mean it's fast, right?"
+	},
+	["2080gpu"] = {
+		label = "RTX 2080",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "Ray tracing, DLSS, and a sleek design. The future of gaming—well, the past future."
+	},
+	["3060gpu"] = {
+		label = "RTX 3060",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "Expensive for what it is, but still a great card. Welcome to the RTX era!"
+	},
+	["4090gpu"] = {
+		label = "RTX 4090",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "An absolute unit of a GPU. If your power supply survives, so will your frame rates."
+	},
+	["thermalpaste"] = {
+		label = "Thermal Paste",
+		weight = 20,
+		stack = false,
+		close = true,
+		description = "Essential for keeping your CPU cool. Don't forget to apply it!"
+	}
 }
