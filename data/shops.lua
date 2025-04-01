@@ -1160,6 +1160,28 @@ return {
 		}
 	},
 
+
+	SmokeSnacks = {
+		name = 'Smoke Shop Snack Bar',
+		inventory = {
+			{ name = 'candy_zebra',     price = 10, currency = 'money' },
+			{ name = 'chips_cheese',    price = 12, currency = 'money' },
+			{ name = 'chips_paprika',   price = 12, currency = 'money' },
+			{ name = 'chips_ribs',      price = 12, currency = 'money' },
+			{ name = 'chips_salt',      price = 12, currency = 'money' },
+			{ name = 'chips_supersalt', price = 12, currency = 'money' },
+			{ name = 'chips_habanero',  price = 12, currency = 'money' },
+			{ name = 'chips_cheese',    price = 12, currency = 'money' },
+			{ name = 'chips_paprika',   price = 12, currency = 'money' },
+		},
+		locations = {
+			vec3(187.163, -247.730, 54.240)
+		},
+		targets = { 
+			{ loc = vec3(187.163, -247.730, 54.240), length = 0.6, width = 0.5, heading = 70.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
+		}
+	},
+
 	Bennys2 = {
 		name = 'Auto Sunset Shop',
 		inventory = {
