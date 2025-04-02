@@ -1293,35 +1293,35 @@ return {
 		}
 	},
 
-	Chilliad = {
-		name = 'Chilliad Desert',
-		inventory = {
-			{ name = 'cake',                price = 20, currency = 'money' },
-			{ name = 'birthdaycake',        price = 10, currency = 'money' },
-			{ name = 'strawberrycake',      price = 10, currency = 'money' },
-			{ name = 'lollipop1',           price = 25, currency = 'money' },
-			{ name = 'icecream_chr',        price = 20, currency = 'money' },
-			{ name = 'icecream_chc',        price = 25, currency = 'money' },
-			{ name = 'icecream_lmn',        price = 25, currency = 'money' },
-			{ name = 'icecream_pso',        price = 50, currency = 'money' },
-			{ name = 'icecream_rpy',        price = 15, currency = 'money' },
-			{ name = 'icecream_ckd',        price = 50, currency = 'money' },
-			{ name = 'icecream_sby',        price = 15, currency = 'money' },
-			{ name = 'icecream_vna',        price = 25, currency = 'money' },
-			{ name = 'pinkcottoncandy',     price = 20, currency = 'money' },
-			{ name = 'bluecottoncandy',     price = 20, currency = 'money' },
-			{ name = 'milkshake-morango',   price = 50, currency = 'money' },
-			{ name = 'milkshake-chocolate', price = 50, currency = 'money' },
-		},
-		targets = {
-			{
-				ped = `ig_chef`,
-				scenario = 'WORLD_HUMAN_STAND_MOBILE',
-				loc = vec3(473.2962, 5382.8916, 670.8709),
-				heading = 181.1142,
-			}
-		}
-	},
+	-- Chilliad = {
+	-- 	name = 'Chilliad Desert',
+	-- 	inventory = {
+	-- 		{ name = 'cake',                price = 20, currency = 'money' },
+	-- 		{ name = 'birthdaycake',        price = 10, currency = 'money' },
+	-- 		{ name = 'strawberrycake',      price = 10, currency = 'money' },
+	-- 		{ name = 'lollipop1',           price = 25, currency = 'money' },
+	-- 		{ name = 'icecream_chr',        price = 20, currency = 'money' },
+	-- 		{ name = 'icecream_chc',        price = 25, currency = 'money' },
+	-- 		{ name = 'icecream_lmn',        price = 25, currency = 'money' },
+	-- 		{ name = 'icecream_pso',        price = 50, currency = 'money' },
+	-- 		{ name = 'icecream_rpy',        price = 15, currency = 'money' },
+	-- 		{ name = 'icecream_ckd',        price = 50, currency = 'money' },
+	-- 		{ name = 'icecream_sby',        price = 15, currency = 'money' },
+	-- 		{ name = 'icecream_vna',        price = 25, currency = 'money' },
+	-- 		{ name = 'pinkcottoncandy',     price = 20, currency = 'money' },
+	-- 		{ name = 'bluecottoncandy',     price = 20, currency = 'money' },
+	-- 		{ name = 'milkshake-morango',   price = 50, currency = 'money' },
+	-- 		{ name = 'milkshake-chocolate', price = 50, currency = 'money' },
+	-- 	},
+	-- 	targets = {
+	-- 		{
+	-- 			ped = `ig_chef`,
+	-- 			scenario = 'WORLD_HUMAN_STAND_MOBILE',
+	-- 			loc = vec3(473.2962, 5382.8916, 670.8709),
+	-- 			heading = 181.1142,
+	-- 		}
+	-- 	}
+	-- },
 
 	Coffee = {
 		name = 'Coffee Shop',
@@ -1384,7 +1384,7 @@ return {
 	},---]]
 
 	Pizza = {
-		name = 'Pizza',
+		name = 'Pizza Shop',
 		inventory = {
 			{ name = 'pizza_pep',     price = 20, currency = 'money' },
 			{ name = 'pizza_chs',     price = 20, currency = 'money' },
@@ -1401,10 +1401,10 @@ return {
 		},
 		targets = {
 			{
-				ped = `u_m_m_partytarget`,
+				ped = `ig_chef`,
 				scenario = 'WORLD_HUMAN_STAND_MOBILE',
-				loc = vec3(-570.1756, -411.5357, 33.9170),
-				heading = 356.9491,
+				loc = vec3(473.2962, 5382.8916, 670.8709),
+				heading = 181.1142,
 			}
 		}
 	},
