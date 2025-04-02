@@ -2160,6 +2160,19 @@ return {
 		}
 	},
 
+	byteapex = {
+		name = 'Niche Byte Apex Menu',
+		inventory = {
+			{ name = 'byte_menu', price = 0 },
+		},
+		locations = {
+			vec3(275.22, 136.76, 104.5)
+		},
+		targets = {
+			{ loc = vec3(275.22, 136.76, 104.5), length = 0.6, width = 0.5, heading = 161.59, minZ = 28.2, maxZ = 28.6, distance = 2 }
+		}
+	},
+
 	tacomenu = {
 		name = 'Taco Menu',
 		groups = {
