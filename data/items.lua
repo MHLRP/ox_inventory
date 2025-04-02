@@ -18009,6 +18009,7 @@ return {
 
 	["vanillacupcake"] = {
 		label = "Vanilla Cupcake",
+		degrade = 60 * 72,
 		weight = 200,
 		stack = true,
 		close = true,
@@ -18057,6 +18058,7 @@ return {
 
 	["custarddoughnut"] = {
 		label = "Custard Doughnut",
+		degrade = 60 * 72,
 		weight = 200,
 		stack = true,
 		close = true,

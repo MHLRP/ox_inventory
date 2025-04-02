@@ -1177,7 +1177,7 @@ return {
 		locations = {
 			vec3(187.163, -247.730, 54.240)
 		},
-		targets = { 
+		targets = {
 			{ loc = vec3(187.163, -247.730, 54.240), length = 0.6, width = 0.5, heading = 70.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
 		}
 	},
@@ -2512,6 +2512,16 @@ return {
 		name = 'Grocery Store',
 		inventory = {
 			{ name = 'flour',                  price = 10,  currency = 'money' },
+			{ name = 'softscoopmix',           price = 12,  currency = 'money' },
+			{ name = 'smoothiemix',            price = 12,  currency = 'money' },
+			{ name = 'vanilla',                price = 10,  currency = 'money' },
+			{ name = 'mint',                   price = 8,   currency = 'money' },
+			{ name = 'pistachio',              price = 6,   currency = 'money' },
+			{ name = 'butterscotch',           price = 10,  currency = 'money' },
+			{ name = 'saltedcaramel',          price = 10,  currency = 'money' },
+			{ name = 'bubblegum',              price = 10,  currency = 'money' },
+			{ name = 'cookiedough',            price = 10,  currency = 'money' },
+			{ name = 'toffee',                 price = 10,  currency = 'money' },
 			{ name = 'bcoffeebeans',           price = 10,  currency = 'money' },
 			{ name = 'bcream',                 price = 10,  currency = 'money' },
 			{ name = 'bstrawberry',            price = 10,  currency = 'money' },
