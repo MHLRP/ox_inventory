@@ -17004,6 +17004,7 @@ return {
 
 	["cupoftea"] = {
 		label = "Tea",
+		degrade = 60 * 72,
 		weight = 200,
 		stack = true,
 		close = true,
@@ -17548,36 +17549,64 @@ return {
 		close = true,
 		description = "Essential for keeping your CPU cool. Don't forget to apply it!"
 	},
+
 	["saltedcaramelsmoothie"] = {
 		label = "Salted Caramel Smoothie",
+		degrade = 60 * 72,
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "Salted Caramel Smoothie",
 		client = {
-			image = "saltedcaramelsmoothie.png",
+			status = { thirst = 40 },
+			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+			prop = {
+				model = 'brum_shake_lemon',
+				pos = vec3(0.16, -0.02, -0.06),
+				rot = vec3(270.00, 0.00, 0.00),
+				bone = 57005
+			},
+			usetime = 12000,
 		}
 	},
 
 	["pistachiosmoothie"] = {
 		label = "Pistachio Smoothie",
+		degrade = 60 * 72,
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "Pistachio Smoothie",
 		client = {
-			image = "pistachiosmoothie.png",
+			status = { thirst = 40 },
+			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+			prop = {
+				model = 'brum_shake_mint',
+				pos = vec3(0.16, -0.02, -0.06),
+				rot = vec3(270.00, 0.00, 0.00),
+				bone = 57005
+			},
+			usetime = 12000,
 		}
 	},
 
 	["toffeesmoothie"] = {
 		label = "Toffee Smoothie",
+		degrade = 60 * 72,
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "Toffee Smoothie",
 		client = {
-			image = "toffeesmoothie.png",
+			status = { thirst = 40 },
+			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+			prop = {
+				model = 'brum_shake_coffee',
+				pos = vec3(0.16, -0.02, -0.06),
+				rot = vec3(270.00, 0.00, 0.00),
+				bone = 57005
+			},
+			usetime = 12000,
 		}
 	},
 
@@ -17616,45 +17645,81 @@ return {
 
 	["minticecream"] = {
 		label = "Mint Ice Cream",
+		degrade = 60 * 72,
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "Mint Ice Cream",
 		client = {
-			image = "minticecream.png",
+			status = { thirst = 40 },
+			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+			prop = {
+				model = 'bzzz_icecream_stracciatella',
+				pos = vec3(0.16, -0.02, -0.06),
+				rot = vec3(270.00, 0.00, 0.00),
+				bone = 57005
+			},
+			usetime = 12000,
 		}
 	},
 
 	["cookiedoughsmoothie"] = {
 		label = "Cookie Dough Smoothie",
+		degrade = 60 * 72,
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "Cookie Dough Smoothie",
 		client = {
-			image = "cookiedoughsmoothie.png",
+			status = { thirst = 40 },
+			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+			prop = {
+				model = 'bzzz_icecream_chocolate',
+				pos = vec3(0.16, -0.02, -0.06),
+				rot = vec3(270.00, 0.00, 0.00),
+				bone = 57005
+			},
+			usetime = 12000,
 		}
 	},
 
 	["bubblegumicecream"] = {
 		label = "Bubblegum Ice Cream",
+		degrade = 60 * 72,
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "Bubblegum Ice Cream",
 		client = {
-			image = "bubblegumicecream.png",
+			status = { hunger = 20 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'bzzz_icecream_cherry',
+				bone = 18905,
+				pos = vec3(0.14, 0.03, 0.01),
+				rot = vec3(85.0, 70.0, -203.0)
+			},
+			usetime = 7500,
 		}
 	},
 
 	["mintsmoothie"] = {
 		label = "Mint Smoothie",
+		degrade = 60 * 72,
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "Mint Smoothie",
 		client = {
-			image = "mintsmoothie.png",
+			status = { thirst = 40 },
+			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+			prop = {
+				model = 'brum_shake_mint',
+				pos = vec3(0.16, -0.02, -0.06),
+				rot = vec3(270.00, 0.00, 0.00),
+				bone = 57005
+			},
+			usetime = 12000,
 		}
 	},
 
@@ -17671,6 +17736,7 @@ return {
 
 	["bubblegumsmoothie"] = {
 		label = "Bubblegum Smoothie",
+		degrade = 60 * 72,
 		weight = 200,
 		stack = true,
 		close = true,
@@ -17682,6 +17748,7 @@ return {
 
 	["butterscotchsmoothie"] = {
 		label = "Butter Scotch Smoothie",
+		degrade = 60 * 72,
 		weight = 200,
 		stack = true,
 		close = true,
@@ -17737,12 +17804,21 @@ return {
 
 	["butterscotchicecream"] = {
 		label = "Butter Scotch Ice Cream",
+		degrade = 60 * 72,
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "Butter Scotch Ice Cream",
 		client = {
-			image = "butterscotchicecream.png",
+			status = { hunger = 20 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'bzzz_icecream_lemon',
+				bone = 18905,
+				pos = vec3(0.14, 0.03, 0.01),
+				rot = vec3(85.0, 70.0, -203.0)
+			},
+			usetime = 7500,
 		}
 	},
 
@@ -17877,34 +17953,61 @@ return {
 
 	["saltedcaramelicecream"] = {
 		label = "Salted Caramel Ice Cream",
+		degrade = 60 * 72,
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "Salted Caramel Ice Cream",
 		client = {
-			image = "saltedcaramelicecream.png",
+			status = { hunger = 20 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'bzzz_icecream_walnut',
+				bone = 18905,
+				pos = vec3(0.14, 0.03, 0.01),
+				rot = vec3(85.0, 70.0, -203.0)
+			},
+			usetime = 7500,
 		}
 	},
 
 	["chocolatesmoothie"] = {
 		label = "Chocolate Smoothie",
+		degrade = 60 * 72,
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "Chocolate Smoothie",
 		client = {
-			image = "chocolatesmoothie.png",
+			status = { thirst = 40 },
+			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+			prop = {
+				model = 'brum_shake_chocolate',
+				pos = vec3(0.16, -0.02, -0.06),
+				rot = vec3(270.00, 0.00, 0.00),
+				bone = 57005
+			},
+			usetime = 12000,
 		}
 	},
 
 	["toffeeicecream"] = {
 		label = "Toffee Ice Cream",
+		degrade = 60 * 72,
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "Toffee Ice Cream",
 		client = {
-			image = "toffeeicecream.png",
+			status = { thirst = 40 },
+			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+			prop = {
+				model = 'brum_shake_coffee',
+				pos = vec3(0.16, -0.02, -0.06),
+				rot = vec3(270.00, 0.00, 0.00),
+				bone = 57005
+			},
+			usetime = 12000,
 		}
 	},
 
@@ -17976,12 +18079,21 @@ return {
 
 	["strawberrysmoothie"] = {
 		label = "Strawberry Smoothie",
+		degrade = 60 * 72,
 		weight = 200,
 		stack = true,
 		close = true,
 		description = "Strawberry Smoothie",
 		client = {
-			image = "strawberrysmoothie.png",
+			status = { thirst = 40 },
+			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+			prop = {
+				model = 'brum_shake_strawberry',
+				pos = vec3(0.16, -0.02, -0.06),
+				rot = vec3(270.00, 0.00, 0.00),
+				bone = 57005
+			},
+			usetime = 12000,
 		}
 	},
 
@@ -18028,6 +18140,7 @@ return {
 
 	["vanillasmoothie"] = {
 		label = "Vanilla Smoothie",
+		degrade = 60 * 72,
 		weight = 200,
 		stack = true,
 		close = true,
