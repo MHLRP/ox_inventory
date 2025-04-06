@@ -6570,34 +6570,34 @@ return {
 		stack = false,
 		description = 'A Sturdy BBQ Pit.',
 	},
-	
+
 	['bbq2'] = {
 		label = 'BBQ Pit',
 		weight = 200,
 		stack = false,
 		description = 'A Sturdy BBQ Pit.',
 	},
-	
+
 	['bbq3'] = {
 		label = 'BBQ Pit',
 		weight = 200,
 		stack = false,
 		description = 'A Sturdy BBQ Pit.',
 	},
-	
+
 	['bbq4'] = {
 		label = 'BBQ Pit',
 		weight = 200,
 		stack = false,
 		description = 'A Sturdy BBQ Pit.',
 	},
-	
+
 	['bbq5'] = {
 		label = 'BBQ Pit',
 		weight = 200,
 		stack = false,
 		description = 'A Sturdy BBQ Pit.',
-	},	
+	},
 
 	['chair'] = {
 		label = 'Chair',
@@ -17391,7 +17391,7 @@ return {
 	},
 
 	--- 17MOV CARWASH
-	
+
 	['mov_advanced_ceramic'] = {
 		label = 'Advanced Ceramic Wax',
 		weight = 150,
@@ -17417,8 +17417,8 @@ return {
 		close = true
 	},
 
-	--- HOOKAH 
-	
+	--- HOOKAH
+
 	['oceanbreeze'] = {
 		label = 'Ocean Breeze',
 		weight = 50,
@@ -17476,7 +17476,7 @@ return {
 		description = 'Creates bubbles',
 		client = {
 			anim = { dict = 'anim@mp_player_intselfieblow_kiss', clip = 'exit' },
-			prop = { 
+			prop = {
 				model = 'bubble',
 				pos = vec3(0.08, -0.01, 0.0),
 				rot = vec3(20.0, 90.0, 180.0),
@@ -18186,6 +18186,322 @@ return {
 				rot = vec3(-50.0, 100.0, 270.0)
 			},
 			usetime = 7500,
+		}
+	},
+
+	['x_wrench'] = {
+		label = "Wrench",
+		weight = 250,
+		stack = false,
+		close = false,
+		description = "Good for maintenance",
+		client = {
+			image = "x_wrench.png",
+		}
+	},
+
+	['x_moneysuitcase'] = {
+		label = "Money Suitcase",
+		weight = 2500,
+		stack = false,
+		close = false,
+		description = "This is holding a lot of cash..",
+		client = {
+			image = "x_moneysuitcase.png",
+		}
+	},
+
+	["x_cratejammer"] = {
+		label = "X Crate Jammer",
+		weight = 300,
+		stack = false,
+		close = false,
+		description = "?????????",
+		client = {
+			image = "x_cratejammer.png",
+		}
+	},
+
+	['casinomaintenancecard'] = {
+		label = "Casino Maintenance Keycard",
+		weight = 100,
+		stack = false,
+		close = false,
+		description = "I wonder what I can use this for..",
+		client = {
+			image = "casinomaintenancecard.png",
+		}
+	},
+
+	['casinosecuritycard'] = {
+		label = "Casino Security Keycard",
+		weight = 100,
+		stack = false,
+		close = false,
+		description = "I wonder what I can use this for..",
+		client = {
+			image = "casinosecuritycard.png",
+		}
+	},
+
+	['casinovaultcard'] = {
+		label = "Casino Vault Keycard",
+		weight = 100,
+		stack = false,
+		close = false,
+		description = "I wonder what I can use this for..",
+		client = {
+			image = "casinovaultcard.png",
+		}
+	},
+
+	['casinomanagercard'] = {
+		label = "Casino Manager Keycard",
+		weight = 100,
+		stack = false,
+		close = false,
+		description = "I wonder what I can use this for..",
+		client = {
+			image = "casinomanagercard.png",
+		}
+	},
+
+	['casinopenthousecard'] = {
+		label = "Casino Penthouse Keycard",
+		weight = 100,
+		stack = false,
+		close = false,
+		description = "Fancy keycard..",
+		client = {
+			image = "casinopenthousecard.png",
+		}
+	},
+
+	['managerlaptop'] = {
+		label = "Manager Laptop",
+		weight = 100,
+		stack = false,
+		close = false,
+		description = "I Wonder what I can do with this..",
+		client = {
+			image = "managerlaptop.png",
+		}
+	},
+
+	['bag'] = {
+		label = "Bag",
+		weight = 400,
+		stack = false,
+		close = false,
+		description = "Duffel bag",
+		client = {
+			image = "bag.png",
+		}
+	},
+
+	['glass_cutter'] = {
+		label = "Glass Cutter",
+		weight = 1000,
+		stack = false,
+		close = false,
+		description = "",
+		client = {
+			image = "glass_cutter.png",
+		}
+	},
+
+	['x_fingerprinttape'] = {
+		label = "Fingerprint Tape",
+		weight = 200,
+		stack = false,
+		close = false,
+		description = "????",
+		client = {
+			image = "x_fingerprinttape.png",
+		}
+	},
+
+	['x_fingerprintbag'] = {
+		label = "Fingerprint Bag",
+		weight = 200,
+		stack = false,
+		close = false,
+		description = "????",
+		client = {
+			image = "x_fingerprintbag.png",
+		}
+	},
+
+	['x_phone'] = {
+		label = "X Phone",
+		weight = 50,
+		stack = false,
+		close = false,
+		description = "?????????",
+		client = {
+			image = "x_phone.png",
+		}
+	},
+
+	['x_device'] = {
+		label = "X Device",
+		weight = 50,
+		stack = false,
+		close = false,
+		description = "?????????",
+		client = {
+			image = "x_device.png",
+		}
+	},
+
+	['x_laptop'] = {
+		label = "X Laptop",
+		weight = 50,
+		stack = false,
+		close = false,
+		description = "?????????",
+		client = {
+			image = "x_laptop.png",
+		}
+	},
+
+	['hackcard'] = {
+		label = "Hackcard",
+		weight = 50,
+		stack = false,
+		close = false,
+		description = "Hack card",
+		client = {
+			image = "hackcard.png",
+		}
+	},
+
+	['laserdrill'] = {
+		label = "Laser Drill",
+		weight = 7500,
+		stack = false,
+		close = true,
+		description = "Laser Drill",
+		client = {
+			image = "laserdrill.png",
+		}
+	},
+
+	['x_stethoscope'] = {
+		label = "X Stethoscope",
+		weight = 200,
+		stack = false,
+		close = false,
+		description = "click click",
+		client = {
+			image = "x_stethoscope.png",
+		}
+	},
+	["x_painting"] = {
+		label = "Painting",
+		weight = 200,
+		stack = true,
+		close = false,
+		description = "A modern work of art!",
+		client = {
+			image = "x_painting.png"
+		}
+	},
+	['casinoofficekey'] = {
+		label = "Casino Office Key",
+		weight = 100,
+		stack = false,
+		close = false,
+		description = "Office key",
+		client = {
+			image = "casinoofficekey.png",
+		}
+	},
+
+	["x_guitar"] = {
+		label = "Guitar",
+		weight = 5000,
+		stack = false,
+		close = false,
+		description = "Music Equipment",
+		client = {
+			image = "x_guitar.png"
+		}
+	},
+	["musicequipment"] = {
+		label = "Music Equipment",
+		weight = 5000,
+		stack = false,
+		close = false,
+		description = "Music Equipment",
+		client = {
+			image = "musicequipment.png"
+		}
+	},
+
+	["pcequipment"] = {
+		label = "Computer Equipment",
+		weight = 5000,
+		stack = false,
+		close = false,
+		description = "Computer Equipment",
+		client = {
+			image = "pcequipment.png"
+		}
+	},
+
+	["x_monitor"] = {
+		label = "Monitor",
+		weight = 1000,
+		stack = false,
+		close = false,
+		description = "Computer monitor",
+		client = {
+			image = "x_monitor.png"
+		}
+	},
+
+	["x_pantherstatue"] = {
+		label = "Panther Statue",
+		weight = 5000,
+		stack = false,
+		close = false,
+		description = "Panther statue",
+		client = {
+			image = "x_pantherstatue.png"
+		}
+	},
+
+	["x_watch"] = {
+		label = "Watch",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "Wrist watch",
+		client = {
+			image = "x_watch.png"
+		}
+	},
+
+	["x_headphones"] = {
+		label = "Headphones",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "Just headphones..",
+		client = {
+			image = "x_headphones.png"
+		}
+	},
+
+	["x_bananatrophy"] = {
+		label = "Banana Trophy",
+		weight = 1000,
+		stack = false,
+		close = false,
+		description = "Don't ask..",
+		client = {
+			image = "x_bananatrophy.png"
 		}
 	},
 }
