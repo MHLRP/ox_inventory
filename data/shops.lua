@@ -2060,6 +2060,7 @@ return {
 			{ name = 'gps_tracker',             price = 0 },
 			{ name = 'radio',                   price = 0 },
 			{ name = 'radiocell',               price = 0 },
+			{ name = 'keya',                    price = 0 },
 		},
 		locations = {
 			vec3(198.0423, -1650.7327, 29.8032)
