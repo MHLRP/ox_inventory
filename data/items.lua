@@ -18504,4 +18504,12 @@ return {
 			image = "x_bananatrophy.png"
 		}
 	},
+
+	["catalytic_converter"] = {
+		label = "Catalytic Converter",
+		weight = 1000,
+		stack = false,
+		close = false,
+		description = "Goes to a vehicle",
+	},
 }
