@@ -7769,14 +7769,6 @@ return {
 		description = "",
 	},
 
-	["coca_leaf"] = {
-		label = "Cocaine leaves",
-		weight = 1500,
-		stack = true,
-		close = false,
-		description = "Cocaine leaves that must be processed !",
-	},
-
 	["white_aliens2"] = {
 		label = "Dual Stack White aliens",
 		weight = 100,
@@ -18512,4 +18504,54 @@ return {
 		close = false,
 		description = "Goes to a vehicle",
 	},
+
+    ["cement"] = {
+        label = "Cement",
+        weight = 5000,
+        stack = true,
+        close = true,
+        consume = 0,
+        server = {
+            export = 'kq_cocaine.UseCement',
+        },
+    },
+
+    ["hydrochloric_acid"] = {
+        label = "Hydrochloric acid",
+        weight = 1000,
+        stack = true,
+        close = true,
+    },
+
+    ["coca_blend"] = {
+        label = "Coca blend",
+        weight = 200,
+        stack = true,
+        close = true,
+    },
+
+    ["coca_leaf"] = {
+        label = "Coca leaf",
+        weight = 100,
+        stack = true,
+        close = true,
+        consume = 0,
+        server = {
+            export = 'kq_cocaine.UseLeaf',
+        },
+    },
+
+    ["coca_paste"] = {
+        label = "Coca paste",
+        weight = 100,
+        stack = true,
+        close = true,
+    },
+
+    ["gasoline"] = {
+        label = "Gasoline",
+        weight = 3000,
+        stack = true,
+        close = true,
+    },
 }
