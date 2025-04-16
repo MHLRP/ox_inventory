@@ -18554,4 +18554,13 @@ return {
         stack = true,
         close = true,
     },
+
+	['voodoo_fdtool'] = {
+		label = 'Cooking Book',
+		weight = 200,
+		stack = true,
+		close = true,
+		description = 'Cooking Book',
+	}
+	
 }
