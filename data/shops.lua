@@ -2133,6 +2133,20 @@ return {
 		}
 	},
 
+	highnotes_menu = {
+		name = 'High Notes Menu',
+		inventory = {
+			{ name = 'highnotes_menu', price = 0 },
+		},
+		locations = {
+			vec3(-848.747, -233.971, 37.140)
+		},
+		targets = {
+			{ loc = vec3(-848.747, -233.971, 37.140), length = 0.6, width = 0.5, heading = -62.500, minZ = 28.2, maxZ = 28.6, distance = 2 }
+
+		}
+	},
+
 	pillbox_menu = {
 		society = "ambulance",
 		name = 'Pillbox Menu',

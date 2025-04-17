@@ -4684,6 +4684,14 @@ return {
 		description = "Unipunk Menu.",
 	},
 
+	["highnotes_menu"] = {
+		label = "High Notes Menu",
+		weight = 5,
+		stack = true,
+		close = true,
+		description = "High Notes Menu.",
+	},
+
 	["getwell1"] = {
 		label = "Get Well Card",
 		weight = 5,
