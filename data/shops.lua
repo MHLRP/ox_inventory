@@ -1132,10 +1132,10 @@ return {
 			{ name = 'cigar',                 price = 0, currency = 'money' },
 		},
 		locations = {
-			vec3(-849.5763, -235.1346, 37.2279)
+			vec3(-850.226, -234.812, 37.151)
 		},
 		targets = {
-			{ loc = vec3(-849.5763, -235.1346, 37.2279), length = 0.6, width = 0.5, heading = 112.3804, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{ loc = vec3(-850.226, -234.812, 37.151), length = 0.6, width = 0.5, heading = 132.288, minZ = 28.2, maxZ = 28.6, distance = 2 }
 		}
 	},
 
