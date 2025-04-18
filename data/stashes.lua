@@ -376,12 +376,12 @@ return {
 		weight = 70000,
 	},
 	{
-		coords = vec3(-849.5207, -242.0081, 30.9809),
+		coords = vec3(-853.4227, -242.3985, 62.1776),
 		target = {
-			loc = vec3(-849.5207, -242.0081, 30.9809),
+			loc = vec3(-853.4227, -242.3985, 62.1776),
 			length = 1.2,
 			width = 5.6,
-			heading = 205.7894,
+			heading = 117.6415,
 			minZ = 29.49,
 			maxZ = 32.09,
 			label = 'Open Storage Safe'
