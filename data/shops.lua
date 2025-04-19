@@ -28,6 +28,7 @@ return {
 			{ name = 'pdcamera',            price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'specialbadge',        price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'megaphone',           price = 0, metadata = { description = "Police Property" }, },
+			{ name = 'phonetracker',        price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'badge_lspd',          price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'badge_fib',           price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'badge_bcso',          price = 0, metadata = { description = "Police Property" }, },
