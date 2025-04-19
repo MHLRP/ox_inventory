@@ -5654,6 +5654,14 @@ return {
 		description = 'Remember your incognito browser'
 	},
 
+	['fraudlaptop'] = {
+		label = 'Fraud Laptop',
+		weight = 1,
+		stack = false,
+		close = true,
+		description = 'Fraudulent activities found on here...'
+	},
+
 	['decrypter'] = {
 		label = 'Decrypter',
 		weight = 1,
@@ -18569,6 +18577,27 @@ return {
 		stack = true,
 		close = true,
 		description = 'Cooking Book',
-	}
+	},
+
+	["clone_card"] = {
+		label = "Clone Card",
+		weight = 5,
+		stack = true,
+		close = true,
+	},
+	
+	["printer"] = {
+		label = "Printer",
+		weight = 10,
+		stack = true,
+		close = true,
+	},
+	
+	["generator"] = {
+		label = "Generator",
+		weight = 10,
+		stack = true,
+		close = true,
+	},
 	
 }
