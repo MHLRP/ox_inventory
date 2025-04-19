@@ -18600,4 +18600,10 @@ return {
 		close = true,
 	},
 	
+	["phonetracker"] = {
+		label = "Tracker",
+		weight = 200,
+		stack = false,
+		close = true,
+	},
 }
