@@ -18684,4 +18684,12 @@ return {
 		close = true,
 		description = "A urn with ashes inside.",
 	},
+	
+	["punchtool"] = {
+		label = "Punchtool",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Punchtool",
+	},
 }
