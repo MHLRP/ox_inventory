@@ -4580,19 +4580,7 @@ return {
 		weight = 200,
 		stack = true,
 		close = true,
-		consume = 0,
 		description = "Umbrella, just in case..",
-		client = {
-			anim = { dict = 'amb@world_human_drinking@coffee@male@base', clip = 'base', flag = 49 },
-			prop = {
-				model = 'p_amb_brolly_01', -- need badge props repo
-				pos = vec3(0.00, 0.0200, -0.0360),
-				rot = vec3(0.0, 10.0, 0.0),
-				bone = 28422
-			},
-			disable = { move = false, car = false, combat = false },
-			usetime = 20000,
-		}
 	},
 
 	["pacific_blueprints"] = {
@@ -8464,6 +8452,14 @@ return {
 		stack = true,
 		close = false,
 		description = "Cocaine Labs Key",
+	},
+
+	["keym"] = {
+		label = "Labkey M",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "Morgue Labs Key",
 	},
 
 
@@ -18605,5 +18601,87 @@ return {
 		weight = 200,
 		stack = false,
 		close = true,
+	},
+
+	['aftermarket_locks'] = {
+		label = 'Aftermarket Lock System',
+		weight = 220,
+		stack = false,
+		close = true,
+		description = "A locksystem to replace locks in a car.",
+	},
+
+	-- MrNewbBeeKeeping
+	["beehive"] = {
+		label = "Beehive",
+		weight = 2000,
+		stack = false,
+		close = true,
+	},
+	["queen_bee"] = {
+		label = "Queen Bee",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+	["worker_bees"] = {
+		label = "Worker Bees",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+	["bees_wax"] = {
+		label = "Bees Wax",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+	["red_honey"] = {
+		label = "Red Bees Honey",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+	["green_honey"] = {
+		label = "Green Bees Honey",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+	["blue_honey"] = {
+		label = "Blue Bees Honey",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+	["bees_honey"] = {
+		label = "Bees Honey",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+
+	["humanorgan"] = {
+		label = "Human Organ",
+		weight = 40,
+		stack = true,
+		close = true,
+		description = "Someone could maybe use this?",
+	},
+
+	["bloodbag"] = {
+		label = "Blood Bag",
+		weight = 5,
+		stack = true,
+		close = true,
+		description = "Some could maybe use this?",
+	},
+
+	["urn"] = {
+		label = "Urn",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "A urn with ashes inside.",
 	},
 }
