@@ -18517,55 +18517,55 @@ return {
 		description = "Goes to a vehicle",
 	},
 
-    ["cement"] = {
-        label = "Cement",
-        weight = 5000,
-        stack = true,
-        close = true,
-        consume = 0,
-        server = {
-            export = 'kq_cocaine.UseCement',
-        },
-    },
+	["cement"] = {
+		label = "Cement",
+		weight = 5000,
+		stack = true,
+		close = true,
+		consume = 0,
+		server = {
+			export = 'kq_cocaine.UseCement',
+		},
+	},
 
-    ["hydrochloric_acid"] = {
-        label = "Hydrochloric acid",
-        weight = 1000,
-        stack = true,
-        close = true,
-    },
+	["hydrochloric_acid"] = {
+		label = "Hydrochloric acid",
+		weight = 1000,
+		stack = true,
+		close = true,
+	},
 
-    ["coca_blend"] = {
-        label = "Coca blend",
-        weight = 200,
-        stack = true,
-        close = true,
-    },
+	["coca_blend"] = {
+		label = "Coca blend",
+		weight = 200,
+		stack = true,
+		close = true,
+	},
 
-    ["coca_leaf"] = {
-        label = "Coca leaf",
-        weight = 100,
-        stack = true,
-        close = true,
-        consume = 0,
-        server = {
-            export = 'kq_cocaine.UseLeaf',
-        },
-    },
+	["coca_leaf"] = {
+		label = "Coca leaf",
+		weight = 100,
+		stack = true,
+		close = true,
+		consume = 0,
+		server = {
+			export = 'kq_cocaine.UseLeaf',
+		},
+	},
 
-    ["coca_paste"] = {
-        label = "Coca paste",
-        weight = 100,
-        stack = true,
-        close = true,
-    },
+	["coca_paste"] = {
+		label = "Coca paste",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
 
-    ["gasoline"] = {
-        label = "Gasoline",
-        weight = 3000,
-        stack = true,
-        close = true,
-    },
+	["gasoline"] = {
+		label = "Gasoline",
+		weight = 3000,
+		stack = true,
+		close = true,
+	},
 
 	['voodoo_fdtool'] = {
 		label = 'Cooking Book',
@@ -18581,21 +18581,21 @@ return {
 		stack = true,
 		close = true,
 	},
-	
+
 	["printer"] = {
 		label = "Printer",
 		weight = 10,
 		stack = true,
 		close = true,
 	},
-	
+
 	["generator"] = {
 		label = "Generator",
 		weight = 10,
 		stack = true,
 		close = true,
 	},
-	
+
 	["phonetracker"] = {
 		label = "Tracker",
 		weight = 200,
@@ -18684,12 +18684,110 @@ return {
 		close = true,
 		description = "A urn with ashes inside.",
 	},
-	
+
 	["punchtool"] = {
 		label = "Punchtool",
 		weight = 100,
 		stack = true,
 		close = true,
 		description = "Punchtool",
+	},
+
+	-- WEAPON SKINS
+
+	['newbserialfile'] = {
+		label = 'Heavy File',
+		stack = false,
+		close = true,
+		allowArmed = true,
+		weight = 10,
+		server = {
+			export = 'MrNewbWeaponTints.newbserialfile'
+		},
+		consume = 0.50
+	},
+
+	['weapontint_green'] = {
+		label = 'Green Weapon Tint',
+		stack = false,
+		close = true,
+		allowArmed = true,
+		weight = 10,
+		server = {
+			export = 'MrNewbWeaponTints.setweapontint',
+			tint = 1
+		}
+	},
+
+	['weapontint_gold'] = {
+		label = 'Gold Weapon Tint',
+		stack = false,
+		close = true,
+		allowArmed = true,
+		weight = 10,
+		server = {
+			export = 'MrNewbWeaponTints.setweapontint',
+			tint = 2
+		}
+	},
+
+	['weapontint_pink'] = {
+		label = 'Pink Weapon Tint',
+		stack = false,
+		close = true,
+		allowArmed = true,
+		weight = 10,
+		server = {
+			export = 'MrNewbWeaponTints.setweapontint',
+			tint = 3
+		}
+	},
+
+	['weapontint_army'] = {
+		label = 'Army Weapon Tint',
+		stack = false,
+		close = true,
+		allowArmed = true,
+		weight = 10,
+		server = {
+			export = 'MrNewbWeaponTints.setweapontint',
+			tint = 4
+		}
+	},
+
+	['weapontint_lspd'] = {
+		label = 'LSPD Weapon Tint',
+		stack = false,
+		close = true,
+		allowArmed = true,
+		weight = 10,
+		server = {
+			export = 'MrNewbWeaponTints.setweapontint',
+			tint = 5
+		}
+	},
+
+	['weapontint_orange'] = {
+		label = 'Orange Weapon Tint',
+		stack = false,
+		close = true,
+		allowArmed = true,
+		weight = 10,
+		server = {
+			export = 'MrNewbWeaponTints.setweapontint',
+			tint = 6
+		}
+	},
+
+	['weapontint_plat'] = {
+		label = 'Platinum Weapon Tint',
+		stack = false,
+		close = true,
+		allowArmed = true,
+		weight = 10,
+		server = {
+			export = 'MrNewbWeaponTints.setweapontint',
+			tint = 7
+		}
 	},
 }
