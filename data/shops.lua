@@ -528,6 +528,7 @@ return {
 			{ name = 'medical_license',     label = 'Medical Bag',         price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'cybernetics_license', label = 'Cybernetics License', price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'centralchip',         label = 'Central Chip',        price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'keym',                label = 'Morgue Access Key',          price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 		},
 		locations = {
 			vec3(327.521, -596.243, 42.222),
