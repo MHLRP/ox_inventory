@@ -528,7 +528,7 @@ return {
 			{ name = 'medical_license',     label = 'Medical Bag',         price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'cybernetics_license', label = 'Cybernetics License', price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'centralchip',         label = 'Central Chip',        price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'keym',                label = 'Morgue Access Key',          price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'keym',                label = 'Morgue Access Key',   price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 		},
 		locations = {
 			vec3(327.521, -596.243, 42.222),
@@ -1978,9 +1978,9 @@ return {
 		targets = {
 			{
 				ped = `a_m_m_golfer_01`,
-				scenario = 'WORLD_HUMAN_STAND_MOBILE',
-				loc = vec3(2749.4592, 3483.7598, 54.6663),
-				heading = 65.3780,
+				scenario = 'PROP_HUMAN_SEAT_CHAIR',
+				loc = vec3(2730.7971, 3463.7189, 54.4246),
+				heading = 342.0687,
 			}
 		}
 	},
