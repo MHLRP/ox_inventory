@@ -6056,6 +6056,14 @@ return {
 		description = "A larger version of the police pouch used to store additional tactical gear and equipment."
 	},
 
+	["policenotepad"] = {
+		label = "Police Notepad",
+		weight = 5,
+		stack = false,
+		close = true,
+		description = "A notepad used by police officers to write tickets."
+	},
+
 	["cone"] = {
 		label = "cone",
 	},
