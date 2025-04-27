@@ -16082,6 +16082,30 @@ return {
 		description = "Killer Cyber Blades",
 	},
 
+	["thermalchip"] = {
+		label = "Thermal Chip",
+		weight = 200,
+		stack = false,
+		close = true,
+		description = "Thermal Vision Chip Implant",
+	},
+
+	["nightvisionchip"] = {
+		label = "Nightvision Chip",
+		weight = 200,
+		stack = false,
+		close = true,
+		description = "Nightvision Chip Implant",
+	},
+
+	["enhancedchip"] = {
+		label = "Enhanced Vision Chip",
+		weight = 200,
+		stack = false,
+		close = true,
+		description = "Enhanced Vision Chip Implant",
+	},
+
 	["cybernetics_license"] = {
 		label = "Pillbox Cybernetics ",
 		weight = 100,
@@ -16089,6 +16113,8 @@ return {
 		close = true,
 		description = "Legal Cybernetics ID",
 	},
+
+	--- END OF CYBERNETICS
 
 	["coin"] = {
 		label = "Coin",

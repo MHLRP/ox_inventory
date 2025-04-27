@@ -520,7 +520,7 @@ return {
 	},
 
 	Medicine2 = {
-		name = 'Cards Cabinet',
+		name = 'Boss Cabinet',
 		groups = {
 			['ambulance'] = 7
 		},
@@ -529,6 +529,7 @@ return {
 			{ name = 'medical_license',     label = 'Medical Bag',         price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'cybernetics_license', label = 'Cybernetics License', price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'centralchip',         label = 'Central Chip',        price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'nightvisionchip',     label = 'Nightvision Chip',    price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'keym',                label = 'Morgue Access Key',   price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 		},
 		locations = {
@@ -600,6 +601,7 @@ return {
 			{ name = 'rightcyberleg', label = 'Right Cyberleg', price = 0 },
 			{ name = 'mantisblades',  label = 'Mantis Blades',  price = 0 },
 			{ name = 'centralchip',   label = 'Central Chip',   price = 0 },
+			{ name = 'enhancedchip',  label = 'Enhanced Chip',  price = 0 },
 		},
 		locations = {
 			vec3(881.282, -2225.521, 30.126),
@@ -624,6 +626,7 @@ return {
 			{ name = 'leftcyberleg',  price = 250000 },
 			{ name = 'rightcyberleg', price = 250000 },
 			{ name = 'mantisblades',  price = 300000 },
+			{ name = 'thermalchip',   price = 200000 },
 		},
 	},
 
