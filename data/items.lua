@@ -9500,6 +9500,150 @@ return {
 		description = "",
 	},
 
+	['tylacare'] = {
+		label = 'Tylacare',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'General pain reliever and fever reducer',
+	},
+	
+	['flurimax'] = {
+		label = 'Flurimax',
+		weight = 150,
+		stack = true,
+		close = true,
+		description = 'Antiviral medication for treating flu',
+	},
+	
+	['dayrelief'] = {
+		label = 'Dayrelief',
+		weight = 150,
+		stack = true,
+		close = true,
+		description = 'Cold & flu relief medication',
+	},
+	
+	['gutguard'] = {
+		label = 'GutGuard',
+		weight = 200,
+		stack = true,
+		close = true,
+		description = 'Relief for stomach discomfort and nausea',
+	},
+	
+	['stopdiaril'] = {
+		label = 'Stopdiaril',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'Anti-diarrheal medication',
+	},
+	
+	['triptaril'] = {
+		label = 'Triptaril',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'Migraine relief medication',
+	},
+	
+	['ibrofenix'] = {
+		label = 'Ibrofenix',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'Pain reliever and anti-inflammatory medication',
+	},
+	
+	['allerblock'] = {
+		label = 'AllerBlock',
+		weight = 150,
+		stack = true,
+		close = true,
+		description = 'Allergy relief medication',
+	},
+	
+	['clearairin'] = {
+		label = 'Clearairin',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = '24-hour allergy relief medication',
+	},
+	
+	['motionex'] = {
+		label = 'Motionex',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'Motion sickness relief medication',
+	},
+	
+	['meklirin'] = {
+		label = 'Meklirin',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'Treats dizziness and vertigo',
+	},
+	
+	['vironix'] = {
+		label = 'Vironix',
+		weight = 200,
+		stack = true,
+		close = true,
+		description = 'Antiviral medication for COVID-19',
+	},
+	
+	['vaxora'] = {
+		label = 'Vaxora',
+		weight = 300,
+		stack = true,
+		close = true,
+		description = 'Provides immunity against COVID-19',
+	},
+	
+	['cycurex'] = {
+		label = 'Cycurex',
+		weight = 150,
+		stack = true,
+		close = true,
+		description = 'Antiviral medication',
+	},
+	
+	['painaway'] = {
+		label = 'PainAway',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'Pain reliever and fever reducer',
+	},
+	
+	['zithromed'] = {
+		label = 'ZithroMed',
+		weight = 150,
+		stack = true,
+		close = true,
+		description = 'Antibiotic medication',
+	},
+	
+	['doxallin'] = {
+		label = 'Doxallin',
+		weight = 150,
+		stack = true,
+		close = true,
+		description = 'Antibiotic medication',
+	},
+	
+	['loprexin'] = {
+		label = 'Loprexin',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'Anti-diarrheal medication',
+	},
+
 	["aluminumoxide"] = {
 		label = "Aluminium Powder",
 		weight = 100,
