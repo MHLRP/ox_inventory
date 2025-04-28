@@ -11275,14 +11275,6 @@ return {
 		description = "Speed up, gas pedal! :D",
 	},
 
-	["kq_winch"] = {
-		label = "Car winch",
-		weight = 4000,
-		stack = true,
-		close = true,
-		description = "Car winch made to winch heavy vehicles",
-	},
-
 	["viperv10"] = {
 		label = "Viper V10 8.4L",
 		weight = 100,
@@ -11291,13 +11283,27 @@ return {
 		description = "",
 	},
 
-	["kq_tow_rope"] = {
-		label = "Towing rope",
-		weight = 2000,
-		stack = true,
-		close = true,
-		description = "Rope used for towing vehicles",
-	},
+    ["kq_tow_rope"] = {
+        label = "Towing rope",
+        weight = 2000,
+        stack = true,
+        close = true,
+        consume = 0,
+        server = {
+            export = 'kq_towing2.UseTowRope',
+        },
+    },
+
+    ["kq_winch"] = {
+        label = "Car winch",
+        weight = 4000,
+        stack = true,
+        close = true,
+        consume = 0,
+        server = {
+            export = 'kq_towing2.UseWinch',
+        },
+    },
 
 	["musv8"] = {
 		label = "Lisson V8 5.0L",
