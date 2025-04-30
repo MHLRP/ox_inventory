@@ -18847,7 +18847,7 @@ return {
 
 	["humanorgan"] = {
 		label = "Human Organ",
-		weight = 40,
+		weight = 200,
 		stack = true,
 		close = true,
 		description = "Someone could maybe use this?",
@@ -18855,12 +18855,15 @@ return {
 
 	["bloodbag"] = {
 		label = "Blood Bag",
-		weight = 5,
+		weight = 60,
 		stack = true,
 		close = true,
 		description = "Someone could maybe use this?",
 		client = {
-			status = { thirst = 60 },
+			status = { 
+				thirst = 60,
+				hunger = 40 -- Add this line to also affect hunger
+			},
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
 			usetime = 2500,
