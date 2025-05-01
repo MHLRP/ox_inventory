@@ -1951,6 +1951,34 @@ return {
 		}
 	},
 
+	YouTool6 = {
+		name = 'Cement',
+		inventory = {
+			{ name = 'cement', price = 0, currency = 'money' },
+		},
+		locations = {
+			vec3(2707.250, 3499.663, 55.786)
+		},
+		targets = {
+			{ loc = vec3(2707.250, 3499.663, 55.786), length = 8.0, width = 8.0, heading = 252.4487, minZ = 28.2, maxZ = 28.6, distance = 2 }
+		}
+	},
+
+	YouTool7 = {
+		name = 'Acid',
+		inventory = {
+			{ name = 'hydrochloric_acid', price = 0, currency = 'money' },
+		},
+		locations = {
+			vec3(2707.250, 3499.663, 55.786),
+			vec3(1445.300, 6331.128, 23.078),
+		},
+		targets = {
+			{ loc = vec3(2707.250, 3499.663, 55.786), length = 8.0, width = 8.0, heading = 252.4487, minZ = 28.2, maxZ = 28.6, distance = 2 },
+			{ loc = vec3(1445.300, 6331.128, 23.078), length = 8.0, width = 8.0, heading = -64.298, minZ = 28.2, maxZ = 28.6, distance = 2 }
+		}
+	},
+
 	MovieShop = {
 		name = 'Movie Shop',
 		inventory = {
