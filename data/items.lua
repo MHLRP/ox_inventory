@@ -885,7 +885,7 @@ return {
 		close = true,
 		description = "A ice cream sandwich that you can eat",
 		client = {
-			status = { hunger = 25 },
+			status = { hunger = 40 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = {
 				model = 'prop_sandwich_01',
@@ -1343,7 +1343,7 @@ return {
 	},
 
 	["gelado-baunilha"] = {
-		label = "Vanilla Icecream",
+		label = "Vanilla Ice Cream",
 		weight = 1000,
 		degrade = 60 * 72,
 		decay = true,
@@ -1351,7 +1351,7 @@ return {
 		close = true,
 		description = "A ice cream sandwich that you can eat",
 		client = {
-			status = { hunger = 25 },
+			status = { hunger = 60 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = {
 				model = 'prop_sandwich_01',
@@ -1476,7 +1476,7 @@ return {
 		close = true,
 		description = "Why yes, your brain is freezing",
 		client = {
-			status = { hunger = 20 },
+			status = { hunger = 60 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = {
 				model = 'bzzz_icecream_cherry',
@@ -1497,7 +1497,7 @@ return {
 		close = true,
 		description = "Why yes, your brain is freezing",
 		client = {
-			status = { hunger = 20 },
+			status = { hunger = 60 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = {
 				model = 'bzzz_icecream_chocolate',
@@ -1518,7 +1518,7 @@ return {
 		close = true,
 		description = "Why yes, your brain is freezing",
 		client = {
-			status = { hunger = 20 },
+			status = { hunger = 60 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = {
 				model = 'bzzz_icecream_lemon',
@@ -1539,7 +1539,7 @@ return {
 		close = true,
 		description = "Why yes, your brain is freezing",
 		client = {
-			status = { hunger = 20 },
+			status = { hunger = 60 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = {
 				model = 'bzzz_icecream_pistachio',
@@ -1560,7 +1560,7 @@ return {
 		close = true,
 		description = "Why yes, your brain is freezing",
 		client = {
-			status = { hunger = 20 },
+			status = { hunger = 60 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = {
 				model = 'bzzz_icecream_raspberry',
@@ -1581,7 +1581,7 @@ return {
 		close = true,
 		description = "Why yes, your brain is freezing",
 		client = {
-			status = { hunger = 20 },
+			status = { hunger = 60 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = {
 				model = 'bzzz_icecream_stracciatella',
@@ -1602,7 +1602,7 @@ return {
 		close = true,
 		description = "Why yes, your brain is freezing",
 		client = {
-			status = { hunger = 20 },
+			status = { hunger = 60 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = {
 				model = 'bzzz_icecream_strawberry',
@@ -1623,7 +1623,7 @@ return {
 		close = true,
 		description = "Why yes, your brain is freezing",
 		client = {
-			status = { hunger = 20 },
+			status = { hunger = 60 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = {
 				model = 'bzzz_icecream_walnut',
@@ -1665,7 +1665,7 @@ return {
 		close = true,
 		description = "A ice cream sandwich that you can eat",
 		client = {
-			status = { hunger = 20 },
+			status = { hunger = 60 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = {
 				model = 'prop_sandwich_01',
@@ -3430,6 +3430,45 @@ return {
 		stack = true,
 		close = true,
 		description = "A refreshing daiquiri with a twist.",
+	},
+
+	--- USABLES: Donut Boxes
+	['box_donuts_six'] = { -- idea: Player uses item to show badge prop
+		label = 'Box of Donuts',
+		weight = 2000,
+		degrade = 60 * 72,
+		decay = true,
+		description = "A box of donuts, dude",
+		client = {
+			anim = { dict = 'anim@heists@box_carry@', clip = 'idle', flag = 49 },
+			prop = {
+				model = 'prop_cs_box_step', -- need badge props repo
+				pos = vec3(0.010, -0.100, -0.159),
+				rot = vec3(20.000, 0.000, 0.000),
+				bone = 28422
+			},
+			disable = { move = false, car = false, combat = false },
+			usetime = 5000,
+		}
+	},
+
+	['box_donuts_twelve'] = { -- idea: Player uses item to show badge prop
+		label = 'Box of Donuts',
+		weight = 2500,
+		degrade = 60 * 72,
+		decay = true,
+		description = "A box of donuts, dude",
+		client = {
+			anim = { dict = 'anim@heists@box_carry@', clip = 'idle', flag = 49 },
+			prop = {
+				model = 'prop_cs_box_step', -- need badge props repo
+				pos = vec3(0.010, -0.100, -0.159),
+				rot = vec3(20.000, 0.000, 0.000),
+				bone = 28422
+			},
+			disable = { move = false, car = false, combat = false },
+			usetime = 5000,
+		}
 	},
 
 	--- USABLES: Pizza Boxes
@@ -9507,7 +9546,7 @@ return {
 		close = true,
 		description = 'General pain reliever and fever reducer',
 	},
-	
+
 	['flurimax'] = {
 		label = 'Flurimax',
 		weight = 150,
@@ -9515,7 +9554,7 @@ return {
 		close = true,
 		description = 'Antiviral medication for treating flu',
 	},
-	
+
 	['dayrelief'] = {
 		label = 'Dayrelief',
 		weight = 150,
@@ -9523,7 +9562,7 @@ return {
 		close = true,
 		description = 'Cold & flu relief medication',
 	},
-	
+
 	['gutguard'] = {
 		label = 'GutGuard',
 		weight = 200,
@@ -9531,7 +9570,7 @@ return {
 		close = true,
 		description = 'Relief for stomach discomfort and nausea',
 	},
-	
+
 	['stopdiaril'] = {
 		label = 'Stopdiaril',
 		weight = 100,
@@ -9539,7 +9578,7 @@ return {
 		close = true,
 		description = 'Anti-diarrheal medication',
 	},
-	
+
 	['triptaril'] = {
 		label = 'Triptaril',
 		weight = 100,
@@ -9547,7 +9586,7 @@ return {
 		close = true,
 		description = 'Migraine relief medication',
 	},
-	
+
 	['ibrofenix'] = {
 		label = 'Ibrofenix',
 		weight = 100,
@@ -9555,7 +9594,7 @@ return {
 		close = true,
 		description = 'Pain reliever and anti-inflammatory medication',
 	},
-	
+
 	['allerblock'] = {
 		label = 'AllerBlock',
 		weight = 150,
@@ -9563,7 +9602,7 @@ return {
 		close = true,
 		description = 'Allergy relief medication',
 	},
-	
+
 	['clearairin'] = {
 		label = 'Clearairin',
 		weight = 100,
@@ -9571,7 +9610,7 @@ return {
 		close = true,
 		description = '24-hour allergy relief medication',
 	},
-	
+
 	['motionex'] = {
 		label = 'Motionex',
 		weight = 100,
@@ -9579,7 +9618,7 @@ return {
 		close = true,
 		description = 'Motion sickness relief medication',
 	},
-	
+
 	['meklirin'] = {
 		label = 'Meklirin',
 		weight = 100,
@@ -9587,7 +9626,7 @@ return {
 		close = true,
 		description = 'Treats dizziness and vertigo',
 	},
-	
+
 	['vironix'] = {
 		label = 'Vironix',
 		weight = 200,
@@ -9595,7 +9634,7 @@ return {
 		close = true,
 		description = 'Antiviral medication for COVID-19',
 	},
-	
+
 	['vaxora'] = {
 		label = 'Vaxora',
 		weight = 300,
@@ -9603,7 +9642,7 @@ return {
 		close = true,
 		description = 'Provides immunity against COVID-19',
 	},
-	
+
 	['cycurex'] = {
 		label = 'Cycurex',
 		weight = 150,
@@ -9611,7 +9650,7 @@ return {
 		close = true,
 		description = 'Antiviral medication',
 	},
-	
+
 	['painaway'] = {
 		label = 'PainAway',
 		weight = 100,
@@ -9619,7 +9658,7 @@ return {
 		close = true,
 		description = 'Pain reliever and fever reducer',
 	},
-	
+
 	['zithromed'] = {
 		label = 'ZithroMed',
 		weight = 150,
@@ -9627,7 +9666,7 @@ return {
 		close = true,
 		description = 'Antibiotic medication',
 	},
-	
+
 	['doxallin'] = {
 		label = 'Doxallin',
 		weight = 150,
@@ -9635,7 +9674,7 @@ return {
 		close = true,
 		description = 'Antibiotic medication',
 	},
-	
+
 	['loprexin'] = {
 		label = 'Loprexin',
 		weight = 100,
@@ -11283,27 +11322,27 @@ return {
 		description = "",
 	},
 
-    ["kq_tow_rope"] = {
-        label = "Towing rope",
-        weight = 2000,
-        stack = true,
-        close = true,
-        consume = 0,
-        server = {
-            export = 'kq_towing2.UseTowRope',
-        },
-    },
+	["kq_tow_rope"] = {
+		label = "Towing rope",
+		weight = 2000,
+		stack = true,
+		close = true,
+		consume = 0,
+		server = {
+			export = 'kq_towing2.UseTowRope',
+		},
+	},
 
-    ["kq_winch"] = {
-        label = "Car winch",
-        weight = 4000,
-        stack = true,
-        close = true,
-        consume = 0,
-        server = {
-            export = 'kq_towing2.UseWinch',
-        },
-    },
+	["kq_winch"] = {
+		label = "Car winch",
+		weight = 4000,
+		stack = true,
+		close = true,
+		consume = 0,
+		server = {
+			export = 'kq_towing2.UseWinch',
+		},
+	},
 
 	["musv8"] = {
 		label = "Lisson V8 5.0L",
@@ -17198,7 +17237,7 @@ return {
 		close = true,
 		description = "",
 		client = {
-			status = { hunger = 40 },
+			status = { thirst = 40 },
 			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_b' },
 			prop = {
 				model = 'v_res_mcofcupdirt',
@@ -17839,7 +17878,7 @@ return {
 		close = true,
 		description = "Mint Ice Cream",
 		client = {
-			status = { thirst = 40 },
+			status = { thirst = 60 },
 			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
 			prop = {
 				model = 'bzzz_icecream_stracciatella',
@@ -17879,7 +17918,7 @@ return {
 		close = true,
 		description = "Bubblegum Ice Cream",
 		client = {
-			status = { hunger = 20 },
+			status = { hunger = 60 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = {
 				model = 'bzzz_icecream_cherry',
@@ -17998,7 +18037,7 @@ return {
 		close = true,
 		description = "Butter Scotch Ice Cream",
 		client = {
-			status = { hunger = 20 },
+			status = { hunger = 60 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = {
 				model = 'bzzz_icecream_lemon',
@@ -18147,7 +18186,7 @@ return {
 		close = true,
 		description = "Salted Caramel Ice Cream",
 		client = {
-			status = { hunger = 20 },
+			status = { hunger = 60 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = {
 				model = 'bzzz_icecream_walnut',
@@ -18187,7 +18226,7 @@ return {
 		close = true,
 		description = "Toffee Ice Cream",
 		client = {
-			status = { thirst = 40 },
+			status = { thirst = 60 },
 			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
 			prop = {
 				model = 'brum_shake_coffee',
@@ -18860,7 +18899,7 @@ return {
 		close = true,
 		description = "Someone could maybe use this?",
 		client = {
-			status = { 
+			status = {
 				thirst = 60,
 				hunger = 40 -- Add this line to also affect hunger
 			},

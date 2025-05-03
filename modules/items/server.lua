@@ -372,6 +372,28 @@ Item('giftbox', function(event, item, inventory, data, slot)
     end
 end)
 
+
+-- Donut Boxes
+Item('box_donuts_six', function(event, item, inventory, data, slot)
+    if event == 'usedItem' then
+        Inventory.AddItem(inventory, 'donut_chc', 2)
+		Inventory.AddItem(inventory, 'donut_sby', 2)
+		Inventory.AddItem(inventory, 'jamdoughnut', 2)
+    end
+end)
+
+
+
+-- Donut Boxes
+Item('box_donuts_twelve', function(event, item, inventory, data, slot)
+    if event == 'usedItem' then
+        Inventory.AddItem(inventory, 'donut_chc', 4)
+		Inventory.AddItem(inventory, 'donut_sby', 4)
+		Inventory.AddItem(inventory, 'jamdoughnut', 4)
+    end
+end)
+
+
 -- Pizza Boxes
 Item('box_pizza_chs', function(event, item, inventory, data, slot)
     if event == 'usedItem' then
