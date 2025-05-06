@@ -46,6 +46,7 @@ return {
 			{ name = 'screwdriver',         price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'metal_wand',          price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'weapon_flare',        price = 0, metadata = { description = "Police Property" }, },
+			{ name = 'weapon_flashbang',    price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'wiring_kit',          price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'policepouches',       price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'policepouches1',      price = 0, metadata = { description = "Police Property" }, },
@@ -53,7 +54,7 @@ return {
 			{ name = 'harness',             price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'kq_tow_rope',         price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'drone',               price = 0, metadata = { description = "Police Property" }, },
-			{ name = 'WEAPON_COMBATPISTOL', price = 0, metadata = { registered = true, description = "Police Property", components = { 'at_flashlight' }, tint = 5, weapontint = "LSPD Tint", police_property = true, serial = 'POL' }, },
+			{ name = 'WEAPON_LAW', price = 0, metadata = { registered = true, description = "Police Property", police_property = true, serial = 'POL' }, },
 			-- { name = 'WEAPON_CERAMICPISTOL', price = 0, metadata = { registered = true, description = "Police Property", tint = 5, weapontint = "LSPD Tint", police_property = true, serial = 'POL' }, },
 			-- { name = 'WEAPON_PISTOLXM3',     price = 0, metadata = { registered = true, description = "Police Property", components = { 'at_flashlight' }, tint = 22, weapontint = "LSPD Tint", police_property = true, serial = 'POL' }, },
 			-- { name = 'WEAPON_REVOLVER_MK2',  price = 0, metadata = { registered = true, description = "Police Property", components = { 'at_flashlight' }, tint = 22, weapontint = "Bold LSPD Tint", police_property = true, serial = 'POL' }, },
@@ -130,6 +131,7 @@ return {
 			{ name = 'thermalvision',       price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'nightvision',         price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'weapon_flare',        price = 0, metadata = { description = "Police Property" }, },
+			{ name = 'weapon_flashbang',    price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'bodycam',             price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'printscanner',        price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'empty_evidence_bag',  price = 0, metadata = { description = "Police Property" }, },
@@ -144,7 +146,7 @@ return {
 			{ name = 'repair_kit',          price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'kq_tow_rope',         price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'drone',               price = 0, metadata = { description = "Police Property" }, },
-			{ name = 'WEAPON_COMBATPISTOL', price = 0, metadata = { registered = true, description = "Police Property", components = { 'at_flashlight' }, tint = 5, weapontint = "LSPD Tint", police_property = true, serial = 'POL' }, },
+			{ name = 'WEAPON_LAW', price = 0, metadata = { registered = true, description = "Police Property", police_property = true, serial = 'POL' }, },
 			-- { name = 'WEAPON_CERAMICPISTOL', price = 0, metadata = { registered = true, description = "Police Property", tint = 5, weapontint = "LSPD Tint", police_property = true, serial = 'POL' }, },
 			-- { name = 'WEAPON_PISTOLXM3',     price = 0, metadata = { registered = true, description = "Police Property", components = { 'at_flashlight' }, tint = 22, weapontint = "LSPD Tint", police_property = true, serial = 'POL' }, },
 			-- { name = 'WEAPON_REVOLVER_MK2',  price = 0, metadata = { registered = true, description = "Police Property", components = { 'at_flashlight' }, tint = 22, weapontint = "Bold LSPD Tint", police_property = true, serial = 'POL' }, },
@@ -492,7 +494,7 @@ return {
 			{ name = 'sedative',                label = 'Sedative',          price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'ibrofenix',               label = 'Ibrofenix',         price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'motionex',                label = 'Motionex',          price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'painaway',                label = 'Pain A Way',     price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'painaway',                label = 'Pain A Way',        price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'doxallin',                label = 'Covid Vaccine',     price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'needle',                  label = 'Needle',            price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'dayrelief',               label = 'Day Relief',        price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
@@ -1975,7 +1977,7 @@ return {
 		},
 		targets = {
 			{ loc = vec3(2707.250, 3499.663, 55.786), length = 8.0, width = 8.0, heading = 252.4487, minZ = 28.2, maxZ = 28.6, distance = 2 },
-			{ loc = vec3(1445.300, 6331.128, 23.078), length = 8.0, width = 8.0, heading = -64.298, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{ loc = vec3(1445.300, 6331.128, 23.078), length = 8.0, width = 8.0, heading = -64.298,  minZ = 28.2, maxZ = 28.6, distance = 2 }
 		}
 	},
 

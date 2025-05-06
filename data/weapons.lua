@@ -60,6 +60,13 @@ return {
 			durability = 0.1,
 		},
 
+		['WEAPON_FLASHBANG'] = {
+			label = 'K-J4 Flashbang',
+			weight = 600,
+			throwable = true,
+			anim = { 'melee@holster', 'unholster', 200, 'melee@holster', 'holster', 600 },
+		},
+
 		['WEAPON_BATTLEAXE'] = {
 			label = 'Battle Axe',
 			weight = 6500,
@@ -158,6 +165,13 @@ return {
 		['WEAPON_COMBATPISTOL'] = {
 			label = 'Combat Pistol',
 			weight = 785,
+			durability = 0.2,
+			ammoname = 'ammo-9'
+		},
+
+		['WEAPON_LAW'] = {
+			label = 'Cyber Police Pistol',
+			weight = 1000,
 			durability = 0.2,
 			ammoname = 'ammo-9'
 		},
