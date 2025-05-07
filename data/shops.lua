@@ -1972,12 +1972,12 @@ return {
 			{ name = 'hydrochloric_acid', price = 0, currency = 'money' },
 		},
 		locations = {
-			vec3(2707.250, 3499.663, 55.786),
 			vec3(1445.300, 6331.128, 23.078),
+			vec3(1942.6783, 5182.9819, 47.9838),
 		},
 		targets = {
-			{ loc = vec3(2707.250, 3499.663, 55.786), length = 8.0, width = 8.0, heading = 252.4487, minZ = 28.2, maxZ = 28.6, distance = 2 },
-			{ loc = vec3(1445.300, 6331.128, 23.078), length = 8.0, width = 8.0, heading = -64.298,  minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{ loc = vec3(1445.300, 6331.128, 23.078), length = 8.0, width = 8.0, heading = -64.298,  minZ = 28.2, maxZ = 28.6, distance = 2 },
+			{ loc = vec3(1942.6783, 5182.9819, 47.9838), length = 8.0, width = 8.0, heading = 357.3487, minZ = 28.2, maxZ = 28.6, distance = 2 },
 		}
 	},
 
