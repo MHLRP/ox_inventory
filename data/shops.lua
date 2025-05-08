@@ -54,7 +54,7 @@ return {
 			{ name = 'harness',             price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'kq_tow_rope',         price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'drone',               price = 0, metadata = { description = "Police Property" }, },
-			{ name = 'WEAPON_LAW', price = 0, metadata = { registered = true, description = "Police Property", police_property = true, serial = 'POL' }, },
+			{ name = 'WEAPON_LAW',          price = 0, metadata = { registered = true, description = "Police Property", police_property = true, serial = 'POL' }, },
 			-- { name = 'WEAPON_CERAMICPISTOL', price = 0, metadata = { registered = true, description = "Police Property", tint = 5, weapontint = "LSPD Tint", police_property = true, serial = 'POL' }, },
 			-- { name = 'WEAPON_PISTOLXM3',     price = 0, metadata = { registered = true, description = "Police Property", components = { 'at_flashlight' }, tint = 22, weapontint = "LSPD Tint", police_property = true, serial = 'POL' }, },
 			-- { name = 'WEAPON_REVOLVER_MK2',  price = 0, metadata = { registered = true, description = "Police Property", components = { 'at_flashlight' }, tint = 22, weapontint = "Bold LSPD Tint", police_property = true, serial = 'POL' }, },
@@ -72,24 +72,18 @@ return {
 			{ name = 'WEAPON_FLASHLIGHT',   price = 0, metadata = { description = "Police Property", serial = 'POL' }, },
 		},
 		locations = {
-			vec3(461.34, -982.75, 30.69),
-			vec3(456.62, -982.75, 30.69),
-			vec3(458.23, -978.38, 30.69),
-			vec3(460.01, -978.33, 30.69),
-			vec3(462.05, -979.01, 30.69),
-			vec3(462.05, -981.88, 30.69),
 			vec3(1840.92, 3691.63, 34.25),
 			vec3(-437.77, 5988.26, 31.71),
+			vec3(473.481, -971.234, 23.916),
+			vec3(471.775, -972.617, 23.916),
+			vec3(458.297, -996.548, 31.755),
 		},
 		targets = {
-			{ loc = vec3(456.76, -983.18, 30.25),  length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
-			{ loc = vec3(461.73, -983.12, 30.24),  length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
-			{ loc = vec3(462.36, -979.06, 30.16),  length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
-			{ loc = vec3(460.01, -977.94, 30.15),  length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
-			{ loc = vec3(458.04, -978.01, 30.15),  length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
-			{ loc = vec3(462.05, -981.88, 30.69),  length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
 			{ loc = vec3(1840.92, 3691.63, 34.25), length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
 			{ loc = vec3(-437.77, 5988.26, 31.71), length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
+		    { loc = vec3(473.481, -971.234, 23.916), length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
+			{ loc = vec3(471.775, -972.617, 23.916), length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
+			{ loc = vec3(458.297, -996.548, 31.755), length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
 		}
 	},
 
@@ -146,7 +140,7 @@ return {
 			{ name = 'repair_kit',          price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'kq_tow_rope',         price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'drone',               price = 0, metadata = { description = "Police Property" }, },
-			{ name = 'WEAPON_LAW', price = 0, metadata = { registered = true, description = "Police Property", police_property = true, serial = 'POL' }, },
+			{ name = 'WEAPON_LAW',          price = 0, metadata = { registered = true, description = "Police Property", police_property = true, serial = 'POL' }, },
 			-- { name = 'WEAPON_CERAMICPISTOL', price = 0, metadata = { registered = true, description = "Police Property", tint = 5, weapontint = "LSPD Tint", police_property = true, serial = 'POL' }, },
 			-- { name = 'WEAPON_PISTOLXM3',     price = 0, metadata = { registered = true, description = "Police Property", components = { 'at_flashlight' }, tint = 22, weapontint = "LSPD Tint", police_property = true, serial = 'POL' }, },
 			-- { name = 'WEAPON_REVOLVER_MK2',  price = 0, metadata = { registered = true, description = "Police Property", components = { 'at_flashlight' }, tint = 22, weapontint = "Bold LSPD Tint", police_property = true, serial = 'POL' }, },
@@ -1906,6 +1900,23 @@ return {
 		}
 	},
 
+	MHPDMechanic = {
+		name = 'MHPD Mechanic',
+		groups = {
+			['police'] = 0,
+		},
+		inventory = {
+			{ name = 'i4_engine',       label = 'POLICE I4 Turbo 2.5L',   price = 0 },
+			{ name = 'mechanic_tablet', label = 'Police Mechanic Tablet', price = 0 },
+		},
+		locations = {
+			vec3(444.927, -996.323, 24.745)
+		},
+		targets = {
+			{ loc = vec3(444.927, -996.323, 24.745), length = 4.0, width = 4.0, heading = 18.6434, minZ = 28.2, maxZ = 28.6, distance = 2 }
+		}
+	},
+
 	YouTool5 = {
 		name = 'Auto Parts',
 		groups = {
@@ -1941,7 +1952,6 @@ return {
 			{ name = 'f50v12',        label = 'Favo F50 V12 4.7L',          price = 0 },
 			{ name = 'ferrarif12',    label = 'Favo F12 V12 6.3L',          price = 0 },
 			{ name = 'gtaspanov10',   label = 'Spano V10 8.0L',             price = 0 },
-			{ name = 'i4_engine',     label = 'POLICE I4 Turbo 2.5L',       price = 0 },
 			{ name = 'v6_engine',     label = 'POLICE V6 3.3L',             price = 0 },
 			{ name = 'v8_engine',     label = 'POLICE V8 5.7L',             price = 0 },
 		},
@@ -1976,7 +1986,7 @@ return {
 			vec3(1942.6783, 5182.9819, 47.9838),
 		},
 		targets = {
-			{ loc = vec3(1445.300, 6331.128, 23.078), length = 8.0, width = 8.0, heading = -64.298,  minZ = 28.2, maxZ = 28.6, distance = 2 },
+			{ loc = vec3(1445.300, 6331.128, 23.078),    length = 8.0, width = 8.0, heading = -64.298,  minZ = 28.2, maxZ = 28.6, distance = 2 },
 			{ loc = vec3(1942.6783, 5182.9819, 47.9838), length = 8.0, width = 8.0, heading = 357.3487, minZ = 28.2, maxZ = 28.6, distance = 2 },
 		}
 	},
