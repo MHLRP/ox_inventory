@@ -79,9 +79,9 @@ return {
 			vec3(458.297, -996.548, 31.755),
 		},
 		targets = {
-			{ loc = vec3(1840.92, 3691.63, 34.25), length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
-			{ loc = vec3(-437.77, 5988.26, 31.71), length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
-		    { loc = vec3(473.481, -971.234, 23.916), length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
+			{ loc = vec3(1840.92, 3691.63, 34.25),   length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
+			{ loc = vec3(-437.77, 5988.26, 31.71),   length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
+			{ loc = vec3(473.481, -971.234, 23.916), length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
 			{ loc = vec3(471.775, -972.617, 23.916), length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
 			{ loc = vec3(458.297, -996.548, 31.755), length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
 		}
@@ -396,6 +396,29 @@ return {
 		}
 	},
 
+	GeneralStore4 = {
+		name = 'Monroe General Store',
+		inventory = {
+			{ name = 'water',          price = 10 },
+			{ name = 'sandwich',       price = 10 },
+			{ name = 'soda',           price = 10 },
+			{ name = 'sprunk',         price = 10 },
+			{ name = 'cigbox',         price = 100 },
+			{ name = 'teddy',          price = 50, },
+			{ name = 'getwell1',       price = 100, },
+			{ name = 'egobar',         price = 10 },
+			{ name = 'crisps',         price = 10 },
+		},
+		targets = {
+			{
+				ped = `cs_old_man2`,
+				scenario = 'WORLD_HUMAN_STAND_MOBILE',
+				loc = vec3(-447.2476, -1031.1903, 23.8018),
+				heading = 87.9536,
+			}
+		}
+	},
+
 	-- GeneralStore4 = {
 	-- 	name = 'General Store',
 	-- 	inventory = {
@@ -476,7 +499,6 @@ return {
 			{ name = 'morphine10',              label = 'Morphine 10MG',     price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'iak_wheelchair',          label = 'Wheelchair',        price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'crutch',                  label = 'Crutch',            price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'keym',                    label = 'Morgue Key',        price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'stopdiaril',              label = 'Stopdiaril',        price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'zithromed',               label = 'Zithromed',         price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'tylacare',                label = 'Tylacare',          price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
@@ -506,12 +528,13 @@ return {
 			{ name = 'kq_tow_rope',             label = 'Tow Rope',          price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 		},
 		locations = {
-			vec3(330.34, -599.69, 42.79),
+			vec3(-477.743, -997.741, 33.351),
 			vec3(1822.8713, 3666.3740, 34.2710),
 			vec3(-254.9789, 6326.5845, 32.4273)
+			-- -478.2972, -997.1826, 34.3360, 268.3110
 		},
 		targets = {
-			{ loc = vec3(330.34, -599.69, 42.79),        length = 1.5, width = 3.0, heading = 270.0,    minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(-477.743, -997.741, 33.351),    length = 1.5, width = 3.0, heading = 286.2360, minZ = 41.5, maxZ = 43.0, distance = 3 },
 			{ loc = vec3(1822.8713, 3666.3740, 34.2710), length = 1.5, width = 3.0, heading = 210.8633, minZ = 41.5, maxZ = 43.0, distance = 3 },
 			{ loc = vec3(-254.9789, 6326.5845, 32.4273), length = 1.5, width = 3.0, heading = 315.1287, minZ = 41.5, maxZ = 43.0, distance = 3 },
 		}
@@ -530,10 +553,10 @@ return {
 			{ name = 'nightvisionchip',     label = 'Nightvision Chip',    price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 		},
 		locations = {
-			vec3(327.521, -596.243, 42.222),
+			vec3(-486.785, -993.081, 33.292),
 		},
 		targets = {
-			{ loc = vec3(327.521, -596.243, 42.222), length = 1.5, width = 3.0, heading = 70.000, minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(-486.785, -993.081, 33.292), length = 1.5, width = 3.0, heading = 181.8045, minZ = 41.5, maxZ = 43.0, distance = 3 },
 		}
 	},
 
@@ -552,6 +575,27 @@ return {
 		},
 		targets = {
 			{ loc = vec3(-1034.1595, -1425.2166, 4.9661), length = 1.5, width = 3.0, heading = 164.0481, minZ = 41.5, maxZ = 43.0, distance = 3 },
+		}
+	},
+
+
+	MonroeRefreshments = {
+		name = 'Monroe Refreshments',
+		inventory = {
+			{ name = 'water',          price = 10 },
+			{ name = 'sandwich',       price = 10 },
+			{ name = 'soda',           price = 10 },
+			{ name = 'sprunk',         price = 10 },
+			{ name = 'egobar',         price = 10 },
+			{ name = 'crisps',         price = 10 },
+		},
+		targets = {
+			{
+				ped = `a_f_y_business_04`,
+				scenario = 'WORLD_HUMAN_STAND_MOBILE',
+				loc = vec3(-488.7304, -1045.1196, 22.5952),
+				heading = 355.6399,
+			}
 		}
 	},
 
@@ -1136,9 +1180,6 @@ return {
 
 	Pharmacy2 = {
 		name = 'Pharmacy',
-		blip = {
-			id = 51, colour = 38, scale = 0.6
-		},
 		inventory = {
 			{ name = 'tylacare',  price = 20,  currency = 'money' },
 			{ name = 'ibrofenix', price = 20,  currency = 'money' },
@@ -1152,8 +1193,8 @@ return {
 			{
 				ped = `s_f_y_scrubs_01`,
 				scenario = 'WORLD_HUMAN_CLIPBOARD',
-				loc = vec3(375.2799, -829.9399, 28.2914),
-				heading = 267.9131,
+				loc = vec3(-465.0831, -1015.7953, 22.7129),
+				heading = 175.7297,
 			}
 		}
 	},
