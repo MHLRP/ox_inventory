@@ -11813,6 +11813,30 @@ return {
 		description = "License to practice medical",
 	},
 
+	["monroevip1"] = {
+		label = "Monroe VIP Access 1",
+		weight = 1,
+		stack = false,
+		close = false,
+		description = "VIP Access to Monroe VIP Room 1",
+	},
+
+	["monroevip2"] = {
+		label = "Monroe VIP Access 2",
+		weight = 1,
+		stack = false,
+		close = false,
+		description = "VIP Access to Monroe VIP Room 2",
+	},
+
+	["monroevip3"] = {
+		label = "Monroe VIP Access 3",
+		weight = 1,
+		stack = false,
+		close = false,
+		description = "VIP Access to Monroe VIP Room 3",
+	},
+
 	["metalscrap"] = {
 		label = "Metal Scrap",
 		weight = 100,

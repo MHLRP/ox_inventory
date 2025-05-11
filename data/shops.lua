@@ -546,12 +546,15 @@ return {
 			['ambulance'] = 7
 		},
 		inventory = {
-			{ name = 'weed_license',        label = 'Weed License',        price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'medical_license',     label = 'Medical Bag',         price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'cybernetics_license', label = 'Cybernetics License', price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'centralchip',         label = 'Central Chip',        price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'nightvisionchip',     label = 'Nightvision Chip',    price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'cybereye',            label = 'Cyber Eye',           price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'weed_license',        label = 'Weed License',              price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'medical_license',     label = 'Medical Bag',               price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'monroevip1',          label = 'Monroe VIP Access Floor 1', price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'monroevip2',          label = 'Monroe VIP Access Floor 2', price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'monroevip3',          label = 'Monroe VIP Access Floor 3', price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'cybernetics_license', label = 'Cybernetics License',       price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'centralchip',         label = 'Central Chip',              price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'nightvisionchip',     label = 'Nightvision Chip',          price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'cybereye',            label = 'Cyber Eye',                 price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 		},
 		locations = {
 			vec3(-486.785, -993.081, 33.292),
