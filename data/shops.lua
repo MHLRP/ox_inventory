@@ -399,21 +399,21 @@ return {
 	GeneralStore4 = {
 		name = 'Monroe General Store',
 		inventory = {
-			{ name = 'water',          price = 10 },
-			{ name = 'sandwich',       price = 10 },
-			{ name = 'soda',           price = 10 },
-			{ name = 'sprunk',         price = 10 },
-			{ name = 'cigbox',         price = 100 },
-			{ name = 'teddy',          price = 50, },
-			{ name = 'getwell1',       price = 100, },
-			{ name = 'egobar',         price = 10 },
-			{ name = 'crisps',         price = 10 },
+			{ name = 'water',    price = 10 },
+			{ name = 'sandwich', price = 10 },
+			{ name = 'soda',     price = 10 },
+			{ name = 'sprunk',   price = 10 },
+			{ name = 'cigbox',   price = 100 },
+			{ name = 'teddy',    price = 50, },
+			{ name = 'getwell1', price = 100, },
+			{ name = 'egobar',   price = 10 },
+			{ name = 'crisps',   price = 10 },
 		},
 		targets = {
 			{
 				ped = `cs_old_man2`,
 				scenario = 'WORLD_HUMAN_STAND_MOBILE',
-				loc = vec3(-447.2476, -1031.1903, 23.8018),
+				loc = vec3(-447.2476, -1031.1903, 22.8018),
 				heading = 87.9536,
 			}
 		}
@@ -551,6 +551,7 @@ return {
 			{ name = 'cybernetics_license', label = 'Cybernetics License', price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'centralchip',         label = 'Central Chip',        price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'nightvisionchip',     label = 'Nightvision Chip',    price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'cybereye',            label = 'Cyber Eye',           price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 		},
 		locations = {
 			vec3(-486.785, -993.081, 33.292),
@@ -582,12 +583,12 @@ return {
 	MonroeRefreshments = {
 		name = 'Monroe Refreshments',
 		inventory = {
-			{ name = 'water',          price = 10 },
-			{ name = 'sandwich',       price = 10 },
-			{ name = 'soda',           price = 10 },
-			{ name = 'sprunk',         price = 10 },
-			{ name = 'egobar',         price = 10 },
-			{ name = 'crisps',         price = 10 },
+			{ name = 'water',    price = 10 },
+			{ name = 'sandwich', price = 10 },
+			{ name = 'soda',     price = 10 },
+			{ name = 'sprunk',   price = 10 },
+			{ name = 'egobar',   price = 10 },
+			{ name = 'crisps',   price = 10 },
 		},
 		targets = {
 			{
