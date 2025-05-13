@@ -384,7 +384,7 @@ return {
 			{ name = 'beer',           price = 7 },
 			{ name = 'whiskey',        price = 10 },
 			{ name = 'vodka',          price = 12 },
-			{ name = 'fx_scratchcard', price = 20, },
+			{ name = 'fx_scratchcard', price = 60, },
 		},
 		targets = {
 			{
@@ -466,7 +466,7 @@ return {
 			{ name = 'beer',           price = 7 },
 			{ name = 'whiskey',        price = 10 },
 			{ name = 'vodka',          price = 12 },
-			{ name = 'fx_scratchcard', price = 20, },
+			{ name = 'fx_scratchcard', price = 60, },
 		},
 		locations = {
 			vec3(-47.02, -1758.23, 28.42),
