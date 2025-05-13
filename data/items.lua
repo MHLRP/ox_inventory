@@ -16287,6 +16287,14 @@ return {
 		description = "Right Cyberleg Implant",
 	},
 
+	["gorillaarms"] = {
+		label = "Cyber Gorilla Arms",
+		weight = 1800,
+		stack = false,
+		close = true,
+		description = "Cyber Gorilla Arms",
+	},
+
 	["mantisblades"] = {
 		label = "Mantis Blades",
 		weight = 10000,
@@ -16317,6 +16325,14 @@ return {
 		stack = false,
 		close = true,
 		description = "Enhanced Vision Chip Implant",
+	},
+
+	["cyberinhaler"] = {
+		label = "Cyber Inhaler",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Cyber Inhaler",
 	},
 
 	["cybernetics_license"] = {

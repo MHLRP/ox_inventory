@@ -671,6 +671,8 @@ return {
 			{ name = 'rightcyberleg', price = 250000 },
 			{ name = 'mantisblades',  price = 300000 },
 			{ name = 'thermalchip',   price = 200000 },
+			{ name = 'gorillaarms',   price = 200000 },
+			{ name = 'cyberinhaler',  price = 25000 },
 		},
 	},
 
