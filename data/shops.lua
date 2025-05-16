@@ -646,6 +646,9 @@ return {
 			{ name = 'mantisblades',  label = 'Mantis Blades',  price = 0 },
 			{ name = 'centralchip',   label = 'Central Chip',   price = 0 },
 			{ name = 'enhancedchip',  label = 'Enhanced Chip',  price = 0 },
+			{ name = 'thermalchip',   label = 'Thermal Chip',   price = 0 },
+			{ name = 'gorillaarms',   label = 'Gorilla Arms',   price = 0 },
+			{ name = 'cyberinhaler',  label = 'Cyber Inhaler',  price = 0 },
 		},
 		locations = {
 			vec3(881.282, -2225.521, 30.126),
@@ -886,6 +889,7 @@ return {
 			{ name = 'mechanic_tablet',      label = 'Mechanic Tablet',      price = 0 },
 			{ name = 'kq_winch',             label = 'Winch',                price = 0 },
 			{ name = 'kq_tow_rope',          label = 'Tow Rope',             price = 0 },
+			{ name = 'customizableplate',    label = 'Customizable Plate',   price = 0 },
 		},
 		locations = {
 			vec3(2529.9763, 2641.6440, 37.9454)
