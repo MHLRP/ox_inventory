@@ -366,7 +366,7 @@ return {
 	},
 
 	GeneralStore3 = {
-		name = 'Vendetta Store',
+		name = 'PlagueWorks Store',
 		inventory = {
 			{ name = 'water',          price = 10 },
 			{ name = 'sandwich',       price = 10 },
@@ -388,7 +388,7 @@ return {
 		},
 		targets = {
 			{
-				ped = `cs_old_man2`,
+				ped = `csb_chef`,
 				scenario = 'WORLD_HUMAN_STAND_MOBILE',
 				loc = vec3(2543.08, 2638.28, 36.94),
 				heading = 88.50,
@@ -554,6 +554,7 @@ return {
 			{ name = 'cybernetics_license', label = 'Cybernetics License',       price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'centralchip',         label = 'Central Chip',              price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'nightvisionchip',     label = 'Nightvision Chip',          price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'enhancedchip',        label = 'Enhanced Vision Chip',      price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'cybereye',            label = 'Cyber Eye',                 price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 		},
 		locations = {
