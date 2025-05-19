@@ -945,11 +945,13 @@ return {
 			{ name = 'heroin_seed',   price = 6500,   currency = 'black_money' },
 			--{ name = 'rag',           price = 800,  currency = 'black_money' },
 		},
-		locations = {
-			vec3(-491.66, -1030.0, 52.48)
-		},
 		targets = {
-			{ loc = vec3(-491.66, -1030.0, 52.48), length = 0.6, width = 0.5, heading = 3.02, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{
+				ped = `s_m_m_strperf_01`,
+				scenario = 'WORLD_HUMAN_STAND_MOBILE',
+				loc = vec3(4709.6113, 4681.7705, 17.7763),
+				heading = 200.00,
+			}
 		}
 	},
 
