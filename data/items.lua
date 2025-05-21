@@ -16272,7 +16272,7 @@ return {
 	},
 
 	["leftcyberleg"] = {
-		label = "Left Cyber Leg",
+		label = "CyberHeX Left Leg",
 		weight = 2500,
 		stack = false,
 		close = true,
@@ -16280,7 +16280,7 @@ return {
 	},
 
 	["rightcyberleg"] = {
-		label = "Right Cyber Leg",
+		label = "CyberHeX Right Leg",
 		weight = 2500,
 		stack = false,
 		close = true,
@@ -16288,7 +16288,7 @@ return {
 	},
 
 	["gorillaarms"] = {
-		label = "Cyber Gorilla Arms",
+		label = "CyberHeX Gorilla Arms",
 		weight = 1800,
 		stack = false,
 		close = true,
@@ -16296,7 +16296,7 @@ return {
 	},
 
 	["mantisblades"] = {
-		label = "Mantis Blades",
+		label = "CyberHeX Mantis Blades",
 		weight = 10000,
 		stack = false,
 		close = true,
@@ -16304,7 +16304,7 @@ return {
 	},
 
 	["thermalchip"] = {
-		label = "Thermal Chip",
+		label = "CyberHeX Thermal Chip",
 		weight = 200,
 		stack = false,
 		close = true,
@@ -16312,7 +16312,7 @@ return {
 	},
 
 	["nightvisionchip"] = {
-		label = "Nightvision Chip",
+		label = "CyberHeX Nightvision Chip",
 		weight = 200,
 		stack = false,
 		close = true,
@@ -16328,7 +16328,7 @@ return {
 	},
 
 	["cyberinhaler"] = {
-		label = "Cyber Inhaler",
+		label = "CyberHeX Inhaler",
 		weight = 100,
 		stack = true,
 		close = true,
@@ -19116,4 +19116,12 @@ return {
 		close = true,
 		description = nil
 	},
+
+	['ejectbutton'] = {
+		label = 'Ejector Lever',
+		weight = 100,
+		stack = false,
+		close = true,
+		description = 'A special lever that launches people out of a vehicle!',
+	}
 }

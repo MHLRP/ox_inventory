@@ -668,6 +668,15 @@ return {
 		},
 	},
 
+	CyberVending = {
+		name = 'Cyber Vending',
+		inventory = {
+			{ name = 'cybernuts', price = 40, },
+			{ name = 'cyberoil',  price = 60, },
+			{ name = 'bloodbag',  price = 40, },
+		},
+	},
+
 	CyberDoc = {
 		name = 'Cyber Doc',
 		inventory = {
