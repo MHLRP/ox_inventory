@@ -1915,14 +1915,14 @@ return {
 	YouTool2 = {
 		name = 'YouTool Store',
 		inventory = {
-			{ name = 'duct_tape',    price = 250,  currency = 'money' },
-			{ name = 'carradio',     price = 800,  currency = 'money' },
-			{ name = 'gps',          price = 500,  currency = 'money' },
-			{ name = 'jerrycan',     price = 350,  currency = 'money' },
-			{ name = 'toolbox',      price = 2500, currency = 'money' },
-			{ name = 'cleaning_kit', price = 150,  currency = 'money' },
-			{ name = 'cybernuts',    price = 40,   currency = 'money' },
-			{ name = 'cyberoil',     price = 60,   currency = 'money' },
+			{ name = 'duct_tape',        price = 250,  currency = 'money' },
+			{ name = 'carradio',         price = 800,  currency = 'money' },
+			{ name = 'gps',              price = 500,  currency = 'money' },
+			{ name = 'weapon_petrolcan', price = 350,  currency = 'money' },
+			{ name = 'toolbox',          price = 2500, currency = 'money' },
+			{ name = 'cleaning_kit',     price = 150,  currency = 'money' },
+			{ name = 'cybernuts',        price = 40,   currency = 'money' },
+			{ name = 'cyberoil',         price = 60,   currency = 'money' },
 		},
 		targets = {
 			{

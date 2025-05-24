@@ -16332,7 +16332,7 @@ return {
 		weight = 100,
 		stack = true,
 		close = true,
-		description = "Cyber Inhaler",
+		description = "20 Puffs",
 	},
 
 	["cybernetics_license"] = {
