@@ -2345,6 +2345,7 @@ return {
 			{ name = 'ground-beef',                price = 20, currency = 'money' },
 			{ name = 'chicken',                    price = 20, currency = 'money' },
 			{ name = 'hotdog',                     price = 10, currency = 'money' },
+			{ name = 'tofu',                       price = 10, currency = 'money' },
 			{ name = 'fishnchipsrawchickenstrips', price = 20, currency = 'money' },
 			{ name = 'frozen_fishcake',            price = 20, currency = 'money' },
 			{ name = 'frozen_sausage',             price = 20, currency = 'money' },
@@ -2568,6 +2569,7 @@ return {
 		name = 'Grocery Store',
 		inventory = {
 			{ name = 'okra',         price = 10, currency = 'money' },
+			{ name = 'kiwi',         price = 10, currency = 'money' },
 			{ name = 'passionfruit', price = 10, currency = 'money' },
 			{ name = 'pepper',       price = 10, currency = 'money' },
 		},
@@ -2598,6 +2600,7 @@ return {
 		name = 'Grocery Store',
 		inventory = {
 			{ name = 'flour',                  price = 10,  currency = 'money' },
+			{ name = 'cinnamon',               price = 10,  currency = 'money' },
 			{ name = 'softscoopmix',           price = 12,  currency = 'money' },
 			{ name = 'smoothiemix',            price = 12,  currency = 'money' },
 			{ name = 'vanilla',                price = 10,  currency = 'money' },

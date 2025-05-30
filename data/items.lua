@@ -19264,4 +19264,28 @@ return {
 		close = true,
 		description = 'Swella At Goose',
 	},
+
+	['tofu'] = {
+		label = 'Tofu',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'Tofu',
+	},
+
+	['kiwi'] = {
+		label = 'Kiwi',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'Kiwi',
+	},
+
+	['cinnamon'] = {
+		label = 'Cinnamon',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'Cinnamon',
+	},
 }
