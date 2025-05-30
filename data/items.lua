@@ -1276,6 +1276,7 @@ return {
 	['apple'] = { -- Apple good
 		label = 'Apple',
 		weight = 1,
+		degrade = 60 * 72,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1296,6 +1297,7 @@ return {
 	['banana'] = { -- banana good
 		label = 'Banana',
 		weight = 1,
+		degrade = 60 * 72,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1315,6 +1317,7 @@ return {
 	['orange'] = { -- banana good
 		label = 'Orange',
 		weight = 1,
+		degrade = 60 * 72,
 		decay = true,
 		stack = true,
 		close = true,
@@ -16554,6 +16557,7 @@ return {
 
 	["fried_sausage"] = {
 		label = "Fried Sausage",
+		degrade = 60 * 72,
 		weight = 200,
 		stack = true,
 		close = true,
@@ -16606,6 +16610,7 @@ return {
 
 	["mozzarellabread"] = {
 		label = "Mozzarella Bread",
+		degrade = 60 * 72,
 		weight = 200,
 		stack = true,
 		close = true,
@@ -16624,6 +16629,7 @@ return {
 
 	["antipasto"] = {
 		label = "Antipasto",
+		degrade = 60 * 72,
 		weight = 200,
 		stack = true,
 		close = true,
@@ -16662,6 +16668,7 @@ return {
 
 	["fishnchipsgelato"] = {
 		label = "Gelato",
+		degrade = 60 * 72,
 		weight = 200,
 		stack = true,
 		close = true,
@@ -16681,6 +16688,7 @@ return {
 
 	["fried_chocolate"] = {
 		label = "Fried Chocolate Bar",
+		degrade = 60 * 72,
 		weight = 200,
 		stack = true,
 		close = true,
@@ -19123,5 +19131,137 @@ return {
 		stack = false,
 		close = true,
 		description = 'A special lever that launches people out of a vehicle!',
-	}
+	},
+
+	-- Yellowpunk Items
+
+	['cheesy_hawtdawg'] = {
+		label = 'Cheesy Hawwt Dawg',
+		degrade = 60 * 72,
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_hotdog_01',
+				bone = 18905,
+				pos = vec3(0.14, 0.03, 0.01),
+				rot = vec3(85.0, 70.0, -203.0)
+			},
+			usetime = 7500,
+		}
+	},
+
+	['wagyubeefburger'] = {
+		label = 'Wagyu Beef Burger',
+		weight = 100,
+		degrade = 60 * 72,
+		stack = true,
+		close = true,
+		description = "A hamburger that you can eat",
+		client = {
+			status = { hunger = 60 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
+		}
+	},
+
+	['wonton'] = {
+		label = 'Wontons',
+		weight = 100,
+		degrade = 60 * 72,
+		stack = true,
+		close = true,
+		description = "Wontons",
+		client = {
+			status = { hunger = 60 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'dh_nuggets',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
+		}
+	},
+
+	['tofu_rolls'] = {
+		label = 'Tofu Rolls',
+		weight = 100,
+		degrade = 60 * 72,
+		stack = true,
+		close = true,
+		description = "Tofu Rolls",
+		client = {
+			status = { hunger = 60 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_taco_02',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(150.0, 340.0, 170.0)
+			},
+			usetime = 7500,
+		}
+	},
+
+	['nomad_soda'] = {
+		label = 'Nomad Soda',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Drinking too much of this wont kill you. I think.",
+		client = {
+			status = { thirst = 40 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = {
+				model = 'mxc_vend_prop_item_bottle2',
+				pos = vec3(0.025, 0.010, 0.05),
+				rot = vec3(5.0, 5.0, -180.5)
+			},
+			usetime = 5000,
+		}
+	},
+
+	['crunk'] = {
+		label = 'Crunk',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Energizer Crunk",
+		client = {
+			status = { thirst = 60 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = {
+				model = 'mxc_vend_prop_item_bottle2',
+				pos = vec3(0.025, 0.010, 0.05),
+				rot = vec3(5.0, 5.0, -180.5)
+			},
+			usetime = 5000,
+		}
+	},
+
+	['thehoundgreenhand'] = {
+		label = 'The Hound Green Hand',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'The Hound Green Hand',
+	},
+
+	['swella_atgoose'] = {
+		label = 'Swella At Goose',
+		weight = 100,
+		decay = true,
+		stack = true,
+		close = true,
+		description = 'Swella At Goose',
+	},
 }

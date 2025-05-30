@@ -1452,26 +1452,6 @@ return {
 
 	Bar = {
 		name = 'Bar',
-		blip = {
-			id = 93, colour = 0, scale = 0.6
-		},
-		inventory = {
-			{ name = 'beer',    price = 7,  currency = 'money' },
-			{ name = 'whiskey', price = 10, currency = 'money' },
-			{ name = 'vodka',   price = 12, currency = 'money' },
-		},
-		targets = {
-			{
-				ped = `s_f_y_clubbar_01`,
-				scenario = 'WORLD_HUMAN_STAND_MOBILE',
-				loc = vec3(1989.3605, 3046.8394, 46.2093),
-				heading = 321.9189,
-			}
-		}
-	},
-
-	Bar2 = {
-		name = 'Bar',
 		inventory = {
 			{ name = 'beer',    price = 7,  currency = 'money' },
 			{ name = 'whiskey', price = 10, currency = 'money' },
@@ -1487,7 +1467,7 @@ return {
 		}
 	},
 
-	Bar3 = {
+	Bar2 = {
 		name = 'Bar',
 		inventory = {
 			{ name = 'beer',    price = 7,  currency = 'money' },
@@ -1504,7 +1484,7 @@ return {
 		}
 	},
 
-	Bar4 = {
+	Bar3 = {
 		name = 'Bar',
 		inventory = {
 			{ name = 'beer',    price = 7,  currency = 'money' },
@@ -1521,7 +1501,7 @@ return {
 		}
 	},
 
-	Bar5 = {
+	Bar4 = {
 		name = 'Bar',
 		inventory = {
 			{ name = 'beer',    price = 7,  currency = 'money' },
@@ -1538,7 +1518,7 @@ return {
 		}
 	},
 
-	Bar6 = {
+	Bar5 = {
 		society = "medusamechanics",
 		name = 'Bar',
 		inventory = {
@@ -1567,7 +1547,7 @@ return {
 		}
 	},
 
-	Bar7 = {
+	Bar6 = {
 		name = 'Bar',
 		groups = {
 			['lux'] = 0
@@ -1585,7 +1565,7 @@ return {
 		}
 	},
 
-	Bar8 = {
+	Bar7 = {
 		name = 'Liquor Store',
 		inventory = {
 			{ name = 'beer',    price = 7,  currency = 'money' },
@@ -1602,7 +1582,7 @@ return {
 		}
 	},
 
-	Bar9 = {
+	Bar8 = {
 		name = 'Bar',
 		inventory = {
 			{ name = 'beer',    price = 7,  currency = 'money' },
@@ -1617,7 +1597,7 @@ return {
 		}
 	},
 
-	Bar10 = {
+	Bar9 = {
 		name = 'Bar',
 		inventory = {
 			{ name = 'beer',    price = 7,  currency = 'money' },
@@ -1632,7 +1612,7 @@ return {
 		}
 	},
 
-	Bar11 = {
+	Bar10 = {
 		name = 'Hookah Bar',
 		inventory = {
 			{ name = 'beer',           price = 8,   currency = 'money' },
