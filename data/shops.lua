@@ -675,8 +675,14 @@ return {
 		inventory = {
 			{ name = 'cybernuts', price = 40, },
 			{ name = 'cyberoil',  price = 60, },
-			{ name = 'bloodbag',  price = 40, },
+			{ name = 'bloodbag',  price = 2500, },
 		},
+		locations = {
+			vec3(872.150, -2231.391, 30.525),
+		},
+		targets = {
+			{ loc = vec3(872.150, -2231.391, 30.525), length = 1.5, width = 3.0, heading = 74.0, minZ = 41.5, maxZ = 43.0, distance = 3 },
+		}
 	},
 
 	CyberDoc = {
