@@ -2575,6 +2575,7 @@ return {
 		inventory = {
 			{ name = 'okra',         price = 10, currency = 'money' },
 			{ name = 'kiwi',         price = 10, currency = 'money' },
+			{ name = 'cherry',       price = 10, currency = 'money' },
 			{ name = 'passionfruit', price = 10, currency = 'money' },
 			{ name = 'pepper',       price = 10, currency = 'money' },
 		},
