@@ -2351,7 +2351,6 @@ return {
 			{ name = 'ground-beef',                price = 20, currency = 'money' },
 			{ name = 'chicken',                    price = 20, currency = 'money' },
 			{ name = 'hotdog',                     price = 10, currency = 'money' },
-			{ name = 'tofu',                       price = 10, currency = 'money' },
 			{ name = 'fishnchipsrawchickenstrips', price = 20, currency = 'money' },
 			{ name = 'frozen_fishcake',            price = 20, currency = 'money' },
 			{ name = 'frozen_sausage',             price = 20, currency = 'money' },

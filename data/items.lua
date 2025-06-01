@@ -19174,7 +19174,7 @@ return {
 		}
 	},
 
-	['wonton'] = {
+	['wontons'] = {
 		label = 'Wontons',
 		weight = 100,
 		degrade = 60 * 72,
