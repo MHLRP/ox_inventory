@@ -17391,6 +17391,66 @@ return {
 		}
 	},
 
+	["skateboard_01"] = {
+		label = "Regular Skateboard",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "Regular Skateboard",
+		client = {
+			image = "skateboard_01.png",
+			event = "jim-boarding:Skateboard:PickPlace"
+		},
+		buttons = {
+			{
+				label = "Show Board",
+				action = function()
+					TriggerEvent('jim-boarding:client:showoff', { item = "skateboard_01", skip = true })
+				end,
+			}
+		}
+	},
+
+	["skateboard_02"] = {
+		label = "Chocolate Skateboard",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "Chocolate Skateboard",
+		client = {
+			image = "skateboard_02.png",
+			event = "jim-boarding:Skateboard:PickPlace"
+		},
+		buttons = {
+			{
+				label = "Show Board",
+				action = function()
+					TriggerEvent('jim-boarding:client:showoff', { item = "skateboard_02", skip = true })
+				end,
+			}
+		}
+	},
+
+	["skateboard_03"] = {
+		label = "Strawberry Skateboard",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "Strawberry Skateboard",
+		client = {
+			image = "skateboard_03.png",
+			event = "jim-boarding:Skateboard:PickPlace"
+		},
+		buttons = {
+			{
+				label = "Show Board",
+				action = function()
+					TriggerEvent('jim-boarding:client:showoff', { item = "skateboard_03", skip = true })
+				end,
+			}
+		}
+	},
+
 	--- HOTTUB ANYWHERE
 
 	["hottub1"] = {

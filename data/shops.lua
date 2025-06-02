@@ -1774,8 +1774,8 @@ return {
 			id = 120, colour = 0, scale = 0.6
 		},
 		inventory = {
-			{ name = 'skateboard',  price = 50, currency = 'money' },
-			{ name = 'skateboard2', price = 50, currency = 'money' },
+			{ name = 'skateboard_01', price = 50, currency = 'money' },
+			{ name = 'skateboard_02', price = 50, currency = 'money' },
 		},
 		targets = {
 			{
@@ -2844,16 +2844,16 @@ return {
 	WaterActivities = {
 		name = 'Water Activities',
 		inventory = {
-			{ name = 'bed1',        price = 60,  currency = 'money' },
-			{ name = 'bed2',        price = 60,  currency = 'money' },
-			{ name = 'bed3',        price = 60,  currency = 'money' },
-			{ name = 'bed4',        price = 60,  currency = 'money' },
-			{ name = 'circle',      price = 100, currency = 'money' },
-			{ name = 'parasailing', price = 200, currency = 'money' },
-			{ name = 'inflatable',  price = 100, currency = 'money' },
-			{ name = 'bananaboat',  price = 200, currency = 'money' },
-			{ name = 'surfboard',   price = 100, currency = 'money' },
-			{ name = 'ski',         price = 100, currency = 'money' },
+			{ name = 'bed1',         price = 60,  currency = 'money' },
+			{ name = 'bed2',         price = 60,  currency = 'money' },
+			{ name = 'bed3',         price = 60,  currency = 'money' },
+			{ name = 'bed4',         price = 60,  currency = 'money' },
+			{ name = 'circle',       price = 100, currency = 'money' },
+			{ name = 'parasailing',  price = 200, currency = 'money' },
+			{ name = 'inflatable',   price = 100, currency = 'money' },
+			{ name = 'bananaboat',   price = 200, currency = 'money' },
+			{ name = 'surfboard',    price = 100, currency = 'money' },
+			{ name = 'ski',          price = 100, currency = 'money' },
 		},
 		targets = {
 			{
