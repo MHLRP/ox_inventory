@@ -19348,4 +19348,30 @@ return {
 		close = true,
 		description = 'Cinnamon',
 	},
+
+	["tarotminordeck"] = {
+		label = "Tarot Minor Deck",
+		weight = 100,
+		consume = 1,
+		stack = true,
+		close = true,
+		client = {
+			image = "tarotminordeck.png",
+			export = "cdev_tarot.createDeckOXItem",
+			type = 'minor'
+		}
+	},
+
+	["tarotmajordeck"] = {
+		label = "Tarot Major Deck",
+		weight = 100,
+		consume = 1,
+		stack = true,
+		close = true,
+		client = {
+			image = "tarotmajordeck.png",
+			export = "cdev_tarot.createDeckOXItem",
+			type = 'major'
+		}
+	}
 }

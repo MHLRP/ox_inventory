@@ -1041,6 +1041,20 @@ return {
 		}
 	},
 
+	TarotDealer = {
+		name = 'Tarot Dealer',
+		inventory = {
+			{ name = 'tarotminordeck', price = 1000, currency = 'money' },
+			{ name = 'tarotmajordeck', price = 2000, currency = 'money' },
+		},
+		locations = {
+			vec3(4699.433, 4705.909, 12.476)
+		},
+		targets = {
+			{ loc = vec3(4699.433, 4705.909, 12.476), length = 0.6, width = 0.5, heading = 132.288, minZ = 28.2, maxZ = 28.6, distance = 2 }
+		}
+	},
+
 	MetalDetect = {
 		name = 'Metal Detect Shop',
 		inventory = {
@@ -2844,16 +2858,16 @@ return {
 	WaterActivities = {
 		name = 'Water Activities',
 		inventory = {
-			{ name = 'bed1',         price = 60,  currency = 'money' },
-			{ name = 'bed2',         price = 60,  currency = 'money' },
-			{ name = 'bed3',         price = 60,  currency = 'money' },
-			{ name = 'bed4',         price = 60,  currency = 'money' },
-			{ name = 'circle',       price = 100, currency = 'money' },
-			{ name = 'parasailing',  price = 200, currency = 'money' },
-			{ name = 'inflatable',   price = 100, currency = 'money' },
-			{ name = 'bananaboat',   price = 200, currency = 'money' },
-			{ name = 'surfboard',    price = 100, currency = 'money' },
-			{ name = 'ski',          price = 100, currency = 'money' },
+			{ name = 'bed1',        price = 60,  currency = 'money' },
+			{ name = 'bed2',        price = 60,  currency = 'money' },
+			{ name = 'bed3',        price = 60,  currency = 'money' },
+			{ name = 'bed4',        price = 60,  currency = 'money' },
+			{ name = 'circle',      price = 100, currency = 'money' },
+			{ name = 'parasailing', price = 200, currency = 'money' },
+			{ name = 'inflatable',  price = 100, currency = 'money' },
+			{ name = 'bananaboat',  price = 200, currency = 'money' },
+			{ name = 'surfboard',   price = 100, currency = 'money' },
+			{ name = 'ski',         price = 100, currency = 'money' },
 		},
 		targets = {
 			{
