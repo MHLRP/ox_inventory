@@ -843,4 +843,55 @@ return {
 		weight = 70000,
 		groups = { ['medusamechanics'] = 0 }
 	},
+	{
+		coords = vec3(-598.098, -715.342, 36.302),
+		target = {
+			loc = vec3(-598.098, -715.342, 36.302),
+			length = 1.2,
+			width = 5.6,
+			heading = 0,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Open CyberHex Tray'
+		},
+		name = 'cyberhex',
+		label = 'Tray',
+		owner = false,
+		slots = 40,
+		weight = 40000,
+	},
+	{
+		coords = vec3(-599.4645, -716.7106, 36.2849),
+		target = {
+			loc = vec3(-599.4645, -716.7106, 36.2849),
+			length = 1.2,
+			width = 5.6,
+			heading = 0,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Open CyberHex Storage'
+		},
+		name = 'cyberhex2',
+		label = 'CyberHex Storage',
+		owner = false,
+		slots = 70,
+		weight = 70000,
+	},
+	{
+		coords = vec3(-578.3277, -715.0483, 116.8056),
+		target = {
+			loc = vec3(-578.3277, -715.0483, 116.8056),
+			length = 1.2,
+			width = 5.6,
+			heading = 0,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Open CyberHex Storage'
+		},
+		name = 'cyberhex3',
+		label = 'CyberHex Storage',
+		owner = false,
+		slots = 70,
+		weight = 70000,
+	},
 }
