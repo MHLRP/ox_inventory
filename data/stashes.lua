@@ -394,6 +394,24 @@ return {
 		groups = { ['whitewidow'] = 0 }
 	},
 	{
+		coords = vec3(-849.6750, -237.6991, 37.2279),
+		target = {
+			loc = vec3(-849.6750, -237.6991, 37.2279),
+			length = 1.2,
+			width = 5.6,
+			heading = 117.6415,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Open Storage'
+		},
+		name = 'weedshop3',
+		label = 'High Notes Storage',
+		owner = false,
+		slots = 40,
+		weight = 600000,
+		groups = { ['whitewidow'] = 0 }
+	},
+	{
 		coords = vec3(-288.2890, 234.1284, 78.8262),
 		target = {
 			loc = vec3(-288.2890, 234.1284, 78.8262),
