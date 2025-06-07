@@ -1855,7 +1855,7 @@ return {
 			{ name = 'sprayremover',     price = 600,   currency = 'money' },
 			{ name = 'wallet',           price = 500,   currency = 'money' },
 			{ name = 'gasmask',          price = 8000,  currency = 'money' },
-			{ name = 'keyring',          price = 200,   currency = 'money' },
+			-- { name = 'keyring',          price = 200,   currency = 'money' },
 			{ name = 'pickaxe',          price = 1500,  currency = 'money' },
 			{ name = 'fertilizer',       price = 500,   currency = 'money' },
 			{ name = 'wateringcan',      price = 500,   currency = 'money' },
