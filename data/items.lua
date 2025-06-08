@@ -7473,10 +7473,10 @@ return {
 
 	["specialbrownie"] = {
 		label = "Special Brownie",
-		weight = 100,
+		weight = 200,
 		stack = true,
 		close = true,
-		description = "I think I've had these with my cousins at thanksgiving before...",
+		description = "Oh woahhhh",
 	},
 
 	["lsd_vial_three"] = {
@@ -19461,5 +19461,21 @@ return {
 		stack = false,
 		close = true,
 		description = "A heavy, reinforced repair plate used by NOOSE forces for high-risk operations.",
+	},
+
+	["coconut_drink"] = {
+		label = "Coconut Drink",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "Coconut Drink",
+		client = {
+			status = { thirst = 80 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `marxsmods_margaritas_coconut`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 2500,
+			cancel = true,
+			notification = 'You drank a fresh coconut drink'
+		}
 	},
 }
