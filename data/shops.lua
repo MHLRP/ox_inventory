@@ -585,6 +585,26 @@ return {
 		}
 	},
 
+	Medicine4 = {
+		name = 'Cybernetics Cabinet',
+		groups = {
+			['ambulance'] = 2
+		},
+		inventory = {
+			{ name = 'cybernetics_license', label = 'Cybernetics License',       price = 0, metadata = { description = "Property of Pillbox Cybernetics Center" } },
+			{ name = 'centralchip',         label = 'Central Chip',              price = 0, metadata = { description = "Property of Pillbox Cybernetics Center" } },
+			{ name = 'nightvisionchip',     label = 'Nightvision Chip',          price = 0, metadata = { description = "Property of Pillbox Cybernetics Center" } },
+			{ name = 'enhancedchip',        label = 'Enhanced Vision Chip',      price = 0, metadata = { description = "Property of Pillbox Cybernetics Center" } },
+			{ name = 'cybereye',            label = 'Cyber Eye',                 price = 0, metadata = { description = "Property of Pillbox Cybernetics Center" } },
+		},
+		locations = {
+			vec3(327.521, -596.243, 42.222),
+		},
+		targets = {
+			{ loc = vec3(327.521, -596.243, 42.222), length = 1.5, width = 3.0, heading = 70.0, minZ = 41.5, maxZ = 43.0, distance = 3 },
+		}
+	},
+
 
 	MonroeRefreshments = {
 		name = 'Monroe Refreshments',
