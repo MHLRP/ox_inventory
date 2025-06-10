@@ -5793,7 +5793,7 @@ return {
 		weight = 200,
 		stack = true,
 		close = false,
-		description = "A communication device used to contact russian mafia.",
+		description = "A communication device used to contact russian mafia, make sure you use this in an open space.",
 	},
 
 	["iphone"] = {
@@ -5823,7 +5823,7 @@ return {
 		weight = 200,
 		stack = true,
 		close = false,
-		description = "A communication device used to contact russian mafia.",
+		description = "A communication device used to contact russian mafia, make sure you use this in an open space.",
 	},
 
 	["phone_dongle"] = {
@@ -5917,7 +5917,7 @@ return {
 		weight = 200,
 		stack = true,
 		close = false,
-		description = "A communication device used to contact russian mafia.",
+		description = "A communication device used to contact russian mafia, make sure you use this in an open space.",
 	},
 
 	['clothing_bag'] = {
