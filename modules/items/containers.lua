@@ -144,5 +144,40 @@ setContainerProperties('ammocase', {
 	whitelist = { 'ammo-9', 'ammo-45', 'ammo-22', 'ammo-38', 'ammo-44', 'ammo-50', 'ammo-rifle', 'ammo-rifle2', 'ammo-shotgun', 'ammo-sniper' }
 })
 
+setContainerProperties('backpack1', {
+	slots = 20,
+	maxWeight = 15000,
+})
+
+
+setContainerProperties('backpack2', {
+	slots = 20,
+	maxWeight = 15000,
+})
+
+setContainerProperties('duffle1', {
+	slots = 20,
+	maxWeight = 20000,
+})
+
+setContainerProperties('paramedicbag', {
+	slots = 40,
+	maxWeight = 50000,
+})
+
+setContainerProperties('briefcase', {
+	slots = 5,
+	maxWeight = 10000,
+})
+
+setContainerProperties('policepouches', {
+	slots = 6,
+	maxWeight = 20000,
+})
+
+setContainerProperties('policepouches1', {
+	slots = 12,
+	maxWeight = 40000,
+})
 
 return containers

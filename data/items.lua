@@ -6012,9 +6012,6 @@ return {
 		weight = 220,
 		stack = false,
 		consume = 0,
-		client = {
-			export = 'wasabi_backpack.openBackpack'
-		}
 	},
 
 	--- COURT / JUDGE /LAWYER
