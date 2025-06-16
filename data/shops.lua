@@ -591,11 +591,11 @@ return {
 			['ambulance'] = 2
 		},
 		inventory = {
-			{ name = 'cybernetics_license', label = 'Cybernetics License',       price = 0, metadata = { description = "Property of Pillbox Cybernetics Center" } },
-			{ name = 'centralchip',         label = 'Central Chip',              price = 0, metadata = { description = "Property of Pillbox Cybernetics Center" } },
-			{ name = 'nightvisionchip',     label = 'Nightvision Chip',          price = 0, metadata = { description = "Property of Pillbox Cybernetics Center" } },
-			{ name = 'enhancedchip',        label = 'Enhanced Vision Chip',      price = 0, metadata = { description = "Property of Pillbox Cybernetics Center" } },
-			{ name = 'cybereye',            label = 'Cyber Eye',                 price = 0, metadata = { description = "Property of Pillbox Cybernetics Center" } },
+			{ name = 'cybernetics_license', label = 'Cybernetics License',  price = 0, metadata = { description = "Property of Pillbox Cybernetics Center" } },
+			{ name = 'centralchip',         label = 'Central Chip',         price = 0, metadata = { description = "Property of Pillbox Cybernetics Center" } },
+			{ name = 'nightvisionchip',     label = 'Nightvision Chip',     price = 0, metadata = { description = "Property of Pillbox Cybernetics Center" } },
+			{ name = 'enhancedchip',        label = 'Enhanced Vision Chip', price = 0, metadata = { description = "Property of Pillbox Cybernetics Center" } },
+			{ name = 'cybereye',            label = 'Cyber Eye',            price = 0, metadata = { description = "Property of Pillbox Cybernetics Center" } },
 		},
 		locations = {
 			vec3(327.521, -596.243, 42.222),
@@ -657,31 +657,6 @@ return {
 		}
 	},
 
-	Ripperdoc2 = {
-		name = 'Medicine Cabinet',
-		groups = {
-			['ripperdoc'] = 2
-		},
-		inventory = {
-			{ name = 'cybereye',        label = 'Cybereye',          price = 0 },
-			{ name = 'leftcyberleg',    label = 'Left Cyberleg',     price = 0 },
-			{ name = 'rightcyberleg',   label = 'Right Cyberleg',    price = 0 },
-			{ name = 'mantisblades',    label = 'Mantis Blades',     price = 0 },
-			{ name = 'nightvisionchip', label = 'Night Vision Chip', price = 0 },
-			{ name = 'centralchip',     label = 'Central Chip',      price = 0 },
-			{ name = 'enhancedchip',    label = 'Enhanced Chip',     price = 0 },
-			{ name = 'thermalchip',     label = 'Thermal Chip',      price = 0 },
-			{ name = 'gorillaarms',     label = 'Gorilla Arms',      price = 0 },
-			{ name = 'cyberinhaler',    label = 'Cyber Inhaler',     price = 0 },
-		},
-		locations = {
-			vec3(881.282, -2225.521, 30.126),
-		},
-		targets = {
-			{ loc = vec3(881.282, -2225.521, 30.126), length = 1.5, width = 3.0, heading = 172.0, minZ = 41.5, maxZ = 43.0, distance = 3 },
-		}
-	},
-
 	HealthShop = {
 		name = 'Medkit',
 		inventory = {
@@ -703,19 +678,6 @@ return {
 		targets = {
 			{ loc = vec3(872.150, -2231.391, 30.525), length = 1.5, width = 3.0, heading = 74.0, minZ = 41.5, maxZ = 43.0, distance = 3 },
 		}
-	},
-
-	CyberDoc = {
-		name = 'Cyber Doc',
-		inventory = {
-			{ name = 'cybereye',      price = 300000 },
-			{ name = 'leftcyberleg',  price = 250000 },
-			{ name = 'rightcyberleg', price = 250000 },
-			{ name = 'mantisblades',  price = 300000 },
-			{ name = 'thermalchip',   price = 200000 },
-			{ name = 'gorillaarms',   price = 200000 },
-			{ name = 'cyberinhaler',  price = 25000 },
-		},
 	},
 
 	Mansion = {

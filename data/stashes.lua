@@ -844,6 +844,23 @@ return {
 		weight = 70000,
 	},
 	{
+		coords = vec3(881.282, -2225.521, 30.126),
+		target = {
+			loc = vec3(881.282, -2225.521, 30.126),
+			length = 1.2,
+			width = 5.6,
+			heading = 172.0,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Ripperdoc Storage'
+		},
+		name = 'ripperdoc',
+		label = 'Storage',
+		owner = false,
+		slots = 70,
+		weight = 70000,
+	},
+	{
 		coords = vec3(-332.313, -125.943, 38.062),
 		target = {
 			loc = vec3(-332.313, -125.943, 38.062),

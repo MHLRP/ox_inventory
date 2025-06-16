@@ -19587,4 +19587,11 @@ return {
 		close = true,
 		description = "Pink Paint",
 	},
+
+	["cyber_jetpack"] = {
+		weight = 5000,
+		stack = false,
+		close = true,
+		description = "Cyber Jetpack",
+	},
 }
