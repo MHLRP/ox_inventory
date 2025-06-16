@@ -16308,7 +16308,63 @@ return {
 		weight = 10000,
 		stack = false,
 		close = true,
-		description = "Killer Cyber Blades",
+		description = "Regular Cyber Blades",
+	},
+
+	["mantisbladesblack"] = {
+		label = "CyberHeX Mantis Blades Black",
+		weight = 10000,
+		stack = false,
+		close = true,
+		description = "Black Cyber Blades",
+	},
+
+	["mantisbladeswhite"] = {
+		label = "CyberHeX Mantis Blades White",
+		weight = 10000,
+		stack = false,
+		close = true,
+		description = "White Cyber Blades",
+	},
+
+	["mantisbladespink"] = {
+		label = "CyberHeX Mantis Blades Pink",
+		weight = 10000,
+		stack = false,
+		close = true,
+		description = "Pink Cyber Blades",
+	},
+
+	["mantisbladesgray"] = {
+		label = "CyberHeX Mantis Blades Gray",
+		weight = 10000,
+		stack = false,
+		close = true,
+		description = "Gray Cyber Blades",
+	},
+
+	["mantisbladesred"] = {
+		label = "CyberHeX Mantis Blades Red",
+		weight = 10000,
+		stack = false,
+		close = true,
+		description = "Red Cyber Blades",
+	},
+
+	["mantisbladesblue"] = {
+		label = "CyberHeX Mantis Blades Blue",
+		weight = 10000,
+		stack = false,
+		close = true,
+		description = "Blue Cyber Blades",
+	},
+
+	["mantisbladesyellow"] = {
+		label = "CyberHeX Mantis Blades Yellow",
+		weight = 10000,
+		stack = false,
+		close = true,
+		description = "Yellow Cyber Blades",
 	},
 
 	["thermalchip"] = {
@@ -19474,5 +19530,61 @@ return {
 			cancel = true,
 			notification = 'You drank a fresh coconut drink'
 		}
+	},
+
+	["black_paint"] = {
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Black Paint",
+	},
+
+	["white_paint"] = {
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "White Paint",
+	},
+
+	["red_paint"] = {
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Red Paint",
+	},
+
+	["blue_paint"] = {
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Blue Paint",
+	},
+
+	["yellow_paint"] = {
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Yellow Paint",
+	},
+	
+	["green_paint"] = {
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Green Paint",
+	},
+	
+	["grey_paint"] = {
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Grey Paint",
+	},
+
+	["pink_paint"] = {
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Pink Paint",
 	},
 }
