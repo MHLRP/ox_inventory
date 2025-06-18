@@ -19594,4 +19594,53 @@ return {
 		close = true,
 		description = "Cyber Jetpack",
 	},
+
+	["kq_meth_low"] = {
+		label = "Meth (Low grade)",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+
+	["kq_meth_mid"] = {
+		label = "Meth (Medium grade)",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+
+	["kq_meth_high"] = {
+		label = "Meth (High grade)",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+
+	["kq_ethanol"] = {
+		label = "Ethanol",
+		weight = 200,
+		stack = true,
+		close = true,
+	},
+
+	["kq_meth_pills"] = {
+		label = "Pseudoephedrine",
+		weight = 300,
+		stack = true,
+		close = true,
+	},
+
+	["kq_lithium"] = {
+		label = "Lithium pack",
+		weight = 300,
+		stack = true,
+		close = true,
+	},
+
+	["kq_meth_lab_kit"] = {
+		label = "Meth cooking kit",
+		weight = 3000,
+		stack = true,
+		close = true,
+	},
 }

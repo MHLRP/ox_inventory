@@ -1913,6 +1913,7 @@ return {
 			{ name = 'gps',              price = 500,  currency = 'money' },
 			{ name = 'weapon_petrolcan', price = 350,  currency = 'money' },
 			{ name = 'toolbox',          price = 2500, currency = 'money' },
+			{ name = 'kq_lithium',       price = 200,  currency = 'money' },
 			{ name = 'cleaning_kit',     price = 150,  currency = 'money' },
 			{ name = 'cybernuts',        price = 40,   currency = 'money' },
 			{ name = 'cyberoil',         price = 60,   currency = 'money' },
