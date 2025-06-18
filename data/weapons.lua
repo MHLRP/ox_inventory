@@ -808,21 +808,21 @@ return {
 		},
 
 		['WEAPON_SKIPPY'] = {
-			label = 'XyberHex Skippy',
+			label = 'CyberHeX 1732 Arms',
 			weight = 1130,
 			durability = 0.2,
 			ammoname = 'ammo-9',
 		},
 
 		['WEAPON_SILVER'] = {
-			label = 'XyberHex Silver',
+			label = 'CyberHeX 1193 Pheonix',
 			weight = 1400,
 			durability = 0.2,
 			ammoname = 'ammo-9',
 		},
 
 		['WEAPON_MASAMUNE'] = {
-			label = 'XyberHex Masamune',
+			label = 'CyberHex 1337 Coded',
 			weight = 3100,
 			durability = 0.03,
 			ammoname = 'ammo-rifle',
