@@ -806,6 +806,27 @@ return {
 			weight = 600,
 			throwable = true,
 		},
+
+		['WEAPON_SKIPPY'] = {
+			label = 'XyberHex Skippy',
+			weight = 1130,
+			durability = 0.2,
+			ammoname = 'ammo-9',
+		},
+
+		['WEAPON_SILVER'] = {
+			label = 'XyberHex Silver',
+			weight = 1400,
+			durability = 0.2,
+			ammoname = 'ammo-9',
+		},
+
+		['WEAPON_MASAMUNE'] = {
+			label = 'XyberHex Masamune',
+			weight = 3100,
+			durability = 0.03,
+			ammoname = 'ammo-rifle',
+		},
 	},
 
 	Components = {
@@ -834,7 +855,8 @@ return {
 					`COMPONENT_AT_PI_SUPP`,
 					`COMPONENT_AT_PI_SUPP_02`,
 					`COMPONENT_CERAMICPISTOL_SUPP`,
-					`COMPONENT_PISTOLXM3_SUPP`
+					`COMPONENT_PISTOLXM3_SUPP`,
+					`COMPONENT_AT_SKIPPY_SUPP`,
 				},
 				usetime = 2500
 			}
@@ -1895,7 +1917,7 @@ return {
 			label = 'Bean Bag',
 			weight = 20,
 		},
-		
+
 		['ammo-firework'] = {
 			label = 'Firework',
 			weight = 200,
