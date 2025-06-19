@@ -558,6 +558,7 @@ return {
 			{ name = 'nightvisionchip',     label = 'Nightvision Chip',          price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'enhancedchip',        label = 'Enhanced Vision Chip',      price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'cybereye',            label = 'Cyber Eye',                 price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'bloodraw_menu',       label = 'Blood Draw Menu',           price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 		},
 		locations = {
 			vec3(-486.785, -993.081, 33.292),

@@ -19443,7 +19443,7 @@ return {
 		close = true,
 		description = "Tactical carrier from Merryweather Security, designed for mercenary operations.",
 	},
-	
+
 	["pegasus_vanguard_carrier"] = {
 		label = "Pegasus Vanguard Carrier",
 		weight = 1500,
@@ -19451,7 +19451,7 @@ return {
 		close = true,
 		description = "A high-end tactical carrier from Pegasus for elite protection.",
 	},
-	
+
 	["fib_specops_carrier"] = {
 		label = "FIB SpecOps Carrier",
 		weight = 2500,
@@ -19459,7 +19459,7 @@ return {
 		close = true,
 		description = "Special operations carrier for the FIB, offering high protection for covert missions.",
 	},
-	
+
 	["noose_enforcer_carrier"] = {
 		label = "NOOSE Enforcer Carrier",
 		weight = 3000,
@@ -19467,7 +19467,7 @@ return {
 		close = true,
 		description = "Heavy-duty carrier designed for NOOSE enforcement teams.",
 	},
-	
+
 	["armstrong_blackops_carrier"] = {
 		label = "Armstrong BlackOps Carrier",
 		weight = 3500,
@@ -19475,7 +19475,7 @@ return {
 		close = true,
 		description = "Elite carrier from Armstrong Security, used by black ops mercenaries.",
 	},
-	
+
 	["pegasus_light_repair_plate"] = {
 		label = "Pegasus Light Repair Plate",
 		weight = 500,
@@ -19483,7 +19483,7 @@ return {
 		close = true,
 		description = "A basic repair plate for light armor, typically used for quick fixes.",
 	},
-	
+
 	["merryweather_standard_repair_plate"] = {
 		label = "Merryweather Standard Repair Plate",
 		weight = 700,
@@ -19491,7 +19491,7 @@ return {
 		close = true,
 		description = "A mid-tier repair plate with good durability, favored by Merryweather contractors.",
 	},
-	
+
 	["armstrong_elite_repair_plate"] = {
 		label = "Armstrong Elite Repair Plate",
 		weight = 1500,
@@ -19499,7 +19499,7 @@ return {
 		close = true,
 		description = "Elite repair plate for extreme conditions, favored by Armstrong Security black ops.",
 	},
-	
+
 	["fib_tactical_repair_plate"] = {
 		label = "FIB Tactical Repair Plate",
 		weight = 900,
@@ -19507,7 +19507,7 @@ return {
 		close = true,
 		description = "A tactical repair plate used by the FIB for covert operations.",
 	},
-	
+
 	["noose_heavy_repair_plate"] = {
 		label = "NOOSE Heavy Repair Plate",
 		weight = 1200,
@@ -19566,14 +19566,14 @@ return {
 		close = true,
 		description = "Yellow Paint",
 	},
-	
+
 	["green_paint"] = {
 		weight = 100,
 		stack = true,
 		close = true,
 		description = "Green Paint",
 	},
-	
+
 	["grey_paint"] = {
 		weight = 100,
 		stack = true,
@@ -19643,4 +19643,92 @@ return {
 		stack = true,
 		close = true,
 	},
+
+	["bloodraw_menu"] = {
+		label = "Blood Draw Menu",
+		weight = 5,
+		stack = true,
+		close = true,
+		description = "Blood Draw Menu.",
+	},
+
+	["blood_test_kit"] = {
+		label = 'Blood Test Kit',
+		weight = 50,
+		stack = true,
+		close = true,
+		description = 'Used to test blood types',
+	},
+
+	['blood_empty'] = {
+		label = 'Empty Blood Bag',
+		weight = 50,
+		stack = true,
+		close = true,
+		description = 'Empty bag for collecting blood',
+	},
+
+	['blood_ap'] = {
+		label = 'A+ Blood Bag',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'Blood type: A+',
+	},
+
+	['blood_0p'] = {
+		label = 'O+ Blood Bag',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'Blood type: O+',
+	},
+
+	['blood_bp'] = {
+		label = 'B+ Blood Bag',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'Blood type: B+',
+	},
+
+	['blood_an'] = {
+		label = 'A- Blood Bag',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'Blood type: A-',
+	},
+
+	['blood_0n'] = {
+		label = 'O- Blood Bag',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'Blood type: O-',
+	},
+
+	['blood_abp'] = {
+		label = 'AB+ Blood Bag',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'Blood type: AB+',
+	},
+
+	['blood_bn'] = {
+		label = 'B- Blood Bag',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'Blood type: B-',
+	},
+
+	['blood_abn'] = {
+		label = 'AB- Blood Bag',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'Blood type: AB-',
+	}
 }
