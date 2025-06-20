@@ -528,6 +528,8 @@ return {
 			{ name = 'WEAPON_FLASHLIGHT',       label = 'Flashlight',        price = 0, metadata = { registered = true, description = "Property of Los Santos Medical Center", serial = 'EMS' } },
 			{ name = 'weapon_fireextinguisher', label = 'Fire Extinguisher', price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'kq_tow_rope',             label = 'Tow Rope',          price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'blood_test',              label = 'Blood Test Kit',    price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'blood_empty',             label = 'Empty Blood Bag',   price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 		},
 		locations = {
 			vec3(-477.743, -997.741, 33.351),
@@ -992,8 +994,8 @@ return {
 		name = 'Black Market',
 		inventory = {
 			{ name = 'ar15_flash', price = 25000, currency = 'black_money' },
-			{ name = 'ar15_grip', price = 25000, currency = 'black_money' },
-			{ name = 'ar15_mag', price = 40000, currency = 'black_money' },
+			{ name = 'ar15_grip',  price = 25000, currency = 'black_money' },
+			{ name = 'ar15_mag',   price = 40000, currency = 'black_money' },
 			{ name = 'ar15_scope', price = 45000, currency = 'black_money' },
 		},
 		targets = {
