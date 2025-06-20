@@ -19652,7 +19652,7 @@ return {
 		description = "Blood Draw Menu.",
 	},
 
-	["blood_test_kit"] = {
+	["blood_test"] = {
 		label = 'Blood Test Kit',
 		weight = 50,
 		stack = true,
@@ -19682,6 +19682,17 @@ return {
 		stack = true,
 		close = true,
 		description = 'Blood type: O+',
+		client = {
+			status = {
+				thirst = 60,
+				hunger = 40 -- Add this line to also affect hunger
+			},
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 2500,
+			cancel = true,
+			notification = 'You drank some blood'
+		}
 	},
 
 	['blood_bp'] = {
@@ -19690,6 +19701,17 @@ return {
 		stack = true,
 		close = true,
 		description = 'Blood type: B+',
+		client = {
+			status = {
+				thirst = 60,
+				hunger = 40 -- Add this line to also affect hunger
+			},
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 2500,
+			cancel = true,
+			notification = 'You drank some blood'
+		}
 	},
 
 	['blood_an'] = {
@@ -19698,6 +19720,17 @@ return {
 		stack = true,
 		close = true,
 		description = 'Blood type: A-',
+		client = {
+			status = {
+				thirst = 60,
+				hunger = 40 -- Add this line to also affect hunger
+			},
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 2500,
+			cancel = true,
+			notification = 'You drank some blood'
+		}
 	},
 
 	['blood_0n'] = {
@@ -19706,6 +19739,17 @@ return {
 		stack = true,
 		close = true,
 		description = 'Blood type: O-',
+		client = {
+			status = {
+				thirst = 60,
+				hunger = 40 -- Add this line to also affect hunger
+			},
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 2500,
+			cancel = true,
+			notification = 'You drank some blood'
+		}
 	},
 
 	['blood_abp'] = {
@@ -19714,6 +19758,17 @@ return {
 		stack = true,
 		close = true,
 		description = 'Blood type: AB+',
+		client = {
+			status = {
+				thirst = 60,
+				hunger = 40 -- Add this line to also affect hunger
+			},
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 2500,
+			cancel = true,
+			notification = 'You drank some blood'
+		}
 	},
 
 	['blood_bn'] = {
@@ -19722,6 +19777,17 @@ return {
 		stack = true,
 		close = true,
 		description = 'Blood type: B-',
+		client = {
+			status = {
+				thirst = 60,
+				hunger = 40 -- Add this line to also affect hunger
+			},
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 2500,
+			cancel = true,
+			notification = 'You drank some blood'
+		}
 	},
 
 	['blood_abn'] = {
@@ -19730,5 +19796,16 @@ return {
 		stack = true,
 		close = true,
 		description = 'Blood type: AB-',
+		client = {
+			status = {
+				thirst = 60,
+				hunger = 40 -- Add this line to also affect hunger
+			},
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 2500,
+			cancel = true,
+			notification = 'You drank some blood'
+		}
 	}
 }
