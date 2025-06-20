@@ -827,9 +827,99 @@ return {
 			durability = 0.03,
 			ammoname = 'ammo-rifle',
 		},
+
+		['WEAPON_AR15BLACK'] = {
+			label = 'AR15 BLACK',
+			weight = 3000,
+			durability = 0.03,
+			ammoname = 'ammo-rifle'
+		},
+		['WEAPON_AR15BLUE'] = {
+			label = 'AR15 BLUE',
+			weight = 3000,
+			durability = 0.03,
+			ammoname = 'ammo-rifle'
+		},
+		['WEAPON_AR15GREEN'] = {
+			label = 'AR15 GREEN',
+			weight = 3000,
+			durability = 0.03,
+			ammoname = 'ammo-rifle'
+		},
+		['WEAPON_AR15PURPLE'] = {
+			label = 'AR15 PURPLE',
+			weight = 3000,
+			durability = 0.03,
+			ammoname = 'ammo-rifle'
+		},
+		['WEAPON_AR15RED'] = {
+			label = 'AR15 RED',
+			weight = 3000,
+			durability = 0.03,
+			ammoname = 'ammo-rifle'
+		},
+		['WEAPON_AR15WHITE'] = {
+			label = 'AR15 WHITE',
+			weight = 3000,
+			durability = 0.03,
+			ammoname = 'ammo-rifle'
+		},
+		['WEAPON_AR15YELLOW'] = {
+			label = 'AR15 YELLOW',
+			weight = 3000,
+			durability = 0.03,
+			ammoname = 'ammo-rifle'
+		},
+		['WEAPON_AR15ORANGE'] = {
+			label = 'AR15 ORANGE',
+			weight = 3000,
+			durability = 0.03,
+			ammoname = 'ammo-rifle'
+		},
 	},
 
 	Components = {
+
+		['ar15_mag'] = {
+			label = 'AR15 Extended Mag',
+			weight = 280,
+			type = 'magazine',
+			client = {
+				component = {`COMPONENT_CARBINERIFLE_MK2_CLIP_02`},
+				usetime = 2500
+			}
+		},
+		
+		['ar15_flash'] = {
+			label = 'AR15 Flash Light',
+			weight = 280,
+			type = 'flashlight',
+			client = {
+				component = {`COMPONENT_AT_TACTICALCARBINERIFLE_FLSH`},
+				usetime = 2500
+			}
+		},
+
+		['ar15_scope'] = {
+			label = 'AR15 Scope',
+			weight = 280,
+			type = 'sight',
+			client = {
+				component = {`COMPONENT_AT_TACTICALCARBINERIFLE_SCOPE_MEDIUM`},
+				usetime = 2500
+			}
+		},
+
+		['ar15_grip'] = {
+			label = 'AR15 Grip',
+			weight = 280,
+			type = 'grip',
+			client = {
+				component = {`COMPONENT_AT_TACTICALCARBINERIFLE_AFGRIP`},
+				usetime = 2500
+			}
+		},
+
 		['at_flashlight'] = {
 			label = 'Tactical Flashlight',
 			weight = 120,

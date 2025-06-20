@@ -991,8 +991,10 @@ return {
 	BlackMarketFifth = {
 		name = 'Black Market',
 		inventory = {
-			{ name = 'craftingtable', price = 60000, currency = 'money' },
-			{ name = 'gunrack',       price = 20000, currency = 'money' },
+			{ name = 'ar15_flash', price = 25000, currency = 'black_money' },
+			{ name = 'ar15_grip', price = 25000, currency = 'black_money' },
+			{ name = 'ar15_mag', price = 40000, currency = 'black_money' },
+			{ name = 'ar15_scope', price = 45000, currency = 'black_money' },
 		},
 		targets = {
 			{
