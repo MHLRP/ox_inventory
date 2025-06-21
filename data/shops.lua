@@ -2208,6 +2208,20 @@ return {
 		}
 	},
 
+	monroemaryjane = {
+		name = 'Marujuana Booklet',
+		inventory = {
+			{ name = 'weed_booklet', price = 0 },
+		},
+		locations = {
+			vec3(-468.175, -996.502, 23.982)
+		},
+		targets = {
+			{ loc = vec3(-468.175, -996.502, 23.982), length = 0.6, width = 0.5, heading = 3.02, minZ = 28.2, maxZ = 28.6, distance = 2 }
+
+		}
+	},
+
 	highnotes_menu = {
 		name = 'High Notes Menu',
 		inventory = {

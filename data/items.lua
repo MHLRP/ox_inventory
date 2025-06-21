@@ -4730,6 +4730,14 @@ return {
 		description = "High Notes Menu.",
 	},
 
+	["weed_booklet"] = {
+		label = "Weed Booklet",
+		weight = 5,
+		stack = true,
+		close = true,
+		description = "Weed Booklet.",
+	},
+
 	["getwell1"] = {
 		label = "Get Well Card",
 		weight = 5,
