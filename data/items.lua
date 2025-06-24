@@ -16408,7 +16408,7 @@ return {
 	},
 
 	["cybernetics_license"] = {
-		label = "Pillbox Cybernetics ",
+		label = "Pillbox Cybernetics",
 		weight = 100,
 		stack = false,
 		close = true,
@@ -16416,6 +16416,17 @@ return {
 	},
 
 	--- END OF CYBERNETICS
+	
+	--- TELEPORTATION
+	
+	["fusioncell"] = {
+		label = "Fusion Cell (Radioactive)",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "Fusion Reactor Fuel",
+	},
+
 
 	["coin"] = {
 		label = "Coin",
