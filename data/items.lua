@@ -19826,5 +19826,13 @@ return {
 			cancel = true,
 			notification = 'You drank some blood'
 		}
-	}
+	},
+
+	['fortune_cookie'] = {
+		label = 'Fortune Cookie',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'A fortune cookie',
+	},
 }
