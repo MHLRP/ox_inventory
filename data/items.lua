@@ -19833,6 +19833,9 @@ return {
 		weight = 100,
 		stack = true,
 		description = 'A fortune cookie',
+		client = {
+			export = 'PS_FortuneCookie.use'
+		}
 	},
 
 	['vehicle_cover'] = {
