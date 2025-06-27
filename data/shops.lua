@@ -1890,6 +1890,7 @@ return {
 			{ name = 'basketball',       price = 50,    currency = 'money' },
 			{ name = 'baseball',         price = 50,    currency = 'money' },
 			{ name = 'radiocell',        price = 25,    currency = 'money' },
+			{ name = 'vehicle_cover',    price = 1000,  currency = 'money' },
 			{ name = 'fitbit',           price = 400,   currency = 'money' },
 			{ name = 'printer',          price = 2000,  currency = 'money' },
 			{ name = 'cleaningkit',      price = 150,   currency = 'money' },

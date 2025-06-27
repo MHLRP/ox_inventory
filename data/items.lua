@@ -19832,7 +19832,14 @@ return {
 		label = 'Fortune Cookie',
 		weight = 100,
 		stack = true,
-		close = true,
 		description = 'A fortune cookie',
+	},
+
+	['vehicle_cover'] = {
+		label = 'Vehicle Cover',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'A cover for a vehicle',
 	},
 }
