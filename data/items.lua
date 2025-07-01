@@ -11536,6 +11536,14 @@ return {
 		description = "",
 	},
 
+	['killshot'] = {
+		label = 'Killshot V8',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "",
+	},
+
 	["street_tirekit"] = {
 		label = "Street Tire Kit",
 		weight = 100,
@@ -19844,5 +19852,13 @@ return {
 		stack = true,
 		close = true,
 		description = 'A cover for a vehicle',
+	},
+
+	['k5_document'] = {
+		label = 'K5 Document',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'Write out your documents here',
 	},
 }

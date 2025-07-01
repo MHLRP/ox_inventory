@@ -2017,6 +2017,7 @@ return {
 			{ name = 'f50v12',        label = 'Favo F50 V12 4.7L',          price = 0 },
 			{ name = 'ferrarif12',    label = 'Favo F12 V12 6.3L',          price = 0 },
 			{ name = 'gtaspanov10',   label = 'Spano V10 8.0L',             price = 0 },
+			{ name = 'killshot',      label = 'Killshot V8',                price = 0 },
 			{ name = 'v6_engine',     label = 'POLICE V6 3.3L',             price = 0 },
 			{ name = 'v8_engine',     label = 'POLICE V8 5.7L',             price = 0 },
 		},
