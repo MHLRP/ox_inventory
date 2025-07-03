@@ -19861,4 +19861,12 @@ return {
 		close = true,
 		description = 'Write out your documents here',
 	},
+
+	["plateflipper"] = {
+		label = "Plate Flipper",
+		weight = 1000,
+		stack = false,
+		close = true,
+		description = "A device that can hide license plates when installed on vehicles"
+	},
 }
