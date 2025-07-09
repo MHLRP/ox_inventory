@@ -5047,17 +5047,6 @@ return {
 		close = true,
 		consume = 0,
 		description = "Walking stick for ya'll grannies out there.. HAHA",
-		client = {
-			anim = { dict = 'missbigscore2aleadinout@bs_2a_2b_int', clip = 'lester_base_idle', flag = 49 },
-			prop = {
-				model = 'prop_cs_walking_stick', -- need badge props repo
-				pos = vec3(0.00, 0.000, -0.00),
-				rot = vec3(0.0, 0.0, 0.0),
-				bone = 28422
-			},
-			disable = { move = false, car = false, combat = false },
-			usetime = 20000,
-		}
 	},
 
 	["cwnotepad"] = {
