@@ -738,7 +738,7 @@ return {
 	},
 
 	MechanicShop = {
-		name = 'Mechanic Shop',
+		name = 'Medusa Mechanics Shop',
 		groups = {
 			['medusamechanics'] = 0
 		},
@@ -794,7 +794,7 @@ return {
 	},
 
 	MechanicShop2 = {
-		name = 'Mechanic Shop',
+		name = 'Midnight Autos Shop',
 		groups = {
 			['midnightautos'] = 0
 		},
@@ -849,7 +849,7 @@ return {
 	},
 
 	MechanicShop3 = {
-		name = 'Mechanic Shop',
+		name = 'Rex\'s Shop',
 		groups = {
 			['rexsgarage'] = 0
 		},
@@ -900,6 +900,61 @@ return {
 		},
 		targets = {
 			{ loc = vec3(2529.9763, 2641.6440, 37.9454), length = 1.5, width = 3.0, heading = 160.64, minZ = 41.5, maxZ = 43.0, distance = 3 },
+		}
+	},
+
+	MechanicShop4 = {
+		name = 'PlagueWorks Shop',
+		groups = {
+			['plagueworks'] = 0
+		},
+		inventory = {
+			{ name = 'harness',              label = 'Racing Harness',       price = 0 },
+			{ name = 'engine_oil',           label = 'Engine Oil',           price = 0 },
+			{ name = 'tyre_replacement',     label = 'Tyre Replacement',     price = 0 },
+			{ name = 'clutch_replacement',   label = 'Clutch Replacement',   price = 0 },
+			{ name = 'manual_gearbox',       label = 'Manual Gearbox',       price = 0 },
+			{ name = 'air_filter',           label = 'Air Filter',           price = 0 },
+			{ name = 'spark_plug',           label = 'Spark Plug',           price = 0 },
+			{ name = 'brakepad_replacement', label = 'Brakepad Replacement', price = 0 },
+			{ name = 'suspension_parts',     label = 'Suspension Parts',     price = 0 },
+			{ name = 'turbocharger',         label = 'Turbocharger',         price = 0 },
+			{ name = 'ev_motor',             label = 'EV Motor',             price = 0 },
+			{ name = 'ev_battery',           label = 'EV Battery',           price = 0 },
+			{ name = 'ev_coolant',           label = 'EV Coolant',           price = 0 },
+			{ name = 'awd_drivetrain',       label = 'AWD Drivetrain',       price = 0 },
+			{ name = 'ceramic_brakes',       label = 'Ceramic Brakes',       price = 0 },
+			{ name = 'rwd_drivetrain',       label = 'RWD Drivetrain',       price = 0 },
+			{ name = 'fwd_drivetrain',       label = 'FWD Drivetrain',       price = 0 },
+			{ name = 'slick_tyres',          label = 'Slick Tyres',          price = 0 },
+			{ name = 'semi_slick_tyres',     label = 'Semi Slick Tyres',     price = 0 },
+			{ name = 'offroad_tyres',        label = 'Offroad Tyres',        price = 0 },
+			{ name = 'drift_tuning_kit',     label = 'Drift Tuning Kit',     price = 0 },
+			{ name = 'lighting_controller',  label = 'Lighting Controller',  price = 0 },
+			{ name = 'stancing_kit',         label = 'Stancer Kit',          price = 0 },
+			{ name = 'cosmetic_part',        label = 'Cosmetic Parts',       price = 0 },
+			{ name = 'respray_kit',          label = 'Respray Kit',          price = 0 },
+			{ name = 'vehicle_wheels',       label = 'Vehicle Wheels Set',   price = 0 },
+			{ name = 'tyre_smoke_kit',       label = 'Tyre Smoke Kit',       price = 0 },
+			{ name = 'bulletproof_tyres',    label = 'Bulletproof Tyres',    price = 0 },
+			{ name = 'extras_kit',           label = 'Extras Kit',           price = 0 },
+			{ name = 'nitrous_bottle',       label = 'Nitrous Bottle',       price = 0 },
+			{ name = 'empty_nitrous_bottle', label = 'Empty Nitrous Bottle', price = 0 },
+			{ name = 'nitrous_install_kit',  label = 'Nitrous Install Kit',  price = 0 },
+			{ name = 'cleaning_kit',         label = 'Cleaning Kit',         price = 0 },
+			{ name = 'repair_kit',           label = 'Repair Kit',           price = 0 },
+			{ name = 'duct_tape',            label = 'Duct Tape',            price = 0 },
+			{ name = 'performance_part',     label = 'Performance Parts',    price = 0 },
+			{ name = 'mechanic_tablet',      label = 'Mechanic Tablet',      price = 0 },
+			{ name = 'kq_winch',             label = 'Winch',                price = 0 },
+			{ name = 'kq_tow_rope',          label = 'Tow Rope',             price = 0 },
+			{ name = 'customizableplate',    label = 'Customizable Plate',   price = 0 },
+		},
+		locations = {
+			vec(31167.5796, 2621.6748, 38.3738)
+		},
+		targets = {
+			{ loc = vec3(1167.5796, 2621.6748, 38.3738), length = 1.5, width = 3.0, heading = 190.0, minZ = 41.5, maxZ = 43.0, distance = 3 },
 		}
 	},
 
