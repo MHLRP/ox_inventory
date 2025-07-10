@@ -368,7 +368,7 @@ return {
 	},
 
 	GeneralStore3 = {
-		name = 'PlagueWorks Store',
+		name = "Rex's Garage",
 		inventory = {
 			{ name = 'water',          price = 10 },
 			{ name = 'sandwich',       price = 10 },
