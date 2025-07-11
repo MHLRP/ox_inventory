@@ -5045,7 +5045,6 @@ return {
 		weight = 1000,
 		stack = true,
 		close = true,
-		consume = 0,
 		description = "Walking stick for ya'll grannies out there.. HAHA",
 	},
 
