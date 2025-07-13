@@ -2043,6 +2043,7 @@ return {
 			['medusamechanics'] = 0,
 			['midnightautos'] = 0,
 			['rexsgarage'] = 0,
+			['plagueworks'] = 0,
 		},
 		inventory = {
 			{ name = 'r488sound',     label = 'R488 Engine 2.5L',           price = 0 },
