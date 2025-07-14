@@ -19857,4 +19857,41 @@ return {
 		close = true,
 		description = "A device that can hide license plates when installed on vehicles"
 	},
+
+	['theyummygreyman'] = {
+		label = 'The Yummy Greyman',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = '',
+	},
+
+	['domsdelight'] = {
+		label = 'Dom\'s Delight',
+		weight = 1000,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			status = { thirst = 30 },
+			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+			prop = {
+				model = 'brum_shake_strawberry',
+				pos = vec3(0.16, -0.02, -0.06),
+				rot = vec3(270.00, 0.00, 0.00),
+				bone = 57005
+			},
+			usetime = 12000,
+		}
+	},
+
+	['robotoyumyum'] = {
+		label = 'Roboto Yum Yum',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = '',
+	},
 }
