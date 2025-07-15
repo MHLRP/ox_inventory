@@ -790,7 +790,7 @@ return {
 		label = "Safe Storage",
 		owner = true,
 		slots = 20,
-		weight = 40000,
+		weight = 60000,
 		groups = { ['rustborncollective'] = 4 }
 	},
 	{
@@ -808,7 +808,7 @@ return {
 		label = "Safe Storage",
 		owner = true,
 		slots = 20,
-		weight = 40000,
+		weight = 200000,
 		groups = { ['rustborncollective'] = 4 }
 	},
 	{
@@ -826,7 +826,7 @@ return {
 		label = "Safe Storage",
 		owner = true,
 		slots = 20,
-		weight = 40000,
+		weight = 200000,
 		groups = { ['rustborncollective'] = 4 }
 	},
 	{
@@ -844,7 +844,7 @@ return {
 		label = "Safe Storage",
 		owner = true,
 		slots = 20,
-		weight = 40000,
+		weight = 400000,
 		groups = { ['rustborncollective'] = 4 }
 	},
 	{
