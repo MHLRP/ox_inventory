@@ -19894,4 +19894,40 @@ return {
 		close = true,
 		description = '',
 	},
+
+	['cydroid1'] = {
+		label = 'Cydroid Pet',
+		weight = 400,
+		stack = false,
+		close = true,
+		description = 'Just a cute robotic friend',
+        client = {
+            event = 'cydroids:toggleProp',     -- IMPORTANT use always this event 
+            args = { item = 'cydroid1' }             -- here use the same name you used for the item: "drone1"
+        }
+    },
+
+	['cydroid2'] = {
+		label = 'Cydroid Pet',
+		weight = 400,
+		stack = false,
+		close = true,
+		description = 'Just a cute robotic friend',
+        client = {
+            event = 'cydroids:toggleProp',     -- IMPORTANT use always this event 
+            args = { item = 'cydroid2' }             -- here use the same name you used for the item: "drone1"
+        }
+    },
+
+	['cydroid3'] = {
+		label = 'Cydroid Pet',
+		weight = 400,
+		stack = false,
+		close = true,
+		description = 'Just a cute robotic friend',
+        client = {
+            event = 'cydroids:toggleProp',     -- IMPORTANT use always this event 
+            args = { item = 'cydroid3' }             -- here use the same name you used for the item: "drone1"
+        }
+    },
 }
