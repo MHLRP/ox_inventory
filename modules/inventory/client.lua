@@ -2,8 +2,9 @@ if not lib then return end
 
 local Inventory = {}
 
-Inventory.Dumpsters = lib.array:new(218085040, 666561306, -58485588, -206690185, 1511880420, 682791951)
+-- Inventory.Dumpsters = lib.array:new(218085040, 666561306, -58485588, -206690185, 1511880420, 682791951)
 
+--[[
 if shared.networkdumpsters then
     -- Make sure dumpsters are frozen to ensure persistent position across clients
     SetInterval(function()
@@ -26,7 +27,9 @@ if shared.networkdumpsters then
         end
     end, 3000)
 end
+--]]
 
+--[[
 function Inventory.OpenDumpster(entity)
     if shared.networkdumpsters then
         local coords = GetEntityCoords(entity)
@@ -46,6 +49,7 @@ function Inventory.OpenDumpster(entity)
         client.openInventory('dumpster', 'dumpster' .. netId)
     end
 end
+--]]
 
 local Utils = require 'modules.utils.client'
 local Vehicles = lib.load('data.vehicles')
@@ -107,6 +111,7 @@ function Inventory.OpenTrunk(entity)
     end
 end
 
+--[[
 if shared.target then
     exports.ox_target:addModel(Inventory.Dumpsters, {
         icon = 'fas fa-dumpster',
@@ -124,15 +129,16 @@ if shared.target then
             return Inventory.OpenTrunk(data.entity)
         end
     })
-else --]]
+else
 	local dumpsters = table.create(0, #Inventory.Dumpsters)
 
 	for i = 1, #Inventory.Dumpsters do
-		dumpsters[Inventory.Dumpsters[i]] = true
-	end
+		-- dumpsters[Inventory.Dumpsters[i]] -- = true
+-- 	end
 
-	Inventory.Dumpsters = dumpsters
-end
+-- 	Inventory.Dumpsters = dumpsters
+-- end
+--]]
 
 ---@param search 'slots' | 1 | 'count' | 2
 ---@param item table | string
