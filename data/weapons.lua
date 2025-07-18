@@ -882,6 +882,12 @@ return {
 			durability = 0.03,
 			ammoname = 'ammo-rifle'
 		},
+		['WEAPON_AR15PINK'] = {
+			label = 'AR15 PINK',
+			weight = 3000,
+			durability = 0.03,
+			ammoname = 'ammo-rifle'
+		},
 	},
 
 	Components = {
