@@ -60,6 +60,12 @@ return {
 			durability = 0.1,
 		},
 
+		['WEAPON_BALLCRUSHER'] = {
+			label = 'Ball Crusher',
+			weight = 1134,
+			durability = 0.1,
+		},
+
 		['WEAPON_FLASHBANG'] = {
 			label = 'K-J4 Flashbang',
 			weight = 600,
