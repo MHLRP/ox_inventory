@@ -903,6 +903,26 @@ return {
 			label = 'Fish',
 			weight = 30,
 		},
+
+		['WEAPON_SPATEL'] = {
+			label = 'Spatchula',
+			weight = 10,
+		},
+
+		['WEAPON_KRUK'] = {
+			label = 'Chair',
+			weight = 100,
+		},
+
+		['WEAPON_MAND'] = {
+			label = 'Oil Fryer',
+			weight = 60,
+		},
+
+		['WEAPON_PAN'] = {
+			label = 'Frying Pan',
+			weight = 40,
+		},
 	},
 
 	Components = {
