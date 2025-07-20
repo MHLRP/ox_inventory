@@ -17331,6 +17331,24 @@ return {
 		}
 	},
 
+	["grilled_fish"] = {
+		label = "Grilled Fish",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_snr_fish',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
+		}
+	},
+
 	["frozen_sausage"] = {
 		label = "Frozen Sausage",
 		weight = 200,
