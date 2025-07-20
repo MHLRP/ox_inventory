@@ -888,6 +888,21 @@ return {
 			durability = 0.03,
 			ammoname = 'ammo-rifle'
 		},
+
+		['WEAPON_GLIZZY'] = {
+			label = 'Glizzy',
+			weight = 100,
+		},
+
+		['WEAPON_BONG'] = {
+			label = 'Bong',
+			weight = 5,
+		},
+
+		['WEAPON_FISH'] = {
+			label = 'Fish',
+			weight = 30,
+		},
 	},
 
 	Components = {
