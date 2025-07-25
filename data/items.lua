@@ -4649,6 +4649,14 @@ return {
 		description = "Burgershot Menu.",
 	},
 
+	["doppler_menu"] = {
+		label = "Doppler Menu",
+		weight = 5,
+		stack = true,
+		close = true,
+		description = "Doppler Menu.",
+	},
+
 	["yellowpunk_menu"] = {
 		label = "Yellowpunk Menu",
 		weight = 5,
@@ -13515,7 +13523,7 @@ return {
 
 	["borangeslush"] = {
 		label = "Orange Slush",
-		weight = 350,
+		weight = 100,
 		degrade = 60 * 72,
 		decay = true,
 		stack = true,
@@ -13528,6 +13536,58 @@ return {
 			notification = 'You quenched your thirst with an orange slushie!'
 		}
 	},
+
+	["blueberryslush"] = {
+		label = "Blueberry Slush",
+		weight = 100,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = {
+			status = { thirst = 30 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `v_ind_cfcup`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'You quenched your thirst with an blueberry slushie!'
+		}
+	},
+
+	["cherryslush"] = {
+		label = "Cherry Slush",
+		weight = 100,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = {
+			status = { thirst = 30 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `v_ind_cfcup`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'You quenched your thirst with an cherry slushie!'
+		}
+	},
+
+	["buffalowings"] = {
+		label = "Buffalo Wings",
+		weight = 50,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			status = { hunger = 60 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'dh_nuggets',
+				bone = 18905,
+				pos = vec3(0.14, 0.03, 0.01),
+				rot = vec3(85.0, 70.0, -203.0)
+			},
+			usetime = 7500,
+		}
+	},
+
 	["bespresso"] = {
 		label = "Espresso",
 		weight = 100,

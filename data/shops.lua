@@ -2116,47 +2116,47 @@ return {
 		}
 	},
 
-	MovieShop = {
-		name = 'Movie Shop',
-		inventory = {
-			{ name = 'popcorn',  price = 10, currency = 'money' },
-			{ name = 'hotdog',   price = 10, currency = 'money' },
-			{ name = 'mustard',  price = 10, currency = 'money' },
-			{ name = 'ketchup',  price = 10, currency = 'money' },
-			{ name = 'cola',     price = 25, currency = 'money' },
-			{ name = 'water',    price = 8,  currency = 'money' },
-			{ name = 'fr_fries', price = 8,  currency = 'money' },
-		},
-		targets = {
-			{
-				ped = `a_f_y_business_01`,
-				scenario = 'WORLD_HUMAN_STAND_MOBILE',
-				loc = vec3(343.0839, 197.4672, 101.9963),
-				heading = 152.8247,
-			}
-		}
-	},
+	-- MovieShop = {
+	-- 	name = 'Movie Shop',
+	-- 	inventory = {
+	-- 		{ name = 'popcorn',  price = 10, currency = 'money' },
+	-- 		{ name = 'hotdog',   price = 10, currency = 'money' },
+	-- 		{ name = 'mustard',  price = 10, currency = 'money' },
+	-- 		{ name = 'ketchup',  price = 10, currency = 'money' },
+	-- 		{ name = 'cola',     price = 25, currency = 'money' },
+	-- 		{ name = 'water',    price = 8,  currency = 'money' },
+	-- 		{ name = 'fr_fries', price = 8,  currency = 'money' },
+	-- 	},
+	-- 	targets = {
+	-- 		{
+	-- 			ped = `a_f_y_business_01`,
+	-- 			scenario = 'WORLD_HUMAN_STAND_MOBILE',
+	-- 			loc = vec3(343.0839, 197.4672, 101.9963),
+	-- 			heading = 152.8247,
+	-- 		}
+	-- 	}
+	-- },
 
-	MovieShop2 = {
-		name = 'Movie Shop',
-		inventory = {
-			{ name = 'popcorn',  price = 10, currency = 'money' },
-			{ name = 'hotdog',   price = 10, currency = 'money' },
-			{ name = 'mustard',  price = 10, currency = 'money' },
-			{ name = 'ketchup',  price = 10, currency = 'money' },
-			{ name = 'cola',     price = 25, currency = 'money' },
-			{ name = 'water',    price = 8,  currency = 'money' },
-			{ name = 'fr_fries', price = 8,  currency = 'money' },
-		},
-		targets = {
-			{
-				ped = `a_f_y_business_01`,
-				scenario = 'WORLD_HUMAN_STAND_MOBILE',
-				loc = vec3(351.1995, 194.5133, 101.9962),
-				heading = 152.7675,
-			}
-		}
-	},
+	-- MovieShop2 = {
+	-- 	name = 'Movie Shop',
+	-- 	inventory = {
+	-- 		{ name = 'popcorn',  price = 10, currency = 'money' },
+	-- 		{ name = 'hotdog',   price = 10, currency = 'money' },
+	-- 		{ name = 'mustard',  price = 10, currency = 'money' },
+	-- 		{ name = 'ketchup',  price = 10, currency = 'money' },
+	-- 		{ name = 'cola',     price = 25, currency = 'money' },
+	-- 		{ name = 'water',    price = 8,  currency = 'money' },
+	-- 		{ name = 'fr_fries', price = 8,  currency = 'money' },
+	-- 	},
+	-- 	targets = {
+	-- 		{
+	-- 			ped = `a_f_y_business_01`,
+	-- 			scenario = 'WORLD_HUMAN_STAND_MOBILE',
+	-- 			loc = vec3(351.1995, 194.5133, 101.9962),
+	-- 			heading = 152.7675,
+	-- 		}
+	-- 	}
+	-- },
 
 	JewelryStore = {
 		name = 'Jewelery Store',
@@ -2266,6 +2266,20 @@ return {
 		},
 		targets = {
 			{ loc = vec3(-636.6, 233.79, 82.41), length = 0.6, width = 0.5, heading = 3.02, minZ = 28.2, maxZ = 28.6, distance = 2 }
+
+		}
+	},
+
+	dopplermenu = {
+		name = 'Doppler Menu',
+		inventory = {
+			{ name = 'doppler_menu', price = 0 },
+		},
+		locations = {
+			vec3(341.4952, 196.6600, 102.9963)
+		},
+		targets = {
+			{ loc = vec3(341.4952, 196.6600, 102.9963), length = 0.6, width = 0.5, heading = 3.02, minZ = 28.2, maxZ = 28.6, distance = 2 }
 
 		}
 	},
