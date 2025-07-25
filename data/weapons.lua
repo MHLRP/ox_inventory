@@ -140,6 +140,13 @@ return {
 			ammoname = 'ammo-9'
 		},
 
+		['WEAPON_ASTRAPISTOL'] = {
+			label = 'Astra Pistol',
+			weight = 800,
+			durability = 0.2,
+			ammoname = 'ammo-9'
+		},
+
 		['WEAPON_PISTOLXM3'] = {
 			label = 'WM 29 Pistol',
 			weight = 969,
