@@ -19976,4 +19976,12 @@ return {
 			usetime = 8000,
 		},
 	},
+
+	['taser_cartridge'] = {
+		label = 'Taser Cartridge',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'A cartridge for the taser',
+	},
 }
