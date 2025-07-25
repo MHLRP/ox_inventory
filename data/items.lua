@@ -5330,11 +5330,11 @@ return {
 
 	["lighter"] = {
 		label = "Lighter",
-		weight = 0,
+		weight = 2,
 		stack = true,
 		close = true,
 		usable = true,
-		description = "On new years eve a nice fire to stand next to",
+		description = "You can start a fire with this",
 	},
 
 	["aluminumcan"] = {
@@ -19948,4 +19948,32 @@ return {
             args = { item = 'cydroid3' }             -- here use the same name you used for the item: "drone1"
         }
     },
+
+	['turtle_soup'] = {
+		label = 'Turtle Soup',
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Some people like to eat turtles",
+		client = {
+			status = { hunger = 60 },
+			prop = {
+				[1] = {
+					model = 'scully_spoon_pho',
+					bone = 57005,
+					pos = vec3(0.14, 0.02, 0.01),
+					rot = vec3(-118.0, 192.0, 24.0)
+				},
+				[2] = {
+					model = 'prop_cs_bowl_01b',
+					--bone = 57005	
+					pos = vec3(-0.03, 0.01, 0.05),
+					rot = vec3(0.0, 0.0, -40.0)
+				},
+			},
+			anim = { dict = 'anim@eat@fork', clip = 'fork_clip' },
+			usetime = 8000,
+		},
+	},
 }
