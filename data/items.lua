@@ -5341,8 +5341,10 @@ return {
 		weight = 2,
 		stack = true,
 		close = true,
-		usable = true,
 		description = "You can start a fire with this",
+		server = {
+			export = 'qb-smallresources.useCustomLighter'
+		}
 	},
 
 	["aluminumcan"] = {
