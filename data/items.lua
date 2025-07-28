@@ -4657,6 +4657,14 @@ return {
 		description = "Doppler Menu.",
 	},
 
+	["afterlite_menu"] = {
+		label = "Afterlite Menu",
+		weight = 5,
+		stack = true,
+		close = true,
+		description = "Afterlite Menu.",
+	},
+
 	["yellowpunk_menu"] = {
 		label = "Yellowpunk Menu",
 		weight = 5,

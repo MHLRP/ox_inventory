@@ -2284,6 +2284,20 @@ return {
 		}
 	},
 
+	afterlitemenu = {
+		name = 'Afterlite Menu',
+		inventory = {
+			{ name = 'afterlite_menu', price = 0 },
+		},
+		locations = {
+			vec3(485.459, -896.234, 9.428)
+		},
+		targets = {
+			{ loc = vec3(485.459, -896.234, 9.428), length = 0.6, width = 0.5, heading = 3.02, minZ = 28.2, maxZ = 28.6, distance = 2 }
+
+		}
+	},
+
 	monroemaryjane = {
 		name = 'Marujuana Booklet',
 		inventory = {
