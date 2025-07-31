@@ -2788,10 +2788,10 @@ return {
 			{ name = 'zatweednutrition', price = 200, currency = 'money' },
 		},
 		locations = {
-			vec3(2667.065, 3387.107, 56.111)
+			vec3(2667.2498, 3382.1660, 57.1163)
 		},
 		targets = {
-			{ loc = vec3(2667.065, 3387.107, 56.111), length = 1.0, width = 0.8, heading = 64.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{ loc = vec3(2667.2498, 3382.1660, 57.1163), length = 1.0, width = 0.8, heading = 346.6338, minZ = 28.2, maxZ = 28.6, distance = 2 }
 		}
 	},
 
