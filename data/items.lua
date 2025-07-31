@@ -8535,9 +8535,6 @@ return {
 	['female_seed'] = {
 		label = 'Female Seed',
 		weight = 1,
-		client = {
-			export = 'Renewed-Weed.placeWeed',
-		}
 	},
 
 	['male_seed'] = {
@@ -8558,7 +8555,7 @@ return {
 			{
 				label = 'Make into a brick',
 				action = function(slot)
-					exports['Renewed-Weed']:makeBrick(slot)
+					exports['moonlit-weedruns']:makeBrick(slot)
 				end
 			}
 		}
@@ -8567,19 +8564,13 @@ return {
 	['dryingrack'] = {
 		label = 'Drying Rack',
 		weight = 2500,
-		consume = 0,
-		server = {
-			export = 'Renewed-Weed.placeDryingRack'
-		}
+		description = "Smaller drying rack",
 	},
 
 	['dryingrackadvanced'] = {
 		label = 'Advanced Drying Rack',
 		weight = 5000,
-		consume = 0,
-		server = {
-			export = 'Renewed-Weed.placeDryingRack'
-		}
+		description = "Bigger drying rack",
 	},
 
 	['weedbrick'] = {

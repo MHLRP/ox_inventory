@@ -54,7 +54,7 @@ return {
 			{ name = 'harness',             price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'kq_tow_rope',         price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'drone',               price = 0, metadata = { description = "Police Property" }, },
-			{ name = 'taser_cartridge',      price = 0, metadata = { description = "Police Property" }, },
+			{ name = 'taser_cartridge',     price = 0, metadata = { description = "Police Property" }, },
 			-- { name = 'WEAPON_LAW',          price = 0, metadata = { registered = true, description = "Police Property", police_property = true, serial = 'POL' }, },
 			{ name = 'WEAPON_COMBATPISTOL', price = 0, metadata = { registered = true, description = "Police Property", tint = 5, weapontint = "LSPD Tint", police_property = true, serial = 'POL' }, },
 			-- { name = 'WEAPON_CERAMICPISTOL', price = 0, metadata = { registered = true, description = "Police Property", tint = 5, weapontint = "LSPD Tint", police_property = true, serial = 'POL' }, },
@@ -142,7 +142,7 @@ return {
 			{ name = 'repair_kit',          price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'kq_tow_rope',         price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'drone',               price = 0, metadata = { description = "Police Property" }, },
-			{ name = 'taser_cartridge',      price = 0, metadata = { description = "Police Property" }, },
+			{ name = 'taser_cartridge',     price = 0, metadata = { description = "Police Property" }, },
 			-- { name = 'WEAPON_LAW',          price = 0, metadata = { registered = true, description = "Police Property", police_property = true, serial = 'POL' }, },
 			{ name = 'WEAPON_COMBATPISTOL', price = 0, metadata = { registered = true, description = "Police Property", tint = 5, weapontint = "LSPD Tint", police_property = true, serial = 'POL' }, },
 			-- { name = 'WEAPON_CERAMICPISTOL', price = 0, metadata = { registered = true, description = "Police Property", tint = 5, weapontint = "LSPD Tint", police_property = true, serial = 'POL' }, },
@@ -579,8 +579,8 @@ return {
 			['ambulance'] = 0
 		},
 		inventory = {
-			{ name = 'bandage',      label = 'Bandage',     price = 0, metadata = { description = "Property of Vespucci Firestation" } },
-			{ name = 'paramedicbag', label = 'Medical Bag', price = 0, metadata = { description = "Property of Vespucci Firestation" } },
+			{ name = 'bandage',                 label = 'Bandage',           price = 0, metadata = { description = "Property of Vespucci Firestation" } },
+			{ name = 'paramedicbag',            label = 'Medical Bag',       price = 0, metadata = { description = "Property of Vespucci Firestation" } },
 			{ name = 'prescription_pad',        label = 'Prescription Pad',  price = 0, metadata = { description = "Property of Vespucci Firestation" } },
 			{ name = 'paramedicbag',            label = 'Medical Bag',       price = 0, metadata = { description = "Property of Vespucci Firestation" } }, -- Pretty self explanatory, price may be set to 'false' to make free
 			{ name = 'medikit',                 label = 'First-Aid Kit',     price = 0, metadata = { description = "Property of Vespucci Firestation" } },
@@ -1268,7 +1268,8 @@ return {
 		name = 'Weed Shop',
 		inventory = {
 			{ name = 'female_seed',        price = 3000, currency = 'money' },
-			{ name = 'male_seed',          price = 3000, currency = 'money' },
+			{ name = 'zatplanter',         price = 4000, currency = 'money' },
+			-- { name = 'male_seed',          price = 3000, currency = 'money' }, hmm... not sure if we need this
 			{ name = 'dryingrack',         price = 2500, currency = 'money' },
 			{ name = 'dryingrackadvanced', price = 5000, currency = 'money' },
 		},
@@ -1994,6 +1995,14 @@ return {
 			{ name = 'boombox',          price = 500,   currency = 'money' },
 			{ name = 'umbrella',         price = 50,    currency = 'money' },
 			{ name = 'camera',           price = 150,   currency = 'money' },
+			{ name = 'zatwalllight',     price = 600,   currency = 'money' },
+			{ name = 'zatfan01',         price = 150,   currency = 'money' },
+			{ name = 'zatbluelight',     price = 800,   currency = 'money' },
+			{ name = 'zatceilinglight',  price = 1500,  currency = 'money' },
+			{ name = 'zatwallfan',       price = 800,   currency = 'money' },
+			{ name = 'zatresfan',        price = 200,   currency = 'money' },
+			{ name = 'zatpatioheater',   price = 2000,  currency = 'money' },
+			{ name = 'zatheater',        price = 500,   currency = 'money' },
 		},
 		targets = {
 			{
@@ -2769,6 +2778,19 @@ return {
 		}
 	},
 
+	GroceryStore19 = {
+		name = 'Grocery Store',
+		inventory = {
+			{ name = 'zatweednutrition', price = 200, currency = 'money' },
+		},
+		locations = {
+			vec3(2667.065, 3387.107, 56.111)
+		},
+		targets = {
+			{ loc = vec3(2667.065, 3387.107, 56.111), length = 1.0, width = 0.8, heading = 64.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
+		}
+	},
+
 	GroceryStoreFront = {
 		name = 'Grocery Store',
 		inventory = {
@@ -2790,6 +2812,7 @@ return {
 			{ name = 'bhotchocolatepowder',    price = 10,  currency = 'money' },
 			{ name = 'extrato-baunilha',       price = 10,  currency = 'money' },
 			{ name = 'bhoney',                 price = 10,  currency = 'money' },
+			{ name = 'zatwaterbottleempty',    price = 10,  currency = 'money' },
 			{ name = 'bice',                   price = 10,  currency = 'money' },
 			{ name = 'graham_cracker',         price = 10,  currency = 'money' },
 			{ name = 'bcaramelsyrup',          price = 10,  currency = 'money' },
