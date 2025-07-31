@@ -20268,4 +20268,142 @@ return {
 			image = "zatwaterbottleempty.png",
 		}
 	},
+
+	["ball_1"] = {
+		label = "Basketball",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Basketball",
+	},
+
+	["ball_2"] = {
+		label = "Basketball",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Basketball",
+	},
+
+	["ball_3"] = {
+		label = "Basketball",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Basketball",
+	},	
+
+	["ball_4"] = {
+		label = "Basketball",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Basketball",
+	},
+	
+
+	["ball_5"] = {
+		label = "Basketball",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Basketball",
+	},
+
+	["ball_6"] = {
+		label = "Basketball",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Basketball",
+	},														
+
+	["ball_7"] = {
+		label = "Basketball",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Basketball",
+	},
+
+	["ball_8"] = {
+		label = "Basketball",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Basketball",
+	},
+
+	["ball_9"] = {
+		label = "Basketball",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Basketball",
+	},	
+
+	["ball_10"] = {
+		label = "Basketball",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Basketball",
+	},
+	
+
+	["ball_11"] = {
+		label = "Basketball",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Basketball",
+	},
+
+	["ball_12"] = {
+		label = "Basketball",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Basketball",
+	},
+
+	["ball_13"] = {
+		label = "Basketball",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Basketball",
+	},
+
+	["ball_14"] = {
+		label = "Basketball",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Basketball",
+	},
+
+	["ball_15"] = {
+		label = "Basketball",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Basketball",
+	},
+
+	["ball_16"] = {
+		label = "Basketball",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Basketball",
+	},
+
+	["ball_17"] = {
+		label = "Basketball",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Basketball",
+	},
 }
