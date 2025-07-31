@@ -247,6 +247,198 @@ Item('rc-bandito', function(data, slot)
 	end)
 end)
 
+local FanProps = {
+    [1] = "prop_fan_01",
+    [2] = "v_res_fa_fan", 
+    [3] = "prop_wall_vent_02"
+}
+
+Item('zatfan01', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			TriggerEvent("zat-weed:client:UseItem", slot.name, FanProps[1])
+			TriggerServerEvent("zat-weed:server:RemoveItemOx", slot, nil)
+		end
+	end)
+end)
+
+Item('zatresfan', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			TriggerEvent("zat-weed:client:UseItem", slot.name, FanProps[2])
+			TriggerServerEvent("zat-weed:server:RemoveItemOx", slot, nil)
+		end
+	end)	
+end)
+
+Item('zatwallfan', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			TriggerEvent("zat-weed:client:UseItem", slot.name, FanProps[3])
+			TriggerServerEvent("zat-weed:server:RemoveItemOx", slot, nil)
+		end
+	end)
+end)
+
+local HeaterProps = {
+    [1] = "prop_elec_heater_01",
+    [2] = "prop_patio_heater_01", 
+}
+
+Item('zatheater', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			TriggerEvent("zat-weed:client:UseItem", slot.name, HeaterProps[1])
+			TriggerServerEvent("zat-weed:server:RemoveItemOx", slot, nil)
+		end
+	end)
+end)
+
+Item('zatpatioheater', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			TriggerEvent("zat-weed:client:UseItem", slot.name, HeaterProps[2])
+			TriggerServerEvent("zat-weed:server:RemoveItemOx", slot, nil)
+		end
+	end)
+end)
+
+
+local LightProps = {
+    [1] = "prop_wall_light_05a",
+    [2] = "ch_prop_ch_lamp_ceiling_w_01a", 
+    [3] = "h4_prop_x17_sub_lampa_small_blue"
+}
+
+Item('zatwalllight', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			TriggerEvent("zat-weed:client:UseItem", slot.name, LightProps[1])
+			TriggerServerEvent("zat-weed:server:RemoveItemOx", slot, nil)
+		end
+	end)
+end)
+
+Item('zatceilinglight', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			TriggerEvent("zat-weed:client:UseItem", slot.name, LightProps[2])
+			TriggerServerEvent("zat-weed:server:RemoveItemOx", slot, nil)
+		end
+	end)
+end)
+
+Item('zatbluelight', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			TriggerEvent("zat-weed:client:UseItem", slot.name, LightProps[3])
+			TriggerServerEvent("zat-weed:server:RemoveItemOx", slot, nil)
+		end
+	end)
+end)
+
+local PlanterProps = {
+    [1] = "prop_garden",
+    [2] = "prop_weed_rack_xs",
+    [3] = "prop_rack_dryer_s",
+    [4] = "bkr_prop_weed_table_01a",
+    [5] = "prop_water_setup"
+}
+
+Item('zatplanter', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			TriggerEvent("zat-weed:client:UseItem", slot.name, PlanterProps[1])
+			TriggerServerEvent("zat-weed:server:RemoveItemOx", slot, nil)
+		end
+	end)
+end)
+
+Item('zatweedrackxs', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			TriggerEvent("zat-weed:client:UseItem", slot.name, PlanterProps[2])
+			TriggerServerEvent("zat-weed:server:RemoveItemOx", slot, nil)
+		end
+	end)
+end)
+
+Item('zatweedracks', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			TriggerEvent("zat-weed:client:UseItem", slot.name, PlanterProps[3])
+			TriggerServerEvent("zat-weed:server:RemoveItemOx", slot, nil)
+		end
+	end)
+end)
+
+Item('zatweedtable', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			TriggerEvent("zat-weed:client:UseItem", slot.name, PlanterProps[4])
+			TriggerServerEvent("zat-weed:server:RemoveItemOx", slot, nil)
+		end
+	end)
+end)
+
+Item('zatwatersetup', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			TriggerEvent("zat-weed:client:UseItemStrict", slot.name, PlanterProps[5])
+			TriggerServerEvent("zat-weed:server:RemoveItemOx", slot, nil)
+		end
+	end)
+end)
+
+---
+Item('zatwaterbottleempty', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			TriggerEvent("zat-weed:client:fillWater")
+		end
+	end)
+end)
+
+local WeedProps = {
+    [1] = "bkr_prop_weed_bud_01a",
+    [2] = "bkr_prop_weed_med_01a",
+    [3] = "bkr_prop_weed_med_01b",
+    [4] = "bkr_prop_weed_lrg_01a",
+    [5] = "bkr_prop_weed_lrg_01b"
+}
+
+Item('zatweedseed', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			TriggerEvent("zat-weed:client:UseItem", slot.name, WeedProps[1], slot.metadata)
+			TriggerServerEvent("zat-weed:server:RemoveItemOx", slot, nil)
+			
+		end
+	end)
+end)
+
+Item('zatpackedweed', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			local count = ox_inventory:GetItemCount("zatrollingpaper")
+			if count >= 5 then
+				TriggerEvent("zat-weed:client:rollIt", slot.metadata)
+				TriggerServerEvent("zat-weed:server:RemoveItemOx", slot, nil)
+				TriggerServerEvent("zat-weed:server:RemoveRollingPapersOx")
+			end
+		end
+	end)
+end)
+
+Item('zatjoint', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			TriggerEvent("zat-weed:client:UseJoint", slot.metadata.purity)
+			TriggerServerEvent("zat-weed:server:RemoveItemOx", slot, nil)
+		end
+	end)
+end)
+
 -----------------------------------------------------------------------------------------------
 
 exports('Items', function(item) return getItem(nil, item) end)

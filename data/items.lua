@@ -20054,4 +20054,227 @@ return {
 		close = true,
 		description = 'A cartridge for the taser',
 	},
+
+	["zatresfan"] = {
+		label = "Modern Fan",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "Fan - 60 and 120 RPM...",
+		client = {
+			image = "zatresfan.png",
+		}
+	},
+	["zatrollingpaper"] = {
+		label = "Rolling Paper",
+		weight = 2000,
+		stack = true,
+		close = true,
+		description = "Rolling paper",
+		client = {
+			image = "zatrollingpaper.png",
+		}
+	},
+	
+	["zatpackedweed"] = {
+		label = "Packed Weed",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "Weed ready for sale",
+		client = {
+			image = "zatpackedweed.png",
+		}
+	},
+	
+	["zatpatioheater"] = {
+		label = "Patio Heater",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "Patio heater - LOH 21°C...",
+		client = {
+			image = "zatpatioheater.png",
+		}
+	},
+	
+	["zatweedbranch"] = {
+		label = "Weed Branch",
+		weight = 10000,
+		stack = false,
+		close = true,
+		client = {
+			image = "zatweedbranch.png",
+		},
+		description = "Weed plant",
+	},
+	["zatceilinglight"] = {
+		label = "Ceiling Light",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "ceiling light...",
+		client = {
+			image = "zatceilinglight.png",
+		}
+	},
+	
+	["zatbluelight"] = {
+		label = "Blue Light",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "Blue Wall Light - Perfect for plant growth...",
+		client = {
+			image = "zatbluelight.png",
+		}
+	},
+	["zatwalllight"] = {
+		label = "Wall Light",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "Wall Light...",
+		client = {
+			image = "zatwalllight.png",
+		}
+	},
+	
+	["zatweedseed"] = {
+		label = "Weed Seed",
+		weight = 0,
+		stack = false,
+		close = true,
+		description = "Weed Seed",
+		client = {
+			image = "zatweedseed.png",
+		}
+	},
+	
+	["zatweedtable"] = {
+		label = "Table",
+		weight = 0,
+		stack = true,
+		close = true,
+		description = "Table with Full weed Setup",
+		client = {
+			image = "zatweedtable.png",
+		}
+	},
+	
+	["zatweedracks"] = {
+		label = "Medium Weed Rack",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Weed Rack with max 5 slots...",
+		client = {
+			image = "zatweedracks.png",
+		}
+	},
+	["zatplanter"] = {
+		label = "Planter",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Home made Garden...",
+		client = {
+			image = "zatplanter.png",
+		}
+	},
+	
+	["zatwaterbottlefull"] = {
+		label = "Water Bottle Full",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Water Bottle...",
+		client = {
+			image = "zatwaterbottlefull.png",
+		}
+	},
+	
+	["zatwatersetup"] = {
+		label = "Water Filtration",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Water Filtration Setup...",
+		client = {
+			image = "zatwatersetup.png",
+		}
+	},
+	["zatfan01"] = {
+		label = "Fan",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "Fan - 20 and 50 RPM...",
+		client = {
+			image = "zatfan01.png",
+		}
+	},
+	
+	["zatweedrackxs"] = {
+		label = "Small Weed Rack",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Weed Rack with max 3 slots...",
+		client = {
+			image = "zatweedrackxs.png",
+		}
+	},
+	["zatweednutrition"] = {
+		label = "Plant Fertilizer",
+		weight = 2000,
+		stack = true,
+		close = true,
+		description = "Plant nutrition",
+		client = {
+			image = "zatweednutrition.png",
+		}
+	},
+	["zatheater"] = {
+		label = "Wall Heater",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "Electrical wall heater - LOH 10°C...",
+		client = {
+			image = "zatheater.png",
+		}
+	},
+	
+	["zatwallfan"] = {
+		label = "Wall Fan",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "Fan - 80 and 200 RPM...",
+		client = {
+			image = "zatwallfan.png",
+		}
+	},
+	["zatjoint"] = {
+		label = "Joint",
+		weight = 0,
+		stack = false,
+		close = true,
+		description = "Sidney would be very proud at you",
+		client = {
+			image = "zatjoint.png",
+		}
+	},
+	
+	["zatwaterbottleempty"] = {
+		label = "Water Bottle Empty",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Water Bottle...",
+		client = {
+			image = "zatwaterbottleempty.png",
+		}
+	},
 }
