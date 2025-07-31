@@ -758,6 +758,24 @@ return {
 		weight = 200000,
 	},
 	{
+		coords = vec3(-1055.6438, -1432.4359, 4.9732),
+		target = {
+			loc = vec3(-1055.6438, -1432.4359, 4.9732),
+			length = 1.2,
+			width = 5.6,
+			heading = 78.9837,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Shelf'
+		},
+		name = 'fireshelf',
+		label = "Storage Shelf",
+		owner = false,
+		slots = 10,
+		groups = { ['firefighter'] = 5 },
+		weight = 10000,
+	},
+	{
 		coords = vec3(5010.4482, -5758.9038, 28.8594),
 		target = {
 			loc = vec3(5010.4482, -5758.9038, 28.8594),
