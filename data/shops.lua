@@ -190,7 +190,8 @@ return {
 			vec3(22.56, -1109.89, 29.80),
 			vec3(2567.69, 294.38, 108.73),
 			vec3(-1117.58, 2698.61, 18.55),
-			vec3(842.44, -1033.42, 28.19)
+			vec3(842.44, -1033.42, 28.19),
+			vec3(-662.12, -933.57, 20.82),
 		},
 		targets = {
 			{ ped = `s_m_y_ammucity_01`, scenario = 'WORLD_HUMAN_COP_IDLES', distance = 5.0, loc = vec3(817.5814, -2157.4331, 28.5905),  heading = 82.1826 },
@@ -200,7 +201,8 @@ return {
 			{ ped = `s_m_y_ammucity_01`, scenario = 'WORLD_HUMAN_COP_IDLES', distance = 5.0, loc = vec3(15.2496, -1104.2432, 28.7897),   heading = 247.0457 },
 			{ ped = `s_m_y_ammucity_01`, scenario = 'WORLD_HUMAN_COP_IDLES', distance = 5.0, loc = vec3(2567.6060, 292.6360, 107.7348),  heading = 352.9428 },
 			{ ped = `s_m_y_ammucity_01`, scenario = 'WORLD_HUMAN_COP_IDLES', distance = 5.0, loc = vec3(-1118.5908, 2700.0757, 17.5541), heading = 216.9921 },
-			{ ped = `s_m_y_ammucity_01`, scenario = 'WORLD_HUMAN_COP_IDLES', distance = 5.0, loc = vec3(841.9879, -1035.2577, 27.1948),  heading = 350.8371 }
+			{ ped = `s_m_y_ammucity_01`, scenario = 'WORLD_HUMAN_COP_IDLES', distance = 5.0, loc = vec3(841.9879, -1035.2577, 27.1948),  heading = 350.8371 },
+			{ ped = `s_m_y_ammucity_01`, scenario = 'WORLD_HUMAN_COP_IDLES', distance = 5.0, loc = vec3(-662.1206, -933.5761, 20.8292), heading = 172.1045 },
 		}
 	},
 
