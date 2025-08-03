@@ -8534,6 +8534,8 @@ return {
 
 	['female_seed'] = {
 		label = 'Female Seed',
+		stack = false,
+		close = true,
 		weight = 1,
 	},
 
