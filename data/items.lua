@@ -10462,22 +10462,31 @@ return {
 	['guitar_electric'] = {
 		label = 'Electric Guitar',
 		stack = false,
-		description = 'Use /electric',
-		weight = 6229,
+		description = 'Use to play electric guitar',
+		weight = 400,
+		client = {
+			export = 'moonlit-instruments.guitar_electric'
+		}
 	},
 
 	['guitar_acoustic'] = {
 		label = 'Acoustic Guitar',
 		stack = false,
-		description = 'Use /guitar',
-		weight = 3629,
+		description = 'Use to play acoustic guitar',
+		weight = 800,
+		client = {
+			export = 'moonlit-instruments.guitar_acoustic'
+		}
 	},
 
 	['bongos'] = {
 		label = 'Bongos',
 		stack = false,
-		description = 'Use /bongo',
-		weight = 820,
+		description = 'Use to play bongos',
+		weight = 100,
+		client = {
+			export = 'moonlit-instruments.bongos'
+		}
 	},
 
 	--- WORK
@@ -16473,9 +16482,9 @@ return {
 	},
 
 	--- END OF CYBERNETICS
-	
+
 	--- TELEPORTATION
-	
+
 	["fusioncell"] = {
 		label = "Fusion Cell (Radioactive)",
 		weight = 100,
@@ -19980,11 +19989,11 @@ return {
 		stack = false,
 		close = true,
 		description = 'Just a cute robotic friend',
-        client = {
-            event = 'cydroids:toggleProp',     -- IMPORTANT use always this event 
-            args = { item = 'cydroid1' }             -- here use the same name you used for the item: "drone1"
-        }
-    },
+		client = {
+			event = 'cydroids:toggleProp', -- IMPORTANT use always this event
+			args = { item = 'cydroid1' } -- here use the same name you used for the item: "drone1"
+		}
+	},
 
 	['cydroid2'] = {
 		label = 'Cydroid Pet',
@@ -19992,11 +20001,11 @@ return {
 		stack = false,
 		close = true,
 		description = 'Just a cute robotic friend',
-        client = {
-            event = 'cydroids:toggleProp',     -- IMPORTANT use always this event 
-            args = { item = 'cydroid2' }             -- here use the same name you used for the item: "drone1"
-        }
-    },
+		client = {
+			event = 'cydroids:toggleProp', -- IMPORTANT use always this event
+			args = { item = 'cydroid2' } -- here use the same name you used for the item: "drone1"
+		}
+	},
 
 	['cydroid3'] = {
 		label = 'Cydroid Pet',
@@ -20004,11 +20013,11 @@ return {
 		stack = false,
 		close = true,
 		description = 'Just a cute robotic friend',
-        client = {
-            event = 'cydroids:toggleProp',     -- IMPORTANT use always this event 
-            args = { item = 'cydroid3' }             -- here use the same name you used for the item: "drone1"
-        }
-    },
+		client = {
+			event = 'cydroids:toggleProp', -- IMPORTANT use always this event
+			args = { item = 'cydroid3' } -- here use the same name you used for the item: "drone1"
+		}
+	},
 
 	['turtle_soup'] = {
 		label = 'Turtle Soup',
@@ -20066,7 +20075,7 @@ return {
 			image = "zatrollingpaper.png",
 		}
 	},
-	
+
 	["zatpackedweed"] = {
 		label = "Packed Weed",
 		weight = 100,
@@ -20077,7 +20086,7 @@ return {
 			image = "zatpackedweed.png",
 		}
 	},
-	
+
 	["zatpatioheater"] = {
 		label = "Patio Heater",
 		weight = 100,
@@ -20088,7 +20097,7 @@ return {
 			image = "zatpatioheater.png",
 		}
 	},
-	
+
 	["zatweedbranch"] = {
 		label = "Weed Branch",
 		weight = 10000,
@@ -20109,7 +20118,7 @@ return {
 			image = "zatceilinglight.png",
 		}
 	},
-	
+
 	["zatbluelight"] = {
 		label = "Blue Light",
 		weight = 100,
@@ -20130,7 +20139,7 @@ return {
 			image = "zatwalllight.png",
 		}
 	},
-	
+
 	["zatweedseed"] = {
 		label = "Weed Seed",
 		weight = 0,
@@ -20141,7 +20150,7 @@ return {
 			image = "zatweedseed.png",
 		}
 	},
-	
+
 	["zatweedtable"] = {
 		label = "Table",
 		weight = 0,
@@ -20152,7 +20161,7 @@ return {
 			image = "zatweedtable.png",
 		}
 	},
-	
+
 	["zatweedracks"] = {
 		label = "Medium Weed Rack",
 		weight = 100,
@@ -20173,7 +20182,7 @@ return {
 			image = "zatplanter.png",
 		}
 	},
-	
+
 	["zatwaterbottlefull"] = {
 		label = "Water Bottle Full",
 		weight = 100,
@@ -20184,7 +20193,7 @@ return {
 			image = "zatwaterbottlefull.png",
 		}
 	},
-	
+
 	["zatwatersetup"] = {
 		label = "Water Filtration",
 		weight = 100,
@@ -20205,7 +20214,7 @@ return {
 			image = "zatfan01.png",
 		}
 	},
-	
+
 	["zatweedrackxs"] = {
 		label = "Small Weed Rack",
 		weight = 100,
@@ -20236,7 +20245,7 @@ return {
 			image = "zatheater.png",
 		}
 	},
-	
+
 	["zatwallfan"] = {
 		label = "Wall Fan",
 		weight = 100,
@@ -20257,7 +20266,7 @@ return {
 			image = "zatjoint.png",
 		}
 	},
-	
+
 	["zatwaterbottleempty"] = {
 		label = "Water Bottle Empty",
 		weight = 100,
@@ -20291,7 +20300,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Basketball",
-	},	
+	},
 
 	["ball_4"] = {
 		label = "Basketball",
@@ -20300,7 +20309,7 @@ return {
 		close = true,
 		description = "Basketball",
 	},
-	
+
 
 	["ball_5"] = {
 		label = "Basketball",
@@ -20316,7 +20325,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Basketball",
-	},														
+	},
 
 	["ball_7"] = {
 		label = "Basketball",
@@ -20340,7 +20349,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Basketball",
-	},	
+	},
 
 	["ball_10"] = {
 		label = "Basketball",
@@ -20349,7 +20358,7 @@ return {
 		close = true,
 		description = "Basketball",
 	},
-	
+
 
 	["ball_11"] = {
 		label = "Basketball",
