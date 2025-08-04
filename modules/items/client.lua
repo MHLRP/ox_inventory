@@ -248,9 +248,9 @@ Item('rc-bandito', function(data, slot)
 end)
 
 local FanProps = {
-	[1] = "prop_fan_01",
-	[2] = "v_res_fa_fan",
-	[3] = "prop_wall_vent_02"
+    [1] = "prop_fan_01",
+    [2] = "v_res_fa_fan", 
+    [3] = "prop_wall_vent_02"
 }
 
 Item('zatfan01', function(data, slot)
@@ -268,7 +268,7 @@ Item('zatresfan', function(data, slot)
 			TriggerEvent("zat-weed:client:UseItem", slot.name, FanProps[2])
 			TriggerServerEvent("zat-weed:server:RemoveItemOx", slot, nil)
 		end
-	end)
+	end)	
 end)
 
 Item('zatwallfan', function(data, slot)
@@ -281,8 +281,8 @@ Item('zatwallfan', function(data, slot)
 end)
 
 local HeaterProps = {
-	[1] = "prop_elec_heater_01",
-	[2] = "prop_patio_heater_01",
+    [1] = "prop_elec_heater_01",
+    [2] = "prop_patio_heater_01", 
 }
 
 Item('zatheater', function(data, slot)
@@ -305,9 +305,9 @@ end)
 
 
 local LightProps = {
-	[1] = "prop_wall_light_05a",
-	[2] = "ch_prop_ch_lamp_ceiling_w_01a",
-	[3] = "h4_prop_x17_sub_lampa_small_blue"
+    [1] = "prop_wall_light_05a",
+    [2] = "ch_prop_ch_lamp_ceiling_w_01a", 
+    [3] = "h4_prop_x17_sub_lampa_small_blue"
 }
 
 Item('zatwalllight', function(data, slot)
@@ -338,11 +338,11 @@ Item('zatbluelight', function(data, slot)
 end)
 
 local PlanterProps = {
-	[1] = "prop_garden",
-	[2] = "prop_weed_rack_xs",
-	[3] = "prop_rack_dryer_s",
-	[4] = "bkr_prop_weed_table_01a",
-	[5] = "prop_water_setup"
+    [1] = "prop_garden",
+    [2] = "prop_weed_rack_xs",
+    [3] = "prop_rack_dryer_s",
+    [4] = "bkr_prop_weed_table_01a",
+    [5] = "prop_water_setup"
 }
 
 Item('zatplanter', function(data, slot)
@@ -354,7 +354,7 @@ Item('zatplanter', function(data, slot)
 	end)
 end)
 
-Item('dryingrack', function(data, slot)
+Item('zatweedrackxs', function(data, slot)
 	ox_inventory:useItem(data, function(data)
 		if data then
 			TriggerEvent("zat-weed:client:UseItem", slot.name, PlanterProps[2])
@@ -363,7 +363,7 @@ Item('dryingrack', function(data, slot)
 	end)
 end)
 
-Item('dryingrackadvanced', function(data, slot)
+Item('zatweedracks', function(data, slot)
 	ox_inventory:useItem(data, function(data)
 		if data then
 			TriggerEvent("zat-weed:client:UseItem", slot.name, PlanterProps[3])
@@ -400,19 +400,19 @@ Item('zatwaterbottleempty', function(data, slot)
 end)
 
 local WeedProps = {
-	[1] = "bkr_prop_weed_bud_01a",
-	[2] = "bkr_prop_weed_med_01a",
-	[3] = "bkr_prop_weed_med_01b",
-	[4] = "bkr_prop_weed_lrg_01a",
-	[5] = "bkr_prop_weed_lrg_01b"
+    [1] = "bkr_prop_weed_bud_01a",
+    [2] = "bkr_prop_weed_med_01a",
+    [3] = "bkr_prop_weed_med_01b",
+    [4] = "bkr_prop_weed_lrg_01a",
+    [5] = "bkr_prop_weed_lrg_01b"
 }
 
--- Add handlers for your existing seed system
-Item('female_seed', function(data, slot)
+Item('zatweedseed', function(data, slot)
 	ox_inventory:useItem(data, function(data)
 		if data then
 			TriggerEvent("zat-weed:client:UseItem", slot.name, WeedProps[1], slot.metadata)
 			TriggerServerEvent("zat-weed:server:RemoveItemOx", slot, nil)
+			
 		end
 	end)
 end)
@@ -430,7 +430,7 @@ Item('zatpackedweed', function(data, slot)
 	end)
 end)
 
-Item('joint', function(data, slot)
+Item('zatjoint', function(data, slot)
 	ox_inventory:useItem(data, function(data)
 		if data then
 			TriggerEvent("zat-weed:client:UseJoint", slot.metadata.purity)
