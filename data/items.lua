@@ -6635,6 +6635,9 @@ return {
 		weight = 250,
 		stack = false,
 		description = "You can use this!",
+		client = {
+			event = 'ars_hunting:useCampfire'
+		}
 	},
 
 	['bbq1'] = {
