@@ -20069,9 +20069,9 @@ return {
 	},
 	["zatrollingpaper"] = {
 		label = "Rolling Paper",
-		weight = 2000,
+		weight = 100,
 		stack = true,
-		close = true,
+		close = false,
 		description = "Rolling paper",
 		client = {
 			image = "zatrollingpaper.png",
@@ -20079,11 +20079,11 @@ return {
 	},
 
 	["zatpackedweed"] = {
-		label = "Packed Weed",
-		weight = 100,
+		label = "Weed Brick",
+		weight = 50,
 		stack = false,
 		close = true,
-		description = "Weed ready for sale",
+		description = "50 Gram Weed Brick",
 		client = {
 			image = "zatpackedweed.png",
 		}
