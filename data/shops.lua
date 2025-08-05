@@ -404,6 +404,7 @@ return {
 
 	GeneralStore4 = {
 		name = 'Monroe General Store',
+		society = "ambulance",
 		inventory = {
 			{ name = 'water',    price = 10 },
 			{ name = 'sandwich', price = 10 },
@@ -417,7 +418,7 @@ return {
 		},
 		targets = {
 			{
-				ped = `cs_old_man2`,
+				ped = `a_m_m_malibu_01`,
 				scenario = 'WORLD_HUMAN_STAND_MOBILE',
 				loc = vec3(-447.2476, -1031.1903, 22.8018),
 				heading = 87.9536,
@@ -655,6 +656,7 @@ return {
 
 	MonroeRefreshments = {
 		name = 'Monroe Refreshments',
+		society = "ambulance",
 		inventory = {
 			{ name = 'water',    price = 10 },
 			{ name = 'sandwich', price = 10 },
