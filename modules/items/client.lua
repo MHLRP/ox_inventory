@@ -439,6 +439,58 @@ Item('zatjoint', function(data, slot)
 	end)
 end)
 
+
+--- SNR
+
+Item('snr_box', function(data, slot)
+    ox_inventory:useItem(data, function(data)
+        if data and data.metadata and data.metadata.items then
+            for k, v in pairs(data.metadata.items) do 
+                local emojis = ''
+                local ingredients = ''
+                local info = {}
+                if v.ingredients and #v.ingredients > 0 then
+                    local hunger = 0 -- extra hunger for each ingredient
+                    local thirst = 0 -- extra thirst for each ingredient
+                    for i, j in pairs(v.ingredients) do 
+                        ingredients = ingredients..' '..j.label..' '..j.emojis
+                        hunger = hunger + (j.hunger or 0)
+                        thirst = thirst + (j.thirst or 0)
+                    end
+                    info = {
+                        hunger = hunger,
+                        thirst = thirst,
+                        ingredients = ingredients,
+                    }
+                else
+                    info = {
+                        hunger = 0,
+                        thirst = 0,
+                        ingredients = 'No Addons',
+                    }
+                end
+                TriggerServerEvent('zat-snrbuns_shops:server:additem', v.item, v.count, info)
+            end
+            TriggerServerEvent('zat-snrbuns_shops:server:removeitem', 'snr_box', 1, slot)
+        else
+            print('Missing metadata or items for snr_box')
+        end
+    end)
+end)
+
+
+RegisterNetEvent('ox_inventory:client:CreateUseableItems', function(item, itemData)
+	Item(item, function(data, slot)
+		ox_inventory:useItem(data, function(data)
+			if data then
+				print(json.encode(itemData, { indent = true }))
+				TriggerEvent('zat-snrbuns_shopss:client:EatDrink', itemData, data.metadata)
+				TriggerServerEvent('zat-snrbuns_shops:server:removeitem', item, 1, slot)
+			end
+		end)
+	end)
+end)
+
 -----------------------------------------------------------------------------------------------
 
 exports('Items', function(item) return getItem(nil, item) end)

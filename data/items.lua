@@ -20420,4 +20420,1148 @@ return {
 		close = true,
 		description = "Basketball",
 	},
+
+	["snr_chiktortilla"] = {
+		label = "Tortilla Chicken",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Tortilla Chicken",
+		client = {
+			image = "snr_chiktortilla.png",
+		}
+	},
+
+	["snr_thontortilla"] = {
+		label = "Tortilla Thon",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Tortilla Thon",
+		client = {
+			image = "snr_thontortilla.png",
+		}
+	},
+
+	["snr_fish"] = {
+		label = "Fish",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Fish",
+		client = {
+			image = "snr_fish.png",
+		}
+	},
+
+	["snr_ecola"] = {
+		label = "E-Cola",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "E-Cola",
+		client = {
+			image = "snr_ecola.png",
+		}
+	},
+
+	["snr_cheburger"] = {
+		label = "Cheese Burger",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Cheese Burger",
+		client = {
+			image = "snr_cheburger.png",
+		}
+	},
+
+	["snr_nuts"] = {
+		label = "Nuts",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Nuts",
+		client = {
+			image = "snr_nuts.png",
+		}
+	},
+
+	["snr_bacon"] = {
+		label = "Bacon",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Bacon",
+		client = {
+			image = "snr_bacon.png",
+		}
+	},
+
+	["snr_mayo"] = {
+		label = "Mayonaise",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Mayonaise",
+		client = {
+			image = "snr_mayo.png",
+		}
+	},
+
+	["snr_bavicecream"] = {
+		label = "Chocolate Ice Cream",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Bavarian Chocolate Ice Cream",
+		client = {
+			image = "snr_bavicecream.png",
+		}
+	},
+
+	["snr_tonno"] = {
+		label = "Tonno",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Tonno",
+		client = {
+			image = "snr_tonno.png",
+		}
+	},
+
+	["snr_thonsandwich"] = {
+		label = "Sandwich Thon",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Sandwich Thon",
+		client = {
+			image = "snr_thonsandwich.png",
+		}
+	},
+
+	["snr_strsmoothie"] = {
+		label = "Strawberry Smoothie",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Strawberry Smoothie",
+		client = {
+			image = "snr_strsmoothie.png",
+		}
+	},
+
+	["snr_americanocoffee"] = {
+		label = "Americano",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Americano",
+		client = {
+			image = "snr_americanocoffee.png",
+		}
+	},
+
+	["snr_bacosandwich"] = {
+		label = "Sandwich Bacon",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Sandwich Bacon",
+		client = {
+			image = "snr_bacosandwich.png",
+		}
+	},
+
+	["snr_bacontacos"] = {
+		label = "Bacon Tacos",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Bacon Tacos",
+		client = {
+			image = "snr_bacontacos.png",
+		}
+	},
+
+	["snr_box"] = {
+		label = "Food Box",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Food Box",
+		client = {
+			image = "snr_box.png",
+		}
+	},
+
+	["snr_kiwicecream"] = {
+		label = "Kiwi  Ice Cream",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Kiwi Ice Cream",
+		client = {
+			image = "snr_kiwicecream.png",
+		}
+	},
+
+	["snr_riz"] = {
+		label = "Riz",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Riz",
+		client = {
+			image = "snr_riz.png",
+		}
+	},
+
+	["snr_starwberry"] = {
+		label = "Strawberry",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Strawberry",
+		client = {
+			image = "snr_starwberry.png",
+		}
+	},
+
+	["snr_banana"] = {
+		label = "Banana",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Banana",
+		client = {
+			image = "snr_banana.png",
+		}
+	},
+
+	["snr_beeftacos"] = {
+		label = "Beef Tacos",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Beef Tacos",
+		client = {
+			image = "snr_beeftacos.png",
+		}
+	},
+
+	["snr_chictacos"] = {
+		label = "Chicken Tacos",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Chicken Tacos",
+		client = {
+			image = "snr_chictacos.png",
+		}
+	},
+
+	["snr_hotdogchicken"] = {
+		label = "Smoked Chicken Hotdog",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Smoked Chicken Hotdog",
+		client = {
+			image = "snr_hotdogchicken.png",
+		}
+	},
+
+	["snr_bacotortilla"] = {
+		label = "Tortilla Bacon",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Tortilla Bacon",
+		client = {
+			image = "snr_bacotortilla.png",
+		}
+	},
+
+	["snr_hotdocheese"] = {
+		label = "Cheese Dog",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Cheese Dog",
+		client = {
+			image = "snr_hotdocheese.png",
+		}
+	},
+
+	["snr_lettuce"] = {
+		label = "Lettuce",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Lettuce",
+		client = {
+			image = "snr_lettuce.png",
+		}
+	},
+
+	["snr_thon"] = {
+		label = "Thon",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Thon",
+		client = {
+			image = "snr_thon.png",
+		}
+	},
+
+	["snr_cherryccake"] = {
+		label = "Cherry cup cake",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Cherry cup cake",
+		client = {
+			image = "snr_cherryccake.png",
+		}
+	},
+
+	["snr_temarisushi"] = {
+		label = "Temari Sushi",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Sushi Temari",
+		client = {
+			image = "snr_temarisushi.png",
+		}
+	},
+
+	["snr_avocado"] = {
+		label = "Avocado",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Avocado",
+		client = {
+			image = "snr_avocado.png",
+		}
+	},
+
+	["snr_ice"] = {
+		label = "Ice",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Ice",
+		client = {
+			image = "snr_ice.png",
+		}
+	},
+
+	["snr_blueberry"] = {
+		label = "Blueberry",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Blueberry",
+		client = {
+			image = "snr_blueberry.png",
+		}
+	},
+
+	["snr_mthainoodle"] = {
+		label = "Meat Noodle",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Meat Noodle",
+		client = {
+			image = "snr_mthainoodle.png",
+		}
+	},
+
+	["snr_shrimps"] = {
+		label = "Shrimps",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Shrimps",
+		client = {
+			image = "snr_shrimps.png",
+		}
+	},
+
+	["snr_freshfruits"] = {
+		label = "Fresh Fruits",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Fresh Fruits",
+		client = {
+			image = "snr_freshfruits.png",
+		}
+	},
+
+	["snr_rassmoothie"] = {
+		label = "Raspberry Smoothie",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Raspberry Smoothie",
+		client = {
+			image = "snr_rassmoothie.png",
+		}
+	},
+
+	["snr_pickles"] = {
+		label = "Pickles",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Pickles",
+		client = {
+			image = "snr_pickles.png",
+		}
+	},
+
+	["snr_chiksandwich"] = {
+		label = "Sandwich Chicken",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Sandwich Chicken",
+		client = {
+			image = "snr_chiksandwich.png",
+		}
+	},
+
+	["snr_bacopizza"] = {
+		label = "Bacon Pizza",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Bacon Pizza",
+		client = {
+			image = "snr_bacopizza.png",
+		}
+	},
+
+	["snr_beefpizza"] = {
+		label = "Beef Pizza",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Beef Pizza",
+		client = {
+			image = "snr_beefpizza.png",
+		}
+	},
+
+	["snr_vthainoodle"] = {
+		label = "Vegan Noodle",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Vegan Noodle",
+		client = {
+			image = "snr_vthainoodle.png",
+		}
+	},
+
+	["snr_sandwichbuns"] = {
+		label = "Sandwich Buns",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Buns",
+		client = {
+			image = "snr_sandwichbuns.png",
+		}
+	},
+
+	["snr_onions"] = {
+		label = "Onions",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Onions",
+		client = {
+			image = "snr_onions.png",
+		}
+	},
+
+	["snr_sprunklight"] = {
+		label = "Sprunk Light",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Sprunk Light",
+		client = {
+			image = "snr_sprunklight.png",
+		}
+	},
+
+	["snr_bbrsmoothie"] = {
+		label = "Blueberry Smoothie",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Blueberry Smoothie",
+		client = {
+			image = "snr_bbrsmoothie.png",
+		}
+	},
+
+	["snr_buns"] = {
+		label = "Burger Buns",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Buns",
+		client = {
+			image = "snr_buns.png",
+		}
+	},
+
+	["snr_espressocoffee"] = {
+		label = "Espresso",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Espresso",
+		client = {
+			image = "snr_espressocoffee.png",
+		}
+	},
+
+	["snr_rasberry"] = {
+		label = "Raspberry",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Raspberry",
+		client = {
+			image = "snr_rasberry.png",
+		}
+	},
+
+	["snr_vanille"] = {
+		label = "Vanille",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Vanille",
+		client = {
+			image = "snr_vanille.png",
+		}
+	},
+
+	["snr_kiwsmoothie"] = {
+		label = "Kiwi Smoothie",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Kiwi Smoothie",
+		client = {
+			image = "snr_kiwsmoothie.png",
+		}
+	},
+
+	["snr_hotdochilicheese"] = {
+		label = "Chili Cheese Dog",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Chili Cheese Dog",
+		client = {
+			image = "snr_hotdochilicheese.png",
+		}
+	},
+
+	["snr_macchiatocoffee"] = {
+		label = "Macchiato",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Macchiato",
+		client = {
+			image = "snr_macchiatocoffee.png",
+		}
+	},
+
+	["snr_shrimpstacos"] = {
+		label = "Shrimps Tacos",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Shrimps Tacos",
+		client = {
+			image = "snr_shrimpstacos.png",
+		}
+	},
+
+	["snr_noodle"] = {
+		label = "Noodle",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Noodle",
+		client = {
+			image = "snr_noodle.png",
+		}
+	},
+
+	["snr_pistache"] = {
+		label = "Pistache",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Pistache",
+		client = {
+			image = "snr_pistache.png",
+		}
+	},
+
+	["snr_hotdogmeat"] = {
+		label = "Meat Hotdog",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Meat Hotdog",
+		client = {
+			image = "snr_hotdogmeat.png",
+		}
+	},
+
+	["snr_yogurt"] = {
+		label = "Yogurt",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Yogurt",
+		client = {
+			image = "snr_yogurt.png",
+		}
+	},
+
+	["snr_bbqburger"] = {
+		label = "BBQ Bacon Burger",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "BBQ Bacon Burger",
+		client = {
+			image = "snr_bbqburger.png",
+		}
+	},
+
+	["snr_nigirisushi"] = {
+		label = "Nigiri Sushi",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Sushi Nigiri",
+		client = {
+			image = "snr_nigirisushi.png",
+		}
+	},
+
+	["snr_pizzasbuns"] = {
+		label = "Pizza Buns",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Buns",
+		client = {
+			image = "snr_pizzasbuns.png",
+		}
+	},
+
+	["snr_mango"] = {
+		label = "Mango",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Mango",
+		client = {
+			image = "snr_mango.png",
+		}
+	},
+
+	["snr_meat"] = {
+		label = "Meat",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Meat",
+		client = {
+			image = "snr_meat.png",
+		}
+	},
+
+	["snr_eclight"] = {
+		label = "E-Cola Light",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "E-Cola Light",
+		client = {
+			image = "snr_eclight.png",
+		}
+	},
+
+	["snr_rasicecream"] = {
+		label = "Rasberry Ice Cream",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Rasberry Ice Cream",
+		client = {
+			image = "snr_rasicecream.png",
+		}
+	},
+
+	["snr_chocchips"] = {
+		label = "Chocolate chips",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Chocolate chips",
+		client = {
+			image = "snr_chocchips.png",
+		}
+	},
+
+	["snr_fnafccake"] = {
+		label = "Fnaf cup cake",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Fnaf cup cake",
+		client = {
+			image = "snr_fnafccake.png",
+		}
+	},
+
+	["snr_milk"] = {
+		label = "Milk",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Milk",
+		client = {
+			image = "snr_milk.png",
+		}
+	},
+
+	["snr_hotdogbuns"] = {
+		label = "Hotdog buns",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Hotdog buns",
+		client = {
+			image = "snr_hotdogbuns.png",
+		}
+	},
+
+	["snr_eggs"] = {
+		label = "Eggs",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Eggs",
+		client = {
+			image = "snr_eggs.png",
+		}
+	},
+
+	["snr_tomato"] = {
+		label = "Tomato",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Tomato",
+		client = {
+			image = "snr_tomato.png",
+		}
+	},
+
+	["snr_potatos"] = {
+		label = "Potatos",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Potatos",
+		client = {
+			image = "snr_potatos.png",
+		}
+	},
+
+	["snr_cappucinocoffee"] = {
+		label = "Cappucino",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Cappucino",
+		client = {
+			image = "snr_cappucinocoffee.png",
+		}
+	},
+
+	["snr_suggar"] = {
+		label = "Sugar",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Suggar",
+		client = {
+			image = "snr_suggar.png",
+		}
+	},
+
+	["snr_dchburger"] = {
+		label = "Double Cheese Burger",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Double Cheese Burger",
+		client = {
+			image = "snr_dchburger.png",
+		}
+	},
+
+	["snr_stricecream"] = {
+		label = "Strawberry  Ice Cream",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Strawberry Ice Cream",
+		client = {
+			image = "snr_stricecream.png",
+		}
+	},
+
+	["snr_chicken"] = {
+		label = "Chicken",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Chicken",
+		client = {
+			image = "snr_chicken.png",
+		}
+	},
+
+	["snr_makisushi"] = {
+		label = "Maki Sushi",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Sushi Maki",
+		client = {
+			image = "snr_makisushi.png",
+		}
+	},
+
+	["snr_fries"] = {
+		label = "Fries",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Fries",
+		client = {
+			image = "snr_fries.png",
+		}
+	},
+
+	["snr_bluicecream"] = {
+		label = "Blueberry Ice Cream",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Blueberry Ice Cream",
+		client = {
+			image = "snr_bluicecream.png",
+		}
+	},
+
+	["snr_lattecoffee"] = {
+		label = "Latte",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Latte",
+		client = {
+			image = "snr_lattecoffee.png",
+		}
+	},
+
+	["snr_chicpizza"] = {
+		label = "Chicken Pizza",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Chicken Pizza",
+		client = {
+			image = "snr_chicpizza.png",
+		}
+	},
+
+	["snr_cthainoodle"] = {
+		label = "Chicken Noodle",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Chicken Noodle",
+		client = {
+			image = "snr_cthainoodle.png",
+		}
+	},
+
+	["snr_candy"] = {
+		label = "Candy",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Candy",
+		client = {
+			image = "snr_candy.png",
+		}
+	},
+
+	["snr_chilies"] = {
+		label = "Chilies",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Chilies",
+		client = {
+			image = "snr_chilies.png",
+		}
+	},
+
+	["snr_smileyccake"] = {
+		label = "Smiley cup cake",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Smiley cup cake",
+		client = {
+			image = "snr_smileyccake.png",
+		}
+	},
+
+	["snr_tortillabuns"] = {
+		label = "Tortilla Buns",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Buns",
+		client = {
+			image = "snr_tortillabuns.png",
+		}
+	},
+
+	["snr_coffee"] = {
+		label = "Coffee",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Coffee",
+		client = {
+			image = "snr_coffee.png",
+		}
+	},
+
+	["snr_kiwi"] = {
+		label = "Kiwi",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Kiwi",
+		client = {
+			image = "snr_kiwi.png",
+		}
+	},
+
+	["snr_cheese"] = {
+		label = "Cheese",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Cheese",
+		client = {
+			image = "snr_cheese.png",
+		}
+	},
+
+	["snr_chiburger"] = {
+		label = "Chicken Cheese Burger",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Chicken Cheese Burger",
+		client = {
+			image = "snr_chiburger.png",
+		}
+	},
+
+	["snr_thonpizza"] = {
+		label = "Thon pizza",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Thon pizza",
+		client = {
+			image = "snr_thonpizza.png",
+		}
+	},
+
+	["snr_uramakisushi"] = {
+		label = "Uramaki Sushi",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Sushi Uramaki",
+		client = {
+			image = "snr_uramakisushi.png",
+		}
+	},
+
+	["snr_thaisoup"] = {
+		label = "Thai Soup",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Thai Soup",
+		client = {
+			image = "snr_thaisoup.png",
+		}
+	},
+
+	["snr_shripizza"] = {
+		label = "Shrimps Pizza",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Shrimps Pizza",
+		client = {
+			image = "snr_shripizza.png",
+		}
+	},
+
+	["snr_chocolate"] = {
+		label = "Chocolate",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Chocolate",
+		client = {
+			image = "snr_chocolate.png",
+		}
+	},
+
+	["snr_loveccake"] = {
+		label = "Love cup cake",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Love cup cake",
+		client = {
+			image = "snr_loveccake.png",
+		}
+	},
+
+	["snr_ketchup"] = {
+		label = "Ketchup",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Ketchup",
+		client = {
+			image = "snr_ketchup.png",
+		}
+	},
+
+	["snr_bansmoothie"] = {
+		label = "Banana Smoothie",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Banana Smoothie",
+		client = {
+			image = "snr_bansmoothie.png",
+		}
+	},
+
+	["snr_rollccake"] = {
+		label = "Roll cup cake",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Roll cup cake",
+		client = {
+			image = "snr_rollccake.png",
+		}
+	},
+
+	["snr_cookies"] = {
+		label = "Cookies",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Cookies",
+		client = {
+			image = "snr_cookies.png",
+		}
+	},
+
+	["snr_mushrooms"] = {
+		label = "Mushrooms",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Mushrooms",
+		client = {
+			image = "snr_mushrooms.png",
+		}
+	},
+
+	["snr_tacosbuns"] = {
+		label = "Tacos Buns",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Buns",
+		client = {
+			image = "snr_tacosbuns.png",
+		}
+	},
+
+	["snr_sprunk"] = {
+		label = "Sprunk",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Sprunk",
+		client = {
+			image = "snr_sprunk.png",
+		}
+	},
+
+	["snr_hamburger"] = {
+		label = "Hamburger",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Hamburger",
+		client = {
+			image = "snr_hamburger.png",
+		}
+	},
 }
