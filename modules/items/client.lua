@@ -478,19 +478,6 @@ Item('snr_box', function(data, slot)
     end)
 end)
 
-
-RegisterNetEvent('ox_inventory:client:CreateUseableItems', function(item, itemData)
-	Item(item, function(data, slot)
-		ox_inventory:useItem(data, function(data)
-			if data then
-				print(json.encode(itemData, { indent = true }))
-				TriggerEvent('zat-snrbuns_shopss:client:EatDrink', itemData, data.metadata)
-				TriggerServerEvent('zat-snrbuns_shops:server:removeitem', item, 1, slot)
-			end
-		end)
-	end)
-end)
-
 -----------------------------------------------------------------------------------------------
 
 exports('Items', function(item) return getItem(nil, item) end)
