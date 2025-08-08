@@ -4657,6 +4657,73 @@ return {
 		description = "Doppler Menu.",
 	},
 
+	-- Doppler Ingredients
+	["tortilla_chips"] = {
+		label = "Tortilla Chips",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Crispy tortilla chips for nachos",
+		client = {
+			image = "tortilla_chips.png",
+		}
+	},
+
+	["sausage"] = {
+		label = "Sausage",
+		weight = 150,
+		stack = true,
+		close = true,
+		description = "Fresh sausage for hot dogs",
+		client = {
+			image = "sausage.png",
+		}
+	},
+
+	["chicken_wings"] = {
+		label = "Chicken Wings",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "Fresh chicken wings",
+		client = {
+			image = "chicken_wings.png",
+		}
+	},
+
+	["buffalo_sauce"] = {
+		label = "Buffalo Sauce",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Spicy buffalo sauce",
+		client = {
+			image = "buffalo_sauce.png",
+		}
+	},
+
+	["popcorn_kernels"] = {
+		label = "Popcorn Kernels",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Raw popcorn kernels",
+		client = {
+			image = "popcorn_kernels.png",
+		}
+	},
+
+	["caramel"] = {
+		label = "Caramel",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Sweet caramel sauce",
+		client = {
+			image = "caramel.png",
+		}
+	},
+
 	["afterlite_menu"] = {
 		label = "Afterlite Menu",
 		weight = 5,

@@ -2551,6 +2551,7 @@ return {
 			{ name = 'burger-raw',                 price = 20, currency = 'money' },
 			{ name = 'ground-beef',                price = 20, currency = 'money' },
 			{ name = 'chicken',                    price = 20, currency = 'money' },
+			{ name = 'chicken_wings',              price = 20, currency = 'money' },
 			{ name = 'hotdog',                     price = 10, currency = 'money' },
 			{ name = 'fishnchipsrawchickenstrips', price = 20, currency = 'money' },
 			{ name = 'frozen_fishcake',            price = 20, currency = 'money' },
@@ -2793,7 +2794,8 @@ return {
 	GroceryStore18 = {
 		name = 'Grocery Store',
 		inventory = {
-			{ name = 'ketchup', price = 10, currency = 'money' },
+			{ name = 'ketchup',       price = 10, currency = 'money' },
+			{ name = 'buffalo_sauce', price = 10, currency = 'money' },
 		},
 		locations = {
 			vec3(2707.1521, 3366.0698, 57.1163)
@@ -2881,6 +2883,7 @@ return {
 			{ name = 'yeast',                  price = 40,  currency = 'money' },
 			{ name = 'water',                  price = 10,  currency = 'money' },
 			{ name = 'bowl',                   price = 10,  currency = 'money' },
+			{ name = 'popcorn_kernels',        price = 10,  currency = 'money' },
 			{ name = 'water_bottle',           price = 10,  currency = 'money' },
 			{ name = 'mustard',                price = 10,  currency = 'money' },
 			{ name = 'ketchup',                price = 10,  currency = 'money' },
