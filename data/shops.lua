@@ -2278,7 +2278,9 @@ return {
 			{ name = 'gps_tracker',             price = 0 },
 			{ name = 'radio',                   price = 0 },
 			{ name = 'radiocell',               price = 0 },
-			{ name = 'keya',                    price = 0 },
+			{ name = 'fdcamera',                price = 0 },
+			{ name = 'weapon_fireextinguisher', price = 0 },
+			{ name = 'watertank',               price = 0 },
 		},
 		locations = {
 			vec3(198.0423, -1650.7327, 29.8032)
@@ -2288,20 +2290,25 @@ return {
 		}
 	},
 
-	-- fireshop2 = {
-	-- 	name = 'Firefighter Shop',
-	-- 	inventory = {
-	-- 		{ name = 'weapon_fireextinguisher', price = 200 },
-	-- 		{ name = 'watertank', price = 200 },
-	-- 		{ name = 'gps_tracker', price = 0 },
-	-- 	},
-	-- 	locations = {
-	-- 		vec3(207.7617, -1658.9697, 29.8032, 225.5889)
-	-- 	},
-	-- 	targets = {
-	-- 		{ loc = vec3(-285.1, 233.24, 78.87), length = 0.6, width = 0.5, heading = 225.5889, minZ = 28.2, maxZ = 28.6, distance = 2 }
-	-- 	}
-	-- },
+	fireshop2 = {
+		name = 'Firefighter Shop',
+		groups = {
+			['firefighter'] = 5
+		},
+		inventory = {
+			{ name = 'taser_cartridge',         price = 0, },
+			{ name = 'WEAPON_STUNGUN',          price = 0, tint = 6, weapontint = "Orange Tint", },
+			{ name = 'keya',                    price = 0, },
+			{ name = 'keyc',                    price = 0, },
+			{ name = 'keyb',                    price = 0, },
+		},
+		locations = {
+			vec3(-1055.6438, -1432.4359, 4.9732)
+		},
+		targets = {
+			{ loc = vec3(-1055.6438, -1432.4359, 4.9732), length = 0.6, width = 0.5, heading = 78.9837, minZ = 28.2, maxZ = 28.6, distance = 2 }
+		}
+	},
 
 	burgershot2 = {
 		name = 'Burgershot Menu',
