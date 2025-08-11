@@ -20496,6 +20496,126 @@ return {
 		description = "Basketball",
 	},
 
+	["skis"] = {
+		label = "Skis",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Skis",
+	},
+
+	["skis_2"] = {
+		label = "Skis",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Skis",
+	},
+
+	["skis_3"] = {
+		label = "Skis",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Skis",
+	},	
+
+	["skis_4"] = {
+		label = "Skis",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Skis",
+	},
+
+	["skis_5"] = {
+		label = "Skis",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Skis",
+	},
+
+	["skis_6"] = {
+		label = "Skis",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Skis",
+	},
+
+	["skis_7"] = {
+		label = "Skis",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Skis",
+	},
+
+	["skis_8"] = {
+		label = "Skis",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Skis",
+	},
+
+	["skis_9"] = {
+		label = "Skis",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Skis",
+	},
+
+	["skis_10"] = {
+		label = "Skis",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Skis",
+	},
+
+	["skis_11"] = {
+		label = "Skis",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Skis",
+	},
+
+	["skis_12"] = {
+		label = "Skis",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Skis",
+	},
+
+	["skis_13"] = {
+		label = "Skis",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Skis",
+	},
+
+	["skis_14"] = {
+		label = "Skis",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Skis",
+	},
+
+	["skis_15"] = {
+		label = "Skis",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Skis",
+	},
+
 	["snr_chiktortilla"] = {
 		label = "Tortilla Chicken",
 		weight = 100,
