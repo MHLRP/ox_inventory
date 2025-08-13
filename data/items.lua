@@ -20518,7 +20518,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Skis",
-	},	
+	},
 
 	["skis_4"] = {
 		label = "Skis",
@@ -21757,6 +21757,26 @@ return {
 		description = "Hamburger",
 		client = {
 			image = "snr_hamburger.png",
+		}
+	},
+
+	["trash_burger"] = {
+		label = "Trash Burger",
+		weight = 150,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Trash Burger",
+		client = {
+			status = { hunger = 25 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
 		}
 	},
 }

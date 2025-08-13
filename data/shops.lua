@@ -1433,7 +1433,7 @@ return {
 		}
 	},
 
-	--[[Coffee3 = {
+	Coffee3 = {
 		name = 'Coffee Shop',
 		inventory = {
 			{ name = 'coffee',        price = 15, currency = 'money' },
@@ -1447,11 +1447,11 @@ return {
 			{
 				ped = `s_f_y_clubbar_01`,
 				scenario = 'WORLD_HUMAN_STAND_MOBILE',
-				loc = vec3(-1217.7596, -1494.8092, 3.3739),
-				heading = 37.6277,
+				loc = vec3(3917.3403, 8449.6025, 571.9865),
+				heading = 180.7886,
 			}
 		}
-	},---]]
+	},
 
 	Pizza = {
 		name = 'Pizza Shop',
@@ -1888,6 +1888,21 @@ return {
 				scenario = 'WORLD_HUMAN_STAND_MOBILE',
 				loc = vec3(-1228.0260, -1437.9606, 3.3346),
 				heading = 209.8163,
+			}
+		}
+	},
+
+	Skishop = {
+		name = 'Ski Shop',
+		inventory = {
+			{ name = 'skis', price = 500, currency = 'money' },
+		},
+		targets = {
+			{
+				ped = `u_m_y_caleb`,
+				scenario = 'WORLD_HUMAN_STAND_MOBILE',
+				loc = vec3(3929.1216, 8441.6182, 568.4224),
+				heading = 94.7486,
 			}
 		}
 	},
