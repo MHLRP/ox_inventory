@@ -1813,6 +1813,7 @@ return {
 			{ name = 'keeptablet', price = 1000,   currency = 'money' },
 			{ name = 'fitbit',     price = 600,    currency = 'money' },
 			{ name = 'powerbank',  price = 150,    currency = 'money' },
+			{ name = 'simcard',    price = 1000,   currency = 'money' },
 			{ name = 'phone',      price = 800,    currency = 'money' },
 			{ name = 'shitgpu',    price = 12000,  currency = 'money' },
 			{ name = '1050gpu',    price = 18000,  currency = 'money' },
@@ -2311,11 +2312,11 @@ return {
 			['firefighter'] = 5
 		},
 		inventory = {
-			{ name = 'taser_cartridge',         price = 0, },
-			{ name = 'WEAPON_STUNGUN',          price = 0, tint = 6, weapontint = "Orange Tint", },
-			{ name = 'keya',                    price = 0, },
-			{ name = 'keyc',                    price = 0, },
-			{ name = 'keyb',                    price = 0, },
+			{ name = 'taser_cartridge', price = 0, },
+			{ name = 'WEAPON_STUNGUN',  price = 0, tint = 6, weapontint = "Orange Tint", },
+			{ name = 'keya',            price = 0, },
+			{ name = 'keyc',            price = 0, },
+			{ name = 'keyb',            price = 0, },
 		},
 		locations = {
 			vec3(-1055.6438, -1432.4359, 4.9732)

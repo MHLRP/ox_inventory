@@ -5907,6 +5907,14 @@ return {
 		stack = false,
 	},
 
+	["simcard"] = {
+		label = "Sim Card",
+		weight = 50,
+		stack = true,
+		close = true,
+		description = "A sim card for your phone",
+	},
+
 	["greenphone"] = {
 		label = "Green Satellite Phone",
 		weight = 200,
