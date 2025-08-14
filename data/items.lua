@@ -5995,10 +5995,18 @@ return {
 
 	["hackerphone"] = {
 		label = "root@hackerphone",
-		weight = 2000,
+		weight = 500,
 		stack = false,
 		close = true,
 		description = "They are always watching",
+	},
+
+	["trapphone"] = {
+		label = "Trap Phone",
+		weight = 500,
+		stack = false,
+		close = true,
+		description = "Trap phone things",
 	},
 
 	["centralchip"] = {

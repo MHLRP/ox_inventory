@@ -1022,10 +1022,10 @@ return {
 			{ name = 'ammo-9',               price = 15,    currency = 'black_money' },
 			{ name = 'ammo-shotgun',         price = 50,    currency = 'black_money' },
 			{ name = 'trojan_usb',           price = 2000,  currency = 'black_money' },
+			{ name = 'trapphone',            price = 6000, currency = 'black_money' },
 		},
 		locations = {
 			vec3(504.7122, 2603.0120, 43.9762),
-			vec3(143.1517, -1965.5575, 18.8556),
 			vec3(1012.2678, -3248.0315, -17.7455)
 		},
 		targets = {
