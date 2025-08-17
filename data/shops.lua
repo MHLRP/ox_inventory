@@ -2878,6 +2878,7 @@ return {
 			{ name = 'italianbread',           price = 10,  currency = 'money' },
 			{ name = 'italiansausage',         price = 20,  currency = 'money' },
 			{ name = 'caixa-amoras',           price = 10,  currency = 'money' },
+			{ name = 'marshmellow',            price = 10,  currency = 'money' },
 			{ name = 'chocolate',              price = 10,  currency = 'money' },
 			{ name = 'butter',                 price = 10,  currency = 'money' },
 			{ name = 'fishnchips_chocolate',   price = 20,  currency = 'money' },
