@@ -307,9 +307,9 @@ return {
 		weight = 70000,
 	},
 	{
-		coords = vec3(-634.29, 235.2, 82.08),
+		coords = vec3(-829.543, -600.649, 29.000),
 		target = {
-			loc = vec3(-634.29, 235.2, 82.08),
+			loc = vec3(-829.543, -600.649, 29.000),
 			length = 1.2,
 			width = 5.6,
 			heading = 0,
@@ -318,6 +318,23 @@ return {
 			label = 'Open Coffee Tray'
 		},
 		name = 'coffeeshop',
+		label = 'Tray',
+		owner = false,
+		slots = 70,
+		weight = 70000,
+	},
+	{
+		coords = vec3(-827.984, -602.272, 28.981),
+		target = {
+			loc = vec3(-827.984, -602.272, 28.981),
+			length = 1.2,
+			width = 5.6,
+			heading = 0,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Open Coffee Tray'
+		},
+		name = 'coffeeshop2',
 		label = 'Tray',
 		owner = false,
 		slots = 70,
@@ -359,12 +376,12 @@ return {
 		weight = 70000,
 	},
 	{
-		coords = vec3(-847.8944, -235.6998, 38.2277),
+		coords = vec3(-849.119, -233.572, 37.201),
 		target = {
-			loc = vec3(-847.8944, -235.6998, 38.2277),
+			loc = vec3(-849.119, -233.572, 37.201),
 			length = 1.2,
 			width = 5.6,
-			heading = 293.6963,
+			heading = 0.0,
 			minZ = 29.49,
 			maxZ = 32.09,
 			label = 'Open Weed Tray'
@@ -410,6 +427,23 @@ return {
 		slots = 40,
 		weight = 600000,
 		groups = { ['highnotes'] = 0 }
+	},
+	{
+		coords = vec3(-848.024, -235.692, 37.210),
+		target = {
+			loc = vec3(-848.024, -235.692, 37.210),
+			length = 1.2,
+			width = 5.6,
+			heading = 0.0,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Open Weed Tray'
+		},
+		name = 'weedshop4',
+		label = 'Tray',
+		owner = false,
+		slots = 70,
+		weight = 70000,
 	},
 	{
 		coords = vec3(-288.2890, 234.1284, 78.8262),
