@@ -391,7 +391,7 @@ return {
 		owner = false,
 		slots = 70,
 		weight = 120000,
-		groups = { ['whitewidow'] = 0 }
+		groups = { ['highnotes'] = 0 }
 	},
 	{
 		coords = vec3(-849.6750, -237.6991, 37.2279),
@@ -409,7 +409,7 @@ return {
 		owner = false,
 		slots = 40,
 		weight = 600000,
-		groups = { ['whitewidow'] = 0 }
+		groups = { ['highnotes'] = 0 }
 	},
 	{
 		coords = vec3(-288.2890, 234.1284, 78.8262),

@@ -1161,7 +1161,7 @@ return {
 	SmokeShop = {
 		name = 'Smoke Shop',
 		groups = {
-			['whitewidow'] = 0
+			['highnotes'] = 0
 		},
 		inventory = {
 			{ name = 'zatrollingpaper',       price = 0, currency = 'money' },
