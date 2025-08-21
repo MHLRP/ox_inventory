@@ -3,7 +3,7 @@ return {
 	PoliceArmoury = {
 		name = 'Police Armoury',
 		groups = {
-			['statetrooper'] = 0,
+			['sheriff'] = 0,
 			['police'] = 0
 		},
 		blip = {
@@ -93,7 +93,7 @@ return {
 	PoliceArmoury2 = {
 		name = 'Trooper Armoury',
 		groups = {
-			['statetrooper'] = 0,
+			['sheriff'] = 0,
 			['police'] = 0
 		},
 		blip = {

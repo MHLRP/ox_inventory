@@ -16,7 +16,7 @@ return {
 		slots = 70,
 		weight = 70000,
 		groups = {
-			['statetrooper'] = 0,
+			['sheriff'] = 0,
 			['police'] = 0
 		},
 	},
@@ -37,7 +37,7 @@ return {
 		slots = 70,
 		weight = 70000,
 		groups = {
-			['statetrooper'] = 0,
+			['sheriff'] = 0,
 			['police'] = 0
 		},
 	},
