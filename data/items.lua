@@ -5074,6 +5074,14 @@ return {
 		description = "Camera for the fire department.",
 	},
 
+	["sdcamera"] = {
+		label = "SD Camera",
+		weight = 400,
+		stack = true,
+		close = true,
+		description = "Camera for the sheriff department.",
+	},
+
 	["gameboy"] = {
 		label = "Gameboy",
 		weight = 200,
