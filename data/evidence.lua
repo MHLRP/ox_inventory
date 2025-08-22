@@ -24,5 +24,18 @@ return {
 			minZ = 23.09,
 			maxZ = 31.89
 		}
-	}
+	},
+	{
+		coords = vec3(-444.637, 5988.216, 30.722),
+		target = { -- qtarget support
+			name = 'sd_evidence1', -- name of zone must be uniuqe
+			loc = vec3(-444.637, 5988.216, 30.722),
+
+			length = 1.4,
+			width = 3.2,
+			heading = 0,
+			minZ = 23.09,
+			maxZ = 31.89
+		}
+	},
 }
