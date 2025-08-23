@@ -26,10 +26,10 @@ return {
 		}
 	},
 	{
-		coords = vec3(-444.637, 5988.216, 30.722),
+		coords = vec3(-441.1941, 6002.3447, 31.3887),
 		target = { -- qtarget support
 			name = 'sd_evidence1', -- name of zone must be uniuqe
-			loc = vec3(-444.637, 5988.216, 30.722),
+			loc = vec3(-441.1941, 6002.3447, 31.3887),
 
 			length = 1.4,
 			width = 3.2,

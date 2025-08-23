@@ -18,7 +18,30 @@ return {
 		groups = {
 			['sheriff'] = 0,
 			['police'] = 0
+		}, 
+		-- -453.7762, 5980.7632, 31.3887, 314.7780
+	},
+	{
+		coords = vec3(-453.7292, 5980.8330, 31.3886),
+		target = {
+			loc = vec3(-453.7292, 5980.8330, 31.3886),
+			length = 1.2,
+			width = 5.6,
+			heading = 0,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Open personal locker'
 		},
+		name = 'policelocker',
+		label = 'Personal locker',
+		owner = true,
+		slots = 70,
+		weight = 70000,
+		groups = {
+			['sheriff'] = 0,
+			['police'] = 0
+		}, 
+		-- -453.7762, 5980.7632, 31.3887, 314.7780
 	},
 	{
 		coords = vec3(834.7792, -1292.3243, 20.2916),
