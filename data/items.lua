@@ -21803,4 +21803,12 @@ return {
 			usetime = 7500,
 		}
 	},
+
+	["lustvipcard"] = {
+		label = "Lust Resort VIP Card",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Lust Resort VIP Card",
+	},
 }
