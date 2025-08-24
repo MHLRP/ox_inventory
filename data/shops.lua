@@ -75,15 +75,11 @@ return {
 		},
 		locations = {
 			vec3(1840.92, 3691.63, 34.25),
-			vec3(-437.77, 5988.26, 31.71),
-			vec3(-469.65, 6000.67, 31.38),
 			vec3(471.775, -972.617, 23.916),
 			vec3(458.297, -996.548, 31.755),
 		},
 		targets = {
 			{ loc = vec3(1840.92, 3691.63, 34.25),   length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
-			{ loc = vec3(-437.77, 5988.26, 31.71),   length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
-			{ loc = vec3(-469.65, 6000.67, 31.38), length = 0.5, width = 3.0, heading = 48.3886, minZ = 28.5, maxZ = 31.0, distance = 3 },
 			{ loc = vec3(471.775, -972.617, 23.916), length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
 			{ loc = vec3(458.297, -996.548, 31.755), length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
 		}
@@ -115,7 +111,7 @@ return {
 			{ name = 'radio',               price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'radiocell',           price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'briefcase',           price = 0, metadata = { description = "Police Property" }, },
-			{ name = 'pdcamera',            price = 0, metadata = { description = "Police Property" }, },
+			{ name = 'sdcamera',            price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'specialbadge',        price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'megaphone',           price = 0, metadata = { description = "Police Property" }, },
 			{ name = 'phonetracker',        price = 0, metadata = { description = "Police Property" }, },
@@ -158,10 +154,14 @@ return {
 		locations = {
 			vec3(813.4315, -1295.3818, 19.8455),
 			vec3(813.9670, -1291.7347, 19.8455),
+			vec3(-437.77, 5988.26, 31.71),
+			vec3(-469.65, 6000.67, 31.38),
 		},
 		targets = {
-			{ loc = vec3(813.4315, -1295.3818, 19.8455), length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
-			{ loc = vec3(813.9670, -1291.7347, 19.8455), length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
+			{ loc = vec3(813.4315, -1295.3818, 19.8455), length = 0.5, width = 3.0, heading = 270.0,   minZ = 28.5, maxZ = 31.0, distance = 3 },
+			{ loc = vec3(813.9670, -1291.7347, 19.8455), length = 0.5, width = 3.0, heading = 270.0,   minZ = 28.5, maxZ = 31.0, distance = 3 },
+			{ loc = vec3(-437.77, 5988.26, 31.71),       length = 0.5, width = 3.0, heading = 270.0,   minZ = 28.5, maxZ = 31.0, distance = 3 },
+			{ loc = vec3(-469.65, 6000.67, 31.38),       length = 0.5, width = 3.0, heading = 48.3886, minZ = 28.5, maxZ = 31.0, distance = 3 },
 		}
 	},
 
