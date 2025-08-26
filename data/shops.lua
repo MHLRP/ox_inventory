@@ -3031,7 +3031,6 @@ return {
 	MaskStore = {
 		name = 'Mask Store',
 		inventory = {
-			{ name = 'terror',        price = 40, currency = 'money' },
 			{ name = 'noselong',      price = 40, currency = 'money' },
 			{ name = 'tshirtmask',    price = 40, currency = 'money' },
 			{ name = 'clown',         price = 40, currency = 'money' },
@@ -3042,7 +3041,6 @@ return {
 			{ name = 'helm7',         price = 40, currency = 'money' },
 			{ name = 'paardu',        price = 40, currency = 'money' },
 			{ name = 'hockeymask',    price = 40, currency = 'money' },
-			{ name = 'zwart2',        price = 40, currency = 'money' },
 			{ name = 'helm1',         price = 40, currency = 'money' },
 			{ name = 'skullmask',     price = 40, currency = 'money' },
 			{ name = 'monkeymask',    price = 40, currency = 'money' },

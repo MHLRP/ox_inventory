@@ -14228,7 +14228,7 @@ return {
 	},
 
 	["paardu"] = {
-		label = "Uinicorn Mask",
+		label = "Unicorn Mask",
 		weight = 1,
 		stack = false,
 		close = true,
@@ -14249,17 +14249,6 @@ return {
 		}
 	},
 
-	["zwart2"] = {
-		label = "Skull Black Mask",
-		weight = 1,
-		stack = false,
-		close = true,
-		description = "",
-		client = {
-			image = "Clothing_1_29.png",
-		}
-	},
-
 	["helm1"] = {
 		label = "Black Silver Helmet ",
 		weight = 1,
@@ -14268,17 +14257,6 @@ return {
 		description = "",
 		client = {
 			image = "helmet_51.png",
-		}
-	},
-
-	["terror"] = {
-		label = "Balaclava",
-		weight = 1,
-		stack = true,
-		close = true,
-		description = "",
-		client = {
-			image = "Clothing_1_57.png",
 		}
 	},
 
@@ -14454,7 +14432,7 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "Clothing_1_51(BLAU).png",
+			image = "Clothing_1_52.png",
 		}
 	},
 
