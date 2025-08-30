@@ -65,6 +65,27 @@ return {
 		},
 	},
 	{
+		coords = vec3(-455.814, 6019.762, 31.171),
+		target = {
+			loc = vec3(-455.814, 6019.762, 31.171),
+			length = 1.2,
+			width = 5.6,
+			heading = 0,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Open personal safe'
+		},
+		name = 'policelocker3',
+		label = 'Personal locker',
+		owner = true,
+		slots = 70,
+		weight = 70000,
+		groups = {
+			['sheriff'] = 0,
+			['police'] = 0
+		},
+	},
+	{
 		coords = vec3(-460.607, -1007.466, 22.704),
 		target = {
 			loc = vec3(-460.607, -1007.466, 22.704),
