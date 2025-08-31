@@ -2340,12 +2340,12 @@ return {
 	},
 
 	beanmenu = {
-		name = 'Beanmachine Menu',
+		name = 'Greenleaf Menu',
 		groups = {
-			['beanmachine'] = 0
+			['greenleaf'] = 0
 		},
 		inventory = {
-			{ name = 'beanmachine_menu', price = 0 },
+			{ name = 'greenleaf_menu', price = 0 },
 		},
 		locations = {
 			vec3(-636.6, 233.79, 82.41)

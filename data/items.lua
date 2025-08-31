@@ -4740,12 +4740,12 @@ return {
 		description = "Yellowpunk Menu.",
 	},
 
-	["beanmachine_menu"] = {
-		label = "Beanmachine Menu",
+	["greenleaf_menu"] = {
+		label = "Greenleaf Menu",
 		weight = 5,
 		stack = true,
 		close = true,
-		description = "Beanmachine Menu.",
+		description = "Greenleaf Menu.",
 	},
 
 	["uwu_menu"] = {
