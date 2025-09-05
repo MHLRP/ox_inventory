@@ -5147,6 +5147,22 @@ return {
 		description = "Walking stick for ya'll grannies out there.. HAHA",
 	},
 
+	["cane"] = {
+		label = "Walking Stick",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Cane for ya'll grannies out there.. HAHA",
+	},
+
+	["staff"] = {
+		label = "Staff",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Staff for ya'll grannies out there.. HAHA",
+	},
+
 	["cwnotepad"] = {
 		label = "Note Pad",
 		weight = 300,
@@ -6499,6 +6515,13 @@ return {
 
 	['iak_wheelchair'] = {
 		label = 'Wheelchair',
+		weight = 540,
+		stack = false,
+		close = true,
+	},
+
+	['cyberwheelchair'] = {
+		label = 'Cyber Wheelchair',
 		weight = 540,
 		stack = false,
 		close = true,
