@@ -1097,4 +1097,22 @@ return {
 		slots = 70,
 		weight = 70000,
 	},
+	{
+		coords = vec3(-1039.890, -1440.868, 3.980),
+		target = {
+			loc = vec3(-1039.890, -1440.868, 3.980),
+			length = 1.2,
+			width = 5.6,
+			heading = 0,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Open Evidence Storage'
+		},
+		name = 'fireevidence',
+		label = 'Fire Evidence Storage',
+		owner = false,
+		slots = 70,
+		weight = 70000,
+		groups = { ['firefighter'] = 0 }
+	},
 }
