@@ -11970,6 +11970,14 @@ return {
 		description = "License to practice medical",
 	},
 
+	['fire_license'] = { -- Fire Department License
+		label = 'Fire Department ID',
+		weight = 1,
+		stack = false,
+		close = false,
+		description = "Official Fire Department identification card",
+	},
+
 	["monroevip1"] = {
 		label = "Monroe VIP Access 1",
 		weight = 1,

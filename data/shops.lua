@@ -2313,6 +2313,7 @@ return {
 			{ name = 'keya',            price = 0, },
 			{ name = 'keyc',            price = 0, },
 			{ name = 'keyb',            price = 0, },
+			{ name = 'fire_license',    price = 0, },
 		},
 		locations = {
 			vec3(-1055.6438, -1432.4359, 4.9732)
