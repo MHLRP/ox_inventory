@@ -2284,7 +2284,6 @@ return {
 			['firefighter'] = 0
 		},
 		inventory = {
-			{ name = 'weapon_fireextinguisher', price = 0 },
 			{ name = 'kq_winch',                price = 0 },
 			{ name = 'kq_tow_rope',             price = 0 },
 			{ name = 'gps_tracker',             price = 0 },
@@ -2295,10 +2294,10 @@ return {
 			{ name = 'watertank',               price = 0 },
 		},
 		locations = {
-			vec3(198.0423, -1650.7327, 29.8032)
+			vec3(-1030.0171, -1391.6747, 4.9732)
 		},
 		targets = {
-			{ loc = vec3(198.0423, -1650.7327, 29.8032), length = 0.6, width = 0.5, heading = 51.4918, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{ loc = vec3(-1030.0171, -1391.6747, 4.9732), length = 0.8, width = 0.6, heading = 257.5065, minZ = 28.2, maxZ = 28.6, distance = 2 }
 		}
 	},
 
