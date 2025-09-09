@@ -15425,10 +15425,25 @@ return {
 		close = true,
 		description = "A mobile fingerprint scanner.",
 	},
-	["poster"] = {
-		label = "Poster",
-		weight = 360,
-		description = 'Blank poster for you to put your artwork on'
+	['poster'] = {
+		label = 'Poster',
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "Blank poster for you to put your artwork on",
+		server = {
+			export = "of_whiteboard.place_image"
+		},
+	},
+	['remove_poster'] = {
+		label = 'Clean tools',
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "Clean posters, billboards, etc.",
+		server = {
+			export = "of_whiteboard.remove_image"
+		},
 	},
 	["sportsjersey"] = {
 		label = "Signed Sports Jersey",
@@ -21819,5 +21834,42 @@ return {
 		stack = true,
 		close = true,
 		description = "Lust Resort VIP Card",
+	},
+
+	["chalkboard1"] = {
+		label = "Chalkboard - Floor Stand",
+		weight = 200,
+		stack = false,
+		description = "A chalkboard on a stand.",
+	},
+
+	["chalkboard2"] = {
+		label = "Chalkboard - Wall Mount",
+		weight = 200,
+		stack = false,
+		description = "A chalkboard mounted to a wall.",
+	},
+
+	["chalkboard3"] = {
+		label = "Chalkboard - Square",
+		weight = 200,
+		stack = false,
+		description = "A square chalkboard.",
+	},
+
+	["chalkboard4"] = {
+		label = "Chalkboard - Vertical Frameless",
+		weight = 200,
+		stack = false,
+		description = "A frameless vertical chalkboard.",
+	},
+	["hobosign"] = {
+		label = "Hobo Sign",
+		weight = 500,
+		stack = false,
+		description = "A cardboard sign for begging.",
+		client = {
+			export = 'hobosign.use'
+		}
 	},
 }
