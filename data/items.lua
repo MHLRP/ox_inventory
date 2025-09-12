@@ -5058,6 +5058,22 @@ return {
 		},
 	},
 
+	['gopro'] = {
+		label = 'ProGo',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = 'A camera'
+	},
+
+	['cam_jammer'] = {
+		label = 'Cam Jammer',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = 'Cam Jammer'
+	},
+
 	["pdcamera"] = {
 		label = "PD Camera",
 		weight = 400,

@@ -1809,6 +1809,7 @@ return {
 			{ name = 'powerbank',  price = 200,    currency = 'money' },
 			{ name = 'simcard',    price = 200,    currency = 'money' },
 			{ name = 'phone',      price = 1000,   currency = 'money' },
+			{ name = 'gopro',      price = 1000,   currency = 'money' },
 			{ name = 'shitgpu',    price = 12000,  currency = 'money' },
 			{ name = '1050gpu',    price = 18000,  currency = 'money' },
 			{ name = '1060gpu',    price = 26000,  currency = 'money' },
