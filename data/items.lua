@@ -6615,6 +6615,14 @@ return {
 		close = true,
 	},
 
+	['bodybag'] = {
+		label = 'Body Bag',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = 'Used by EMS to transport deceased individuals'
+	},
+
 	['sedative'] = {
 		label = 'Sedative',
 		weight = 15,

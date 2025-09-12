@@ -510,6 +510,7 @@ return {
 			{ name = 'icepack',                 label = 'Ice Pack',          price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'burncream',               label = 'Burn Cream',        price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'defib',                   label = 'Defib',             price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'bodybag',                 label = 'Body Bag',          price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'sedative',                label = 'Sedative',          price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'ibrofenix',               label = 'Ibrofenix',         price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'motionex',                label = 'Motionex',          price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
