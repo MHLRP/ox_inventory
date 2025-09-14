@@ -21896,4 +21896,316 @@ return {
 			export = 'hobosign.use'
 		}
 	},
+
+	["brosephale"] = {
+		label = "Brosephale",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "An ale of a beer!",
+	},
+
+	["brosephlager"] = {
+		label = "Brosephlager",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Fuck it. Have a lager",
+	},
+
+	["crystalcream"] = {
+		label = "Crystal Cream",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Creamy and Purple",
+	},
+
+	["greengambit"] = {
+		label = "Green Gambit",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Beer for those who demand more",
+	},
+
+	["moonlitbeer"] = {
+		label = "Moonlit Beer",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Brewed under the stars",
+	},
+
+	["sweetenvy"] = {
+		label = "Sweet Envy",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "So sweet, so envious",
+	},
+
+	["therooker"] = {
+		label = "The Roker",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Silent but deadly",
+	},
+
+	["absynth"] = {
+		label = "Absynth",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Wavy and wonky",
+	},
+
+	["anomaly"] = {
+		label = "Anomaly",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "One of a kind",
+	},
+
+	["cactusjuice"] = {
+		label = "Cactus Juice",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Goes down smooth and glows in the dark",
+	},
+
+	["tomatojuice"] = {
+		label = "Tomato Juice",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "A vibrant red color that makes it easier to imagine the taste",
+	},
+
+	["champaradise"] = {
+		label = "Champ Paradise",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Swallow a load of bliss",
+	},
+
+	["cyberserpent"] = {
+		label = "Cyber Serpent",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Your end of the rainbow",
+	},
+
+	["indigotequila"] = {
+		label = "Indigo Tequila",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Distilled from the bluest of blue agaves",
+	},
+
+	["kumquat"] = {
+		label = "Kumquat",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Feeling kumquaty today?",
+	},
+
+	["matcha"] = {
+		label = "Matcha",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Chant your mantra",
+	},
+
+	["moonlitmagic"] = {
+		label = "Moonlit Magic",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Taken from the moon itself",
+	},
+
+	["moonshinex"] = {
+		label = "Moonshine X",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Sour aftertaste, fuzzy after blur",
+	},
+
+	["odwhiskey"] = {
+		label = "Od Whiskey",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Whiskey. Anything else is just frills",
+	},
+
+	["oolongtea"] = {
+		label = "Oolong Tea",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Brewed for inner peace",
+	},
+
+	["pomelosoda"] = {
+		label = "Pomelo Soda",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "A citrus beyond",
+	},
+
+	["soop"] = {
+		label = "Soop",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Is it a soup? A juice? A smoothie? Yes",
+	},
+
+	["avesaitan"] = {
+		label = "Ave Saitan",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "666 grams of temptation",
+	},
+
+	["burritoxxl"] = {
+		label = "Burrito Xxl",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Big burrito energy",
+	},
+
+	["catfood"] = {
+		label = "Cat Food",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "It'll have you purring in no time",
+	},
+
+	["devilpepperchips"] = {
+		label = "Devil Pepper Chips",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "A portal to HELL",
+	},
+
+	["gojilla"] = {
+		label = "Gojilla",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "No such thing as too much perfection",
+	},
+
+	["jambalaya"] = {
+		label = "Jambalaya",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Ancient French for, 'Fuck it, just toss in everything'",
+	},
+
+	["meatdelight"] = {
+		label = "Meat Delight",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Tastes just like real meat!",
+	},
+
+	["veggiedelight"] = {
+		label = "Veggie Delight",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Tastes just like real veggies!",
+	},
+
+	["neuralyzer"] = {
+		label = "Neuralyzer",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Neuralyzer",
+	},
+
+	["norimaki"] = {
+		label = "Norimaki",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Sushi never goes out of style",
+	},
+
+	["omniflave"] = {
+		label = "Omniflave",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Let your tongue do all the work",
+	},
+
+	["phishandchips"] = {
+		label = "Phish and Chips",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Crawnchy AF",
+	},
+
+	["proteinlog"] = {
+		label = "Protein Log",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Warning: may cause kidney damage and bloating",
+	},
+
+	["soypaste"] = {
+		label = "Raw Meat",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "A shot of essential nutrients. The quicker the better",
+	},
+
+	["synthsnack"] = {
+		label = "Synth Snack",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Salt. Fat. Sugar. All the basic food groups in one snack",
+	},
+
+	["tacox"] = {
+		label = "Taco X",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Fuck sliced bread. Tacos are the food world's benchmark",
+	},
+
+	["tamale"] = {
+		label = "Tamale",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Brought to you by the Aztecs",
+	},
 }
