@@ -11,6 +11,67 @@ exports('getCurrentWeapon', function()
 	return currentWeapon
 end)
 
+
+-- Hook into DisablePlayerFiring to track what's calling it
+local originalDisablePlayerFiring = DisablePlayerFiring
+function DisablePlayerFiring(playerId, disable)
+	if GetConvar('ox_inventory:debug', 'false') == 'true' and disable then
+		print("=== DisablePlayerFiring called ===")
+		print("STACK TRACE:")
+
+		local info = debug.getinfo(2, "nSl")
+		local level = 2
+		while info do
+			print(('  %d: %s:%d in %s'):format(level - 2, info.short_src or "?", info.currentline or 0, info.name or "?"))
+			level = level + 1
+			info = debug.getinfo(level, "nSl")
+		end
+
+		local callingResource = GetInvokingResource()
+		if callingResource then
+			print('CALLING RESOURCE:', callingResource)
+		end
+		print("=====================================")
+	end
+
+	return originalDisablePlayerFiring(playerId, disable)
+end
+
+-- Hook into LocalPlayer.state:set to track weapon state changes
+local originalSetState = LocalPlayer.state.set
+local function hookedSetState(self, key, value, replicated)
+	if GetConvar('ox_inventory:debug', 'false') == 'true' and (key == 'canUseWeapons' or key == 'invBusy') then
+		print(('=== LocalPlayer.state:set(%s, %s) called ==='):format(tostring(key), tostring(value)))
+		print("STACK TRACE:")
+
+		local info = debug.getinfo(2, "nSl")
+		local level = 2
+		while info do
+			print(('  %d: %s:%d in %s'):format(level - 2, info.short_src or "?", info.currentline or 0, info.name or "?"))
+			level = level + 1
+			info = debug.getinfo(level, "nSl")
+		end
+
+		local callingResource = GetInvokingResource()
+		if callingResource then
+			print('CALLING RESOURCE:', callingResource)
+		end
+		print("===============================================")
+	end
+
+	return originalSetState(self, key, value, replicated)
+end
+
+-- Apply the hook
+setmetatable(LocalPlayer.state, {
+	__index = function(t, k)
+		if k == 'set' then
+			return hookedSetState
+		end
+		return rawget(t, k)
+	end
+})
+
 RegisterNetEvent('ox_inventory:disarm', function(noAnim)
 	currentWeapon = Weapon.Disarm(currentWeapon, noAnim)
 end)
@@ -426,14 +487,14 @@ local function canUseItem(isAmmo)
 	local ped = cache.ped
 
 	return not usingItem
-    and (not isAmmo or currentWeapon)
-	and PlayerData.loaded
-	and not PlayerData.dead
-	and not invBusy
-	and not lib.progressActive()
-	and not IsPedRagdoll(ped)
-	and not IsPedFalling(ped)
-    and not IsPedShooting(playerPed)
+		and (not isAmmo or currentWeapon)
+		and PlayerData.loaded
+		and not PlayerData.dead
+		and not invBusy
+		and not lib.progressActive()
+		and not IsPedRagdoll(ped)
+		and not IsPedFalling(ped)
+		and not IsPedShooting(playerPed)
 end
 
 ---@param data table
@@ -451,8 +512,8 @@ local function useItem(data, cb, noAnim)
 	end
 
 	if currentWeapon and currentWeapon.timer ~= 0 then
-        if IsPedShooting(playerPed) then return end
-        if currentWeapon.timer - GetGameTimer() > 100 then return end
+		if IsPedShooting(playerPed) then return end
+		if currentWeapon.timer - GetGameTimer() > 100 then return end
 
 		DisablePlayerFiring(cache.playerId, true)
 	end
@@ -535,12 +596,39 @@ local function useSlot(slot, noAnim)
 		if data.effect then
 			data:effect({ name = item.name, slot = item.slot, metadata = item.metadata })
 		elseif data.weapon then
-			if EnableWeaponWheel or not plyState.canUseWeapons then return end
+			if EnableWeaponWheel then
+				if GetConvar('ox_inventory:debug', 'false') == 'true' then
+					print("ox_inventory: Weapon blocked - EnableWeaponWheel is true")
+				end
+				return
+			end
+
+			if not plyState.canUseWeapons then
+				if GetConvar('ox_inventory:debug', 'false') == 'true' then
+					print("ox_inventory: Weapon blocked - canUseWeapons is false")
+				end
+				return
+			end
+
+			-- Additional safety check for timing issues
+			if not PlayerData.loaded then
+				if GetConvar('ox_inventory:debug', 'false') == 'true' then
+					print("ox_inventory: Weapon blocked - PlayerData not loaded")
+				end
+				return
+			end
+
+			if invBusy then
+				if GetConvar('ox_inventory:debug', 'false') == 'true' then
+					print("ox_inventory: Weapon blocked - invBusy is true")
+				end
+				return
+			end
 
 			if IsCinematicCamRendering() then SetCinematicModeActive(false) end
 
 			if currentWeapon then
-                if not currentWeapon.timer or currentWeapon.timer ~= 0 then return end
+				if not currentWeapon.timer or currentWeapon.timer ~= 0 then return end
 
 				local weaponSlot = currentWeapon.slot
 				currentWeapon = Weapon.Disarm(currentWeapon)
@@ -551,10 +639,10 @@ local function useSlot(slot, noAnim)
 			GiveWeaponToPed(playerPed, data.hash, 0, false, true)
 			SetCurrentPedWeapon(playerPed, data.hash, false)
 
-            if data.hash ~= GetSelectedPedWeapon(playerPed) then
-                lib.print.info(('failed to equip %s (cause unknown)'):format(item.name))
-                return lib.notify({ type = 'error', description = locale('cannot_use', data.label) })
-            end
+			if data.hash ~= GetSelectedPedWeapon(playerPed) then
+				lib.print.info(('failed to equip %s (cause unknown)'):format(item.name))
+				return lib.notify({ type = 'error', description = locale('cannot_use', data.label) })
+			end
 
 			RemoveWeaponFromPed(cache.ped, data.hash)
 
@@ -920,6 +1008,124 @@ local function registerCommands()
 	registerCommands = nil
 end
 
+-- Export functions (moved here so variables are defined)
+exports('getWeaponState', function()
+	return {
+		canUseWeapons = plyState.canUseWeapons,
+		invBusy = invBusy,
+		invOpen = invOpen,
+		playerLoaded = PlayerData.loaded,
+		usingItem = usingItem,
+		cuffed = PlayerData.cuffed or IsPedCuffed(playerPed)
+	}
+end)
+
+-- Debug commands (moved here so variables are defined)
+-- Debug command to check weapon state
+RegisterCommand('weaponstate', function()
+	local weaponState = exports.ox_inventory:getWeaponState()
+	local ped = PlayerPedId()
+	local currentWeapon = GetSelectedPedWeapon(ped)
+
+	print("=== WEAPON STATE DEBUG ===")
+	print("canUseWeapons:", weaponState.canUseWeapons)
+	print("invBusy:", weaponState.invBusy)
+	print("invOpen:", weaponState.invOpen)
+	print("playerLoaded:", weaponState.playerLoaded)
+	print("usingItem:", weaponState.usingItem)
+	print("cuffed:", weaponState.cuffed)
+	print("Current weapon hash:", currentWeapon)
+	-- GetWeaponDisplayName might not exist, so let's try a safer approach
+	local weaponName = "Unknown"
+	if currentWeapon and currentWeapon ~= 0 then
+		weaponName = tostring(currentWeapon)
+	end
+	print("Weapon name:", weaponName)
+	print("IsPedShooting:", IsPedShooting(ped))
+	print("IsPlayerFreeAiming:", IsPlayerFreeAiming(PlayerId()))
+	print("IsControlPressed(24):", IsControlPressed(0, 24)) -- Attack control
+	print("LocalPlayer.state.canUseWeapons:", LocalPlayer.state.canUseWeapons)
+	print("LocalPlayer.state.invBusy:", LocalPlayer.state.invBusy)
+	print("=========================")
+
+	-- Also trigger a notification for easier viewing
+	TriggerEvent("fl:notify", "WEAPON DEBUG", "", "Check F8 console for detailed weapon state", 5000, 3, 0)
+end)
+
+
+-- Debug command to check what's blocking weapons
+RegisterCommand('weaponblocker', function()
+	local blockers = {}
+
+	if not plyState.canUseWeapons then
+		table.insert(blockers, "canUseWeapons = false")
+	end
+	if invBusy then
+		table.insert(blockers, "invBusy = true")
+	end
+	if invOpen then
+		table.insert(blockers, "invOpen = true")
+	end
+	if not PlayerData.loaded then
+		table.insert(blockers, "PlayerData not loaded")
+	end
+	if usingItem then
+		table.insert(blockers, "usingItem = true")
+	end
+	if PlayerData.cuffed or IsPedCuffed(playerPed) then
+		table.insert(blockers, "Player is cuffed")
+	end
+
+	if #blockers == 0 then
+		print("NO WEAPON BLOCKERS FOUND - Weapons should be working")
+		TriggerEvent("fl:notify", "WEAPON CHECK", "", "No blockers found - weapons should work", 3000, 2, 0)
+	else
+		print("WEAPON BLOCKERS FOUND:")
+		for i, blocker in ipairs(blockers) do
+			print("  " .. i .. ": " .. blocker)
+		end
+		TriggerEvent("fl:notify", "WEAPON BLOCKED", "", "Found " .. #blockers .. " blockers - check F8", 5000, 1, 0)
+	end
+end)
+
+-- Advanced stack tracing command
+RegisterCommand('weaponstacktrace', function()
+	print("=== WEAPON STACK TRACE ANALYSIS ===")
+
+	-- Check current stack trace
+	local info = debug.getinfo(1, "nSl")
+	local level = 1
+	print("CURRENT CALL STACK:")
+	while info do
+		print(('  %d: %s:%d in %s'):format(level, info.short_src or "?", info.currentline or 0, info.name or "?"))
+		level = level + 1
+		info = debug.getinfo(level, "nSl")
+	end
+
+	-- Check all resources that might be affecting weapon states
+	print("\nCHECKING RESOURCES FOR WEAPON INTERFERENCE:")
+	local resources = {
+		"ox_inventory",
+		"qb-policejob",
+		"cybernetics",
+		"ars_hunting",
+		"lation_greenzones",
+		"ox_target",
+		"ox_lib"
+	}
+
+	for _, resource in ipairs(resources) do
+		local state = GetResourceState(resource)
+		if state == "started" then
+			print("  " .. resource .. ": " .. state .. " (ACTIVE)")
+		else
+			print("  " .. resource .. ": " .. state)
+		end
+	end
+
+	print("=====================================")
+end)
+
 function client.closeInventory(server)
 	-- because somehow people are triggering this when the inventory isn't loaded
 	-- and they're incapable of debugging, and I can't repro on a fresh install
@@ -1078,10 +1284,10 @@ local function onEnterDrop(point)
 	if not point.instance or point.instance == currentInstance and not point.entity then
 		local model = point.model or client.dropmodel
 
-        -- Prevent breaking inventory on invalid point.model instead use default client.dropmodel
-        if not IsModelValid(model) and not IsModelInCdimage(model) then
-            model = client.dropmodel
-        end
+		-- Prevent breaking inventory on invalid point.model instead use default client.dropmodel
+		if not IsModelValid(model) and not IsModelInCdimage(model) then
+			model = client.dropmodel
+		end
 		lib.requestModel(model)
 
 		local entity = CreateObject(model, point.coords.x, point.coords.y, point.coords.z, false, true, true)
@@ -1168,11 +1374,57 @@ local function setStateBagHandler(stateId)
 
 	AddStateBagChangeHandler('invBusy', stateId, function(_, _, value)
 		invBusy = value
+
+		-- Stack trace logging for invBusy state changes
+		if GetConvar('ox_inventory:debug', 'false') == 'true' then
+			print(('=== invBusy changed to %s ==='):format(tostring(value)))
+			print('STACK TRACE:')
+
+			-- Get stack trace
+			local info = debug.getinfo(2, "nSl")
+			local level = 2
+			while info do
+				print(('  %d: %s:%d in %s'):format(level - 2, info.short_src or "?", info.currentline or 0,
+					info.name or "?"))
+				level = level + 1
+				info = debug.getinfo(level, "nSl")
+			end
+
+			-- Also try to get calling resource
+			local callingResource = GetInvokingResource()
+			if callingResource then
+				print('CALLING RESOURCE:', callingResource)
+			end
+			print('=====================================')
+		end
 	end)
 
 	AddStateBagChangeHandler('canUseWeapons', stateId, function(_, _, value)
 		if not value and currentWeapon then
 			currentWeapon = Weapon.Disarm(currentWeapon)
+		end
+
+		-- Stack trace logging for weapon state changes
+		if GetConvar('ox_inventory:debug', 'false') == 'true' then
+			print(('=== canUseWeapons changed to %s ==='):format(tostring(value)))
+			print('STACK TRACE:')
+
+			-- Get stack trace
+			local info = debug.getinfo(2, "nSl")
+			local level = 2
+			while info do
+				print(('  %d: %s:%d in %s'):format(level - 2, info.short_src or "?", info.currentline or 0,
+					info.name or "?"))
+				level = level + 1
+				info = debug.getinfo(level, "nSl")
+			end
+
+			-- Also try to get calling resource
+			local callingResource = GetInvokingResource()
+			if callingResource then
+				print('CALLING RESOURCE:', callingResource)
+			end
+			print('=====================================')
 		end
 	end)
 
@@ -1232,10 +1484,10 @@ end)
 RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inventory, weight, player)
 	if source == '' then return end
 
-    ---@class PlayerData
-    ---@field inventory table<number, SlotWithItem?>
-    ---@field weight number
-    ---@field groups table<string, number>
+	---@class PlayerData
+	---@field inventory table<number, SlotWithItem?>
+	---@field weight number
+	---@field groups table<string, number>
 	PlayerData = player
 	PlayerData.id = cache.playerId
 	PlayerData.source = cache.serverId
@@ -1394,6 +1646,13 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 	TriggerEvent('ox_inventory:updateInventory', PlayerData.inventory)
 
 	client.interval = SetInterval(function()
+		-- Periodic weapon state synchronization check
+		if PlayerData.loaded and not invOpen and not invBusy then
+			if not plyState.canUseWeapons then
+				plyState:set('canUseWeapons', true, false)
+			end
+		end
+
 		if invOpen == false then
 			playerCoords = GetEntityCoords(playerPed)
 
@@ -1407,7 +1666,8 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 				playerCoords = GetEntityCoords(playerPed)
 
 				if currentInventory and not currentInventory.ignoreSecurityChecks then
-                    local maxDistance = (currentInventory.distance or currentInventory.type == 'stash' and 4.8 or 1.8) + 0.2
+					local maxDistance = (currentInventory.distance or currentInventory.type == 'stash' and 4.8 or 1.8) +
+						0.2
 
 					if currentInventory.type == 'otherplayer' then
 						local id = GetPlayerFromServerId(currentInventory.id)
@@ -1425,7 +1685,6 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 						else
 							TaskTurnPedToFaceCoord(playerPed, pedCoords.x, pedCoords.y, pedCoords.z, 50)
 						end
-
 					elseif currentInventory.coords and (#(playerCoords - currentInventory.coords) > (currentInventory.distance or 4.0) or canOpenTarget(playerPed)) then
 						client.closeInventory()
 						lib.notify({
@@ -1461,7 +1720,8 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 				end
 
 				if weaponHash ~= currentWeapon.hash then
-                    lib.print.info(('%s was forcibly unequipped (caused by game behaviour or another resource)'):format(currentWeapon.name))
+					lib.print.info(('%s was forcibly unequipped (caused by game behaviour or another resource)'):format(
+						currentWeapon.name))
 					currentWeapon = Weapon.Disarm(currentWeapon, true)
 				end
 			end
@@ -1508,6 +1768,13 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 			end
 
 			if usingItem or invOpen or IsPedCuffed(playerPed) then
+				if GetConvar('ox_inventory:debug', 'false') == 'true' then
+					local reason = ""
+					if usingItem then reason = reason .. "usingItem " end
+					if invOpen then reason = reason .. "invOpen " end
+					if IsPedCuffed(playerPed) then reason = reason .. "cuffed " end
+					print("ox_inventory: DisablePlayerFiring - " .. reason)
+				end
 				DisablePlayerFiring(playerId, true)
 			end
 
@@ -1617,6 +1884,11 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 	plyState:set('invOpen', false, false)
 	plyState:set('invHotkeys', true, false)
 	plyState:set('canUseWeapons', true, false)
+
+	-- Force update local variables to ensure synchronization
+	invBusy = false
+	invOpen = false
+
 	collectgarbage('collect')
 end)
 
@@ -1721,8 +1993,8 @@ local function giveItemToTarget(serverId, slotId, count)
 		currentWeapon = Weapon.Disarm(currentWeapon)
 	end
 
-    Utils.PlayAnim(0, 'mp_common', 'givetake1_a', 1.0, 1.0, 2000, 50, 0.0, 0, 0, 0)
-    TriggerServerEvent('ox_inventory:giveItem', slotId, serverId, count or 0)
+	Utils.PlayAnim(0, 'mp_common', 'givetake1_a', 1.0, 1.0, 2000, 50, 0.0, 0, 0, 0)
+	TriggerServerEvent('ox_inventory:giveItem', slotId, serverId, count or 0)
 end
 
 exports('giveItemToTarget', giveItemToTarget)
