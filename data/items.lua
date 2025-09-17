@@ -4657,6 +4657,14 @@ return {
 		description = "Doppler Menu.",
 	},
 
+	["moonlit_guidebook"] = {
+		label = "Moonlit Guidebook",
+		weight = 5,
+		stack = true,
+		close = true,
+		description = "Grab Page At Bottom Of Book To Flip Through",
+	},
+
 	-- Doppler Ingredients
 	["tortilla_chips"] = {
 		label = "Tortilla Chips",
