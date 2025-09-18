@@ -1803,21 +1803,21 @@ return {
 		-- 	id = 606, colour = 0, scale = 0.6
 		-- },
 		inventory = {
-			{ name = 'radio',      price = 100,    currency = 'money' },
-			{ name = 'laptop',     price = 1000,   currency = 'money' },
-			{ name = 'keeptablet', price = 1000,   currency = 'money' },
-			{ name = 'fitbit',     price = 600,    currency = 'money' },
-			{ name = 'powerbank',  price = 200,    currency = 'money' },
-			{ name = 'simcard',    price = 200,    currency = 'money' },
-			{ name = 'phone',      price = 1000,   currency = 'money' },
-			{ name = 'gopro',      price = 1000,   currency = 'money' },
-			{ name = 'shitgpu',    price = 12000,  currency = 'money' },
-			{ name = '1050gpu',    price = 18000,  currency = 'money' },
-			{ name = '1060gpu',    price = 26000,  currency = 'money' },
-			{ name = '1080gpu',    price = 32000,  currency = 'money' },
-			{ name = '2080gpu',    price = 45000,  currency = 'money' },
-			{ name = '3060gpu',    price = 75000,  currency = 'money' },
-			{ name = '4090gpu',    price = 100000, currency = 'money' },
+			{ name = 'radio',     price = 100,    currency = 'money' },
+			{ name = 'laptop',    price = 1000,   currency = 'money' },
+			{ name = 'fitbit',    price = 600,    currency = 'money' },
+			{ name = 'powerbank', price = 200,    currency = 'money' },
+			{ name = 'simcard',   price = 200,    currency = 'money' },
+			{ name = 'phone',     price = 1000,   currency = 'money' },
+			{ name = 'tablet',    price = 2000,   currency = 'money' },
+			{ name = 'gopro',     price = 1000,   currency = 'money' },
+			{ name = 'shitgpu',   price = 12000,  currency = 'money' },
+			{ name = '1050gpu',   price = 18000,  currency = 'money' },
+			{ name = '1060gpu',   price = 26000,  currency = 'money' },
+			{ name = '1080gpu',   price = 32000,  currency = 'money' },
+			{ name = '2080gpu',   price = 45000,  currency = 'money' },
+			{ name = '3060gpu',   price = 75000,  currency = 'money' },
+			{ name = '4090gpu',   price = 100000, currency = 'money' },
 		},
 		targets = {
 			{
@@ -1835,11 +1835,11 @@ return {
 		-- 	id = 606, colour = 0, scale = 0.6
 		-- },
 		inventory = {
-			{ name = 'radio',      price = 100,  currency = 'money' },
-			{ name = 'laptop',     price = 1000, currency = 'money' },
-			{ name = 'keeptablet', price = 1000, currency = 'money' },
-			{ name = 'fitbit',     price = 600,  currency = 'money' },
-			{ name = 'phone',      price = 800,  currency = 'money' },
+			{ name = 'radio',  price = 100,  currency = 'money' },
+			{ name = 'laptop', price = 1000, currency = 'money' },
+			{ name = 'tablet', price = 2000, currency = 'money' },
+			{ name = 'fitbit', price = 600,  currency = 'money' },
+			{ name = 'phone',  price = 800,  currency = 'money' },
 		},
 		targets = {
 			{
@@ -1854,11 +1854,11 @@ return {
 	Electronics3 = {
 		name = 'Electronics Store',
 		inventory = {
-			{ name = 'radio',      price = 100,  currency = 'money' },
-			{ name = 'laptop',     price = 1000, currency = 'money' },
-			{ name = 'keeptablet', price = 1000, currency = 'money' },
-			{ name = 'fitbit',     price = 600,  currency = 'money' },
-			{ name = 'phone',      price = 800,  currency = 'money' },
+			{ name = 'radio',  price = 100,  currency = 'money' },
+			{ name = 'laptop', price = 1000, currency = 'money' },
+			{ name = 'tablet', price = 2000, currency = 'money' },
+			{ name = 'fitbit', price = 600,  currency = 'money' },
+			{ name = 'phone',  price = 800,  currency = 'money' },
 		},
 		targets = {
 			{

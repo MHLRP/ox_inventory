@@ -5911,10 +5911,12 @@ return {
 
 	["tablet"] = {
 		label = "Tablet",
-		weight = 2000,
-		stack = true,
-		close = true,
-		description = "Expensive tablet",
+		weight = 840,
+		stack = false,
+		consume = 0,
+		client = {
+			event = "tablet:toggleOpen"
+		}
 	},
 
 	["samsungphone"] = {
