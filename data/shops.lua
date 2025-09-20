@@ -523,6 +523,7 @@ return {
 			{ name = 'diving_fill',             label = 'Diving Fill',       price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'diving_gear',             label = 'Diving Gear',       price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'radio',                   label = 'Radio',             price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
+			{ name = 'tablet',                  label = 'Tablet',            price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'gps_tracker',             label = 'GPS Tracker',       price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'weapon_flare',            label = 'Weapon Flare',      price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'radiocell',               label = 'Radio Cell',        price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
