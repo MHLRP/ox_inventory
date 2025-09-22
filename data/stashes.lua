@@ -887,7 +887,7 @@ return {
 		owner = true,
 		slots = 20,
 		weight = 60000,
-		groups = { ['rustborncollective'] = 4 }
+		groups = { ['vendetta'] = 0 }
 	},
 	{
 		coords = vec3(193.3034, 2801.3870, 43.1160),
@@ -905,7 +905,7 @@ return {
 		owner = true,
 		slots = 20,
 		weight = 200000,
-		groups = { ['rustborncollective'] = 4 }
+		groups = { ['vendetta'] = 0 }
 	},
 	{
 		coords = vec3(178.5249, 2779.1660, 32.0130),
@@ -923,7 +923,7 @@ return {
 		owner = true,
 		slots = 20,
 		weight = 200000,
-		groups = { ['rustborncollective'] = 4 }
+		groups = { ['vendetta'] = 0 }
 	},
 	{
 		coords = vec3(178.5656, 2799.3125, 32.0130),
@@ -941,7 +941,7 @@ return {
 		owner = true,
 		slots = 20,
 		weight = 400000,
-		groups = { ['rustborncollective'] = 4 }
+		groups = { ['vendetta'] = 0 }
 	},
 	{
 		coords = vec3(2539.7991, 6148.2275, 167.1216),
