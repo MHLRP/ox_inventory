@@ -16419,6 +16419,9 @@ return {
 		stack = false,
 		close = false,
 		description = "A newspaper",
+		client = {
+			event = 'news:open'
+		}
 	},
 
 	['glowsaber'] = {

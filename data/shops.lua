@@ -420,6 +420,13 @@ return {
 		}
 	},
 
+	NewsShop = {
+		name = 'News Stand',
+		inventory = {
+			{ name = 'newspaper', price = 10, currency = 'money' },
+		},
+	},
+
 	-- GeneralStore4 = {
 	-- 	name = 'General Store',
 	-- 	inventory = {
