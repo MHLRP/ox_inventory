@@ -6583,6 +6583,22 @@ return {
 		close = true,
 	},
 
+	['ecg'] = {
+		label = 'ECG',
+		weight = 200,
+		stack = true,
+		close = true,
+		description = 'Electrocardiography is an electrophysiological examination method of the heart where the hearts electrical activity is recorded by electrodes connected to an ECG device.',
+	},
+	
+	['epi'] = {
+		label = 'Epinephrine Injector',
+		weight = 200,
+		stack = true,
+		close = false,
+		description = 'Epinephrine, also known as adrenaline, is both a neurotransmitter and a hormone. It plays an important role in your bodys fight-or-flight response.',
+	},
+	
 	['medbag'] = {
 		label = 'Medical Bag',
 		weight = 165,
