@@ -1632,33 +1632,33 @@ return {
 	},
 
 	Bar5 = {
-		society = "medusamechanics",
-		name = 'Bar',
-		inventory = {
-			{ name = 'beer',           price = 16, currency = 'money' },
-			{ name = 'whiskey',        price = 18, currency = 'money' },
-			{ name = 'vodka',          price = 18, currency = 'money' },
-			{ name = 'cola',           price = 12, currency = 'money' },
-			{ name = 'sprunk',         price = 12, currency = 'money' },
-			{ name = 'chips_cheese',   price = 16, currency = 'money' },
-			{ name = 'chips_paprika',  price = 16, currency = 'money' },
-			{ name = 'pitahummus',     price = 20, currency = 'money' },
-			{ name = 'olives',         price = 16, currency = 'money' },
-			{ name = 'ouzo',           price = 18, currency = 'money' },
-			{ name = 'pitagyros',      price = 22, currency = 'money' },
-			{ name = 'greeksalad',     price = 16, currency = 'money' },
-			{ name = 'pineapplejuice', price = 22, currency = 'money' },
-			{ name = 'peanutbowl',     price = 18, currency = 'money' },
-		},
-		targets = {
-			{
-				ped = `s_f_y_clubbar_01`,
-				scenario = 'WORLD_HUMAN_STAND_MOBILE',
-				loc = vec3(147.0628, -3052.7607, 10.0240),
-				heading = 354.8377,
-			}
-		}
-	},
+        society = "medusamechanics",
+        name = 'Bar',
+        inventory = {
+            { name = 'beer',           price = 16, currency = 'money' },
+            { name = 'whiskey',        price = 18, currency = 'money' },
+            { name = 'vodka',          price = 18, currency = 'money' },
+            { name = 'cola',           price = 12, currency = 'money' },
+            { name = 'sprunk',         price = 12, currency = 'money' },
+            { name = 'chips_cheese',   price = 16, currency = 'money' },
+            { name = 'chips_paprika',  price = 16, currency = 'money' },
+            { name = 'pitahummus',     price = 200, currency = 'money' },
+            { name = 'olives',         price = 160, currency = 'money' },
+            { name = 'ouzo',           price = 180, currency = 'money' },
+            { name = 'pitagyros',      price = 220, currency = 'money' },
+            { name = 'greeksalad',     price = 160, currency = 'money' },
+            { name = 'pineapplejuice', price = 220, currency = 'money' },
+            { name = 'peanutbowl',     price = 180, currency = 'money' },
+        },
+        targets = {
+            {
+                ped = s_f_y_clubbar_01,
+                scenario = 'WORLD_HUMAN_STAND_MOBILE',
+                loc = vec3(147.0628, -3052.7607, 10.0240),
+                heading = 354.8377,
+            }
+        }
+    },
 
 	Bar6 = {
 		name = 'Bar',
