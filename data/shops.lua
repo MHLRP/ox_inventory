@@ -1652,7 +1652,7 @@ return {
         },
         targets = {
             {
-                ped = s_f_y_clubbar_01,
+				ped = `s_f_y_clubbar_01`,
                 scenario = 'WORLD_HUMAN_STAND_MOBILE',
                 loc = vec3(147.0628, -3052.7607, 10.0240),
                 heading = 354.8377,
