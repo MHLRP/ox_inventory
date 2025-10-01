@@ -1943,6 +1943,7 @@ return {
 			id = 566, colour = 0, scale = 0.6
 		},
 		inventory = {
+			{ name = 'jackolantern',     price = 50,   currency = 'money' },
 			{ name = 'thermalpaste',     price = 100,   currency = 'money' },
 			{ name = 'miningdrill',      price = 15000, currency = 'money' },
 			{ name = 'mininglaser',      price = 30000, currency = 'money' },
