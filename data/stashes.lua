@@ -121,6 +121,24 @@ return {
 		weight = 500000,
 	},
 	{
+		coords = vec3(-447.4204, -892.3199, 23.8361),
+		target = {
+			loc = vec3(-447.4204, -892.3199, 23.8361),
+			length = 1.2,
+			width = 5.6,
+			heading = 4.2796,
+			minZ = 42.34,
+			maxZ = 45.74,
+			label = 'Open bloodbag stash'
+		},
+		name = 'bloodstash',
+		label = 'Bloodbag Stash',
+		owner = false,
+		slots = 70,
+		weight = 500000,
+		groups = { ['ambulance'] = 0 }
+	},
+	{
 		coords = vec3(987.07, -92.91, 74.84),
 		target = {
 			loc = vec3(987.07, -92.91, 74.84),

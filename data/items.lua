@@ -22237,4 +22237,12 @@ return {
 		close = true,
 		description = "Brought to you by the Aztecs",
 	},
+
+	["fridge"] = {
+		label = "Fridge",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "A fridge",
+	},
 }
