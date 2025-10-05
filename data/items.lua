@@ -6588,17 +6588,19 @@ return {
 		weight = 200,
 		stack = true,
 		close = true,
-		description = 'Electrocardiography is an electrophysiological examination method of the heart where the hearts electrical activity is recorded by electrodes connected to an ECG device.',
+		description =
+		'Electrocardiography is an electrophysiological examination method of the heart where the hearts electrical activity is recorded by electrodes connected to an ECG device.',
 	},
-	
+
 	['epi'] = {
 		label = 'Epinephrine Injector',
 		weight = 200,
 		stack = true,
 		close = false,
-		description = 'Epinephrine, also known as adrenaline, is both a neurotransmitter and a hormone. It plays an important role in your bodys fight-or-flight response.',
+		description =
+		'Epinephrine, also known as adrenaline, is both a neurotransmitter and a hormone. It plays an important role in your bodys fight-or-flight response.',
 	},
-	
+
 	['medbag'] = {
 		label = 'Medical Bag',
 		weight = 165,
@@ -12050,6 +12052,276 @@ return {
 		stack = false,
 		close = false,
 		description = "VIP Access to Monroe VIP Room 3",
+	},
+
+	['monroe_sandwich'] = { -- A simple sandwich for a simple day
+		label = 'Sandwich',
+		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "A simple sandwich for a simple day",
+		client = {
+			status = { hunger = 20 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_sandwich_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(150.0, 340.0, 170.0)
+			},
+			usetime = 7500,
+		}
+	},
+
+	['monroe_trailmix'] = {
+		label = 'Trail Mix',
+		weight = 100,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Monroe Trail Mix",
+		client = {
+			status = { hunger = 25 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = {
+				model = 'prop_food_chips',
+				pos = vec3(-0.01, 0.0, -0.02),
+				rot = vec3(0.0, 0.0, -45.0)
+			},
+			usetime = 5000,
+		}
+	},
+
+	['monroe_blueberryyogurt'] = {
+		label = "Blackberry Bubble Tea",
+		weight = 1000,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Blackberry Bubble Tea",
+		client = {
+			status = { thirst = 25 },
+			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+			prop = {
+				model = 'scully_boba3',
+				pos = vec3(0.0, 0.0, 0.0),
+				rot = vec3(0.0, 0.0, 0.0),
+				bone = 28422
+			},
+			usetime = 12000,
+		}
+	},
+
+	['monroe_acaibowl'] = {
+		label = 'Acai Bowl',
+		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			status = { hunger = 60 },
+			prop = {
+				[1] = {
+					model = 'scully_spoon_pho',
+					bone = 57005,
+					pos = vec3(0.14, 0.02, 0.01),
+					rot = vec3(-118.0, 192.0, 24.0)
+				},
+				[2] = {
+					model = 'prop_bar_nuts',
+					--bone = 57005	
+					pos = vec3(-0.03, 0.01, 0.05),
+					rot = vec3(0.0, 0.0, -40.0)
+				},
+			},
+			anim = { dict = 'anim@eat@fork', clip = 'fork_clip' },
+			usetime = 8000,
+		},
+	},
+
+	['monroe_cappuccino'] = {
+		label = 'Cappuccino',
+		weight = 250,
+		degrade = 60 * 24,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "A perfectly crafted cappuccino",
+	},
+
+	['monroe_mixedberrysmoothie'] = {
+		label = 'Mixed Berry Smoothie',
+		weight = 350,
+		degrade = 60 * 72,
+		stack = true,
+		close = true,
+		description = "Strawberry Smoothie",
+		client = {
+			status = { thirst = 40 },
+			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+			prop = {
+				model = 'brum_shake_strawberry',
+				pos = vec3(0.16, -0.02, -0.06),
+				rot = vec3(270.00, 0.00, 0.00),
+				bone = 57005
+			},
+			usetime = 12000,
+		}
+	},
+
+	['monroe_tropicalsmoother'] = {
+		label = 'Tropical Smoother',
+		degrade = 60 * 72,
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "Mint Smoothie",
+		client = {
+			status = { thirst = 40 },
+			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+			prop = {
+				model = 'brum_shake_mint',
+				pos = vec3(0.16, -0.02, -0.06),
+				rot = vec3(270.00, 0.00, 0.00),
+				bone = 57005
+			},
+			usetime = 12000,
+		}
+	},
+
+	['monroe_hotchocolate'] = {
+		label = 'Hot Chocolate',
+		weight = 300,
+		degrade = 60 * 24,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "A warm and comforting hot chocolate",
+	},
+
+	['monroe_coffee'] = {
+		label = 'Coffee',
+		weight = 200,
+		degrade = 60 * 24,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "A freshly brewed cup of coffee",
+	},
+
+	['monroe_latte'] = {
+		label = 'Latte',
+		weight = 250,
+		degrade = 60 * 24,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "A smooth and creamy latte",
+	},
+
+	['monroe_matchalatte'] = {
+		label = 'Matcha Latte',
+		weight = 100,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			status = { thirst = 25 },
+			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+			prop = {
+				model = 'scully_boba2',
+				pos = vec3(0.0, 0.0, 0.0),
+				rot = vec3(0.0, 0.0, 0.0),
+				bone = 28422
+			},
+			usetime = 12000,
+		}
+	},
+
+	['monroe_tarobobatea'] = {
+		label = "Taro Boba Tea",
+		weight = 100,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			status = { thirst = 25 },
+			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+			prop = {
+				model = 'scully_boba2',
+				pos = vec3(0.0, 0.0, 0.0),
+				rot = vec3(0.0, 0.0, 0.0),
+				bone = 28422
+			},
+			usetime = 12000,
+		}
+	},
+
+	['monroe_jellypot'] = {
+		label = 'Jelly Pot',
+		weight = 200,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			status = { hunger = 60 },
+			prop = {
+				[1] = {
+					model = 'scully_spoon_pho',
+					bone = 57005,
+					pos = vec3(0.14, 0.02, 0.01),
+					rot = vec3(-118.0, 192.0, 24.0)
+				},
+				[2] = {
+					model = 'prop_bar_nuts',
+					--bone = 57005	
+					pos = vec3(-0.03, 0.01, 0.05),
+					rot = vec3(0.0, 0.0, -40.0)
+				},
+			},
+			anim = { dict = 'anim@eat@fork', clip = 'fork_clip' },
+			usetime = 8000,
+		},
+	},
+
+	['monroe_overnightoats'] = {
+		label = 'Overnight Oats',
+		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			status = { hunger = 60 },
+			prop = {
+				[1] = {
+					model = 'scully_spoon_pho',
+					bone = 57005,
+					pos = vec3(0.14, 0.02, 0.01),
+					rot = vec3(-118.0, 192.0, 24.0)
+				},
+				[2] = {
+					model = 'prop_bar_nuts',
+					--bone = 57005	
+					pos = vec3(-0.03, 0.01, 0.05),
+					rot = vec3(0.0, 0.0, -40.0)
+				},
+			},
+			anim = { dict = 'anim@eat@fork', clip = 'fork_clip' },
+			usetime = 8000,
+		},
 	},
 
 	["metalscrap"] = {
