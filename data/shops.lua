@@ -308,7 +308,7 @@ return {
 		},
 		targets = {
 			{
-				ped = `mp_m_shopkeep_01`,
+				ped = `a_m_y_stbla_02`,
 				scenario = 'WORLD_HUMAN_STAND_MOBILE',
 				loc = vec3(-548.9540, -582.9260, 33.6818),
 				heading = 181.4278,
@@ -1024,7 +1024,7 @@ return {
 		},
 		targets = {
 			{
-				ped = `a_m_m_og_boss_01`,
+				ped = `a_m_y_stbla_02`,
 				scenario = 'WORLD_HUMAN_STAND_MOBILE',
 				loc = vec3(-331.5671, -2790.5962, 4.0002),
 				heading = 90.1782,
@@ -1058,7 +1058,7 @@ return {
 		},
 		targets = {
 			{
-				ped = `a_m_m_og_boss_01`,
+				ped = `a_m_y_stbla_02`,
 				scenario = 'WORLD_HUMAN_STAND_MOBILE',
 				loc = vec3(1278.2872, 299.3468, 80.9909),
 				heading = 142.1197,
@@ -1221,7 +1221,7 @@ return {
 		},
 		targets = {
 			{
-				ped = `a_m_y_business_02`,
+				ped = `a_m_y_stbla_02`,
 				scenario = 'PROP_HUMAN_SEAT_DECKCHAIR',
 				loc = vec3(-30.14, -1114.58, 24.89),
 				heading = 333.25,
@@ -1261,7 +1261,7 @@ return {
 		},
 		targets = {
 			{
-				ped = `s_f_y_scrubs_01`,
+				ped = `a_m_y_stbla_02`,
 				scenario = 'WORLD_HUMAN_CLIPBOARD',
 				loc = vec3(-1118.8988, -2803.4570, 20.3616),
 				heading = 52.3698,
@@ -1543,7 +1543,7 @@ return {
 		},
 		targets = {
 			{
-				ped = `s_f_y_clubbar_01`,
+				ped = `a_m_y_stbla_02`,
 				scenario = 'WORLD_HUMAN_STAND_MOBILE',
 				loc = vec3(-561.7548, 286.5161, 81.1765),
 				heading = 266.7521,
@@ -1560,7 +1560,7 @@ return {
 		},
 		targets = {
 			{
-				ped = `s_f_y_clubbar_01`,
+				ped = `a_m_y_stbla_02`,
 				scenario = 'WORLD_HUMAN_STAND_MOBILE',
 				loc = vec3(105.2639, -1311.4591, 19.2986),
 				heading = 286.8842,
@@ -1633,23 +1633,6 @@ return {
 	},
 
 	Bar7 = {
-		name = 'Liquor Store',
-		inventory = {
-			{ name = 'beer',    price = 7,  currency = 'money' },
-			{ name = 'whiskey', price = 10, currency = 'money' },
-			{ name = 'vodka',   price = 12, currency = 'money' },
-		},
-		targets = {
-			{
-				ped = `s_f_y_clubbar_01`,
-				scenario = 'WORLD_HUMAN_STAND_MOBILE',
-				loc = vec3(-1207.7667, -1509.2434, 3.3739),
-				heading = 24.9195,
-			}
-		}
-	},
-
-	Bar8 = {
 		name = 'Bar',
 		inventory = {
 			{ name = 'beer',    price = 7,  currency = 'money' },
@@ -1664,7 +1647,7 @@ return {
 		}
 	},
 
-	Bar9 = {
+	Bar8 = {
 		name = 'Bar',
 		inventory = {
 			{ name = 'beer',    price = 7,  currency = 'money' },
@@ -1679,7 +1662,7 @@ return {
 		}
 	},
 
-	Bar10 = {
+	Bar9 = {
 		name = 'Hookah Bar',
 		inventory = {
 			{ name = 'beer',           price = 8,   currency = 'money' },
@@ -1783,7 +1766,7 @@ return {
 		},
 		targets = {
 			{
-				ped = `a_f_y_smartcaspat_01`,
+				ped = `a_m_y_stbla_02`,
 				scenario = 'WORLD_HUMAN_STAND_MOBILE',
 				loc = vec3(-1142.2053, -2785.9011, 20.3616),
 				heading = 326.0868,
@@ -1805,29 +1788,10 @@ return {
 		},
 		targets = {
 			{
-				ped = `a_f_y_smartcaspat_01`,
+				ped = `a_m_y_stbla_02`,
 				scenario = 'WORLD_HUMAN_STAND_MOBILE',
 				loc = vec3(-529.0688, -582.7499, 33.6818),
 				heading = 180.0955,
-			}
-		}
-	},
-
-	Electronics3 = {
-		name = 'Electronics Store',
-		inventory = {
-			{ name = 'radio',  price = 100,  currency = 'money' },
-			{ name = 'laptop', price = 1000, currency = 'money' },
-			{ name = 'tablet', price = 2000, currency = 'money' },
-			{ name = 'fitbit', price = 600,  currency = 'money' },
-			{ name = 'phone',  price = 800,  currency = 'money' },
-		},
-		targets = {
-			{
-				ped = `a_f_y_smartcaspat_01`,
-				scenario = 'WORLD_HUMAN_STAND_MOBILE',
-				loc = vec3(-1207.8755, -1502.5751, 3.3739),
-				heading = 124.1069,
 			}
 		}
 	},
