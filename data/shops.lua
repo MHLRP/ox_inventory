@@ -400,15 +400,23 @@ return {
 		name = 'Monroe General Store',
 		society = "ambulance",
 		inventory = {
-			{ name = 'water',    price = 10 },
-			{ name = 'sandwich', price = 10 },
-			{ name = 'soda',     price = 10 },
-			{ name = 'sprunk',   price = 10 },
-			{ name = 'cigbox',   price = 100 },
-			{ name = 'teddy',    price = 50, },
-			{ name = 'getwell1', price = 100, },
-			{ name = 'egobar',   price = 10 },
-			{ name = 'crisps',   price = 10 },
+			{ name = 'cigbox',                    price = 100 },
+			{ name = 'teddy',                     price = 50, },
+			{ name = 'getwell1',                  price = 100, },
+			{ name = 'monroe_sandwich',           price = 10 },
+			{ name = 'monroe_trailmix',           price = 10 },
+			{ name = 'monroe_blueberryyogurt',    price = 10 },
+			{ name = 'monroe_acaibowl',           price = 10 },
+			{ name = 'monroe_cappuccino',         price = 10 },
+			{ name = 'monroe_mixedberrysmoothie', price = 10 },
+			{ name = 'monroe_tropicalsmoother',   price = 10 },
+			{ name = 'monroe_hotchocolate',       price = 10 },
+			{ name = 'monroe_coffee',             price = 10 },
+			{ name = 'monroe_latte',              price = 10 },
+			{ name = 'monroe_matchalatte',        price = 10 },
+			{ name = 'monroe_tarobobatea',        price = 10 },
+			{ name = 'monroe_jellypot',           price = 10 },
+			{ name = 'monroe_overnightoats',      price = 10 },
 		},
 		targets = {
 			{
@@ -949,61 +957,6 @@ return {
 		},
 		targets = {
 			{ loc = vec3(2529.9763, 2641.6440, 37.9454), length = 1.5, width = 3.0, heading = 160.64, minZ = 41.5, maxZ = 43.0, distance = 3 },
-		}
-	},
-
-	MechanicShop4 = {
-		name = 'PlagueWorks Shop',
-		groups = {
-			['plagueworks'] = 0
-		},
-		inventory = {
-			{ name = 'harness',              label = 'Racing Harness',       price = 0 },
-			{ name = 'engine_oil',           label = 'Engine Oil',           price = 0 },
-			{ name = 'tyre_replacement',     label = 'Tyre Replacement',     price = 0 },
-			{ name = 'clutch_replacement',   label = 'Clutch Replacement',   price = 0 },
-			{ name = 'manual_gearbox',       label = 'Manual Gearbox',       price = 0 },
-			{ name = 'air_filter',           label = 'Air Filter',           price = 0 },
-			{ name = 'spark_plug',           label = 'Spark Plug',           price = 0 },
-			{ name = 'brakepad_replacement', label = 'Brakepad Replacement', price = 0 },
-			{ name = 'suspension_parts',     label = 'Suspension Parts',     price = 0 },
-			{ name = 'turbocharger',         label = 'Turbocharger',         price = 0 },
-			{ name = 'ev_motor',             label = 'EV Motor',             price = 0 },
-			{ name = 'ev_battery',           label = 'EV Battery',           price = 0 },
-			{ name = 'ev_coolant',           label = 'EV Coolant',           price = 0 },
-			{ name = 'awd_drivetrain',       label = 'AWD Drivetrain',       price = 0 },
-			{ name = 'ceramic_brakes',       label = 'Ceramic Brakes',       price = 0 },
-			{ name = 'rwd_drivetrain',       label = 'RWD Drivetrain',       price = 0 },
-			{ name = 'fwd_drivetrain',       label = 'FWD Drivetrain',       price = 0 },
-			{ name = 'slick_tyres',          label = 'Slick Tyres',          price = 0 },
-			{ name = 'semi_slick_tyres',     label = 'Semi Slick Tyres',     price = 0 },
-			{ name = 'offroad_tyres',        label = 'Offroad Tyres',        price = 0 },
-			{ name = 'drift_tuning_kit',     label = 'Drift Tuning Kit',     price = 0 },
-			{ name = 'lighting_controller',  label = 'Lighting Controller',  price = 0 },
-			{ name = 'stancing_kit',         label = 'Stancer Kit',          price = 0 },
-			{ name = 'cosmetic_part',        label = 'Cosmetic Parts',       price = 0 },
-			{ name = 'respray_kit',          label = 'Respray Kit',          price = 0 },
-			{ name = 'vehicle_wheels',       label = 'Vehicle Wheels Set',   price = 0 },
-			{ name = 'tyre_smoke_kit',       label = 'Tyre Smoke Kit',       price = 0 },
-			{ name = 'bulletproof_tyres',    label = 'Bulletproof Tyres',    price = 0 },
-			{ name = 'extras_kit',           label = 'Extras Kit',           price = 0 },
-			{ name = 'nitrous_bottle',       label = 'Nitrous Bottle',       price = 0 },
-			{ name = 'empty_nitrous_bottle', label = 'Empty Nitrous Bottle', price = 0 },
-			{ name = 'nitrous_install_kit',  label = 'Nitrous Install Kit',  price = 0 },
-			{ name = 'cleaning_kit',         label = 'Cleaning Kit',         price = 0 },
-			{ name = 'repair_kit',           label = 'Repair Kit',           price = 0 },
-			{ name = 'duct_tape',            label = 'Duct Tape',            price = 0 },
-			{ name = 'performance_part',     label = 'Performance Parts',    price = 0 },
-			{ name = 'mechanic_tablet',      label = 'Mechanic Tablet',      price = 0 },
-			{ name = 'kq_winch',             label = 'Winch',                price = 0 },
-			{ name = 'kq_tow_rope',          label = 'Tow Rope',             price = 0 },
-			{ name = 'customizableplate',    label = 'Customizable Plate',   price = 0 },
-		},
-		locations = {
-			vec(31167.5796, 2621.6748, 38.3738)
-		},
-		targets = {
-			{ loc = vec3(1167.5796, 2621.6748, 38.3738), length = 1.5, width = 3.0, heading = 190.0, minZ = 41.5, maxZ = 43.0, distance = 3 },
 		}
 	},
 
@@ -1632,33 +1585,33 @@ return {
 	},
 
 	Bar5 = {
-        society = "medusamechanics",
-        name = 'Bar',
-        inventory = {
-            { name = 'beer',           price = 16, currency = 'money' },
-            { name = 'whiskey',        price = 18, currency = 'money' },
-            { name = 'vodka',          price = 18, currency = 'money' },
-            { name = 'cola',           price = 12, currency = 'money' },
-            { name = 'sprunk',         price = 12, currency = 'money' },
-            { name = 'chips_cheese',   price = 16, currency = 'money' },
-            { name = 'chips_paprika',  price = 16, currency = 'money' },
-            { name = 'pitahummus',     price = 200, currency = 'money' },
-            { name = 'olives',         price = 160, currency = 'money' },
-            { name = 'ouzo',           price = 180, currency = 'money' },
-            { name = 'pitagyros',      price = 220, currency = 'money' },
-            { name = 'greeksalad',     price = 160, currency = 'money' },
-            { name = 'pineapplejuice', price = 220, currency = 'money' },
-            { name = 'peanutbowl',     price = 180, currency = 'money' },
-        },
-        targets = {
-            {
+		society = "medusamechanics",
+		name = 'Bar',
+		inventory = {
+			{ name = 'beer',           price = 16,  currency = 'money' },
+			{ name = 'whiskey',        price = 18,  currency = 'money' },
+			{ name = 'vodka',          price = 18,  currency = 'money' },
+			{ name = 'cola',           price = 12,  currency = 'money' },
+			{ name = 'sprunk',         price = 12,  currency = 'money' },
+			{ name = 'chips_cheese',   price = 16,  currency = 'money' },
+			{ name = 'chips_paprika',  price = 16,  currency = 'money' },
+			{ name = 'pitahummus',     price = 200, currency = 'money' },
+			{ name = 'olives',         price = 160, currency = 'money' },
+			{ name = 'ouzo',           price = 180, currency = 'money' },
+			{ name = 'pitagyros',      price = 220, currency = 'money' },
+			{ name = 'greeksalad',     price = 160, currency = 'money' },
+			{ name = 'pineapplejuice', price = 220, currency = 'money' },
+			{ name = 'peanutbowl',     price = 180, currency = 'money' },
+		},
+		targets = {
+			{
 				ped = `s_f_y_clubbar_01`,
-                scenario = 'WORLD_HUMAN_STAND_MOBILE',
-                loc = vec3(147.0628, -3052.7607, 10.0240),
-                heading = 354.8377,
-            }
-        }
-    },
+				scenario = 'WORLD_HUMAN_STAND_MOBILE',
+				loc = vec3(147.0628, -3052.7607, 10.0240),
+				heading = 354.8377,
+			}
+		}
+	},
 
 	Bar6 = {
 		name = 'Bar',
@@ -1943,7 +1896,7 @@ return {
 			id = 566, colour = 0, scale = 0.6
 		},
 		inventory = {
-			{ name = 'jackolantern',     price = 50,   currency = 'money' },
+			{ name = 'jackolantern',     price = 50,    currency = 'money' },
 			{ name = 'thermalpaste',     price = 100,   currency = 'money' },
 			{ name = 'miningdrill',      price = 15000, currency = 'money' },
 			{ name = 'mininglaser',      price = 30000, currency = 'money' },
@@ -2143,7 +2096,6 @@ return {
 			['medusamechanics'] = 0,
 			['midnightautos'] = 0,
 			['rexsgarage'] = 0,
-			['plagueworks'] = 0,
 		},
 		inventory = {
 			{ name = 'r488sound',     label = 'R488 Engine 2.5L',           price = 0 },
