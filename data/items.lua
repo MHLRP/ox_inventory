@@ -16946,6 +16946,14 @@ return {
 		description = "Fusion Reactor Fuel",
 	},
 
+	["fusionreactor"] = {
+		label = "Fusion Reactor",
+		weight = 5000,
+		stack = false,
+		close = true,
+		description = "Advanced temporal displacement core. Must be installed by CyberHeX technicians.",
+	},
+
 
 	["coin"] = {
 		label = "Coin",
