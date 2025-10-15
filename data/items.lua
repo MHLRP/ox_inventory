@@ -848,6 +848,26 @@ return {
 		}
 	},
 
+	["cupcake-strawberrychocolate"] = {
+		label = "Strawberry Chocolate Cupcake",
+		weight = 1000,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "A cupcake that you can eat",
+		client = {
+			status = { hunger = 60 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'pata_christmasfood6',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(150.0, 340.0, 170.0)
+			},
+			usetime = 7500,
+		}
+	},
+
 	["egochaser"] = {
 		label = "Ego Chaser",
 		weight = 100,
@@ -13975,6 +13995,14 @@ return {
 		}
 	},
 
+	["strawberrysyrup"] = {
+		label = "Strawberry Syrup",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Strawberry Syrup",
+	},
+
 	["bcream"] = {
 		label = "Whipped Cream",
 		weight = 100,
@@ -14244,7 +14272,7 @@ return {
 	},
 
 	["teabag"] = {
-		label = "Tea Bag",
+		label = "Regular Tea Bag",
 		weight = 20,
 		stack = true,
 		close = true,
@@ -22524,5 +22552,360 @@ return {
 		stack = true,
 		close = true,
 		description = "A fridge",
+	},
+
+	--- Greenleaf Items
+
+	["whitetea"] = {
+		label = "White Tea",
+		degrade = 60 * 72,
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			status = { thirst = 40 },
+			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_b' },
+			prop = {
+				model = 'v_res_mcofcupdirt',
+				pos = vec3(0.0, 0.0, 0.0),
+				rot = vec3(0.0, 0.0, 0.0),
+				bone = 28422,
+			},
+			usetime = 5000,
+		}
+	},
+
+	["blacktea"] = {
+		label = "Black Tea",
+		degrade = 60 * 72,
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			status = { thirst = 40 },
+			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_b' },
+			prop = {
+				model = 'v_res_mcofcupdirt',
+				pos = vec3(0.0, 0.0, 0.0),
+				rot = vec3(0.0, 0.0, 0.0),
+				bone = 28422,
+			},
+			usetime = 5000,
+		}
+	},
+	["greentea"] = {
+		label = "Green Tea",
+		degrade = 60 * 72,
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			status = { thirst = 40 },
+			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_b' },
+			prop = {
+				model = 'v_res_mcofcupdirt',
+				pos = vec3(0.0, 0.0, 0.0),
+				rot = vec3(0.0, 0.0, 0.0),
+				bone = 28422,
+			},
+			usetime = 5000,
+		}
+	},
+
+	["greentealeaves"] = {
+		label = "Green Tea Leaves",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Green Tea Leaves",
+	},
+
+	["blacktealeaves"] = {
+		label = "Black Tea Leaves",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Black Tea Leaves",
+	},
+
+	["strawberryoilshake"] = {
+		label = "Strawberry Oil Shake",
+		weight = 1000,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			status = { thirst = 25 },
+			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+			prop = {
+				model = 'brum_shake_chocolate',
+				pos = vec3(0.16, -0.02, -0.06),
+				rot = vec3(270.00, 0.00, 0.00),
+				bone = 57005
+			},
+			usetime = 12000,
+		}
+	},
+
+	["baconeggncheese"] = {
+		label = "Bacon Egg and Cheese",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Bacon Egg and Cheese",
+	},
+
+	["croissant"] = {
+		label = "Croissant",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Croissant",
+	},
+
+	["creamcheese"] = {
+		label = "Cream Cheese",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Cream Cheese",
+	},
+
+	["frozen_fillet_salmon"] = {
+		label = "Frozen Fillet Salmon",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Frozen Fillet Salmon",
+	},
+
+	["loxwithcreamcheese"] = {
+		label = "Lox with Cream Cheese",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Lox with Cream Cheese",
+	},
+
+	["bagel"] = {
+		label = "Bagel",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Bagel",
+	},
+
+	["capers"] = {
+		label = "Capers",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Capers",
+	},
+
+	["eggsbenedict"] = {
+		label = "Eggs Benedict",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Eggs Benedict",
+	},
+
+	["hollandaisesauce"] = {
+		label = "Hollandaise Sauce",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Hollandaise Sauce",
+	},
+
+	["englishmuffin"] = {
+		label = "English Muffin",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "English Muffin",
+	},
+
+	["veggiewrap"] = {
+		label = "Veggie Wrap",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Veggie Wrap",
+	},
+
+	["breakfastwrap"] = {
+		label = "Breakfast Wrap",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Breakfast Wrap",
+	},
+
+	["cinnabun"] = {
+		label = "Cinnabun",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Cinnabun",
+	},
+
+	["lemonbar"] = {
+		label = "Lemon Bar",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Lemon Bar",
+	},
+
+	["camelliatealeaves"] = {
+		label = "Camellia Plant",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Camellia Plant",
+	},
+
+	["lavenderpowder"] = {
+		label = "Lavender Powder",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Lavender Powder",
+	},
+
+	["matchapowder"] = {
+		label = "Matcha Powder",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Matcha Powder",
+	},
+
+	["browniemix"] = {
+		label = "Brownie Mix",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Brownie Mix",
+	},
+
+	["matchalavenderlatte"] = {
+		label = "Matcha Lavender Latte",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Matcha Lavender Latte",
+	},
+
+	["lavenderchailatte"] = {
+		label = "Lavender Chai Latte",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Lavender Chai Latte",
+	},
+
+	["galaxycakepop"] = {
+		label = "Galaxy Cake Pop",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Galaxy Cake Pop",
+	},
+
+	['pbjsandwich'] = { -- A simple sandwich for a simple day
+		label = 'PBJ Sandwich',
+		weight = 100,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "A peanut butter and jelly sandwich",
+		client = {
+			status = { hunger = 30 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_sandwich_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(150.0, 340.0, 170.0)
+			},
+			usetime = 7500,
+		}
+	},
+
+	["cybergranola"] = {
+		label = "Cyber Granola",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Cyber Granola",
+	},
+
+	["greencyberoil"] = {
+		label = "Green Cyber Oil",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Green Cyber Oil",
+	},
+	
+	["blackcyberoil"] = {
+		label = "Black Cyber Oil",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Black Cyber Oil",
+	},
+
+	["cyberbagel"] = {
+		label = "Cyber Bagel",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Cyber Bagel",
+	},
+	
+	["lemonstrawberrycheesecakebites"] = {
+		label = "Lemon Strawberry Cheesecake Bites",
+		weight = 10,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			status = { hunger = 40 },
+			prop = {
+				[1] = {
+					model = 'djs_fork',
+					bone = 57005,
+					pos = vec3(0.14, 0.02, 0.01),
+					rot = vec3(-118.0, 192.0, 24.0)
+				},
+				[2] = {
+					model = 'cake_blacktiemouse',
+					--bone = 57005	
+					pos = vec3(-0.03, 0.01, 0.01),
+					rot = vec3(0.0, 0.0, -40.0)
+				},
+			},
+			anim = { dict = 'anim@eat@fork', clip = 'fork_clip' },
+			usetime = 8000,
+		},
+	},
+
+	["chaispice"] = {
+		label = "Chai Spice",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Chai Spice",
 	},
 }
