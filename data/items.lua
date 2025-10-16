@@ -22908,4 +22908,12 @@ return {
 		close = true,
 		description = "Chai Spice",
 	},
+
+	["eyetini"] = {
+		label = "Eyetini",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Eyetini",
+	},
 }
