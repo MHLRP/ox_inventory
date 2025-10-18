@@ -16820,8 +16820,40 @@ return {
 			prop = { model = `prop_oiltub_04`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
 			usetime = 2500,
 			cancel = true,
-			notification = 'You drank some refreshing water'
+			notification = 'You drank some refreshing oil'
 		}
+	},
+
+	["cyberoil_blue"] = {
+		label = "CyberHeX Oil Energy",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "An Energy Drink made for Cyborgs, aiding with their Stamina.",
+	},
+
+	["cyberoil_green"] = {
+		label = "CyberHeX Oil Durability",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "A Boost of Armor in one sip! A Cyborg based Beverage that strengthens the steel of their body.",
+	},
+
+	["cyberoil_orange"] = {
+		label = "CyberHeX Oil Drink",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "A Normal Oil based beverage for the Cyborg types, can also be used as an Ingredient.",
+	},
+
+	["cyberoil_red"] = {
+		label = "CyberHeX Oil Recovery",
+		weight = 100,
+		stack = true,
+		close = false,
+		description = "A Medicinal Beverage for Cyborgs, providing recovery and stress relief.",
 	},
 
 	---- ROBOT ACCESSORIES
@@ -22855,7 +22887,7 @@ return {
 		close = true,
 		description = "Green Cyber Oil",
 	},
-	
+
 	["blackcyberoil"] = {
 		label = "Black Cyber Oil",
 		weight = 100,
@@ -22871,7 +22903,7 @@ return {
 		close = true,
 		description = "Cyber Bagel",
 	},
-	
+
 	["lemonstrawberrycheesecakebites"] = {
 		label = "Lemon Strawberry Cheesecake Bites",
 		weight = 10,
