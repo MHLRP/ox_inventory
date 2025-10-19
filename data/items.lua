@@ -5249,6 +5249,14 @@ return {
 		description = "News Camera",
 	},
 
+	["videocam"] = {
+		label = "Video Camera",
+		weight = 2200,
+		stack = false,
+		close = true,
+		description = "Video Camera for cinematic recording",
+	},
+
 	["rolex"] = {
 		label = "Golden Watch",
 		weight = 1500,
