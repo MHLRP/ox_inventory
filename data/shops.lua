@@ -1005,7 +1005,7 @@ return {
 			{ name = 'mansionlaptop', price = 2200,   currency = 'black_money' },
 			{ name = 'armour',        price = 12000,  currency = 'black_money' },
 			{ name = 'jammer',        price = 22000,  currency = 'black_money' },
-			{ name = 'drone',         price = 45000,  currency = 'black_money' },
+			{ name = 'drone',         price = 450000,  currency = 'black_money' },
 			{ name = 'redphone',      price = 85000,  currency = 'black_money' },
 			{ name = 'goldenphone',   price = 165000, currency = 'black_money' },
 			{ name = 'greenphone',    price = 12000,  currency = 'black_money' },

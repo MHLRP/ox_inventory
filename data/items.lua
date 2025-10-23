@@ -6838,7 +6838,7 @@ return {
 		stack = false,
 		description = "You can use this!",
 		client = {
-			event = 'ars_hunting:useCampfire'
+			event = 'moonlit-hunting:useCampfire'
 		}
 	},
 
