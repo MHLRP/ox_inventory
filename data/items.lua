@@ -6270,6 +6270,14 @@ return {
 		}
 	},
 
+	["anklemonitor"] = {
+		label = "Ankle Monitor",
+		weight = 1,
+		stack = true,
+		close = true,
+		description = "A monitor that can be used to track a person's location.",
+	},
+
 	["policepouches"] = {
 		label = "Police Pouch",
 		weight = 5,
