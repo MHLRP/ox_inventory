@@ -22798,10 +22798,22 @@ return {
 
 	["cinnabun"] = {
 		label = "Cinnabun",
-		weight = 100,
+		degrade = 60 * 72,
+		weight = 200,
 		stack = true,
 		close = true,
 		description = "Cinnabun",
+		client = {
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_donut_01',
+				bone = 18905,
+				pos = vec3(0.13, 0.050, 0.020),
+				rot = vec3(-50.0, 100.0, 270.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["lemonbar"] = {
