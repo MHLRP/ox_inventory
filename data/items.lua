@@ -16994,6 +16994,14 @@ return {
 		description = "Enhanced Vision Chip Implant",
 	},
 
+	["targetchip"] = {
+		label = "Target Chip",
+		weight = 200,
+		stack = false,
+		close = true,
+		description = "Target Chip Implant",
+	},
+
 	["cyberinhaler"] = {
 		label = "CyberHeX Inhaler",
 		weight = 100,
