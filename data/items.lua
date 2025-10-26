@@ -20461,9 +20461,22 @@ return {
 		label = 'Fortune Cookie',
 		weight = 100,
 		stack = true,
+		consume = 1,
+		close = true,
 		description = 'A fortune cookie',
 		client = {
-			export = 'PS_FortuneCookie.use'
+			usetime = 3000,
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger' },
+			prop = {
+				model = 'prop_donut_01',
+				pos = vec3(0.02, 0.01, -0.03),
+				rot = vec3(-50.0, 16.0, 60.0),
+				bone = 60309
+			},
+			notification = 'You ate a fortune cookie'
+		},
+		server = {
+			export = 'PS_FortuneCookie.handleConsume'
 		}
 	},
 
