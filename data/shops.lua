@@ -735,6 +735,18 @@ return {
 		},
 	},
 
+	CyberHexOilShop = {
+		name = 'CyberHex Oil',
+		inventory = {			
+			{ name = 'cyberoil_orange', price = 250 },
+			{ name = 'cyberoil_blue', price = 250 },
+			{ name = 'cyberoil_green', price = 250 },
+			{ name = 'cyberoil_red', price = 250 },
+			{ name = 'cybernuts', price = 301, },
+			{ name = 'cybercrackers',  price = 385, },
+		},
+	},
+
 	CyberVending = {
 		name = 'Cyber Vending',
 		inventory = {

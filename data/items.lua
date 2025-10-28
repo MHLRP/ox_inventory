@@ -22929,6 +22929,14 @@ return {
 		description = "Cyber Granola",
 	},
 
+	["cybercrackers"] = {
+		label = "CPU and Paste",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Cyber Crackers",
+	},
+
 	["greencyberoil"] = {
 		label = "Green Cyber Oil",
 		weight = 100,
