@@ -6108,7 +6108,7 @@ return {
 		weight = 3250,
 		description = "For changing your outfit on the fly",
 		stack = false,
-		consume = 1,
+		consume = 0,
 		client = {
 			event = 'moonlit-outfitbag:place'
 		}
