@@ -6110,7 +6110,7 @@ return {
 		stack = false,
 		consume = 1,
 		client = {
-			event = 'wx_outfitbag:place'
+			event = 'moonlit-outfitbag:place'
 		}
 	},
 
@@ -23004,5 +23004,37 @@ return {
 		stack = true,
 		close = true,
 		description = "Eyetini",
+	},
+
+	['crafting_bench'] = {
+		label = 'Crafting Bench',
+		consume = 0,
+		weight = 100,
+		stack = false,
+		close = false,
+		client = {
+			export = "sleepless_crafting.placeCraftStation",
+		}
+	},
+
+	['bench_upgrade_2'] = {
+		label = 'Crafting Bench Upgrade Tier 2',
+		weight = 50,
+		stack = false,
+		close = false,
+	},
+
+	['bench_upgrade_3'] = {
+		label = 'Crafting Bench Upgrade Tier 3',
+		weight = 75,
+		stack = false,
+		close = false,
+	},
+
+	['bench_upgrade_4'] = {
+		label = 'Crafting Bench Upgrade Tier 4',
+		weight = 100,
+		stack = false,
+		close = false,
 	},
 }
