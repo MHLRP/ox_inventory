@@ -4994,6 +4994,10 @@ return {
 		stack = true,
 		close = true,
 		description = "You can get groovy with this!",
+		consume = 0,
+		server = {
+			export = 'moonlit-boombox.useBoombox'
+		}
 	},
 
 	["goldcoin"] = {
