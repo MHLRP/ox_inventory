@@ -13758,8 +13758,6 @@ return {
 	["tortillas"] = {
 		label = "Tortillas",
 		weight = 150,
-		degrade = 60 * 72,
-		decay = true,
 		stack = true,
 		close = true,
 		description = "Ingredient",
@@ -17566,7 +17564,6 @@ return {
 
 	["fishnchipscheeseslice"] = {
 		label = "Cheese Slice",
-		degrade = 60 * 72,
 		weight = 200,
 		stack = true,
 		close = true,
@@ -22745,10 +22742,22 @@ return {
 
 	["baconeggncheese"] = {
 		label = "Bacon Egg and Cheese",
-		weight = 100,
+		weight = 200,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
-		description = "Bacon Egg and Cheese",
+		description = "Bacon Egg and Cheese on a fresh croissant",
+		client = {
+			status = { hunger = 50 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_sandwich_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(150.0, 340.0, 170.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["croissant"] = {
@@ -22777,10 +22786,22 @@ return {
 
 	["loxwithcreamcheese"] = {
 		label = "Lox with Cream Cheese",
-		weight = 100,
+		weight = 200,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
-		description = "Lox with Cream Cheese",
+		description = "Fresh salmon lox on a bagel with cream cheese",
+		client = {
+			status = { hunger = 55 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'p_ing_bagel_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(150.0, 340.0, 170.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["bagel"] = {
@@ -22801,10 +22822,22 @@ return {
 
 	["eggsbenedict"] = {
 		label = "Eggs Benedict",
-		weight = 100,
+		weight = 250,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
-		description = "Eggs Benedict",
+		description = "Poached eggs with bacon and hollandaise sauce",
+		client = {
+			status = { hunger = 60 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'p_ing_bagel_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(150.0, 340.0, 170.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["hollandaisesauce"] = {
@@ -22825,18 +22858,42 @@ return {
 
 	["veggiewrap"] = {
 		label = "Veggie Wrap",
-		weight = 100,
+		weight = 200,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
-		description = "Veggie Wrap",
+		description = "Fresh veggie wrap with eggs and avocado",
+		client = {
+			status = { hunger = 45 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_taco_02',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(150.0, 340.0, 170.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["breakfastwrap"] = {
 		label = "Breakfast Wrap",
-		weight = 100,
+		weight = 250,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
-		description = "Breakfast Wrap",
+		description = "Hearty breakfast wrap with eggs, bacon, and tomato",
+		client = {
+			status = { hunger = 55 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_taco_02',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(150.0, 340.0, 170.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["cinnabun"] = {
