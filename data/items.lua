@@ -3460,6 +3460,7 @@ return {
 		label = 'Box of Donuts',
 		weight = 2000,
 		degrade = 60 * 72,
+		stack = true,
 		decay = true,
 		description = "A box of donuts, dude",
 		client = {
@@ -3480,6 +3481,7 @@ return {
 		weight = 2500,
 		degrade = 60 * 72,
 		decay = true,
+		stack = true,
 		description = "A box of donuts, dude",
 		client = {
 			anim = { dict = 'anim@heists@box_carry@', clip = 'idle', flag = 49 },
@@ -14521,6 +14523,22 @@ return {
 		}
 	},
 
+	["boosterpack"] = {
+		label = "Booster Pack",
+		weight = 5,
+		stack = true,
+		close = true,
+		description = "Contains 10 cards",
+	},
+
+	["boosterpacks"] = {
+		label = "Booster Packs",
+		weight = 20,
+		stack = true,
+		close = true,
+		description = "Contains 4 Packs",
+	},
+
 	["wanted_paper"] = {
 		label = "Wanted Paper",
 		weight = 0,
@@ -22843,10 +22861,31 @@ return {
 
 	["lemonbar"] = {
 		label = "Lemon Bar",
-		weight = 100,
+		weight = 5,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
-		description = "Lemon Bar",
+		description = "",
+		client = {
+			status = { hunger = 40 },
+			prop = {
+				[1] = {
+					model = 'djs_fork',
+					bone = 57005,
+					pos = vec3(0.14, 0.02, 0.01),
+					rot = vec3(-118.0, 192.0, 24.0)
+				},
+				[2] = {
+					model = 'cake_blacktiemouse',
+					--bone = 57005	
+					pos = vec3(-0.03, 0.01, 0.01),
+					rot = vec3(0.0, 0.0, -40.0)
+				},
+			},
+			anim = { dict = 'anim@eat@fork', clip = 'fork_clip' },
+			usetime = 8000,
+		},
 	},
 
 	["camelliatealeaves"] = {
