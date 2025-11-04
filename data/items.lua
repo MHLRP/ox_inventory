@@ -7319,7 +7319,6 @@ return {
 		description = 'A boarding pass for air travel',
 		consume = 0,
 		client = {
-			usetime = 1000,
 			export = 'moonlit-travel.useTicket'
 		}
 	},
