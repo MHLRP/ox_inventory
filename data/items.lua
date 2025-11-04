@@ -7311,6 +7311,19 @@ return {
 		description = "A ticket to ride the monorail",
 	},
 
+	['planeticket'] = {
+		label = 'Plane Ticket',
+		weight = 10,
+		stack = false,
+		close = true,
+		description = 'A boarding pass for air travel',
+		consume = 0,
+		client = {
+			usetime = 1000,
+			export = 'moonlit-travel.useTicket'
+		}
+	},
+
 	["specialbadge"] = {
 		label = "Official Police Badge",
 		weight = 1,

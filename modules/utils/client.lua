@@ -69,15 +69,31 @@ function Utils.GetClosestPlayer()
     return targetId, targetPed
 end
 
--- Replace ox_inventory notify with ox_lib (backwards compatibility)
+-- Replace ox_inventory notify with FL notify system
 function Utils.Notify(data)
-    data.description = data.text
-    data.text = nil
-    lib.notify(data)
+    local message = data.description or data.text or "Notification"
+    local notifyType = data.type or "info"
+
+    -- Map notify types to FL notify icon numbers
+    -- 1=ERROR, 2=SUCCESS, 3=FRAUD
+    local iconNumber = 2 -- default to success
+    if notifyType == "error" then
+        iconNumber = 1
+    elseif notifyType == "success" then
+        iconNumber = 2
+    end
+
+    TriggerEvent("fl:notify", "INVENTORY", "", message, 5000, iconNumber, 0)
 end
 
 RegisterNetEvent('ox_inventory:notify', Utils.Notify)
 exports('notify', Utils.Notify)
+
+-- Override lib.notify to use FL notify system for ox_inventory
+local originalLibNotify = lib.notify
+lib.notify = function(data)
+    Utils.Notify(data)
+end
 
 function Utils.ItemNotify(data)
     if not client.itemnotify then
