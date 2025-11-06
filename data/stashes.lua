@@ -438,9 +438,9 @@ return {
 		weight = 70000,
 	},
 	{
-		coords = vec3(-849.119, -233.572, 37.201),
+		coords = vec3(109.381, 2.215, 67.771),
 		target = {
-			loc = vec3(-849.119, -233.572, 37.201),
+			loc = vec3(109.381, 2.215, 67.771),
 			length = 1.2,
 			width = 5.6,
 			heading = 0.0,
@@ -455,12 +455,12 @@ return {
 		weight = 70000,
 	},
 	{
-		coords = vec3(-853.4227, -242.3985, 62.1776),
+		coords = vec3(118.109, 13.416, 67.402),
 		target = {
-			loc = vec3(-853.4227, -242.3985, 62.1776),
+			loc = vec3(118.109, 13.416, 67.402),
 			length = 1.2,
 			width = 5.6,
-			heading = 117.6415,
+			heading = 158.7666,
 			minZ = 29.49,
 			maxZ = 32.09,
 			label = 'Open Storage Safe'
@@ -473,9 +473,9 @@ return {
 		groups = { ['highnotes'] = 0 }
 	},
 	{
-		coords = vec3(-849.6750, -237.6991, 37.2279),
+		coords = vec3(118.820, 14.896, 68.322),
 		target = {
-			loc = vec3(-849.6750, -237.6991, 37.2279),
+			loc = vec3(118.820, 14.896, 68.322),
 			length = 1.2,
 			width = 5.6,
 			heading = 117.6415,
@@ -491,9 +491,9 @@ return {
 		groups = { ['highnotes'] = 0 }
 	},
 	{
-		coords = vec3(-848.024, -235.692, 37.210),
+		coords = vec3(110.170, 0.609, 67.771),
 		target = {
-			loc = vec3(-848.024, -235.692, 37.210),
+			loc = vec3(110.170, 0.609, 67.771),
 			length = 1.2,
 			width = 5.6,
 			heading = 0.0,

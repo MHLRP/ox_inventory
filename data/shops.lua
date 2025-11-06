@@ -1169,10 +1169,10 @@ return {
 			{ name = 'cigar',                 price = 0, currency = 'money' },
 		},
 		locations = {
-			vec3(-850.226, -234.812, 37.151)
+			vec3(108.084, 2.671, 68.154)
 		},
 		targets = {
-			{ loc = vec3(-850.226, -234.812, 37.151), length = 0.6, width = 0.5, heading = 132.288, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{ loc = vec3(108.084, 2.671, 68.154), length = 0.6, width = 0.5, heading = 132.288, minZ = 28.2, maxZ = 28.6, distance = 2 }
 		}
 	},
 
@@ -2361,10 +2361,10 @@ return {
 			{ name = 'highnotes_menu', price = 0 },
 		},
 		locations = {
-			vec3(-848.747, -233.971, 37.140)
+			vec3( 110.399, 1.255, 67.949)
 		},
 		targets = {
-			{ loc = vec3(-848.747, -233.971, 37.140), length = 0.6, width = 0.5, heading = -62.500, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{ loc = vec3(110.399, 1.255, 67.949), length = 0.6, width = 0.5, heading = -62.500, minZ = 28.2, maxZ = 28.6, distance = 2 }
 
 		}
 	},
