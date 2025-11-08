@@ -1047,7 +1047,7 @@ return {
 	BlackMarketThree = {
 		name = 'Black Market',
 		inventory = {
-			{ name = 'craftingtable', price = 50000, currency = 'money' },
+			{ name = 'crafting_bench', price = 50000, currency = 'money' },
 			{ name = 'gunrack',       price = 20000, currency = 'money' },
 		},
 		targets = {
@@ -1063,7 +1063,7 @@ return {
 	BlackMarketForth = {
 		name = 'Black Market',
 		inventory = {
-			{ name = 'craftingtable', price = 60000, currency = 'money' },
+			{ name = 'crafting_bench', price = 60000, currency = 'money' },
 			{ name = 'gunrack',       price = 20000, currency = 'money' },
 		},
 		targets = {
