@@ -23149,4 +23149,20 @@ return {
 		stack = false,
 		close = false,
 	},
+
+	['box_small'] = {
+		label = 'Small Box',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'A small box',
+	},
+
+	['box_large'] = {
+		label = 'Large Box',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'A large box',
+	},
 }
