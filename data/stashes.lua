@@ -157,76 +157,76 @@ return {
 		groups = { ['lostmc'] = 1 }
 	},
 	{
-		coords = vec3(1076.0576, 2236.5505, 21.7129),
+		coords = vec3(-1043.0731, -226.9670, 32.3057),
 		target = {
-			loc = vec3(1076.0576, 2236.5505, 21.7129),
+			loc = vec3(-1043.0731, -226.9670, 32.3057),
+			length = 1.5,
+			width = 6.0,
+			heading = 301.4139,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Open Armoury Safe'
+		},
+		name = 'viper1',
+		label = 'Armoury Safe',
+		owner = false,
+		slots = 70,
+		weight = 50000,
+		groups = { ['viperidae'] = 2 }
+	},
+	{
+		coords = vec3(-1053.589, -229.491, 39.442),
+		target = {
+			loc = vec3(-1053.589, -229.491, 39.442),
 			length = 1.2,
 			width = 5.6,
-			heading = 152.0237,
+			heading = 19.4205,
 			minZ = 29.49,
 			maxZ = 32.09,
 			label = 'Open Gang Storage'
 		},
-		name = 'viper1',
-		label = 'Wooden Storage',
+		name = 'viper2',
+		label = 'Storage Locker',
 		owner = false,
 		slots = 70,
 		weight = 200000,
-		groups = { ['viperidae'] = 0 }
+		groups = { ['viperidae'] = 1 }
 	},
 	{
-		coords = vec3(1036.8834, 2214.5010, 21.9929),
+		coords = vec3(-1056.1405, -234.1796, 39.7354),
 		target = {
-			loc = vec3(1036.8834, 2214.5010, 21.9929),
+			loc = vec3(-1056.1405, -234.1796, 39.7354),
 			length = 1.2,
 			width = 5.6,
-			heading = 59.9614,
-			minZ = 29.49,
-			maxZ = 32.09,
-			label = 'Open Gang Safe'
-		},
-		name = 'viper2',
-		label = 'Personal Safe',
-		owner = false,
-		slots = 70,
-		weight = 50000,
-		groups = { ['viperidae'] = 3 }
-	},
-	{
-		coords = vec3(1067.234, 2251.550, 20.552),
-		target = {
-			loc = vec3(1067.234, 2251.550, 20.552),
-			length = 1.2,
-			width = 5.6,
-			heading = -26.755,
+			heading = 124.0777,
 			minZ = 29.49,
 			maxZ = 32.09,
 			label = 'Open Gang Storage'
 		},
 		name = 'viper3',
-		label = 'Personal Tool Storage',
+		label = 'Storage Locker',
 		owner = false,
 		slots = 70,
 		weight = 50000,
-		groups = { ['viperidae'] = 0 }
+		groups = { ['viperidae'] = 1 }
 	},
 	{
-		coords = vec3(1052.5757, 2200.2388, 22.0419),
+		coords = vec3(-1044.9161, -231.5930, 49.8545),
 		target = {
-			loc = vec3(1052.5757, 2200.2388, 22.0419),
+			loc = vec3(-1044.9161, -231.5930, 49.8545),
 			length = 1.2,
 			width = 5.6,
-			heading = 154.6479,
+			heading = 336.4328,
 			minZ = 29.49,
 			maxZ = 32.09,
 			label = 'Open Gang Storage'
 		},
 		name = 'viper4',
-		label = 'Personal Storage Shelf',
+		label = 'Direction Storage',
 		owner = false,
 		slots = 70,
 		weight = 200000,
-		groups = { ['viperidae'] = 2 }
+		groups = { ['viperidae'] = 3 }
 	},
 	{
 		coords = vec3(972.22, -98.13, 74.87),
