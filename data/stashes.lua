@@ -171,7 +171,7 @@ return {
 		label = 'Armoury Safe',
 		owner = false,
 		slots = 70,
-		weight = 50000,
+		weight = 200000,
 		groups = { ['viperidae'] = 2 }
 	},
 	{
@@ -189,7 +189,7 @@ return {
 		label = 'Storage Locker',
 		owner = false,
 		slots = 70,
-		weight = 200000,
+		weight = 50000,
 		groups = { ['viperidae'] = 1 }
 	},
 	{
@@ -577,6 +577,24 @@ return {
 		slots = 70,
 		weight = 70000,
 		groups = { ['mechanic'] = 0 }
+	},
+	{
+		coords = vec3(125.5868, -3050.0076, 7.0406),
+		target = {
+			loc = vec3(125.5868, -3050.0076, 7.0406),
+			length = 1.2,
+			width = 5.6,
+			heading = 178.0765,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Open storage'
+		},
+		name = 'medusamechanics',
+		label = 'Storage',
+		owner = false,
+		slots = 50,
+		weight = 70000,
+		groups = { ['medusamechanics'] = 0 }
 	},
 	{
 		coords = vec3(76.894004821777, -357.32565307617, 206.3415222168),

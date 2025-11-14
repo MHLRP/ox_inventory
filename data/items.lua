@@ -23165,4 +23165,20 @@ return {
 		close = true,
 		description = 'A large box',
 	},
+
+	antilag_installer = {
+		label = 'Antilag Installer',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'An item that can be used to install an antilag system on a vehicle',
+	},
+
+	antilag_remover = {
+		label = 'Antilag Remover',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'An item that can be used to remove an antilag system from a vehicle',
+	},
 }
