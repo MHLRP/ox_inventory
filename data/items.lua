@@ -7199,7 +7199,7 @@ return {
 		consume = 0,
 		stack = false,
 		client = {
-			export = 'cb-megaphone.useMegaphone',
+			export = 'moonlit-megaphone.useMegaphone',
 		}
 	},
 
