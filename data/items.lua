@@ -15718,6 +15718,38 @@ return {
 		}
 	},
 
+	["blueprint1"] = {
+		label = "Blueprint 1",
+		weight = 5,
+		stack = false,
+		close = true,
+		description = "Blueprint 1",
+	},
+
+	["blueprint2"] = {
+		label = "Blueprint 2",
+		weight = 5,
+		stack = false,
+		close = true,
+		description = "Blueprint 2",
+	},
+
+	["blueprint3"] = {
+		label = "Blueprint 3",
+		weight = 5,
+		stack = false,
+		close = true,
+		description = "Blueprint 3",
+	},
+
+	["blueprint4"] = {
+		label = "Blueprint 4",
+		weight = 5,
+		stack = false,
+		close = true,
+		description = "Blueprint 4",
+	},
+
 	["bed1"] = {
 		label = "Lounger 1",
 		weight = 1000,
