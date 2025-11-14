@@ -1134,6 +1134,23 @@ return {
 		weight = 70000,
 	},
 	{
+		coords = vec3(-579.8907, -722.8758, 129.8837),
+		target = {
+			loc = vec3(-579.8907, -722.8758, 129.8837),
+			length = 1.2,
+			width = 5.6,
+			heading = 148.5241,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Open CyberHex Storage'
+		},
+		name = 'cyberhex4',
+		label = 'CyberHex Storage',
+		owner = false,
+		slots = 50,
+		weight = 200000,
+	},
+	{
 		coords = vec3(-1039.890, -1440.868, 3.980),
 		target = {
 			loc = vec3(-1039.890, -1440.868, 3.980),
