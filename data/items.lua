@@ -23213,4 +23213,76 @@ return {
 		close = true,
 		description = 'An item that can be used to remove an antilag system from a vehicle',
 	},
+
+	['stopsign'] = {
+		label = 'Stop Sign',
+		weight = 10,
+		stack = true,
+		close = true,
+		description = 'Stop Sign'
+	},
+	
+	['walkingmansign'] = {
+		label = 'Pedestrian Sign',
+		weight = 10,
+		stack = true,
+		close = true,
+		description = 'Pedestrian Sign'
+	},
+	
+	['dontblockintersectionsign'] = {
+		label = 'Intersection Sign',
+		weight = 10,
+		stack = true,
+		close = true,
+		description = 'Intersection Sign'
+	},
+	
+	['uturnsign'] = {
+		label = 'U Turn Sign',
+		weight = 10,
+		stack = true,
+		close = true,
+		description = 'U Turn Sign'
+	},
+	
+	['noparkingsign'] = {
+		label = 'No Parking Sign',
+		weight = 10,
+		stack = true,
+		close = true,
+		description = 'No Parking Sign'
+	},
+	
+	['leftturnsign'] = {
+		label = 'Left Turn Sign',
+		weight = 10,
+		stack = true,
+		close = true,
+		description = 'Left Turn Sign'
+	},
+	
+	['rightturnsign'] = {
+		label = 'Right Turn Sign',
+		weight = 10,
+		stack = true,
+		close = true,
+		description = 'Right Turn Sign'
+	},
+	
+	['notrespassingsign'] = {
+		label = 'No Trespassing Sign',
+		weight = 10,
+		stack = true,
+		close = true,
+		description = 'No Trespassing Sign'
+	},
+	
+	['yieldsign'] = {
+		label = 'Yield Sign',
+		weight = 10,
+		stack = true,
+		close = true,
+		description = 'Yield Sign'
+	},
 }
