@@ -593,7 +593,7 @@ return {
 		label = 'Storage',
 		owner = false,
 		slots = 50,
-		weight = 70000,
+		weight = 200000,
 		groups = { ['medusamechanics'] = 0 }
 	},
 	{
