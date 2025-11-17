@@ -1056,7 +1056,7 @@ return {
 		name = 'Black Market',
 		inventory = {
 			{ name = 'crafting_bench', price = 50000, currency = 'money' },
-			{ name = 'gunrack',       price = 20000, currency = 'money' },
+			{ name = 'gunrack',        price = 20000, currency = 'money' },
 		},
 		targets = {
 			{
@@ -1072,7 +1072,7 @@ return {
 		name = 'Black Market',
 		inventory = {
 			{ name = 'crafting_bench', price = 60000, currency = 'money' },
-			{ name = 'gunrack',       price = 20000, currency = 'money' },
+			{ name = 'gunrack',        price = 20000, currency = 'money' },
 		},
 		targets = {
 			{
@@ -2214,15 +2214,13 @@ return {
 		inventory = {
 			{ name = 'engagementring', price = 65000,  currency = 'money' },
 			{ name = 'weddingring',    price = 180000, currency = 'money' },
-		},
-		targets = {
-			{
-				ped = `a_f_y_business_01`,
-				scenario = 'WORLD_HUMAN_STAND_MOBILE',
-				loc = vec3(-622.3835, -229.7804, 37.0570),
-				heading = 295.9651,
+			locations = {
+				vec3(-622.3835, -229.7804, 37.0570)
+			},
+			targets = {
+				{ loc = vec3(-622.3835, -229.7804, 37.0570), length = 0.8, width = 0.6, heading = 295.9651, minZ = 28.2, maxZ = 28.6, distance = 2 }
 			}
-		}
+		},
 	},
 
 	burgershot = {
