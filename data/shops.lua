@@ -1386,6 +1386,29 @@ return {
 	-- 	}
 	-- },
 
+	MidnightSun = {
+		name = 'Midnight Sun Bar',
+		society = 'midnightautos',
+		inventory = {
+			{ name = 'cybernuts',        price = 20, currency = 'money' },
+			{ name = 'cyberoil',    price = 50, currency = 'money' },
+			{ name = 'cyberoil_blue',  price = 50, currency = 'money' },
+			{ name = 'cyberoil_green',  price = 50, currency = 'money' },
+			{ name = 'cyberoil_orange',  price = 50, currency = 'money' },
+			{ name = 'cyberoil_red', price = 50, currency = 'money' },
+			{ name = 'burger', price = 20, currency = 'money' },
+			{ name = 'sprunk', price = 15, currency = 'money' },
+		},
+		targets = {
+			{
+				ped = `s_f_y_clubbar_01`,
+				scenario = 'WORLD_HUMAN_STAND_MOBILE',
+				loc = vec3(-344.6480, -153.1068, 38.0640),
+				heading = 155.50869,
+			}
+		}
+	},
+
 	Coffee = {
 		name = 'Coffee Shop',
 		inventory = {
