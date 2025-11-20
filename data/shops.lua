@@ -1127,6 +1127,7 @@ return {
 		inventory = {
 			{ name = 'tarotminordeck', price = 1000, currency = 'money' },
 			{ name = 'tarotmajordeck', price = 2000, currency = 'money' },
+			{ name = 'tarotmixeddeck', price = 3000, currency = 'money' },
 		},
 		locations = {
 			vec3(4699.433, 4705.909, 12.476)

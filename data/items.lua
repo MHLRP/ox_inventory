@@ -20133,7 +20133,7 @@ return {
 			type = 'minor'
 		}
 	},
-
+	
 	["tarotmajordeck"] = {
 		label = "Tarot Major Deck",
 		weight = 100,
@@ -20144,6 +20144,19 @@ return {
 			image = "tarotmajordeck.png",
 			export = "cdev_tarot.createDeckOXItem",
 			type = 'major'
+		}
+	},
+	
+	["tarotmixeddeck"] = {
+		label = "Tarot Mixed Deck",
+		weight = 100,
+		consume = 1,
+		stack = true,
+		close = true,
+		client = {
+			image = "tarotmixeddeck.png",
+			export = "cdev_tarot.createDeckOXItem",
+			type = 'mixed'
 		}
 	},
 
