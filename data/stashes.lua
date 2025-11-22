@@ -1168,4 +1168,21 @@ return {
 		weight = 70000,
 		groups = { ['firefighter'] = 0 }
 	},
+	{
+		coords = vec3(-523.5203, -603.2497, 34.6818),
+		target = {
+			loc = vec3(-523.5203, -603.2497, 34.6818),
+			length = 1.2,
+			width = 5.6,
+			heading = 0,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Open Kitchen Storage'
+		},
+		name = 'foodkitchen',
+		label = 'Kitchen Storage',
+		owner = false,
+		slots = 100,
+		weight = 300000,
+	},
 }
