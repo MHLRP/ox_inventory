@@ -23298,4 +23298,12 @@ return {
 		close = true,
 		description = 'Yield Sign'
 	},
+
+	['key'] = {
+		label = 'House Key',
+		weight = 2,
+		stack = true,
+		close = true,
+		description = 'Key for your house, dont lose it!'
+	},
 }
