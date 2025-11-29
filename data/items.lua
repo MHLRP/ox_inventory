@@ -6812,7 +6812,7 @@ return {
 		weight = 1,
 		stack = true,
 		close = true,
-		description = nil
+		description = nil,
 	},
 
 	['shovel'] = {
@@ -20133,7 +20133,7 @@ return {
 			type = 'minor'
 		}
 	},
-	
+
 	["tarotmajordeck"] = {
 		label = "Tarot Major Deck",
 		weight = 100,
@@ -20146,7 +20146,7 @@ return {
 			type = 'major'
 		}
 	},
-	
+
 	["tarotmixeddeck"] = {
 		label = "Tarot Mixed Deck",
 		weight = 100,
@@ -21053,9 +21053,12 @@ return {
 	["skis"] = {
 		label = "Skis",
 		weight = 100,
-		stack = true,
+		stack = false,
 		close = true,
 		description = "Skis",
+		client = {
+			event = "bodhix-Ski:client:start"
+		},
 	},
 
 	["skis_2"] = {
@@ -21064,6 +21067,9 @@ return {
 		stack = true,
 		close = true,
 		description = "Skis",
+		client = {
+			event = "bodhix-Ski:client:start"
+		},
 	},
 
 	["skis_3"] = {
@@ -21072,6 +21078,9 @@ return {
 		stack = true,
 		close = true,
 		description = "Skis",
+		client = {
+			event = "bodhix-Ski:client:start"
+		},
 	},
 
 	["skis_4"] = {
@@ -21080,6 +21089,9 @@ return {
 		stack = true,
 		close = true,
 		description = "Skis",
+		client = {
+			event = "bodhix-Ski:client:start"
+		},
 	},
 
 	["skis_5"] = {
@@ -21088,6 +21100,9 @@ return {
 		stack = true,
 		close = true,
 		description = "Skis",
+		client = {
+			event = "bodhix-Ski:client:start"
+		},
 	},
 
 	["skis_6"] = {
@@ -21096,6 +21111,9 @@ return {
 		stack = true,
 		close = true,
 		description = "Skis",
+		client = {
+			event = "bodhix-Ski:client:start"
+		},
 	},
 
 	["skis_7"] = {
@@ -21104,6 +21122,9 @@ return {
 		stack = true,
 		close = true,
 		description = "Skis",
+		client = {
+			event = "bodhix-Ski:client:start"
+		},
 	},
 
 	["skis_8"] = {
@@ -21112,6 +21133,9 @@ return {
 		stack = true,
 		close = true,
 		description = "Skis",
+		client = {
+			event = "bodhix-Ski:client:start"
+		},
 	},
 
 	["skis_9"] = {
@@ -21120,6 +21144,9 @@ return {
 		stack = true,
 		close = true,
 		description = "Skis",
+		client = {
+			event = "bodhix-Ski:client:start"
+		},
 	},
 
 	["skis_10"] = {
@@ -21128,6 +21155,9 @@ return {
 		stack = true,
 		close = true,
 		description = "Skis",
+		client = {
+			event = "bodhix-Ski:client:start"
+		},
 	},
 
 	["skis_11"] = {
@@ -21136,6 +21166,9 @@ return {
 		stack = true,
 		close = true,
 		description = "Skis",
+		client = {
+			event = "bodhix-Ski:client:start"
+		},
 	},
 
 	["skis_12"] = {
@@ -21144,6 +21177,9 @@ return {
 		stack = true,
 		close = true,
 		description = "Skis",
+		client = {
+			event = "bodhix-Ski:client:start"
+		},
 	},
 
 	["skis_13"] = {
@@ -21152,6 +21188,9 @@ return {
 		stack = true,
 		close = true,
 		description = "Skis",
+		client = {
+			event = "bodhix-Ski:client:start"
+		},
 	},
 
 	["skis_14"] = {
@@ -21160,6 +21199,9 @@ return {
 		stack = true,
 		close = true,
 		description = "Skis",
+		client = {
+			event = "bodhix-Ski:client:start"
+		},
 	},
 
 	["skis_15"] = {
@@ -21168,6 +21210,9 @@ return {
 		stack = true,
 		close = true,
 		description = "Skis",
+		client = {
+			event = "bodhix-Ski:client:start"
+		},
 	},
 
 	["snr_chiktortilla"] = {
@@ -23234,7 +23279,7 @@ return {
 		close = true,
 		description = 'Stop Sign'
 	},
-	
+
 	['walkingmansign'] = {
 		label = 'Pedestrian Sign',
 		weight = 10,
@@ -23242,7 +23287,7 @@ return {
 		close = true,
 		description = 'Pedestrian Sign'
 	},
-	
+
 	['dontblockintersectionsign'] = {
 		label = 'Intersection Sign',
 		weight = 10,
@@ -23250,7 +23295,7 @@ return {
 		close = true,
 		description = 'Intersection Sign'
 	},
-	
+
 	['uturnsign'] = {
 		label = 'U Turn Sign',
 		weight = 10,
@@ -23258,7 +23303,7 @@ return {
 		close = true,
 		description = 'U Turn Sign'
 	},
-	
+
 	['noparkingsign'] = {
 		label = 'No Parking Sign',
 		weight = 10,
@@ -23266,7 +23311,7 @@ return {
 		close = true,
 		description = 'No Parking Sign'
 	},
-	
+
 	['leftturnsign'] = {
 		label = 'Left Turn Sign',
 		weight = 10,
@@ -23274,7 +23319,7 @@ return {
 		close = true,
 		description = 'Left Turn Sign'
 	},
-	
+
 	['rightturnsign'] = {
 		label = 'Right Turn Sign',
 		weight = 10,
@@ -23282,7 +23327,7 @@ return {
 		close = true,
 		description = 'Right Turn Sign'
 	},
-	
+
 	['notrespassingsign'] = {
 		label = 'No Trespassing Sign',
 		weight = 10,
@@ -23290,7 +23335,7 @@ return {
 		close = true,
 		description = 'No Trespassing Sign'
 	},
-	
+
 	['yieldsign'] = {
 		label = 'Yield Sign',
 		weight = 10,
