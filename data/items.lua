@@ -76,7 +76,7 @@ return {
 
 	["frango"] = {
 		label = "Chicken",
-		weight = 1500,
+		weight = 100,
 		degrade = 60 * 72,
 		stack = true,
 		close = true,
@@ -94,7 +94,7 @@ return {
 
 	["grape"] = {
 		label = "Grapes",
-		weight = 10,
+		weight = 100,
 		decay = true,
 		degrade = 60 * 72,
 		stack = true,
@@ -149,7 +149,7 @@ return {
 
 	["bakingsoda"] = {
 		label = "Baking Soda",
-		weight = 1,
+		weight = 200,
 		stack = true,
 		close = false,
 		description = "Household Baking Soda!",
@@ -157,7 +157,7 @@ return {
 
 	["graos-cafe"] = {
 		label = "Coffee Beans",
-		weight = 1500,
+		weight = 10,
 		degrade = 60 * 72,
 		stack = true,
 		close = true,
@@ -1085,7 +1085,7 @@ return {
 
 	['mustard'] = {
 		label = 'Mustard',
-		weight = 1,
+		weight = 300,
 		degrade = 60 * 72,
 		decay = true,
 		stack = true,
@@ -1101,7 +1101,7 @@ return {
 
 	['ketchup'] = {
 		label = 'Ketchup',
-		weight = 1,
+		weight = 500,
 		degrade = 60 * 72,
 		decay = true,
 		stack = true,
@@ -1295,7 +1295,7 @@ return {
 
 	['apple'] = { -- Apple good
 		label = 'Apple',
-		weight = 1,
+		weight = 100,
 		degrade = 60 * 72,
 		decay = true,
 		stack = true,
@@ -1316,7 +1316,7 @@ return {
 
 	['banana'] = { -- banana good
 		label = 'Banana',
-		weight = 1,
+		weight = 100,
 		degrade = 60 * 72,
 		decay = true,
 		stack = true,
@@ -1336,7 +1336,7 @@ return {
 
 	['orange'] = { -- banana good
 		label = 'Orange',
-		weight = 1,
+		weight = 100,
 		degrade = 60 * 72,
 		decay = true,
 		stack = true,
@@ -1810,7 +1810,7 @@ return {
 
 	['milk'] = { -- milky milky milky
 		label = 'Milk Carton',
-		weight = 1,
+		weight = 500,
 		decay = true,
 		stack = true,
 		close = true,
@@ -1860,7 +1860,7 @@ return {
 
 	["raspberries"] = {
 		label = "Raspberries",
-		weight = 20,
+		weight = 100,
 		degrade = 60 * 72,
 		decay = true,
 		stack = true,
@@ -1920,7 +1920,7 @@ return {
 
 	["italianbread"] = {
 		label = "Italian Bread",
-		weight = 20,
+		weight = 300,
 		degrade = 60 * 72,
 		decay = true,
 		stack = true,
@@ -1960,7 +1960,7 @@ return {
 
 	["italiansausage"] = {
 		label = "Italian Sausage",
-		weight = 20,
+		weight = 100,
 		degrade = 60 * 72,
 		decay = true,
 		stack = true,
@@ -2528,7 +2528,7 @@ return {
 
 	["cranberries"] = {
 		label = "Cranberries",
-		weight = 5,
+		weight = 100,
 		degrade = 60 * 72,
 		decay = true,
 		stack = true,
@@ -2738,7 +2738,7 @@ return {
 
 	['sprunk'] = {
 		label = 'Sprunk',
-		weight = 350,
+		weight = 500,
 		decay = true,
 		stack = true,
 		close = true,
@@ -7699,7 +7699,7 @@ return {
 
 	["rolling_paper"] = {
 		label = "Raw Rolling Papers",
-		weight = 10,
+		weight = 1,
 		stack = true,
 		close = false,
 		description = "Used to make joints",
@@ -10215,7 +10215,7 @@ return {
 
 	["rollingpaper"] = {
 		label = "Rolling Paper",
-		weight = 100,
+		weight = 1,
 		stack = true,
 		close = true,
 		description = "",
@@ -11064,7 +11064,7 @@ return {
 
 	['raw_meat'] = {
 		label = 'Raw Meat',
-		weight = 1,
+		weight = 160,
 		degrade = 60 * 72,
 		decay = true,
 		stack = true,
@@ -13178,7 +13178,7 @@ return {
 
 	["burger-bun"] = {
 		label = "Bun",
-		weight = 1,
+		weight = 100,
 		degrade = 60 * 72,
 		decay = true,
 		stack = true,
@@ -13191,7 +13191,7 @@ return {
 
 	["hotdog-bun"] = {
 		label = "Hotdog Bun",
-		weight = 1,
+		weight = 80,
 		degrade = 60 * 72,
 		decay = true,
 		stack = true,
@@ -13682,7 +13682,7 @@ return {
 
 	["bowl"] = {
 		label = "Bowl",
-		weight = 20,
+		weight = 300,
 		stack = true,
 		close = true,
 		description = "",
@@ -13756,7 +13756,7 @@ return {
 
 	["butter"] = {
 		label = "Butter",
-		weight = 125,
+		weight = 400,
 		degrade = 60 * 72,
 		decay = true,
 		stack = true,
@@ -13849,7 +13849,7 @@ return {
 
 	["carbonated-water"] = {
 		label = "Carbonated Water",
-		weight = 125,
+		weight = 500,
 		stack = true,
 		close = true,
 		description = "Ingredient",
@@ -13971,7 +13971,7 @@ return {
 
 	["bhighcoffeeglasscup"] = {
 		label = "High Coffee Glass",
-		weight = 1000,
+		weight = 300,
 		stack = true,
 		close = true,
 		description = "Empty High Coffee Glass",
@@ -13990,7 +13990,7 @@ return {
 
 	["bice"] = {
 		label = "Ice",
-		weight = 1000,
+		weight = 200,
 		stack = true,
 		degrade = 60 * 72,
 		decay = true,
@@ -14140,7 +14140,7 @@ return {
 
 	["bcoffeebeans"] = {
 		label = "Coffee Beans",
-		weight = 1000,
+		weight = 10,
 		stack = true,
 		decay = true,
 		close = true,
@@ -14249,7 +14249,7 @@ return {
 
 	["bhoney"] = {
 		label = "Honey",
-		weight = 1000,
+		weight = 340,
 		stack = true,
 		close = true,
 		description = "Honey",
@@ -14294,7 +14294,7 @@ return {
 
 	["bcoffeeglass"] = {
 		label = "Coffee Glass",
-		weight = 1000,
+		weight = 300,
 		stack = true,
 		close = true,
 		description = "Empty Coffee Glass",
@@ -17332,7 +17332,7 @@ return {
 
 	["bread"] = {
 		label = "Bread",
-		weight = 200,
+		weight = 300,
 		stack = true,
 		close = true,
 		description = "",
@@ -18832,7 +18832,7 @@ return {
 
 	["bubblegum"] = {
 		label = "Bubblegum",
-		weight = 200,
+		weight = 500,
 		stack = true,
 		close = true,
 		description = "Bubblegum",
@@ -18900,7 +18900,7 @@ return {
 
 	["butterscotch"] = {
 		label = "Butter Scotch",
-		weight = 200,
+		weight = 500,
 		stack = true,
 		close = true,
 		description = "Butter Scotch",
@@ -19019,7 +19019,7 @@ return {
 
 	["chocolatebar"] = {
 		label = "Chocolate Bar",
-		weight = 200,
+		weight = 100,
 		stack = true,
 		close = true,
 		description = "Chocolate Bar",
@@ -22009,7 +22009,7 @@ return {
 
 	["snr_suggar"] = {
 		label = "Sugar",
-		weight = 100,
+		weight = 25,
 		stack = true,
 		close = true,
 		description = "Suggar",
