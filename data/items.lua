@@ -821,7 +821,7 @@ return {
 
 	["extrato-baunilha"] = {
 		label = "Vanilla Extract",
-		weight = 1500,
+		weight = 100,
 		degrade = 60 * 72,
 		stack = true,
 		close = true,
