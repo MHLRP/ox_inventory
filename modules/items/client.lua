@@ -236,7 +236,7 @@ end)
 Item('rc-bandito', function(data, slot)
 	ox_inventory:useItem(data, function(data)
 		if data then
-			TriggerEvent('mth-rc:client:SpawnRcCar')
+			TriggerEvent('moonlit-rc:client:SpawnRcCar')
 		end
 	end)
 end)
