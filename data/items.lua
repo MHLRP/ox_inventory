@@ -12032,7 +12032,7 @@ return {
 		stack = false,
 		consume = 0,
 		server = {
-			export = 'Renewed-Dutyblips.toggleItem'
+			export = 'moonlit-dutyblips.toggleItem'
 		}
 	},
 
