@@ -13067,9 +13067,14 @@ return {
 
 	['tintmeter'] = {
 		label = 'Tint Meter',
-		weight = 10,
+		weight = 500,
 		stack = false,
-		close = true
+		close = true,
+		description = 'A device used to measure window tint percentage',
+		client = {
+			export = 'moonlit-tintmeter.tintmeter',
+			image = 'tintmeter.png'
+		}
 	},
 
 	['nikkit'] = {
