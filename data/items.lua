@@ -10531,7 +10531,7 @@ return {
 		stack = false,
 		consume = 0,
 		client = {
-			export = 'js5m_gunrack.placeGunRack',
+			export = 'moonlit-gunrack.placeGunRack',
 		},
 	},
 
