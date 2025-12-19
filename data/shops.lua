@@ -1915,12 +1915,13 @@ return {
 			id = 566, colour = 0, scale = 0.6
 		},
 		inventory = {
-			{ name = 'jackolantern',     price = 50,    currency = 'money' },
+			-- { name = 'jackolantern',     price = 50,    currency = 'money' },
 			{ name = 'thermalpaste',     price = 100,   currency = 'money' },
 			{ name = 'miningdrill',      price = 15000, currency = 'money' },
 			{ name = 'mininglaser',      price = 30000, currency = 'money' },
 			{ name = 'firewood',         price = 400,   currency = 'money' },
 			{ name = 'tent',             price = 800,   currency = 'money' },
+			{ name = 'dice',             price = 50,   currency = 'money' },
 			{ name = 'drillbit',         price = 100,   currency = 'money' },
 			{ name = 'scissors',         price = 200,   currency = 'money' },
 			{ name = 'goldpan',          price = 800,   currency = 'money' },

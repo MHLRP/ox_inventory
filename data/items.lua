@@ -23052,4 +23052,12 @@ return {
 		close = true,
 		description = 'Key for your house, dont lose it!'
 	},
+
+	['dice'] = {
+		label = 'Dice',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = 'A dice for rolling',
+	},
 }
