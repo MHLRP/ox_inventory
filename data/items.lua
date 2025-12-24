@@ -20373,6 +20373,16 @@ return {
 		close = true,
 	},
 
+	['kq_snowchain'] = {
+        label = "Wheel Snow Chain",
+        weight = 1500,
+        stack = true,
+        consume = 0,
+        server = {
+            export = 'kq_snowchains.UseChain',
+        },
+    },
+
 	["bloodraw_menu"] = {
 		label = "Blood Draw Menu",
 		weight = 5,

@@ -17,7 +17,8 @@ return {
 		weight = 70000,
 		groups = {
 			['sheriff'] = 0,
-			['police'] = 0
+			['police'] = 0,
+			['ghost'] = 0
 		}, 
 		-- -453.7762, 5980.7632, 31.3887, 314.7780
 	},
@@ -39,7 +40,8 @@ return {
 		weight = 70000,
 		groups = {
 			['sheriff'] = 0,
-			['police'] = 0
+			['police'] = 0,
+			['ghost'] = 0
 		}, 
 		-- -453.7762, 5980.7632, 31.3887, 314.7780
 	},
@@ -61,7 +63,8 @@ return {
 		weight = 70000,
 		groups = {
 			['sheriff'] = 0,
-			['police'] = 0
+			['police'] = 0,
+			['ghost'] = 0
 		},
 	},
 	{
@@ -82,7 +85,8 @@ return {
 		weight = 70000,
 		groups = {
 			['sheriff'] = 0,
-			['police'] = 0
+			['police'] = 0,
+			['ghost'] = 0
 		},
 	},
 	{
