@@ -1081,7 +1081,7 @@ RegisterCommand('weaponstacktrace', function()
 		"qb-policejob",
 		"cybernetics",
 		"moonlit-hunting",
-		"lation_greenzones",
+		"moonlit-greenzones",
 		"ox_target",
 		"ox_lib"
 	}

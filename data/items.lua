@@ -265,7 +265,11 @@ return {
 		weight = 1,
 		stack = true,
 		close = true,
-		description = 'A baseball'
+		description = 'A baseball',
+		consume = 0,
+		client = {
+			export = 'moonlit-baseball.useBaseball'
+		}
 	},
 
 	['rocketball'] = {
@@ -6134,6 +6138,17 @@ return {
 		stack = false,
 		close = true,
 		description = "A chocolate skateboard",
+	},
+
+	['hoverboard'] = {
+		label = 'Hoverboard',
+		weight = 1000,
+		stack = false,
+		close = true,
+		description = 'A hoverboard for tricks and stunts',
+		client = {
+			event = "bodhix-Retro:client:start"
+		},
 	},
 
 	["newsmic"] = {
@@ -20374,14 +20389,14 @@ return {
 	},
 
 	['kq_snowchain'] = {
-        label = "Wheel Snow Chain",
-        weight = 1500,
-        stack = true,
-        consume = 0,
-        server = {
-            export = 'kq_snowchains.UseChain',
-        },
-    },
+		label = "Wheel Snow Chain",
+		weight = 1500,
+		stack = true,
+		consume = 0,
+		server = {
+			export = 'kq_snowchains.UseChain',
+		},
+	},
 
 	["bloodraw_menu"] = {
 		label = "Blood Draw Menu",
