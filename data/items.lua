@@ -22450,7 +22450,7 @@ return {
 		stack = false,
 		description = "A cardboard sign for begging.",
 		client = {
-			export = 'hobosign.use'
+			export = 'moonlit-hobosign.use'
 		}
 	},
 
