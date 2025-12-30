@@ -18191,13 +18191,13 @@ return {
 		description = "Regular Skateboard",
 		client = {
 			image = "skateboard_01.png",
-			event = "jim-boarding:Skateboard:PickPlace"
+			event = "moonlit-boarding:Skateboard:PickPlace"
 		},
 		buttons = {
 			{
 				label = "Show Board",
 				action = function()
-					TriggerEvent('jim-boarding:client:showoff', { item = "skateboard_01", skip = true })
+					TriggerEvent('moonlit-boarding:client:showoff', { item = "skateboard_01", skip = true })
 				end,
 			}
 		}
@@ -18211,13 +18211,13 @@ return {
 		description = "Chocolate Skateboard",
 		client = {
 			image = "skateboard_02.png",
-			event = "jim-boarding:Skateboard:PickPlace"
+			event = "moonlit-boarding:Skateboard:PickPlace"
 		},
 		buttons = {
 			{
 				label = "Show Board",
 				action = function()
-					TriggerEvent('jim-boarding:client:showoff', { item = "skateboard_02", skip = true })
+					TriggerEvent('moonlit-boarding:client:showoff', { item = "skateboard_02", skip = true })
 				end,
 			}
 		}
@@ -18231,13 +18231,13 @@ return {
 		description = "Strawberry Skateboard",
 		client = {
 			image = "skateboard_03.png",
-			event = "jim-boarding:Skateboard:PickPlace"
+			event = "moonlit-boarding:Skateboard:PickPlace"
 		},
 		buttons = {
 			{
 				label = "Show Board",
 				action = function()
-					TriggerEvent('jim-boarding:client:showoff', { item = "skateboard_03", skip = true })
+					TriggerEvent('moonlit-boarding:client:showoff', { item = "skateboard_03", skip = true })
 				end,
 			}
 		}
