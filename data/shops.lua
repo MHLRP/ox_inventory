@@ -1464,7 +1464,7 @@ return {
 	},
 
 	Pizza = {
-		name = 'Pizza Shop',
+		name = "Al Dente's",
 		inventory = {
 			{ name = 'pizza_pep',     price = 20, currency = 'money' },
 			{ name = 'pizza_chs',     price = 20, currency = 'money' },
@@ -1483,8 +1483,8 @@ return {
 			{
 				ped = `ig_chef`,
 				scenario = 'WORLD_HUMAN_STAND_MOBILE',
-				loc = vec3(2697.0217, 3475.8298, 54.6716),
-				heading = 241.8747,
+				loc = vec3(-586.0568, -603.6113, 33.6818),
+				heading = 273.1172,
 			}
 		}
 	},
