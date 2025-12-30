@@ -93,7 +93,7 @@ return {
 		groups = {
 			['sheriff'] = 0,
 			['police'] = 0,
-		    ['ghost'] = 0
+			['ghost'] = 0
 		},
 		blip = {
 			--id = 110, colour = 84, scale = 0.8
@@ -358,9 +358,8 @@ return {
 			vec3(1960.1892, 3747.4062, 32.3545),
 			vec3(546.4902, 2664.5840, 42.1669),
 			vec3(2674.2827, 3285.7559, 55.2518),
-			vec3(2551.0417, 385.2466, 108.6342), 
+			vec3(2551.0417, 385.2466, 108.6342),
 			vec3(377.6403, 331.6940, 103.5770),
-			vec3(432.81, 5412.82, 672.28),
 		},
 		targets = {
 			{ loc = vec3(28.0460, -1340.9525, 29.5076),   length = 1.5, width = 3.0, heading = 176.1524, minZ = 41.5, maxZ = 43.0, distance = 3 },
@@ -372,8 +371,6 @@ return {
 			{ loc = vec3(2674.2827, 3285.7559, 55.2518),  length = 1.5, width = 3.0, heading = 234.6591, minZ = 41.5, maxZ = 43.0, distance = 3 },
 			{ loc = vec3(2551.0417, 385.2466, 108.6342),  length = 1.5, width = 3.0, heading = 261.9892, minZ = 41.5, maxZ = 43.0, distance = 3 },
 			{ loc = vec3(377.6403, 331.6940, 103.5770),   length = 1.5, width = 3.0, heading = 162.6314, minZ = 41.5, maxZ = 43.0, distance = 3 },
-			{ loc = vec3(432.81, 5412.82, 672.28),        length = 1.5, width = 3.0, heading = 268.38,   minZ = 41.5, maxZ = 43.0, distance = 3 }
-
 		}
 	},
 
@@ -493,11 +490,11 @@ return {
 			vec3(1697.87, 4922.96, 42.06),
 		},
 		targets = {
-			{ loc = vec3(-47.02, -1758.23, 28.42),      length = 1.5, width = 3.0, heading = 45.05,  minZ = 41.5, maxZ = 43.0, distance = 3 },
-			{ loc = vec3(-706.06, -913.97, 19.22),      length = 1.5, width = 3.0, heading = 88.04,  minZ = 41.5, maxZ = 43.0, distance = 3 },
-			{ loc = vec3(-1820.02, 794.03, 138.09),     length = 1.5, width = 3.0, heading = 135.45, minZ = 41.5, maxZ = 43.0, distance = 3 },
-			{ loc = vec3(1164.71, -322.94, 69.21),      length = 1.5, width = 3.0, heading = 101.72, minZ = 41.5, maxZ = 43.0, distance = 3 },
-			{ loc = vec3(1697.87, 4922.96, 42.06),      length = 1.5, width = 3.0, heading = 324.71, minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(-47.02, -1758.23, 28.42),  length = 1.5, width = 3.0, heading = 45.05,  minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(-706.06, -913.97, 19.22),  length = 1.5, width = 3.0, heading = 88.04,  minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(-1820.02, 794.03, 138.09), length = 1.5, width = 3.0, heading = 135.45, minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(1164.71, -322.94, 69.21),  length = 1.5, width = 3.0, heading = 101.72, minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(1697.87, 4922.96, 42.06),  length = 1.5, width = 3.0, heading = 324.71, minZ = 41.5, maxZ = 43.0, distance = 3 },
 		}
 	},
 
@@ -1387,14 +1384,14 @@ return {
 		name = 'Midnight Sun Bar',
 		society = 'midnightautos',
 		inventory = {
-			{ name = 'cybernuts',        price = 20, currency = 'money' },
-			{ name = 'cyberoil',    price = 50, currency = 'money' },
-			{ name = 'cyberoil_blue',  price = 50, currency = 'money' },
+			{ name = 'cybernuts',       price = 20, currency = 'money' },
+			{ name = 'cyberoil',        price = 50, currency = 'money' },
+			{ name = 'cyberoil_blue',   price = 50, currency = 'money' },
 			{ name = 'cyberoil_green',  price = 50, currency = 'money' },
-			{ name = 'cyberoil_orange',  price = 50, currency = 'money' },
-			{ name = 'cyberoil_red', price = 50, currency = 'money' },
-			{ name = 'burger', price = 20, currency = 'money' },
-			{ name = 'sprunk', price = 15, currency = 'money' },
+			{ name = 'cyberoil_orange', price = 50, currency = 'money' },
+			{ name = 'cyberoil_red',    price = 50, currency = 'money' },
+			{ name = 'burger',          price = 20, currency = 'money' },
+			{ name = 'sprunk',          price = 15, currency = 'money' },
 		},
 		targets = {
 			{
@@ -1486,8 +1483,8 @@ return {
 			{
 				ped = `ig_chef`,
 				scenario = 'WORLD_HUMAN_STAND_MOBILE',
-				loc = vec3(473.2962, 5382.8916, 670.8709),
-				heading = 181.1142,
+				loc = vec3(2697.0217, 3475.8298, 54.6716),
+				heading = 241.8747,
 			}
 		}
 	},
@@ -1549,6 +1546,12 @@ return {
 				scenario = 'WORLD_HUMAN_STAND_MOBILE',
 				loc = vec3(-534.6309, -610.7326, 33.6818),
 				heading = 89.2074,
+			},
+			{
+				ped = `a_f_m_ktown_02`,
+				scenario = 'WORLD_HUMAN_STAND_MOBILE',
+				loc = vec3(197.4893, -987.4722, 28.4191),
+				heading = 250.9113,
 			}
 		}
 	},
@@ -1923,7 +1926,7 @@ return {
 			{ name = 'mininglaser',      price = 30000, currency = 'money' },
 			{ name = 'firewood',         price = 400,   currency = 'money' },
 			{ name = 'tent',             price = 800,   currency = 'money' },
-			{ name = 'dice',             price = 50,   currency = 'money' },
+			{ name = 'dice',             price = 50,    currency = 'money' },
 			{ name = 'drillbit',         price = 100,   currency = 'money' },
 			{ name = 'scissors',         price = 200,   currency = 'money' },
 			{ name = 'goldpan',          price = 800,   currency = 'money' },
@@ -2038,7 +2041,7 @@ return {
 			{ name = 'cleaning_kit',     price = 150,  currency = 'money' },
 			{ name = 'cybernuts',        price = 40,   currency = 'money' },
 			{ name = 'cyberoil',         price = 60,   currency = 'money' },
-			{ name = 'kq_snowchain',     price = 2000,  currency = 'money' },
+			{ name = 'kq_snowchain',     price = 2000, currency = 'money' },
 		},
 		targets = {
 			{
