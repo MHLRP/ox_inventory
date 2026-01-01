@@ -6567,7 +6567,7 @@ return {
 		metadata = {
 			assailant = 'Unknown'
 		},
-	},
+	},	
 
 	--- FIREFIGHTER
 
@@ -23084,5 +23084,37 @@ return {
 		stack = true,
 		close = true,
 		description = 'A dice for rolling',
+	},
+
+	['ac_vent'] = {
+		label = 'AC Vent',
+		weight = 100,
+		stack = false,
+		close = true,
+		description = 'A vent part of an air conditioning system.'
+	},
+	
+	['ac'] = {
+		label = 'Air Conditioner',
+		weight = 400,
+		stack = false,
+		close = true,
+		description = 'Air Conditioner'
+	},
+	
+	['ac_compressor'] = {
+		label = 'AC Compressor',
+		weight = 200,
+		stack = false,
+		close = true,
+		description = 'A compressor part of an air conditioning system.'
+	},
+	
+	['ac_broken'] = {
+		label = 'Broken AC',
+		weight = 350,
+		stack = false,
+		close = true,
+		description = 'A broken part of an air conditioning system.'
 	},
 }
