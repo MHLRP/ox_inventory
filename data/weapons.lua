@@ -930,6 +930,23 @@ return {
 			label = 'Frying Pan',
 			weight = 40,
 		},
+		['WEAPON_FURY_FIGHTSTICK'] = {
+			label = 'Fightstick',
+			weight = 600,
+			durability = 0.1,
+		},
+	
+		['WEAPON_FURY_SAI'] = {
+			label = 'Sai',
+			weight = 800,
+			durability = 0.1,
+		},
+
+		['WEAPON_ELECKNUCKLE'] = {
+			label = 'Electric Knuckles',
+			weight = 1200,
+			durability = 0.1,
+		},
 	},
 
 	Components = {

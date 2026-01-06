@@ -8746,35 +8746,35 @@ return {
 	},
 
 	["keya"] = {
-		label = "Labkey A",
+		label = "Weedlabs Key",
 		weight = 100,
 		stack = true,
 		close = false,
-		description = "Weedlabs Key",
+		description = "Labkey A",
 	},
 
 	["keyb"] = {
-		label = "Labkey B",
+		label = "Methlabs Key",
 		weight = 100,
 		stack = true,
 		close = false,
-		description = "Meth Labs Key",
+		description = "Labkey B",
 	},
 
 	["keyc"] = {
-		label = "Labkey C",
+		label = "Cokelabs Key",
 		weight = 100,
 		stack = true,
 		close = false,
-		description = "Cocaine Labs Key",
+		description = "Labkey C",
 	},
 
 	["keym"] = {
-		label = "Labkey M",
+		label = "Morguelabs Key",
 		weight = 100,
 		stack = true,
 		close = false,
-		description = "Morgue Labs Key",
+		description = "Labkey M",
 	},
 
 
