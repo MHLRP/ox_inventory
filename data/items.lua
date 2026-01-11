@@ -20582,7 +20582,7 @@ return {
 			notification = 'You ate a fortune cookie'
 		},
 		server = {
-			export = 'PS_FortuneCookie.handleConsume'
+			export = 'moonlit-fortunecookie.handleConsume'
 		}
 	},
 
