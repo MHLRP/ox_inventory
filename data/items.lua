@@ -6567,7 +6567,7 @@ return {
 		metadata = {
 			assailant = 'Unknown'
 		},
-	},	
+	},
 
 	--- FIREFIGHTER
 
@@ -14423,7 +14423,7 @@ return {
 
 	["fx_scratchcard"] = {
 		label = "Scratch Card",
-		weight = 0,
+		weight = 1,
 		stack = true,
 		close = true,
 		description = "A scratch card.",
@@ -14432,125 +14432,12 @@ return {
 		}
 	},
 
-	["scratchcard04"] = {
-		label = "Scratch Card 04",
-		weight = 100,
-		stack = true,
-		close = true,
-		description = "Minimum Prize: 500$  Maximium Prize: 900$  Premium Prize: 1250$",
-		client = {
-			image = "scratchcard04.png",
-		}
-	},
-
-	["scratchcard01"] = {
-		label = "Scratch Card 01",
-		weight = 100,
-		stack = true,
-		close = true,
-		description = "Minimum Prize: 10$  Maximium Prize: 100$  Premium Prize: 150$",
-		client = {
-			image = "scratchcard01.png",
-		}
-	},
-
-	["scratchcard05"] = {
-		label = "Scratch Card 05",
-		weight = 100,
-		stack = true,
-		close = true,
-		description = "Minimum Prize: 800$  Maximium Prize: 1250$  Premium Prize: 1650$",
-		client = {
-			image = "scratchcard05.png",
-		}
-	},
-
-	["scratchcard02"] = {
-		label = "Scratch Card 02",
-		weight = 100,
-		stack = true,
-		close = true,
-		description = "Minimum Prize: 50$  Maximium Prize: 300$  Premium Prize: 450$",
-		client = {
-			image = "scratchcard02.png",
-		}
-	},
-
-	["scratchcard03"] = {
-		label = "Scratch Card 03",
-		weight = 100,
-		stack = true,
-		close = true,
-		description = "Minimum Prize: 150$  Maximium Prize: 550$  Premium Prize: 750$",
-		client = {
-			image = "scratchcard03.png",
-		}
-	},
-
-	["micard_booster_pack2"] = {
+	["boosterbox"] = {
 		label = "Booster Pack",
-		weight = 0,
+		weight = 20,
 		stack = true,
 		close = true,
-		description = "Contains 10 cards",
-		client = {
-			image = "micard_booster_pack2.png",
-		}
-	},
-
-	["micard_basic"] = {
-		label = "Basic Card",
-		weight = 0,
-		stack = false,
-		close = true,
-		description = "Phewww, just basic card",
-		client = {
-			image = "micard_basic.png",
-		}
-	},
-
-	["micard_legendary"] = {
-		label = "Legendary Card",
-		weight = 0,
-		stack = false,
-		close = true,
-		description = "Wow!! You have a legendary card!!",
-		client = {
-			image = "micard_legendary.png",
-		}
-	},
-
-	["micard_booster_pack1"] = {
-		label = "Booster Pack",
-		weight = 0,
-		stack = true,
-		close = true,
-		description = "Contains 5 cards",
-		client = {
-			image = "micard_booster_pack1.png",
-		}
-	},
-
-	["micard_psa"] = {
-		label = "PSA Case",
-		weight = 0,
-		stack = false,
-		close = true,
-		description = "PSA Case",
-		client = {
-			image = "micard_booster_pack2.png",
-		}
-	},
-
-	["micard_rare"] = {
-		label = "Rare Card",
-		weight = 0,
-		stack = false,
-		close = true,
-		description = "Wow!! You have a rare card!!",
-		client = {
-			image = "micard_rare.png",
-		}
+		description = "Contains 4 packs",
 	},
 
 	["boosterpack"] = {
@@ -17150,6 +17037,13 @@ return {
 		weight = 600,
 		stack = true,
 		description = "Get to slappin!"
+	},
+
+	["quickdrawtable"] = {
+		label = 'Quick Draw Table',
+		weight = 600,
+		stack = false,
+		description = "Get to quick drawin!"
 	},
 
 	["frisbee"] = {
@@ -23093,7 +22987,7 @@ return {
 		close = true,
 		description = 'A vent part of an air conditioning system.'
 	},
-	
+
 	['ac'] = {
 		label = 'Air Conditioner',
 		weight = 400,
@@ -23101,7 +22995,7 @@ return {
 		close = true,
 		description = 'Air Conditioner'
 	},
-	
+
 	['ac_compressor'] = {
 		label = 'AC Compressor',
 		weight = 200,
@@ -23109,7 +23003,7 @@ return {
 		close = true,
 		description = 'A compressor part of an air conditioning system.'
 	},
-	
+
 	['ac_broken'] = {
 		label = 'Broken AC',
 		weight = 350,
@@ -23117,4 +23011,15 @@ return {
 		close = true,
 		description = 'A broken part of an air conditioning system.'
 	},
+
+	['cyberbomb'] = {
+		label = 'Cyber Bomb',
+		weight = 1000,
+		stack = false,
+		close = true,
+		description = 'A cyber bomb.',
+		client = {
+			export = 'moonlit-bomb.placeBomb'
+		}
+	}
 }

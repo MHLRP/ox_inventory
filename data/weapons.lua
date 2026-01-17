@@ -236,6 +236,13 @@ return {
 			ammoname = 'ammo-38'
 		},
 
+		['WEAPON_NZQDD'] = {
+			label = 'Quick Draw Revolver',
+			weight = 1000,
+			durability = 0.1,
+			ammoname = 'ammo-9',
+		},
+
 		['WEAPON_EMPLAUNCHER'] = {
 			label = 'Compact EMP Launcher',
 			weight = 2750,
