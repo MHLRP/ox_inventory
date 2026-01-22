@@ -954,6 +954,18 @@ return {
 			weight = 1200,
 			durability = 0.1,
 		},
+
+		['WEAPON_CILYAWHIP1'] = {
+			label = 'Whip Pink',
+			weight = 0,
+			durability = 0.1,
+		},
+
+		['WEAPON_CILYAWHIP2'] = {
+			label = 'Whip White',
+			weight = 0,
+			durability = 0.1,
+		},
 	},
 
 	Components = {
