@@ -66,6 +66,18 @@ return {
 			durability = 0.1,
 		},
 
+		['WEAPON_ASTRAHAMMER'] = {
+			label = 'Astra Hammer',
+			weight = 1134,
+			durability = 0.1,
+		},
+
+		['WEAPON_SLEDGEHAMMER'] = {
+			label = 'Sledgehammer',
+			weight = 1134,
+			durability = 0.1,
+		},
+
 		['WEAPON_FLASHBANG'] = {
 			label = 'K-J4 Flashbang',
 			weight = 600,
