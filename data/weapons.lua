@@ -954,7 +954,7 @@ return {
 			weight = 600,
 			durability = 0.1,
 		},
-	
+
 		['WEAPON_FURY_SAI'] = {
 			label = 'Sai',
 			weight = 800,
@@ -987,17 +987,17 @@ return {
 			weight = 280,
 			type = 'magazine',
 			client = {
-				component = {`COMPONENT_CARBINERIFLE_MK2_CLIP_02`},
+				component = { `COMPONENT_CARBINERIFLE_MK2_CLIP_02` },
 				usetime = 2500
 			}
 		},
-		
+
 		['ar15_flash'] = {
 			label = 'AR15 Flash Light',
 			weight = 280,
 			type = 'flashlight',
 			client = {
-				component = {`COMPONENT_AT_TACTICALCARBINERIFLE_FLSH`},
+				component = { `COMPONENT_AT_TACTICALCARBINERIFLE_FLSH` },
 				usetime = 2500
 			}
 		},
@@ -1007,7 +1007,7 @@ return {
 			weight = 280,
 			type = 'sight',
 			client = {
-				component = {`COMPONENT_AT_TACTICALCARBINERIFLE_SCOPE_MEDIUM`},
+				component = { `COMPONENT_AT_TACTICALCARBINERIFLE_SCOPE_MEDIUM` },
 				usetime = 2500
 			}
 		},
@@ -1017,7 +1017,7 @@ return {
 			weight = 280,
 			type = 'grip',
 			client = {
-				component = {`COMPONENT_AT_TACTICALCARBINERIFLE_AFGRIP`},
+				component = { `COMPONENT_AT_TACTICALCARBINERIFLE_AFGRIP` },
 				usetime = 2500
 			}
 		},
@@ -1764,6 +1764,114 @@ return {
 			client = {
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3_09`
+				},
+				usetime = 2500
+			}
+		},
+
+		['at_skin_knife_xm3_01'] = {
+			label = 'Knife Skin: White / Orange',
+			type = 'skin',
+			weight = 50,
+			client = {
+				component = {
+					`COMPONENT_KNIFE_VARMOD_XM3_01`
+				},
+				usetime = 2500
+			}
+		},
+
+		['at_skin_knife_xm3_02'] = {
+			label = 'Knife Skin: Orange / Black',
+			type = 'skin',
+			weight = 50,
+			client = {
+				component = {
+					`COMPONENT_KNIFE_VARMOD_XM3_02`
+				},
+				usetime = 2500
+			}
+		},
+
+		['at_skin_knife_xm3_03'] = {
+			label = 'Knife Skin: Blue / White',
+			type = 'skin',
+			weight = 50,
+			client = {
+				component = {
+					`COMPONENT_KNIFE_VARMOD_XM3_03`
+				},
+				usetime = 2500
+			}
+		},
+
+		['at_skin_knife_xm3_04'] = {
+			label = 'Knife Skin: Yellow / Blue / Red',
+			type = 'skin',
+			weight = 50,
+			client = {
+				component = {
+					`COMPONENT_KNIFE_VARMOD_XM3_04`
+				},
+				usetime = 2500
+			}
+		},
+
+		['at_skin_knife_xm3_05'] = {
+			label = 'Knife Skin: Orange / Red',
+			type = 'skin',
+			weight = 50,
+			client = {
+				component = {
+					`COMPONENT_KNIFE_VARMOD_XM3_05`
+				},
+				usetime = 2500
+			}
+		},
+
+		['at_skin_knife_xm3_06'] = {
+			label = 'Knife Skin: Cyan',
+			type = 'skin',
+			weight = 50,
+			client = {
+				component = {
+					`COMPONENT_KNIFE_VARMOD_XM3_06`
+				},
+				usetime = 2500
+			}
+		},
+
+		['at_skin_knife_xm3_07'] = {
+			label = 'Knife Skin: Purple / Black',
+			type = 'skin',
+			weight = 50,
+			client = {
+				component = {
+					`COMPONENT_KNIFE_VARMOD_XM3_07`
+				},
+				usetime = 2500
+			}
+		},
+
+		['at_skin_knife_xm3_08'] = {
+			label = 'Knife Skin: Yellow / Red',
+			type = 'skin',
+			weight = 50,
+			client = {
+				component = {
+					`COMPONENT_KNIFE_VARMOD_XM3_08`
+				},
+				usetime = 2500
+			}
+		},
+
+		['at_skin_knife_xm3_09'] = {
+			label = 'Knife Skin: Green / Orange',
+			type = 'skin',
+			weight = 50,
+			client = {
+				component = {
+					`COMPONENT_KNIFE_VARMOD_XM3_09`
 				},
 				usetime = 2500
 			}

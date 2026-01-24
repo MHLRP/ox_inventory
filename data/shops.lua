@@ -207,8 +207,9 @@ return {
 	Ammunation2 = {
 		name = 'Ammunation',
 		inventory = {
-			{ name = 'WEAPON_BAT',     price = 300 },
-			{ name = 'weapon_hatchet', price = 250 },
+			{ name = 'WEAPON_BAT',    price = 300 },
+			{ name = 'WEAPON_KNIFE', price = 200 },
+			{ name = 'WEAPON_HATCHET', price = 250 },
 		},
 		targets = {
 			{
@@ -217,7 +218,7 @@ return {
 				loc = vec3(-544.9167, -584.1287, 33.6818),
 				heading = 266.2583,
 			}
-		}
+		},
 	},
 
 	GeneralStore = {
