@@ -207,8 +207,8 @@ return {
 	Ammunation2 = {
 		name = 'Ammunation',
 		inventory = {
-			{ name = 'WEAPON_BAT',    price = 300 },
-			{ name = 'WEAPON_KNIFE', price = 200 },
+			{ name = 'WEAPON_BAT',     price = 300 },
+			{ name = 'WEAPON_KNIFE',   price = 200 },
 			{ name = 'WEAPON_HATCHET', price = 250 },
 		},
 		targets = {
@@ -2267,8 +2267,9 @@ return {
 			{ name = 'radio',                   price = 0 },
 			{ name = 'radiocell',               price = 0 },
 			{ name = 'fdcamera',                price = 0 },
-			{ name = 'weapon_fireextinguisher', price = 0 },
 			{ name = 'watertank',               price = 0 },
+			{ name = 'WEAPON_FIREEXTINGUISHER', price = 0 },
+			{ name = 'WEAPON_CROWBAR',          price = 0 },
 		},
 		locations = {
 			vec3(-1030.0171, -1391.6747, 4.9732)
