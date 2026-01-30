@@ -195,7 +195,14 @@ return {
 		},
 
 		['WEAPON_LAW'] = {
-			label = 'Cyber Police Pistol',
+			label = 'Cyber Pistol Blue',
+			weight = 1000,
+			durability = 0.2,
+			ammoname = 'ammo-9'
+		},
+
+		['WEAPON_LAW2'] = {
+			label = 'Cyber Pistol Red',
 			weight = 1000,
 			durability = 0.2,
 			ammoname = 'ammo-9'
