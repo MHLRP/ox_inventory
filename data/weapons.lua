@@ -208,6 +208,20 @@ return {
 			ammoname = 'ammo-9'
 		},
 
+		['WEAPON_LAW3'] = {
+			label = 'Cyber Pistol Yellow',
+			weight = 1000,
+			durability = 0.2,
+			ammoname = 'ammo-9'
+		},
+
+		['WEAPON_LAW4'] = {
+			label = 'Cyber Pistol Orange',
+			weight = 1000,
+			durability = 0.2,
+			ammoname = 'ammo-9'
+		},
+
 		['WEAPON_COMBATSHOTGUN'] = {
 			label = 'Combat Shotgun',
 			weight = 4400,
