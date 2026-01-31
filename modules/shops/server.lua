@@ -159,33 +159,34 @@ end)
 
 local function canAffordItem(inv, currency, price, source, cashOnly)
 	local Player = exports.qbx_core:GetPlayer(source)
-
 	currency = (cashOnly and 'money') or currency
 
-	if Inventory.GetItem(inv, currency, false, true) >= price then
+	if (Inventory.GetItem(inv, currency, false, true) or 0) >= price then
 		return 'cash'
 	end
 
-	local Walletcount = Inventory.GetItem(inv, 'wallet', nil, true)
-
-	if Walletcount > 0 then
-		local walletSlot = Inventory.GetSlotWithItem(inv, 'wallet')
-		local walletInv = Inventory.GetContainerFromSlot(inv, walletSlot.slot)
-		local walletCashCount = Inventory.Search(walletInv.id, 'count', 'money')
-		if walletInv and walletCashCount >= price then
-			return walletInv.id
+	-- Wallet and bank fallbacks only when paying with clean money
+	if currency == 'money' then
+		local Walletcount = Inventory.GetItem(inv, 'wallet', nil, true)
+		if Walletcount and Walletcount > 0 then
+			local walletSlot = Inventory.GetSlotWithItem(inv, 'wallet')
+			local walletInv = walletSlot and Inventory.GetContainerFromSlot(inv, walletSlot.slot)
+			local walletCashCount = walletInv and Inventory.Search(walletInv.id, 'count', 'money')
+			if walletCashCount and walletCashCount >= price then
+				return walletInv.id
+			end
 		end
-	end
 
-	if currency == 'money' and Player.PlayerData.money["bank"] >= price then
-		return 'bank'
+		if Player.PlayerData.money["bank"] >= price then
+			return 'bank'
+		end
 	end
 
 	return {
 		type = 'error',
 		description = locale('cannot_afford',
 			('%s%s'):format((currency == 'money' and locale('$') or math.groupdigits(price)),
-				(currency == 'money' and math.groupdigits(price) or ' ' .. Items(currency).label)))
+				(currency == 'money' and math.groupdigits(price) or ' ' .. (Items(currency) and Items(currency).label or currency))))
 	}
 end
 
