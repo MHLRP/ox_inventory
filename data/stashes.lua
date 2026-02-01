@@ -160,7 +160,7 @@ return {
 		weight = 300000,
 		groups = { ['lostmc'] = 1 }
 	},
-	{
+    {
         coords = vec3(-1043.0731, -226.9670, 32.3057),
         target = {
             loc = vec3(-1043.0731, -226.9670, 32.3057),
@@ -230,8 +230,8 @@ return {
         owner = false,
         slots = 70,
         weight = 50000,
-        groups = { ['viperidae'] = 3 }
-    },
+        groups = { ['viperidae'] = 6 } 
+},
 	{
 		coords = vec3(972.22, -98.13, 74.87),
 		target = {
