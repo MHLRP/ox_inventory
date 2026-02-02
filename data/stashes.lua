@@ -671,57 +671,6 @@ return {
 		weight = 70000,
 	},
 	{
-		coords = vec3(539.6855, -2049.8350, 6.1816),
-		target = {
-			loc = vec3(539.6855, -2049.8350, 6.1816),
-			length = 1.2,
-			width = 5.6,
-			heading = 85.5589,
-			minZ = 29.49,
-			maxZ = 32.09,
-			label = 'Storage'
-		},
-		name = 'vendetta1',
-		label = 'Storage',
-		owner = false,
-		slots = 80,
-		weight = 120000,
-	},
-	{
-		coords = vec3(535.710, -2068.519, 1.015),
-		target = {
-			loc = vec3(535.710, -2068.519, 1.015),
-			length = 1.2,
-			width = 5.6,
-			heading = 85.5589,
-			minZ = 29.49,
-			maxZ = 32.09,
-			label = 'Storage'
-		},
-		name = 'vendetta2',
-		label = 'Storage',
-		owner = false,
-		slots = 60,
-		weight = 85000,
-	},
-	{
-		coords = vec3(553.941, -2064.458, 1.769),
-		target = {
-			loc = vec3(553.941, -2064.458, 1.769),
-			length = 1.2,
-			width = 5.6,
-			heading = 85.5589,
-			minZ = 29.49,
-			maxZ = 32.09,
-			label = 'Storage'
-		},
-		name = 'vendetta3',
-		label = 'Storage',
-		owner = false,
-		slots = 40,
-		weight = 60000,
-	},
-	{
 		coords = vec3(516.9129, -2759.5100, 6.6410),
 		target = {
 			loc = vec3(516.9129, -2759.5100, 6.6410),
@@ -910,78 +859,6 @@ return {
 		slots = 40,
 		weight = 60000,
 		groups = { ['greekmafiafamily'] = 4 }
-	},
-	{
-		coords = vec3(201.0974, 2779.0220, 43.1154),
-		target = {
-			loc = vec3(201.0974, 2779.0220, 43.1154),
-			length = 1.2,
-			width = 5.6,
-			heading = 268.8667,
-			minZ = 29.49,
-			maxZ = 32.09,
-			label = 'Storage'
-		},
-		name = 'rustborn1',
-		label = "Safe Storage",
-		owner = true,
-		slots = 20,
-		weight = 60000,
-		groups = { ['vendetta'] = 0 }
-	},
-	{
-		coords = vec3(193.3034, 2801.3870, 43.1160),
-		target = {
-			loc = vec3(193.3034, 2801.3870, 43.1160),
-			length = 1.2,
-			width = 5.6,
-			heading = 89.3257,
-			minZ = 29.49,
-			maxZ = 32.09,
-			label = 'Storage'
-		},
-		name = 'rustborn2',
-		label = "Safe Storage",
-		owner = true,
-		slots = 20,
-		weight = 200000,
-		groups = { ['vendetta'] = 0 }
-	},
-	{
-		coords = vec3(178.5249, 2779.1660, 32.0130),
-		target = {
-			loc = vec3(178.5249, 2779.1660, 32.0130),
-			length = 1.2,
-			width = 5.6,
-			heading = 88.5464,
-			minZ = 29.49,
-			maxZ = 32.09,
-			label = 'Storage'
-		},
-		name = 'rustborn3',
-		label = "Safe Storage",
-		owner = true,
-		slots = 20,
-		weight = 200000,
-		groups = { ['vendetta'] = 0 }
-	},
-	{
-		coords = vec3(178.5656, 2799.3125, 32.0130),
-		target = {
-			loc = vec3(178.5656, 2799.3125, 32.0130),
-			length = 1.2,
-			width = 5.6,
-			heading = 85.9505,
-			minZ = 29.49,
-			maxZ = 32.09,
-			label = 'Storage'
-		},
-		name = 'rustborn4',
-		label = "Safe Storage",
-		owner = true,
-		slots = 20,
-		weight = 400000,
-		groups = { ['vendetta'] = 0 }
 	},
 	{
 		coords = vec3(2539.7991, 6148.2275, 167.1216),
