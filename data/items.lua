@@ -3435,6 +3435,14 @@ return {
 		description = "A shot of the finest vodka.",
 	},
 
+	["lustshot"] = {
+		label = "Lust Shot",
+		weight = 290,
+		stack = true,
+		close = true,
+		description = "A shot of lust.",
+	},
+
 	["nightsky"] = {
 		label = "Night Sky",
 		weight = 290,
