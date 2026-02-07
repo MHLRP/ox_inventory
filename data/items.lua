@@ -712,13 +712,33 @@ return {
 		description = "Some delicious candy :O",
 	},
 
+	["kissmepop"] = {
+		label = "Kiss Me Pop",
+		weight = 1000,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Red Kiss Me Pop",
+		client = {
+			status = { hunger = 5 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger' },
+			prop = {
+				model = 'natty_lollipop01',
+				pos = vec3(-0.0100, 0.0200, -0.0100),
+				rot = vec3(-175.1935, 97.6975, 20.9598),
+				bone = 60309
+			},
+			usetime = 8000,
+		}
+	},
+
 	["lollipop1"] = {
 		label = "Lolli Pop (Red)",
 		weight = 1000,
 		decay = true,
 		stack = true,
 		close = true,
-		description = "Red Lilli Pop",
+		description = "Red Lolli Pop",
 		client = {
 			status = { hunger = 5 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger' },

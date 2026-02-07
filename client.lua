@@ -503,7 +503,7 @@ local function useItem(data, cb, noAnim)
 		return
 	end
 
-	if currentWeapon and currentWeapon.timer ~= 0 then
+	if currentWeapon and type(currentWeapon.timer) == 'number' and currentWeapon.timer ~= 0 then
 		if IsPedShooting(playerPed) then return end
 		if currentWeapon.timer - GetGameTimer() > 100 then return end
 
