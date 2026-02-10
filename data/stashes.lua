@@ -495,6 +495,24 @@ return {
 		groups = { ['highnotes'] = 0 }
 	},
 	{
+		coords = vec3(105.6487, -1.0993, 67.7816), 
+		target = {
+			loc = vec3(105.6487, -1.0993, 67.7816),
+			length = 1.2,
+			width = 5.6,
+			heading = 70.1071,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Open Stash'
+		},
+		name = 'weedshop4',
+		label = 'High Notes Storage',
+		owner = false,
+		slots = 20,
+		weight = 200000,
+		groups = { ['highnotes'] = 0 }
+	},
+	{
 		coords = vec3(110.170, 0.609, 67.771),
 		target = {
 			loc = vec3(110.170, 0.609, 67.771),
@@ -505,7 +523,7 @@ return {
 			maxZ = 32.09,
 			label = 'Open Weed Tray'
 		},
-		name = 'weedshop4',
+		name = 'weedshop5',
 		label = 'Tray',
 		owner = false,
 		slots = 70,

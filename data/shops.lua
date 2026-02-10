@@ -1168,7 +1168,6 @@ return {
 			{ name = 'mdwoods',               price = 0, count = 75,  currency = 'money' },
 			{ name = 'empty_weed_bag',        price = 0, count = 100, currency = 'money' },
 			{ name = 'weedscissors',          price = 0, count = 25,  currency = 'money' },
-			{ name = 'sour_diesel_joint',     price = 0, count = 50,  currency = 'money' },
 			{ name = 'strawberry_kush_joint', price = 0, count = 50,  currency = 'money' },
 			{ name = 'golden_goat_joint',     price = 0, count = 50,  currency = 'money' },
 			{ name = 'zatweedseed',           price = 0, count = 25,  currency = 'money' },
