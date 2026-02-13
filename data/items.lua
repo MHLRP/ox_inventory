@@ -5507,7 +5507,7 @@ return {
 
 	["goldchain"] = {
 		label = "Golden Chain",
-		weight = 1500,
+		weight = 300,
 		stack = true,
 		close = true,
 		description = "A golden chain seems like the jackpot to me!",
@@ -12566,7 +12566,7 @@ return {
 
 	["ruby_necklace_silver"] = {
 		label = "Ruby Necklace Silver",
-		weight = 200,
+		weight = 350,
 		stack = true,
 		close = false,
 		description = "",
@@ -12665,7 +12665,7 @@ return {
 
 	["diamond_necklace_silver"] = {
 		label = "Diamond Necklace Silver",
-		weight = 200,
+		weight = 350,
 		stack = true,
 		close = false,
 		description = "",
@@ -12709,7 +12709,7 @@ return {
 
 	["sapphire_necklace"] = {
 		label = "Sapphire Necklace",
-		weight = 200,
+		weight = 350,
 		stack = true,
 		close = false,
 		description = "",
@@ -12742,7 +12742,7 @@ return {
 
 	["sapphire_necklace_silver"] = {
 		label = "Sapphire Necklace Silver",
-		weight = 200,
+		weight = 350,
 		stack = true,
 		close = false,
 		description = "",
@@ -12753,7 +12753,7 @@ return {
 
 	["emerald_necklace"] = {
 		label = "Emerald Necklace",
-		weight = 200,
+		weight = 350,
 		stack = true,
 		close = false,
 		description = "",
@@ -12811,7 +12811,7 @@ return {
 
 	["silverchain"] = {
 		label = "Silver Chain",
-		weight = 200,
+		weight = 300,
 		stack = true,
 		close = false,
 		description = "",
@@ -12847,7 +12847,7 @@ return {
 
 	["diamond_necklace"] = {
 		label = "Diamond Necklace",
-		weight = 200,
+		weight = 350,
 		stack = true,
 		close = false,
 		description = "",
@@ -12880,7 +12880,7 @@ return {
 
 	["emerald_necklace_silver"] = {
 		label = "Emerald Necklace Silver",
-		weight = 200,
+		weight = 350,
 		stack = true,
 		close = false,
 		description = "",
@@ -13012,7 +13012,7 @@ return {
 
 	["ruby_necklace"] = {
 		label = "Ruby Necklace",
-		weight = 200,
+		weight = 350,
 		stack = true,
 		close = false,
 		description = "",
