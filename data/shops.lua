@@ -1874,6 +1874,7 @@ return {
 		},
 		inventory = {
 			-- { name = 'jackolantern',     price = 50,    count = 75, currency = 'money' },
+			{ name = 'valentinesbag',    price = 100,   count = 50,        currency = 'money' },
 			{ name = 'thermalpaste',     price = 100,   count = 50,        currency = 'money' },
 			{ name = 'miningdrill',      price = 15000, currency = 'money' },
 			{ name = 'mininglaser',      price = 30000, currency = 'money' },
