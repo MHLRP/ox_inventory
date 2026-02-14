@@ -144,4 +144,9 @@ setContainerProperties('ammocase', {
 	whitelist = { 'ammo-9', 'ammo-45', 'ammo-22', 'ammo-38', 'ammo-44', 'ammo-50', 'ammo-rifle', 'ammo-rifle2', 'ammo-shotgun', 'ammo-sniper' }
 })
 
+setContainerProperties('valentinesbag', {
+	slots = 10,
+	maxWeight = 15000,
+})
+
 return containers

@@ -7048,6 +7048,14 @@ return {
 		consume = 0
 	},
 
+	['valentinesbag'] = {
+		label = 'Valentines Bag',
+		weight = 1,
+		stack = false,
+		close = false,
+		consume = 0
+	},
+
 	['identification'] = {
 		label = 'Identification',
 	},
