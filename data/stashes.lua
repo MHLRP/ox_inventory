@@ -655,6 +655,24 @@ return {
 		groups = { ['lux'] = 0 }
 	},
 	{
+		coords = vec3(101.7993, -364.2344, 43.4875),
+		target = {
+			loc = vec3(101.7993, -364.2344, 43.4875),
+			length = 1.2,
+			width = 5.6,
+			heading = 0,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Front Desk'
+		},
+		name = 'luxstash3',
+		label = 'Front Desk',
+		owner = true,
+		slots = 70,
+		weight = 70000,
+		groups = { ['lux'] = 0 }
+	},
+	{
 		coords = vec3(76.8396, -359.0788, 205.8400),
 		target = {
 			loc = vec3(76.8396, -359.0788, 205.8400),
