@@ -538,7 +538,6 @@ return {
 			{ name = 'diving_gear',             label = 'Diving Gear',       price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'radio',                   label = 'Radio',             price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'tablet',                  label = 'Tablet',            price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
-			{ name = 'gps_tracker',             label = 'GPS Tracker',       price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'weapon_flare',            label = 'Weapon Flare',      price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'radiocell',               label = 'Radio Cell',        price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'taser_cartridge',         label = 'Taser Cartridge',   price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
@@ -624,7 +623,6 @@ return {
 			{ name = 'diving_fill',             label = 'Diving Fill',       price = 0, metadata = { description = "Property of Vespucci Firestation" } },
 			{ name = 'diving_gear',             label = 'Diving Gear',       price = 0, metadata = { description = "Property of Vespucci Firestation" } },
 			{ name = 'radio',                   label = 'Radio',             price = 0, metadata = { description = "Property of Vespucci Firestation" } },
-			{ name = 'gps_tracker',             label = 'GPS Tracker',       price = 0, metadata = { description = "Property of Vespucci Firestation" } },
 			{ name = 'weapon_flare',            label = 'Weapon Flare',      price = 0, metadata = { description = "Property of Vespucci Firestation" } },
 			{ name = 'radiocell',               label = 'Radio Cell',        price = 0, metadata = { description = "Property of Vespucci Firestation" } },
 			{ name = 'taser_cartridge',         label = 'Taser Cartridge',   price = 0, metadata = { description = "Property of Vespucci Firestation" } },
@@ -1280,13 +1278,13 @@ return {
 	Pharmacy = {
 		name = 'Pharmacy',
 		inventory = {
-			{ name = 'tylacare',  price = 20,  count = 75,  currency = 'money' },
-			{ name = 'ibrofenix', price = 20,  count = 75,  currency = 'money' },
-			{ name = 'bandage',   price = 20,  count = 100, currency = 'money' },
-			{ name = 'dayrelief', price = 50,  count = 50,  currency = 'money' },
-			{ name = 'emptyvial', price = 100, count = 40,  currency = 'money' },
-			{ name = 'needle',    price = 200, count = 25,  currency = 'money' },
-			{ name = 'doxallin',  price = 200, count = 25,  currency = 'money' },
+			{ name = 'tylacare',  price = 20,  count = 200, currency = 'money' },
+			{ name = 'ibrofenix', price = 20,  count = 200, currency = 'money' },
+			{ name = 'bandage',   price = 20,  count = 200, currency = 'money' },
+			{ name = 'dayrelief', price = 50,  count = 200, currency = 'money' },
+			{ name = 'emptyvial', price = 100, count = 200, currency = 'money' },
+			{ name = 'needle',    price = 200, count = 200, currency = 'money' },
+			{ name = 'doxallin',  price = 200, count = 200, currency = 'money' },
 		},
 		targets = {
 			{
@@ -1301,13 +1299,13 @@ return {
 	Pharmacy2 = {
 		name = 'Pharmacy',
 		inventory = {
-			{ name = 'tylacare',  price = 20,  count = 75,  currency = 'money' },
-			{ name = 'ibrofenix', price = 20,  count = 75,  currency = 'money' },
-			{ name = 'bandage',   price = 20,  count = 100, currency = 'money' },
-			{ name = 'dayrelief', price = 50,  count = 50,  currency = 'money' },
-			{ name = 'emptyvial', price = 100, count = 40,  currency = 'money' },
-			{ name = 'needle',    price = 200, count = 25,  currency = 'money' },
-			{ name = 'doxallin',  price = 200, count = 25,  currency = 'money' },
+			{ name = 'tylacare',  price = 20,  count = 200, currency = 'money' },
+			{ name = 'ibrofenix', price = 20,  count = 200, currency = 'money' },
+			{ name = 'bandage',   price = 20,  count = 200, currency = 'money' },
+			{ name = 'dayrelief', price = 50,  count = 200, currency = 'money' },
+			{ name = 'emptyvial', price = 100, count = 200, currency = 'money' },
+			{ name = 'needle',    price = 200, count = 200, currency = 'money' },
+			{ name = 'doxallin',  price = 200, count = 200, currency = 'money' },
 		},
 		targets = {
 			{
@@ -1315,6 +1313,27 @@ return {
 				scenario = 'WORLD_HUMAN_CLIPBOARD',
 				loc = vec3(-465.0831, -1015.7953, 22.7129),
 				heading = 175.7297,
+			}
+		}
+	},
+
+	Pharmacy3 = {
+		name = 'Pharmacy',
+		inventory = {
+			{ name = 'tylacare',  price = 20,  count = 200, currency = 'money' },
+			{ name = 'ibrofenix', price = 20,  count = 200, currency = 'money' },
+			{ name = 'bandage',   price = 20,  count = 200, currency = 'money' },
+			{ name = 'dayrelief', price = 50,  count = 200, currency = 'money' },
+			{ name = 'emptyvial', price = 100, count = 200, currency = 'money' },
+			{ name = 'needle',    price = 200, count = 200, currency = 'money' },
+			{ name = 'doxallin',  price = 200, count = 200, currency = 'money' },
+		},
+		targets = {
+			{
+				ped = `s_f_y_scrubs_01`,
+				scenario = 'WORLD_HUMAN_CLIPBOARD',
+				loc = vec3(375.3017, -829.6741, 28.2915),
+				heading = 267.7068,
 			}
 		}
 	},
@@ -1766,6 +1785,7 @@ return {
 			{ name = 'powerbank', price = 200,    count = 50, currency = 'money' },
 			{ name = 'simcard',   price = 200,    count = 50, currency = 'money' },
 			{ name = 'phone',     price = 1000,   count = 25, currency = 'money' },
+			{ name = 'simcard',   pricce = 100,   count = 50, currency = 'money' },
 			{ name = 'tablet',    price = 2000,   count = 20, currency = 'money' },
 			{ name = 'gopro',     price = 1000,   count = 15, currency = 'money' },
 			{ name = 'shitgpu',   price = 12000,  count = 10, currency = 'money' },
@@ -1792,11 +1812,12 @@ return {
 		-- 	id = 606, colour = 0, scale = 0.6
 		-- },
 		inventory = {
-			{ name = 'radio',  price = 100,  count = 50, currency = 'money' },
-			{ name = 'laptop', price = 1000, count = 25, currency = 'money' },
-			{ name = 'tablet', price = 2000, count = 20, currency = 'money' },
-			{ name = 'fitbit', price = 600,  count = 30, currency = 'money' },
-			{ name = 'phone',  price = 800,  count = 30, currency = 'money' },
+			{ name = 'radio',   price = 100,  count = 50, currency = 'money' },
+			{ name = 'laptop',  price = 1000, count = 25, currency = 'money' },
+			{ name = 'tablet',  price = 2000, count = 20, currency = 'money' },
+			{ name = 'fitbit',  price = 600,  count = 30, currency = 'money' },
+			{ name = 'phone',   price = 800,  count = 30, currency = 'money' },
+			{ name = 'simcard', pricce = 100, count = 50, currency = 'money' },
 		},
 		targets = {
 			{
@@ -2216,19 +2237,17 @@ return {
 		inventory = {
 			{ name = 'kq_winch',                price = 0 },
 			{ name = 'kq_tow_rope',             price = 0 },
-			{ name = 'gps_tracker',             price = 0 },
 			{ name = 'radio',                   price = 0 },
 			{ name = 'radiocell',               price = 0 },
 			{ name = 'fdcamera',                price = 0 },
-			{ name = 'watertank',               price = 0 },
 			{ name = 'WEAPON_FIREEXTINGUISHER', price = 0 },
-			{ name = 'WEAPON_CROWBAR',          price = 0 },
+			{ name = 'WEAPON_HATCHET',          price = 0 },
 		},
 		locations = {
-			vec3(-1030.0171, -1391.6747, 4.9732)
+			vec3(-1030.0947, -1391.9705, 4.9732)
 		},
 		targets = {
-			{ loc = vec3(-1030.0171, -1391.6747, 4.9732), length = 0.8, width = 0.6, heading = 257.5065, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{ loc = vec3(-1030.0947, -1391.9705, 4.9732), length = 0.8, width = 0.6, heading = 256.0909, minZ = 28.2, maxZ = 28.6, distance = 2 }
 		}
 	},
 

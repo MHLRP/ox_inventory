@@ -159,6 +159,13 @@ return {
 			ammoname = 'ammo-9'
 		},
 
+		['WEAPON_GEORGEHEAVYPISTOL'] = {
+			label = 'George Heavy Pistol',
+			weight = 1100,
+			durability = 0.2,
+			ammoname = 'ammo-45'
+		},
+
 		['WEAPON_PISTOLXM3'] = {
 			label = 'WM 29 Pistol',
 			weight = 969,
