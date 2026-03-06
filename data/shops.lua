@@ -760,6 +760,14 @@ return {
 		}
 	},
 
+	WeedEnergyVending = {
+		name = 'Weed Energy Vending',
+		society = 'highnotes',
+		inventory = {
+			{ name = 'weedenergydrink', price = 50, count = 50 },
+		},
+	},
+
 	Mansion = {
 		name = 'Mansion Mech Shop',
 		inventory = {

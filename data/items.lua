@@ -23057,5 +23057,133 @@ return {
 		client = {
 			export = 'moonlit-bomb.placeBomb'
 		}
-	}
+	},
+
+	['augmentedburger'] = {
+		label = 'Augmented Burger',
+		weight = 200,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = 'A cyber-enhanced burger packed with flavor.'
+	},
+	
+	['chromecircuit'] = {
+		label = 'Chrome Circuit',
+		weight = 200,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = 'A sparkling drink that energizes your system.'
+	},
+	
+	['datacorecheesecake'] = {
+		label = 'Datacore Cheesecake',
+		weight = 200,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = 'Rich cheesecake infused with digital decadence.'
+	},
+	
+	['hoverfries'] = {
+		label = 'Hover Fries',
+		weight = 150,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = 'Crispy fries that feel almost weightless.'
+	},
+	
+	['lemonneonmeringuepie'] = {
+		label = 'Lemon Neon Meringue Pie',
+		weight = 200,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = 'Bright lemon pie glowing with neon sweetness.'
+	},
+	
+	['neonstatic'] = {
+		label = 'Neon Static',
+		weight = 200,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = 'A glowing electric-blue drink.'
+	},
+	
+	['streetbyteramen'] = {
+		label = 'Street Byte Ramen',
+		weight = 300,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = 'A hot bowl of ramen straight from the neon streets.'
+	},
+	
+	['yellowoverdrive'] = {
+		label = 'Yellow Overdrive',
+		weight = 200,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = 'A citrus energy drink that kicks your systems into overdrive.'
+	},
+	
+	['blackoutbrownies'] = {
+		label = 'Blackout Brownies',
+		weight = 200,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = 'Rich chocolate brownies strong enough to knock you out.'
+	},
+	
+	['pixelmochiflight'] = {
+		label = 'Pixel Mochi Flight',
+		weight = 150,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = 'A colorful assortment of pixel-perfect mochi.'
+	},
+	
+	['glitchinthesystem'] = {
+		label = 'Glitch In The System',
+		weight = 200,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = 'A strange drink that flickers like corrupted code.'
+	},
+	
+	['nightmarket'] = {
+		label = 'Night Market Special',
+		weight = 200,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = 'A sizzling dish from the cities night market.'
+	},
+
+	['weedenergydrink'] = {
+		label = 'Weed Energy',
+		weight = 200,
+		stack = true,
+		close = true,
+		description = 'A refreshing drink that energizes your system.'
+	},
 }
