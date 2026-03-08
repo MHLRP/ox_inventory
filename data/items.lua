@@ -19994,6 +19994,187 @@ return {
 		}
 	},
 
+	['rice'] = {
+		label = 'Rice',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'Rice for cooking.',
+	},
+
+	['riceflour'] = {
+		label = 'Rice Flour',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'Rice flour for mochi.',
+	},
+
+	['piecrust'] = {
+		label = 'Pie Crust',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'Pre-made pie crust.',
+	},
+
+	['blue_curacao'] = {
+		label = 'Blue Curacao',
+		weight = 200,
+		stack = true,
+		close = true,
+		description = 'Blue liqueur for cocktails.',
+	},
+	['chili_flakes'] = {
+		label = 'Chili Flakes',
+		weight = 50,
+		stack = true,
+		close = true,
+		description = 'Dried chili flakes.',
+	},
+	['frozen_pork'] = {
+		label = 'Pork',
+		weight = 150,
+		degrade = 60 * 72,
+		stack = true,
+		close = true,
+		description = 'Raw pork for cooking.',
+	},
+	['soysauce'] = {
+		label = 'Soy Sauce',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'Soy sauce for cooking.',
+	},
+
+	['augmentedburger'] = {
+		label = 'Augmented Burger',
+		weight = 250,
+		degrade = 60 * 72,
+		stack = true,
+		close = true,
+		description = 'Patty x2, bun, onion, ketchup, mustard.',
+		client = {
+			status = { hunger = 50 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = { model = 'prop_cs_burger_01', pos = vec3(0.05, -0.02, -0.03), rot = vec3(0.0, 0.0, 0.0) },
+			usetime = 7500,
+		}
+	},
+	['streetbyteramen'] = {
+		label = 'Street Byte Ramen',
+		weight = 350,
+		degrade = 60 * 72,
+		stack = true,
+		close = true,
+		description = 'Bowl of ramen with noodles, pork, egg, garlic, soy sauce.',
+		client = {
+			status = { hunger = 55 },
+			anim = { dict = 'anim@eat@fork', clip = 'fork_clip' },
+			prop = { model = 'prop_food_bs_burger3', pos = vec3(0.05, -0.02, -0.03), rot = vec3(0.0, 0.0, -40.0) },
+			usetime = 8000,
+		}
+	},
+	['nightmarket'] = {
+		label = 'Night Market',
+		weight = 300,
+		degrade = 60 * 72,
+		stack = true,
+		close = true,
+		description = 'Bowl with rice, egg, pepper, garlic, soy sauce.',
+		client = {
+			status = { hunger = 45 },
+			anim = { dict = 'anim@eat@fork', clip = 'fork_clip' },
+			prop = { model = 'prop_food_bs_burger3', pos = vec3(0.05, -0.02, -0.03), rot = vec3(0.0, 0.0, -40.0) },
+			usetime = 8000,
+		}
+	},
+	['pixelmochiflight'] = {
+		label = 'Pixel Mochi Flight',
+		weight = 200,
+		degrade = 60 * 72,
+		stack = true,
+		close = true,
+		description = 'Rice flour, water, sugar, kiwi, cherry, blackberries.',
+		client = {
+			status = { hunger = 35 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = { model = 'prop_taco_02', pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
+			usetime = 6000,
+		}
+	},
+	['blackoutbrownies'] = {
+		label = 'Blackout Brownies',
+		weight = 150,
+		degrade = 60 * 72,
+		stack = true,
+		close = true,
+		description = 'Sugar, flour, chocolate, butter.',
+		client = {
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = { model = 'prop_taco_02', pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
+			usetime = 6000,
+		}
+	},
+	['hoverfries'] = {
+		label = 'Hover Fries',
+		weight = 200,
+		degrade = 60 * 72,
+		stack = true,
+		close = true,
+		description = 'Potato, mozzarella, bacon.',
+		client = {
+			status = { hunger = 45 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = { model = 'prop_food_chips', pos = vec3(0.05, -0.02, -0.03), rot = vec3(0.0, 0.0, 0.0) },
+			usetime = 6000,
+		}
+	},
+	['lemonneonmeringuepie'] = {
+		label = 'Lemon Neon Meringue Pie',
+		weight = 300,
+		degrade = 60 * 72,
+		stack = true,
+		close = true,
+		description = 'Lemon, pie crust, egg, sugar, butter.',
+		client = {
+			status = { hunger = 50 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = { model = 'prop_taco_02', pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
+			usetime = 7000,
+		}
+	},
+
+	['neonstatic'] = {
+		label = 'Neon Static',
+		weight = 150,
+		degrade = 60 * 24,
+		stack = true,
+		close = true,
+		description = 'Alcohol glass, vodka, blue curacao, raspberries. Alcoholic.',
+		client = {
+			status = { thirst = 40 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_drink_whisky_01', pos = vec3(0.03, 0.0, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 5000,
+		}
+	},
+	['glitchinthesystem'] = {
+		label = 'Glitch in the System',
+		weight = 150,
+		stack = true,
+		close = true,
+		description = 'Lemon, soda, mint. No alcohol. Covers thirst.',
+		client = {
+			status = { thirst = 50 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_ecola_can', pos = vec3(0.03, 0.0, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 5000,
+		}
+	},
+
 	['nomad_soda'] = {
 		label = 'Nomad Soda',
 		weight = 100,
@@ -23058,16 +23239,6 @@ return {
 			export = 'moonlit-bomb.placeBomb'
 		}
 	},
-
-	['augmentedburger'] = {
-		label = 'Augmented Burger',
-		weight = 200,
-		degrade = 60 * 72,
-		decay = true,
-		stack = true,
-		close = true,
-		description = 'A cyber-enhanced burger packed with flavor.'
-	},
 	
 	['chromecircuit'] = {
 		label = 'Chrome Circuit',
@@ -23089,46 +23260,6 @@ return {
 		description = 'Rich cheesecake infused with digital decadence.'
 	},
 	
-	['hoverfries'] = {
-		label = 'Hover Fries',
-		weight = 150,
-		degrade = 60 * 72,
-		decay = true,
-		stack = true,
-		close = true,
-		description = 'Crispy fries that feel almost weightless.'
-	},
-	
-	['lemonneonmeringuepie'] = {
-		label = 'Lemon Neon Meringue Pie',
-		weight = 200,
-		degrade = 60 * 72,
-		decay = true,
-		stack = true,
-		close = true,
-		description = 'Bright lemon pie glowing with neon sweetness.'
-	},
-	
-	['neonstatic'] = {
-		label = 'Neon Static',
-		weight = 200,
-		degrade = 60 * 72,
-		decay = true,
-		stack = true,
-		close = true,
-		description = 'A glowing electric-blue drink.'
-	},
-	
-	['streetbyteramen'] = {
-		label = 'Street Byte Ramen',
-		weight = 300,
-		degrade = 60 * 72,
-		decay = true,
-		stack = true,
-		close = true,
-		description = 'A hot bowl of ramen straight from the neon streets.'
-	},
-	
 	['yellowoverdrive'] = {
 		label = 'Yellow Overdrive',
 		weight = 200,
@@ -23138,46 +23269,6 @@ return {
 		close = true,
 		description = 'A citrus energy drink that kicks your systems into overdrive.'
 	},
-	
-	['blackoutbrownies'] = {
-		label = 'Blackout Brownies',
-		weight = 200,
-		degrade = 60 * 72,
-		decay = true,
-		stack = true,
-		close = true,
-		description = 'Rich chocolate brownies strong enough to knock you out.'
-	},
-	
-	['pixelmochiflight'] = {
-		label = 'Pixel Mochi Flight',
-		weight = 150,
-		degrade = 60 * 72,
-		decay = true,
-		stack = true,
-		close = true,
-		description = 'A colorful assortment of pixel-perfect mochi.'
-	},
-	
-	['glitchinthesystem'] = {
-		label = 'Glitch In The System',
-		weight = 200,
-		degrade = 60 * 72,
-		decay = true,
-		stack = true,
-		close = true,
-		description = 'A strange drink that flickers like corrupted code.'
-	},
-	
-	['nightmarket'] = {
-		label = 'Night Market Special',
-		weight = 200,
-		degrade = 60 * 72,
-		decay = true,
-		stack = true,
-		close = true,
-		description = 'A sizzling dish from the cities night market.'
-	},
 
 	['weedenergydrink'] = {
 		label = 'Weed Energy',
@@ -23185,5 +23276,13 @@ return {
 		stack = true,
 		close = true,
 		description = 'A refreshing drink that energizes your system.'
+	},
+
+	['rexs_menu'] = {
+		label = 'Rex\'s Menu',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'A menu from Rex\'s Shop',
 	},
 }

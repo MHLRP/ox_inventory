@@ -2539,6 +2539,7 @@ return {
 			{ name = 'frozen_haddock_fillet',      price = 20, count = 75, currency = 'money' },
 			{ name = 'frozen_cod_fillet',          price = 20, count = 75, currency = 'money' },
 			{ name = 'frozen_fillet_salmon',       price = 20, count = 75, currency = 'money' },
+			{ name = 'frozen_pork',                price = 20, count = 75, currency = 'money' },
 			{ name = 'snr_bacon',                  price = 20, count = 75, currency = 'money' },
 			{ name = 'calamari',                   price = 20, count = 75, currency = 'money' },
 		},
@@ -2915,7 +2916,11 @@ return {
 			{ name = 'raspberries',            price = 10,  count = 75,        currency = 'money' },
 			{ name = 'raw-tofu',               price = 10,  count = 75,        currency = 'money' },
 			{ name = 'pasta',                  price = 10,  count = 75,        currency = 'money' },
-			{ name = 'egg',                    price = 30,  currency = 'money' },
+			{ name = 'rice',                   price = 10,  count = 75,        currency = 'money' },
+			{ name = 'riceflour',              price = 10,  count = 75,        currency = 'money' },
+			{ name = 'soysauce',                price = 10,  count = 75,        currency = 'money' },
+			{ name = 'piecrust',               price = 10,  count = 75,        currency = 'money' },
+			{ name = 'egg',                    price = 30,  count = 200,        currency = 'money' },
 		},
 		targets = {
 			{
