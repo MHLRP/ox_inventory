@@ -23285,4 +23285,74 @@ return {
 		close = true,
 		description = 'A menu from Rex\'s Shop',
 	},
+
+	['amethystamaretto'] = {
+		label = 'Amethyst Amaretto',
+		weight = 200,
+		stack = true,
+		close = true,
+	},
+	
+	['bahamamama'] = {
+		label = 'Bahama Mama',
+		weight = 200,
+		stack = true,
+		close = true,
+	},
+	
+	['bonelessbuffalowings'] = {
+		label = 'Boneless Buffalo Wings',
+		weight = 300,
+		stack = true,
+		close = true,
+	},
+	
+	['jackncoke'] = {
+		label = 'Jack n Coke',
+		weight = 200,
+		stack = true,
+		close = true,
+	},
+	
+	['lucyssweet'] = {
+		label = "Lucy's Sweet",
+		weight = 200,
+		stack = true,
+		close = true,
+	},
+	
+	['mozzarellasticks'] = {
+		label = 'Mozzarella Sticks',
+		weight = 300,
+		stack = true,
+		close = true,
+	},
+	
+	['nectarofthegods'] = {
+		label = 'Nectar of the Gods',
+		weight = 200,
+		stack = true,
+		close = true,
+	},
+	
+	['nomadssunrise'] = {
+		label = "Nomad's Sunrise",
+		weight = 200,
+		stack = true,
+		close = true,
+	},
+	
+	['phantompunch'] = {
+		label = 'Phantom Punch',
+		weight = 200,
+		stack = true,
+		close = true,
+	},
+	
+	['rippericetea'] = {
+		label = 'Ripper Ice Tea',
+		weight = 200,
+		stack = true,
+		close = true,
+	},
 }
