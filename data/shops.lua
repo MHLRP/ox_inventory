@@ -361,6 +361,7 @@ return {
 			vec3(2674.2827, 3285.7559, 55.2518),
 			vec3(2551.0417, 385.2466, 108.6342),
 			vec3(377.6403, 331.6940, 103.5770),
+			vec3(180.3288, 1239.3783, 225.6239),
 		},
 		targets = {
 			{ loc = vec3(28.0460, -1340.9525, 29.5076),   length = 1.5, width = 3.0, heading = 176.1524, minZ = 41.5, maxZ = 43.0, distance = 3 },
@@ -372,6 +373,7 @@ return {
 			{ loc = vec3(2674.2827, 3285.7559, 55.2518),  length = 1.5, width = 3.0, heading = 234.6591, minZ = 41.5, maxZ = 43.0, distance = 3 },
 			{ loc = vec3(2551.0417, 385.2466, 108.6342),  length = 1.5, width = 3.0, heading = 261.9892, minZ = 41.5, maxZ = 43.0, distance = 3 },
 			{ loc = vec3(377.6403, 331.6940, 103.5770),   length = 1.5, width = 3.0, heading = 162.6314, minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(180.3288, 1239.3783, 225.6239),  length = 1.5, width = 3.0, heading = 283.2608, minZ = 41.5, maxZ = 43.0, distance = 3 },
 		}
 	},
 
@@ -1407,7 +1409,7 @@ return {
 	-- },
 
 	MidnightSun = {
-		name = 'Midnight Sun Bar',
+		name = 'Midnight Autos Chef',
 		society = 'midnightautos',
 		inventory = {
 			{ name = 'cybernuts',       price = 20,   count = 75,  currency = 'money' },
@@ -1423,8 +1425,8 @@ return {
 			{
 				ped = `s_f_y_clubbar_01`,
 				scenario = 'WORLD_HUMAN_STAND_MOBILE',
-				loc = vec3(-344.6480, -153.1068, 38.0640),
-				heading = 155.50869,
+				loc = vec3(225.6525, 1147.1881, 229.5404),
+				heading = 15.2182,
 			}
 		}
 	},

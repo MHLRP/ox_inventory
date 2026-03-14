@@ -583,9 +583,9 @@ return {
 		groups = { ['uwu'] = 0 }
 	},
 	{
-		coords = vec3(-351.0203, -127.1841, 39.0640),
+		coords = vec3(220.0494, 1089.1278, 225.5631),
 		target = {
-			loc = vec3(-351.0203, -127.1841, 39.0640),
+			loc = vec3(220.0494, 1089.1278, 225.5631),
 			length = 1.2,
 			width = 5.6,
 			heading = 0,
@@ -594,8 +594,26 @@ return {
 			label = 'Open personal stash'
 		},
 		name = 'midnightautos',
-		label = 'Personal Stash',
+		label = 'Business Storage',
 		owner = true,
+		slots = 80,
+		weight = 500000,
+		groups = { ['mechanic'] = 0 }
+	},
+	{
+		coords = vec3(225.3147, 1092.7230, 225.5631),
+		target = {
+			loc = vec3(225.3147, 1092.7230, 225.5631),
+			length = 1.2,
+			width = 5.6,
+			heading = 0,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Open personal stash'
+		},
+		name = 'midnightautos2',
+		label = 'Service Rack',
+		owner = false,
 		slots = 70,
 		weight = 70000,
 		groups = { ['mechanic'] = 0 }
