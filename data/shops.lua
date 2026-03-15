@@ -934,10 +934,10 @@ return {
 			{ name = 'customizableplate',    label = 'Customizable Plate',   price = 0 },
 		},
 		locations = {
-			vec3(-337.9443, -141.4142, 39.0640),
+			vec3(225.3147, 1092.7230, 225.5631),
 		},
 		targets = {
-			{ loc = vec3(-337.9443, -141.4142, 39.0640), length = 1.5, width = 3.0, heading = 155.6184, minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(225.3147, 1092.7230, 225.5631), length = 1.5, width = 3.0, heading = 155.6184, minZ = 41.5, maxZ = 43.0, distance = 3 },
 		}
 	},
 

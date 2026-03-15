@@ -619,6 +619,24 @@ return {
 		groups = { ['mechanic'] = 0 }
 	},
 	{
+		coords = vec3(218.9680, 1093.1705, 225.5632),
+		target = {
+			loc = vec3(218.9680, 1093.1705, 225.5632),
+			length = 1.2,
+			width = 5.6,
+			heading = 0,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Open personal stash'
+		},
+		name = 'midnightautos3',
+		label = 'Business Storage',
+		owner = false,
+		slots = 30,
+		weight = 200000,
+		groups = { ['mechanic'] = 0 }
+	},
+	{
 		coords = vec3(125.5868, -3050.0076, 7.0406),
 		target = {
 			loc = vec3(125.5868, -3050.0076, 7.0406),
