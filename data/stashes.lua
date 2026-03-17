@@ -1138,4 +1138,76 @@ return {
 		slots = 100,
 		weight = 300000,
 	},
+	{
+		coords = vec3(177.0799, 1222.5767, 222.3002),
+		target = {
+			loc = vec3(177.0799, 1222.5767, 222.3002),
+			length = 1.2,
+			width = 5.6,
+			heading = 12.5895,
+			minZ = 221.3,
+			maxZ = 223.3,
+			label = 'Gang Storage'
+		},
+		name = 'thedarkdevils1',
+		label = 'Gang Storage',
+		owner = false,
+		slots = 80,
+		weight = 200000,
+		groups = { ['thedarkdevils'] = 0 }
+	},
+	{
+		coords = vec3(177.3381, 1220.1830, 222.3002),
+		target = {
+			loc = vec3(177.3381, 1220.1830, 222.3002),
+			length = 1.2,
+			width = 5.6,
+			heading = 201.9561,
+			minZ = 221.3,
+			maxZ = 223.3,
+			label = 'Gang Storage'
+		},
+		name = 'thedarkdevils2',
+		label = 'Gang Storage',
+		owner = false,
+		slots = 40,
+		weight = 50000,
+		groups = { ['thedarkdevils'] = 0 }
+	},
+	{
+		coords = vec3(166.7504, 1216.5427, 222.3002),
+		target = {
+			loc = vec3(166.7504, 1216.5427, 222.3002),
+			length = 1.2,
+			width = 5.6,
+			heading = 190.8031,
+			minZ = 221.3,
+			maxZ = 223.3,
+			label = 'Gang Storage'
+		},
+		name = 'thedarkdevils3',
+		label = 'Gang Storage',
+		owner = false,
+		slots = 80,
+		weight = 200000,
+		groups = { ['thedarkdevils'] = 0 }
+	},
+	{
+		coords = vec3(166.0858, 1220.9489, 222.3002),
+		target = {
+			loc = vec3(166.0858, 1220.9489, 222.3002),
+			length = 1.2,
+			width = 5.6,
+			heading = 10.8975,
+			minZ = 221.3,
+			maxZ = 223.3,
+			label = 'Gang Storage'
+		},
+		name = 'thedarkdevils4',
+		label = 'Gang Storage',
+		owner = false,
+		slots = 40,
+		weight = 50000,
+		groups = { ['thedarkdevils'] = 0 }
+	},
 }
