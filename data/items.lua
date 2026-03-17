@@ -20066,29 +20066,57 @@ return {
 		label = 'Street Byte Ramen',
 		weight = 350,
 		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
-		description = 'Bowl of ramen with noodles, pork, egg, garlic, soy sauce.',
+		description = "Some people like to eat turtles",
 		client = {
-			status = { hunger = 55 },
+			status = { hunger = 60 },
+			prop = {
+				[1] = {
+					model = 'scully_spoon_pho',
+					bone = 57005,
+					pos = vec3(0.14, 0.02, 0.01),
+					rot = vec3(-118.0, 192.0, 24.0)
+				},
+				[2] = {
+					model = 'prop_cs_bowl_01b',
+					--bone = 57005	
+					pos = vec3(-0.03, 0.01, 0.05),
+					rot = vec3(0.0, 0.0, -40.0)
+				},
+			},
 			anim = { dict = 'anim@eat@fork', clip = 'fork_clip' },
-			prop = { model = 'prop_food_bs_burger3', pos = vec3(0.05, -0.02, -0.03), rot = vec3(0.0, 0.0, -40.0) },
 			usetime = 8000,
-		}
+		},
 	},
 	['nightmarket'] = {
 		label = 'Night Market',
 		weight = 300,
 		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
-		description = 'Bowl with rice, egg, pepper, garlic, soy sauce.',
+		description = "Some people like to eat turtles",
 		client = {
-			status = { hunger = 45 },
+			status = { hunger = 60 },
+			prop = {
+				[1] = {
+					model = 'scully_spoon_pho',
+					bone = 57005,
+					pos = vec3(0.14, 0.02, 0.01),
+					rot = vec3(-118.0, 192.0, 24.0)
+				},
+				[2] = {
+					model = 'prop_cs_bowl_01b',
+					--bone = 57005	
+					pos = vec3(-0.03, 0.01, 0.05),
+					rot = vec3(0.0, 0.0, -40.0)
+				},
+			},
 			anim = { dict = 'anim@eat@fork', clip = 'fork_clip' },
-			prop = { model = 'prop_food_bs_burger3', pos = vec3(0.05, -0.02, -0.03), rot = vec3(0.0, 0.0, -40.0) },
 			usetime = 8000,
-		}
+		},
 	},
 	['pixelmochiflight'] = {
 		label = 'Pixel Mochi Flight',
