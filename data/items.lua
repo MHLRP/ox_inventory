@@ -23239,7 +23239,7 @@ return {
 			export = 'moonlit-bomb.placeBomb'
 		}
 	},
-	
+
 	['chromecircuit'] = {
 		label = 'Chrome Circuit',
 		weight = 200,
@@ -23249,7 +23249,7 @@ return {
 		close = true,
 		description = 'A sparkling drink that energizes your system.'
 	},
-	
+
 	['datacorecheesecake'] = {
 		label = 'Datacore Cheesecake',
 		weight = 200,
@@ -23257,9 +23257,27 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		description = 'Rich cheesecake infused with digital decadence.'
+		description = 'Rich cheesecake infused with digital decadence.',
+		client = {
+			status = { hunger = 40 },
+			prop = {
+				[1] = {
+					model = 'djs_fork',
+					bone = 57005,
+					pos = vec3(0.14, 0.02, 0.01),
+					rot = vec3(-118.0, 192.0, 24.0)
+				},
+				[2] = {
+					model = 'cake_blacktiemouse',
+					pos = vec3(-0.03, 0.01, 0.01),
+					rot = vec3(0.0, 0.0, -40.0)
+				},
+			},
+			anim = { dict = 'anim@eat@fork', clip = 'fork_clip' },
+			usetime = 8000,
+		},
 	},
-	
+
 	['yellowoverdrive'] = {
 		label = 'Yellow Overdrive',
 		weight = 200,
@@ -23292,63 +23310,63 @@ return {
 		stack = true,
 		close = true,
 	},
-	
+
 	['bahamamama'] = {
 		label = 'Bahama Mama',
 		weight = 200,
 		stack = true,
 		close = true,
 	},
-	
+
 	['bonelessbuffalowings'] = {
 		label = 'Boneless Buffalo Wings',
 		weight = 300,
 		stack = true,
 		close = true,
 	},
-	
+
 	['jackncoke'] = {
 		label = 'Jack n Coke',
 		weight = 200,
 		stack = true,
 		close = true,
 	},
-	
+
 	['lucyssweet'] = {
 		label = "Lucy's Sweet",
 		weight = 200,
 		stack = true,
 		close = true,
 	},
-	
+
 	['mozzarellasticks'] = {
 		label = 'Mozzarella Sticks',
 		weight = 300,
 		stack = true,
 		close = true,
 	},
-	
+
 	['nectarofthegods'] = {
 		label = 'Nectar of the Gods',
 		weight = 200,
 		stack = true,
 		close = true,
 	},
-	
+
 	['nomadssunrise'] = {
 		label = "Nomad's Sunrise",
 		weight = 200,
 		stack = true,
 		close = true,
 	},
-	
+
 	['phantompunch'] = {
 		label = 'Phantom Punch',
 		weight = 200,
 		stack = true,
 		close = true,
 	},
-	
+
 	['rippericetea'] = {
 		label = 'Ripper Ice Tea',
 		weight = 200,
