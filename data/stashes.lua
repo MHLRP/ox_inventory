@@ -596,8 +596,8 @@ return {
 		name = 'midnightautos',
 		label = 'Business Storage',
 		owner = true,
-		slots = 80,
-		weight = 500000,
+		slots = 30,
+		weight = 200000,
 		groups = { ['mechanic'] = 0 }
 	},
 	{
