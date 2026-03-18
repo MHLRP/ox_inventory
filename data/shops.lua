@@ -316,6 +316,7 @@ return {
 			{ name = 'bakingsoda',             price = 7,   count = 75,  currency = 'money' },
 			{ name = 'whiskey',                price = 10,  count = 50,  currency = 'money' },
 			{ name = 'vodka',                  price = 12,  count = 50,  currency = 'money' },
+			{ name = 'blue_curacao',          price = 12,  count = 50,  currency = 'money' },
 			{ name = 'beer',                   price = 7,   count = 75,  currency = 'money' },
 		},
 		targets = {
@@ -2762,6 +2763,7 @@ return {
 			{ name = 'cherry',       price = 10, count = 75, currency = 'money' },
 			{ name = 'passionfruit', price = 10, count = 75, currency = 'money' },
 			{ name = 'pepper',       price = 10, count = 75, currency = 'money' },
+			{ name = 'chili_flakes', price = 10, count = 75, currency = 'money' },
 		},
 		locations = {
 			vec3(2708.993, 3348.319, 57.127),
@@ -2901,6 +2903,7 @@ return {
 			{ name = 'beer',                   price = 7,   count = 100,       currency = 'money' },
 			{ name = 'whiskey',                price = 10,  count = 75,        currency = 'money' },
 			{ name = 'vodka',                  price = 12,  currency = 'money' },
+			{ name = 'blue_curacao',           price = 12,  currency = 'money' },
 			{ name = 'mre_1',                  price = 10,  count = 75,        currency = 'money' },
 			{ name = 'mre_2',                  price = 10,  count = 75,        currency = 'money' },
 			{ name = 'mre_3',                  price = 10,  count = 75,        currency = 'money' },
