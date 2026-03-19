@@ -598,7 +598,7 @@ return {
 		owner = true,
 		slots = 30,
 		weight = 200000,
-		groups = { ['mechanic'] = 0 }
+		groups = { ['midnightautos'] = 0 }
 	},
 	{
 		coords = vec3(225.3147, 1092.7230, 225.5631),
@@ -616,7 +616,7 @@ return {
 		owner = false,
 		slots = 70,
 		weight = 70000,
-		groups = { ['mechanic'] = 0 }
+		groups = { ['midnightautos'] = 0 }
 	},
 	{
 		coords = vec3(218.9680, 1093.1705, 225.5632),
@@ -634,7 +634,7 @@ return {
 		owner = false,
 		slots = 30,
 		weight = 200000,
-		groups = { ['mechanic'] = 0 }
+		groups = { ['midnightautos'] = 0 }
 	},
 	{
 		coords = vec3(125.5868, -3050.0076, 7.0406),
