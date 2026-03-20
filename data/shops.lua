@@ -2465,10 +2465,10 @@ return {
 		}
 	},
 
-	unipunkmenu = {
-		name = 'Unipunk Menu',
+	unicornmenu = {
+		name = 'Vanilla Unicorn Menu',
 		inventory = {
-			{ name = 'unipunk_menu', price = 0 },
+			{ name = 'unicorn_menu', price = 0 },
 		},
 		locations = {
 			vec3(96.2347, -1326.7034, 20.2039)

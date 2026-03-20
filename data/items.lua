@@ -4859,12 +4859,12 @@ return {
 		description = "Luxe Menu.",
 	},
 
-	["unipunk_menu"] = {
-		label = "Unipunk Menu",
+	["unicorn_menu"] = {
+		label = "Vanilla Unicorn Menu",
 		weight = 5,
 		stack = true,
 		close = true,
-		description = "Unipunk Menu.",
+		description = "Vanilla Unicorn drink menu.",
 	},
 
 	["highnotes_menu"] = {
@@ -8562,7 +8562,151 @@ return {
 		weight = 100,
 		stack = true,
 		close = true,
-		description = "",
+		description = "Antibiotic for infections.",
+	},
+
+	["amoxicillin"] = {
+		label = "Amoxicillin",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Common penicillin antibiotic.",
+	},
+
+	["aripiprazole"] = {
+		label = "Aripiprazole",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Antipsychotic for mood disorders.",
+	},
+
+	["fexofenadine"] = {
+		label = "Fexofenadine",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Allergy relief, non-drowsy.",
+	},
+
+	["beclomethasone_inhaler"] = {
+		label = "Beclomethasone Inhaler",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Steroid inhaler for asthma.",
+	},
+
+	["propranolol"] = {
+		label = "Propranolol",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Beta blocker, heart and anxiety.",
+	},
+
+	["brinzolamide"] = {
+		label = "Brinzolamide",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Eye drops for glaucoma.",
+	},
+
+	["carbamazepine"] = {
+		label = "Carbamazepine",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Seizure and mood stabilizer.",
+	},
+
+	["chloramphenicol"] = {
+		label = "Chloramphenicol",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Chloramphenicol is an antibiotic medicine.",
+	},
+
+	["fluoxetine"] = {
+		label = "Fluoxetine",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Antidepressant (SSRI).",
+	},
+
+	["medroxyprogesterone"] = {
+		label = "Medroxyprogesterone",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Progestin hormone.",
+	},
+
+	["dapagliflozin"] = {
+		label = "Dapagliflozin",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Dapagliflozin is mainly used to treat type 2 diabetes.",
+	},
+
+	["diazepam"] = {
+		label = "Diazepam",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Calming sedative.",
+	},
+
+	["ferrous_fumarate"] = {
+		label = "Ferrous Fumarate",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Iron for anemia.",
+	},
+
+	["fluconazole"] = {
+		label = "Fluconazole",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Antifungal medicine.",
+	},
+
+	["hormone_replacement_therapy"] = {
+		label = "Hormone Replacement Therapy (HRT)",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Menopause hormone therapy.",
+	},
+
+	["insulin"] = {
+		label = "Insulin",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Lowers blood sugar.",
+	},
+
+	["letrozole"] = {
+		label = "Letrozole",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Hormone therapy for cancer.",
+	},
+
+	["melatonin"] = {
+		label = "Melatonin",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Sleep aid.",
 	},
 
 	["white_pl4"] = {
@@ -18277,11 +18421,11 @@ return {
 	},
 
 	["fentanyl"] = {
-		label = "fentanyl",
+		label = "Fentanyl",
 		weight = 1000,
 		stack = true,
 		close = false,
-		description = "fentanyl",
+		description = "Strong opioid pain medication.",
 		client = {
 			image = "pseudoephedrine.png",
 		}
@@ -20182,7 +20326,7 @@ return {
 		close = true,
 		description = "A vivid vodka, blue curacao, and raspberry cocktail.",
 	},
-
+	
 	['glitchinthesystem'] = {
 		label = 'Glitch in the System',
 		weight = 150,
