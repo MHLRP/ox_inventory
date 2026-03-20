@@ -316,7 +316,7 @@ return {
 			{ name = 'bakingsoda',             price = 7,   count = 75,  currency = 'money' },
 			{ name = 'whiskey',                price = 10,  count = 50,  currency = 'money' },
 			{ name = 'vodka',                  price = 12,  count = 50,  currency = 'money' },
-			{ name = 'blue_curacao',          price = 12,  count = 50,  currency = 'money' },
+			{ name = 'blue_curacao',           price = 12,  count = 50,  currency = 'money' },
 			{ name = 'beer',                   price = 7,   count = 75,  currency = 'money' },
 		},
 		targets = {
@@ -1796,7 +1796,6 @@ return {
 			{ name = 'powerbank', price = 200,    count = 50, currency = 'money' },
 			{ name = 'simcard',   price = 200,    count = 50, currency = 'money' },
 			{ name = 'phone',     price = 1000,   count = 25, currency = 'money' },
-			{ name = 'simcard',   pricce = 100,   count = 50, currency = 'money' },
 			{ name = 'tablet',    price = 2000,   count = 20, currency = 'money' },
 			{ name = 'gopro',     price = 1000,   count = 15, currency = 'money' },
 			{ name = 'shitgpu',   price = 12000,  count = 10, currency = 'money' },
@@ -1823,12 +1822,13 @@ return {
 		-- 	id = 606, colour = 0, scale = 0.6
 		-- },
 		inventory = {
-			{ name = 'radio',   price = 100,  count = 50, currency = 'money' },
-			{ name = 'laptop',  price = 1000, count = 25, currency = 'money' },
-			{ name = 'tablet',  price = 2000, count = 20, currency = 'money' },
-			{ name = 'fitbit',  price = 600,  count = 30, currency = 'money' },
-			{ name = 'phone',   price = 800,  count = 30, currency = 'money' },
-			{ name = 'simcard', pricce = 100, count = 50, currency = 'money' },
+			{ name = 'radio',     price = 100,  count = 50, currency = 'money' },
+			{ name = 'laptop',    price = 1000, count = 25, currency = 'money' },
+			{ name = 'tablet',    price = 2000, count = 20, currency = 'money' },
+			{ name = 'fitbit',    price = 600,  count = 30, currency = 'money' },
+			{ name = 'phone',     price = 800,  count = 30, currency = 'money' },
+			{ name = 'simcard',   pricce = 100, count = 50, currency = 'money' },
+			{ name = 'powerbank', price = 200,  count = 50, currency = 'money' },
 		},
 		targets = {
 			{
@@ -2923,9 +2923,9 @@ return {
 			{ name = 'pasta',                  price = 10,  count = 75,        currency = 'money' },
 			{ name = 'rice',                   price = 10,  count = 75,        currency = 'money' },
 			{ name = 'riceflour',              price = 10,  count = 75,        currency = 'money' },
-			{ name = 'soysauce',                price = 10,  count = 75,        currency = 'money' },
+			{ name = 'soysauce',               price = 10,  count = 75,        currency = 'money' },
 			{ name = 'piecrust',               price = 10,  count = 75,        currency = 'money' },
-			{ name = 'egg',                    price = 30,  count = 200,        currency = 'money' },
+			{ name = 'egg',                    price = 30,  count = 200,       currency = 'money' },
 		},
 		targets = {
 			{
