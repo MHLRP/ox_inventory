@@ -1303,6 +1303,12 @@ return {
 				scenario = 'WORLD_HUMAN_CLIPBOARD',
 				loc = vec3(-1118.8988, -2803.4570, 20.3616),
 				heading = 52.3698,
+			},
+			{
+				ped = `a_m_y_stbla_02`,
+				scenario = 'WORLD_HUMAN_CLIPBOARD',
+				loc = vec3(-257.4749, 6332.4121, 31.4274),
+				heading = 311.8115,
 			}
 		}
 	},

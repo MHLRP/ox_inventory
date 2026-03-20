@@ -591,11 +591,11 @@ return {
 			heading = 0,
 			minZ = 29.49,
 			maxZ = 32.09,
-			label = 'Open personal stash'
+			label = 'Open Business Storage'
 		},
 		name = 'midnightautos',
 		label = 'Business Storage',
-		owner = true,
+		owner = false,
 		slots = 30,
 		weight = 200000,
 		groups = { ['midnightautos'] = 0 }
@@ -609,7 +609,7 @@ return {
 			heading = 0,
 			minZ = 29.49,
 			maxZ = 32.09,
-			label = 'Open personal stash'
+			label = 'Open Service Rack'
 		},
 		name = 'midnightautos2',
 		label = 'Service Rack',
@@ -627,7 +627,7 @@ return {
 			heading = 0,
 			minZ = 29.49,
 			maxZ = 32.09,
-			label = 'Open personal stash'
+			label = 'Open Business Storage'
 		},
 		name = 'midnightautos3',
 		label = 'Business Storage',
