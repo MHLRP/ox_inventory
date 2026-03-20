@@ -20175,20 +20175,14 @@ return {
 		}
 	},
 
-	['neonstatic'] = {
-		label = 'Neon Static',
-		weight = 150,
-		degrade = 60 * 24,
+	["neonstatic"] = {
+		label = "Neon Static",
+		weight = 290,
 		stack = true,
 		close = true,
-		description = 'Alcohol glass, vodka, blue curacao, raspberries. Alcoholic.',
-		client = {
-			status = { thirst = 40 },
-			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = 'prop_drink_whisky_01', pos = vec3(0.03, 0.0, 0.02), rot = vec3(0.0, 0.0, -1.5) },
-			usetime = 5000,
-		}
+		description = "A vivid vodka, blue curacao, and raspberry cocktail.",
 	},
+
 	['glitchinthesystem'] = {
 		label = 'Glitch in the System',
 		weight = 150,
@@ -23268,14 +23262,12 @@ return {
 		}
 	},
 
-	['chromecircuit'] = {
-		label = 'Chrome Circuit',
-		weight = 200,
-		degrade = 60 * 72,
-		decay = true,
+	["chromecircuit"] = {
+		label = "Chrome Circuit",
+		weight = 290,
 		stack = true,
 		close = true,
-		description = 'A sparkling drink that energizes your system.'
+		description = "A sparkling drink that energizes your system.",
 	},
 
 	['datacorecheesecake'] = {
@@ -23306,14 +23298,12 @@ return {
 		},
 	},
 
-	['yellowoverdrive'] = {
-		label = 'Yellow Overdrive',
-		weight = 200,
-		degrade = 60 * 72,
-		decay = true,
+	["yellowoverdrive"] = {
+		label = "Yellow Overdrive",
+		weight = 290,
 		stack = true,
 		close = true,
-		description = 'A citrus energy drink that kicks your systems into overdrive.'
+		description = "A citrus energy drink that kicks your systems into overdrive.",
 	},
 
 	['weedenergydrink'] = {
