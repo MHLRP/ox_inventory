@@ -1002,22 +1002,22 @@ return {
 	BlackMarketArms = {
 		name = 'Black Market',
 		inventory = {
-			{ name = 'WEAPON_CERAMICPISTOL', price = 30000, count = 5,   metadata = { registered = false }, currency = 'black_money' },
+			{ name = 'WEAPON_CERAMICPISTOL', price = 30000, metadata = { registered = false }, currency = 'black_money' },
 			--{ name = 'rag',                      price = 800,     currency = 'black_money' },
-			{ name = 'keya',                 price = 4000,  count = 10,  currency = 'black_money' },
-			{ name = 'golden_dongle',        price = 2000,  count = 15,  currency = 'black_money' },
-			{ name = 'moneywash_key',        price = 6000,  count = 8,   currency = 'black_money' },
-			{ name = 'ammo-rifle',           price = 25,    count = 100, currency = 'black_money' },
-			{ name = 'ammo-rifle2',          price = 25,    count = 100, currency = 'black_money' },
-			{ name = 'ammo-22',              price = 15,    count = 100, currency = 'black_money' },
-			{ name = 'ammo-38',              price = 15,    count = 100, currency = 'black_money' },
-			{ name = 'ammo-44',              price = 15,    count = 100, currency = 'black_money' },
-			{ name = 'ammo-45',              price = 15,    count = 100, currency = 'black_money' },
-			{ name = 'ammo-50',              price = 15,    count = 100, currency = 'black_money' },
-			{ name = 'ammo-9',               price = 15,    count = 100, currency = 'black_money' },
-			{ name = 'ammo-shotgun',         price = 50,    count = 75,  currency = 'black_money' },
-			{ name = 'trojan_usb',           price = 2000,  count = 10,  currency = 'black_money' },
-			{ name = 'trapphone',            price = 6000,  count = 5,   currency = 'black_money' },
+			{ name = 'keya',                 price = 4000,  currency = 'black_money' },
+			{ name = 'golden_dongle',        price = 2000,  currency = 'black_money' },
+			{ name = 'moneywash_key',        price = 6000,  currency = 'black_money' },
+			{ name = 'ammo-rifle',           price = 25,    currency = 'black_money' },
+			{ name = 'ammo-rifle2',          price = 25,    currency = 'black_money' },
+			{ name = 'ammo-22',              price = 15,    currency = 'black_money' },
+			{ name = 'ammo-38',              price = 15,    currency = 'black_money' },
+			{ name = 'ammo-44',              price = 15,    currency = 'black_money' },
+			{ name = 'ammo-45',              price = 15,    currency = 'black_money' },
+			{ name = 'ammo-50',              price = 15,    currency = 'black_money' },
+			{ name = 'ammo-9',               price = 15,    currency = 'black_money' },
+			{ name = 'ammo-shotgun',         price = 50,    currency = 'black_money' },
+			{ name = 'trojan_usb',           price = 2000,  currency = 'black_money' },
+			{ name = 'trapphone',            price = 6000,  currency = 'black_money' },
 		},
 		locations = {
 			vec3(504.7122, 2603.0120, 43.9762),
@@ -1032,16 +1032,16 @@ return {
 	BlackMarketTwo = {
 		name = 'Black Market',
 		inventory = {
-			{ name = 'houselaptop',   price = 1600,   count = 8,  currency = 'black_money' },
-			{ name = 'mansionlaptop', price = 2200,   count = 5,  currency = 'black_money' },
-			{ name = 'armour',        price = 12000,  count = 15, currency = 'black_money' },
-			{ name = 'jammer',        price = 22000,  count = 5,  currency = 'black_money' },
-			{ name = 'drone',         price = 450000, count = 2,  currency = 'black_money' },
-			{ name = 'redphone',      price = 85000,  count = 3,  currency = 'black_money' },
-			{ name = 'goldenphone',   price = 165000, count = 2,  currency = 'black_money' },
-			{ name = 'greenphone',    price = 12000,  count = 8,  currency = 'black_money' },
-			{ name = 'cocaine_seed',  price = 6000,   count = 10, currency = 'black_money' },
-			{ name = 'heroin_seed',   price = 6500,   count = 10, currency = 'black_money' },
+			{ name = 'houselaptop',   price = 1600,   currency = 'black_money' },
+			{ name = 'mansionlaptop', price = 2200,   currency = 'black_money' },
+			{ name = 'armour',        price = 12000,  currency = 'black_money' },
+			{ name = 'jammer',        price = 22000,  currency = 'black_money' },
+			{ name = 'drone',         price = 450000, currency = 'black_money' },
+			{ name = 'redphone',      price = 85000,  currency = 'black_money' },
+			{ name = 'goldenphone',   price = 165000, currency = 'black_money' },
+			{ name = 'greenphone',    price = 12000,  currency = 'black_money' },
+			{ name = 'cocaine_seed',  price = 6000,   currency = 'black_money' },
+			{ name = 'heroin_seed',   price = 6500,   currency = 'black_money' },
 			--{ name = 'rag',           price = 800,  currency = 'black_money' },
 		},
 		targets = {
@@ -1057,8 +1057,8 @@ return {
 	BlackMarketThree = {
 		name = 'Black Market',
 		inventory = {
-			{ name = 'crafting_bench', price = 50000, count = 5, currency = 'money' },
-			{ name = 'gunrack',        price = 20000, count = 8, currency = 'money' },
+			{ name = 'crafting_bench', price = 50000, currency = 'money' },
+			{ name = 'gunrack',        price = 20000, currency = 'money' },
 		},
 		targets = {
 			{
@@ -1073,8 +1073,8 @@ return {
 	BlackMarketForth = {
 		name = 'Black Market',
 		inventory = {
-			{ name = 'crafting_bench', price = 60000, count = 5, currency = 'money' },
-			{ name = 'gunrack',        price = 20000, count = 8, currency = 'money' },
+			{ name = 'crafting_bench', price = 60000, currency = 'money' },
+			{ name = 'gunrack',        price = 20000, currency = 'money' },
 		},
 		targets = {
 			{
@@ -1089,10 +1089,10 @@ return {
 	BlackMarketFifth = {
 		name = 'Black Market',
 		inventory = {
-			{ name = 'ar15_flash', price = 25000, count = 5,  currency = 'black_money' },
-			{ name = 'ar15_grip',  price = 25000, count = 5,  currency = 'black_money' },
-			{ name = 'ar15_mag',   price = 40000, count = 10, currency = 'black_money' },
-			{ name = 'ar15_scope', price = 45000, count = 5,  currency = 'black_money' },
+			{ name = 'ar15_flash', price = 25000, currency = 'black_money' },
+			{ name = 'ar15_grip',  price = 25000, currency = 'black_money' },
+			{ name = 'ar15_mag',   price = 40000, currency = 'black_money' },
+			{ name = 'ar15_scope', price = 45000, currency = 'black_money' },
 		},
 		targets = {
 			{
@@ -1107,12 +1107,12 @@ return {
 	BlackMarketSixth = {
 		name = 'Black Market',
 		inventory = {
-			{ name = 'solargas_banana_box',      price = 20000, count = 15, currency = 'money' },
-			{ name = 'solargas_cottoncandy_box', price = 20000, count = 15, currency = 'money' },
-			{ name = 'solargas_grape_box',       price = 20000, count = 15, currency = 'money' },
-			{ name = 'solargas_orange_box',      price = 20000, count = 15, currency = 'money' },
-			{ name = 'solargas_strawberry_box',  price = 20000, count = 15, currency = 'money' },
-			{ name = 'solargas_watermelon_box',  price = 20000, count = 15, currency = 'money' },
+			{ name = 'solargas_banana_box',      price = 20000, currency = 'money' },
+			{ name = 'solargas_cottoncandy_box', price = 20000, currency = 'money' },
+			{ name = 'solargas_grape_box',       price = 20000, currency = 'money' },
+			{ name = 'solargas_orange_box',      price = 20000, currency = 'money' },
+			{ name = 'solargas_strawberry_box',  price = 20000, currency = 'money' },
+			{ name = 'solargas_watermelon_box',  price = 20000, currency = 'money' },
 		},
 		targets = {
 			{
