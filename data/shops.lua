@@ -739,10 +739,10 @@ return {
 	CyberHexOilShop = {
 		name = 'CyberHex Oil',
 		inventory = {
-			{ name = 'cyberoil_orange', price = 900,  count = 50 },
-			{ name = 'cyberoil_blue',   price = 850,  count = 50 },
-			{ name = 'cyberoil_green',  price = 1050, count = 50 },
-			{ name = 'cyberoil_red',    price = 250,  count = 50 },
+			{ name = 'cyberoil_orange', price = 2100, count = 50 },
+			{ name = 'cyberoil_blue',   price = 2400, count = 50 },
+			{ name = 'cyberoil_red',    price = 2750, count = 50 },
+			{ name = 'cyberoil_green',  price = 3100, count = 50 },
 			{ name = 'cybernuts',       price = 301,  count = 50 },
 			{ name = 'cybercrackers',   price = 385,  count = 40 },
 		},
@@ -752,7 +752,7 @@ return {
 		name = 'Cyber Vending',
 		inventory = {
 			{ name = 'cybernuts', price = 40,   count = 75 },
-			{ name = 'cyberoil',  price = 60,   count = 50 },
+			{ name = 'cyberoil',  price = 2000, count = 50 },
 			{ name = 'bloodbag',  price = 2500, count = 10 },
 		},
 		locations = {
@@ -1420,11 +1420,11 @@ return {
 		society = 'midnightautos',
 		inventory = {
 			{ name = 'cybernuts',       price = 20,   count = 75,  currency = 'money' },
-			{ name = 'cyberoil',        price = 50,   count = 50,  currency = 'money' },
-			{ name = 'cyberoil_blue',   price = 850,  count = 50,  currency = 'money' },
-			{ name = 'cyberoil_green',  price = 1050, count = 50,  currency = 'money' },
-			{ name = 'cyberoil_orange', price = 900,  count = 50,  currency = 'money' },
-			{ name = 'cyberoil_red',    price = 50,   count = 50,  currency = 'money' },
+			{ name = 'cyberoil',        price = 2000, count = 50,  currency = 'money' },
+			{ name = 'cyberoil_orange', price = 2100, count = 50,  currency = 'money' },
+			{ name = 'cyberoil_blue',   price = 2400, count = 50,  currency = 'money' },
+			{ name = 'cyberoil_red',    price = 2750, count = 50,  currency = 'money' },
+			{ name = 'cyberoil_green',  price = 3100, count = 50,  currency = 'money' },
 			{ name = 'burger',          price = 20,   count = 75,  currency = 'money' },
 			{ name = 'sprunk',          price = 15,   count = 100, currency = 'money' },
 		},
@@ -2032,7 +2032,7 @@ return {
 			{ name = 'kq_lithium',       price = 200,  currency = 'money' },
 			{ name = 'cleaning_kit',     price = 150,  count = 25,        currency = 'money' },
 			{ name = 'cybernuts',        price = 40,   currency = 'money' },
-			{ name = 'cyberoil',         price = 60,   currency = 'money' },
+			{ name = 'cyberoil',         price = 2000, currency = 'money' },
 			{ name = 'kq_snowchain',     price = 2000, currency = 'money' },
 		},
 		targets = {
