@@ -1210,4 +1210,23 @@ return {
 		weight = 50000,
 		groups = { ['thedarkdevils'] = 0 }
 	},
+	{
+		coords = vec3(98.6142, -1287.4125, 29.2189),
+		target = {
+			loc = vec3(98.6142, -1287.4125, 29.2189),
+			length = 1.0,
+			width = 1.0,
+			heading = 119.9326,
+			minZ = 28.85,
+			maxZ = 29.65,
+			label = 'Open Stash',
+			distance = 2.0,
+		},
+		name = 'unicornjobstash',
+		label = 'Unicorn Stash',
+		owner = false,
+		slots = 50,
+		weight = 200000,
+		groups = { ['unicorn'] = 0 }
+	},
 }
