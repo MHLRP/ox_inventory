@@ -486,7 +486,7 @@ local function canUseItem(isAmmo)
 		and not lib.progressActive()
 		and not IsPedRagdoll(ped)
 		and not IsPedFalling(ped)
-		and not IsPedShooting(playerPed)
+		and (LocalPlayer.state.fightClub == true or not IsPedShooting(playerPed))
 end
 
 ---@param data table
