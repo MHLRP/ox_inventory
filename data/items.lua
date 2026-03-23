@@ -3463,6 +3463,14 @@ return {
 		description = "A shot of lust.",
 	},
 
+	["oilslick"] = {
+		label = "Oil Slick",
+		weight = 290,
+		stack = true,
+		close = true,
+		description = "Layered cyber-oil, blue curacao, and lime.",
+	},
+
 	["nightsky"] = {
 		label = "Night Sky",
 		weight = 290,

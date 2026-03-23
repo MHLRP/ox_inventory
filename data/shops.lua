@@ -286,6 +286,7 @@ return {
 			{ name = 'banana',                 price = 20,  count = 75,  currency = 'money' },
 			{ name = 'apple',                  price = 45,  count = 75,  currency = 'money' },
 			{ name = 'lemon',                  price = 10,  count = 75,  currency = 'money' },
+			{ name = 'lime',                   price = 10,  count = 75,  currency = 'money' },
 			{ name = 'battermix',              price = 10,  count = 75,  currency = 'money' },
 			{ name = 'yeast',                  price = 40,  count = 75,  currency = 'money' },
 			{ name = 'burger-bun',             price = 10,  count = 75,  currency = 'money' },
@@ -2581,6 +2582,7 @@ return {
 			{ name = 'grape',  price = 45, count = 75, currency = 'money' },
 			{ name = 'apple',  price = 45, count = 75, currency = 'money' },
 			{ name = 'lemon',  price = 10, count = 75, currency = 'money' },
+			{ name = 'lime',   price = 10, count = 75, currency = 'money' },
 		},
 		locations = {
 			vec3(2706.361, 3342.242, 57.114),
@@ -2875,6 +2877,7 @@ return {
 			{ name = 'banana',                 price = 20,  currency = 'money' },
 			{ name = 'apple',                  price = 45,  currency = 'money' },
 			{ name = 'lemon',                  price = 10,  count = 75,        currency = 'money' },
+			{ name = 'lime',                   price = 10,  count = 75,        currency = 'money' },
 			{ name = 'burger-bun',             price = 10,  count = 75,        currency = 'money' },
 			{ name = 'hotdog-bun',             price = 10,  count = 75,        currency = 'money' },
 			{ name = 'battermix',              price = 10,  count = 75,        currency = 'money' },
