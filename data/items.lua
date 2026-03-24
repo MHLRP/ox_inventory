@@ -4772,6 +4772,28 @@ return {
 		}
 	},
 
+	["jalapenos"] = {
+		label = "Jalapeños",
+		weight = 50,
+		stack = true,
+		close = true,
+		description = "Fresh sliced jalapeño peppers",
+		client = {
+			image = "jalapenos.png",
+		}
+	},
+
+	["ranch"] = {
+		label = "Ranch Dressing",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Cool ranch for dipping",
+		client = {
+			image = "ranch.png",
+		}
+	},
+
 	["popcorn_kernels"] = {
 		label = "Popcorn Kernels",
 		weight = 100,

@@ -2771,6 +2771,7 @@ return {
 			{ name = 'cherry',       price = 10, count = 75, currency = 'money' },
 			{ name = 'passionfruit', price = 10, count = 75, currency = 'money' },
 			{ name = 'pepper',       price = 10, count = 75, currency = 'money' },
+			{ name = 'jalapenos',    price = 10, count = 75, currency = 'money' },
 			{ name = 'chili_flakes', price = 10, count = 75, currency = 'money' },
 		},
 		locations = {
@@ -2788,6 +2789,7 @@ return {
 		inventory = {
 			{ name = 'ketchup',       price = 10, currency = 'money' },
 			{ name = 'buffalo_sauce', price = 10, currency = 'money' },
+			{ name = 'ranch',         price = 10, currency = 'money' },
 		},
 		locations = {
 			vec3(2707.1521, 3366.0698, 57.1163)
