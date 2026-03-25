@@ -1834,7 +1834,7 @@ return {
 			{ name = 'tablet',    price = 2000, count = 20, currency = 'money' },
 			{ name = 'fitbit',    price = 600,  count = 30, currency = 'money' },
 			{ name = 'phone',     price = 800,  count = 30, currency = 'money' },
-			{ name = 'simcard',   pricce = 100, count = 50, currency = 'money' },
+			{ name = 'simcard',   price = 100,  count = 50, currency = 'money' },
 			{ name = 'powerbank', price = 200,  count = 50, currency = 'money' },
 		},
 		targets = {
