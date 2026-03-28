@@ -547,6 +547,7 @@ return {
 			{ name = 'taser_cartridge',         label = 'Taser Cartridge',   price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'WEAPON_STUNGUN',          label = 'Stungun',           price = 0, metadata = { registered = true, description = "Property of Los Santos Medical Center", tint = 3, weapontint = "EMS Tint", serial = 'EMS' } },
 			{ name = 'WEAPON_FLASHLIGHT',       label = 'Flashlight',        price = 0, metadata = { registered = true, description = "Property of Los Santos Medical Center", serial = 'EMS' } },
+			{ name = 'WEAPON_GREENSYRINGE',     label = 'Green Syringe',     price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'weapon_fireextinguisher', label = 'Fire Extinguisher', price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'kq_tow_rope',             label = 'Tow Rope',          price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
 			{ name = 'blood_test',              label = 'Blood Test Kit',    price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
