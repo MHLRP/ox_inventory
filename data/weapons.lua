@@ -333,6 +333,13 @@ return {
 			throwable = true,
 		},
 
+		['WEAPON_GREENSYRINGE'] = {
+			label = 'Green Syringe',
+			weight = 200,
+			durability = 0.1,
+			model = 'weapon_greensyringe',
+		},
+
 		['WEAPON_GRENADELAUNCHER'] = {
 			label = 'Grenade Launcher',
 			weight = 6500,
