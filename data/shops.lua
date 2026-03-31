@@ -828,7 +828,6 @@ return {
 			{ name = 'mechanic_tablet',      label = 'Mechanic Tablet',      price = 0 },
 			{ name = 'kq_winch',             label = 'Winch',                price = 0 },
 			{ name = 'kq_tow_rope',          label = 'Tow Rope',             price = 0 },
-			{ name = 'customizableplate',    label = 'Customizable Plate',   price = 0 },
 			{ name = 'rocketball',           label = 'Rocketball',           price = 0 },
 		},
 		locations = {
@@ -886,7 +885,6 @@ return {
 			{ name = 'antilag_remover',      label = 'Antilag Remover',      price = 0 },
 			{ name = 'kq_winch',             label = 'Winch',                price = 0 },
 			{ name = 'kq_tow_rope',          label = 'Tow Rope',             price = 0 },
-			{ name = 'customizableplate',    label = 'Customizable Plate',   price = 0 },
 			{ name = 'rocketball',           label = 'Rocketball',           price = 0 },
 		},
 		locations = {
@@ -944,7 +942,6 @@ return {
 			{ name = 'antilag_remover',      label = 'Antilag Remover',      price = 0 },
 			{ name = 'kq_winch',             label = 'Winch',                price = 0 },
 			{ name = 'kq_tow_rope',          label = 'Tow Rope',             price = 0 },
-			{ name = 'customizableplate',    label = 'Customizable Plate',   price = 0 },
 		},
 		locations = {
 			vec3(225.3147, 1092.7230, 225.5631),
@@ -1001,7 +998,6 @@ return {
 			{ name = 'antilag_remover',      label = 'Antilag Remover',      price = 0 },
 			{ name = 'kq_winch',             label = 'Winch',                price = 0 },
 			{ name = 'kq_tow_rope',          label = 'Tow Rope',             price = 0 },
-			{ name = 'customizableplate',    label = 'Customizable Plate',   price = 0 },
 		},
 		locations = {
 			vec3(2529.9763, 2641.6440, 37.9454)

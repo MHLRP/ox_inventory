@@ -5570,7 +5570,7 @@ return {
 		close = true,
 		description = "You can start a fire with this",
 		server = {
-			export = 'qb-smallresources.useCustomLighter'
+			export = 'SmartFires.useCustomLighter'
 		}
 	},
 
@@ -6886,6 +6886,9 @@ return {
 		stack = true,
 		close = true,
 		description = nil,
+		client = {
+			event = 'moonlit-ropes:client:useRope',
+		}
 	},
 
 	['shovel'] = {
@@ -8956,7 +8959,7 @@ return {
 	},
 
 	["keya"] = {
-		label = "Weedlabs Key",
+		label = "Garden Key",
 		weight = 100,
 		stack = true,
 		close = false,
@@ -8964,7 +8967,7 @@ return {
 	},
 
 	["keyb"] = {
-		label = "Methlabs Key",
+		label = "Chemistry Key",
 		weight = 100,
 		stack = true,
 		close = false,
@@ -8972,7 +8975,7 @@ return {
 	},
 
 	["keyc"] = {
-		label = "Cokelabs Key",
+		label = "Baking Key",
 		weight = 100,
 		stack = true,
 		close = false,
@@ -8980,13 +8983,12 @@ return {
 	},
 
 	["keym"] = {
-		label = "Morguelabs Key",
+		label = "Morgue Key",
 		weight = 100,
 		stack = true,
 		close = false,
 		description = "Labkey M",
 	},
-
 
 	['female_seed'] = {
 		label = 'Female Seed',
@@ -10187,11 +10189,11 @@ return {
 	},
 
 	["moneywash_key"] = {
-		label = "Money Wash Key",
+		label = "Laundry Mat Key",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "Money wash key",
+		description = "Laundry Mat Key",
 	},
 
 	["houselaptop"] = {
