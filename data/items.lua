@@ -6884,6 +6884,7 @@ return {
 		label = 'Rope',
 		weight = 1,
 		stack = true,
+		consume = 0,
 		close = true,
 		description = nil,
 		client = {
@@ -7333,10 +7334,22 @@ return {
 
 	["bank_card"] = {
 		label = "Bank Card",
-		weight = 0,
+		weight = 1,
 		stack = false,
 		close = true,
 		description = "Used to access ATM",
+	},
+
+	['atm_receipt'] = {
+		label = 'ATM Receipt',
+		weight = 1,
+		stack = false,
+		close = true,
+		description = 'Printed transaction slip from an ATM.',
+		consume = 0,
+		client = {
+			export = 'qb-banking.useAtmReceiptClient',
+		},
 	},
 
 	["gym_membership"] = {
