@@ -300,143 +300,6 @@ return {
 		}
 	},
 
-	['uwublueplush'] = {
-		label = 'Uwu Blue Plush!',
-		weight = 500,
-		consume = 0,
-		description = "Blue plushie!",
-		client = {
-			anim = { dict = 'anim@male_bskball_hold', clip = 'bskball_hold_clip' },
-			prop = {
-				model = 'ch_prop_arcade_claw_plush_03a',
-				pos = vec3(0.075836309364036, 0.028468755417225, -0.10840663364229),
-				rot = vec3(0.0, 90.0, 60.0),
-				bone = 28422
-			},
-			usetime = 7500,
-		}
-	},
-
-	['uwuyellowplush'] = {
-		label = 'Uwu Yellow Plush!',
-		weight = 500,
-		consume = 0,
-		description = "Yellow plushie!",
-		client = {
-			anim = { dict = 'anim@male_bskball_hold', clip = 'bskball_hold_clip' },
-			prop = {
-				model = 'ch_prop_arcade_claw_plush_05a',
-				pos = vec3(0.075836309364036, 0.028468755417225, -0.10840663364229),
-				rot = vec3(0.0, 90.0, 60.0),
-				bone = 28422
-			},
-			usetime = 7500,
-		}
-	},
-
-	['uwupurpleplush'] = {
-		label = 'Uwu Purple Plush!',
-		weight = 500,
-		consume = 0,
-		description = "Purple plushie!",
-		client = {
-			anim = { dict = 'anim@male_bskball_hold', clip = 'bskball_hold_clip' },
-			prop = {
-				model = 'ch_prop_arcade_claw_plush_01a',
-				pos = vec3(0.075836309364036, 0.028468755417225, -0.10840663364229),
-				rot = vec3(0.0, 90.0, 60.0),
-				bone = 28422
-			},
-			usetime = 7500,
-		}
-	},
-
-	['uwugreenplush'] = {
-		label = 'Uwu Green Plush!',
-		weight = 500,
-		consume = 0,
-		description = "Green plushie!",
-		client = {
-			anim = { dict = 'anim@male_bskball_hold', clip = 'bskball_hold_clip' },
-			prop = {
-				model = 'ch_prop_arcade_claw_plush_02a',
-				pos = vec3(0.075836309364036, 0.028468755417225, -0.10840663364229),
-				rot = vec3(0.0, 90.0, 60.0),
-				bone = 28422
-			},
-			usetime = 7500,
-		}
-	},
-
-
-	['uwubrownplush'] = {
-		label = 'Uwu Brown Plush!',
-		weight = 500,
-		consume = 0,
-		description = "Brown plushie!",
-		client = {
-			anim = { dict = 'anim@male_bskball_hold', clip = 'bskball_hold_clip' },
-			prop = {
-				model = 'ch_prop_arcade_claw_plush_04a',
-				pos = vec3(0.075836309364036, 0.028468755417225, -0.10840663364229),
-				rot = vec3(0.0, 90.0, 60.0),
-				bone = 28422
-			},
-			usetime = 7500,
-		}
-	},
-
-	['uwuredplush'] = {
-		label = 'Uwu Red Plush!',
-		weight = 500,
-		consume = 0,
-		description = "Red plushie!",
-		client = {
-			anim = { dict = 'anim@male_bskball_hold', clip = 'bskball_hold_clip' },
-			prop = {
-				model = 'ch_prop_arcade_claw_plush_06a',
-				pos = vec3(0.075836309364036, 0.028468755417225, -0.10840663364229),
-				rot = vec3(0.0, 90.0, 60.0),
-				bone = 28422
-			},
-			usetime = 7500,
-		}
-	},
-
-	['uwugreenrareplush'] = {
-		label = 'Uwu RARE Green Wasabi Plush!',
-		weight = 500,
-		consume = 0,
-		description = "Green wasabi plushie!",
-		client = {
-			anim = { dict = 'anim@male_bskball_hold', clip = 'bskball_hold_clip' },
-			prop = {
-				model = 'ch_prop_shiny_wasabi_plush_08a',
-				pos = vec3(0.075836309364036, 0.028468755417225, -0.10840663364229),
-				rot = vec3(0.0, 90.0, 60.0),
-				bone = 28422
-			},
-			usetime = 7500,
-		}
-	},
-
-	['uwupinkrareplush'] = {
-		label = 'Uwu Rare Robo Pink Plush!',
-		weight = 500,
-		consume = 0,
-		description = "Pink robo plushie!",
-		client = {
-			anim = { dict = 'anim@male_bskball_hold', clip = 'bskball_hold_clip' },
-			prop = {
-				model = 'ch_prop_princess_robo_plush_07a',
-				pos = vec3(0.075836309364036, 0.028468755417225, -0.10840663364229),
-				rot = vec3(0.0, 90.0, 60.0),
-				bone = 28422
-			},
-			usetime = 7500,
-		}
-	},
-
 	--- BUTCHER ITEMS
 
 	--- FOOD ITEMS
@@ -18576,64 +18439,74 @@ return {
 	--- RTX PLUSHIES
 
 	['rtxplush1'] = {
-		label = 'Plushie 1',
+		label = 'Plushie Humpy Tee',
 		weight = 100,
 		stack = true,
-		close = true
+		close = true,
+		description = 'Arcade prize tee with Humpy—the chubby, cheerful mascot everybody roots for.',
 	},
 	['rtxplush2'] = {
-		label = 'Plushie 2',
+		label = 'Plushie Muffy Tee',
 		weight = 100,
 		stack = true,
-		close = true
+		close = true,
+		description = 'Soft-style fan shirt featuring Muffy, the fluffy face of the prize wall.',
 	},
 	['rtxplush3'] = {
-		label = 'Plushie 3',
+		label = 'Plushie Saki Tee',
 		weight = 100,
 		stack = true,
-		close = true
+		close = true,
+		description = 'Collectible tee printed with Saki—sleek, sharp, and straight from the claw machine.',
 	},
 	['rtxplush4'] = {
-		label = 'Plushie 4',
+		label = 'Plushie Poopie Tee',
 		weight = 100,
 		stack = true,
-		close = true
+		close = true,
+		description = 'Gross-out graphic tee starring Poopie. You won it; you might as well wear it.',
 	},
 	['rtxplush5'] = {
-		label = 'Plushie 5',
+		label = 'Plushie Smoker Tee',
 		weight = 100,
 		stack = true,
-		close = true
+		close = true,
+		description = 'Street-worn arcade merch with Smoker—the plush with attitude and a permanent scowl.',
 	},
 	['rtxplush6'] = {
-		label = 'Plushie 6',
+		label = 'Plushie Grindy Tee',
 		weight = 100,
 		stack = true,
-		close = true
+		close = true,
+		description = 'For high-score chasers: a tee celebrating Grindy, never off the sticks.',
 	},
 	['rtxplush7'] = {
-		label = 'Plushie 7',
+		label = 'Plushie Princess Tee',
 		weight = 100,
 		stack = true,
-		close = true
+		close = true,
+		description = 'Sparkle-ready prize tee with Princess—tiara, drama, and main-character energy.',
 	},
 	['rtxplush8'] = {
-		label = 'Plushie 8',
+		label = 'Plushie Wasabi Kitty Tee',
 		weight = 100,
 		stack = true,
-		close = true
+		close = true,
+		description = 'Bold print tee featuring Wasabi Kitty—cute, chaotic, and cult-favorite arcade icon.',
 	},
 	['rtxplush9'] = {
-		label = 'Plushie 9',
+		label = 'Plushie Master Tee',
 		weight = 100,
 		stack = true,
-		close = true
+		close = true,
+		description = 'Rare-feel arcade tee with The Master—wise, weird, and worth bragging about.',
 	},
 	['rtxplush10'] = {
-		label = 'Plushie 10',
+		label = '',
 		weight = 100,
 		stack = true,
-		close = true
+		close = true,
+		description = "",
 	},
 
 	--- 17MOV CARWASH
