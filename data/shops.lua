@@ -2533,7 +2533,7 @@ return {
 			vec3(2701.4509, 3340.7742, 57.1335)
 		},
 		targets = {
-			{ loc = vec3(2701.4509, 3340.7742, 57.1335), length = 1.0, width = 0.8, heading = 160.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{ loc = vec3(2701.4509, 3340.7742, 57.1335), length = 1.5, width = 1.5, heading = 160.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
 		}
 	},
 
@@ -2565,7 +2565,7 @@ return {
 			vec3(2718.6428, 3359.3264, 57.1336)
 		},
 		targets = {
-			{ loc = vec3(2718.6428, 3359.3264, 57.1336), length = 1.0, width = 0.8, heading = 245.6773, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{ loc = vec3(2718.6428, 3359.3264, 57.1336), length = 1.5, width = 1.5, heading = 245.6773, minZ = 28.2, maxZ = 28.6, distance = 2 }
 		}
 	},
 
@@ -2578,7 +2578,7 @@ return {
 			vec3(2707.7520, 3360.7659, 57.1163)
 		},
 		targets = {
-			{ loc = vec3(2707.7520, 3360.7659, 57.1163), length = 1.0, width = 0.8, heading = 75.2008, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{ loc = vec3(2707.7520, 3360.7659, 57.1163), length = 1.5, width = 1.5, heading = 75.2008, minZ = 28.2, maxZ = 28.6, distance = 2 }
 		}
 	},
 
@@ -2597,8 +2597,8 @@ return {
 			vec3(2707.695, 3342.837, 57.127)
 		},
 		targets = {
-			{ loc = vec3(2706.361, 3342.242, 57.114), length = 1.0, width = 0.8, heading = 170.0, minZ = 28.2, maxZ = 28.6, distance = 2 },
-			{ loc = vec3(2707.695, 3342.837, 57.127), length = 1.0, width = 0.8, heading = 170.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{ loc = vec3(2706.361, 3342.242, 57.114), length = 1.5, width = 1.5, heading = 170.0, minZ = 28.2, maxZ = 28.6, distance = 2 },
+			{ loc = vec3(2707.695, 3342.837, 57.127), length = 1.5, width = 1.5, heading = 170.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
 		}
 	},
 
@@ -2612,7 +2612,7 @@ return {
 			vec3(2698.9380, 3357.7258, 57.1413)
 		},
 		targets = {
-			{ loc = vec3(2698.9380, 3357.7258, 57.1413), length = 1.0, width = 0.8, heading = 165.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{ loc = vec3(2698.9380, 3357.7258, 57.1413), length = 1.5, width = 1.5, heading = 165.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
 		}
 	},
 
@@ -2625,7 +2625,7 @@ return {
 			vec3(2694.4700, 3371.3442, 57.1163)
 		},
 		targets = {
-			{ loc = vec3(2694.4700, 3371.3442, 57.1163), length = 1.0, width = 0.8, heading = 69.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{ loc = vec3(2694.4700, 3371.3442, 57.1163), length = 1.5, width = 1.5, heading = 69.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
 		}
 	},
 
@@ -2638,7 +2638,7 @@ return {
 			vec3(2693.3928, 3360.2017, 57.1312)
 		},
 		targets = {
-			{ loc = vec3(2693.3928, 3360.2017, 57.1312), length = 1.0, width = 0.8, heading = 158.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{ loc = vec3(2693.3928, 3360.2017, 57.1312), length = 1.5, width = 1.5, heading = 158.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
 		}
 	},
 
@@ -2655,7 +2655,7 @@ return {
 			vec3(2699.9678, 3360.4292, 57.1353)
 		},
 		targets = {
-			{ loc = vec3(2699.9678, 3360.4292, 57.1353), length = 1.0, width = 0.8, heading = 338.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{ loc = vec3(2699.9678, 3360.4292, 57.1353), length = 1.5, width = 1.5, heading = 338.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
 		}
 	},
 
@@ -2668,7 +2668,7 @@ return {
 			vec3(2705.4326, 3368.8691, 57.1163)
 		},
 		targets = {
-			{ loc = vec3(2705.4326, 3368.8691, 57.1163), length = 1.0, width = 0.8, heading = 64.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{ loc = vec3(2705.4326, 3368.8691, 57.1163), length = 1.5, width = 1.5, heading = 64.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
 		}
 	},
 
@@ -2681,7 +2681,7 @@ return {
 			vec3(2697.0181, 3356.8804, 57.1163)
 		},
 		targets = {
-			{ loc = vec3(2697.0181, 3356.8804, 57.1163), length = 1.0, width = 0.8, heading = 246.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{ loc = vec3(2697.0181, 3356.8804, 57.1163), length = 1.5, width = 1.5, heading = 246.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
 		}
 	},
 
@@ -2694,7 +2694,7 @@ return {
 			vec3(2696.0544, 3354.8660, 57.1163)
 		},
 		targets = {
-			{ loc = vec3(2696.0544, 3354.8660, 57.1163), length = 1.0, width = 0.8, heading = 246.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{ loc = vec3(2696.0544, 3354.8660, 57.1163), length = 1.5, width = 1.5, heading = 246.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
 		}
 	},
 
@@ -2707,7 +2707,7 @@ return {
 			vec3(2694.4458, 3351.2402, 57.1163)
 		},
 		targets = {
-			{ loc = vec3(2694.4458, 3351.2402, 57.1163), length = 1.0, width = 0.8, heading = 238.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{ loc = vec3(2694.4458, 3351.2402, 57.1163), length = 1.5, width = 1.5, heading = 238.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
 		}
 	},
 
@@ -2720,7 +2720,7 @@ return {
 			vec3(2690.9436, 3345.3914, 57.1336)
 		},
 		targets = {
-			{ loc = vec3(2690.9436, 3345.3914, 57.1336), length = 1.0, width = 0.8, heading = 151.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{ loc = vec3(2690.9436, 3345.3914, 57.1336), length = 1.5, width = 1.5, heading = 151.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
 		}
 	},
 
@@ -2733,7 +2733,7 @@ return {
 			vec3(2691.9749, 3352.1606, 57.1163)
 		},
 		targets = {
-			{ loc = vec3(2691.9749, 3352.1606, 57.1163), length = 1.0, width = 0.8, heading = 66.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{ loc = vec3(2691.9749, 3352.1606, 57.1163), length = 1.5, width = 1.5, heading = 66.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
 		}
 	},
 
@@ -2747,7 +2747,7 @@ return {
 			vec3(2707.1140, 3359.1091, 57.1163)
 		},
 		targets = {
-			{ loc = vec3(2707.1140, 3359.1091, 57.1163), length = 1.0, width = 0.8, heading = 76.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{ loc = vec3(2707.1140, 3359.1091, 57.1163), length = 1.5, width = 1.5, heading = 76.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
 		}
 	},
 
@@ -2767,7 +2767,7 @@ return {
 			vec3(2700.3284, 3350.8506, 57.1163)
 		},
 		targets = {
-			{ loc = vec3(2700.3284, 3350.8506, 57.1163), length = 1.0, width = 0.8, heading = 250.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{ loc = vec3(2700.3284, 3350.8506, 57.1163), length = 1.5, width = 1.5, heading = 250.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
 		}
 	},
 
@@ -2787,8 +2787,8 @@ return {
 			vec3(2709.589, 3346.984, 57.114)
 		},
 		targets = {
-			{ loc = vec3(2708.993, 3348.319, 57.127), length = 1.0, width = 0.8, heading = 170.0, minZ = 28.2, maxZ = 28.6, distance = 2 },
-			{ loc = vec3(2709.589, 3346.984, 57.114), length = 1.0, width = 0.8, heading = 170.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{ loc = vec3(2708.993, 3348.319, 57.127), length = 1.5, width = 1.5, heading = 170.0, minZ = 28.2, maxZ = 28.6, distance = 2 },
+			{ loc = vec3(2709.589, 3346.984, 57.114), length = 1.5, width = 1.5, heading = 170.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
 		}
 	},
 
@@ -2803,7 +2803,7 @@ return {
 			vec3(2707.1521, 3366.0698, 57.1163)
 		},
 		targets = {
-			{ loc = vec3(2707.1521, 3366.0698, 57.1163), length = 1.0, width = 0.8, heading = 64.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{ loc = vec3(2707.1521, 3366.0698, 57.1163), length = 1.5, width = 1.5, heading = 64.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
 		}
 	},
 
@@ -2816,7 +2816,7 @@ return {
 			vec3(2667.2498, 3382.1660, 57.1163)
 		},
 		targets = {
-			{ loc = vec3(2667.2498, 3382.1660, 57.1163), length = 1.0, width = 0.8, heading = 346.6338, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{ loc = vec3(2667.2498, 3382.1660, 57.1163), length = 1.5, width = 1.5, heading = 346.6338, minZ = 28.2, maxZ = 28.6, distance = 2 }
 		}
 	},
 
