@@ -1952,14 +1952,6 @@ return {
 			{ name = 'sprayremover',     price = 600,   currency = 'money' },
 			{ name = 'wallet',           price = 500,   currency = 'money' },
 			{ name = 'gasmask',          price = 8000,  currency = 'money' },
-			{ name = 'black_paint',      price = 500,   currency = 'money' },
-			{ name = 'white_paint',      price = 500,   currency = 'money' },
-			{ name = 'red_paint',        price = 500,   currency = 'money' },
-			{ name = 'blue_paint',       price = 500,   currency = 'money' },
-			{ name = 'yellow_paint',     price = 500,   currency = 'money' },
-			{ name = 'green_paint',      price = 500,   currency = 'money' },
-			{ name = 'grey_paint',       price = 500,   currency = 'money' },
-			{ name = 'pink_paint',       price = 500,   currency = 'money' },
 			{ name = 'WEAPON_GOLFCLUB',  price = 2000,  currency = 'money' },
 			-- { name = 'keyring',          price = 200,   currency = 'money' },
 			{ name = 'pickaxe',          price = 1500,  currency = 'money' },
@@ -2087,6 +2079,31 @@ return {
 		},
 		targets = {
 			{ loc = vec3(2702.225, 3494.338, 54.664), length = 4.0, width = 4.0, heading = 157.214, minZ = 28.2, maxZ = 28.6, distance = 2 }
+		}
+	},
+
+	GraffitiShop = {
+		name = 'Graffiti Shop',
+		blip = {
+			id = 72, colour = 3, scale = 0.6
+		},
+		inventory = {
+			{ name = 'black_paint',      price = 500,   currency = 'money' },
+			{ name = 'white_paint',      price = 500,   currency = 'money' },
+			{ name = 'red_paint',        price = 500,   currency = 'money' },
+			{ name = 'blue_paint',       price = 500,   currency = 'money' },
+			{ name = 'yellow_paint',     price = 500,   currency = 'money' },
+			{ name = 'green_paint',      price = 500,   currency = 'money' },
+			{ name = 'grey_paint',       price = 500,   currency = 'money' },
+			{ name = 'pink_paint',       price = 500,   currency = 'money' },
+		},
+		targets = {
+			{
+				ped = `a_m_m_ktown_01`,
+				scenario = 'WORLD_HUMAN_STAND_MOBILE',
+				loc = vec3(-1123.6837, -1439.5806, 4.1945),
+				heading = 302.2579,
+			}
 		}
 	},
 
