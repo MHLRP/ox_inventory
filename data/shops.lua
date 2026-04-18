@@ -371,21 +371,21 @@ return {
 			vec3(-2966.2900390625, 391.76489257813, 15.043308258057), -- sotek market robbery
 		},
 		targets = {
-			{ loc = vec3(28.0460, -1340.9525, 29.5076),                      length = 1.5, width = 3.0, heading = 176.1524,        minZ = 41.5, maxZ = 43.0, distance = 3 },
-			{ loc = vec3(-3046.1409, 586.0815, 7.9195),                      length = 1.5, width = 3.0, heading = 284.5557,        minZ = 41.5, maxZ = 43.0, distance = 3 },
-			{ loc = vec3(-3248.2800, 1004.2307, 12.8414),                    length = 1.5, width = 3.0, heading = 268.2780,        minZ = 41.5, maxZ = 43.0, distance = 3 },
-			{ loc = vec3(1733.8064, 6419.3706, 35.0477),                     length = 1.5, width = 3.0, heading = 147.5942,        minZ = 41.5, maxZ = 43.0, distance = 3 },
-			{ loc = vec3(1960.1892, 3747.4062, 32.3545),                     length = 1.5, width = 3.0, heading = 207.5546,        minZ = 41.5, maxZ = 43.0, distance = 3 },
-			{ loc = vec3(546.4902, 2664.5840, 42.1669),                      length = 1.5, width = 3.0, heading = 4.4214,          minZ = 41.5, maxZ = 43.0, distance = 3 },
-			{ loc = vec3(2674.2827, 3285.7559, 55.2518),                     length = 1.5, width = 3.0, heading = 234.6591,        minZ = 41.5, maxZ = 43.0, distance = 3 },
-			{ loc = vec3(2551.0417, 385.2466, 108.6342),                     length = 1.5, width = 3.0, heading = 261.9892,        minZ = 41.5, maxZ = 43.0, distance = 3 },
-			{ loc = vec3(377.6403, 331.6940, 103.5770),                      length = 1.5, width = 3.0, heading = 162.6314,        minZ = 41.5, maxZ = 43.0, distance = 3 },
-			{ loc = vec3(180.3288, 1239.3783, 225.6239),                     length = 1.5, width = 3.0, heading = 283.2608,        minZ = 41.5, maxZ = 43.0, distance = 3 },
-			{ loc = vec3(-1221.19140625, -908.17199707031, 12.326348304749), length = 1.5, width = 3.0, heading = 35.877490997314, minZ = 41.5, maxZ = 43.0, distance = 3 }, -- sotek market robbery
+			{ loc = vec3(28.0460, -1340.9525, 29.5076),                        length = 1.5, width = 3.0, heading = 176.1524,        minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(-3046.1409, 586.0815, 7.9195),                        length = 1.5, width = 3.0, heading = 284.5557,        minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(-3248.2800, 1004.2307, 12.8414),                      length = 1.5, width = 3.0, heading = 268.2780,        minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(1733.8064, 6419.3706, 35.0477),                       length = 1.5, width = 3.0, heading = 147.5942,        minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(1960.1892, 3747.4062, 32.3545),                       length = 1.5, width = 3.0, heading = 207.5546,        minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(546.4902, 2664.5840, 42.1669),                        length = 1.5, width = 3.0, heading = 4.4214,          minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(2674.2827, 3285.7559, 55.2518),                       length = 1.5, width = 3.0, heading = 234.6591,        minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(2551.0417, 385.2466, 108.6342),                       length = 1.5, width = 3.0, heading = 261.9892,        minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(377.6403, 331.6940, 103.5770),                        length = 1.5, width = 3.0, heading = 162.6314,        minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(180.3288, 1239.3783, 225.6239),                       length = 1.5, width = 3.0, heading = 283.2608,        minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(-1221.19140625, -908.17199707031, 12.326348304749),   length = 1.5, width = 3.0, heading = 35.877490997314, minZ = 41.5, maxZ = 43.0, distance = 3 }, -- sotek market robbery
 			{ loc = vec3(-1486.6641845703, -377.19082641602, 40.163410186768), length = 1.5, width = 3.0, heading = 123.27526092529, minZ = 41.5, maxZ = 43.0, distance = 3 }, -- sotek market robbery
-			{ loc = vec3(1133.9384765625, -983.23602294922, 46.415824890137), length = 1.5, width = 3.0, heading = 280.95880126953, minZ = 41.5, maxZ = 43.0, distance = 3 }, -- sotek market robbery
-			{ loc = vec3(1392.0496826172, 3606.2800292969, 34.980911254883), length = 1.5, width = 3.0, heading = 205.53262329102, minZ = 41.5, maxZ = 43.0, distance = 3 }, -- sotek market robbery
-			{ loc = vec3(-2966.2900390625, 391.76489257813, 15.043308258057), length = 1.5, width = 3.0, heading = 93.423469543457, minZ = 41.5, maxZ = 43.0, distance = 3 }, -- sotek market robbery
+			{ loc = vec3(1133.9384765625, -983.23602294922, 46.415824890137),  length = 1.5, width = 3.0, heading = 280.95880126953, minZ = 41.5, maxZ = 43.0, distance = 3 }, -- sotek market robbery
+			{ loc = vec3(1392.0496826172, 3606.2800292969, 34.980911254883),   length = 1.5, width = 3.0, heading = 205.53262329102, minZ = 41.5, maxZ = 43.0, distance = 3 }, -- sotek market robbery
+			{ loc = vec3(-2966.2900390625, 391.76489257813, 15.043308258057),  length = 1.5, width = 3.0, heading = 93.423469543457, minZ = 41.5, maxZ = 43.0, distance = 3 }, -- sotek market robbery
 		}
 	},
 
@@ -1081,9 +1081,9 @@ return {
 	BlackMarketForth = {
 		name = 'Black Market',
 		inventory = {
-			{ name = 'crafting_bench', price = 60000, currency = 'money' },
-			{ name = 'gunrack',        price = 20000, currency = 'money' },
-			{ name = 'cyberbomb',    price = 250000, currency = 'black_money' },
+			{ name = 'crafting_bench', price = 60000,  currency = 'money' },
+			{ name = 'gunrack',        price = 20000,  currency = 'money' },
+			{ name = 'cyberbomb',      price = 250000, currency = 'black_money' },
 		},
 		targets = {
 			{
@@ -1787,13 +1787,24 @@ return {
 	},
 
 	Fishing = {
-		name = 'Fishing Shop',
+		name = 'Outdoor Shop',
 		blip = {
 			id = 68, colour = 0, scale = 0.6
 		},
 		inventory = {
-			{ name = 'fishingrod', price = 100, count = 25,  currency = 'money' },
-			{ name = 'worm_bait',  price = 20,  count = 100, currency = 'money' },
+			{ name = 'fishingrod',           price = 100,  count = 25,  currency = 'money' },
+			{ name = 'worm_bait',            price = 20,   count = 100, currency = 'money' },
+			{ name = 'hunting_guide',        price = 5,    count = 100, currency = 'money' },
+			{ name = 'huntingbait',          price = 25,   count = 75,  currency = 'money' },
+			{ name = 'weapon_musket',        price = 2500, count = 10,  metadata = { registered = true }, license = 'weapon' },
+			{ name = 'ammo-musket',          price = 50,   count = 75,  currency = 'money' },
+			{ name = 'weapon_marksmanrifle', price = 8000, count = 5,   metadata = { registered = true }, license = 'weapon' },
+			{ name = 'ammo-sniper',          price = 80,   count = 50,  currency = 'money' },
+			{ name = 'weapon_knife',         price = 150,  count = 25,  currency = 'money' },
+			{ name = 'animal_tracker',       price = 1200, count = 15,  currency = 'money' },
+			{ name = 'firewood',             price = 400,  count = 40,  currency = 'money' },
+			{ name = 'chair',                price = 200,  count = 15,  currency = 'money' },
+			{ name = 'tent',                 price = 800,  count = 15,  currency = 'money' },
 		},
 		targets = {
 			{
@@ -1895,31 +1906,6 @@ return {
 		}
 	},
 
-	Hunting = {
-		name = 'Hunting Shop',
-		blip = {
-			id = 313, colour = 0, scale = 0.6
-		},
-		inventory = {
-			{ name = 'hunting_guide',        price = 5,    count = 100, currency = 'money' },
-			{ name = 'huntingbait',          price = 25,   count = 75,  currency = 'money' },
-			{ name = 'weapon_musket',        price = 2500, count = 10,  metadata = { registered = true }, license = 'weapon' },
-			{ name = 'ammo-musket',          price = 50,   count = 75,  currency = 'money' },
-			{ name = 'weapon_marksmanrifle', price = 8000, count = 5,   metadata = { registered = true }, license = 'weapon' },
-			{ name = 'ammo-sniper',          price = 80,   count = 50,  currency = 'money' },
-			{ name = 'weapon_knife',         price = 150,  count = 25,  currency = 'money' },
-			{ name = 'animal_tracker',       price = 1200, count = 15,  currency = 'money' },
-		},
-		targets = {
-			{
-				ped = `cs_hunter`,
-				scenario = 'WORLD_HUMAN_STAND_MOBILE',
-				loc = vec3(-775.8988, 5603.3223, 32.7408),
-				heading = 252.4488,
-			}
-		}
-	},
-
 	YouTool = {
 		name = 'YouTool Store',
 		blip = {
@@ -1931,8 +1917,6 @@ return {
 			{ name = 'thermalpaste',     price = 100,   count = 50,        currency = 'money' },
 			{ name = 'miningdrill',      price = 15000, currency = 'money' },
 			{ name = 'mininglaser',      price = 30000, currency = 'money' },
-			{ name = 'firewood',         price = 400,   count = 40,        currency = 'money' },
-			{ name = 'tent',             price = 800,   currency = 'money' },
 			{ name = 'dice',             price = 50,    count = 75,        currency = 'money' },
 			{ name = 'drillbit',         price = 100,   count = 50,        currency = 'money' },
 			{ name = 'scissors',         price = 200,   currency = 'money' },
@@ -2088,14 +2072,14 @@ return {
 			id = 72, colour = 3, scale = 0.6
 		},
 		inventory = {
-			{ name = 'black_paint',      price = 500,   currency = 'money' },
-			{ name = 'white_paint',      price = 500,   currency = 'money' },
-			{ name = 'red_paint',        price = 500,   currency = 'money' },
-			{ name = 'blue_paint',       price = 500,   currency = 'money' },
-			{ name = 'yellow_paint',     price = 500,   currency = 'money' },
-			{ name = 'green_paint',      price = 500,   currency = 'money' },
-			{ name = 'grey_paint',       price = 500,   currency = 'money' },
-			{ name = 'pink_paint',       price = 500,   currency = 'money' },
+			{ name = 'black_paint',  price = 500, currency = 'money' },
+			{ name = 'white_paint',  price = 500, currency = 'money' },
+			{ name = 'red_paint',    price = 500, currency = 'money' },
+			{ name = 'blue_paint',   price = 500, currency = 'money' },
+			{ name = 'yellow_paint', price = 500, currency = 'money' },
+			{ name = 'green_paint',  price = 500, currency = 'money' },
+			{ name = 'grey_paint',   price = 500, currency = 'money' },
+			{ name = 'pink_paint',   price = 500, currency = 'money' },
 		},
 		targets = {
 			{
