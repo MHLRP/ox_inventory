@@ -6747,9 +6747,17 @@ return {
 		label = 'Rope',
 		weight = 1,
 		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['grapplinghook'] = {
+		label = 'Grappling Hook',
+		weight = 800,
+		stack = true,
 		consume = 0,
 		close = true,
-		description = nil,
+		description = 'A hooked rope for climbing and rappelling.',
 		client = {
 			event = 'moonlit-ropes:client:useRope',
 		}
@@ -11022,13 +11030,6 @@ return {
 		stack = true,
 	},
 
-	["fishing_chest_money"] = {
-		label = "Chest",
-		weight = 2,
-		stack = true,
-	},
-
-
 	["sea_boot"] = {
 		label = "Boot",
 		weight = 1000,
@@ -11350,6 +11351,14 @@ return {
 		description = "Upgrade vehicle armor",
 	},
 
+	["vehicle_armour"] = {
+		label = "Vehicle Armour",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Install or upgrade vehicle armour",
+	},
+
 	["veh_tint"] = {
 		label = "Tints",
 		weight = 1000,
@@ -11380,6 +11389,14 @@ return {
 		stack = true,
 		close = true,
 		description = "Upgrade vehicle brakes",
+	},
+
+	["brake_upgrade"] = {
+		label = "Brake Upgrade",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Install or upgrade vehicle brakes",
 	},
 
 	["veh_plates"] = {
@@ -11932,6 +11949,22 @@ return {
 		weight = 1000,
 	},
 	-- Engine Items
+	["engine_01"] = {
+		label = "Engine Upgrade 1",
+		weight = 1000,
+	},
+	["engine_02"] = {
+		label = "Engine Upgrade 2",
+		weight = 1000,
+	},
+	["engine_03"] = {
+		label = "Engine Upgrade 3",
+		weight = 1000,
+	},
+	["engine_04"] = {
+		label = "Engine Upgrade 4",
+		weight = 1000,
+	},
 	["i4_engine"] = {
 		label = "POLICE I4 Turbo 2.5L",
 		weight = 1000,
@@ -23452,5 +23485,107 @@ return {
 		weight = 200,
 		stack = true,
 		close = true,
+	},
+
+	['chicken_feed'] = {
+		label = 'Chicken Feed',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = 'A few seeds to attract wild chickens.',
+	},
+
+	['hen'] = {
+		label = 'Hen',
+		weight = 2000,
+		stack = false,
+		close = true,
+		description = 'Issa hen.',
+	},
+
+	['rooster'] = {
+		label = 'Rooster',
+		weight = 2500,
+		stack = false,
+		close = true,
+		description = 'Issa rooster.',
+	},
+
+	["gun_case"] = {
+        label = "Gun Case",
+        description = "Contains various firearms",
+        weight = 500,
+        stack = true,
+        close = false,
+        consume = 0,
+        server = {
+            export = "sleepless_lootbox.gun_case",
+        },
+        buttons = {
+            {
+                label = 'Preview Case',
+                action = function(slot)
+                    exports.ox_inventory:closeInventory()
+                    exports.sleepless_lootbox:preview('gun_case')
+                end
+            },
+        },
+    },
+
+    ["supply_crate"] = {
+        label = "Supply Crate",
+        description = "Contains useful supplies and materials",
+        weight = 1000,
+        stack = true,
+        close = false,
+        consume = 0,
+        buttons = {
+            {
+                label = 'Preview Case',
+                action = function(slot)
+                    exports.ox_inventory:closeInventory()
+                    exports.sleepless_lootbox:preview('supply_crate')
+                end
+            },
+        },
+    },
+
+    ["vip_case"] = {
+        label = "VIP Case",
+        description = "Premium rewards for VIP members",
+        weight = 500,
+        stack = true,
+        close = false,
+        consume = 0,
+        buttons = {
+            {
+                label = 'Preview Case',
+                action = function(slot)
+                    exports.ox_inventory:closeInventory()
+                    exports.sleepless_lootbox:preview('vip_case')
+                end
+            },
+        },
+    },
+
+	["fishing_chest_money"] = {
+		label = "Chest",
+		description = "Open for a cash reward.",
+		weight = 2,
+		stack = true,
+		close = false,
+		consume = 0,
+		server = {
+			export = "sleepless_lootbox.fishing_chest_money",
+		},
+		buttons = {
+			{
+				label = "Preview Case",
+				action = function(slot)
+					exports.ox_inventory:closeInventory()
+					exports.sleepless_lootbox:preview("fishing_chest_money")
+				end,
+			},
+		},
 	},
 }
