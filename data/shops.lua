@@ -1507,32 +1507,6 @@ return {
 		}
 	},
 
-	Pizza = {
-		name = "Al Dente's",
-		inventory = {
-			{ name = 'pizza_pep',     price = 20, count = 75,  currency = 'money' },
-			{ name = 'pizza_chs',     price = 20, count = 75,  currency = 'money' },
-			{ name = 'pizza_msh',     price = 20, count = 75,  currency = 'money' },
-			{ name = 'pizza_mgt',     price = 15, count = 75,  currency = 'money' },
-			{ name = 'pizza_dmt',     price = 20, count = 75,  currency = 'money' },
-			{ name = 'box_pizza_pep', price = 45, count = 50,  currency = 'money' },
-			{ name = 'box_pizza_chs', price = 45, count = 50,  currency = 'money' },
-			{ name = 'box_pizza_msh', price = 50, count = 40,  currency = 'money' },
-			{ name = 'box_pizza_mgt', price = 45, count = 50,  currency = 'money' },
-			{ name = 'box_pizza_dmt', price = 50, count = 40,  currency = 'money' },
-			{ name = 'cola',          price = 25, count = 100, currency = 'money' },
-			{ name = 'water',         price = 15, count = 100, currency = 'money' },
-		},
-		targets = {
-			{
-				ped = `ig_chef`,
-				scenario = 'WORLD_HUMAN_STAND_MOBILE',
-				loc = vec3(-586.0568, -603.6113, 33.6818),
-				heading = 273.1172,
-			}
-		}
-	},
-
 	Burger = {
 		name = 'Burger Shot',
 		inventory = {
@@ -1616,6 +1590,26 @@ return {
 				scenario = 'WORLD_HUMAN_STAND_MOBILE',
 				loc = vec3(-158.2002, -102.1060, 29.3337),
 				heading = 89.4305,
+			}
+		}
+	},
+
+	Hotdog2 = {
+		name = 'Chihuahua Hotdogs',
+		inventory = {
+			{ name = 'hotdog',   price = 20, count = 75,  currency = 'money' },
+			{ name = 'mustard',  price = 10, count = 75,  currency = 'money' },
+			{ name = 'ketchup',  price = 10, count = 75,  currency = 'money' },
+			{ name = 'cola',     price = 25, count = 100, currency = 'money' },
+			{ name = 'water',    price = 15, count = 100, currency = 'money' },
+			{ name = 'fr_fries', price = 15, count = 75,  currency = 'money' },
+		},
+		targets = {
+			{
+				ped = `a_m_m_indian_01`,
+				scenario = 'WORLD_HUMAN_STAND_MOBILE',
+				loc = vec3(43.7861, -1005.4137, 28.2879),
+				heading = 337.3184,
 			}
 		}
 	},

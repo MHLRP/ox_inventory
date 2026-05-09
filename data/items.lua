@@ -4459,7 +4459,11 @@ return {
 		weight = 100,
 		stack = true,
 		close = true,
+		consume = 0,
 		description = "Spray remover.",
+		client = {
+			export = 'moonlit-graffiti.usePaintItem',
+		},
 	},
 
 	["spraycan"] = {
@@ -4467,7 +4471,11 @@ return {
 		weight = 40,
 		stack = true,
 		close = true,
+		consume = 0,
 		description = "A spray can.",
+		client = {
+			export = 'moonlit-graffiti.usePaintItem',
+		},
 	},
 
 	["toolbox"] = {
@@ -7044,6 +7052,12 @@ return {
 	-- If you are below the mpchristmas3 update, change the prop to 'ba_prop_battle_vape_01'
 	['vape'] = {
 		label = 'Vape',
+		weight = 200,
+		description = "No flavor.. just smoke.",
+	},
+
+	['mini_vape'] = {
+		label = 'Mini Vape',
 		weight = 200,
 		description = "No flavor.. just smoke.",
 	},
@@ -20508,56 +20522,88 @@ return {
 		weight = 100,
 		stack = true,
 		close = true,
+		consume = 0,
 		description = "Black Paint",
+		client = {
+			export = 'moonlit-graffiti.usePaintItem',
+		},
 	},
 
 	["white_paint"] = {
 		weight = 100,
 		stack = true,
 		close = true,
+		consume = 0,
 		description = "White Paint",
+		client = {
+			export = 'moonlit-graffiti.usePaintItem',
+		},
 	},
 
 	["red_paint"] = {
 		weight = 100,
 		stack = true,
 		close = true,
+		consume = 0,
 		description = "Red Paint",
+		client = {
+			export = 'moonlit-graffiti.usePaintItem',
+		},
 	},
 
 	["blue_paint"] = {
 		weight = 100,
 		stack = true,
 		close = true,
+		consume = 0,
 		description = "Blue Paint",
+		client = {
+			export = 'moonlit-graffiti.usePaintItem',
+		},
 	},
 
 	["yellow_paint"] = {
 		weight = 100,
 		stack = true,
 		close = true,
+		consume = 0,
 		description = "Yellow Paint",
+		client = {
+			export = 'moonlit-graffiti.usePaintItem',
+		},
 	},
 
 	["green_paint"] = {
 		weight = 100,
 		stack = true,
 		close = true,
+		consume = 0,
 		description = "Green Paint",
+		client = {
+			export = 'moonlit-graffiti.usePaintItem',
+		},
 	},
 
 	["grey_paint"] = {
 		weight = 100,
 		stack = true,
 		close = true,
+		consume = 0,
 		description = "Grey Paint",
+		client = {
+			export = 'moonlit-graffiti.usePaintItem',
+		},
 	},
 
 	["pink_paint"] = {
 		weight = 100,
 		stack = true,
 		close = true,
+		consume = 0,
 		description = "Pink Paint",
+		client = {
+			export = 'moonlit-graffiti.usePaintItem',
+		},
 	},
 
 	["cyber_jetpack"] = {

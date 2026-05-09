@@ -201,6 +201,13 @@ return {
 			ammoname = 'ammo-9'
 		},
 
+		['WEAPON_GHC'] = {
+			label = 'Cyber Pistol Purple',
+			weight = 1000,
+			durability = 0.2,
+			ammoname = 'ammo-9'
+		},
+
 		['WEAPON_LAW'] = {
 			label = 'Cyber Pistol Blue',
 			weight = 1000,
@@ -1023,6 +1030,16 @@ return {
 			type = 'magazine',
 			client = {
 				component = { `COMPONENT_CARBINERIFLE_MK2_CLIP_02` },
+				usetime = 2500
+			}
+		},
+
+		['at_clip_ghc'] = {
+			label = 'Cyber Pistol Purple Magazine',
+			weight = 150,
+			type = 'magazine',
+			client = {
+				component = { `COMPONENT_GHC_CLIP_01` },
 				usetime = 2500
 			}
 		},
