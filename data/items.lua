@@ -20613,6 +20613,35 @@ return {
 		description = "Cyber Jetpack",
 	},
 
+	['mando_jetpack'] = {
+		label = 'Mando Jetpack',
+		weight = 5000,
+		stack = false,
+		close = true,
+		description = "Mando Jetpack",
+	},
+	['optimus_jetpack'] = {
+		label = 'Optimus Jetpack',
+		weight = 5000,
+		stack = false,
+		close = true,
+		description = "Optimus Jetpack",
+	},
+	['dark_jetpack'] = {
+		label = 'Dark Jetpack',
+		weight = 5000,
+		stack = false,
+		close = true,
+		description = "Dark Jetpack",
+	},
+	['metal_jetpack'] = {
+		label = 'Metal Jetpack',
+		weight = 5000,
+		stack = false,
+		close = true,
+		description = "Metal Jetpack",
+	},
+
 	["kq_meth_low"] = {
 		label = "Meth (Low grade)",
 		weight = 100,
