@@ -5922,6 +5922,11 @@ return {
 		label = "Power Bank",
 		weight = 50,
 		stack = false,
+		close = true,
+		description = "Recharges a drone with a dead battery.",
+		server = {
+			export = 'moonlit-drones.usePowerbank',
+		},
 	},
 
 	["simcard"] = {
@@ -6883,14 +6888,24 @@ return {
 		label = 'Drone',
 		weight = 80,
 		stack = false,
+		close = true,
+		durability = true,
 		description = "Dont use this to look in windows you sicko!",
+		server = {
+			export = 'moonlit-drones.useDrone',
+		},
 	},
 
 	['cyberdrone'] = {
 		label = 'Cyber Drone',
 		weight = 400,
 		stack = false,
+		close = true,
+		durability = true,
 		description = "Your very own cyber drone",
+		server = {
+			export = 'moonlit-drones.useCyberdrone',
+		},
 	},
 
 	['cig_69brand'] = {
