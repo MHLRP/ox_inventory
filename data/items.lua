@@ -5922,11 +5922,6 @@ return {
 		label = "Power Bank",
 		weight = 50,
 		stack = false,
-		close = true,
-		description = "Recharges a drone with a dead battery.",
-		server = {
-			export = 'moonlit-drones.usePowerbank',
-		},
 	},
 
 	["simcard"] = {
@@ -6905,6 +6900,18 @@ return {
 		description = "Your very own cyber drone",
 		server = {
 			export = 'moonlit-drones.useCyberdrone',
+		},
+	},
+
+	['dronecharger'] = {
+		label = 'Drone Charging Station',
+		weight = 5000,
+		stack = false,
+		close = true,
+		consume = 0,
+		description = 'Place on the ground to charge your drone. Dock the drone and check progress at the station.',
+		server = {
+			export = 'moonlit-drones.useCharger',
 		},
 	},
 
