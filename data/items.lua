@@ -16711,20 +16711,60 @@ return {
 		description = "You will need to process this."
 	},
 
-	['pickle_seed'] = {
-		label = 'Pickle Seed',
+	['cucumber_seed'] = {
+		label = 'Cucumber Seed',
 		weight = 1,
 		stack = true,
 		close = true,
-		description = "This is a seed that grows a pickle."
+		description = "This is a seed that grows a cucumber."
 	},
 
-	['pickle_raw'] = {
-		label = 'Raw Pickle',
+	['onion_seed'] = {
+		label = 'Onion Seed',
 		weight = 1,
 		stack = true,
 		close = true,
-		description = "You will need to process this."
+		description = "This is a seed that grows an onion."
+	},
+
+	['watermelon_seed'] = {
+		label = 'Watermelon Seed',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = "This is a seed that grows a watermelon."
+	},
+
+	['pumpkin_seed'] = {
+		label = 'Pumpkin Seed',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = "This is a seed that grows a pumpkin."
+	},
+
+	['watermelon'] = {
+		label = 'Watermelon',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Fresh watermelon from the farm."
+	},
+
+	['pumpkin'] = {
+		label = 'Pumpkin',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Fresh pumpkin from the farm."
+	},
+
+	['cucumber'] = {
+		label = 'Cucumber',
+		weight = 50,
+		stack = true,
+		close = true,
+		description = "Fresh cucumber from the farm."
 	},
 
 	['pickle'] = {

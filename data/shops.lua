@@ -1874,6 +1874,7 @@ return {
 		inventory = {
 			{ name = 'skateboard_01', price = 50, count = 30, currency = 'money' },
 			{ name = 'skateboard_02', price = 50, count = 30, currency = 'money' },
+			{ name = 'skateboard_03', price = 50, count = 30, currency = 'money' },
 		},
 		targets = {
 			{
