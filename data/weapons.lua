@@ -201,6 +201,13 @@ return {
 			ammoname = 'ammo-9'
 		},
 
+		['WEAPON_SCIFI'] = {
+			label = 'Sci-Fi Rifle',
+			weight = 3100,
+			durability = 0.03,
+			ammoname = 'ammo-rifle'
+		},
+
 		['WEAPON_GHC'] = {
 			label = 'Cyber Pistol Purple',
 			weight = 1000,

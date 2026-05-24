@@ -16437,7 +16437,7 @@ return {
 	["watering_can_full"] = {
 		label = "Full Watering Can",
 		weight = 500,
-		stack = true,
+		stack = false,
 		close = false,
 		description = "A watering can full of water!",
 	},
