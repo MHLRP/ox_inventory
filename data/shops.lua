@@ -1026,6 +1026,7 @@ return {
 			{ name = 'ammo-shotgun',         price = 50,    currency = 'black_money' },
 			{ name = 'trojan_usb',           price = 2000,  currency = 'black_money' },
 			{ name = 'trapphone',            price = 6000,  currency = 'black_money' },
+			{ name = 'kq_acetone',           price = 225,   count = 75, currency = 'black_money' },
 		},
 		locations = {
 			vec3(504.7122, 2603.0120, 43.9762),
@@ -1305,6 +1306,7 @@ return {
 			{ name = 'emptyvial', price = 100, count = 200, currency = 'money' },
 			{ name = 'needle',    price = 200, count = 200, currency = 'money' },
 			{ name = 'doxallin',  price = 200, count = 200, currency = 'money' },
+			{ name = 'kq_rubbing_alcohol', price = 75, count = 100, currency = 'money' },
 		},
 		targets = {
 			{
@@ -1332,6 +1334,7 @@ return {
 			{ name = 'emptyvial', price = 100, count = 200, currency = 'money' },
 			{ name = 'needle',    price = 200, count = 200, currency = 'money' },
 			{ name = 'doxallin',  price = 200, count = 200, currency = 'money' },
+			{ name = 'kq_rubbing_alcohol', price = 75, count = 100, currency = 'money' },
 		},
 		targets = {
 			{
@@ -1353,6 +1356,7 @@ return {
 			{ name = 'emptyvial', price = 100, count = 200, currency = 'money' },
 			{ name = 'needle',    price = 200, count = 200, currency = 'money' },
 			{ name = 'doxallin',  price = 200, count = 200, currency = 'money' },
+			{ name = 'kq_rubbing_alcohol', price = 75, count = 100, currency = 'money' },
 		},
 		targets = {
 			{
@@ -2015,7 +2019,6 @@ return {
 			{ name = 'gps',              price = 500,  currency = 'money' },
 			{ name = 'weapon_petrolcan', price = 350,  currency = 'money' },
 			{ name = 'toolbox',          price = 2500, currency = 'money' },
-			{ name = 'kq_lithium',       price = 200,  currency = 'money' },
 			{ name = 'cleaning_kit',     price = 150,  count = 25,        currency = 'money' },
 			{ name = 'cybernuts',        price = 40,   currency = 'money' },
 			{ name = 'cyberoil',         price = 2000, currency = 'money' },
@@ -2052,6 +2055,7 @@ return {
 			{ name = 'bbq3', price = 1400, currency = 'money' },
 			{ name = 'bbq4', price = 1800, currency = 'money' },
 			{ name = 'bbq5', price = 2600, currency = 'money' },
+			{ name = 'kq_propane_bottle', price = 1000, count = 10, currency = 'money' },
 		},
 		locations = {
 			vec3(2702.225, 3494.338, 54.664)

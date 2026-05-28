@@ -20704,55 +20704,6 @@ return {
 		description = "Metal Jetpack",
 	},
 
-	["kq_meth_low"] = {
-		label = "Meth (Low grade)",
-		weight = 100,
-		stack = true,
-		close = true,
-	},
-
-	["kq_meth_mid"] = {
-		label = "Meth (Medium grade)",
-		weight = 100,
-		stack = true,
-		close = true,
-	},
-
-	["kq_meth_high"] = {
-		label = "Meth (High grade)",
-		weight = 100,
-		stack = true,
-		close = true,
-	},
-
-	["kq_ethanol"] = {
-		label = "Ethanol",
-		weight = 200,
-		stack = true,
-		close = true,
-	},
-
-	["kq_meth_pills"] = {
-		label = "Pseudoephedrine",
-		weight = 300,
-		stack = true,
-		close = true,
-	},
-
-	["kq_lithium"] = {
-		label = "Lithium pack",
-		weight = 300,
-		stack = true,
-		close = true,
-	},
-
-	["kq_meth_lab_kit"] = {
-		label = "Meth cooking kit",
-		weight = 3000,
-		stack = true,
-		close = true,
-	},
-
 	['kq_snowchain'] = {
 		label = "Wheel Snow Chain",
 		weight = 1500,
@@ -23725,4 +23676,129 @@ return {
 			},
 		},
 	},
+
+	["kq_meth_low"] = {
+        label = "Meth (Low grade)",
+        weight = 100,
+        stack = true,
+        close = true,
+    },
+
+    ["kq_meth_mid"] = {
+        label = "Meth (Medium grade)",
+        weight = 100,
+        stack = true,
+        close = true,
+    },
+
+    ["kq_meth_high"] = {
+        label = "Meth (High grade)",
+        weight = 100,
+        stack = true,
+        close = true,
+    },
+
+    ["kq_ethanol"] = {
+        label = "Ethanol",
+        weight = 2000,
+        stack = true,
+        close = true,
+    },
+
+    ["kq_rubbing_alcohol"] = {
+        label = "Rubbing Alcohol",
+        weight = 2000,
+        stack = true,
+        close = true,
+    },
+
+    ["kq_meth_pills"] = {
+        label = "Pseudoephedrine",
+        weight = 100,
+        stack = true,
+        close = true,
+    },
+
+    ["kq_used_car_battery"] = {
+        label = "Used car battery",
+        weight = 6000,
+        stack = true,
+        close = true,
+        consume = 0,
+        server = {
+            export = 'kq_meth2.UseBattery',
+        },
+    },
+
+    ["kq_lithium_dirty"] = {
+        label = "Corroded lithium pack",
+        weight = 200,
+        stack = true,
+        close = true,
+    },
+
+    ["kq_lithium"] = {
+        label = "Lithium pack",
+        weight = 200,
+        stack = true,
+        close = true,
+    },
+
+    ["kq_acetone"] = {
+        label = "Acetone",
+        weight = 2000,
+        stack = true,
+        close = true,
+    },
+
+    ["kq_ammonia"] = {
+        label = "Ammonia",
+        weight = 2000,
+        stack = true,
+        close = true,
+    },
+
+    ["kq_meth_table"] = {
+        label = "Meth Cooking Station",
+        weight = 3000,
+        stack = true,
+        close = true,
+        consume = 0,
+        server = {
+            export = 'kq_meth2.UseMethTable',
+        },
+    },
+
+    ["kq_meth_distiller"] = {
+        label = "Ethanol Distiller",
+        weight = 8000,
+        stack = true,
+        close = true,
+        consume = 0,
+        server = {
+            export = 'kq_meth2.UseDistiller',
+        },
+    },
+
+    ["kq_propane_bottle"] = {
+        label = "Propane Bottle",
+        weight = 6000,
+        stack = true,
+        close = true,
+    },
+
+    ["kq_propane_bottle_empty"] = {
+        label = "Empty Propane Bottle",
+        weight = 2000,
+        stack = true,
+        close = true,
+    },
+
+    ["kq_meth_lab_kit"] = {
+        label = "Meth cooking kit",
+        weight = 5000,
+        stack = true,
+        close = true,
+    },
+
 }
