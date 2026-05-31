@@ -208,6 +208,13 @@ return {
 			ammoname = 'ammo-rifle'
 		},
 
+		['WEAPON_ROOKVOLVER'] = {
+			label = 'Rook Revolver',
+			weight = 2260,
+			durability = 0.1,
+			ammoname = 'ammo-44'
+		},
+
 		['WEAPON_GHC'] = {
 			label = 'Cyber Pistol Purple',
 			weight = 1000,
