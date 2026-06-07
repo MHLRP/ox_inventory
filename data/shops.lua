@@ -1558,9 +1558,12 @@ return {
 	Noodle = {
 		name = 'Noodle Exchange',
 		inventory = {
-			{ name = 'fortune_cookie', price = 10, count = 100, currency = 'money' },
-			{ name = 'noodles',        price = 15, count = 75,  currency = 'money' },
-			{ name = 'pho',            price = 25, count = 75,  currency = 'money' },
+			{ name = 'fortune_cookie',  price = 10, count = 100, currency = 'money' },
+			{ name = 'taiyakisnack',    price = 10, count = 100, currency = 'money' },
+			{ name = 'sobanoodlesbowl', price = 15, count = 75,  currency = 'money' },
+			{ name = 'udonnoodlesbowl', price = 15, count = 75,  currency = 'money' },
+			{ name = 'ramenbowl',       price = 15, count = 75,  currency = 'money' },
+			{ name = 'pho',             price = 25, count = 75,  currency = 'money' },
 		},
 		targets = {
 			{

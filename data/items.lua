@@ -950,6 +950,86 @@ return {
 		}
 	},
 
+	['sobanoodlesbowl'] = {
+		label = 'Soba Noodle Bowl',
+		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = 'A bowl of buckwheat soba noodles',
+		client = {
+			status = { hunger = 30 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = {
+				model = 'v_ret_fh_noodle',
+				pos = vec3(-0.03, 0.01, 0.05),
+				rot = vec3(0.0, 0.0, -40.0)
+			},
+			usetime = 7500,
+		}
+	},
+
+	['udonnoodlesbowl'] = {
+		label = 'Udon Noodle Bowl',
+		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = 'A bowl of thick udon noodles',
+		client = {
+			status = { hunger = 30 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = {
+				model = 'v_ret_fh_noodle',
+				pos = vec3(-0.03, 0.01, 0.05),
+				rot = vec3(0.0, 0.0, -40.0)
+			},
+			usetime = 7500,
+		}
+	},
+
+	['ramenbowl'] = {
+		label = 'Ramen Bowl',
+		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = 'A bowl of hot ramen',
+		client = {
+			status = { hunger = 30 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = {
+				model = 'v_ret_fh_noodle',
+				pos = vec3(-0.03, 0.01, 0.05),
+				rot = vec3(0.0, 0.0, -40.0)
+			},
+			usetime = 7500,
+		}
+	},
+
+	['taiyakisnack'] = {
+		label = 'Taiyaki Snack',
+		weight = 200,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = 'A sweet fish-shaped pastry',
+		client = {
+			status = { hunger = 60 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'dh_nuggets',
+				pos = vec3(0.00, 0.01, -0.00),
+				rot = vec3(150.0, 340.0, 170.0)
+			},
+			usetime = 7500,
+		}
+	},
+
 	['fr_fries'] = { -- A test hamburger that you can eat
 		label = 'French Fries',
 		weight = 350,
@@ -17170,6 +17250,14 @@ return {
 		description = "Target Chip Implant",
 	},
 
+	["replaychip"] = {
+		label = "Neuro Replay Chip",
+		weight = 200,
+		stack = false,
+		close = true,
+		description = "Neural memory imprint chip — replay recent moments as analyzable neuro-replay data.",
+	},
+
 	["cyberinhaler"] = {
 		label = "CyberHeX Inhaler",
 		weight = 100,
@@ -20344,6 +20432,41 @@ return {
 			prop = { model = 'prop_taco_02', pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
 			usetime = 7000,
 		}
+	},
+
+	['neuralnetgreens'] = {
+		label = 'Net Greens',
+		weight = 200,
+		degrade = 60 * 72,
+		stack = true,
+		close = true,
+		description = 'Metal scrap, cyber nuts, and oil. Built for cyborgs.',
+		client = {
+			status = { hunger = 55 },
+			prop = {
+				[1] = {
+					model = 'scully_spoon_pho',
+					bone = 57005,
+					pos = vec3(0.14, 0.02, 0.01),
+					rot = vec3(-118.0, 192.0, 24.0)
+				},
+				[2] = {
+					model = 'prop_cs_bowl_01b',
+					pos = vec3(-0.03, 0.01, 0.05),
+					rot = vec3(0.0, 0.0, -40.0)
+				},
+			},
+			anim = { dict = 'anim@eat@fork', clip = 'fork_clip' },
+			usetime = 8000,
+		}
+	},
+
+	['quantumcoolant'] = {
+		label = 'Quantum Coolant',
+		weight = 290,
+		stack = true,
+		close = true,
+		description = 'Ethanol and whiskey fused into a chilled neon coolant cocktail.',
 	},
 
 	["neonstatic"] = {
