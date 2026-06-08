@@ -80,14 +80,14 @@ return {
 
 		['WEAPON_FLASHBANG'] = {
 			label = 'K-J4 Flashbang',
-			weight = 600,
+			weight = 370,
 			throwable = true,
 			anim = { 'melee@holster', 'unholster', 200, 'melee@holster', 'holster', 600 },
 		},
 
 		['WEAPON_BATTLEAXE'] = {
 			label = 'Battle Axe',
-			weight = 6500,
+			weight = 600,
 			durability = 0.1,
 		},
 
@@ -133,7 +133,7 @@ return {
 
 		['WEAPON_CARBINERIFLE'] = {
 			label = 'Carbine Rifle',
-			weight = 3100,
+			weight = 3000,
 			durability = 0.03,
 			ammoname = 'ammo-rifle'
 		},
@@ -147,7 +147,7 @@ return {
 
 		['WEAPON_CERAMICPISTOL'] = {
 			label = 'Ceramic Pistol',
-			weight = 800,
+			weight = 400,
 			durability = 0.2,
 			ammoname = 'ammo-9'
 		},
@@ -196,7 +196,7 @@ return {
 
 		['WEAPON_COMBATPISTOL'] = {
 			label = 'Combat Pistol',
-			weight = 785,
+			weight = 750,
 			durability = 0.2,
 			ammoname = 'ammo-9'
 		},
@@ -306,7 +306,7 @@ return {
 
 		['WEAPON_EMPLAUNCHER'] = {
 			label = 'Compact EMP Launcher',
-			weight = 2750,
+			weight = 3000,
 			durability = 0.2,
 			ammoname = 'ammo-emp'
 		},
@@ -325,7 +325,7 @@ return {
 
 		['WEAPON_FLARE'] = {
 			label = 'Flare',
-			weight = 250,
+			weight = 38,
 			throwable = true,
 		},
 
@@ -338,7 +338,7 @@ return {
 
 		['WEAPON_FLASHLIGHT'] = {
 			label = 'Flashlight',
-			weight = 125,
+			weight = 100,
 			durability = 0.1,
 		},
 
@@ -452,7 +452,7 @@ return {
 
 		['WEAPON_KNUCKLE'] = {
 			label = 'Knuckle Dusters',
-			weight = 300,
+			weight = 120,
 			durability = 0.1,
 		},
 
@@ -569,7 +569,7 @@ return {
 
 		['WEAPON_MOLOTOV'] = {
 			label = 'Molotov',
-			weight = 1800,
+			weight = 500,
 			throwable = true,
 		},
 
@@ -589,7 +589,7 @@ return {
 
 		['WEAPON_NIGHTSTICK'] = {
 			label = 'Nightstick',
-			weight = 1000,
+			weight = 600,
 			durability = 0.1,
 		},
 
@@ -652,7 +652,7 @@ return {
 
 		['WEAPON_PUMPSHOTGUN'] = {
 			label = 'Pump Shotgun',
-			weight = 3400,
+			weight = 3000,
 			durability = 0.1,
 			ammoname = 'ammo-shotgun'
 		},
@@ -721,7 +721,7 @@ return {
 
 		['WEAPON_SMG'] = {
 			label = 'SMG',
-			weight = 3084,
+			weight = 2500,
 			durability = 0.8,
 			ammoname = 'ammo-9'
 		},
@@ -820,7 +820,7 @@ return {
 
 		['WEAPON_PROLASER4'] = {
 			label = 'ProLaser4',
-			weight = 1000,
+			weight = 800,
 		},
 
 		['WEAPON_STONE_HATCHET'] = {
@@ -831,13 +831,13 @@ return {
 
 		['WEAPON_STUNGUN'] = {
 			label = 'Tazer',
-			weight = 200,
+			weight = 350,
 			durability = 0.1,
 		},
 
 		['WEAPON_DIGISCANNER'] = {
 			label = 'Digital Scanner',
-			weight = 122,
+			weight = 200,
 			durability = 0.1,
 		},
 
@@ -850,7 +850,7 @@ return {
 
 		['WEAPON_SWITCHBLADE'] = {
 			label = 'Switchblade',
-			weight = 300,
+			weight = 60,
 			durability = 0.1,
 			anim = { 'anim@melee@switchblade@holster', 'unholster', 200, 'anim@melee@switchblade@holster', 'holster', 600 },
 		},
@@ -1007,19 +1007,19 @@ return {
 		},
 		['WEAPON_FURY_FIGHTSTICK'] = {
 			label = 'Fightstick',
-			weight = 600,
+			weight = 500,
 			durability = 0.1,
 		},
 
 		['WEAPON_FURY_SAI'] = {
 			label = 'Sai',
-			weight = 800,
+			weight = 200,
 			durability = 0.1,
 		},
 
 		['WEAPON_ELECKNUCKLE'] = {
 			label = 'Electric Knuckles',
-			weight = 1200,
+			weight = 200,
 			durability = 0.1,
 		},
 
@@ -1090,7 +1090,7 @@ return {
 
 		['at_flashlight'] = {
 			label = 'Tactical Flashlight',
-			weight = 120,
+			weight = 70,
 			type = 'flashlight',
 			client = {
 				component = {
@@ -1106,7 +1106,7 @@ return {
 
 		['at_suppressor_light'] = {
 			label = 'Suppressor',
-			weight = 280,
+			weight = 100,
 			type = 'muzzle',
 			client = {
 				component = {
@@ -1122,7 +1122,7 @@ return {
 
 		['at_suppressor_heavy'] = {
 			label = 'Tactical Suppressor',
-			weight = 280,
+			weight = 250,
 			type = 'muzzle',
 			client = {
 				component = {
@@ -1138,7 +1138,7 @@ return {
 		['at_grip'] = {
 			label = 'Grip',
 			type = 'grip',
-			weight = 280,
+			weight = 80,
 			client = {
 				component = {
 					`COMPONENT_AT_AR_AFGRIP`,
@@ -1170,7 +1170,7 @@ return {
 		['at_clip_extended_pistol'] = {
 			label = 'Extended Pistol Clip',
 			type = 'magazine',
-			weight = 280,
+			weight = 100,
 			client = {
 				component = {
 					`COMPONENT_APPISTOL_CLIP_02`,
@@ -1192,7 +1192,7 @@ return {
 		['at_clip_extended_smg'] = {
 			label = 'Extended SMG Clip',
 			type = 'magazine',
-			weight = 280,
+			weight = 120,
 			client = {
 				component = {
 					`COMPONENT_ASSAULTSMG_CLIP_02`,
@@ -1210,7 +1210,7 @@ return {
 		['at_clip_extended_shotgun'] = {
 			label = 'Extended Shotgun Clip',
 			type = 'magazine',
-			weight = 280,
+			weight = 250,
 			client = {
 				component = {
 					`COMPONENT_ASSAULTSHOTGUN_CLIP_02`,
@@ -1223,7 +1223,7 @@ return {
 		['at_clip_extended_rifle'] = {
 			label = 'Extended Rifle Clip',
 			type = 'magazine',
-			weight = 280,
+			weight = 350,
 			client = {
 				component = {
 					`COMPONENT_ADVANCEDRIFLE_CLIP_02`,
@@ -1348,7 +1348,7 @@ return {
 		['at_scope_small'] = {
 			label = 'Small Scope',
 			type = 'sight',
-			weight = 280,
+			weight = 80,
 			client = {
 				component = {
 					`COMPONENT_AT_SCOPE_SMALL`,
@@ -1547,7 +1547,7 @@ return {
 		['at_skin_luxe'] = {
 			label = 'Luxury Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_ASSAULTRIFLE_VARMOD_LUXE`,
@@ -1568,7 +1568,7 @@ return {
 		['at_skin_wood'] = {
 			label = 'Wood Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_HEAVYPISTOL_VARMOD_LUXE`,
@@ -1582,7 +1582,7 @@ return {
 		['at_skin_metal'] = {
 			label = 'Metal Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_ADVANCEDRIFLE_VARMOD_LUXE`,
@@ -1598,7 +1598,7 @@ return {
 		['at_skin_pearl'] = {
 			label = 'Pearl Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_PISTOL50_VARMOD_LUXE`
@@ -1610,7 +1610,7 @@ return {
 		['at_skin_ballas'] = {
 			label = 'Ballas Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_KNUCKLE_VARMOD_BALLAS`
@@ -1622,7 +1622,7 @@ return {
 		['at_skin_diamond'] = {
 			label = 'Diamond Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_KNUCKLE_VARMOD_DIAMOND`
@@ -1634,7 +1634,7 @@ return {
 		['at_skin_dollar'] = {
 			label = 'Dollar Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_KNUCKLE_VARMOD_DOLLAR`
@@ -1646,7 +1646,7 @@ return {
 		['at_skin_hate'] = {
 			label = 'Hate Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_KNUCKLE_VARMOD_HATE`
@@ -1658,7 +1658,7 @@ return {
 		['at_skin_king'] = {
 			label = 'King Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_KNUCKLE_VARMOD_KING`
@@ -1670,7 +1670,7 @@ return {
 		['at_skin_love'] = {
 			label = 'Love Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_KNUCKLE_VARMOD_LOVE`
@@ -1682,7 +1682,7 @@ return {
 		['at_skin_pimp'] = {
 			label = 'Pimp Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_KNUCKLE_VARMOD_PIMP`
@@ -1694,7 +1694,7 @@ return {
 		['at_skin_player'] = {
 			label = 'Player Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_KNUCKLE_VARMOD_PLAYER`
@@ -1706,7 +1706,7 @@ return {
 		['at_skin_vagos'] = {
 			label = 'Vagos Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_KNUCKLE_VARMOD_VAGOS`
@@ -1718,7 +1718,7 @@ return {
 		['at_skin_blagueurs'] = {
 			label = 'Blagueurs Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3`
@@ -1730,7 +1730,7 @@ return {
 		['at_skin_splatter'] = {
 			label = 'Splatter Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3_01`
@@ -1742,7 +1742,7 @@ return {
 		['at_skin_bulletholes'] = {
 			label = 'Bullet Holes Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3_02`
@@ -1754,7 +1754,7 @@ return {
 		['at_skin_burgershot'] = {
 			label = 'Burger Shot Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3_03`
@@ -1766,7 +1766,7 @@ return {
 		['at_skin_cluckinbell'] = {
 			label = 'Cluckin Bell Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3_04`
@@ -1778,7 +1778,7 @@ return {
 		['at_skin_fatalincursion'] = {
 			label = 'Fatal Incursion Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3_05`
@@ -1790,7 +1790,7 @@ return {
 		['at_skin_luchalibre'] = {
 			label = 'Lucha Libre Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3_06`
@@ -1802,7 +1802,7 @@ return {
 		['at_skin_trippy'] = {
 			label = 'Trippy Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3_07`
@@ -1814,7 +1814,7 @@ return {
 		['at_skin_tiedye'] = {
 			label = 'Tie-Dye Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3_08`
@@ -1826,7 +1826,7 @@ return {
 		['at_skin_wall'] = {
 			label = 'Wall Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3_09`
@@ -1838,7 +1838,7 @@ return {
 		['at_skin_knife_xm3_01'] = {
 			label = 'Knife Skin: White / Orange',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_KNIFE_VARMOD_XM3_01`
@@ -1850,7 +1850,7 @@ return {
 		['at_skin_knife_xm3_02'] = {
 			label = 'Knife Skin: Orange / Black',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_KNIFE_VARMOD_XM3_02`
@@ -1862,7 +1862,7 @@ return {
 		['at_skin_knife_xm3_03'] = {
 			label = 'Knife Skin: Blue / White',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_KNIFE_VARMOD_XM3_03`
@@ -1874,7 +1874,7 @@ return {
 		['at_skin_knife_xm3_04'] = {
 			label = 'Knife Skin: Yellow / Blue / Red',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_KNIFE_VARMOD_XM3_04`
@@ -1886,7 +1886,7 @@ return {
 		['at_skin_knife_xm3_05'] = {
 			label = 'Knife Skin: Orange / Red',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_KNIFE_VARMOD_XM3_05`
@@ -1898,7 +1898,7 @@ return {
 		['at_skin_knife_xm3_06'] = {
 			label = 'Knife Skin: Cyan',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_KNIFE_VARMOD_XM3_06`
@@ -1910,7 +1910,7 @@ return {
 		['at_skin_knife_xm3_07'] = {
 			label = 'Knife Skin: Purple / Black',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_KNIFE_VARMOD_XM3_07`
@@ -1922,7 +1922,7 @@ return {
 		['at_skin_knife_xm3_08'] = {
 			label = 'Knife Skin: Yellow / Red',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_KNIFE_VARMOD_XM3_08`
@@ -1934,7 +1934,7 @@ return {
 		['at_skin_knife_xm3_09'] = {
 			label = 'Knife Skin: Green / Orange',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_KNIFE_VARMOD_XM3_09`
@@ -1946,7 +1946,7 @@ return {
 		['at_skin_vip'] = {
 			label = 'VIP Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_REVOLVER_VARMOD_BOSS`,
@@ -1959,7 +1959,7 @@ return {
 		['at_skin_bodyguard'] = {
 			label = 'Bodyguard Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_REVOLVER_VARMOD_GOON`,
@@ -1972,7 +1972,7 @@ return {
 		['at_skin_festive'] = {
 			label = 'Festive Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_RAYPISTOL_VARMOD_XMAS18`
@@ -1984,7 +1984,7 @@ return {
 		['at_skin_security'] = {
 			label = 'Security Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_APPISTOL_VARMOD_SECURITY`,
@@ -1997,7 +1997,7 @@ return {
 		['at_skin_camo'] = {
 			label = 'Camo Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_ASSAULTRIFLE_MK2_CAMO`,
@@ -2020,7 +2020,7 @@ return {
 		['at_skin_brushstroke'] = {
 			label = 'Brushstroke Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_02`,
@@ -2043,7 +2043,7 @@ return {
 		['at_skin_woodland'] = {
 			label = 'Woodland Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_03`,
@@ -2066,7 +2066,7 @@ return {
 		['at_skin_skull'] = {
 			label = 'Skull Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_04`,
@@ -2089,7 +2089,7 @@ return {
 		['at_skin_sessanta'] = {
 			label = 'Sessanta Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_05`,
@@ -2112,7 +2112,7 @@ return {
 		['at_skin_perseus'] = {
 			label = 'Perseus Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_06`,
@@ -2135,7 +2135,7 @@ return {
 		['at_skin_leopard'] = {
 			label = 'Leopard Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_07`,
@@ -2158,7 +2158,7 @@ return {
 		['at_skin_zebra'] = {
 			label = 'Zebra Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_08`,
@@ -2181,7 +2181,7 @@ return {
 		['at_skin_geometric'] = {
 			label = 'Geometric Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_09`,
@@ -2204,7 +2204,7 @@ return {
 		['at_skin_boom'] = {
 			label = 'Boom Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_10`,
@@ -2227,7 +2227,7 @@ return {
 		['at_skin_patriotic'] = {
 			label = 'Patriotic Weapon Kit',
 			type = 'skin',
-			weight = 50,
+			weight = 10,
 			client = {
 				component = {
 					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_IND_01`,
@@ -2266,7 +2266,7 @@ return {
 
 		['ammo-45'] = {
 			label = '.45 ACP',
-			weight = 15,
+			weight = 10,
 		},
 
 		['ammo-50'] = {
@@ -2321,7 +2321,7 @@ return {
 
 		['ammo-rifle'] = {
 			label = '5.56x45',
-			weight = 4,
+			weight = 15,
 		},
 
 		['ammo-rifle2'] = {
@@ -2336,7 +2336,7 @@ return {
 
 		['ammo-shotgun'] = {
 			label = '12 Gauge',
-			weight = 38,
+			weight = 41,
 		},
 
 		['ammo-sniper'] = {
@@ -2346,7 +2346,7 @@ return {
 
 		['ammo-emp'] = {
 			label = 'EMP round',
-			weight = 400,
+			weight = 41,
 		},
 	}
 }

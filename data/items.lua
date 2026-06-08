@@ -4570,8 +4570,8 @@ return {
 	},
 
 	["weldertool"] = {
-		label = "Welder Tool",
-		weight = 200,
+		label = "Welder Torch",
+		weight = 85,
 		stack = true,
 		close = true,
 		description = "A welder tool.",
@@ -4660,6 +4660,14 @@ return {
 		stack = true,
 		close = true,
 		description = "Burgershot Menu.",
+	},
+
+	["bahamamamas_menu"] = {
+		label = "Bahama Mamas Menu",
+		weight = 5,
+		stack = true,
+		close = true,
+		description = "Bahama Mamas Menu.",
 	},
 
 	["doppler_menu"] = {
@@ -5123,7 +5131,7 @@ return {
 
 	["pdcamera"] = {
 		label = "PD Camera",
-		weight = 400,
+		weight = 700,
 		stack = true,
 		close = true,
 		description = "Camera for the police department.",
@@ -5958,7 +5966,7 @@ return {
 
 	["tablet"] = {
 		label = "Tablet",
-		weight = 840,
+		weight = 400,
 		stack = false,
 		consume = 0,
 		client = {
@@ -6285,7 +6293,7 @@ return {
 
 	["briefcase"] = {
 		label = "Briefcase",
-		weight = 10,
+		weight = 1000,
 		stack = false,
 		close = true,
 		description = "If you lose this, you're gonna be sorry",
@@ -6302,7 +6310,7 @@ return {
 
 	["anklemonitor"] = {
 		label = "Ankle Monitor",
-		weight = 1,
+		weight = 120,
 		stack = true,
 		close = true,
 		description = "A monitor that can be used to track a person's location.",
@@ -6326,7 +6334,7 @@ return {
 
 	["policenotepad"] = {
 		label = "Police Notepad",
-		weight = 5,
+		weight = 100,
 		stack = false,
 		close = true,
 		description = "A notepad used by police officers to write tickets."
@@ -6491,7 +6499,7 @@ return {
 
 	["wheelclamp"] = {
 		label = "Wheel Clamp",
-		weight = 500,
+		weight = 3000,
 		stack = true,
 		close = true,
 		description = "Wheel Clamp.",
@@ -6499,7 +6507,7 @@ return {
 
 	["clampkey"] = {
 		label = "Clamp Key",
-		weight = 40,
+		weight = 10,
 		stack = true,
 		close = true,
 		description = "A clamp key.",
@@ -6791,7 +6799,7 @@ return {
 
 	['bandage'] = {
 		label = 'Bandage',
-		weight = 115,
+		weight = 10,
 		stack = true,
 		client = {
 			anim = { dict = 'missheistdockssetup1clipboard@idle_a', clip = 'idle_a', flag = 49 },
@@ -6803,7 +6811,7 @@ return {
 
 	['ifaks'] = {
 		label = 'Ifaks',
-		weight = 115,
+		weight = 400,
 		stack = true,
 		client = {
 			anim = { dict = 'missheistdockssetup1clipboard@idle_a', clip = 'idle_a', flag = 49 },
@@ -6960,8 +6968,8 @@ return {
 	-- MORE INVENTORY ITEMS
 
 	['drone'] = {
-		label = 'Drone',
-		weight = 80,
+		label = 'LEO Drone',
+		weight = 800,
 		stack = false,
 		close = true,
 		durability = true,
@@ -7056,8 +7064,8 @@ return {
 	},
 
 	['paperbag'] = {
-		label = 'Paper Bag',
-		weight = 1,
+		label = 'Head Bag',
+		weight = 30,
 		stack = false,
 		close = false,
 		consume = 0
@@ -7281,7 +7289,7 @@ return {
 
 	['radio'] = {
 		label = 'Radio',
-		weight = 1000,
+		weight = 150,
 		allowArmed = true,
 		consume = 0,
 		client = {
@@ -7426,7 +7434,7 @@ return {
 
 	['handcuffs'] = {
 		label = 'Steel Handcuffs',
-		weight = 2000,
+		weight = 300,
 		stack = true,
 		consume = 0,
 		description = "A pair of handcuffs.",
@@ -7437,7 +7445,7 @@ return {
 
 	["alcoholtester"] = {
 		label = "Alcohol Tester",
-		weight = 400,
+		weight = 40,
 		stack = false,
 		close = true,
 		description = "For testing purposes..",
@@ -7468,7 +7476,7 @@ return {
 
 	["drill"] = {
 		label = "Drill",
-		weight = 20000,
+		weight = 120,
 		stack = true,
 		close = false,
 		description = "The real deal...",
@@ -7521,7 +7529,7 @@ return {
 
 	['lockpick'] = {
 		label = 'Lockpick',
-		weight = 100,
+		weight = 10,
 		stack = true,
 		close = true,
 		description = ""
@@ -8239,7 +8247,7 @@ return {
 
 	["thermite"] = {
 		label = "Thermite",
-		weight = 1000,
+		weight = 300,
 		stack = true,
 		close = true,
 		description = "Sometimes youd wish for everything to burn",
@@ -10803,10 +10811,10 @@ return {
 	},
 
 	['badge_lssd'] = { -- idea: Player uses item to show badge prop
-		label = 'LSSD Badge',
-		weight = 444,
+		label = 'LSSO Badge',
+		weight = 45,
 		consume = 0,
-		description = "For official use by LSSD officers only",
+		description = "For official use by LSSO officers only",
 		client = {
 			-- anim = { dict = 'paper_1_rcm_alt1-8', clip = 'player_one_dual-8', flag = 49 },
 			-- prop = {
@@ -10822,10 +10830,10 @@ return {
 	},
 
 	['badge_lspd'] = { -- idea: Player uses item to show badge prop
-		label = 'LSPD Badge',
-		weight = 444,
+		label = 'MLHPD Badge',
+		weight = 45,
 		consume = 0,
-		description = "For official use by LSPD officers only",
+		description = "For official use by MLHPD officers only",
 		client = {
 			-- anim = { dict = 'paper_1_rcm_alt1-8', clip = 'player_one_dual-8', flag = 49 },
 			-- prop = {
@@ -10844,7 +10852,7 @@ return {
 
 	['bodycam'] = {
 		label = 'Bodycam',
-		weight = 500,
+		weight = 160,
 		stack = false,
 		close = true,
 		description = "Use /recordcam when used to send recording to database",
@@ -11393,7 +11401,7 @@ return {
 
 	['wiring_kit'] = {
 		label = 'Wiring kit',
-		weight = 250,
+		weight = 150,
 		stack = false,
 		close = true,
 	},
@@ -11407,7 +11415,7 @@ return {
 
 	['screwdriver'] = {
 		label = 'Screwdriver',
-		weight = 70,
+		weight = 60,
 		stack = false,
 		close = true,
 	},
@@ -11815,7 +11823,7 @@ return {
 
 	["kq_tow_rope"] = {
 		label = "Towing rope",
-		weight = 2000,
+		weight = 900,
 		stack = true,
 		close = true,
 		consume = 0,
@@ -11957,7 +11965,7 @@ return {
 
 	["harness"] = {
 		label = "Racing Harness",
-		weight = 1000,
+		weight = 200,
 		stack = false,
 		close = true,
 		description = "Racing Harness so no matter what, you stay buckled up!",
@@ -12212,7 +12220,7 @@ return {
 	},
 	["repair_kit"] = {
 		label = "Repair Kit",
-		weight = 1000,
+		weight = 500,
 		client = {
 			event = "jg-mechanic:client:repair-vehicle",
 		}
@@ -12290,7 +12298,7 @@ return {
 
 	["weapon_prolaser4"] = {
 		label = "ProLaser4",
-		weight = 1000,
+		weight = 800,
 		stack = true,
 		close = false,
 		description = "Catch them filthy speeders!",
@@ -13275,8 +13283,8 @@ return {
 	},
 
 	["cuffkeys"] = {
-		label = "Cuff Keys",
-		weight = 75,
+		label = "Cuff Key",
+		weight = 10,
 		stack = true,
 		close = true,
 		consume = 0,
@@ -13311,7 +13319,7 @@ return {
 
 	["leo-gps"] = {
 		label = "LEO GPS",
-		weight = 2000,
+		weight = 100,
 		stack = false,
 		close = true,
 		description = "Show your gps location to others",
@@ -13345,13 +13353,13 @@ return {
 
 	['nightvision'] = {
 		label = 'Nightvision Goggles',
-		weight = 1000,
+		weight = 500,
 		stack = false,
 	},
 
 	['thermalvision'] = {
 		label = 'FLIR Goggles',
-		weight = 1000,
+		weight = 500,
 		stack = false,
 	},
 
@@ -13363,7 +13371,7 @@ return {
 
 	["rag"] = {
 		label = "Rag",
-		weight = 100,
+		weight = 20,
 		stack = true,
 		close = true,
 		consume = 0.25,
@@ -13375,7 +13383,7 @@ return {
 
 	["ziptie"] = {
 		label = "ZipTie",
-		weight = 50,
+		weight = 17,
 		stack = true,
 		close = true,
 		consume = 0,
@@ -13387,7 +13395,7 @@ return {
 
 	["evidencecleaningkit"] = {
 		label = "Evidence Cleaning Kit",
-		weight = 250,
+		weight = 100,
 		stack = true,
 		close = true,
 		description = "Cleans every Evidence near a police Officer.",
@@ -15994,7 +16002,7 @@ return {
 	},
 	["printscanner"] = {
 		label = "Fingerprint Scanner",
-		weight = 500,
+		weight = 100,
 		stack = false,
 		close = true,
 		description = "A mobile fingerprint scanner.",
@@ -17038,7 +17046,7 @@ return {
 
 	['metal_wand'] = {
 		label = 'Metal Wand',
-		weight = 1,
+		weight = 350,
 		stack = true,
 		description = ""
 	},
@@ -18803,7 +18811,7 @@ return {
 
 	['spyspikes'] = {
 		label = 'Spy Spikes',
-		weight = 1500,
+		weight = 1000,
 		stack = false,
 		close = true,
 		description = 'Vehicle spy spike strips',
@@ -19910,7 +19918,7 @@ return {
 
 	["phonetracker"] = {
 		label = "Tracker",
-		weight = 200,
+		weight = 100,
 		stack = false,
 		close = true,
 	},
@@ -20168,7 +20176,7 @@ return {
 
 	['ejectbutton'] = {
 		label = 'Ejector Lever',
-		weight = 100,
+		weight = 150,
 		stack = false,
 		close = true,
 		description = 'A special lever that launches people out of a vehicle!',
@@ -20476,7 +20484,7 @@ return {
 		close = true,
 		description = "A vivid vodka, blue curacao, and raspberry cocktail.",
 	},
-	
+
 	['glitchinthesystem'] = {
 		label = 'Glitch in the System',
 		weight = 150,
@@ -21152,7 +21160,7 @@ return {
 
 	['taser_cartridge'] = {
 		label = 'Taser Cartridge',
-		weight = 100,
+		weight = 70,
 		stack = true,
 		close = true,
 		description = 'A cartridge for the taser',
@@ -23386,21 +23394,21 @@ return {
 
 	['bench_upgrade_2'] = {
 		label = 'Crafting Bench Upgrade Tier 2',
-		weight = 50,
+		weight = 15,
 		stack = false,
 		close = false,
 	},
 
 	['bench_upgrade_3'] = {
 		label = 'Crafting Bench Upgrade Tier 3',
-		weight = 75,
+		weight = 15,
 		stack = false,
 		close = false,
 	},
 
 	['bench_upgrade_4'] = {
 		label = 'Crafting Bench Upgrade Tier 4',
-		weight = 100,
+		weight = 15,
 		stack = false,
 		close = false,
 	},
@@ -23723,61 +23731,61 @@ return {
 	},
 
 	["gun_case"] = {
-        label = "Gun Case",
-        description = "Contains various firearms",
-        weight = 500,
-        stack = true,
-        close = false,
-        consume = 0,
-        server = {
-            export = "sleepless_lootbox.gun_case",
-        },
-        buttons = {
-            {
-                label = 'Preview Case',
-                action = function(slot)
-                    exports.ox_inventory:closeInventory()
-                    exports.sleepless_lootbox:preview('gun_case')
-                end
-            },
-        },
-    },
+		label = "Gun Case",
+		description = "Contains various firearms",
+		weight = 500,
+		stack = true,
+		close = false,
+		consume = 0,
+		server = {
+			export = "sleepless_lootbox.gun_case",
+		},
+		buttons = {
+			{
+				label = 'Preview Case',
+				action = function(slot)
+					exports.ox_inventory:closeInventory()
+					exports.sleepless_lootbox:preview('gun_case')
+				end
+			},
+		},
+	},
 
-    ["supply_crate"] = {
-        label = "Supply Crate",
-        description = "Contains useful supplies and materials",
-        weight = 1000,
-        stack = true,
-        close = false,
-        consume = 0,
-        buttons = {
-            {
-                label = 'Preview Case',
-                action = function(slot)
-                    exports.ox_inventory:closeInventory()
-                    exports.sleepless_lootbox:preview('supply_crate')
-                end
-            },
-        },
-    },
+	["supply_crate"] = {
+		label = "Supply Crate",
+		description = "Contains useful supplies and materials",
+		weight = 1000,
+		stack = true,
+		close = false,
+		consume = 0,
+		buttons = {
+			{
+				label = 'Preview Case',
+				action = function(slot)
+					exports.ox_inventory:closeInventory()
+					exports.sleepless_lootbox:preview('supply_crate')
+				end
+			},
+		},
+	},
 
-    ["vip_case"] = {
-        label = "VIP Case",
-        description = "Premium rewards for VIP members",
-        weight = 500,
-        stack = true,
-        close = false,
-        consume = 0,
-        buttons = {
-            {
-                label = 'Preview Case',
-                action = function(slot)
-                    exports.ox_inventory:closeInventory()
-                    exports.sleepless_lootbox:preview('vip_case')
-                end
-            },
-        },
-    },
+	["vip_case"] = {
+		label = "VIP Case",
+		description = "Premium rewards for VIP members",
+		weight = 500,
+		stack = true,
+		close = false,
+		consume = 0,
+		buttons = {
+			{
+				label = 'Preview Case',
+				action = function(slot)
+					exports.ox_inventory:closeInventory()
+					exports.sleepless_lootbox:preview('vip_case')
+				end
+			},
+		},
+	},
 
 	["fishing_chest_money"] = {
 		label = "Chest",
@@ -23801,127 +23809,127 @@ return {
 	},
 
 	["kq_meth_low"] = {
-        label = "Meth (Low grade)",
-        weight = 100,
-        stack = true,
-        close = true,
-    },
+		label = "Meth (Low grade)",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
 
-    ["kq_meth_mid"] = {
-        label = "Meth (Medium grade)",
-        weight = 100,
-        stack = true,
-        close = true,
-    },
+	["kq_meth_mid"] = {
+		label = "Meth (Medium grade)",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
 
-    ["kq_meth_high"] = {
-        label = "Meth (High grade)",
-        weight = 100,
-        stack = true,
-        close = true,
-    },
+	["kq_meth_high"] = {
+		label = "Meth (High grade)",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
 
-    ["kq_ethanol"] = {
-        label = "Ethanol",
-        weight = 2000,
-        stack = true,
-        close = true,
-    },
+	["kq_ethanol"] = {
+		label = "Ethanol",
+		weight = 2000,
+		stack = true,
+		close = true,
+	},
 
-    ["kq_rubbing_alcohol"] = {
-        label = "Rubbing Alcohol",
-        weight = 2000,
-        stack = true,
-        close = true,
-    },
+	["kq_rubbing_alcohol"] = {
+		label = "Rubbing Alcohol",
+		weight = 2000,
+		stack = true,
+		close = true,
+	},
 
-    ["kq_meth_pills"] = {
-        label = "Pseudoephedrine",
-        weight = 100,
-        stack = true,
-        close = true,
-    },
+	["kq_meth_pills"] = {
+		label = "Pseudoephedrine",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
 
-    ["kq_used_car_battery"] = {
-        label = "Used car battery",
-        weight = 6000,
-        stack = true,
-        close = true,
-        consume = 0,
-        server = {
-            export = 'kq_meth2.UseBattery',
-        },
-    },
+	["kq_used_car_battery"] = {
+		label = "Used car battery",
+		weight = 6000,
+		stack = true,
+		close = true,
+		consume = 0,
+		server = {
+			export = 'kq_meth2.UseBattery',
+		},
+	},
 
-    ["kq_lithium_dirty"] = {
-        label = "Corroded lithium pack",
-        weight = 200,
-        stack = true,
-        close = true,
-    },
+	["kq_lithium_dirty"] = {
+		label = "Corroded lithium pack",
+		weight = 200,
+		stack = true,
+		close = true,
+	},
 
-    ["kq_lithium"] = {
-        label = "Lithium pack",
-        weight = 200,
-        stack = true,
-        close = true,
-    },
+	["kq_lithium"] = {
+		label = "Lithium pack",
+		weight = 200,
+		stack = true,
+		close = true,
+	},
 
-    ["kq_acetone"] = {
-        label = "Acetone",
-        weight = 2000,
-        stack = true,
-        close = true,
-    },
+	["kq_acetone"] = {
+		label = "Acetone",
+		weight = 2000,
+		stack = true,
+		close = true,
+	},
 
-    ["kq_ammonia"] = {
-        label = "Ammonia",
-        weight = 2000,
-        stack = true,
-        close = true,
-    },
+	["kq_ammonia"] = {
+		label = "Ammonia",
+		weight = 2000,
+		stack = true,
+		close = true,
+	},
 
-    ["kq_meth_table"] = {
-        label = "Meth Cooking Station",
-        weight = 3000,
-        stack = true,
-        close = true,
-        consume = 0,
-        server = {
-            export = 'kq_meth2.UseMethTable',
-        },
-    },
+	["kq_meth_table"] = {
+		label = "Meth Cooking Station",
+		weight = 3000,
+		stack = true,
+		close = true,
+		consume = 0,
+		server = {
+			export = 'kq_meth2.UseMethTable',
+		},
+	},
 
-    ["kq_meth_distiller"] = {
-        label = "Ethanol Distiller",
-        weight = 8000,
-        stack = true,
-        close = true,
-        consume = 0,
-        server = {
-            export = 'kq_meth2.UseDistiller',
-        },
-    },
+	["kq_meth_distiller"] = {
+		label = "Ethanol Distiller",
+		weight = 8000,
+		stack = true,
+		close = true,
+		consume = 0,
+		server = {
+			export = 'kq_meth2.UseDistiller',
+		},
+	},
 
-    ["kq_propane_bottle"] = {
-        label = "Propane Bottle",
-        weight = 6000,
-        stack = true,
-        close = true,
-    },
+	["kq_propane_bottle"] = {
+		label = "Propane Bottle",
+		weight = 6000,
+		stack = true,
+		close = true,
+	},
 
-    ["kq_propane_bottle_empty"] = {
-        label = "Empty Propane Bottle",
-        weight = 2000,
-        stack = true,
-        close = true,
-    },
+	["kq_propane_bottle_empty"] = {
+		label = "Empty Propane Bottle",
+		weight = 2000,
+		stack = true,
+		close = true,
+	},
 
-    ["kq_meth_lab_kit"] = {
-        label = "Meth cooking kit",
-        weight = 5000,
-        stack = true,
-        close = true,
-    },
+	["kq_meth_lab_kit"] = {
+		label = "Meth cooking kit",
+		weight = 5000,
+		stack = true,
+		close = true,
+	},
 
 }
