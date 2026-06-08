@@ -2497,6 +2497,22 @@ return {
 		}
 	},
 
+	bahamamamasmenu = {
+		name = 'Bahama Mamas Menu',
+		inventory = {
+			{ name = 'bahamamamas_menu', price = 0 },
+		},
+		locations = {
+			vec3(-1378.6364, -628.8165, 30.8701),
+			vec3(-1381.1115, -630.5071, 30.8701),
+		},
+		targets = {
+			{ loc = vec3(-1378.6364, -628.8165, 30.8701), length = 0.6, width = 0.5, heading = 19.4996, minZ = 31.4, maxZ = 32.3, distance = 2 },
+			{ loc = vec3(-1381.1115, -630.5071, 30.8701), length = 0.6, width = 0.5, heading = 109.9916, minZ = 31.4, maxZ = 32.3, distance = 2 }
+
+		}
+	},
+
 	yellowpunkmenu = {
 		name = 'Yellowpunk Menu',
 		groups = {
