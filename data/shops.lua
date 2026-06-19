@@ -3155,6 +3155,52 @@ return {
 		}
 	},
 
+	Library = {
+		name = 'Library',
+		inventory = {
+			{ name = 'moonlit_guidebook', price = 10, count = 75, currency = 'money' },
+		},
+		targets = {
+			{
+				ped = `a_f_m_fatbla_01`,
+				scenario = 'WORLD_HUMAN_STAND_MOBILE',
+				loc = vec3(-694.0624, -799.3196, 23.0191),
+				heading = 179.0504,
+			}
+		}
+	},
+
+	LibraryBooks1 = {
+		name = 'Library',
+		inventory = {
+			{ name = 'farmguide', price = 10, count = 75, currency = 'money' },
+		},
+		targets = {
+			{ loc = vec3(-688.9095, -803.3441, 24.0191), length = 0.6, width = 0.5, heading = 2.5098, minZ = 23.0, maxZ = 25.2, distance = 2 },
+		}
+	},
+
+	LibraryBooks2 = {
+		name = 'Library',
+		inventory = {
+			{ name = 'hunting_guide', price = 5, count = 75, currency = 'money' },
+		},
+		targets = {
+			{ loc = vec3(-688.6821, -794.2993, 24.0191), length = 1.5, width = 1.2, heading = 177.5342, minZ = 22.5, maxZ = 26.0, distance = 3 },
+		}
+	},
+
+	LibraryBooks3 = {
+		name = 'Library',
+		inventory = {
+			{ name = 'pacific_blueprints', price = 10, count = 75, currency = 'money' },
+		},
+		targets = {
+			{ loc = vec3(-699.9451, -794.0541, 24.0191), length = 0.6, width = 0.5, heading = 178.6375, minZ = 23.0, maxZ = 25.2, distance = 2 },
+		}
+	},
+
+
 	--[[VendingMachineDrinks = {
 		name = 'Vending Machine',
 		inventory = {
