@@ -1044,13 +1044,14 @@ return {
 			heading = 0,
 			minZ = 29.49,
 			maxZ = 32.09,
-			label = 'Open CyberHex Tray'
+			label = 'Open Secure Industries Tray'
 		},
-		name = 'cyberhex',
+		name = 'secureindustries',
 		label = 'Tray',
 		owner = false,
 		slots = 40,
 		weight = 40000,
+		groups = { ['secureindustries'] = 0 },
 	},
 	{
 		coords = vec3(-599.4645, -716.7106, 36.2849),
@@ -1061,13 +1062,14 @@ return {
 			heading = 0,
 			minZ = 29.49,
 			maxZ = 32.09,
-			label = 'Open CyberHex Storage'
+			label = 'Open Secure Industries Storage'
 		},
-		name = 'cyberhex2',
-		label = 'CyberHex Storage',
+		name = 'secureindustries2',
+		label = 'Secure Industries Storage',
 		owner = false,
 		slots = 70,
 		weight = 70000,
+		groups = { ['secureindustries'] = 0 },
 	},
 	{
 		coords = vec3(-578.3277, -715.0483, 116.8056),
@@ -1078,13 +1080,14 @@ return {
 			heading = 0,
 			minZ = 29.49,
 			maxZ = 32.09,
-			label = 'Open CyberHex Storage'
+			label = 'Open Secure Industries Storage'
 		},
-		name = 'cyberhex3',
-		label = 'CyberHex Storage',
+		name = 'secureindustries3',
+		label = 'Secure Industries Storage',
 		owner = false,
 		slots = 70,
 		weight = 70000,
+		groups = { ['secureindustries'] = 0 },
 	},
 	{
 		coords = vec3(-579.8907, -722.8758, 129.8837),
@@ -1095,13 +1098,14 @@ return {
 			heading = 148.5241,
 			minZ = 29.49,
 			maxZ = 32.09,
-			label = 'Open CyberHex Storage'
+			label = 'Open Secure Industries Storage'
 		},
-		name = 'cyberhex4',
-		label = 'CyberHex Storage',
+		name = 'secureindustries4',
+		label = 'Secure Industries Storage',
 		owner = false,
 		slots = 50,
 		weight = 200000,
+		groups = { ['secureindustries'] = 0 },
 	},
 	{
 		coords = vec3(-1039.890, -1440.868, 3.980),
