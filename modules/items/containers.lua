@@ -81,12 +81,6 @@ setContainerProperties('screwdriverset', {
 	whitelist = { 'screwdriver', 'drillbit' }	
 })
 
-setContainerProperties('keyring', {
-	slots = 20,
-	maxWeight = 7500,
-	whitelist = { 'vehiclekeys', 'moneywash_key', 'keya', 'keyb', 'keyc' }	
-})
-
 setContainerProperties('box_small', {
 	slots = 5,
 	maxWeight = 7500,
