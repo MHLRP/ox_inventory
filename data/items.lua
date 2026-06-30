@@ -17258,6 +17258,22 @@ return {
 		description = "Target Chip Implant",
 	},
 
+	["brokencyberarm"] = {
+		label = "Broken Cyber Arm",
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "Salvageable cyber arm hardware",
+	},
+
+	["brokencybereye"] = {
+		label = "Broken Cyber Eye",
+		weight = 150,
+		stack = true,
+		close = true,
+		description = "Cracked cyberoptic housing with fried optics",
+	},
+
 	["replaychip"] = {
 		label = "Neuro Replay Chip",
 		weight = 200,
