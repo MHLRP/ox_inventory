@@ -3101,6 +3101,9 @@ return {
 
 	WaterActivities = {
 		name = 'Water Activities',
+		blip = {
+			id = 471, colour = 3, scale = 0.6
+		},
 		inventory = {
 			{ name = 'bed1',        price = 60,  count = 30, currency = 'money' },
 			{ name = 'bed2',        price = 60,  count = 30, currency = 'money' },
@@ -3112,6 +3115,8 @@ return {
 			{ name = 'bananaboat',  price = 200, count = 15, currency = 'money' },
 			{ name = 'surfboard',   price = 100, count = 20, currency = 'money' },
 			{ name = 'ski',         price = 100, count = 20, currency = 'money' },
+			{ name = 'diving_gear', price = 200, count = 20, currency = 'money' },
+			{ name = 'diving_fill', price = 200, count = 20, currency = 'money' },
 		},
 		targets = {
 			{
