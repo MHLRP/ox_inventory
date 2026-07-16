@@ -6968,7 +6968,7 @@ return {
 	-- MORE INVENTORY ITEMS
 
 	['drone'] = {
-		label = 'LEO Drone',
+		label = 'Civilian Drone',
 		weight = 800,
 		stack = false,
 		close = true,
@@ -6979,15 +6979,27 @@ return {
 		},
 	},
 
+	['drone2'] = {
+		label = 'LEO Drone',
+		weight = 800,
+		stack = false,
+		close = true,
+		durability = true,
+		description = "Can be used for surveillance and other purposes.",
+		server = {
+			export = 'moonlit-drones.useDrone',
+		},
+	},
+
 	['cyberdrone'] = {
 		label = 'Cyber Drone',
 		weight = 400,
 		stack = false,
 		close = true,
-		durability = true,
-		description = "Your very own cyber drone",
-		server = {
-			export = 'moonlit-drones.useCyberdrone',
+		description = 'Your very own cybernetic companion',
+		client = {
+			event = 'cydroids:toggleProp',
+			args = { item = 'cyberdrone' },
 		},
 	},
 
