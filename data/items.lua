@@ -4403,7 +4403,7 @@ return {
 	['pickaxe'] = {
 		label = 'Pickaxe',
 		weight = 325,
-		stack = true,
+		stack = false,
 		consume = 0.05,
 		--degrade = 30, -- This is the time in minutes it takes for a pickaxe to degrade to 0
 		decay = true -- This is a feature that deletes the item when durability reaches 0 (ox_inventory v2.31.0 or later)
@@ -5252,6 +5252,56 @@ return {
 		description = "A note",
 	},
 
+	["notepad"] = {
+		label = "Notepad",
+		weight = 300,
+		stack = false,
+		close = true,
+		consume = 0,
+		allowArmed = false,
+		description = "A spiral notepad. Use it to write or continue writing.",
+		client = {
+			export = "moonlit-notes.useNotepad",
+		},
+		buttons = {
+			{
+				label = "Place",
+				action = function(slot)
+					exports["moonlit-notes"]:placeFromSlot(slot)
+				end,
+			},
+		},
+	},
+
+	["postit"] = {
+		label = "Post-it Note",
+		weight = 10,
+		stack = true,
+		close = true,
+		consume = 0,
+		allowArmed = false,
+		description = "A sticky note for short messages.",
+		client = {
+			export = "moonlit-notes.usePostit",
+		},
+		buttons = {
+			{
+				label = "Place",
+				action = function(slot)
+					exports["moonlit-notes"]:placeFromSlot(slot)
+				end,
+			},
+		},
+	},
+
+	["pen"] = {
+		label = "Pen",
+		weight = 10,
+		stack = true,
+		close = false,
+		description = "A pen for writing notes.",
+	},
+
 	["certificate"] = {
 		label = "Certificate",
 		weight = 0,
@@ -5457,9 +5507,9 @@ return {
 	["trojan_usb"] = {
 		label = "Trojan USB",
 		weight = 0,
-		stack = true,
+		stack = false,
 		close = true,
-		description = "Handy software to shut down some systems",
+		description = "Skimmer firmware on a stick. Limited data slots — use wisely.",
 	},
 
 	["labs_usb"] = {
@@ -6119,7 +6169,18 @@ return {
 		weight = 1000,
 		stack = false,
 		close = true,
-		description = "Extremely dangerous in the wrong hands",
+		description = "Extremely dangerous in the wrong hands. Neural integrity degrades with use.",
+	},
+
+	["brokencentralchip"] = {
+		label = "Broken Central Chip",
+		weight = 1000,
+		stack = false,
+		close = true,
+		description = "Fried neural OS. Scorched circuits from cyber-psychosis overload or long-term wear.",
+		client = {
+			image = 'centralchip.png',
+		},
 	},
 
 	["goldenphone"] = {
@@ -7491,7 +7552,7 @@ return {
 		weight = 120,
 		stack = true,
 		close = false,
-		description = "The real deal...",
+		description = "Heavy-duty drill. Required for Fleeca vault deposit boxes.",
 	},
 
 
@@ -10934,7 +10995,7 @@ return {
 		label = 'Fleeca Security Card',
 		weight = 350,
 		stack = true,
-		description = "Used at the terminal by Fleeca Bank Managers",
+		description = "Fleeca manager access card. Use at any Fleeca bank terminal with a drill to hit the vault.",
 	},
 
 	-- INSTRUMENTS: rock club update (IN PROGRESS)
