@@ -733,10 +733,10 @@ return {
 			{ name = 'weapon_fireextinguisher', label = 'Fire Extinguisher', price = 0, },
 		},
 		locations = {
-			vec3(880.326, -2231.510, 29.989),
+			vec3(314.084, -1275.460, 30.640),
 		},
 		targets = {
-			{ loc = vec3(880.326, -2231.510, 29.989), length = 1.5, width = 3.0, heading = 172.0, minZ = 41.5, maxZ = 43.0, distance = 3 },
+			{ loc = vec3(314.084, -1275.460, 30.640), length = 1.5, width = 3.0, heading = 172.0, minZ = 29.640, maxZ = 32.140, distance = 3 },
 		}
 	},
 
@@ -757,6 +757,19 @@ return {
 			{ name = 'cyberoil_green',  price = 3100, count = 50 },
 			{ name = 'cybernuts',       price = 301,  count = 50 },
 			{ name = 'cybercrackers',   price = 385,  count = 40 },
+		},
+	},
+
+	-- Opened by moonlit-vendingmachines (sleepless_interact) — no ox targets/locations
+	MoonlitRipperdocVending = {
+		name = 'Ripperdoc Vending',
+		inventory = {
+			{ name = 'bloodbag',        price = 2500 },
+			{ name = 'cybernuts',       price = 301 },
+			{ name = 'cyberoil_orange', price = 250 },
+			{ name = 'cyberoil_blue',   price = 250 },
+			{ name = 'cyberoil_green',  price = 250 },
+			{ name = 'cyberoil_red',    price = 250 },
 		},
 	},
 
@@ -1575,8 +1588,8 @@ return {
 			{
 				ped = `a_f_m_ktown_02`,
 				scenario = 'WORLD_HUMAN_STAND_MOBILE',
-				loc = vec3(197.4893, -987.4722, 28.4191),
-				heading = 250.9113,
+				loc = vec3(191.7375, -1005.8589, 28.3474),
+				heading = 336.3348,
 			}
 		}
 	},

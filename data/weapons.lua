@@ -342,6 +342,12 @@ return {
 			durability = 0.1,
 		},
 
+		['WEAPON_FRRC'] = {
+			label = 'Drip Torch',
+			weight = 1500,
+			durability = 0.1,
+		},
+
 		['WEAPON_GOLFCLUB'] = {
 			label = 'Golf Club',
 			weight = 330,
@@ -373,6 +379,12 @@ return {
 			weight = 4900,
 			durability = 0.04,
 			ammoname = 'ammo-45'
+		},
+
+		['WEAPON_HALLIGAN'] = {
+			label = 'Halligan',
+			weight = 2500,
+			durability = 0.1,
 		},
 
 		['WEAPON_HAMMER'] = {
@@ -712,6 +724,12 @@ return {
 			ammoname = 'ammo-rocket'
 		},
 
+		['WEAPON_SAW'] = {
+			label = 'Circular Saw',
+			weight = 5000,
+			durability = 0.1,
+		},
+
 		['WEAPON_SAWNOFFSHOTGUN'] = {
 			label = 'Sawn Off Shotgun',
 			weight = 2380,
@@ -796,6 +814,12 @@ return {
 			weight = 465,
 			durability = 0.1,
 			ammoname = 'ammo-45'
+		},
+
+		['WEAPON_SPREADER'] = {
+			label = 'Spreaders',
+			weight = 8000,
+			durability = 0.1,
 		},
 
 		['WEAPON_SPECIALCARBINE'] = {
