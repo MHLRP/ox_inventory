@@ -2290,6 +2290,10 @@ return {
 			{ name = 'fdcamera',                price = 0 },
 			{ name = 'WEAPON_FIREEXTINGUISHER', price = 0 },
 			{ name = 'WEAPON_HATCHET',          price = 0 },
+			{ name = 'WEAPON_HALLIGAN',         price = 0 },
+			{ name = 'WEAPON_SPREADER',         price = 0 },
+			{ name = 'WEAPON_SAW',              price = 0 },
+			{ name = 'WEAPON_FRRC',             price = 0 },
 		},
 		locations = {
 			vec3(-1030.0947, -1391.9705, 4.9732)
