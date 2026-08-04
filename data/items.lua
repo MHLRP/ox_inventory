@@ -676,7 +676,7 @@ return {
 	},
 
 	["egobar"] = {
-		label = "Egobar",
+		label = "NeuroByte Bar",
 		weight = 100,
 		degrade = 60 * 72,
 		decay = true,
@@ -869,7 +869,7 @@ return {
 		close = true,
 		description = "A simple sandwich for a simple day",
 		client = {
-			status = { hunger = 20 },
+			status = { hunger = 10 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = {
 				model = 'prop_sandwich_01',
@@ -1200,7 +1200,7 @@ return {
 		close = true,
 		description = "Rib flavored chips, made with real wood chips",
 		client = {
-			status = { hunger = 20 },
+			status = { hunger = 10 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = {
 				model = 'mxc_vend_prop_item_chips3',
@@ -1220,7 +1220,7 @@ return {
 		close = true,
 		description = "Cheese flavored chips, made with real rats",
 		client = {
-			status = { hunger = 20 },
+			status = { hunger = 10 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = {
 				model = 'mxc_vend_prop_item_chips1',
@@ -1764,7 +1764,7 @@ return {
 		close = true,
 		description = "For all the thirsty out there",
 		client = {
-			status = { thirst = 30 },
+			status = { thirst = 10 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = {
 				model = 'mxc_vend_prop_item_bottle5',
@@ -2711,7 +2711,7 @@ return {
 		close = true,
 		description = "Quinch your thirst with a sprunk",
 		client = {
-			status = { thirst = 60 },
+			status = { thirst = 10 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = {
 				model = 'apa_prop_cs_plastic_cup_01',

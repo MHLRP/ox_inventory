@@ -368,10 +368,12 @@ end
 -- Giftbox 
 Item('giftbox', function(event, item, inventory, data, slot)
     if event == 'usedItem' then
+        Inventory.AddItem(inventory, 'phone', 1)
         Inventory.AddItem(inventory, 'pineapple_express_joint', 1)
-		Inventory.AddItem(inventory, 'moonlit_guidebook', 1)
-		Inventory.AddItem(inventory, 'phone', 1)
-		Inventory.AddItem(inventory, 'id_card', 1)
+        Inventory.AddItem(inventory, 'id_card', 1)
+        Inventory.AddItem(inventory, 'moonlit_guidebook', 1)
+        Inventory.AddItem(inventory, 'sandwich', 5)
+        Inventory.AddItem(inventory, 'water', 5)
     end
 end)
 
