@@ -1946,8 +1946,6 @@ return {
 			{ name = 'WEAPON_GOLFCLUB',  price = 200,   currency = 'money' },
 			-- { name = 'keyring',          price = 200,   currency = 'money' },
 			{ name = 'pickaxe',          price = 500,   currency = 'money' },
-			{ name = 'fertilizer',       price = 100,   currency = 'money' },
-			{ name = 'wateringcan',      price = 75,    currency = 'money' },
 			{ name = 'frisbee',          price = 50,    currency = 'money' },
 			{ name = 'frisbee_r',        price = 50,    currency = 'money' },
 			{ name = 'frisbee_g',        price = 50,    currency = 'money' },
@@ -2000,14 +1998,6 @@ return {
 			{ name = 'umbrella',         price = 50,    count = 75,        currency = 'money' },
 			{ name = 'camera',           price = 100,   currency = 'money' },
 			{ name = 'videocam',         price = 150,   count = 40,        currency = 'money' },
-			{ name = 'zatwalllight',     price = 100,   currency = 'money' },
-			{ name = 'zatfan01',         price = 75,    currency = 'money' },
-			{ name = 'zatbluelight',     price = 100,   currency = 'money' },
-			{ name = 'zatceilinglight',  price = 200,   currency = 'money' },
-			{ name = 'zatwallfan',       price = 100,   currency = 'money' },
-			{ name = 'zatresfan',        price = 75,    currency = 'money' },
-			{ name = 'zatpatioheater',   price = 300,   currency = 'money' },
-			{ name = 'zatheater',        price = 100,   currency = 'money' },
 		},
 		targets = {
 			{
@@ -2842,15 +2832,32 @@ return {
 	},
 
 	GroceryStore19 = {
-		name = 'Grocery Store',
+		name = 'Grow Supplies',
 		inventory = {
-			{ name = 'zatweednutrition', price = 75, count = 30, currency = 'money' },
+			{ name = 'zatweednutrition',    price = 75,  count = 30, currency = 'money' },
+			{ name = 'fertilizer',          price = 100, currency = 'money' },
+			{ name = 'wateringcan',         price = 75,  currency = 'money' },
+			{ name = 'zatwaterbottleempty', price = 10,  count = 75, currency = 'money' },
+			{ name = 'zatwalllight',        price = 100, currency = 'money' },
+			{ name = 'zatbluelight',        price = 100, currency = 'money' },
+			{ name = 'zatceilinglight',     price = 200, currency = 'money' },
+			{ name = 'zatfan01',            price = 75,  currency = 'money' },
+			{ name = 'zatwallfan',          price = 100, currency = 'money' },
+			{ name = 'zatresfan',           price = 75,  currency = 'money' },
+			{ name = 'zatpatioheater',      price = 300, currency = 'money' },
+			{ name = 'zatheater',           price = 100, currency = 'money' },
 		},
 		locations = {
-			vec3(2667.2498, 3382.1660, 57.1163)
+			vec3(2667.8870, 3381.8743, 58.4906)
 		},
 		targets = {
-			{ loc = vec3(2667.2498, 3382.1660, 57.1163), length = 1.5, width = 1.5, heading = 346.6338, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{
+				ped = `a_m_m_farmer_01`,
+				scenario = 'WORLD_HUMAN_CLIPBOARD',
+				loc = vec3(2667.8870, 3381.8743, 57.4906),
+				heading = 345.1190,
+				distance = 3.5,
+			}
 		}
 	},
 
@@ -2877,7 +2884,6 @@ return {
 			{ name = 'bhotchocolatepowder',    price = 10,  count = 75,        currency = 'money' },
 			{ name = 'extrato-baunilha',       price = 10,  count = 75,        currency = 'money' },
 			{ name = 'bhoney',                 price = 10,  count = 75,        currency = 'money' },
-			{ name = 'zatwaterbottleempty',    price = 10,  count = 75,        currency = 'money' },
 			{ name = 'bice',                   price = 10,  count = 75,        currency = 'money' },
 			{ name = 'graham_cracker',         price = 10,  count = 75,        currency = 'money' },
 			{ name = 'bcaramelsyrup',          price = 10,  count = 75,        currency = 'money' },

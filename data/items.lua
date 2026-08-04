@@ -5960,7 +5960,7 @@ return {
 
 	["photo"] = {
 		label = "Saved Pic",
-		weight = 500,
+		weight = 1,
 		stack = false,
 		close = true,
 		description = "Brand new picture saved!",
