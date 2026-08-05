@@ -1344,32 +1344,62 @@ function Inventory.RemoveItem(inv, item, count, metadata, slot, ignoreTotal, str
 
 	inv = Inventory(inv) --[[@as OxInventory]]
 
-    if not inv?.slots then return false, 'invalid_inventory' end
+	if not inv?.slots then return false, 'invalid_inventory' end
 
-    if slot then
-        local slotItem = inv.items[slot]
+	if slot then
+		local slotItem = inv.items[slot]
 
-		if not itemSlots then lib.print.info('not slots') return false end
-		if totalCount and count > totalCount then
-			if item.name == 'money' then
-				local Walletcount = Inventory.GetItem(inv.id, 'wallet', nil, true)
+		if not slotItem then
+			return false, 'no_item_in_slot'
+		end
 
-				if Walletcount < 1 then return false, 'not_enough_items' end
+		if count > slotItem.count then
+			if not ignoreTotal then return false, 'not_enough_items_in_slot' end
 
-				local walletSlot = Inventory.GetSlotWithItem(inv.id, 'wallet')
-				local walletInv = Inventory.GetContainerFromSlot(inv.id, walletSlot.slot)
-				local walletCashCount = Inventory.Search(walletInv.id, 'count', 'money')
+			count = slotItem.count
+		end
+	end
 
-				if walletCashCount >= count then
-					if Inventory.RemoveItem(walletInv, item, count) then
-						TriggerClientEvent('ox_inventory:itemNotify', inv.id, { item.name, 'ui_removed', count })
-						return true
-					end
+	metadata = assertMetadata(metadata)
+	if strict == nil then strict = true end
+	local itemSlots, totalCount = Inventory.GetItemSlots(inv, item, metadata, strict)
+
+	if not itemSlots then return false end
+
+	if totalCount and count > totalCount then
+		-- Custom: allow removing money from wallet when inventory cash is short
+		if item.name == 'money' then
+			local Walletcount = Inventory.GetItem(inv.id, 'wallet', nil, true)
+
+			if Walletcount < 1 then return false, 'not_enough_items' end
+
+			local walletSlot = Inventory.GetSlotWithItem(inv.id, 'wallet')
+			local walletInv = Inventory.GetContainerFromSlot(inv.id, walletSlot.slot)
+			local walletCashCount = Inventory.Search(walletInv.id, 'count', 'money')
+
+			if walletCashCount >= count then
+				if Inventory.RemoveItem(walletInv, item, count) then
+					TriggerClientEvent('ox_inventory:itemNotify', inv.id, { item.name, 'ui_removed', count })
+					return true
 				end
-			else
-				if not ignoreTotal then return false, 'not_enough_items' end
-				count = totalCount
 			end
+
+			return false, 'not_enough_items'
+		end
+
+		if not ignoreTotal then return false, 'not_enough_items' end
+
+		count = totalCount
+	end
+
+	local removed, total, slots = 0, count, {}
+
+	if slot and itemSlots[slot] then
+		removed = count
+		local ok, result = Inventory.SetSlot(inv, item, -count, inv.items[slot].metadata, slot)
+
+		if not ok then
+			error(('Failed to remove %sx %s from inventory-%s:slot-%s (%s).'):format(count, item.name, inv.id, slot, result))
 		end
 
 		slots[#slots+1] = inv.items[slot] or slot
@@ -1379,20 +1409,15 @@ function Inventory.RemoveItem(inv, item, count, metadata, slot, ignoreTotal, str
 				if v == count then
 					TriggerClientEvent('ox_inventory:itemNotify', inv.id, { inv.items[k], 'ui_removed', v })
 
-		local wallet = nil
-
-		if slot and itemSlots[slot] then
-			removed = count
-			Inventory.SetSlot(inv, item, -count, inv.items[slot].metadata, slot)
-			slots[#slots+1] = inv.items[slot] or slot
-		elseif itemSlots and totalCount > 0 then
-			for k, v in pairs(itemSlots) do
-				if removed < total then
-					if v == count then
-						TriggerClientEvent('ox_inventory:itemNotify', inv.id, { inv.items[k], 'ui_removed', v })
+					removed = total
+					inv.weight -= inv.items[k].weight
+					inv.items[k] = nil
+					slots[#slots+1] = inv.items[k] or k
+				elseif v > count then
+					local ok, result = Inventory.SetSlot(inv, item, -count, inv.items[k].metadata, k)
 
 					if not ok then
-					    error(('Failed to remove %sx %s from inventory-%s:slot-%s (%s).'):format(count, item.name, inv.id, k, result))
+						error(('Failed to remove %sx %s from inventory-%s:slot-%s (%s).'):format(count, item.name, inv.id, k, result))
 					end
 
 					slots[#slots+1] = inv.items[k] or k
