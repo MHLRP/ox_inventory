@@ -431,32 +431,32 @@ lib.callback.register('ox_inventory:useItem', function(source, itemName, slot, m
 
                 if ostime > durability then
                     Items.UpdateDurability(inventory, data, item, 0)
-					return TriggerClientEvent('ox_inventory:notify', source, { type = 'error', description = locale('no_durability', label) })
-				elseif consume ~= 0 and consume < 1 then
-					local degrade = (data.metadata.degrade or item.degrade) * 60
-					local percentage = ((durability - ostime) * 100) / degrade
+                    return TriggerClientEvent('ox_inventory:notify', source, { type = 'error', description = locale('no_durability', label) })
+                elseif consume ~= 0 and consume < 1 then
+                    local degrade = (data.metadata.degrade or item.degrade) * 60
+                    local percentage = ((durability - ostime) * 100) / degrade
 
-					if percentage < consume * 100 then
-						return TriggerClientEvent('ox_inventory:notify', source, { type = 'error', description = locale('not_enough_durability', label) })
-					end
-				end
-			elseif durability <= 0 then
-				return TriggerClientEvent('ox_inventory:notify', source, { type = 'error', description = locale('no_durability', label) })
-			elseif consume ~= 0 and consume < 1 and durability < consume * 100 then
-				return TriggerClientEvent('ox_inventory:notify', source, { type = 'error', description = locale('not_enough_durability', label) })
-			end
+                    if percentage < consume * 100 then
+                        return TriggerClientEvent('ox_inventory:notify', source, { type = 'error', description = locale('not_enough_durability', label) })
+                    end
+                end
+            elseif durability <= 0 then
+                return TriggerClientEvent('ox_inventory:notify', source, { type = 'error', description = locale('no_durability', label) })
+            elseif consume ~= 0 and consume < 1 and durability < consume * 100 then
+                return TriggerClientEvent('ox_inventory:notify', source, { type = 'error', description = locale('not_enough_durability', label) })
+            end
 
-			if data.count > 1 and consume < 1 and consume > 0 and not Inventory.GetEmptySlot(inventory) then
-				return TriggerClientEvent('ox_inventory:notify', source, { type = 'error', description = locale('cannot_use', label) })
-			end
-		end
+            if data.count > 1 and consume < 1 and consume > 0 and not Inventory.GetEmptySlot(inventory) then
+                return TriggerClientEvent('ox_inventory:notify', source, { type = 'error', description = locale('cannot_use', label) })
+            end
+        end
 
         if item and data and data.count > 0 and data.name == item.name then
             local activeSlots <close> = GetLocks({
                 ('inventory-%s:slot-%s'):format(inventory.id, slot),
             })
 
-    		if not activeSlots then return end
+            if not activeSlots then return end
 
             data = { name = data.name, label = label, count = data.count, slot = slot, metadata = data.metadata, weight =
             data.weight }
@@ -465,13 +465,28 @@ lib.callback.register('ox_inventory:useItem', function(source, itemName, slot, m
                 if inventory.weapon then
                     local weapon = inventory.items[inventory.weapon]
 
-					if result ~= nil then
-						data.server = result
-					end
-				else
-					return TriggerClientEvent('ox_inventory:notify', source, { type = 'error', description = locale('item_not_enough', item.name) })
-				end
-			elseif not item.weapon and server.UseItem then
+                    if weapon and weapon?.metadata.durability > 0 then
+                        consume = nil
+                    end
+                else
+                    return false
+                end
+            elseif item.component or item.tint then
+                consume = 1
+                data.component = true
+            elseif consume then
+                if data.count >= consume then
+                    local result = item.cb and item.cb('usingItem', item, inventory, slot)
+
+                    if result == false then return end
+
+                    if result ~= nil then
+                        data.server = result
+                    end
+                else
+                    return TriggerClientEvent('ox_inventory:notify', source, { type = 'error', description = locale('item_not_enough', item.name) })
+                end
+            elseif not item.weapon and server.UseItem then
                 inventory.usingItem = data
                 -- This is used to call an external useItem function, i.e. ESX.UseItem
                 -- If an error is being thrown on item use there is no internal solution. We previously kept a list
