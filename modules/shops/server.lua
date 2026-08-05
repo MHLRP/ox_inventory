@@ -288,7 +288,7 @@ lib.callback.register('ox_inventory:buyItem', function(source, data)
 					return false, false, canAfford
 				end
 
-				if not TriggerEventHooks('buyItem', {
+				local hooks <close> = TriggerEventHooks('buyItem', {
 						source = source,
 						shopType = shopType,
 						shopId = shopId,
@@ -301,7 +301,9 @@ lib.callback.register('ox_inventory:buyItem', function(source, data)
 						price = fromData.price,
 						totalPrice = price,
 						currency = currency,
-					}) then
+					})
+
+				if not hooks.success then
 					return false
 				end
 

@@ -254,8 +254,9 @@ function client.openInventory(inv, data)
 		end
 
 		local targetCoords = targetPed and GetEntityCoords(targetPed)
+		local serverId = type(data) == 'table' and data.id or data
 
-		if not targetCoords or #(targetCoords - GetEntityCoords(playerPed)) > 2.0 or not (client.hasGroup(shared.police) or canOpenTarget(targetPed)) then
+		if not targetCoords or #(targetCoords - GetEntityCoords(playerPed)) > 2.0 or (not client.hasGroup(shared.police) and not Player(serverId).state.canSteal) then
 			TriggerEvent("fl:notify", "ERROR!", "", locale('inventory_right_access'), 5000, 1, 0)
 			return
 		end
@@ -1641,6 +1642,12 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 	TriggerEvent('ox_inventory:updateInventory', PlayerData.inventory)
 
 	client.interval = SetInterval(function()
+		local canSteal = canOpenTarget(playerPed)
+
+		if canSteal ~= client.player:get('canSteal') then
+			client.player:setr('canSteal', canSteal)
+		end
+
 		-- Periodic weapon state synchronization check
 		if PlayerData.loaded and not invOpen and not invBusy then
 			if not client.player:get('canUseWeapons') then
