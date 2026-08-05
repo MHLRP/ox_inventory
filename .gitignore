@@ -1,5 +1,6 @@
-modules/logs/**/
+.create_groups.js
 .cfg
 node_modules
 .idea
 web/package-lock.json
+.luarc.jsonc
