@@ -51,14 +51,14 @@ const InventoryControl: React.FC = () => {
           />
           <div className="inventory-control-button-wrapper">
             <div className="inventory-control-button-text"> {Locale.ui_use || 'Use'}</div>
-            <div className="inventory-control-button" ref={use}>
+            <div className="inventory-control-button" ref={(el) => { use(el); }}>
               <FaHandSparkles className="inventory-control-icon" />
             </div>
           </div>
 
           <div className="inventory-control-button-wrapper">
             <div className="inventory-control-button-text"> {Locale.ui_give || 'Give'}</div>
-            <div className="inventory-control-button" ref={give}>
+            <div className="inventory-control-button" ref={(el) => { give(el); }}>
               <FaHandshake className="inventory-control-icon" />
             </div>
           </div>

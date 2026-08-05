@@ -2,7 +2,7 @@ import { Inventory, SlotWithItem } from '../../typings';
 import React, { Fragment, useMemo } from 'react';
 import { Items } from '../../store/items';
 import { Locale } from '../../store/locale';
-import ReactMarkdown from 'react-markdown';
+import Markdown from '../utils/Markdown';
 import { useAppSelector } from '../../store';
 import ClockIcon from '../utils/icons/ClockIcon';
 import { getItemUrl } from '../../helpers';
@@ -48,7 +48,7 @@ const SlotTooltip: React.ForwardRefRenderFunction<
             <Divider />
             {description && (
               <div className="tooltip-description">
-                <ReactMarkdown className="tooltip-markdown">{description}</ReactMarkdown>
+                <Markdown className="tooltip-markdown" content={description} />
               </div>
             )}
             {inventoryType !== 'crafting' ? (
