@@ -345,7 +345,7 @@ function client.openInventory(inv, data)
 	--     end
 	-- end
 
-	plyState.invOpen = true
+	client.player:set('invOpen', true)
 
 	SetInterval(client.interval, 100)
 	SetNuiFocus(true, true)
@@ -607,7 +607,7 @@ local function useSlot(slot, noAnim)
 				return
 			end
 
-			if not plyState.canUseWeapons then
+			if not client.player:get('canUseWeapons') then
 				if GetConvar('ox_inventory:debug', 'false') == 'true' then
 					print("ox_inventory: Weapon blocked - canUseWeapons is false")
 				end
@@ -999,7 +999,7 @@ end
 -- Export functions (moved here so variables are defined)
 exports('getWeaponState', function()
 	return {
-		canUseWeapons = plyState.canUseWeapons,
+		canUseWeapons = client.player:get('canUseWeapons'),
 		invBusy = invBusy,
 		invOpen = invOpen,
 		playerLoaded = PlayerData.loaded,
@@ -1045,7 +1045,7 @@ end)
 RegisterCommand('weaponblocker', function()
 	local blockers = {}
 
-	if not plyState.canUseWeapons then
+	if not client.player:get('canUseWeapons') then
 		table.insert(blockers, "canUseWeapons = false")
 	end
 	if invBusy then
@@ -1643,8 +1643,8 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 	client.interval = SetInterval(function()
 		-- Periodic weapon state synchronization check
 		if PlayerData.loaded and not invOpen and not invBusy then
-			if not plyState.canUseWeapons then
-				plyState:set('canUseWeapons', true, false)
+			if not client.player:get('canUseWeapons') then
+				client.player:set('canUseWeapons', true)
 			end
 		end
 
@@ -1865,10 +1865,10 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 		end
 	end)
 
-	plyState:set('invBusy', false, true)
-	plyState:set('invOpen', false, false)
-	plyState:set('invHotkeys', true, false)
-	plyState:set('canUseWeapons', true, false)
+	client.player:setr('invBusy', false)
+	client.player:set('invOpen', false)
+	client.player:set('invHotkeys', true)
+	client.player:set('canUseWeapons', true)
 
 	-- Force update local variables to ensure synchronization
 	invBusy = false
