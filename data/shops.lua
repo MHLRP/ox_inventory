@@ -1195,7 +1195,6 @@ return {
 			{ name = 'weedscissors',          price = 0, count = 25,  currency = 'money' },
 			{ name = 'strawberry_kush_joint', price = 0, count = 50,  currency = 'money' },
 			{ name = 'golden_goat_joint',     price = 0, count = 50,  currency = 'money' },
-			{ name = 'zatweedseed',           price = 0, count = 25,  currency = 'money' },
 			{ name = 'weedgrinder',           price = 0, count = 30,  currency = 'money' },
 			{ name = 'dabrig',                price = 0, count = 20,  currency = 'money' },
 			{ name = 'bong',                  price = 0, count = 25,  currency = 'money' },
