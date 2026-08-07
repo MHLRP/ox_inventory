@@ -7352,7 +7352,7 @@ return {
 		consume = 0,
 		stack = false,
 		client = {
-			export = 'moonlit-megaphone.useMegaphone',
+			export = 'qb-smallresources.useMegaphone',
 		}
 	},
 
