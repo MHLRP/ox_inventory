@@ -20122,7 +20122,7 @@ return {
 		allowArmed = true,
 		weight = 10,
 		server = {
-			export = 'MrNewbWeaponTints.newbserialfile'
+			export = 'qb-smallresources.newbserialfile'
 		},
 		consume = 0.50
 	},
@@ -20134,7 +20134,7 @@ return {
 		allowArmed = true,
 		weight = 10,
 		server = {
-			export = 'MrNewbWeaponTints.setweapontint',
+			export = 'qb-smallresources.setweapontint',
 			tint = 1
 		}
 	},
@@ -20146,7 +20146,7 @@ return {
 		allowArmed = true,
 		weight = 10,
 		server = {
-			export = 'MrNewbWeaponTints.setweapontint',
+			export = 'qb-smallresources.setweapontint',
 			tint = 2
 		}
 	},
@@ -20158,7 +20158,7 @@ return {
 		allowArmed = true,
 		weight = 10,
 		server = {
-			export = 'MrNewbWeaponTints.setweapontint',
+			export = 'qb-smallresources.setweapontint',
 			tint = 3
 		}
 	},
@@ -20170,7 +20170,7 @@ return {
 		allowArmed = true,
 		weight = 10,
 		server = {
-			export = 'MrNewbWeaponTints.setweapontint',
+			export = 'qb-smallresources.setweapontint',
 			tint = 4
 		}
 	},
@@ -20182,7 +20182,7 @@ return {
 		allowArmed = true,
 		weight = 10,
 		server = {
-			export = 'MrNewbWeaponTints.setweapontint',
+			export = 'qb-smallresources.setweapontint',
 			tint = 5
 		}
 	},
@@ -20194,7 +20194,7 @@ return {
 		allowArmed = true,
 		weight = 10,
 		server = {
-			export = 'MrNewbWeaponTints.setweapontint',
+			export = 'qb-smallresources.setweapontint',
 			tint = 6
 		}
 	},
@@ -20206,7 +20206,7 @@ return {
 		allowArmed = true,
 		weight = 10,
 		server = {
-			export = 'MrNewbWeaponTints.setweapontint',
+			export = 'qb-smallresources.setweapontint',
 			tint = 7
 		}
 	},
