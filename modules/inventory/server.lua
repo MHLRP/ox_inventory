@@ -136,7 +136,7 @@ local function loadInventoryData(data, player, ignoreSecurityChecks)
 			if data.netid then
 				entity = NetworkGetEntityFromNetworkId(data.netid)
 
-				if not entity then
+				if not entity or entity == 0 or not DoesEntityExist(entity) then
 					return shared.info('Failed to load vehicle inventory data (no entity exists with given netid).')
 				end
 
@@ -146,13 +146,15 @@ local function loadInventoryData(data, player, ignoreSecurityChecks)
 
 				for i = 1, #vehicles do
 					local vehicle = vehicles[i]
-					local _plate = GetVehicleNumberPlateText(vehicle)
+					if DoesEntityExist(vehicle) then
+						local _plate = GetVehicleNumberPlateText(vehicle)
 
-					if _plate:find(plate) then
-						entity = vehicle
-                        data.entityId = entity
-						data.netid = NetworkGetNetworkIdFromEntity(entity)
-						break
+						if _plate and _plate:find(plate) then
+							entity = vehicle
+							data.entityId = entity
+							data.netid = NetworkGetNetworkIdFromEntity(entity)
+							break
+						end
 					end
 				end
 
@@ -174,7 +176,7 @@ local function loadInventoryData(data, player, ignoreSecurityChecks)
             local dbId
 
             if server.getOwnedVehicleId then
-                dbId = server.getOwnedVehicleId(entity)
+                dbId = server.getOwnedVehicleId(entity) or data.id:sub(6)
             else
                 dbId = data.id:sub(6)
             end
