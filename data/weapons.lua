@@ -203,49 +203,49 @@ return {
 
 		['WEAPON_SCIFI'] = {
 			label = 'Sci-Fi Rifle',
-			weight = 3100,
+			weight = 3000,
 			durability = 0.03,
 			ammoname = 'ammo-rifle'
 		},
 
 		['WEAPON_ROOKVOLVER'] = {
 			label = 'Rook Revolver',
-			weight = 2260,
+			weight = 700,
 			durability = 0.1,
 			ammoname = 'ammo-44'
 		},
 
 		['WEAPON_GHC'] = {
 			label = 'Cyber Pistol Purple',
-			weight = 1000,
+			weight = 700,
 			durability = 0.2,
 			ammoname = 'ammo-9'
 		},
 
 		['WEAPON_LAW'] = {
 			label = 'Cyber Pistol Blue',
-			weight = 1000,
+			weight = 700,
 			durability = 0.2,
 			ammoname = 'ammo-9'
 		},
 
 		['WEAPON_LAW2'] = {
 			label = 'Cyber Pistol Red',
-			weight = 1000,
+			weight = 700,
 			durability = 0.2,
 			ammoname = 'ammo-9'
 		},
 
 		['WEAPON_LAW3'] = {
 			label = 'Cyber Pistol Yellow',
-			weight = 1000,
+			weight = 700,
 			durability = 0.2,
 			ammoname = 'ammo-9'
 		},
 
 		['WEAPON_LAW4'] = {
 			label = 'Cyber Pistol Orange',
-			weight = 1000,
+			weight = 700,
 			durability = 0.2,
 			ammoname = 'ammo-9'
 		},
@@ -921,21 +921,21 @@ return {
 
 		['WEAPON_SKIPPY'] = {
 			label = 'CyberHeX 1732 Arms',
-			weight = 1130,
+			weight = 700,
 			durability = 0.2,
 			ammoname = 'ammo-9',
 		},
 
 		['WEAPON_SILVER'] = {
 			label = 'CyberHeX 1193 Pheonix',
-			weight = 1400,
+			weight = 700,
 			durability = 0.2,
 			ammoname = 'ammo-9',
 		},
 
 		['WEAPON_MASAMUNE'] = {
 			label = 'CyberHex 1337 Coded',
-			weight = 3100,
+			weight = 3000,
 			durability = 0.03,
 			ammoname = 'ammo-rifle',
 		},
@@ -1074,7 +1074,7 @@ return {
 
 		['at_clip_ghc'] = {
 			label = 'Cyber Pistol Purple Magazine',
-			weight = 150,
+			weight = 40,
 			type = 'magazine',
 			client = {
 				component = { `COMPONENT_GHC_CLIP_01` },

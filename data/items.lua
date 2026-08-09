@@ -6166,7 +6166,7 @@ return {
 
 	["centralchip"] = {
 		label = "Central Chip",
-		weight = 1000,
+		weight = 180,
 		stack = false,
 		close = true,
 		description = "Extremely dangerous in the wrong hands. Neural integrity degrades with use.",
@@ -6174,7 +6174,7 @@ return {
 
 	["brokencentralchip"] = {
 		label = "Broken Central Chip",
-		weight = 1000,
+		weight = 180,
 		stack = false,
 		close = true,
 		description = "Fried neural OS. Scorched circuits from cyber-psychosis overload or long-term wear.",
@@ -17205,7 +17205,7 @@ return {
 
 	["cybereye"] = {
 		label = "Cyber Eye",
-		weight = 1000,
+		weight = 30,
 		stack = false,
 		close = true,
 		description = "Cyberoptics Implant",
@@ -17213,7 +17213,7 @@ return {
 
 	["leftcyberleg"] = {
 		label = "CyberHeX Left Leg",
-		weight = 2500,
+		weight = 8000,
 		stack = false,
 		close = true,
 		description = "Left Cyberleg Implant",
@@ -17221,7 +17221,7 @@ return {
 
 	["rightcyberleg"] = {
 		label = "CyberHeX Right Leg",
-		weight = 2500,
+		weight = 8000,
 		stack = false,
 		close = true,
 		description = "Right Cyberleg Implant",
@@ -17229,7 +17229,7 @@ return {
 
 	["gorillaarms"] = {
 		label = "CyberHeX Gorilla Arms",
-		weight = 1800,
+		weight = 8000,
 		stack = false,
 		close = true,
 		description = "Cyber Gorilla Arms",
@@ -17237,7 +17237,7 @@ return {
 
 	["mantisblades"] = {
 		label = "CyberHeX Mantis Blades",
-		weight = 10000,
+		weight = 4500,
 		stack = false,
 		close = true,
 		description = "Regular Cyber Blades",
@@ -17245,7 +17245,7 @@ return {
 
 	["mantisbladesblack"] = {
 		label = "CyberHeX Mantis Blades Black",
-		weight = 10000,
+		weight = 4500,
 		stack = false,
 		close = true,
 		description = "Black Cyber Blades",
@@ -17253,7 +17253,7 @@ return {
 
 	["mantisbladeswhite"] = {
 		label = "CyberHeX Mantis Blades White",
-		weight = 10000,
+		weight = 4500,
 		stack = false,
 		close = true,
 		description = "White Cyber Blades",
@@ -17261,7 +17261,7 @@ return {
 
 	["mantisbladespink"] = {
 		label = "CyberHeX Mantis Blades Pink",
-		weight = 10000,
+		weight = 4500,
 		stack = false,
 		close = true,
 		description = "Pink Cyber Blades",
@@ -17269,7 +17269,7 @@ return {
 
 	["mantisbladesgray"] = {
 		label = "CyberHeX Mantis Blades Gray",
-		weight = 10000,
+		weight = 4500,
 		stack = false,
 		close = true,
 		description = "Gray Cyber Blades",
@@ -17277,7 +17277,7 @@ return {
 
 	["mantisbladesred"] = {
 		label = "CyberHeX Mantis Blades Red",
-		weight = 10000,
+		weight = 4500,
 		stack = false,
 		close = true,
 		description = "Red Cyber Blades",
@@ -17285,7 +17285,7 @@ return {
 
 	["mantisbladesblue"] = {
 		label = "CyberHeX Mantis Blades Blue",
-		weight = 10000,
+		weight = 4500,
 		stack = false,
 		close = true,
 		description = "Blue Cyber Blades",
@@ -17293,7 +17293,7 @@ return {
 
 	["mantisbladesyellow"] = {
 		label = "CyberHeX Mantis Blades Yellow",
-		weight = 10000,
+		weight = 4500,
 		stack = false,
 		close = true,
 		description = "Yellow Cyber Blades",
@@ -17301,7 +17301,7 @@ return {
 
 	["thermalchip"] = {
 		label = "CyberHeX Thermal Chip",
-		weight = 200,
+		weight = 15,
 		stack = false,
 		close = true,
 		description = "Thermal Vision Chip Implant",
@@ -17309,7 +17309,7 @@ return {
 
 	["nightvisionchip"] = {
 		label = "CyberHeX Nightvision Chip",
-		weight = 200,
+		weight = 15,
 		stack = false,
 		close = true,
 		description = "Nightvision Chip Implant",
@@ -17317,7 +17317,7 @@ return {
 
 	["enhancedchip"] = {
 		label = "Enhanced Vision Chip",
-		weight = 200,
+		weight = 15,
 		stack = false,
 		close = true,
 		description = "Enhanced Vision Chip Implant",
@@ -17325,7 +17325,7 @@ return {
 
 	["targetchip"] = {
 		label = "Target Chip",
-		weight = 200,
+		weight = 15,
 		stack = false,
 		close = true,
 		description = "Target Chip Implant",
@@ -17349,7 +17349,7 @@ return {
 
 	["replaychip"] = {
 		label = "Neuro Replay Chip",
-		weight = 200,
+		weight = 180,
 		stack = false,
 		close = true,
 		description = "Neural memory imprint chip — replay recent moments as analyzable neuro-replay data.",
@@ -17357,7 +17357,7 @@ return {
 
 	["cyberinhaler"] = {
 		label = "CyberHeX Inhaler",
-		weight = 100,
+		weight = 40,
 		stack = true,
 		close = true,
 		description = "20 Puffs",
@@ -17385,7 +17385,7 @@ return {
 
 	["fusionreactor"] = {
 		label = "Fusion Reactor",
-		weight = 5000,
+		weight = 15000,
 		stack = false,
 		close = true,
 		description = "Advanced temporal displacement core. Must be installed by CyberHeX technicians.",
@@ -20889,7 +20889,7 @@ return {
 	},
 
 	["cyber_jetpack"] = {
-		weight = 5000,
+		weight = 18000,
 		stack = false,
 		close = true,
 		description = "Cyber Jetpack",
@@ -20897,28 +20897,28 @@ return {
 
 	['mando_jetpack'] = {
 		label = 'Mando Jetpack',
-		weight = 5000,
+		weight = 18000,
 		stack = false,
 		close = true,
 		description = "Mando Jetpack",
 	},
 	['optimus_jetpack'] = {
 		label = 'Optimus Jetpack',
-		weight = 5000,
+		weight = 18000,
 		stack = false,
 		close = true,
 		description = "Optimus Jetpack",
 	},
 	['dark_jetpack'] = {
 		label = 'Dark Jetpack',
-		weight = 5000,
+		weight = 18000,
 		stack = false,
 		close = true,
 		description = "Dark Jetpack",
 	},
 	['metal_jetpack'] = {
 		label = 'Metal Jetpack',
-		weight = 5000,
+		weight = 18000,
 		stack = false,
 		close = true,
 		description = "Metal Jetpack",
@@ -21185,7 +21185,7 @@ return {
 
 	['cydroid1'] = {
 		label = 'Cydroid Pet',
-		weight = 400,
+		weight = 800,
 		stack = false,
 		close = true,
 		description = 'Just a cute robotic friend',
@@ -21197,7 +21197,7 @@ return {
 
 	['cydroid2'] = {
 		label = 'Cydroid Pet',
-		weight = 400,
+		weight = 800,
 		stack = false,
 		close = true,
 		description = 'Just a cute robotic friend',
@@ -21209,7 +21209,7 @@ return {
 
 	['cydroid3'] = {
 		label = 'Cydroid Pet',
-		weight = 400,
+		weight = 800,
 		stack = false,
 		close = true,
 		description = 'Just a cute robotic friend',
