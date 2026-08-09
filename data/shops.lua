@@ -1944,7 +1944,7 @@ return {
 			{ name = 'sprayremover',     price = 100,  currency = 'money' },
 			{ name = 'wallet',           price = 50,   currency = 'money' },
 			{ name = 'gasmask',          price = 1000, currency = 'money' },
-			{ name = 'WEAPON_GOLFCLUB',  price = 200,  currency = 'money' },
+			{ name = 'WEAPON_GOLFCLUB',  price = 20,  currency = 'money' },
 			-- { name = 'keyring',          price = 200,   currency = 'money' },
 			{ name = 'pickaxe',          price = 250,  currency = 'money' },
 			{ name = 'frisbee',          price = 50,   currency = 'money' },
