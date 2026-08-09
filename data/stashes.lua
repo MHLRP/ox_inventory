@@ -410,24 +410,6 @@ return {
 		weight = 70000,
 	},
 	{
-		coords = vec3(16.14, -1598.64, 28.4),
-		target = {
-			loc = vec3(16.14, -1598.64, 28.4),
-			length = 1.2,
-			width = 5.6,
-			heading = 0,
-			minZ = 29.49,
-			maxZ = 32.09,
-			label = 'Open Fridge'
-		},
-		name = 'tacoshop',
-		label = 'Fridge',
-		owner = false,
-		slots = 70,
-		weight = 70000,
-		groups = { ['taco'] = 0 }
-	},
-	{
 		coords = vec3(15.88, -1602.46, 29.39),
 		target = {
 			loc = vec3(15.88, -1602.46, 29.39),
@@ -676,24 +658,6 @@ return {
 		groups = { ['lux'] = 0 }
 	},
 	{
-		coords = vec3(77.5602, -357.0329, 205.8398),
-		target = {
-			loc = vec3(77.5602, -357.0329, 205.8398),
-			length = 1.2,
-			width = 5.6,
-			heading = 0,
-			minZ = 29.49,
-			maxZ = 32.09,
-			label = 'Fridge'
-		},
-		name = 'luxstash2',
-		label = 'Fridge',
-		owner = true,
-		slots = 70,
-		weight = 70000,
-		groups = { ['lux'] = 0 }
-	},
-	{
 		coords = vec3(101.7993, -364.2344, 43.4875),
 		target = {
 			loc = vec3(101.7993, -364.2344, 43.4875),
@@ -880,23 +844,6 @@ return {
 		label = "Closet Storage",
 		owner = false,
 		slots = 60,
-		weight = 200000,
-	},
-	{
-		coords = vec3(-1044.1195, -1392.9631, 4.9819),
-		target = {
-			loc = vec3(-1044.1195, -1392.9631, 4.9819),
-			length = 1.2,
-			width = 5.6,
-			heading = 160.7149,
-			minZ = 29.49,
-			maxZ = 32.09,
-			label = 'Fridge'
-		},
-		name = 'firefridge',
-		label = "Storage Fridge",
-		owner = false,
-		slots = 40,
 		weight = 200000,
 	},
 	{
