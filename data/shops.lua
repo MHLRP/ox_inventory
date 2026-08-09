@@ -1699,7 +1699,7 @@ return {
 			}
 		}
 	},
-
+	
 	Bar5 = {
 		society = "medusamechanics",
 		name = 'Bar',
@@ -1711,13 +1711,13 @@ return {
 			{ name = 'sprunk',         price = 12,  count = 100, currency = 'money' },
 			{ name = 'chips_cheese',   price = 16,  count = 75,  currency = 'money' },
 			{ name = 'chips_paprika',  price = 16,  count = 75,  currency = 'money' },
-			{ name = 'pitahummus',     price = 200, count = 30,  currency = 'money' },
-			{ name = 'olives',         price = 160, count = 40,  currency = 'money' },
-			{ name = 'ouzo',           price = 180, count = 30,  currency = 'money' },
-			{ name = 'pitagyros',      price = 220, count = 25,  currency = 'money' },
-			{ name = 'greeksalad',     price = 160, count = 40,  currency = 'money' },
-			{ name = 'pineapplejuice', price = 220, count = 25,  currency = 'money' },
-			{ name = 'peanutbowl',     price = 180, count = 30,  currency = 'money' },
+			{ name = 'pitahummus',     price = 100, count = 30,  currency = 'money' },
+			{ name = 'olives',         price = 80, count = 40,  currency = 'money' },
+			{ name = 'ouzo',           price = 90, count = 30,  currency = 'money' },
+			{ name = 'pitagyros',      price = 110, count = 25,  currency = 'money' },
+			{ name = 'greeksalad',     price = 80, count = 40,  currency = 'money' },
+			{ name = 'pineapplejuice', price = 110, count = 25,  currency = 'money' },
+			{ name = 'peanutbowl',     price = 90, count = 30,  currency = 'money' },
 		},
 		targets = {
 			{
