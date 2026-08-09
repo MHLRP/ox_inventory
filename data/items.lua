@@ -20537,7 +20537,7 @@ return {
 		degrade = 60 * 72,
 		stack = true,
 		close = true,
-		description = 'Metal scrap, cyber nuts, and cyber oil. Built for cyborgs.',
+		description = 'Scrap metal, cyber nuts, and cyber oil. Built for cyborgs.',
 		client = {
 			status = { hunger = 55 },
 			prop = {
