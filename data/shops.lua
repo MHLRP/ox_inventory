@@ -1699,7 +1699,7 @@ return {
 			}
 		}
 	},
-	
+
 	Bar5 = {
 		society = "medusamechanics",
 		name = 'Bar',
@@ -2849,13 +2849,13 @@ return {
 			{ name = 'zatheater',           price = 100, currency = 'money' },
 		},
 		locations = {
-			vec3(2667.8870, 3381.8743, 58.4906)
+			vec3(2667.8870, 3381.8743, 57.4906)
 		},
 		targets = {
 			{
 				ped = `a_m_m_farmer_01`,
 				scenario = 'WORLD_HUMAN_CLIPBOARD',
-				loc = vec3(2667.8870, 3381.8743, 57.4906),
+				loc = vec3(2667.8870, 3381.8743, 56.4906),
 				heading = 345.1190,
 				distance = 3.5,
 			}
