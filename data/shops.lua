@@ -1013,11 +1013,39 @@ return {
 		}
 	},
 
+	-- Sandy BM PED (New) — arms / ammo / keys
 	BlackMarketArms = {
 		name = 'Black Market',
 		inventory = {
 			{ name = 'WEAPON_CERAMICPISTOL', price = 30000, metadata = { registered = false }, currency = 'black_money' },
-			--{ name = 'rag',                      price = 800,     currency = 'black_money' },
+			{ name = 'keya',                 price = 4000,  currency = 'black_money' },
+			{ name = 'moneywash_key',        price = 6000,  currency = 'black_money' },
+			{ name = 'ammo-rifle',           price = 25,    currency = 'black_money' },
+			{ name = 'ammo-rifle2',          price = 25,    currency = 'black_money' },
+			{ name = 'ammo-22',              price = 15,    currency = 'black_money' },
+			{ name = 'ammo-38',              price = 15,    currency = 'black_money' },
+			{ name = 'ammo-44',              price = 15,    currency = 'black_money' },
+			{ name = 'ammo-45',              price = 15,    currency = 'black_money' },
+			{ name = 'ammo-50',              price = 15,    currency = 'black_money' },
+			{ name = 'ammo-9',               price = 15,    currency = 'black_money' },
+			{ name = 'ammo-shotgun',         price = 50,    currency = 'black_money' },
+			{ name = 'kq_acetone',           price = 225,   count = 75,                        currency = 'black_money' },
+		},
+		targets = {
+			{
+				ped = `a_m_m_hillbilly_01`,
+				scenario = 'WORLD_HUMAN_SMOKING',
+				loc = vec3(-679.2427, 5790.9507, 16.3210),
+				heading = 241.0758,
+			},
+		}
+	},
+
+	-- Docks — same stock, third-eye shelving (moved)
+	BlackMarketDocks = {
+		name = 'Black Market',
+		inventory = {
+			{ name = 'WEAPON_CERAMICPISTOL', price = 30000, metadata = { registered = false }, currency = 'black_money' },
 			{ name = 'keya',                 price = 4000,  currency = 'black_money' },
 			{ name = 'moneywash_key',        price = 6000,  currency = 'black_money' },
 			{ name = 'ammo-rifle',           price = 25,    currency = 'black_money' },
@@ -1032,16 +1060,10 @@ return {
 			{ name = 'kq_acetone',           price = 225,   count = 75,                        currency = 'black_money' },
 		},
 		locations = {
-			vec3(-679.2427, 5790.9507, 16.1810)
+			vec3(1014.520, -3237.868, -18.563)
 		},
 		targets = {
-			{
-				ped = `a_m_m_hillbilly_01`,
-				scenario = 'WORLD_HUMAN_STAND_MOBILE',
-				loc = vec3(-679.2427, 5790.9507, 16.3210),
-				heading = 241.0758,
-			},
-			{ loc = vec3(-679.2427, 5790.9507, 16.1810), length = 0.5, width = 3.0, heading = 298.1621, minZ = -18.75, maxZ = -16.75, distance = 3 }
+			{ loc = vec3(1014.520, -3237.868, -18.563), length = 2.0, width = 2.0, heading = 298.1621, minZ = -18.75, maxZ = -16.75, distance = 2.5 },
 		}
 	},
 
