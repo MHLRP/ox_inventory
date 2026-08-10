@@ -175,13 +175,20 @@ local function loadInventoryData(data, player, ignoreSecurityChecks)
 			local storage = Vehicles[data.type].models[model] or Vehicles[data.type][class]
             local dbId
 
+            -- QBX/ox/nd use numeric vehicle ids. Never fall back to plate here — that causes
+            -- "Truncated incorrect DECIMAL value" when saving trunk/glovebox against `id`.
             if server.getOwnedVehicleId then
-                dbId = server.getOwnedVehicleId(entity) or data.id:sub(6)
+                dbId = server.getOwnedVehicleId(entity)
             else
                 dbId = data.id:sub(6)
             end
 
             inventory = Inventory.Create(data.id, plate, data.type, storage[1], 0, storage[2], false, nil, nil, dbId)
+
+            -- Unowned / unresolved vehicles stay session-only (no player_vehicles row to update)
+            if inventory and not dbId then
+                inventory.datastore = true
+            end
 		end
 	elseif data.type == 'policeevidence' then
 		inventory = Inventory.Create(data.id, locale('police_evidence'), data.type, 100, 0, 100000, false)
@@ -685,7 +692,8 @@ function Inventory.UpdateVehicle(oldPlate, newPlate)
 
 		Inventories[trunk.id] = nil
 		trunk.label = newPlate
-		trunk.dbId = type(trunk.id) == 'number' and trunk.dbId or newPlate
+		-- Keep numeric DB ids (qbx/ox/nd). Only swap plate-based dbIds (esx).
+		trunk.dbId = type(trunk.dbId) == 'number' and trunk.dbId or newPlate
 		trunk.id = ('trunk%s'):format(newPlate)
 		Inventories[trunk.id] = trunk
 	end
@@ -695,7 +703,7 @@ function Inventory.UpdateVehicle(oldPlate, newPlate)
 
 		Inventories[glove.id] = nil
 		glove.label = newPlate
-		glove.dbId = type(glove.id) == 'number' and glove.dbId or newPlate
+		glove.dbId = type(glove.dbId) == 'number' and glove.dbId or newPlate
 		glove.id = ('glove%s'):format(newPlate)
 		Inventories[glove.id] = glove
 	end
@@ -728,8 +736,10 @@ function Inventory.Save(inv)
     if inv.player then
         return shared.framework ~= 'esx' and db.savePlayer(inv.owner, data)
     elseif inv.type == 'trunk' then
+        if not inv.dbId or (shared.framework == 'qbx' and type(inv.dbId) ~= 'number') then return end
         return db.saveTrunk(inv.dbId, data)
     elseif inv.type == 'glovebox' then
+        if not inv.dbId or (shared.framework == 'qbx' and type(inv.dbId) ~= 'number') then return end
         return db.saveGlovebox(inv.dbId, data)
     end
 
@@ -2398,10 +2408,12 @@ local function prepareInventorySave(inv, buffer, time)
     end
 
     if inv.type == 'trunk' then
+        if not inv.dbId or (shared.framework == 'qbx' and type(inv.dbId) ~= 'number') then return end
         return 2, { data, inv.dbId }
     end
 
     if inv.type == 'glovebox' then
+        if not inv.dbId or (shared.framework == 'qbx' and type(inv.dbId) ~= 'number') then return end
         return 3, { data, inv.dbId }
     end
 

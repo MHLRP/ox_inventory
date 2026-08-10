@@ -100,16 +100,20 @@ function server.isPlayerBoss(playerId, group, grade)
 end
 
 ---@param entityId number
----@return number | string | nil
+---@return number | nil
 ---@diagnostic disable-next-line: duplicate-set-field
 function server.getOwnedVehicleId(entityId)
     if not entityId or entityId == 0 or not DoesEntityExist(entityId) then return end
 
     local stateId = Entity(entityId).state.vehicleid
-    if stateId then return stateId end
+    if type(stateId) == 'number' then return stateId end
 
     local plate = GetVehicleNumberPlateText(entityId)
     if not plate or plate == '' then return end
 
-    return exports.qbx_vehicles:GetVehicleIdByPlate(plate)
+    local vehicleId = exports.qbx_vehicles:GetVehicleIdByPlate(plate)
+    if type(vehicleId) == 'number' then
+        Entity(entityId).state:set('vehicleid', vehicleId, false)
+        return vehicleId
+    end
 end
