@@ -2275,17 +2275,17 @@ return {
 	Ammo = {
 		['ammo-22'] = {
 			label = '.22 Long Rifle',
-			weight = 3,
+			weight = 4,
 		},
 
 		['ammo-38'] = {
 			label = '.38 LC',
-			weight = 15,
+			weight = 13,
 		},
 
 		['ammo-44'] = {
 			label = '.44 Magnum',
-			weight = 16,
+			weight = 28,
 		},
 
 		['ammo-45'] = {
@@ -2295,7 +2295,7 @@ return {
 
 		['ammo-50'] = {
 			label = '.50 AE',
-			weight = 45,
+			weight = 30,
 		},
 
 		['ammo-9'] = {
@@ -2350,7 +2350,7 @@ return {
 
 		['ammo-rifle2'] = {
 			label = '7.62x39',
-			weight = 8,
+			weight = 15,
 		},
 
 		['ammo-rocket'] = {

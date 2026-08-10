@@ -9041,7 +9041,7 @@ return {
 
 	["keya"] = {
 		label = "Garden Key",
-		weight = 100,
+		weight = 7,
 		stack = true,
 		close = false,
 		description = "Labkey A",
@@ -10271,7 +10271,7 @@ return {
 
 	["moneywash_key"] = {
 		label = "Laundry Mat Key",
-		weight = 1000,
+		weight = 7,
 		stack = true,
 		close = true,
 		description = "Laundry Mat Key",

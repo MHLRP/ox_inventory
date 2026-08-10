@@ -1019,7 +1019,6 @@ return {
 			{ name = 'WEAPON_CERAMICPISTOL', price = 30000, metadata = { registered = false }, currency = 'black_money' },
 			--{ name = 'rag',                      price = 800,     currency = 'black_money' },
 			{ name = 'keya',                 price = 4000,  currency = 'black_money' },
-			{ name = 'golden_dongle',        price = 2000,  currency = 'black_money' },
 			{ name = 'moneywash_key',        price = 6000,  currency = 'black_money' },
 			{ name = 'ammo-rifle',           price = 25,    currency = 'black_money' },
 			{ name = 'ammo-rifle2',          price = 25,    currency = 'black_money' },
@@ -1030,17 +1029,19 @@ return {
 			{ name = 'ammo-50',              price = 15,    currency = 'black_money' },
 			{ name = 'ammo-9',               price = 15,    currency = 'black_money' },
 			{ name = 'ammo-shotgun',         price = 50,    currency = 'black_money' },
-			{ name = 'trojan_usb',           price = 2000,  currency = 'black_money' },
-			{ name = 'trapphone',            price = 6000,  currency = 'black_money' },
 			{ name = 'kq_acetone',           price = 225,   count = 75,                        currency = 'black_money' },
 		},
 		locations = {
-			vec3(504.7122, 2603.0120, 43.9762),
-			vec3(1012.2678, -3248.0315, -17.7455)
+			vec3(-679.2427, 5790.9507, 16.1810)
 		},
 		targets = {
-			{ loc = vec3(504.7122, 2603.0120, 43.9762),    length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 },
-			{ loc = vec3(1012.2678, -3248.0315, -17.7455), length = 0.5, width = 3.0, heading = 270.0, minZ = 28.5, maxZ = 31.0, distance = 3 }
+			{
+				ped = `a_m_m_hillbilly_01`,
+				scenario = 'WORLD_HUMAN_STAND_MOBILE',
+				loc = vec3(-679.2427, 5790.9507, 16.3210),
+				heading = 241.0758,
+			},
+			{ loc = vec3(-679.2427, 5790.9507, 16.1810), length = 0.5, width = 3.0, heading = 298.1621, minZ = -18.75, maxZ = -16.75, distance = 3 }
 		}
 	},
 
@@ -2849,14 +2850,14 @@ return {
 			{ name = 'zatheater',           price = 100, currency = 'money' },
 		},
 		locations = {
-			vec3(2667.8870, 3381.8743, 57.4906)
+			vec3(2667.0334, 3381.9834, 56.1163)
 		},
 		targets = {
 			{
 				ped = `a_m_m_farmer_01`,
 				scenario = 'WORLD_HUMAN_CLIPBOARD',
-				loc = vec3(2667.8870, 3381.8743, 56.4906),
-				heading = 345.1190,
+				loc = vec3(2667.0334, 3381.9834, 56.1163),
+				heading = 310.6453,
 				distance = 3.5,
 			}
 		}
