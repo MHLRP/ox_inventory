@@ -6,6 +6,28 @@ local Inventory = {}
 local Inventories = {}
 
 ---@class OxInventory
+---@field id? string | number
+---@field dbId? string | number
+---@field label? string
+---@field type? string
+---@field slots? number
+---@field weight? number
+---@field maxWeight? number
+---@field owner? string | number | boolean
+---@field items? table
+---@field open? boolean | string | number
+---@field datastore? boolean
+---@field changed? boolean
+---@field coords? vector3 | vector4 | table
+---@field distance? number
+---@field instance? string | number
+---@field netid? number
+---@field entityId? number
+---@field groups? table
+---@field player? table | boolean
+---@field openedBy? table
+---@field time? number
+---@field [string] unknown
 local OxInventory = {}
 OxInventory.__index = OxInventory
 
@@ -184,11 +206,6 @@ local function loadInventoryData(data, player, ignoreSecurityChecks)
             end
 
             inventory = Inventory.Create(data.id, plate, data.type, storage[1], 0, storage[2], false, nil, nil, dbId)
-
-            -- Unowned / unresolved vehicles stay session-only (no player_vehicles row to update)
-            if inventory and not dbId then
-                inventory.datastore = true
-            end
 		end
 	elseif data.type == 'policeevidence' then
 		inventory = Inventory.Create(data.id, locale('police_evidence'), data.type, 100, 0, 100000, false)
@@ -209,13 +226,22 @@ local function loadInventoryData(data, player, ignoreSecurityChecks)
 				end
 			end
 
-			inventory = Inventories[owner and ('%s:%s'):format(stash.name, owner) or stash.name]
+			local invId = owner and ('%s:%s'):format(stash.name, owner) or stash.name
+			inventory = Inventories[invId]
 
 			if not inventory then
-				inventory = Inventory.Create(stash.name, stash.label or stash.name, 'stash', stash.slots, 0, stash.maxWeight, owner, nil, stash.groups)
-                inventory.coords = stash.coords
-                inventory.distance = stash.distance
-                inventory.instance = stash.instance
+				-- Session-only stashes skip the DB. Passing {} avoids Inventory.Load.
+				local seedItems = stash.datastore and {} or nil
+				inventory = Inventory.Create(stash.name, stash.label or stash.name, 'stash', stash.slots, 0, stash.maxWeight, owner, seedItems, stash.groups)
+
+				if inventory then
+					if stash.datastore then
+						inventory.datastore = true
+					end
+					inventory.coords = stash.coords
+					inventory.distance = stash.distance
+					inventory.instance = stash.instance
+				end
 			end
 		end
 	end
@@ -617,6 +643,9 @@ function Inventory.Create(id, label, invType, slots, weight, maxWeight, owner, i
 	}
 
 	if invType == 'drop' or invType == 'temp' or invType == 'dumpster' then
+		self.datastore = true
+	elseif (invType == 'glovebox' or invType == 'trunk') and not dbId then
+		-- Unowned / unresolved vehicles stay session-only (no player_vehicles row to update)
 		self.datastore = true
 	else
 		self.changed = false
@@ -2787,6 +2816,7 @@ end
 ---@param groups? table<string, number>
 ---@param coords? vector3|table<vector3>
 ---@param instance? string|number
+---@param datastore? boolean if true, stash is memory-only (no DB load/save)
 --- For simple integration with other resources that want to create valid stashes.
 --- This needs to be triggered before a player can open a stash.
 --- ```
@@ -2796,8 +2826,9 @@ end
 --- nil: always shared
 ---
 --- groups: { ['police'] = 0 }
+--- datastore: true for session-only stashes (e.g. trash cans)
 --- ```
-local function registerStash(name, label, slots, maxWeight, owner, groups, coords, instance)
+local function registerStash(name, label, slots, maxWeight, owner, groups, coords, instance, datastore)
 	name, slots, maxWeight, coords = checkStashProperties({
 		name = name,
 		slots = slots,
@@ -2820,6 +2851,7 @@ local function registerStash(name, label, slots, maxWeight, owner, groups, coord
 				stash.groups = groups or stash.groups
 				stash.coords = coords or stash.coords
 				stash.instance = instance or stash.instance
+				if datastore then stash.datastore = true end
 			end
 		end
 	end
@@ -2832,7 +2864,8 @@ local function registerStash(name, label, slots, maxWeight, owner, groups, coord
 		maxWeight = maxWeight,
 		groups = groups,
 		coords = coords,
-		instance = instance
+		instance = instance,
+		datastore = datastore or nil,
 	}
 end
 
