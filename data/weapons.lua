@@ -430,7 +430,7 @@ return {
 
 		['WEAPON_HEAVYPISTOL'] = {
 			label = 'Heavy Pistol',
-			weight = 1100,
+			weight = 900,
 			durability = 0.2,
 			ammoname = 'ammo-45'
 		},
@@ -1064,7 +1064,7 @@ return {
 
 		['ar15_mag'] = {
 			label = 'AR15 Extended Mag',
-			weight = 280,
+			weight = 350,
 			type = 'magazine',
 			client = {
 				component = { `COMPONENT_CARBINERIFLE_MK2_CLIP_02` },
@@ -1084,7 +1084,7 @@ return {
 
 		['ar15_flash'] = {
 			label = 'AR15 Flash Light',
-			weight = 280,
+			weight = 70,
 			type = 'flashlight',
 			client = {
 				component = { `COMPONENT_AT_TACTICALCARBINERIFLE_FLSH` },
@@ -1094,7 +1094,7 @@ return {
 
 		['ar15_scope'] = {
 			label = 'AR15 Scope',
-			weight = 280,
+			weight = 80,
 			type = 'sight',
 			client = {
 				component = { `COMPONENT_AT_TACTICALCARBINERIFLE_SCOPE_MEDIUM` },
@@ -1104,7 +1104,7 @@ return {
 
 		['ar15_grip'] = {
 			label = 'AR15 Grip',
-			weight = 280,
+			weight = 80,
 			type = 'grip',
 			client = {
 				component = { `COMPONENT_AT_TACTICALCARBINERIFLE_AFGRIP` },

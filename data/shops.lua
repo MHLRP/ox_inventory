@@ -1067,43 +1067,85 @@ return {
 		}
 	},
 
+	-- Street Tech Market (moved off Halloween Island ghost guy)
 	BlackMarketTwo = {
-		name = 'Black Market',
+		name = 'Street Tech Market',
 		inventory = {
-			{ name = 'houselaptop',   price = 1600,   currency = 'black_money' },
-			{ name = 'mansionlaptop', price = 2200,   currency = 'black_money' },
-			{ name = 'armour',        price = 12000,  currency = 'black_money' },
-			{ name = 'jammer',        price = 22000,  currency = 'black_money' },
-			{ name = 'drone',         price = 450000, currency = 'black_money' },
-			{ name = 'redphone',      price = 85000,  currency = 'black_money' },
-			{ name = 'goldenphone',   price = 165000, currency = 'black_money' },
-			{ name = 'greenphone',    price = 12000,  currency = 'black_money' },
-			{ name = 'cocaine_seed',  price = 6000,   currency = 'black_money' },
-			{ name = 'heroin_seed',   price = 6500,   currency = 'black_money' },
-			--{ name = 'rag',           price = 800,  currency = 'black_money' },
+			{ name = 'houselaptop',   price = 2200,  currency = 'black_money' },
+			{ name = 'mansionlaptop', price = 2400,  currency = 'black_money' },
+			{ name = 'trapphone',     price = 12000, currency = 'black_money' },
+			{ name = 'trojan_usb',    price = 8000,  currency = 'black_money' },
 		},
 		targets = {
 			{
-				ped = `s_m_m_strperf_01`,
+				ped = `g_m_m_armboss_01`,
 				scenario = 'WORLD_HUMAN_STAND_MOBILE',
-				loc = vec3(4709.6113, 4681.7705, 17.7763),
-				heading = 200.00,
+				loc = vec3(1150.7261, -437.7544, 66.0027),
+				heading = 19.9563,
 			}
 		}
 	},
 
+	-- Military Market (NEW PED)
+	BlackMarketMilitary = {
+		name = 'Military Market',
+		inventory = {
+			{ name = 'armour',              price = 4000,  currency = 'black_money' },
+			{ name = 'greenphone',          price = 25000, currency = 'black_money' },
+			{ name = 'redphone',            price = 50000, currency = 'black_money' },
+			{ name = 'goldenphone',         price = 75000, currency = 'black_money' },
+			{ name = 'jammer',              price = 2800,  currency = 'black_money' },
+			{ name = 'x_cratejammer',       price = 2100,  currency = 'black_money' },
+			{ name = 'drone',               price = 22000, currency = 'black_money' },
+			{ name = 'WEAPON_COMBATPISTOL', price = 13000, metadata = { registered = false }, currency = 'black_money' },
+			{ name = 'WEAPON_HEAVYPISTOL',  price = 21000, metadata = { registered = false }, currency = 'black_money' },
+		},
+		targets = {
+			{
+				ped = `s_m_y_blackops_01`,
+				scenario = 'WORLD_HUMAN_SMOKING',
+				loc = vec3(-2503.5674, 2978.8652, 32.2220),
+				heading = 267.0951,
+			}
+		}
+	},
+
+	-- Car Market (NEW PED) — racing / vehicle tech
+	BlackMarketCar = {
+		name = 'Car Market',
+		inventory = {
+			{ name = 'golden_dongle',  price = 3000,  currency = 'black_money' },
+			{ name = 'vehicle_cover',  price = 500,   currency = 'black_money' },
+			{ name = 'harness',        price = 4500,  currency = 'black_money' },
+			{ name = 'plateflipper',   price = 12000, currency = 'black_money' },
+			{ name = 'dongle',         price = 7000,  currency = 'black_money' },
+			{ name = 'hacking_device', price = 8000,  currency = 'black_money' },
+			{ name = 'transponder',    price = 6000,  currency = 'black_money' },
+			{ name = 'vpn',            price = 5000,  currency = 'black_money' },
+		},
+		targets = {
+			{
+				ped = `a_m_y_stbla_02`,
+				scenario = 'WORLD_HUMAN_AA_SMOKE',
+				loc = vec3(-203.0258, -234.1336, 77.3396),
+				heading = 253.9340,
+			}
+		}
+	},
+
+	-- Crafting / Gun Rack ped (moved from Cayo boat dock area)
 	BlackMarketThree = {
 		name = 'Black Market',
 		inventory = {
-			{ name = 'crafting_bench', price = 50000, currency = 'money' },
-			{ name = 'gunrack',        price = 20000, currency = 'money' },
+			{ name = 'gunrack',        price = 25000, currency = 'money' },
+			{ name = 'crafting_bench', price = 49000, currency = 'money' },
 		},
 		targets = {
 			{
 				ped = `a_m_y_stbla_02`,
 				scenario = 'WORLD_HUMAN_STAND_MOBILE',
-				loc = vec3(-331.5671, -2790.5962, 4.0002),
-				heading = 90.1782,
+				loc = vec3(1807.3690, 3609.5002, 37.6128),
+				heading = 163.1102,
 			}
 		}
 	},
@@ -1125,20 +1167,21 @@ return {
 		}
 	},
 
+	-- AR15 attachments — Casino horse track ped
 	BlackMarketFifth = {
 		name = 'Black Market',
 		inventory = {
-			{ name = 'ar15_flash', price = 25000, currency = 'black_money' },
-			{ name = 'ar15_grip',  price = 25000, currency = 'black_money' },
-			{ name = 'ar15_mag',   price = 40000, currency = 'black_money' },
-			{ name = 'ar15_scope', price = 45000, currency = 'black_money' },
+			{ name = 'ar15_flash', price = 15000, currency = 'black_money' },
+			{ name = 'ar15_grip',  price = 20000, currency = 'black_money' },
+			{ name = 'ar15_mag',   price = 35000, currency = 'black_money' },
+			{ name = 'ar15_scope', price = 40000, currency = 'black_money' },
 		},
 		targets = {
 			{
 				ped = `a_m_y_stbla_02`,
 				scenario = 'WORLD_HUMAN_STAND_MOBILE',
-				loc = vec3(1278.2872, 299.3468, 80.9909),
-				heading = 142.1197,
+				loc = vec3(86.2091, 811.6390, 210.1208),
+				heading = 229.0345,
 			}
 		}
 	},

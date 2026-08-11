@@ -4594,7 +4594,7 @@ return {
 
 	["syphoningkit"] = {
 		label = "Syphoning Kit",
-		weight = 1000,
+		weight = 400,
 		stack = true,
 		close = false,
 		description = "A syphoning kit.",
@@ -5123,7 +5123,7 @@ return {
 
 	['cam_jammer'] = {
 		label = 'Cam Jammer',
-		weight = 1,
+		weight = 200,
 		stack = true,
 		close = true,
 		description = 'Cam Jammer'
@@ -5506,7 +5506,7 @@ return {
 
 	["trojan_usb"] = {
 		label = "Trojan USB",
-		weight = 0,
+		weight = 30,
 		stack = false,
 		close = true,
 		description = "Skimmer firmware on a stick. Limited data slots — use wisely.",
@@ -5891,7 +5891,7 @@ return {
 
 	["radioscanner"] = {
 		label = "Radio Scanner",
-		weight = 1000,
+		weight = 200,
 		stack = true,
 		close = true,
 		description = "With this you can get some police alerts. Not 100% effective however",
@@ -6086,7 +6086,7 @@ return {
 
 	['dongle'] = {
 		label = 'USB Dongle',
-		weight = 1,
+		weight = 40,
 		stack = false,
 		close = true,
 		description = ''
@@ -6094,7 +6094,7 @@ return {
 
 	['golden_dongle'] = {
 		label = 'Racing Dongle',
-		weight = 1,
+		weight = 40,
 		stack = false,
 		close = true,
 		description = 'Golden Racing Dongle',
@@ -6102,7 +6102,7 @@ return {
 
 	['vpn'] = {
 		label = 'VPN',
-		weight = 1,
+		weight = 80,
 		stack = true,
 		close = false,
 		description = 'I wonder whats available in other regions'
@@ -6110,7 +6110,7 @@ return {
 
 	['transponder'] = {
 		label = 'Transponder',
-		weight = 1,
+		weight = 30,
 		stack = true,
 		close = true,
 		description = 'Stores and Sends data to key FOBS... this could be useful'
@@ -6118,7 +6118,7 @@ return {
 
 	['hacking_device'] = {
 		label = 'Hacking Device',
-		weight = 1,
+		weight = 30,
 		stack = true,
 		close = true,
 		description = 'Marked for Police Seizure'
@@ -6158,7 +6158,7 @@ return {
 
 	["trapphone"] = {
 		label = "Trap Phone",
-		weight = 500,
+		weight = 170,
 		stack = false,
 		close = true,
 		description = "Trap phone things",
@@ -7372,7 +7372,7 @@ return {
 
 	['jammer'] = {
 		label = 'Radio Jammer',
-		weight = 5000,
+		weight = 500,
 		allowArmed = true,
 		client = {
 			event = 'mm_radio:client:usejammer'
@@ -10279,7 +10279,7 @@ return {
 
 	["houselaptop"] = {
 		label = "House Hacking Laptop",
-		weight = 1000,
+		weight = 1400,
 		stack = true,
 		close = true,
 		description = "Could be useful...",
@@ -10287,7 +10287,7 @@ return {
 
 	["mansionlaptop"] = {
 		label = "Mansion Hacking Laptop",
-		weight = 1000,
+		weight = 1400,
 		stack = true,
 		close = true,
 		description = "Could be useful...",
@@ -12038,7 +12038,7 @@ return {
 
 	["harness"] = {
 		label = "Racing Harness",
-		weight = 200,
+		weight = 150,
 		stack = false,
 		close = true,
 		description = "Racing Harness so no matter what, you stay buckled up!",
@@ -17423,7 +17423,7 @@ return {
 
 	["quickdrawtable"] = {
 		label = 'Quick Draw Table',
-		weight = 600,
+		weight = 2000,
 		stack = false,
 		description = "Get to quick drawin!"
 	},
@@ -19626,7 +19626,7 @@ return {
 
 	["x_cratejammer"] = {
 		label = "X Crate Jammer",
-		weight = 300,
+		weight = 200,
 		stack = false,
 		close = false,
 		description = "?????????",
@@ -19714,7 +19714,7 @@ return {
 
 	['glass_cutter'] = {
 		label = "Glass Cutter",
-		weight = 1000,
+		weight = 130,
 		stack = false,
 		close = false,
 		description = "",
@@ -20000,7 +20000,7 @@ return {
 
 	["generator"] = {
 		label = "Generator",
-		weight = 10,
+		weight = 5000,
 		stack = true,
 		close = true,
 	},
@@ -21124,7 +21124,7 @@ return {
 
 	['vehicle_cover'] = {
 		label = 'Vehicle Cover',
-		weight = 100,
+		weight = 500,
 		stack = true,
 		close = true,
 		description = 'A cover for a vehicle',
@@ -21140,7 +21140,7 @@ return {
 
 	["plateflipper"] = {
 		label = "Plate Flipper",
-		weight = 1000,
+		weight = 350,
 		stack = false,
 		close = true,
 		description = "A device that can hide license plates when installed on vehicles"
@@ -21396,7 +21396,7 @@ return {
 
 	["zatwatersetup"] = {
 		label = "Water Filtration",
-		weight = 100,
+		weight = 150,
 		stack = true,
 		close = true,
 		description = "Water Filtration Setup...",
@@ -23473,7 +23473,7 @@ return {
 	['crafting_bench'] = {
 		label = 'Crafting Bench',
 		consume = 0,
-		weight = 100,
+		weight = 10000,
 		stack = false,
 		close = false,
 		client = {
@@ -23920,7 +23920,7 @@ return {
 
 	["kq_ethanol"] = {
 		label = "Ethanol",
-		weight = 2000,
+		weight = 500,
 		stack = true,
 		close = true,
 	},
