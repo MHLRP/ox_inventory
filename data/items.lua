@@ -7287,6 +7287,12 @@ return {
 		description = "Mmm.. Strawberry Flavor!",
 	},
 
+	['waka_menthol'] = {
+		label = 'Vape',
+		weight = 115,
+		description = "Mmm.. Menthol Flavor!",
+	},
+
 	['armour'] = {
 		label = 'Bulletproof Vest',
 		weight = 3000,
