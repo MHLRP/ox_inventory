@@ -1185,12 +1185,12 @@ return {
 		groups = { ['unicorn'] = 0 }
 	},
 	{
-		coords = vec3(219.4139, 2773.9810, 42.6662),
+		coords = vec3(201.732, 2779.018, 42.573),
 		target = {
-			loc = vec3(219.4139, 2773.9810, 42.6662),
+			loc = vec3(201.732, 2779.018, 42.573),
 			length = 1.2,
 			width = 1.2,
-			heading = 183.1507,
+			heading = 262.6236,
 			minZ = 41.66,
 			maxZ = 43.66,
 			label = 'Gang Storage'
@@ -1203,9 +1203,9 @@ return {
 		groups = { ['theashfallen'] = 0 }
 	},
 	{
-		coords = vec3(215.6750, 2792.6030, 47.7655),
+		coords = vec3(214.787, 2791.821, 46.757),
 		target = {
-			loc = vec3(215.6750, 2792.6030, 47.7655),
+			loc = vec3(214.787, 2791.821, 46.757),
 			length = 1.2,
 			width = 1.2,
 			heading = 157.2459,
@@ -1232,24 +1232,6 @@ return {
 			label = 'Gang Storage'
 		},
 		name = 'theashfallen3',
-		label = 'Gang Storage',
-		owner = false,
-		slots = 40,
-		weight = 50000,
-		groups = { ['theashfallen'] = 0 }
-	},
-	{
-		coords = vec3(201.0014, 2779.3560, 43.1154),
-		target = {
-			loc = vec3(201.0014, 2779.3560, 43.1154),
-			length = 1.2,
-			width = 1.2,
-			heading = 262.6236,
-			minZ = 42.11,
-			maxZ = 44.11,
-			label = 'Gang Storage'
-		},
-		name = 'theashfallen4',
 		label = 'Gang Storage',
 		owner = false,
 		slots = 40,
