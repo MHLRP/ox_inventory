@@ -1213,11 +1213,13 @@ return {
 			{ name = 'tarotmajordeck', price = 2000, count = 15, currency = 'money' },
 			{ name = 'tarotmixeddeck', price = 3000, count = 10, currency = 'money' },
 		},
-		locations = {
-			vec3(4699.433, 4705.909, 12.476)
-		},
 		targets = {
-			{ loc = vec3(4699.433, 4705.909, 12.476), length = 0.6, width = 0.5, heading = 132.288, minZ = 28.2, maxZ = 28.6, distance = 2 }
+			{
+				ped = `a_f_o_genstreet_01`,
+				scenario = 'PROP_HUMAN_SEAT_CHAIR',
+				loc = vec3(-1715.9515, -195.0450, 56.2017),
+				heading = 216.8971,
+			}
 		}
 	},
 
