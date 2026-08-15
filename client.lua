@@ -6,6 +6,49 @@ require 'modules.interface.client'
 local Utils = require 'modules.utils.client'
 local Weapon = require 'modules.weapon.client'
 local currentWeapon
+local vehicleWeaponStowed = false
+local WEAPON_UNARMED = `WEAPON_UNARMED`
+
+--- Bikes/bicycles keep the weapon selected (visible on-character / different drive-by rules).
+local function vehicleIsCycle(vehicle)
+	local class = GetVehicleClass(vehicle)
+	return class == 8 or class == 13
+end
+
+--- Aim / vehicle attack — when true, weapon is drawn for drive-by.
+local function shouldUseWeaponInVehicle()
+	return IsControlPressed(0, 25)
+		or IsControlPressed(0, 68)
+		or IsControlPressed(0, 69)
+		or IsControlPressed(0, 70)
+		or IsControlPressed(0, 91)
+		or IsControlPressed(0, 92)
+		or IsPlayerFreeAiming(cache.playerId)
+end
+
+--- Keep ox_inventory currentWeapon, but select unarmed so ambient peds don't treat a
+--- holstered-in-car gun as a visible threat (vanilla GTA holsters on enter; inventory was blocking that).
+local function setVehicleWeaponStowed(stow)
+	if not currentWeapon then
+		vehicleWeaponStowed = false
+		return
+	end
+
+	local ped = cache.ped
+
+	if stow then
+		if GetSelectedPedWeapon(ped) == currentWeapon.hash then
+			SetCurrentPedWeapon(ped, WEAPON_UNARMED, true)
+		end
+		vehicleWeaponStowed = true
+	else
+		if GetSelectedPedWeapon(ped) ~= currentWeapon.hash then
+			SetCurrentPedWeapon(ped, currentWeapon.hash, true)
+			SetPedCurrentWeaponVisible(ped, true, false, false, false)
+		end
+		vehicleWeaponStowed = false
+	end
+end
 
 exports('getCurrentWeapon', function()
 	return currentWeapon
@@ -1468,9 +1511,20 @@ lib.onCache('seat', function(seat)
 	Utils.WeaponWheel(false)
 end)
 
-lib.onCache('vehicle', function()
+lib.onCache('vehicle', function(vehicle)
 	if invOpen and (not currentInventory.entity or currentInventory.entity == cache.vehicle) then
 		return client.closeInventory()
+	end
+
+	if not vehicle then
+		if vehicleWeaponStowed then
+			setVehicleWeaponStowed(false)
+		end
+		return
+	end
+
+	if currentWeapon and not vehicleIsCycle(vehicle) and not shouldUseWeaponInVehicle() then
+		setVehicleWeaponStowed(true)
 	end
 end)
 
@@ -1700,7 +1754,10 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 		local weaponHash = GetSelectedPedWeapon(playerPed)
 
 		if currentWeapon then
-			if weaponHash ~= currentWeapon.hash and currentWeapon.timer then
+			-- Soft-holstered in a vehicle: unarmed is intentional, do not force re-equip / disarm
+			local skipWeaponSync = vehicleWeaponStowed and weaponHash == WEAPON_UNARMED
+
+			if not skipWeaponSync and weaponHash ~= currentWeapon.hash and currentWeapon.timer then
 				local weaponCount = Items[currentWeapon.name]?.count
 
 				if weaponCount > 0 then
@@ -1715,6 +1772,7 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 					lib.print.info(('%s was forcibly unequipped (caused by game behaviour or another resource)'):format(
 						currentWeapon.name))
 					currentWeapon = Weapon.Disarm(currentWeapon, true)
+					vehicleWeaponStowed = false
 				end
 			end
 		elseif client.weaponmismatch and not client.ignoreweapons[weaponHash] then
@@ -1740,6 +1798,21 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 
 	client.tick = SetInterval(function()
 		DisablePlayerVehicleRewards(playerId)
+
+		-- Match vanilla: holster while driving unless aiming for a drive-by (stops ped panic at guns in cars)
+		if currentWeapon and cache.vehicle and not vehicleIsCycle(cache.vehicle) then
+			if shouldUseWeaponInVehicle() then
+				if vehicleWeaponStowed then
+					setVehicleWeaponStowed(false)
+				end
+			elseif not vehicleWeaponStowed then
+				setVehicleWeaponStowed(true)
+			elseif GetSelectedPedWeapon(playerPed) == currentWeapon.hash then
+				SetCurrentPedWeapon(playerPed, WEAPON_UNARMED, true)
+			end
+		elseif vehicleWeaponStowed then
+			setVehicleWeaponStowed(false)
+		end
 
 		if invOpen then
 			DisableAllControlActions(0)
