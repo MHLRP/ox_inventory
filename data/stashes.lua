@@ -169,14 +169,14 @@ return {
             heading = 0.0,
             minZ = 27.50,
             maxZ = 30.50,
-            label = 'Open Armoury Safe'
+            label = 'Open HC Safe'
         },
         name = 'viper1',
         label = 'Armoury Safe',
         owner = false,
         slots = 70,
         weight = 200000,
-        groups = { ['viperidae'] = 2 }
+        groups = { ['viperidae'] = 3 }
     },
     {
         coords = vec3(-43.9295, -1396.3833, 29.4948),
@@ -188,7 +188,7 @@ return {
             minZ = 28.99,
             maxZ = 30.49,
             distance = 1.5,
-            label = 'Open Gang Storage'
+            label = 'Open Sales Storage'
         },
         name = 'viper2',
         label = 'Storage Locker',
@@ -207,13 +207,13 @@ return {
             minZ = 28.99,
             maxZ = 30.49,
             distance = 1.5,
-            label = 'Open Gang Storage'
+            label = 'Open Drug Storage'
         },
         name = 'viper3',
         label = 'Storage Locker',
         owner = false,
         slots = 70,
-        weight = 50000,
+        weight = 500000,
         groups = { ['viperidae'] = 1 }
     },
     {
@@ -226,14 +226,14 @@ return {
             minZ = 28.99,
             maxZ = 30.49,
             distance = 1.5,
-            label = 'Open Gang Storage'
+            label = 'Open Tool Storage'
         },
         name = 'viper4',
         label = 'Direction Storage',
         owner = false,
         slots = 70,
-        weight = 50000,
-        groups = { ['viperidae'] = 6 }
+        weight = 500000,
+        groups = { ['viperidae'] = 1 }
     },
 	{
 		coords = vec3(972.22, -98.13, 74.87),
