@@ -2891,6 +2891,7 @@ return {
 		name = 'Grocery Store',
 		inventory = {
 			{ name = 'ketchup',       price = 10, currency = 'money' },
+			{ name = 'snr_mayo',      price = 10, currency = 'money' },
 			{ name = 'buffalo_sauce', price = 10, currency = 'money' },
 			{ name = 'ranch',         price = 10, currency = 'money' },
 		},

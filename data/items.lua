@@ -21865,11 +21865,13 @@ return {
 	},
 
 	["snr_mayo"] = {
-		label = "Mayonaise",
+		label = "Mayonnaise",
 		weight = 100,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
-		description = "Mayonaise",
+		description = "Mayonnaise",
 		client = {
 			image = "snr_mayo.png",
 		}
