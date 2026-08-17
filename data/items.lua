@@ -3430,6 +3430,77 @@ return {
 		description = "A sweet and whimsical drink.",
 	},
 
+	["bigdaddyshotdog"] = {
+		label = "Big Daddy's Hot Dog",
+		degrade = 60 * 72,
+		weight = 250,
+		stack = true,
+		close = true,
+		description = "A loaded hot dog from the Vanilla Unicorn kitchen.",
+		client = {
+			image = "bigdaddyshotdog.png",
+			status = { hunger = 45 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_hotdog_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
+		}
+	},
+
+	["dirtydancerchcknburg"] = {
+		label = "Dirty Dancer Chicken Burger",
+		degrade = 60 * 72,
+		weight = 300,
+		stack = true,
+		close = true,
+		description = "A chicken burger straight from the Vanilla Unicorn kitchen.",
+		client = {
+			image = "dirtydancerchcknburg.png",
+			status = { hunger = 55 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'dh_burger3',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
+		}
+	},
+
+	["teasemetenderschckn"] = {
+		label = "Tease Me Tenders",
+		degrade = 60 * 72,
+		weight = 250,
+		stack = true,
+		close = true,
+		description = "Honey-glazed chicken tenders from the Vanilla Unicorn kitchen.",
+		client = {
+			image = "teasemetenderschckn.png",
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_food_cb_nugets',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 7500,
+		}
+	},
+
+	["tiemeupwires"] = {
+		label = "Tie Me Up Wires",
+		weight = 150,
+		stack = true,
+		close = true,
+		description = "Copper wires tied into a heart — a Vanilla Unicorn specialty.",
+		client = {
+			image = "tiemeupwires.png",
+		}
+	},
+
 	["grapeseeddaquiri"] = {
 		label = "Grapeseed Daiquiri",
 		weight = 290,
@@ -17128,6 +17199,14 @@ return {
 		weight = 350,
 		stack = true,
 		description = ""
+	},
+
+	['si_surveillance_pass'] = {
+		label = 'City Surveillance Pass',
+		weight = 100,
+		stack = false,
+		close = true,
+		description = 'Secure Industries contractor credential. Grants access to networked city CCTV feeds via laptop.',
 	},
 
 	--- ROBOT FOOD

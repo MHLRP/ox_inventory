@@ -2559,11 +2559,14 @@ return {
 			{ name = 'unicorn_menu', price = 0 },
 		},
 		locations = {
-			vec3(96.2347, -1326.7034, 20.2039)
+			vec3(118.061, -1280.876, 29.725),
+			vec3(114.451, -1283.161, 29.725),
+			vec3(110.950, -1285.285, 29.725),
 		},
 		targets = {
-			{ loc = vec3(96.2347, -1326.7034, 20.2039), length = 0.6, width = 0.5, heading = 115.8455, minZ = 28.2, maxZ = 28.6, distance = 2 }
-
+			{ loc = vec3(118.061, -1280.876, 29.725), length = 0.6, width = 0.5, heading = 204.2942, minZ = 29.2, maxZ = 30.2, distance = 2 },
+			{ loc = vec3(114.451, -1283.161, 29.725), length = 0.6, width = 0.5, heading = 212.9332, minZ = 29.2, maxZ = 30.2, distance = 2 },
+			{ loc = vec3(110.950, -1285.285, 29.725), length = 0.6, width = 0.5, heading = 113.2048, minZ = 29.2, maxZ = 30.2, distance = 2 },
 		}
 	},
 
