@@ -19,7 +19,7 @@ return {
 			['sheriff'] = 0,
 			['police'] = 0,
 			['ghost'] = 0
-		}, 
+		},
 		-- -453.7762, 5980.7632, 31.3887, 314.7780
 	},
 	{
@@ -42,7 +42,7 @@ return {
 			['sheriff'] = 0,
 			['police'] = 0,
 			['ghost'] = 0
-		}, 
+		},
 		-- -453.7762, 5980.7632, 31.3887, 314.7780
 	},
 	{
@@ -160,81 +160,81 @@ return {
 		weight = 300000,
 		groups = { ['lostmc'] = 1 }
 	},
-    {
-        coords = vec3(-38.918, -1412.440, 28.497),
-        target = {
-            loc = vec3(-38.918, -1412.440, 28.497),
-            length = 1.5,
-            width = 6.0,
-            heading = 0.0,
-            minZ = 27.50,
-            maxZ = 30.50,
-            label = 'Open HC Safe'
-        },
-        name = 'viper1',
-        label = 'Armoury Safe',
-        owner = false,
-        slots = 70,
-        weight = 200000,
-        groups = { ['viperidae'] = 3 }
-    },
-    {
-        coords = vec3(-43.9295, -1396.3833, 29.4948),
-        target = {
-            loc = vec3(-43.9295, -1396.3833, 29.4948),
-            length = 0.8,
-            width = 1.0,
-            heading = 102.5911,
-            minZ = 28.99,
-            maxZ = 30.49,
-            distance = 1.5,
-            label = 'Open Sales Storage'
-        },
-        name = 'viper2',
-        label = 'Storage Locker',
-        owner = false,
-        slots = 70,
-        weight = 200000,
-        groups = { ['viperidae'] = 1 }
-    },
-    {
-        coords = vec3(-43.9097, -1393.2640, 29.4948),
-        target = {
-            loc = vec3(-43.9097, -1393.2640, 29.4948),
-            length = 0.8,
-            width = 1.0,
-            heading = 93.9701,
-            minZ = 28.99,
-            maxZ = 30.49,
-            distance = 1.5,
-            label = 'Open Drug Storage'
-        },
-        name = 'viper3',
-        label = 'Storage Locker',
-        owner = false,
-        slots = 70,
-        weight = 500000,
-        groups = { ['viperidae'] = 1 }
-    },
-    {
-        coords = vec3(-43.9358, -1390.6506, 29.4948),
-        target = {
-            loc = vec3(-43.9358, -1390.6506, 29.4948),
-            length = 0.8,
-            width = 1.0,
-            heading = 88.7911,
-            minZ = 28.99,
-            maxZ = 30.49,
-            distance = 1.5,
-            label = 'Open Tool Storage'
-        },
-        name = 'viper4',
-        label = 'Direction Storage',
-        owner = false,
-        slots = 70,
-        weight = 500000,
-        groups = { ['viperidae'] = 1 }
-    },
+	{
+		coords = vec3(-38.918, -1412.440, 28.497),
+		target = {
+			loc = vec3(-38.918, -1412.440, 28.497),
+			length = 1.5,
+			width = 6.0,
+			heading = 0.0,
+			minZ = 27.50,
+			maxZ = 30.50,
+			label = 'Open HC Safe'
+		},
+		name = 'viper1',
+		label = 'Armoury Safe',
+		owner = false,
+		slots = 70,
+		weight = 200000,
+		groups = { ['viperidae'] = 3 }
+	},
+	{
+		coords = vec3(-43.9295, -1396.3833, 29.4948),
+		target = {
+			loc = vec3(-43.9295, -1396.3833, 29.4948),
+			length = 0.8,
+			width = 1.0,
+			heading = 102.5911,
+			minZ = 28.99,
+			maxZ = 30.49,
+			distance = 1.5,
+			label = 'Open Sales Storage'
+		},
+		name = 'viper2',
+		label = 'Storage Locker',
+		owner = false,
+		slots = 70,
+		weight = 200000,
+		groups = { ['viperidae'] = 1 }
+	},
+	{
+		coords = vec3(-43.9097, -1393.2640, 29.4948),
+		target = {
+			loc = vec3(-43.9097, -1393.2640, 29.4948),
+			length = 0.8,
+			width = 1.0,
+			heading = 93.9701,
+			minZ = 28.99,
+			maxZ = 30.49,
+			distance = 1.5,
+			label = 'Open Drug Storage'
+		},
+		name = 'viper3',
+		label = 'Storage Locker',
+		owner = false,
+		slots = 70,
+		weight = 500000,
+		groups = { ['viperidae'] = 1 }
+	},
+	{
+		coords = vec3(-43.9358, -1390.6506, 29.4948),
+		target = {
+			loc = vec3(-43.9358, -1390.6506, 29.4948),
+			length = 0.8,
+			width = 1.0,
+			heading = 88.7911,
+			minZ = 28.99,
+			maxZ = 30.49,
+			distance = 1.5,
+			label = 'Open Tool Storage'
+		},
+		name = 'viper4',
+		label = 'Direction Storage',
+		owner = false,
+		slots = 70,
+		weight = 500000,
+		groups = { ['viperidae'] = 1 }
+	},
 	{
 		coords = vec3(972.22, -98.13, 74.87),
 		target = {
@@ -480,7 +480,7 @@ return {
 		groups = { ['highnotes'] = 0 }
 	},
 	{
-		coords = vec3(105.6487, -1.0993, 67.7816), 
+		coords = vec3(105.6487, -1.0993, 67.7816),
 		target = {
 			loc = vec3(105.6487, -1.0993, 67.7816),
 			length = 1.2,
@@ -582,7 +582,7 @@ return {
 		label = 'Business Storage',
 		owner = false,
 		slots = 30,
-		weight = 200000,
+		weight = 500000,
 		groups = { ['midnightautos'] = 0 }
 	},
 	{
@@ -618,7 +618,7 @@ return {
 		label = 'Business Storage',
 		owner = false,
 		slots = 30,
-		weight = 200000,
+		weight = 500000,
 		groups = { ['midnightautos'] = 0 }
 	},
 	{
@@ -636,7 +636,7 @@ return {
 		label = 'Storage',
 		owner = false,
 		slots = 50,
-		weight = 200000,
+		weight = 500000,
 		groups = { ['medusamechanics'] = 0 }
 	},
 	{
@@ -969,21 +969,21 @@ return {
 		weight = 70000,
 	},
 	{
-		coords = vec3(-332.313, -125.943, 38.062),
+		coords = vec3(129.4335, -3017.0847, 7.0406),
 		target = {
-			loc = vec3(-332.313, -125.943, 38.062),
+			loc = vec3(129.4335, -3017.0847, 7.0406),
 			length = 1.2,
 			width = 5.6,
-			heading = -20.460,
+			heading = 352.6028,
 			minZ = 29.49,
 			maxZ = 32.09,
-			label = 'Autosunset Storage'
+			label = 'Medusa Storage'
 		},
-		name = 'autosunset',
+		name = 'medusamechanics2',
 		label = 'Storage',
-		owner = true,
-		slots = 70,
-		weight = 70000,
+		owner = false,
+		slots = 15,
+		weight = 500000,
 		groups = { ['medusamechanics'] = 0 }
 	},
 	{
