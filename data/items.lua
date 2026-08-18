@@ -1778,6 +1778,7 @@ return {
 	['milk'] = { -- milky milky milky
 		label = 'Milk Carton',
 		weight = 500,
+		degrade = 60 * 48,
 		decay = true,
 		stack = true,
 		close = true,
@@ -24106,6 +24107,83 @@ return {
 		weight = 5000,
 		stack = true,
 		close = true,
+	},
+
+	['gagzapperenergy'] = {
+		label = 'Zapper Energy',
+		weight = 250,
+		decay = true,
+		stack = true,
+		close = true,
+		description = 'A slim can of Zapper. Lightning in a can.',
+		client = {
+			status = { thirst = 30 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_ld_can_01`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+		}
+	},
+
+	['gagcroissant'] = {
+		label = 'Croissant',
+		weight = 150,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = 'A flaky, buttery croissant.',
+		client = {
+			status = { hunger = 25 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'bzzz_foodpack_croissant001',
+				bone = 60309,
+				pos = vec3(0.0, 0.0, -0.01),
+				rot = vec3(0.0, 0.0, 90.0)
+			},
+			usetime = 7500,
+		}
+	},
+
+	['gagdonut'] = {
+		label = 'Pink Glazed Donut',
+		weight = 150,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = 'A ring donut with pink frosting and sprinkles.',
+		client = {
+			status = { hunger = 25 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'bzzz_foodpack_donut001',
+				bone = 18905,
+				pos = vec3(0.13, 0.050, 0.020),
+				rot = vec3(-50.0, 100.0, 270.0)
+			},
+			usetime = 7500,
+		}
+	},
+
+	['gagburrito'] = {
+		label = 'Burrito',
+		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = 'A loaded burrito, wrapped and ready to eat.',
+		client = {
+			status = { hunger = 60 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_taco_02',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(150.0, 340.0, 170.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 }
