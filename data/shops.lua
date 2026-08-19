@@ -1992,14 +1992,14 @@ return {
 			id = 72, colour = 3, scale = 0.6
 		},
 		inventory = {
-			{ name = 'black_paint',  price = 500, currency = 'money' },
-			{ name = 'white_paint',  price = 500, currency = 'money' },
-			{ name = 'red_paint',    price = 500, currency = 'money' },
-			{ name = 'blue_paint',   price = 500, currency = 'money' },
-			{ name = 'yellow_paint', price = 500, currency = 'money' },
-			{ name = 'green_paint',  price = 500, currency = 'money' },
-			{ name = 'grey_paint',   price = 500, currency = 'money' },
-			{ name = 'pink_paint',   price = 500, currency = 'money' },
+			{ name = 'black_paint',  price = 50, currency = 'money' },
+			{ name = 'white_paint',  price = 50, currency = 'money' },
+			{ name = 'red_paint',    price = 50, currency = 'money' },
+			{ name = 'blue_paint',   price = 50, currency = 'money' },
+			{ name = 'yellow_paint', price = 50, currency = 'money' },
+			{ name = 'green_paint',  price = 50, currency = 'money' },
+			{ name = 'grey_paint',   price = 50, currency = 'money' },
+			{ name = 'pink_paint',   price = 50, currency = 'money' },
 		},
 		targets = {
 			{
