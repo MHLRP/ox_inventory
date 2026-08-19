@@ -71,6 +71,37 @@ setContainerProperties('bstakeoutbag', {
 	whitelist = { 'burger-bleeder', 'burger-moneyshot', 'burger-torpedo', 'burger-heartstopper', 'burger-meatfree', 'burger-bullet', 'burger-fries', 'burger-softdrink', 'burger-mshake' }	
 })
 
+local greenleafTakeout = {
+	'tosti', 'bread', 'donut_sby', 'donut_chc', 'cinnabun', 'lemonbar', 'banana', 'orange', 'apple',
+	'cupcake-limao', 'cupcake-chocolate', 'cupcake-morango', 'cupcake-strawberrychocolate', 'lemonstrawberrycheesecakebites',
+	'sprunk', 'ecola', 'orangotang', 'blemonslush', 'borangeslush', 'carrotcake', 'carrotjuice', 'strawberryoilshake',
+	'coffeefrap', 'bstrawberrycreamfrappuccino', 'bjavachipfrappuccino', 'bhotchoc', 'bhoneyhazelnutoatlatte',
+	'bicedcaffelatte', 'bespresso', 'bespressomacchiato', 'bcaramelfrappucino', 'bcoldbrewlatte',
+	'bstrawberryvanillaoatlatte', 'coffee_black', 'whitetea', 'blacktea', 'greentea', 'coffee_cpcno',
+	'matchalavenderlatte', 'lavenderchailatte', 'loxwithcreamcheese', 'veggiewrap', 'baconeggncheese',
+	'eggsbenedict', 'breakfastwrap', 'horsepowerbowl', 'iremember', 'lugnutlatte', 'oilaide', 'roborita',
+	'steaksandwich', 'cyberbagel', 'cybercrackers', 'cybergranola', 'blackcyberoil',
+	'greencyberoil', 'greenleaf_menu'
+}
+
+setContainerProperties('smallglbox', {
+	slots = 4,
+	maxWeight = 4000,
+	whitelist = greenleafTakeout
+})
+
+setContainerProperties('bigglbox', {
+	slots = 8,
+	maxWeight = 8500,
+	whitelist = greenleafTakeout
+})
+
+setContainerProperties('largeglbag', {
+	slots = 12,
+	maxWeight = 12000,
+	whitelist = greenleafTakeout
+})
+
 setContainerProperties('screwdriverset', {
 	slots = 8,
 	maxWeight = 8500,

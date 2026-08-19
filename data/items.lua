@@ -18511,6 +18511,33 @@ return {
 		description = "",
 	},
 
+	["smallglbox"] = {
+		label = "Small Greenleaf Box",
+		weight = 150,
+		stack = false,
+		close = false,
+		consume = 0,
+		description = "A small Greenleaf takeout box.",
+	},
+
+	["bigglbox"] = {
+		label = "Big Greenleaf Box",
+		weight = 250,
+		stack = false,
+		close = false,
+		consume = 0,
+		description = "A large Greenleaf takeout box.",
+	},
+
+	["largeglbag"] = {
+		label = "Large Greenleaf Bag",
+		weight = 200,
+		stack = false,
+		close = false,
+		consume = 0,
+		description = "A Greenleaf takeout bag.",
+	},
+
 	--- GRUPPE6
 
 	['inked_cash_bag'] = {
@@ -23474,43 +23501,213 @@ return {
 	},
 
 	["cybergranola"] = {
-		label = "Cyber Granola",
-		weight = 100,
+		label = "Clankola Granola",
+		weight = 200,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
-		description = "Cyber Granola",
+		description = "Crunchy granola mixed for synthetics.",
+		client = {
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			usetime = 7500,
+		}
 	},
 
 	["cybercrackers"] = {
-		label = "CPU and Paste",
-		weight = 100,
+		label = "'Chips'",
+		weight = 150,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
-		description = "Cyber Crackers",
+		description = "Pressed PCB chips seasoned for synthetics.",
+		client = {
+			status = { hunger = 35 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			usetime = 7500,
+		}
 	},
 
 	["greencyberoil"] = {
-		label = "Green Cyber Oil",
-		weight = 100,
+		label = "Green Oil",
+		weight = 200,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
-		description = "Green Cyber Oil",
+		description = "Green oil served for synthetics.",
+		client = {
+			status = { thirst = 40 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_oiltub_04`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 5000,
+		}
 	},
 
 	["blackcyberoil"] = {
-		label = "Black Cyber Oil",
-		weight = 100,
+		label = "Black Oil",
+		weight = 200,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
-		description = "Black Cyber Oil",
+		description = "Black oil served for synthetics.",
+		client = {
+			status = { thirst = 40 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_oiltub_04`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 5000,
+		}
 	},
 
 	["cyberbagel"] = {
-		label = "Cyber Bagel",
-		weight = 100,
+		label = "Kitchen Sink Bagel",
+		weight = 250,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
-		description = "Cyber Bagel",
+		description = "A loaded bagel built for synthetics.",
+		client = {
+			status = { hunger = 50 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'p_ing_bagel_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(150.0, 340.0, 170.0)
+			},
+			usetime = 7500,
+		}
+	},
+
+	["horsepowerbowl"] = {
+		label = "Horsepower Bowl",
+		weight = 250,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "A high-octane berry bowl for synthetics.",
+		client = {
+			image = "horsepowerbowl.png",
+			status = { hunger = 45 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_bowl_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(150.0, 340.0, 170.0)
+			},
+			usetime = 7500,
+		}
+	},
+
+	["iremember"] = {
+		label = "'I Remember'",
+		weight = 200,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "A layered memory cocktail for synthetics.",
+		client = {
+			image = "iremember.png",
+			status = { thirst = 40 },
+			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+			prop = {
+				model = 'brum_shake_strawberry',
+				pos = vec3(0.16, -0.02, -0.06),
+				rot = vec3(270.00, 0.00, 0.00),
+				bone = 57005
+			},
+			usetime = 7500,
+		}
+	},
+
+	["lugnutlatte"] = {
+		label = "Lug 'Nut' Latte",
+		weight = 200,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "A nutty latte blended for synthetics.",
+		client = {
+			image = "lugnutlatte.png",
+			status = { thirst = 40 },
+			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_b' },
+			prop = {
+				model = 'v_res_mcofcupdirt',
+				pos = vec3(0.0, 0.0, 0.0),
+				rot = vec3(0.0, 0.0, 0.0),
+				bone = 28422,
+			},
+			usetime = 5000,
+		}
+	},
+
+	["oilaide"] = {
+		label = "Oli-Aide",
+		weight = 200,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Electrolyte oil for thirsty synthetics.",
+		client = {
+			image = "oilaide.png",
+			status = { thirst = 45 },
+			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+			prop = {
+				model = 'prop_cs_bs_cup',
+				pos = vec3(0.03, 0.03, 0.02),
+				rot = vec3(0.0, 0.0, -1.5)
+			},
+			usetime = 5000,
+		}
+	},
+
+	["roborita"] = {
+		label = "Robo-Rita",
+		weight = 200,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "A synthetic twist on a classic Rita.",
+		client = {
+			image = "roborita.png",
+			status = { thirst = 40 },
+			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+			prop = {
+				model = 'prop_tequila',
+				pos = vec3(0.01, 0.01, 0.06),
+				rot = vec3(5.0, 5.0, -180.5)
+			},
+			usetime = 5000,
+		}
+	},
+
+	["steaksandwich"] = {
+		label = "'Steak' Sandwich",
+		weight = 250,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "A steak sandwich built for synthetics.",
+		client = {
+			image = "steaksandwich.png",
+			status = { hunger = 55 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_sandwich_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(150.0, 340.0, 170.0)
+			},
+			usetime = 7500,
+		}
 	},
 
 	["lemonstrawberrycheesecakebites"] = {
@@ -23540,6 +23737,121 @@ return {
 			anim = { dict = 'anim@eat@fork', clip = 'fork_clip' },
 			usetime = 8000,
 		},
+	},
+
+	["carrotcake"] = {
+		label = "Carrot Cupcakes",
+		weight = 1000,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Carrot cupcakes with cream cheese frosting",
+		client = {
+			image = "carrotcake.png",
+			status = { hunger = 60 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'pata_christmasfood6',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(150.0, 340.0, 170.0)
+			},
+			usetime = 7500,
+		}
+	},
+
+	["carrotjuice"] = {
+		label = "Vitamin-Carrot Juice",
+		weight = 200,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Fresh carrot, lemon, orange, and ginger juice",
+		client = {
+			image = "carrotjuice.png",
+			status = { thirst = 40 },
+			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+			prop = {
+				model = 'brum_shake_strawberry',
+				pos = vec3(0.16, -0.02, -0.06),
+				rot = vec3(270.00, 0.00, 0.00),
+				bone = 57005
+			},
+			usetime = 7500,
+		}
+	},
+
+	["oil"] = {
+		label = "Oil",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Cooking oil",
+	},
+
+	["salt"] = {
+		label = "Salt",
+		weight = 50,
+		stack = true,
+		close = true,
+		description = "Salt",
+	},
+
+	["pecans"] = {
+		label = "Pecans",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Pecans",
+	},
+
+	["raisins"] = {
+		label = "Raisins",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Raisins",
+	},
+
+	["ginger"] = {
+		label = "Ginger",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Ginger",
+	},
+
+	["pcb"] = {
+		label = "PCB",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Printed circuit board",
+	},
+
+	["epoxyputty"] = {
+		label = "Epoxy Putty",
+		weight = 150,
+		stack = true,
+		close = true,
+		description = "Epoxy putty",
+	},
+
+	["ribboncable"] = {
+		label = "Ribbon Cable",
+		weight = 50,
+		stack = true,
+		close = true,
+		description = "Ribbon cable",
+	},
+
+	["southbridge"] = {
+		label = "Southbridge",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Southbridge chip",
 	},
 
 	["chaispice"] = {
