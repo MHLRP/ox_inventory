@@ -3459,11 +3459,23 @@ return {
 	["tiemeupwires"] = {
 		label = "Tie Me Up Wires",
 		weight = 150,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
-		description = "Copper wires tied into a heart — a Vanilla Unicorn specialty.",
+		description = "Copper wires tied into a heart",
 		client = {
 			image = "tiemeupwires.png",
+			status = { hunger = 25 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger' },
+			prop = {
+				model = 'prop_ld_cable_tie_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(150.0, 340.0, 170.0),
+				bone = 60309
+			},
+			disable = { move = false, car = false, combat = false },
+			usetime = 5000,
 		}
 	},
 
