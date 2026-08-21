@@ -124,22 +124,22 @@ Item('armour', function(data, slot)
 end)
 
 Item('lightarmor', function(data, slot)
-	if GetPedArmour(cache.ped) < 25 then
+	if GetPedArmour(cache.ped) < 50 then
 		ox_inventory:useItem(data, function(data)
 			if data then
-				SetPlayerMaxArmour(PlayerData.id, 25)
-				SetPedArmour(cache.ped, 25)
+				SetPlayerMaxArmour(PlayerData.id, 50)
+				SetPedArmour(cache.ped, 50)
 			end
 		end)
 	end
 end)
 
 Item('mediumarmor', function(data, slot)
-	if GetPedArmour(cache.ped) < 50 then
+	if GetPedArmour(cache.ped) < 100 then
 		ox_inventory:useItem(data, function(data)
 			if data then
-				SetPlayerMaxArmour(PlayerData.id, 50)
-				SetPedArmour(cache.ped, 50)
+				SetPlayerMaxArmour(PlayerData.id, 100)
+				SetPedArmour(cache.ped, 100)
 			end
 		end)
 	end
