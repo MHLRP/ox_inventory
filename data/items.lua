@@ -582,17 +582,6 @@ return {
 		stack = true,
 		close = true,
 		description = "Red Kiss Me Pop",
-		client = {
-			status = { hunger = 5 },
-			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger' },
-			prop = {
-				model = 'natty_lollipop01',
-				pos = vec3(-0.0100, 0.0200, -0.0100),
-				rot = vec3(-175.1935, 97.6975, 20.9598),
-				bone = 60309
-			},
-			usetime = 8000,
-		}
 	},
 
 	["lollipop1"] = {
@@ -3440,14 +3429,6 @@ return {
 		description = "A loaded hot dog from the Vanilla Unicorn kitchen.",
 		client = {
 			image = "bigdaddyshotdog.png",
-			status = { hunger = 45 },
-			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
-			prop = {
-				model = 'prop_cs_hotdog_01',
-				pos = vec3(0.05, -0.02, -0.03),
-				rot = vec3(0.0, 0.0, 0.0)
-			},
-			usetime = 7500,
 		}
 	},
 
@@ -3460,14 +3441,6 @@ return {
 		description = "A chicken burger straight from the Vanilla Unicorn kitchen.",
 		client = {
 			image = "dirtydancerchcknburg.png",
-			status = { hunger = 55 },
-			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
-			prop = {
-				model = 'dh_burger3',
-				pos = vec3(0.05, -0.02, -0.03),
-				rot = vec3(0.0, 0.0, 0.0)
-			},
-			usetime = 7500,
 		}
 	},
 
@@ -3480,14 +3453,6 @@ return {
 		description = "Honey-glazed chicken tenders from the Vanilla Unicorn kitchen.",
 		client = {
 			image = "teasemetenderschckn.png",
-			status = { hunger = 40 },
-			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
-			prop = {
-				model = 'prop_food_cb_nugets',
-				pos = vec3(0.05, -0.02, -0.03),
-				rot = vec3(0.0, 0.0, 0.0)
-			},
-			usetime = 7500,
 		}
 	},
 
@@ -7188,6 +7153,15 @@ return {
 		description = "God you are going to look so fucking cool smoking this",
 	},
 
+	['el_birdie_speciale'] = {
+		label = 'El Birdie Speciale',
+		weight = 115,
+		description = "A premium cigar — smooth, bold, and ridiculous.",
+		client = {
+			image = 'cigar.png',
+		},
+	},
+
 	["cigbox"] = {
 		label = "Cigarette Box",
 		weight = 100,
@@ -7318,7 +7292,7 @@ return {
 	},
 
 	['waka_blueberry'] = {
-		label = 'Vape',
+		label = 'Vape (Blueberry)',
 		weight = 115,
 		description = "Mmm.. Blueberry Flavor!",
 	},
@@ -7360,7 +7334,7 @@ return {
 	},
 
 	['waka_menthol'] = {
-		label = 'Vape',
+		label = 'Vape (Menthol)',
 		weight = 115,
 		description = "Mmm.. Menthol Flavor!",
 	},
@@ -24422,7 +24396,7 @@ return {
 	},
 
 	['gagzapperenergy'] = {
-		label = 'Zapper Energy',
+		label = 'G&G Zapper Energy',
 		weight = 250,
 		decay = true,
 		stack = true,
@@ -24437,7 +24411,7 @@ return {
 	},
 
 	['gagcroissant'] = {
-		label = 'Croissant',
+		label = 'G&G Croissant',
 		weight = 150,
 		degrade = 60 * 72,
 		decay = true,
@@ -24458,7 +24432,7 @@ return {
 	},
 
 	['gagdonut'] = {
-		label = 'Pink Glazed Donut',
+		label = 'G&G Donut',
 		weight = 150,
 		degrade = 60 * 72,
 		decay = true,
@@ -24479,7 +24453,7 @@ return {
 	},
 
 	['gagburrito'] = {
-		label = 'Burrito',
+		label = 'G&G Burrito',
 		weight = 350,
 		degrade = 60 * 72,
 		decay = true,

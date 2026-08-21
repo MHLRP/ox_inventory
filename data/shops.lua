@@ -493,17 +493,44 @@ return {
 		},
 		locations = {
 			vec3(-47.02, -1758.23, 28.42),
-			vec3(-706.06, -913.97, 19.22),
 			vec3(-1820.02, 794.03, 138.09),
 			vec3(1164.71, -322.94, 69.21),
 			vec3(1697.87, 4922.96, 42.06),
 		},
 		targets = {
 			{ loc = vec3(-47.02, -1758.23, 28.42),  length = 1.5, width = 3.0, heading = 45.05,  minZ = 41.5, maxZ = 43.0, distance = 3 },
-			{ loc = vec3(-706.06, -913.97, 19.22),  length = 1.5, width = 3.0, heading = 88.04,  minZ = 41.5, maxZ = 43.0, distance = 3 },
 			{ loc = vec3(-1820.02, 794.03, 138.09), length = 1.5, width = 3.0, heading = 135.45, minZ = 41.5, maxZ = 43.0, distance = 3 },
 			{ loc = vec3(1164.71, -322.94, 69.21),  length = 1.5, width = 3.0, heading = 101.72, minZ = 41.5, maxZ = 43.0, distance = 3 },
 			{ loc = vec3(1697.87, 4922.96, 42.06),  length = 1.5, width = 3.0, heading = 324.71, minZ = 41.5, maxZ = 43.0, distance = 3 },
+		}
+	},
+
+	GasNGo = {
+		name = 'GasNGo Store',
+		society = 'gasngo',
+		inventory = {
+			{ name = 'cigar',           price = 72 },
+			{ name = 'cigbox',          price = 85 },
+			{ name = 'vape',            price = 720 },
+			{ name = 'waka_blueberry',  price = 640 },
+			{ name = 'waka_menthol',    price = 672 },
+			{ name = 'lighter',         price = 2 },
+			{ name = 'hotdog',          price = 12 },
+			{ name = 'gagburrito',      price = 35 },
+			{ name = 'gagdonut',        price = 30 },
+			{ name = 'gagcroissant',    price = 30 },
+			{ name = 'gagzapperenergy', price = 25 },
+			{ name = 'soda',            price = 10 },
+			{ name = 'fx_scratchcard',  price = 71 },
+			{ name = 'water',           price = 11 },
+		},
+		targets = {
+			{
+				ped = `g_f_y_vagos_01`,
+				scenario = 'WORLD_HUMAN_STAND_MOBILE',
+				loc = vec3(-706.15386962891, -912.82025146484, 18.215599060059),
+				heading = 94.445678710938,
+			},
 		}
 	},
 
@@ -794,7 +821,7 @@ return {
 		inventory = {
 			{ name = 'antilag_remover', label = 'Antilag Remover', price = 200, currency = 'money' },
 			{ name = 'engine_oil',      label = 'Engine Oil',      price = 50,  currency = 'money' },
-			{ name = 'ev_coolant',      label = 'EV Coolant',       price = 50,  currency = 'money' },
+			{ name = 'ev_coolant',      label = 'EV Coolant',      price = 50,  currency = 'money' },
 		},
 		locations = {
 			vec3(-3358.8899, 1786.5342, 26.1405),
@@ -812,7 +839,7 @@ return {
 		inventory = {
 			{ name = 'antilag_remover', label = 'Antilag Remover', price = 200, currency = 'money' },
 			{ name = 'engine_oil',      label = 'Engine Oil',      price = 50,  currency = 'money' },
-			{ name = 'ev_coolant',      label = 'EV Coolant',       price = 50,  currency = 'money' },
+			{ name = 'ev_coolant',      label = 'EV Coolant',      price = 50,  currency = 'money' },
 		},
 		locations = {
 			vec3(124.1108, -3047.4905, 7.0405),
@@ -830,7 +857,7 @@ return {
 		inventory = {
 			{ name = 'antilag_remover', label = 'Antilag Remover', price = 200, currency = 'money' },
 			{ name = 'engine_oil',      label = 'Engine Oil',      price = 50,  currency = 'money' },
-			{ name = 'ev_coolant',      label = 'EV Coolant',       price = 50,  currency = 'money' },
+			{ name = 'ev_coolant',      label = 'EV Coolant',      price = 50,  currency = 'money' },
 		},
 		locations = {
 			vec3(225.3147, 1092.7230, 225.5631),
@@ -848,7 +875,7 @@ return {
 		inventory = {
 			{ name = 'antilag_remover', label = 'Antilag Remover', price = 200, currency = 'money' },
 			{ name = 'engine_oil',      label = 'Engine Oil',      price = 50,  currency = 'money' },
-			{ name = 'ev_coolant',      label = 'EV Coolant',       price = 50,  currency = 'money' },
+			{ name = 'ev_coolant',      label = 'EV Coolant',      price = 50,  currency = 'money' },
 		},
 		locations = {
 			vec3(2529.9763, 2641.6440, 37.9454)
@@ -1627,12 +1654,12 @@ return {
 			{ name = 'chips_cheese',   price = 16,  count = 75,  currency = 'money' },
 			{ name = 'chips_paprika',  price = 16,  count = 75,  currency = 'money' },
 			{ name = 'pitahummus',     price = 100, count = 30,  currency = 'money' },
-			{ name = 'olives',         price = 80, count = 40,  currency = 'money' },
-			{ name = 'ouzo',           price = 90, count = 30,  currency = 'money' },
+			{ name = 'olives',         price = 80,  count = 40,  currency = 'money' },
+			{ name = 'ouzo',           price = 90,  count = 30,  currency = 'money' },
 			{ name = 'pitagyros',      price = 110, count = 25,  currency = 'money' },
-			{ name = 'greeksalad',     price = 80, count = 40,  currency = 'money' },
+			{ name = 'greeksalad',     price = 80,  count = 40,  currency = 'money' },
 			{ name = 'pineapplejuice', price = 110, count = 25,  currency = 'money' },
-			{ name = 'peanutbowl',     price = 90, count = 30,  currency = 'money' },
+			{ name = 'peanutbowl',     price = 90,  count = 30,  currency = 'money' },
 		},
 		targets = {
 			{
@@ -1743,25 +1770,25 @@ return {
 		-- 	id = 606, colour = 0, scale = 0.6
 		-- },
 		inventory = {
-			{ name = 'radio',     price = 100,    count = 50, currency = 'money' },
-			{ name = 'laptop',    price = 1000,   count = 25, currency = 'money' },
-			{ name = 'fitbit',    price = 600,    count = 30, currency = 'money' },
-			{ name = 'powerbank', price = 200,    count = 50, currency = 'money' },
-			{ name = 'simcard',   price = 200,    count = 50, currency = 'money' },
-			{ name = 'phone',     price = 1000,   count = 25, currency = 'money' },
-			{ name = 'tablet',    price = 2000,   count = 20, currency = 'money' },
-			{ name = 'gopro',     price = 1000,   count = 15, currency = 'money' },
-			{ name = 'shitgpu',   price = 12000,  count = 10, currency = 'money' },
-			{ name = '1050gpu',   price = 18000,  count = 8,  currency = 'money' },
-			{ name = '1060gpu',   price = 26000,  count = 6,  currency = 'money' },
-			{ name = '1080gpu',   price = 32000,  count = 5,  currency = 'money' },
-			{ name = '2080gpu',   price = 45000,  count = 4,  currency = 'money' },
-			{ name = '3060gpu',   price = 75000,  count = 3,  currency = 'money' },
-			{ name = '4090gpu',   price = 100000, count = 2,  currency = 'money' },
-			{ name = 'pcb',       price = 20,     count = 75, currency = 'money' },
-			{ name = 'epoxyputty', price = 15,    count = 75, currency = 'money' },
-			{ name = 'ribboncable', price = 15,   count = 75, currency = 'money' },
-			{ name = 'southbridge', price = 25,   count = 75, currency = 'money' },
+			{ name = 'radio',       price = 100,    count = 50, currency = 'money' },
+			{ name = 'laptop',      price = 1000,   count = 25, currency = 'money' },
+			{ name = 'fitbit',      price = 600,    count = 30, currency = 'money' },
+			{ name = 'powerbank',   price = 200,    count = 50, currency = 'money' },
+			{ name = 'simcard',     price = 200,    count = 50, currency = 'money' },
+			{ name = 'phone',       price = 1000,   count = 25, currency = 'money' },
+			{ name = 'tablet',      price = 2000,   count = 20, currency = 'money' },
+			{ name = 'gopro',       price = 1000,   count = 15, currency = 'money' },
+			{ name = 'shitgpu',     price = 12000,  count = 10, currency = 'money' },
+			{ name = '1050gpu',     price = 18000,  count = 8,  currency = 'money' },
+			{ name = '1060gpu',     price = 26000,  count = 6,  currency = 'money' },
+			{ name = '1080gpu',     price = 32000,  count = 5,  currency = 'money' },
+			{ name = '2080gpu',     price = 45000,  count = 4,  currency = 'money' },
+			{ name = '3060gpu',     price = 75000,  count = 3,  currency = 'money' },
+			{ name = '4090gpu',     price = 100000, count = 2,  currency = 'money' },
+			{ name = 'pcb',         price = 20,     count = 75, currency = 'money' },
+			{ name = 'epoxyputty',  price = 15,     count = 75, currency = 'money' },
+			{ name = 'ribboncable', price = 15,     count = 75, currency = 'money' },
+			{ name = 'southbridge', price = 25,     count = 75, currency = 'money' },
 		},
 		targets = {
 			{
@@ -1779,17 +1806,17 @@ return {
 		-- 	id = 606, colour = 0, scale = 0.6
 		-- },
 		inventory = {
-			{ name = 'radio',     price = 100,  count = 50, currency = 'money' },
-			{ name = 'laptop',    price = 1000, count = 25, currency = 'money' },
-			{ name = 'tablet',    price = 2000, count = 20, currency = 'money' },
-			{ name = 'fitbit',    price = 600,  count = 30, currency = 'money' },
-			{ name = 'phone',     price = 800,  count = 30, currency = 'money' },
-			{ name = 'simcard',   price = 100,  count = 50, currency = 'money' },
-			{ name = 'powerbank',   price = 200, count = 50, currency = 'money' },
-			{ name = 'pcb',         price = 20,  count = 75, currency = 'money' },
-			{ name = 'epoxyputty',  price = 15,  count = 75, currency = 'money' },
-			{ name = 'ribboncable', price = 15,  count = 75, currency = 'money' },
-			{ name = 'southbridge', price = 25,  count = 75, currency = 'money' },
+			{ name = 'radio',       price = 100,  count = 50, currency = 'money' },
+			{ name = 'laptop',      price = 1000, count = 25, currency = 'money' },
+			{ name = 'tablet',      price = 2000, count = 20, currency = 'money' },
+			{ name = 'fitbit',      price = 600,  count = 30, currency = 'money' },
+			{ name = 'phone',       price = 800,  count = 30, currency = 'money' },
+			{ name = 'simcard',     price = 100,  count = 50, currency = 'money' },
+			{ name = 'powerbank',   price = 200,  count = 50, currency = 'money' },
+			{ name = 'pcb',         price = 20,   count = 75, currency = 'money' },
+			{ name = 'epoxyputty',  price = 15,   count = 75, currency = 'money' },
+			{ name = 'ribboncable', price = 15,   count = 75, currency = 'money' },
+			{ name = 'southbridge', price = 25,   count = 75, currency = 'money' },
 		},
 		targets = {
 			{
@@ -1867,7 +1894,7 @@ return {
 			{ name = 'sprayremover',     price = 100,  currency = 'money' },
 			{ name = 'wallet',           price = 50,   currency = 'money' },
 			{ name = 'gasmask',          price = 1000, currency = 'money' },
-			{ name = 'WEAPON_GOLFCLUB',  price = 20,  currency = 'money' },
+			{ name = 'WEAPON_GOLFCLUB',  price = 20,   currency = 'money' },
 			-- { name = 'keyring',          price = 200,   currency = 'money' },
 			{ name = 'pickaxe',          price = 250,  currency = 'money' },
 			{ name = 'frisbee',          price = 50,   currency = 'money' },
@@ -2255,9 +2282,9 @@ return {
 		},
 		inventory = {
 			{ name = 'greenleaf_menu', price = 0 },
-			{ name = 'smallglbox', price = 0 },
-			{ name = 'bigglbox', price = 0 },
-			{ name = 'largeglbag', price = 0 },
+			{ name = 'smallglbox',     price = 0 },
+			{ name = 'bigglbox',       price = 0 },
+			{ name = 'largeglbag',     price = 0 },
 		},
 		locations = {
 			vec3(-636.6, 233.79, 82.41)
