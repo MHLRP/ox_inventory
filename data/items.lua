@@ -7153,15 +7153,6 @@ return {
 		description = "God you are going to look so fucking cool smoking this",
 	},
 
-	['el_birdie_speciale'] = {
-		label = 'El Birdie Speciale',
-		weight = 115,
-		description = "A premium cigar — smooth, bold, and ridiculous.",
-		client = {
-			image = 'cigar.png',
-		},
-	},
-
 	["cigbox"] = {
 		label = "Cigarette Box",
 		weight = 100,
