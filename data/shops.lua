@@ -2055,53 +2055,6 @@ return {
 		}
 	},
 
-	YouTool5 = {
-		name = 'Auto Parts',
-		groups = {
-			['medusamechanics'] = 0,
-			['midnightautos'] = 0,
-			['rexsgarage'] = 0,
-		},
-		inventory = {
-			{ name = 'r488sound',     label = 'R488 Engine 2.5L',           price = 0 },
-			{ name = 'k20a',          label = 'K20a Turbo 2.0L',            price = 0 },
-			{ name = 'urusv8',        label = 'Urus V8 4.0L',               price = 0 },
-			{ name = 'm297zonda',     label = 'M297 Zonda 6.0L',            price = 0 },
-			{ name = 'v8engine',      label = 'V8 5.0L',                    price = 0 },
-			{ name = 'shonen',        label = 'Inline-4 Turbo 1.8L',        price = 0 },
-			{ name = 'predatorv8',    label = 'Predator V8 5.2L',           price = 0 },
-			{ name = 'gt3flat6',      label = 'Flat-6 3.8L',                price = 0 },
-			{ name = 'lambov10',      label = 'Lando V10 5.2L',             price = 0 },
-			{ name = 'rotary7',       label = 'Rotary 2.6L',                price = 0 },
-			{ name = 'supra2jzgtett', label = 'Super 2JZ-GTE',              price = 0 },
-			{ name = 'm158huayra',    label = 'ASG V12 6.0L',               price = 0 },
-			{ name = 'viperv10',      label = 'Viper V10 8.4L',             price = 0 },
-			{ name = 'veyronsound',   label = 'Bud W16 8.0L',               price = 0 },
-			{ name = 'perfov10',      label = 'Lando V10 5.2L Performance', price = 0 },
-			{ name = 'sestov10',      label = 'Lando V10 5.2L Sesto',       price = 0 },
-			{ name = 'mclarenv8',     label = 'Flare V8 4.0L',              price = 0 },
-			{ name = 'murciev12',     label = 'Lando V12 6.5L',             price = 0 },
-			{ name = 'r35sound',      label = 'Missin GTR R35 3.8L',        price = 0 },
-			{ name = 'musv8',         label = 'Lisson V8 5.0L',             price = 0 },
-			{ name = 'apollosv8',     label = 'Apollo V8 4.0L',             price = 0 },
-			{ name = 'avesvv12',      label = 'Adventure SV V12 6.5L',      price = 0 },
-			{ name = 'diablov12',     label = 'Diablo V12 6.0L',            price = 0 },
-			{ name = 'f40v8',         label = 'Favo F40 V8 2.9L',           price = 0 },
-			{ name = 'f50v12',        label = 'Favo F50 V12 4.7L',          price = 0 },
-			{ name = 'ferrarif12',    label = 'Favo F12 V12 6.3L',          price = 0 },
-			{ name = 'gtaspanov10',   label = 'Spano V10 8.0L',             price = 0 },
-			{ name = 'killshot',      label = 'Killshot V8',                price = 0 },
-			{ name = 'v6_engine',     label = 'POLICE V6 3.3L',             price = 0 },
-			{ name = 'v8_engine',     label = 'POLICE V8 5.7L',             price = 0 },
-		},
-		locations = {
-			vec3(2704.4878, 3494.2378, 55.6717)
-		},
-		targets = {
-			{ loc = vec3(2704.4878, 3494.2378, 55.6717), length = 6.0, width = 8.0, heading = 250.7133, minZ = 28.2, maxZ = 28.6, distance = 2 }
-		}
-	},
-
 	YouTool6 = {
 		name = 'Cement',
 		inventory = {
