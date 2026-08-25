@@ -983,7 +983,25 @@ return {
 		label = 'Storage',
 		owner = false,
 		slots = 15,
-		weight = 500000,
+		weight = 1000000,
+		groups = { ['medusamechanics'] = 0 }
+	},
+	{
+		coords = vec3(125.1558, -3016.5254, 7.0406),
+		target = {
+			loc = vec3(125.1558, -3016.5254, 7.0406),
+			length = 1.2,
+			width = 5.6,
+			heading = 351.5014,
+			minZ = 29.49,
+			maxZ = 32.09,
+			label = 'Medusa Storage'
+		},
+		name = 'medusamechanics3',
+		label = 'Storage',
+		owner = false,
+		slots = 15,
+		weight = 1000000,
 		groups = { ['medusamechanics'] = 0 }
 	},
 	{
