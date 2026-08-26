@@ -23997,6 +23997,9 @@ return {
 		stack = true,
 		close = true,
 		description = 'A dice for rolling',
+		server = {
+			export = 'moonlit-dice.useDice',
+		},
 	},
 
 	['ac_vent'] = {
