@@ -14263,12 +14263,40 @@ return {
 		}
 	},
 
-	["yogamat"] = {
-		label = "Yogamat",
-		weight = 100,
-		stack = true,
-		close = false,
-		description = "You can relax with this!",
+	["yoga_mat"] = {
+		label = "Grey Yoga Mat",
+		weight = 500,
+		stack = false,
+		close = true,
+		consume = 0,
+		description = "A rolled grey yoga mat. Use to lay it out on the ground.",
+		server = {
+			export = 'qb-smallresources.useYogaMat',
+		},
+	},
+
+	["yoga_mat_blue"] = {
+		label = "Blue Yoga Mat",
+		weight = 500,
+		stack = false,
+		close = true,
+		consume = 0,
+		description = "A rolled blue yoga mat. Use to lay it out on the ground.",
+		server = {
+			export = 'qb-smallresources.useYogaMat',
+		},
+	},
+
+	["yoga_mat_red"] = {
+		label = "Red Yoga Mat",
+		weight = 500,
+		stack = false,
+		close = true,
+		consume = 0,
+		description = "A rolled red yoga mat. Use to lay it out on the ground.",
+		server = {
+			export = 'qb-smallresources.useYogaMat',
+		},
 	},
 
 	["recyclablematerial"] = {

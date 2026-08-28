@@ -1227,11 +1227,11 @@ return {
 	WeedShop = {
 		name = 'Weed Shop',
 		inventory = {
-			{ name = 'zatweedseed',   price = 3000, count = 20, currency = 'money' },
-			{ name = 'zatplanter',    price = 4000, count = 15, currency = 'money' },
-			-- { name = 'male_seed',          price = 3000, currency = 'money' }, hmm... not sure if we need this
-			{ name = 'zatweedrackxs', price = 2500, count = 15, currency = 'money' },
-			{ name = 'zatweedracks',  price = 5000, count = 10, currency = 'money' },
+			{ name = 'zatweedseed',   price = 3000, count = 20, currency = 'black_money' },
+			{ name = 'zatplanter',    price = 4000, count = 15, currency = 'black_money' },
+			-- { name = 'male_seed',          price = 3000, currency = 'black_money' }, hmm... not sure if we need this
+			{ name = 'zatweedrackxs', price = 2500, count = 15, currency = 'black_money' },
+			{ name = 'zatweedracks',  price = 5000, count = 10, currency = 'black_money' },
 		},
 		targets = {
 			{
@@ -1882,7 +1882,9 @@ return {
 			{ name = 'cwnotepad',        price = 50,   currency = 'money' },
 			{ name = 'rocketball',       price = 50,   currency = 'money' },
 			{ name = 'megaphone',        price = 50,   currency = 'money' },
-			{ name = 'yogamat',          price = 50,   currency = 'money' },
+			{ name = 'yoga_mat',       price = 50,  currency = 'money' },
+			{ name = 'yoga_mat_blue',  price = 60,  currency = 'money' },
+			{ name = 'yoga_mat_red',   price = 60,  currency = 'money' },
 			{ name = 'diving_gear',      price = 200,  currency = 'money' },
 			{ name = 'diving_fill',      price = 100,  currency = 'money' },
 			{ name = 'hottub1',          price = 500,  currency = 'money' },
