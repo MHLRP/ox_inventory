@@ -12351,8 +12351,9 @@ return {
 	},
 	-- Performance Item
 	["performance_part"] = {
-		label = "Performance Parts",
+		label = "Performance Upgrades",
 		weight = 1000,
+		stack = true,
 	},
 	-- Mechanic Tablet Item
 	["mechanic_tablet"] = {
