@@ -6062,6 +6062,18 @@ return {
 		}
 	},
 
+	["document"] = {
+		label = "Document",
+		weight = 100,
+		stack = false,
+		close = true,
+		consume = 0,
+		description = "An official printed document",
+		client = {
+			image = "printerdocument.png",
+		},
+	},
+
 	["samsungphone"] = {
 		label = "Samsung S10",
 		weight = 1000,
