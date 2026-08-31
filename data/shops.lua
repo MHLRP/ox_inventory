@@ -2163,6 +2163,42 @@ return {
 		},
 	},
 
+	fireshop = {
+		name = 'Fire Department Store',
+		groups = {
+			['firefighter'] = 0
+		},
+		inventory = {
+			{ name = 'watertank',                price = 0 },
+			{ name = 'kq_winch',                 price = 0 },
+			{ name = 'kq_tow_rope',              price = 0 },
+			{ name = 'radio',                    price = 0 },
+			{ name = 'radiocell',                price = 0 },
+			{ name = 'fdcamera',                 price = 0 },
+			{ name = 'repair_kit',               price = 0 },
+			{ name = 'WEAPON_FIREEXTINGUISHER',  price = 0 },
+			{ name = 'WEAPON_FLASHLIGHT',        price = 0 },
+			{ name = 'WEAPON_HATCHET',           price = 0 },
+			{ name = 'WEAPON_HALLIGAN',          price = 0 },
+			{ name = 'WEAPON_SPREADER',          price = 0 },
+			{ name = 'WEAPON_SAW',               price = 0 },
+			{ name = 'WEAPON_FRRC',              price = 0 },
+		},
+	},
+
+	fireshop2 = {
+		name = 'Chiefs Office FD Store',
+		groups = {
+			['firefighter'] = 5
+		},
+		inventory = {
+			{ name = 'tablet',            price = 0, metadata = { description = "Fire Department Property" } },
+			{ name = 'taser_cartridge',   price = 0 },
+			{ name = 'WEAPON_STUNGUN',    price = 0, tint = 6, weapontint = "Orange Tint" },
+			{ name = 'fire_license',      price = 0 },
+		},
+	},
+
 	burgershot2 = {
 		name = 'Burgershot Menu',
 		inventory = {
