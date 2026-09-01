@@ -137,6 +137,20 @@ local invOpen = false
 local IsPedCuffed = IsPedCuffed
 local playerPed = cache.ped
 
+local function setInventoryHudVisible(visible)
+	TriggerEvent('hud:client:ToggleHUD', visible)
+
+	if GetResourceState('es_cybrhud') == 'started' then
+		if visible then
+			TriggerEvent('es_cybrhud:showHUD')
+		else
+			TriggerEvent('es_cybrhud:hideHUD')
+		end
+	end
+
+	DisplayRadar(visible)
+end
+
 lib.onCache('ped', function(ped)
 	playerPed = ped
 	Utils.WeaponWheel()
@@ -398,6 +412,8 @@ function client.openInventory(inv, data)
 
 	if client.screenblur then TriggerScreenblurFadeIn(0) end
 
+	setInventoryHudVisible(false)
+
 	currentInventory = right or defaultInventory
 	left.items = PlayerData.inventory
 	left.groups = PlayerData.groups
@@ -454,6 +470,8 @@ RegisterNetEvent('ox_inventory:forceOpenInventory', function(left, right)
 	closeTrunk()
 
 	if client.screenblur then Utils.blurIn() end
+
+	setInventoryHudVisible(false)
 
 	currentInventory = right or defaultInventory
 	currentInventory.ignoreSecurityChecks = true
@@ -1169,6 +1187,7 @@ function client.closeInventory(server)
 		SetNuiFocusKeepInput(false)
 		Utils.blurOut()
 		closeTrunk()
+		setInventoryHudVisible(true)
 		SendNUIMessage({ action = 'closeInventory' })
 		SetInterval(client.interval, 200)
 		Wait(200)

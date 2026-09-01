@@ -3,6 +3,28 @@ import { getItemData, itemDurability } from '../helpers';
 import { Items } from '../store/items';
 import { Inventory, State } from '../typings';
 
+const mapInventoryItems = (inventory: Inventory, curTime: number) => {
+  const itemsBySlot = new Map<number, (typeof inventory.items)[number]>();
+
+  for (const item of Object.values(inventory.items)) {
+    if (item?.slot) itemsBySlot.set(item.slot, item);
+  }
+
+  return Array.from({ length: inventory.slots }, (_, index) => {
+    const slot = index + 1;
+    const item = itemsBySlot.get(slot) || { slot };
+
+    if (!item.name) return item;
+
+    if (typeof Items[item.name] === 'undefined') {
+      getItemData(item.name);
+    }
+
+    item.durability = itemDurability(item.metadata, curTime);
+    return item;
+  });
+};
+
 export const setupInventoryReducer: CaseReducer<
   State,
   PayloadAction<{
@@ -13,43 +35,19 @@ export const setupInventoryReducer: CaseReducer<
   const { leftInventory, rightInventory } = action.payload;
   const curTime = Math.floor(Date.now() / 1000);
 
-  if (leftInventory)
+  if (leftInventory) {
     state.leftInventory = {
       ...leftInventory,
-      items: Array.from(Array(leftInventory.slots), (_, index) => {
-        const item = Object.values(leftInventory.items).find((item) => item?.slot === index + 1) || {
-          slot: index + 1,
-        };
-
-        if (!item.name) return item;
-
-        if (typeof Items[item.name] === 'undefined') {
-          getItemData(item.name);
-        }
-
-        item.durability = itemDurability(item.metadata, curTime);
-        return item;
-      }),
+      items: mapInventoryItems(leftInventory, curTime),
     };
+  }
 
-  if (rightInventory)
+  if (rightInventory) {
     state.rightInventory = {
       ...rightInventory,
-      items: Array.from(Array(rightInventory.slots), (_, index) => {
-        const item = Object.values(rightInventory.items).find((item) => item?.slot === index + 1) || {
-          slot: index + 1,
-        };
-
-        if (!item.name) return item;
-
-        if (typeof Items[item.name] === 'undefined') {
-          getItemData(item.name);
-        }
-
-        item.durability = itemDurability(item.metadata, curTime);
-        return item;
-      }),
+      items: mapInventoryItems(rightInventory, curTime),
     };
+  }
 
   state.shiftPressed = false;
   state.isBusy = false;

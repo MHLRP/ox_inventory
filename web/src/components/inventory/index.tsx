@@ -14,8 +14,6 @@ import InventoryContext from './InventoryContext';
 import { closeContextMenu } from '../../store/contextMenu';
 import Fade from '../utils/transitions/Fade';
 
-import bg from '../../media/bg.gif';
-
 const Inventory: React.FC = () => {
   const [inventoryVisible, setInventoryVisible] = useState(false);
   const dispatch = useAppDispatch();

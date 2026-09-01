@@ -1,6 +1,6 @@
 import React, { useCallback, useRef } from 'react';
 import { DragSource, Inventory, InventoryType, Slot, SlotWithItem } from '../../typings';
-import { useDrag, useDragDropManager, useDrop } from 'react-dnd';
+import { useDrag, useDrop } from 'react-dnd';
 import { useAppDispatch } from '../../store';
 import WeightBar from '../utils/WeightBar';
 import { onDrop } from '../../dnd/onDrop';
@@ -10,8 +10,6 @@ import { canCraftItem, canPurchaseItem, getItemUrl, isSlotWithItem } from '../..
 import { onUse } from '../../dnd/onUse';
 import { Locale } from '../../store/locale';
 import { onCraft } from '../../dnd/onCraft';
-import useNuiEvent from '../../hooks/useNuiEvent';
-import { ItemsPayload } from '../../reducers/refreshSlots';
 import { closeTooltip, openTooltip } from '../../store/tooltip';
 import { openContextMenu } from '../../store/contextMenu';
 import { useMergeRefs } from '@floating-ui/react';
@@ -29,7 +27,6 @@ const InventorySlot: React.ForwardRefRenderFunction<HTMLDivElement, SlotProps> =
   { item, inventoryId, inventoryType, inventoryGroups },
   ref
 ) => {
-  const manager = useDragDropManager();
   const dispatch = useAppDispatch();
   const timerRef = useRef<number | null>(null);
 
@@ -86,19 +83,6 @@ const InventorySlot: React.ForwardRefRenderFunction<HTMLDivElement, SlotProps> =
     }),
     [inventoryType, item]
   );
-
-  useNuiEvent('refreshSlots', (data: { items?: ItemsPayload | ItemsPayload[] }) => {
-    if (!isDragging && !data.items) return;
-    if (!Array.isArray(data.items)) return;
-
-    const itemSlot = data.items.find(
-      (dataItem) => dataItem.item.slot === item.slot && dataItem.inventory === inventoryId
-    );
-
-    if (!itemSlot) return;
-
-    manager.dispatch({ type: 'dnd-core/END_DRAG' });
-  });
 
   const connectRef = (element: HTMLDivElement | null) => {
     if (!element) return;
