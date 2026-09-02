@@ -2174,17 +2174,18 @@ return {
 			['firefighter'] = 0
 		},
 		inventory = {
-			{ name = 'watertank',               price = 0 },
 			{ name = 'kq_winch',                price = 0 },
 			{ name = 'kq_tow_rope',             price = 0 },
-			{ name = 'radio',                   price = 0 },
-			{ name = 'radiocell',               price = 0 },
-			{ name = 'fdcamera',                price = 0 },
-			{ name = 'repair_kit',              price = 0 },
 			{ name = 'WEAPON_FIREEXTINGUISHER', price = 0 },
-			{ name = 'WEAPON_FLASHLIGHT',       price = 0 },
 			{ name = 'WEAPON_HATCHET',          price = 0 },
 			{ name = 'WEAPON_HALLIGAN',         price = 0 },
+			{ name = 'WEAPON_FLASHLIGHT',       price = 0 },
+		},
+		locations = {
+			vec3(-1044.1195, -1392.9631, 4.9819),
+		},
+		targets = {
+			{ loc = vec3(-1044.1195, -1392.9631, 4.9819), length = 1.0, width = 1.0, heading = 0.0, minZ = 4.0, maxZ = 6.5, distance = 2.0 },
 		},
 	},
 
@@ -2198,6 +2199,12 @@ return {
 			{ name = 'taser_cartridge', price = 0 },
 			{ name = 'WEAPON_STUNGUN',  price = 0, tint = 6,                                               weapontint = "Orange Tint" },
 			{ name = 'fire_license',    price = 0 },
+		},
+		locations = {
+			vec3(-1053.4564, -1432.4845, 5.0147),
+		},
+		targets = {
+			{ loc = vec3(-1053.4564, -1432.4845, 5.0147), length = 1.0, width = 1.0, heading = 259.0, minZ = 4.0, maxZ = 6.5, distance = 2.0 },
 		},
 	},
 
