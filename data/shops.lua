@@ -3151,7 +3151,7 @@ return {
 		}
 	}--]]
 
-	Farming = { 
+	Farming = {
 		name = 'Farming - Supplies',
 		label = 'Browse Supplies',
 		icon = 'fa-solid fa-wheat-awn',
@@ -3182,9 +3182,9 @@ return {
 			{ name = 'beehive',         price = 12500 },
 			{ name = 'queen_bee',       price = 1000 },
 			{ name = 'worker_bees',     price = 80 },
-			{ name = 'bee_trap',        price = 550 },
-			{ name = 'beekeeping_guide', price = 550 },
-			{ name = 'beekeeper_suit',  price = 7000 },
+			{ name = 'bee_trap',         price = 120 },
+			{ name = 'beekeeping_guide', price = 12 },
+			{ name = 'beekeeper_suit',   price = 2500 },
 		},
 		targets = {
 			{
