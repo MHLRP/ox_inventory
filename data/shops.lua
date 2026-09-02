@@ -3150,4 +3150,50 @@ return {
 			`prop_vend_soda_02`, `prop_vend_fridge01`, `prop_vend_water_01`, `prop_vend_soda_01`
 		}
 	}--]]
+
+	Farming = { 
+		name = 'Farming - Supplies',
+		label = 'Browse Supplies',
+		icon = 'fa-solid fa-wheat-awn',
+		inventory = {
+			{ name = 'farmguide',       price = 10 },
+			{ name = 'watering_can',    price = 20 },
+			{ name = 'farm_fertilizer', price = 10 },
+			{ name = 'garden_shovel',   price = 25 },
+			{ name = 'emptysack',       price = 5 },
+			{ name = 'emptycrate',      price = 8 },
+			{ name = 'emptymilkbottle', price = 1 },
+			{ name = 'growler',         price = 3 },
+			{ name = 'bucket',          price = 5 },
+			{ name = 'corn_seed',       price = 15 },
+			{ name = 'tomato_seed',     price = 18 },
+			{ name = 'wheat_seed',      price = 13 },
+			{ name = 'broccoli_seed',   price = 18 },
+			{ name = 'barley_seed',     price = 14 },
+			{ name = 'carrot_seed',     price = 12 },
+			{ name = 'potato_seed',     price = 14 },
+			{ name = 'cucumber_seed',   price = 15 },
+			{ name = 'blueberry_seed',  price = 18 },
+			{ name = 'strawberry_seed', price = 18 },
+			{ name = 'pineapple_seed',  price = 20 },
+			{ name = 'onion_seed',      price = 12 },
+			{ name = 'watermelon_seed', price = 22 },
+			{ name = 'pumpkin_seed',    price = 20 },
+			{ name = 'beehive',         price = 12500 },
+			{ name = 'queen_bee',       price = 1000 },
+			{ name = 'worker_bees',     price = 80 },
+			{ name = 'bee_trap',        price = 550 },
+			{ name = 'beekeeping_guide', price = 550 },
+			{ name = 'beekeeper_suit',  price = 7000 },
+		},
+		targets = {
+			{
+				ped = `a_m_m_farmer_01`,
+				scenario = 'WORLD_HUMAN_SMOKING',
+				loc = vec3(2310.6460, 4885.6523, 40.8082),
+				heading = 45.8036,
+				distance = 2.0,
+			},
+		},
+	},
 }
