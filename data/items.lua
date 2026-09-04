@@ -14312,6 +14312,17 @@ return {
 		}
 	},
 
+	["emptyplasticbottle"] = {
+		label = "Empty Plastic Bottle",
+		weight = 10,
+		stack = true,
+		close = true,
+		description = "An empty plastic bottle.",
+		client = {
+			image = "emptyplasticbottle.png",
+		}
+	},
+
 	["bchocolatemuffin"] = {
 		label = "Chocolate Muffin",
 		weight = 1000,
