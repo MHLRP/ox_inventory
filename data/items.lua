@@ -24691,5 +24691,84 @@ return {
 		stack = true,
 		close = true,
 		client = { image = "diced_chicken.png" },
-	}
+	},
+
+	["white_sauce"] = {
+		label = "White Sauce",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+	["cheese_sauce"] = {
+		label = "Cheese Sauce",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+	["pickled_onions"] = {
+		label = "Pickled Onions",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+	["fry_dust"] = {
+		label = "Fry Dust",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+	["chicken_leg"] = {
+		label = "Chicken Leg",
+		weight = 150,
+		stack = true,
+		close = true,
+	},
+	["gravy_mix"] = {
+		label = "Gravy Mix",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+	["mashed_potatoes"] = {
+		label = "Mashed Potatoes",
+		weight = 150,
+		stack = true,
+		close = true,
+	},
+	["hash_browns"] = {
+		label = "Hash Browns",
+		weight = 150,
+		stack = true,
+		close = true,
+	},
+	["chocolate_syrup"] = {
+		label = "Chocolate Syrup",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+	["apple_pie_filling"] = {
+		label = "Apple Pie Filling",
+		weight = 150,
+		stack = true,
+		close = true,
+	},
+	["citrus_glaze"] = {
+		label = "Citrus Glaze",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+	["citrus_syrup"] = {
+		label = "Citrus Syrup",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+	["vanilla_syrup"] = {
+		label = "Vanilla Syrup",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
 }
