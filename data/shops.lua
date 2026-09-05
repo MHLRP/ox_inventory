@@ -2190,11 +2190,9 @@ return {
 		},
 		locations = {
 			vec3(-1030.0952, -1391.9253, 4.9732),
-			vec3(-1044.1195, -1392.9631, 4.9819),
 		},
 		targets = {
 			{ loc = vec3(-1030.0952, -1391.9253, 4.9732), length = 1.0, width = 1.0, heading = 253.8043, minZ = 4.0, maxZ = 6.5, distance = 2.0 },
-			{ loc = vec3(-1044.1195, -1392.9631, 4.9819), length = 1.0, width = 1.0, heading = 0.0,      minZ = 4.0, maxZ = 6.5, distance = 2.0 },
 		},
 	},
 
