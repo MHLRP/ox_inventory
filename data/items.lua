@@ -11681,6 +11681,14 @@ return {
 		weight = 220,
 		stack = false,
 		close = true,
+		buttons = {
+			{
+				label = 'Throw Keys',
+				action = function(slot)
+					exports.MrNewbVehicleKeys:ThrowKeys(slot)
+				end,
+			},
+		},
 	},
 
 	["nitro"] = {
