@@ -24090,6 +24090,14 @@ return {
 		description = 'Yield Sign'
 	},
 
+	['cowsign'] = {
+		label = 'Cow Sign',
+		weight = 10,
+		stack = true,
+		close = true,
+		description = 'Cow Crossing Sign'
+	},
+
 	['key'] = {
 		label = 'House Key',
 		weight = 2,
