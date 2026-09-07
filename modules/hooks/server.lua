@@ -16,10 +16,15 @@ local function itemFilter(filter, item, secondItem)
 end
 
 local function inventoryFilter(filter, inventory, secondInventory)
+	-- createItem / loot gen can fire with no inventory id yet; treat as non-match
+	if not inventory and not secondInventory then
+		return false
+	end
+
 	for i = 1, #filter do
 		local pattern = filter[i]
 
-		if inventory:match(pattern) or (secondInventory and secondInventory:match(pattern)) then
+		if (inventory and inventory:match(pattern)) or (secondInventory and secondInventory:match(pattern)) then
 			return true
 		end
 	end
