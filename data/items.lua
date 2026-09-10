@@ -6932,6 +6932,14 @@ return {
 		}
 	},
 
+	['tourniquet'] = {
+		label = 'Tourniquet',
+		weight = 80,
+		stack = true,
+		close = true,
+		description = ""
+	},
+
 	--- PRISON
 
 	['wood'] = {
