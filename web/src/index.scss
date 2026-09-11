@@ -1,4 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+/* Self-hosted — Orbitron UI + Tomorrow buttons (only weights the UI uses) */
+@font-face {
+  font-family: 'Orbitron';
+  src: url('./fonts/orbitron-latin-400-normal.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Orbitron';
+  src: url('./fonts/orbitron-latin-600-normal.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Tomorrow';
+  src: url('./fonts/tomorrow-latin-400-normal.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Tomorrow';
+  src: url('./fonts/tomorrow-latin-400-normal.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Tomorrow';
+  src: url('./fonts/tomorrow-latin-700-normal.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
 $dark: #0C0A19;
 $darkTransparent: rgba(12, 10, 25, 0.75);
@@ -157,10 +192,16 @@ button:active {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background-image: url('./media/bg.gif');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  pointer-events: none;
+}
+
+.inventory-bg-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
 }
 
 .inventory-bar-top, .inventory-bar-bottom {

@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import InventoryComponent from './components/inventory';
 import useNuiEvent from './hooks/useNuiEvent';
 import { Items } from './store/items';
@@ -12,7 +11,6 @@ import DragPreview from './components/utils/DragPreview';
 import { fetchNui } from './utils/fetchNui';
 import { useDragDropManager } from 'react-dnd';
 import KeyPress from './components/utils/KeyPress';
-import bgGif from './media/bg.gif';
 
 debugData([
   {
@@ -135,11 +133,6 @@ const App: React.FC = () => {
   });
 
   fetchNui('uiLoaded', {});
-
-  useEffect(() => {
-    const img = new Image();
-    img.src = bgGif;
-  }, []);
 
   useNuiEvent('closeInventory', () => {
     manager.dispatch({ type: 'dnd-core/END_DRAG' });

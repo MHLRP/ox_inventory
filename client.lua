@@ -55,66 +55,6 @@ exports('getCurrentWeapon', function()
 end)
 
 
--- Hook into DisablePlayerFiring to track what's calling it
-local originalDisablePlayerFiring = DisablePlayerFiring
-function DisablePlayerFiring(playerId, disable)
-	if GetConvar('ox_inventory:debug', 'false') == 'true' and disable then
-		print("=== DisablePlayerFiring called ===")
-		print("STACK TRACE:")
-
-		local info = debug.getinfo(2, "nSl")
-		local level = 2
-		while info do
-			print(('  %d: %s:%d in %s'):format(level - 2, info.short_src or "?", info.currentline or 0, info.name or "?"))
-			level = level + 1
-			info = debug.getinfo(level, "nSl")
-		end
-
-		local callingResource = GetInvokingResource()
-		if callingResource then
-			print('CALLING RESOURCE:', callingResource)
-		end
-		print("=====================================")
-	end
-
-	return originalDisablePlayerFiring(playerId, disable)
-end
-
--- Hook into LocalPlayer.state:set to track weapon state changes
-local originalSetState = LocalPlayer.state.set
-local function hookedSetState(self, key, value, replicated)
-	if GetConvar('ox_inventory:debug', 'false') == 'true' and (key == 'canUseWeapons' or key == 'invBusy') then
-		print(('=== LocalPlayer.state:set(%s, %s) called ==='):format(tostring(key), tostring(value)))
-		print("STACK TRACE:")
-
-		local info = debug.getinfo(2, "nSl")
-		local level = 2
-		while info do
-			print(('  %d: %s:%d in %s'):format(level - 2, info.short_src or "?", info.currentline or 0, info.name or "?"))
-			level = level + 1
-			info = debug.getinfo(level, "nSl")
-		end
-
-		local callingResource = GetInvokingResource()
-		if callingResource then
-			print('CALLING RESOURCE:', callingResource)
-		end
-		print("===============================================")
-	end
-
-	return originalSetState(self, key, value, replicated)
-end
-
--- Apply the hook
-setmetatable(LocalPlayer.state, {
-	__index = function(t, k)
-		if k == 'set' then
-			return hookedSetState
-		end
-		return rawget(t, k)
-	end
-})
-
 RegisterNetEvent('ox_inventory:disarm', function(noAnim)
 	currentWeapon = Weapon.Disarm(currentWeapon, noAnim)
 end)
@@ -1852,13 +1792,6 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 			end
 
 			if usingItem or invOpen or IsPedCuffed(playerPed) then
-				if GetConvar('ox_inventory:debug', 'false') == 'true' then
-					local reason = ""
-					if usingItem then reason = reason .. "usingItem " end
-					if invOpen then reason = reason .. "invOpen " end
-					if IsPedCuffed(playerPed) then reason = reason .. "cuffed " end
-					print("ox_inventory: DisablePlayerFiring - " .. reason)
-				end
 				DisablePlayerFiring(playerId, true)
 			end
 
