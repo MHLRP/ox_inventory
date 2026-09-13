@@ -24168,6 +24168,28 @@ return {
 		}
 	},
 
+	['vehiclebomb'] = {
+		label = 'Vehicle Bomb',
+		weight = 1500,
+		stack = false,
+		close = true,
+		description = 'Plant under a vehicle. Requires an unlinked bomb detonator phone to arm.',
+		client = {
+			image = 'vehiclebomb.png',
+		}
+	},
+
+	['vehiclebombphone'] = {
+		label = 'Bomb Detonator Phone',
+		weight = 200,
+		stack = false,
+		close = true,
+		description = 'Burner detonator. Links to a vehicle bomb when you plant one; use to detonate.',
+		client = {
+			image = 'vehiclebombburnerphone.png',
+		}
+	},
+
 	["chromecircuit"] = {
 		label = "Chrome Circuit",
 		weight = 290,
