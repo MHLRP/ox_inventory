@@ -23546,6 +23546,22 @@ return {
 		stack = true,
 		close = true,
 		description = "Brownie Mix",
+		client = {
+			image = "browniemix.png",
+		}
+	},
+
+	["swisscheese"] = {
+		label = "Swiss Cheese",
+		weight = 125,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Swiss cheese for cooking",
+		client = {
+			image = "swisscheese.png",
+		}
 	},
 
 	["matchalavenderlatte"] = {
