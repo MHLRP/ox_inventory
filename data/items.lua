@@ -24202,7 +24202,7 @@ return {
 		close = true,
 		description = 'Burner detonator. Links to a vehicle bomb when you plant one; use to detonate.',
 		client = {
-			image = 'vehiclebombburnerphone.png',
+			image = 'vehiclebombphone.png',
 		}
 	},
 
