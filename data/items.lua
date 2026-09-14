@@ -13588,7 +13588,7 @@ return {
 	},
 
 	["burger-bun"] = {
-		label = "Bun",
+		label = "Burger Bun",
 		weight = 100,
 		degrade = 60 * 72,
 		decay = true,
