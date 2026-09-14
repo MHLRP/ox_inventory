@@ -24765,6 +24765,30 @@ return {
 		close = true,
 		client = { image = "diced_chicken.png" },
 	},
+	["sliced_onions"] = {
+		label = "Sliced Onions",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Onions sliced for cooking.",
+		client = { image = "sliced_onions.png" },
+	},
+	["sliced_tomatoes"] = {
+		label = "Sliced Tomatoes",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Tomatoes sliced for cooking.",
+		client = { image = "sliced_tomatoes.png" },
+	},
+	["shredded_lettuce"] = {
+		label = "Shredded Lettuce",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Lettuce shredded for cooking.",
+		client = { image = "shredded_lettuce.png" },
+	},
 
 	["white_sauce"] = {
 		label = "White Sauce",
