@@ -8,7 +8,7 @@ return {
 			['ghost'] = 0
 		},
 		blip = {
-			--id = 110, colour = 84, scale = 0.8
+			--id = 110, colour = 84, scale = 0.6
 		},
 		inventory = {
 			{ name = 'ammo-9',              price = 0, metadata = { description = "Police Property" }, },
@@ -97,7 +97,7 @@ return {
 			['ghost'] = 0
 		},
 		blip = {
-			--id = 110, colour = 84, scale = 0.8
+			--id = 110, colour = 84, scale = 0.6
 		},
 		inventory = {
 			{ name = 'ammo-9',              price = 0, metadata = { description = "Police Property" }, },
@@ -548,7 +548,7 @@ return {
 			['ambulance'] = 0
 		},
 		blip = {
-			id = 403, colour = 69, scale = 0.8
+			id = 403, colour = 69, scale = 0.6
 		},
 		inventory = {
 			{ name = 'prescription_pad',        label = 'Prescription Pad',  price = 0, metadata = { description = "Property of Los Santos Medical Center" } },
