@@ -11597,10 +11597,25 @@ return {
 	},
 
 	["customizableplate"] = {
-		label = "customizableplate",
+		label = "Customizable Plate",
 		weight = 200,
 		stack = false,
 		close = true,
+		description = "Permanently change a vehicle's license plate text",
+		client = {
+			export = 'moonlit-customplates.useNativePlate',
+		},
+	},
+
+	["duiplate"] = {
+		label = "Video Plate",
+		weight = 200,
+		stack = false,
+		close = true,
+		description = "Apply a custom video screen plate",
+		client = {
+			export = 'moonlit-customplates.useDuiPlate',
+		},
 	},
 
 

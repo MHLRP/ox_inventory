@@ -849,9 +849,11 @@ return {
 			['medusamechanics'] = 0
 		},
 		inventory = {
-			{ name = 'antilag_remover', label = 'Antilag Remover', price = 200, currency = 'money' },
-			{ name = 'engine_oil',      label = 'Engine Oil',      price = 50,  currency = 'money' },
-			{ name = 'ev_coolant',      label = 'EV Coolant',      price = 50,  currency = 'money' },
+			{ name = 'antilag_remover',   label = 'Antilag Remover', price = 200,  currency = 'money' },
+			{ name = 'engine_oil',        label = 'Engine Oil',      price = 50,   currency = 'money' },
+			{ name = 'ev_coolant',        label = 'EV Coolant',      price = 50,   currency = 'money' },
+			{ name = 'customizableplate', label = 'Customizable Plate', price = 2000, currency = 'money' },
+			{ name = 'duiplate',          label = 'Video Plate',     price = 4000, currency = 'money' },
 		},
 		locations = {
 			vec3(124.1108, -3047.4905, 7.0405),
@@ -867,9 +869,11 @@ return {
 			['midnightautos'] = 0
 		},
 		inventory = {
-			{ name = 'antilag_remover', label = 'Antilag Remover', price = 200, currency = 'money' },
-			{ name = 'engine_oil',      label = 'Engine Oil',      price = 50,  currency = 'money' },
-			{ name = 'ev_coolant',      label = 'EV Coolant',      price = 50,  currency = 'money' },
+			{ name = 'antilag_remover',   label = 'Antilag Remover', price = 200,  currency = 'money' },
+			{ name = 'engine_oil',        label = 'Engine Oil',      price = 50,   currency = 'money' },
+			{ name = 'ev_coolant',        label = 'EV Coolant',      price = 50,   currency = 'money' },
+			{ name = 'customizableplate', label = 'Customizable Plate', price = 2000, currency = 'money' },
+			{ name = 'duiplate',          label = 'Video Plate',     price = 4000, currency = 'money' },
 		},
 		locations = {
 			vec3(225.3147, 1092.7230, 225.5631),
@@ -885,9 +889,11 @@ return {
 			['rexsgarage'] = 0
 		},
 		inventory = {
-			{ name = 'antilag_remover', label = 'Antilag Remover', price = 200, currency = 'money' },
-			{ name = 'engine_oil',      label = 'Engine Oil',      price = 50,  currency = 'money' },
-			{ name = 'ev_coolant',      label = 'EV Coolant',      price = 50,  currency = 'money' },
+			{ name = 'antilag_remover',   label = 'Antilag Remover', price = 200,  currency = 'money' },
+			{ name = 'engine_oil',        label = 'Engine Oil',      price = 50,   currency = 'money' },
+			{ name = 'ev_coolant',        label = 'EV Coolant',      price = 50,   currency = 'money' },
+			{ name = 'customizableplate', label = 'Customizable Plate', price = 2000, currency = 'money' },
+			{ name = 'duiplate',          label = 'Video Plate',     price = 4000, currency = 'money' },
 		},
 		locations = {
 			vec3(2529.9763, 2641.6440, 37.9454)
