@@ -2827,7 +2827,7 @@ return {
 	},
 
 	['redwinebottle'] = {
-		label = 'Red Whine',
+		label = 'Red Wine',
 		weight = 300,
 		decay = true,
 		stack = true,
@@ -2836,7 +2836,7 @@ return {
 	},
 
 	['whitewinebottle'] = {
-		label = 'White Whine',
+		label = 'White Wine',
 		weight = 300,
 		decay = true,
 		stack = true,
@@ -7670,6 +7670,14 @@ return {
 		stack = true,
 		close = true,
 		description = ""
+	},
+
+	['safekey'] = {
+		label = 'Safe Key',
+		weight = 25,
+		stack = false,
+		close = true,
+		description = 'A key that looks like it belongs to a store safe'
 	},
 
 	["gatecrack"] = {
