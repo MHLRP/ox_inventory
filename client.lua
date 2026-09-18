@@ -15,19 +15,30 @@ local function vehicleIsCycle(vehicle)
 	return class == 8 or class == 13
 end
 
---- Aim / vehicle attack — when true, weapon is drawn for drive-by.
+--- Real aim / drive-by only. Never use INPUT_AIM (25) alone — it can be held
+--- without aim cam, which would un-stow a lap gun and panic ambient peds.
 local function shouldUseWeaponInVehicle()
-	return IsControlPressed(0, 25)
-		or IsControlPressed(0, 68)
-		or IsControlPressed(0, 69)
-		or IsControlPressed(0, 70)
-		or IsControlPressed(0, 91)
-		or IsControlPressed(0, 92)
-		or IsPlayerFreeAiming(cache.playerId)
+	local ped = cache.ped
+	return IsPlayerFreeAiming(cache.playerId)
+		or IsAimCamActive()
+		or GetPedConfigFlag(ped, 78, true)
+		or IsControlPressed(0, 68)  -- INPUT_VEH_AIM
+		or IsControlPressed(0, 69)  -- INPUT_VEH_ATTACK
+		or IsControlPressed(0, 70)  -- INPUT_VEH_ATTACK2
+		or IsControlPressed(0, 91)  -- INPUT_VEH_PASSENGER_AIM
+		or IsControlPressed(0, 92)  -- INPUT_VEH_PASSENGER_ATTACK
 end
 
---- Keep ox_inventory currentWeapon, but select unarmed so ambient peds don't treat a
---- holstered-in-car gun as a visible threat (vanilla GTA holsters on enter; inventory was blocking that).
+local function shouldStowWeaponInVehicle(vehicle)
+	vehicle = vehicle or cache.vehicle
+	return currentWeapon
+		and vehicle
+		and not vehicleIsCycle(vehicle)
+		and not shouldUseWeaponInVehicle()
+end
+
+--- Soft-holster: keep ox currentWeapon, but select UNARMED so native AI + scripts
+--- that read GetSelectedPedWeapon / IsPedArmed do not treat a lap gun as a threat.
 local function setVehicleWeaponStowed(stow)
 	if not currentWeapon then
 		vehicleWeaponStowed = false
@@ -37,9 +48,7 @@ local function setVehicleWeaponStowed(stow)
 	local ped = cache.ped
 
 	if stow then
-		if GetSelectedPedWeapon(ped) == currentWeapon.hash then
-			SetCurrentPedWeapon(ped, WEAPON_UNARMED, true)
-		end
+		SetCurrentPedWeapon(ped, WEAPON_UNARMED, true)
 		vehicleWeaponStowed = true
 	else
 		if GetSelectedPedWeapon(ped) ~= currentWeapon.hash then
@@ -52,6 +61,10 @@ end
 
 exports('getCurrentWeapon', function()
 	return currentWeapon
+end)
+
+exports('isVehicleWeaponStowed', function()
+	return vehicleWeaponStowed == true
 end)
 
 
@@ -656,6 +669,12 @@ local function useSlot(slot, noAnim)
 				if result then
 					local sleep
 					currentWeapon, sleep = Weapon.Equip(item, data, noAnim)
+
+					-- Equip forces the weapon selected; soft-holster immediately in cars
+					-- so ambient AI never sees a one-frame "armed in vehicle" flash.
+					if shouldStowWeaponInVehicle() then
+						setVehicleWeaponStowed(true)
+					end
 
 					if sleep then Wait(sleep) end
 				end
@@ -1713,8 +1732,8 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 		local weaponHash = GetSelectedPedWeapon(playerPed)
 
 		if currentWeapon then
-			-- Soft-holstered in a vehicle: unarmed is intentional, do not force re-equip / disarm
-			local skipWeaponSync = vehicleWeaponStowed and weaponHash == WEAPON_UNARMED
+			-- Soft-holster owns selected weapon in vehicles; never force re-equip here.
+			local skipWeaponSync = vehicleWeaponStowed
 
 			if not skipWeaponSync and weaponHash ~= currentWeapon.hash and currentWeapon.timer then
 				local weaponCount = Items[currentWeapon.name]?.count
@@ -1758,7 +1777,8 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 	client.tick = SetInterval(function()
 		DisablePlayerVehicleRewards(playerId)
 
-		-- Match vanilla: holster while driving unless aiming for a drive-by (stops ped panic at guns in cars)
+		-- Soft-holster while driving: selected weapon stays UNARMED unless aiming / drive-by.
+		-- Native AI and reaction scripts key off GetSelectedPedWeapon / IsPedArmed.
 		if currentWeapon and cache.vehicle and not vehicleIsCycle(cache.vehicle) then
 			if shouldUseWeaponInVehicle() then
 				if vehicleWeaponStowed then
@@ -1766,7 +1786,7 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 				end
 			elseif not vehicleWeaponStowed then
 				setVehicleWeaponStowed(true)
-			elseif GetSelectedPedWeapon(playerPed) == currentWeapon.hash then
+			elseif GetSelectedPedWeapon(playerPed) ~= WEAPON_UNARMED then
 				SetCurrentPedWeapon(playerPed, WEAPON_UNARMED, true)
 			end
 		elseif vehicleWeaponStowed then
