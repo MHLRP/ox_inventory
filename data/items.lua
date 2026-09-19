@@ -12505,6 +12505,22 @@ return {
 		description = "License to practice medical",
 	},
 
+	["blue_monroeinsurance"] = {
+		label = "Monroe Medical Insurance",
+		weight = 1,
+		stack = false,
+		close = false,
+		description = "Monroe Medical insurance card — 25% off Khan and pharmacy.",
+	},
+
+	["red_monroeinsurance"] = {
+		label = "Moonlit Government Insurance",
+		weight = 1,
+		stack = false,
+		close = false,
+		description = "Government worker insurance — Khan is free, 50% off pharmacy.",
+	},
+
 	['fire_license'] = { -- Fire Department License
 		label = 'Fire Department ID',
 		weight = 1,

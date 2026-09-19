@@ -50,7 +50,7 @@ exports('setContainerProperties', setContainerProperties)
 setContainerProperties('wallet', {
 	slots = 12,
 	maxWeight = 3000,
-	whitelist = { 'id_card','driver_license', 'drive_a', 'drive_b', 'drive_c', 'helicopter_licence', 'plane_licence', 'boat_licence', 'weaponlicense', 'fishinglicense', 'weed_license', 'huntinglicense', 'lawyerpass','bank_card','security_card_01','security_card_02','money','scard_fleeca','casino_member','casino_vip', 'gym_membership', 'medical_license' }
+	whitelist = { 'id_card','driver_license', 'drive_a', 'drive_b', 'drive_c', 'helicopter_licence', 'plane_licence', 'boat_licence', 'weaponlicense', 'fishinglicense', 'weed_license', 'huntinglicense', 'lawyerpass','bank_card','security_card_01','security_card_02','money','scard_fleeca','casino_member','casino_vip', 'gym_membership', 'medical_license', 'blue_monroeinsurance', 'red_monroeinsurance' }
 })
 
 setContainerProperties('briefcase', {
