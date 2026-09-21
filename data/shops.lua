@@ -2763,6 +2763,7 @@ return {
 			{ name = 'fertilizer',          price = 100, currency = 'money' },
 			{ name = 'wateringcan',         price = 75,  currency = 'money' },
 			{ name = 'zatwaterbottleempty', price = 10,  count = 75,        currency = 'money' },
+			{ name = 'zatwatersetup',       price = 150, count = 20,        currency = 'money' },
 			{ name = 'zatwalllight',        price = 100, currency = 'money' },
 			{ name = 'zatbluelight',        price = 100, currency = 'money' },
 			{ name = 'zatceilinglight',     price = 200, currency = 'money' },
