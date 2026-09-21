@@ -1298,10 +1298,20 @@ local function onEnterDrop(point)
 		end
 		lib.requestModel(model)
 
-		local entity = CreateObject(model, point.coords.x, point.coords.y, point.coords.z, false, true, true)
+		local entity
+		local rot = point.rotation
+		if rot then
+			entity = CreateObjectNoOffset(model, point.coords.x, point.coords.y, point.coords.z, false, true, true)
+			local rx = rot.x or rot[1] or 0.0
+			local ry = rot.y or rot[2] or 0.0
+			local rz = rot.z or rot[3] or 0.0
+			SetEntityRotation(entity, rx + 0.0, ry + 0.0, rz + 0.0, 2, true)
+		else
+			entity = CreateObject(model, point.coords.x, point.coords.y, point.coords.z, false, true, true)
+			PlaceObjectOnGroundProperly(entity)
+		end
 
 		SetModelAsNoLongerNeeded(model)
-		PlaceObjectOnGroundProperly(entity)
 		FreezeEntityPosition(entity, true)
 		SetEntityCollision(entity, true, true)
 
@@ -1324,7 +1334,8 @@ local function createDrop(dropId, data)
 		distance = 16,
 		invId = dropId,
 		instance = data.instance,
-		model = data.model
+		model = data.model,
+		rotation = data.rotation
 	})
 
 	if point.model or client.dropprops then
@@ -1506,6 +1517,51 @@ lib.onCache('vehicle', function(vehicle)
 	end
 end)
 
+local function applySoftDropPlaceButtons()
+	if GetResourceState('qb-smallresources') ~= 'started' then return end
+
+	local ok, names = pcall(function()
+		return exports['qb-smallresources']:getPlaceableItemNames()
+	end)
+	if not ok or type(names) ~= 'table' then return end
+
+	local function place(slot)
+		exports['qb-smallresources']:placeDropItem(slot)
+	end
+
+	local function ensurePlace(item)
+		if not item then return end
+
+		if not item.buttons then
+			item.buttons = { { label = 'Place', action = place } }
+			return
+		end
+
+		for i = 1, #item.buttons do
+			if item.buttons[i].label == 'Place' then return end
+		end
+
+		item.buttons[#item.buttons + 1] = { label = 'Place', action = place }
+	end
+
+	local list = names[1] and names or nil
+	if list then
+		for i = 1, #list do
+			local name = list[i]
+			if type(name) == 'string' then
+				ensurePlace(Items[name] or Items[name:lower()] or (name:sub(1, 7):lower() == 'weapon_' and Items[name:upper()]))
+			end
+		end
+		return
+	end
+
+	for name in pairs(names) do
+		if type(name) == 'string' then
+			ensurePlace(Items[name] or Items[name:lower()] or (name:sub(1, 7):lower() == 'weapon_' and Items[name:upper()]))
+		end
+	end
+end
+
 RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inventory, weight, player)
 	if source == '' then return end
 
@@ -1527,6 +1583,8 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 	})
 
 	if setStateBagHandler then setStateBagHandler(('player:%s'):format(cache.serverId)) end
+
+	applySoftDropPlaceButtons()
 
 	local ItemData = table.create(0, #Items)
 

@@ -48,7 +48,13 @@ return {
 				action = function(slot)
 					print('Because they\'re fast food.')
 				end
-			}
+			},
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
 		},
 		consume = 0.3
 	},
@@ -297,7 +303,16 @@ return {
 				rot = vec3(0.0, 0.0, 40.00)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	--- BUTCHER ITEMS
@@ -322,6 +337,15 @@ return {
 				bone = 28422
 			},
 			usetime = 12000,
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
 		},
 	},
 
@@ -352,6 +376,15 @@ return {
 			anim = { dict = 'anim@eat@fork', clip = 'fork_clip' },
 			usetime = 8000,
 		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["cake"] = {
@@ -380,6 +413,15 @@ return {
 				},
 			},
 			usetime = 12000,
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
 		},
 	},
 
@@ -410,6 +452,15 @@ return {
 			},
 			usetime = 12000,
 		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["strawberrycake"] = {
@@ -439,6 +490,15 @@ return {
 			},
 			usetime = 12000,
 		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["cupcake-limao"] = {
@@ -458,7 +518,16 @@ return {
 				rot = vec3(150.0, 340.0, 170.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["leite-condensado"] = {
@@ -515,7 +584,16 @@ return {
 				rot = vec3(150.0, 340.0, 170.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["barra-manteiga"] = {
@@ -544,7 +622,16 @@ return {
 				rot = vec3(150.0, 340.0, 170.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["pacote-leite"] = {
@@ -601,7 +688,16 @@ return {
 				bone = 60309
 			},
 			usetime = 8000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["bubble-menta"] = {
@@ -622,7 +718,16 @@ return {
 				bone = 28422
 			},
 			usetime = 12000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["grapejuice"] = {
@@ -661,7 +766,15 @@ return {
 				rot = vec3(150.0, 340.0, 170.0)
 			},
 			usetime = 7500,
-		}
+		},
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["egobar"] = {
@@ -672,6 +785,15 @@ return {
 		stack = true,
 		close = true,
 		description = "",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["bubble-amora"] = {
@@ -692,7 +814,16 @@ return {
 				bone = 28422
 			},
 			usetime = 12000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["extrato-baunilha"] = {
@@ -721,7 +852,16 @@ return {
 				rot = vec3(150.0, 340.0, 170.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["cupcake-strawberrychocolate"] = {
@@ -789,7 +929,16 @@ return {
 				rot = vec3(150.0, 340.0, 170.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["crisps"] = {
@@ -800,6 +949,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Crispy crisps",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["hamburger"] = {
@@ -809,6 +967,15 @@ return {
 		stack = true,
 		close = true,
 		description = "",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["panqueca-nutela"] = {
@@ -846,7 +1013,16 @@ return {
 				rot = vec3(0.0, 0.0, 0.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['sandwich'] = { -- A simple sandwich for a simple day
@@ -866,7 +1042,16 @@ return {
 				rot = vec3(150.0, 340.0, 170.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['burger_chs'] = { -- A test hamburger that you can eat
@@ -886,7 +1071,16 @@ return {
 				rot = vec3(0.0, 0.0, 0.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['burger_chsbcn'] = { -- A test hamburger that you can eat
@@ -906,7 +1100,16 @@ return {
 				rot = vec3(0.0, 0.0, 0.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['hotdog'] = { -- A test hamburger that you can eat
@@ -917,6 +1120,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Not made with real dogs or meat",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['noodles'] = { -- Fuck those baked shits are good af
@@ -936,7 +1148,16 @@ return {
 				rot = vec3(0.0, 0.0, -40.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['sobanoodlesbowl'] = {
@@ -1036,7 +1257,16 @@ return {
 				rot = vec3(0.0, 0.0, -45.0)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['mustard'] = {
@@ -1052,7 +1282,16 @@ return {
 			prop = { model = `prop_food_mustard`, pos = vec3(0.01, 0.0, -0.07), rot = vec3(1.0, 1.0, -1.5) },
 			usetime = 2500,
 			notification = 'You.. drank mustard'
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['ketchup'] = {
@@ -1068,7 +1307,16 @@ return {
 			prop = { model = `prop_food_ketchup`, pos = vec3(0.01, 0.0, -0.07), rot = vec3(1.0, 1.0, -1.5) },
 			usetime = 2500,
 			notification = 'You.. drank ketchup'
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	--- PIZZA	
@@ -1091,7 +1339,16 @@ return {
 				bone = 60309
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['pizza_chs'] = { -- A simple sandwich for a simple day
@@ -1112,7 +1369,16 @@ return {
 				bone = 60309
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['pizza_msh'] = { -- A simple sandwich for a simple day
@@ -1133,7 +1399,16 @@ return {
 				bone = 60309
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['pizza_mgt'] = { -- A simple sandwich for a simple day
@@ -1154,7 +1429,16 @@ return {
 				bone = 60309
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['pizza_dmt'] = { -- A simple sandwich for a simple day
@@ -1175,7 +1459,16 @@ return {
 				bone = 60309
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	--- SNACKS
@@ -1197,7 +1490,16 @@ return {
 				rot = vec3(90.0, 0.0, -45.0)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['phatc_bch'] = { -- Biggie Cheese
@@ -1217,7 +1519,16 @@ return {
 				rot = vec3(90.0, 0.0, -45.0)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['ps_qs'] = { -- is that candy
@@ -1237,7 +1548,16 @@ return {
 				rot = vec3(90.0, 0.0, -45.0)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["twerks_candy"] = {
@@ -1267,7 +1587,16 @@ return {
 			},
 			usetime = 3000,
 			notification = 'An apple a day keeps the doctor away!'
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['banana'] = { -- banana good
@@ -1287,7 +1616,16 @@ return {
 				rot = vec3(270.0, 90.0, 0.0)
 			},
 			usetime = 3000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['orange'] = { -- banana good
@@ -1307,7 +1645,16 @@ return {
 				rot = vec3(270.0, 90.0, 0.0)
 			},
 			usetime = 3000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	--- DESSERTS	
@@ -1338,7 +1685,16 @@ return {
 				rot = vec3(150.0, 340.0, 170.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["bubble-morango"] = {
@@ -1359,7 +1715,16 @@ return {
 				bone = 28422
 			},
 			usetime = 12000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["barra-chocolate"] = {
@@ -1379,7 +1744,16 @@ return {
 				rot = vec3(150.0, 340.0, 170.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['donut_chc'] = { -- Fuck those baked shits are good af
@@ -1400,7 +1774,16 @@ return {
 				rot = vec3(-50.0, 100.0, 270.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['donut_sby'] = { -- Fuck those baked shits are good af
@@ -1421,7 +1804,16 @@ return {
 				rot = vec3(-50.0, 100.0, 270.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['smore'] = { -- Fuck those baked shits are good af
@@ -1443,7 +1835,16 @@ return {
 				rot = vec3(-42.0, -36.0, 0.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['icecream_chr'] = { -- brain cold go brrrrr
@@ -1464,7 +1865,16 @@ return {
 				rot = vec3(85.0, 70.0, -203.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['icecream_chc'] = { -- brain cold go brrrrr
@@ -1485,7 +1895,16 @@ return {
 				rot = vec3(85.0, 70.0, -203.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['icecream_lmn'] = { -- brain cold go brrrrr
@@ -1506,7 +1925,16 @@ return {
 				rot = vec3(85.0, 70.0, -203.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['icecream_pso'] = { -- brain cold go brrrrr
@@ -1527,7 +1955,16 @@ return {
 				rot = vec3(85.0, 70.0, -203.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['icecream_rpy'] = { -- brain cold go brrrrr
@@ -1548,7 +1985,16 @@ return {
 				rot = vec3(85.0, 70.0, -203.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['icecream_ckd'] = { -- brain cold go brrrrr
@@ -1569,7 +2015,16 @@ return {
 				rot = vec3(85.0, 70.0, -203.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['icecream_sby'] = { -- brain cold go brrrrr
@@ -1590,7 +2045,16 @@ return {
 				rot = vec3(85.0, 70.0, -203.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['icecream_vna'] = { -- brain cold go brrrrr
@@ -1611,7 +2075,16 @@ return {
 				rot = vec3(85.0, 70.0, -203.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["milkshake-morango"] = {
@@ -1632,7 +2105,16 @@ return {
 				bone = 57005
 			},
 			usetime = 12000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["gelado-morango"] = {
@@ -1652,7 +2134,16 @@ return {
 				rot = vec3(150.0, 340.0, 170.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["milkshake-chocolate"] = {
@@ -1673,7 +2164,16 @@ return {
 				bone = 57005
 			},
 			usetime = 12000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["specialchocolate"] = {
@@ -1683,6 +2183,15 @@ return {
 		stack = true,
 		close = true,
 		description = "",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["chocolate"] = {
@@ -1702,7 +2211,16 @@ return {
 				rot = vec3(150.0, 340.0, 170.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	--- DRINKS
@@ -1727,7 +2245,16 @@ return {
 			usetime = 2500,
 			cancel = true,
 			notification = 'You drank some refreshing water'
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["kurkakola"] = {
@@ -1761,7 +2288,16 @@ return {
 				rot = vec3(0.0, 0.0, 130.0)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['milk'] = { -- milky milky milky
@@ -1782,7 +2318,16 @@ return {
 				rot = vec3(240.0, -60.0, 0.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	--- FOOD
@@ -2603,6 +3148,15 @@ return {
 		stack = true,
 		close = true,
 		description = "This joint hit..",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["coffee"] = {
@@ -2612,6 +3166,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Pump 4 Caffeine",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['coffee_black'] = { -- Carbonized syrup is good for the soul
@@ -2621,6 +3184,15 @@ return {
 		stack = true,
 		close = true,
 		description = "As black as the color wheel lets it be",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['coffee_mocha'] = { -- Carbonized syrup is good for the soul
@@ -2630,6 +3202,15 @@ return {
 		stack = true,
 		close = true,
 		description = "What even is a mocha",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['coffee_cpcno'] = { -- Carbonized syrup is good for the soul
@@ -2639,6 +3220,15 @@ return {
 		stack = true,
 		close = true,
 		description = "That might wake you up a smidge",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['coffee_amrcno'] = { -- Carbonized syrup is good for the soul
@@ -2648,6 +3238,15 @@ return {
 		stack = true,
 		close = true,
 		description = "American coffee, with an o",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	--- SODAS
@@ -2658,6 +3257,15 @@ return {
 		stack = true,
 		close = true,
 		description = "",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['cola'] = {
@@ -2672,7 +3280,16 @@ return {
 			prop = { model = `prop_ecola_can`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
 			usetime = 2500,
 			notification = 'You quenched your thirst with cola'
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["ecola"] = {
@@ -2690,7 +3307,16 @@ return {
 				rot = vec3(0.0, 0.0, 130.0)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['sprunk'] = {
@@ -2709,7 +3335,16 @@ return {
 				rot = vec3(0.0, 0.0, 130.0)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['orangotang'] = { -- Carbonized syrup is good for the soul
@@ -2728,7 +3363,16 @@ return {
 				rot = vec3(0.0, 0.0, 130.0)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['ejunk'] = { -- Drinking too much of this wont kill you. I think.
@@ -2747,7 +3391,16 @@ return {
 				rot = vec3(5.0, 5.0, -180.5)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	--- BEER
@@ -2759,6 +3412,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Nothing like a good cold beer!",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['rancho_beer'] = { -- Good ol imported beer from mexico
@@ -2768,6 +3430,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Good ol imported beer from mexico",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['dusche_beer'] = { -- Good ol imported beer from germany
@@ -2777,6 +3448,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Good ol imported beer from germany",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['stronzo_beer'] = { -- Good ol imported beer from italy
@@ -2786,6 +3466,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Good ol imported beer from italy",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['blarny_beer'] = { -- Good ol imported beer from italy
@@ -2795,6 +3484,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Good ol imported stout from ireland",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['patriot_beer'] = { -- Good ol homemade beer from the brewery
@@ -2804,6 +3502,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Good ol homemade beer from the brewery",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	--- ALCOHOL: BOTTLES
@@ -2815,6 +3522,15 @@ return {
 		stack = true,
 		close = true,
 		description = "For all the thirsty out there",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["wine"] = {
@@ -2860,6 +3576,15 @@ return {
 		stack = true,
 		close = true,
 		description = "For all the thirsty out there",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['bb_bourgeoix'] = { -- Good ol imported beer from mexico
@@ -2869,6 +3594,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['bb_cariaque'] = { -- Good ol imported beer from mexico
@@ -2878,6 +3612,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['cb_bleuterd'] = { -- Good ol imported beer from mexico
@@ -2887,6 +3630,15 @@ return {
 		stack = true,
 		close = true,
 		description = "For those fancy events",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['rb_ragga'] = { -- Good ol imported beer from mexico
@@ -2896,6 +3648,15 @@ return {
 		stack = true,
 		close = true,
 		description = "A pirates drink for me",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['tb_tequilya'] = { -- Good ol imported beer from mexico
@@ -2905,6 +3666,15 @@ return {
 		stack = true,
 		close = true,
 		description = "For extra kick, add snake venom",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['vb_nogo'] = { -- Good ol imported beer from mexico
@@ -2914,6 +3684,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Chilled like the mountains of Siberia",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['wb_mount'] = { -- Good ol imported beer from mexico
@@ -2923,6 +3702,15 @@ return {
 		stack = true,
 		close = true,
 		description = "The cowboy's choice for getting plastered",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['wb_richards'] = { -- Good ol imported beer from mexico
@@ -2932,6 +3720,15 @@ return {
 		stack = true,
 		close = true,
 		description = "For the refined taste buds you so clearly have",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	--- ALCOHOL: Glasses
@@ -2943,6 +3740,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['bg_cariaque'] = { -- Good ol imported beer from mexico
@@ -2952,6 +3758,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['bs_bourgeiox'] = { -- Good ol imported beer from mexico
@@ -2961,6 +3776,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['bs_cariaque'] = { -- Good ol imported beer from mexico
@@ -2970,6 +3794,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['cg_bleuterd'] = { -- Good ol imported beer from mexico
@@ -2979,6 +3812,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['tg_martini'] = { -- Good ol imported beer from mexico
@@ -2988,6 +3830,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['tg_sunrise'] = { -- Good ol imported beer from mexico
@@ -2997,6 +3848,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['tg_tequilya'] = { -- Good ol imported beer from mexico
@@ -3006,6 +3866,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['ts_tequilya'] = { -- Good ol imported beer from mexico
@@ -3015,6 +3884,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['vg_nogo'] = { -- Good ol imported beer from mexico
@@ -3024,6 +3902,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['vs_nogo'] = { -- Good ol imported beer from mexico
@@ -3033,6 +3920,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['wg_mount'] = { -- Good ol imported beer from mexico
@@ -3042,6 +3938,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['wg_richards'] = { -- Good ol imported beer from mexico
@@ -3051,6 +3956,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['ws_mount'] = { -- Good ol imported beer from mexico
@@ -3060,6 +3974,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['ws_richards'] = { -- Good ol imported beer from mexico
@@ -3069,6 +3992,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	--- USABLES: Beer Crates
@@ -5058,7 +5990,16 @@ return {
 		consume = 0,
 		server = {
 			export = 'moonlit-boombox.useBoombox'
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["goldcoin"] = {
@@ -5254,6 +6195,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Walking stick for ya'll grannies out there.. HAHA",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["cane"] = {
@@ -5362,6 +6312,15 @@ return {
 		stack = false,
 		close = true,
 		description = "News Camera",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["videocam"] = {
@@ -5417,7 +6376,16 @@ return {
 			},
 			disable = { move = false, car = false, combat = false },
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["ww2relic"] = {
@@ -5961,7 +6929,16 @@ return {
 			},
 			disable = { move = false, car = false, combat = false },
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['laptop'] = {
@@ -6334,7 +7311,16 @@ return {
 			},
 			disable = { move = true, car = true, combat = true },
 			usetime = 2500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	--- WEARABLES WITH STASH
@@ -6416,7 +7402,16 @@ return {
 				rot = vec3(-50.0, -50.0, 0.0)
 			},
 			disable = { move = true, car = true, combat = true },
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["anklemonitor"] = {
@@ -6750,7 +7745,16 @@ return {
 		weight = 5,
 		stack = false,
 		close = true,
-		description = "A medical bag used by paramedics, containing essential supplies for emergency care."
+		description = "A medical bag used by paramedics, containing essential supplies for emergency care.",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["firstaid"] = {
@@ -6917,7 +7921,16 @@ return {
 			prop = { model = `prop_rolled_sock_02`, pos = vec3(-0.14, -0.14, -0.08), rot = vec3(-50.0, -50.0, 0.0) },
 			disable = { move = false, car = true, combat = true },
 			usetime = 2500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['ifaks'] = {
@@ -7172,6 +8185,15 @@ return {
 		label = 'Cigar',
 		weight = 115,
 		description = "God you are going to look so fucking cool smoking this",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["cigbox"] = {
@@ -7180,6 +8202,15 @@ return {
 		stack = true,
 		close = true,
 		description = "",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["cigarette"] = {
@@ -7188,6 +8219,15 @@ return {
 		stack = true,
 		close = true,
 		description = "",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['garbage'] = {
@@ -7287,7 +8327,16 @@ return {
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = `prop_cs_panties_02`, pos = vec3(0.03, 0.0, 0.02), rot = vec3(0.0, -13.5, -1.5) },
 			usetime = 2500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	-- If you are below the mpchristmas3 update, change the prop to 'ba_prop_battle_vape_01'
@@ -7295,6 +8344,15 @@ return {
 		label = 'Vape',
 		weight = 200,
 		description = "No flavor.. just smoke.",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['mini_vape'] = {
@@ -7605,7 +8663,16 @@ return {
 			},
 			disable = { move = false, car = true, combat = false },
 			usetime = 8000
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 
@@ -7948,6 +9015,15 @@ return {
 		stack = true,
 		close = true,
 		description = "This shit will turn you into a NoiseCloud rapper",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["specialbrownie"] = {
@@ -8068,6 +9144,15 @@ return {
 		stack = true,
 		close = true,
 		description = "This shit hits different",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["morphine_prescription"] = {
@@ -8172,6 +9257,15 @@ return {
 		stack = true,
 		close = true,
 		description = "A cup of lean",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["weedgrinder"] = {
@@ -9483,6 +10577,15 @@ return {
 		stack = true,
 		close = false,
 		description = "Some delicious shrooms",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["vicodinbottle"] = {
@@ -9995,6 +11098,15 @@ return {
 		stack = true,
 		close = true,
 		description = "",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["orange_xtc2"] = {
@@ -10371,6 +11483,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Some fabulous art!",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["art2"] = {
@@ -10379,6 +11500,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Some fabulous art!",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["art3"] = {
@@ -10387,6 +11517,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Some fabulous art!",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["art4"] = {
@@ -10442,6 +11581,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Desktop",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["mdmonitor"] = {
@@ -10450,6 +11598,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Monitor",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["mdtablet"] = {
@@ -10465,6 +11622,15 @@ return {
 		stack = true,
 		close = true,
 		description = "These bang!",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['black_money'] = {
@@ -10506,7 +11672,16 @@ return {
 			},
 			disable = { move = false, car = false, combat = true },
 			usetime = 16000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['weed_indica'] = { -- idea: use for player to relax
@@ -10524,7 +11699,16 @@ return {
 			},
 			disable = { move = false, car = false, combat = true },
 			usetime = 16000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['weed_hybrid'] = { -- idea: higher end weed
@@ -10542,7 +11726,16 @@ return {
 			},
 			disable = { move = false, car = false, combat = true },
 			usetime = 16000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["drycannabis"] = {
@@ -10618,7 +11811,16 @@ return {
 			},
 			disable = { move = false, car = false, combat = true },
 			usetime = 16000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["weedscissors"] = {
@@ -10933,7 +12135,16 @@ return {
 			-- disable = { move = false, car = false, combat = false },
 			-- usetime = 5000,
 			event = "badge:openPD"
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['badge_bcso'] = { -- idea: Player uses item to show badge prop
@@ -10952,7 +12163,16 @@ return {
 			-- disable = { move = false, car = false, combat = false },
 			-- usetime = 5000,
 			event = "badge:openPD"
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['badge_lssd'] = { -- idea: Player uses item to show badge prop
@@ -10971,7 +12191,16 @@ return {
 			-- disable = { move = false, car = false, combat = false },
 			-- usetime = 5000,
 			event = "badge:openPD"
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['badge_lspd'] = { -- idea: Player uses item to show badge prop
@@ -10990,7 +12219,16 @@ return {
 			-- disable = { move = false, car = false, combat = false },
 			-- usetime = 5000,
 			event = "badge:openPD"
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	--- Police equipment
@@ -11432,7 +12670,16 @@ return {
 				bone = 60309
 			},
 			usetime = 8000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['raw_meat'] = {
@@ -12941,7 +14188,16 @@ return {
 		description = "TV",
 		client = {
 			image = "placeholder.png",
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["gold_ring"] = {
@@ -13951,7 +15207,16 @@ return {
 				rot = vec3(150.0, 340.0, 170.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["pineapplejuice"] = {
@@ -14155,7 +15420,16 @@ return {
 				rot = vec3(150.0, 340.0, 170.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["chicken"] = {
@@ -14201,7 +15475,16 @@ return {
 				rot = vec3(150.0, 340.0, 170.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["butter"] = {
@@ -14399,7 +15682,16 @@ return {
 		description = "Honey Hazelnut Oat Latte",
 		client = {
 			image = "bhoneyhazelnutoatlatte.png",
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["bespressocoffeecup"] = {
@@ -14435,7 +15727,16 @@ return {
 		description = "Strawberry Vanilla Oat Latte",
 		client = {
 			image = "bstrawberryvanillaoatlatte.png",
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["bstrawberry"] = {
@@ -14500,7 +15801,16 @@ return {
 		description = "Java Chip Frappuccino",
 		client = {
 			image = "bjavachipfrappuccino.png",
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["bcaramelsyrup"] = {
@@ -14550,7 +15860,16 @@ return {
 			prop = { model = `v_ind_cfcup`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
 			usetime = 2500,
 			notification = 'You quenched your thirst with an orange slushie!'
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["blueberryslush"] = {
@@ -14614,7 +15933,16 @@ return {
 		description = "Espresso",
 		client = {
 			image = "bespresso.png",
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["bstrawberrycreamfrappuccino"] = {
@@ -14625,6 +15953,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Strawberry Cream Frappuccino",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["bcoffeebeans"] = {
@@ -14693,7 +16030,16 @@ return {
 		description = "Caramel Frappucino",
 		client = {
 			image = "bcaramelfrappucino.png",
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["bmenu"] = {
@@ -14720,7 +16066,16 @@ return {
 			prop = { model = `v_ind_cfcup`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
 			usetime = 2500,
 			notification = 'You quenched your thirst with an lemon slushie!'
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["bespressomacchiato"] = {
@@ -14733,7 +16088,16 @@ return {
 		description = "Espresso Macchiato",
 		client = {
 			image = "bespressomacchiato.png",
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["bhoney"] = {
@@ -14755,6 +16119,15 @@ return {
 		stack = true,
 		close = true,
 		description = "Hot Chocolate",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["bicedcaffelatte"] = {
@@ -14767,7 +16140,16 @@ return {
 		description = "Iced Caffe Latte",
 		client = {
 			image = "bicedcaffelatte.png",
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["bhotchocolatepowder"] = {
@@ -14810,7 +16192,16 @@ return {
 		description = "Cold Brew Latte",
 		client = {
 			image = "bcoldbrewlatte.png",
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["bmilk"] = {
@@ -15357,7 +16748,16 @@ return {
 				rot = vec3(90.0, 0.0, -45.0)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 	["chips_paprika"] = {
 		label = "Chips Paprika",
@@ -15376,7 +16776,16 @@ return {
 				rot = vec3(90.0, 0.0, -45.0)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 	["chips_ribs"] = {
 		label = "Chips Sticky Ribs",
@@ -15395,7 +16804,16 @@ return {
 				rot = vec3(90.0, 0.0, -45.0)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 	["chips_salt"] = {
 		label = "Chips: Salt & Sauce",
@@ -15414,7 +16832,16 @@ return {
 				rot = vec3(90.0, 0.0, -45.0)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 	["chips_supersalt"] = {
 		label = "Chips: Super Salt",
@@ -15433,7 +16860,16 @@ return {
 				rot = vec3(90.0, 0.0, -45.0)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 	["chips_habanero"] = {
 		label = "Chips: Habanero",
@@ -15452,7 +16888,16 @@ return {
 				rot = vec3(90.0, 0.0, -45.0)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 	["chocolate_meteorite"] = {
 		label = "Candy: Meteorite",
@@ -15471,7 +16916,16 @@ return {
 				rot = vec3(150.0, 340.0, 170.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 	["chocolate_captain"] = {
 		label = "Candy: Captain's Log",
@@ -15490,7 +16944,16 @@ return {
 				rot = vec3(150.0, 340.0, 170.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 	["condom"] = {
 		label = "Condom: Soth Lags",
@@ -15514,7 +16977,16 @@ return {
 				rot = vec3(150.0, 340.0, 170.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 	["candy_psqs"] = {
 		label = "Candy: P's & Q's",
@@ -15533,7 +17005,16 @@ return {
 				rot = vec3(150.0, 340.0, 170.0)
 			},
 			usetime = 7500,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 	["medicine_laxmax"] = {
 		label = "Medicine: Lax to the Max",
@@ -15581,7 +17062,16 @@ return {
 				rot = vec3(90.0, 0.0, -45.0)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 	["gum_cinnamon"] = {
 		label = "Gum: Cinnamon",
@@ -15600,7 +17090,16 @@ return {
 				rot = vec3(90.0, 0.0, -45.0)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 	["gum_spearmint"] = {
 		label = "Gum: Spearmint",
@@ -15619,7 +17118,16 @@ return {
 				rot = vec3(90.0, 0.0, -45.0)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 	["bottle_cola"] = {
 		label = "Cola",
@@ -15633,7 +17141,16 @@ return {
 			prop = { model = `mxc_vend_prop_item_bottle1`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
 			usetime = 2500,
 			notification = 'You quenched your thirst with cola'
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 	["bottle_junk"] = {
 		label = "Junk",
@@ -15647,7 +17164,16 @@ return {
 			prop = { model = `mxc_vend_prop_item_bottle2`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
 			usetime = 2500,
 			notification = 'You quenched your thirst with cola'
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 	["bottle_orang"] = {
 		label = "Orang Tang",
@@ -15665,7 +17191,16 @@ return {
 				rot = vec3(0.0, 0.0, 130.0)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 	["bottle_tonic"] = {
 		label = "Tonic",
@@ -15683,7 +17218,16 @@ return {
 				rot = vec3(0.0, 0.0, 130.0)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 	["bottle_water"] = {
 		label = "Water",
@@ -15701,7 +17245,16 @@ return {
 				rot = vec3(0.0, 0.0, 130.0)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 	["bottle_sprunk"] = {
 		label = "Sprunk",
@@ -15719,7 +17272,16 @@ return {
 				rot = vec3(0.0, 0.0, 130.0)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 	["can_cola"] = {
 		label = "Cola Canweight = 1,",
@@ -15737,7 +17299,16 @@ return {
 				rot = vec3(0.0, 0.0, 130.0)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 	["can_orang"] = {
 		label = "Orang Tang Can",
@@ -15755,7 +17326,16 @@ return {
 				rot = vec3(0.0, 0.0, 130.0)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 	["can_junk"] = {
 		label = "Junk Canweight = 1,",
@@ -15773,7 +17353,16 @@ return {
 				rot = vec3(0.0, 0.0, 130.0)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 	["can_sprunk"] = {
 		label = "Sprunk Can",
@@ -15791,7 +17380,16 @@ return {
 				rot = vec3(0.0, 0.0, 130.0)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 	["can_logger"] = {
 		label = "Logger Can",
@@ -15809,7 +17407,16 @@ return {
 				rot = vec3(0.0, 0.0, 130.0)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 	["can_blarneys"] = {
 		label = "Blarneys Can",
@@ -15827,7 +17434,16 @@ return {
 				rot = vec3(0.0, 0.0, 130.0)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 	["can_hoplivion"] = {
 		label = "Hoplivion Can",
@@ -15845,7 +17461,16 @@ return {
 				rot = vec3(0.0, 0.0, 130.0)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 	["can_cerbeza"] = {
 		label = "Cerbeza Can",
@@ -15863,7 +17488,16 @@ return {
 				rot = vec3(0.0, 0.0, 130.0)
 			},
 			usetime = 5000,
-		}
+		},
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 	["svapo_vaporglow1a"] = {
 		label = "Vaporglow 2",
@@ -16264,7 +17898,16 @@ return {
 	["mixingboard"] = {
 		label = "Mixing Board",
 		weight = 360,
-		description = 'Pricey Mixer.'
+		description = 'Pricey Mixer.',
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["milk_pail"] = {
@@ -18574,6 +20217,15 @@ return {
 		stack = true,
 		close = true,
 		description = "",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["bstakeoutbag"] = {
@@ -18582,6 +20234,15 @@ return {
 		stack = true,
 		close = true,
 		description = "",
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	["smallglbox"] = {
@@ -24055,6 +25716,15 @@ return {
 		stack = true,
 		close = true,
 		description = 'A small box',
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['box_large'] = {
@@ -24063,6 +25733,15 @@ return {
 		stack = true,
 		close = true,
 		description = 'A large box',
+	
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	antilag_installer = {
