@@ -2474,7 +2474,9 @@ return {
 	GroceryStore = {
 		name = 'Grocery Store',
 		inventory = {
-			{ name = 'milk', price = 20, count = 100, currency = 'money' },
+			{ name = 'milk',         price = 20, count = 100, currency = 'money' },
+			{ name = 'cream',        price = 15, count = 75,  currency = 'money' },
+			{ name = 'cheesecurds',  price = 12, count = 75,  currency = 'money' },
 		},
 		locations = {
 			vec3(2701.4509, 3340.7742, 57.1335)
@@ -2508,6 +2510,7 @@ return {
 			{ name = 'frozen_pork',                price = 12, count = 75, currency = 'money' },
 			{ name = 'snr_bacon',                  price = 12, count = 75, currency = 'money' },
 			{ name = 'calamari',                   price = 12, count = 75, currency = 'money' },
+			{ name = 'rawduck',                    price = 14, count = 75, currency = 'money' },
 		},
 		locations = {
 			vec3(2718.6428, 3359.3264, 57.1336)
@@ -2729,6 +2732,10 @@ return {
 			{ name = 'pepper',       price = 10, count = 75, currency = 'money' },
 			{ name = 'jalapenos',    price = 10, count = 75, currency = 'money' },
 			{ name = 'chili_flakes', price = 10, count = 75, currency = 'money' },
+			{ name = 'celery',       price = 10, count = 75, currency = 'money' },
+			{ name = 'asparagus',    price = 12, count = 75, currency = 'money' },
+			{ name = 'spinach',      price = 10, count = 75, currency = 'money' },
+			{ name = 'cucumber',     price = 30, count = 75, currency = 'money' },
 		},
 		locations = {
 			vec3(2708.993, 3348.319, 57.127),
@@ -2743,10 +2750,12 @@ return {
 	GroceryStore18 = {
 		name = 'Grocery Store',
 		inventory = {
-			{ name = 'ketchup',       price = 10, currency = 'money' },
-			{ name = 'snr_mayo',      price = 10, currency = 'money' },
-			{ name = 'buffalo_sauce', price = 10, currency = 'money' },
-			{ name = 'ranch',         price = 10, currency = 'money' },
+			{ name = 'ketchup',              price = 10, currency = 'money' },
+			{ name = 'snr_mayo',             price = 10, currency = 'money' },
+			{ name = 'buffalo_sauce',        price = 10, currency = 'money' },
+			{ name = 'ranch',                price = 10, currency = 'money' },
+			{ name = 'worcestershiresauce',  price = 10, currency = 'money' },
+			{ name = 'hoisinsauce',          price = 10, currency = 'money' },
 		},
 		locations = {
 			vec3(2707.1521, 3366.0698, 57.1163)
@@ -2816,6 +2825,10 @@ return {
 			{ name = 'tortillas',              price = 10, count = 75,        currency = 'money' },
 			{ name = 'taco-tomato',            price = 20, count = 75,        currency = 'money' },
 			{ name = 'lettuce',                price = 20, count = 75,        currency = 'money' },
+			{ name = 'celery',                 price = 10, count = 75,        currency = 'money' },
+			{ name = 'asparagus',              price = 12, count = 75,        currency = 'money' },
+			{ name = 'spinach',                price = 10, count = 75,        currency = 'money' },
+			{ name = 'cucumber',               price = 30, count = 75,        currency = 'money' },
 			{ name = 'barra-manteiga',         price = 10, count = 75,        currency = 'money' },
 			{ name = 'tortilla-chips',         price = 10, count = 75,        currency = 'money' },
 			{ name = 'cheddar-cheese',         price = 10, count = 75,        currency = 'money' },
@@ -2834,6 +2847,8 @@ return {
 			{ name = 'chocolate',              price = 10, count = 75,        currency = 'money' },
 			{ name = 'butter',                 price = 10, count = 75,        currency = 'money' },
 			{ name = 'creamcheese',            price = 10, count = 75,        currency = 'money' },
+			{ name = 'cream',                  price = 15, count = 75,        currency = 'money' },
+			{ name = 'cheesecurds',            price = 12, count = 75,        currency = 'money' },
 			{ name = 'fishnchips_chocolate',   price = 12, currency = 'money' },
 			{ name = 'carbonated-water',       price = 10, count = 75,        currency = 'money' },
 			{ name = 'leancup',                price = 12, currency = 'money' },
@@ -2894,6 +2909,7 @@ return {
 			{ name = 'chicken',                price = 12, currency = 'money' },
 			{ name = 'chicken_leg',            price = 12, currency = 'money' },
 			{ name = 'frozen_pork',            price = 12, currency = 'money' },
+			{ name = 'rawduck',                price = 14, currency = 'money' },
 			{ name = 'snr_bacon',              price = 12, currency = 'money' },
 			{ name = 'frozen_sausage',         price = 12, currency = 'money' },
 			{ name = 'fishnchipschickenpatty', price = 12, currency = 'money' },
@@ -2914,6 +2930,8 @@ return {
 			{ name = 'whiskey',                price = 10, count = 75,        currency = 'money' },
 			{ name = 'vodka',                  price = 12, currency = 'money' },
 			{ name = 'blue_curacao',           price = 12, currency = 'money' },
+			{ name = 'grenadine',              price = 12, currency = 'money' },
+			{ name = 'limeliqueur',            price = 12, currency = 'money' },
 			{ name = 'mre_1',                  price = 10, count = 75,        currency = 'money' },
 			{ name = 'mre_2',                  price = 10, count = 75,        currency = 'money' },
 			{ name = 'mre_3',                  price = 10, count = 75,        currency = 'money' },
@@ -2934,6 +2952,8 @@ return {
 			{ name = 'rice',                   price = 10, count = 75,        currency = 'money' },
 			{ name = 'riceflour',              price = 10, count = 75,        currency = 'money' },
 			{ name = 'soysauce',               price = 10, count = 75,        currency = 'money' },
+			{ name = 'worcestershiresauce',    price = 10, count = 75,        currency = 'money' },
+			{ name = 'hoisinsauce',            price = 10, count = 75,        currency = 'money' },
 			{ name = 'piecrust',               price = 10, count = 75,        currency = 'money' },
 			{ name = 'egg',                    price = 20, count = 200,       currency = 'money' },
 			{ name = 'pcb',                    price = 20, count = 75,        currency = 'money' },

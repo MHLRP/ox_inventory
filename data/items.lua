@@ -2400,6 +2400,36 @@ return {
 		description = "Organic Okra",
 	},
 
+	["celery"] = {
+		label = "Celery",
+		weight = 100,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Fresh celery stalks.",
+	},
+
+	["asparagus"] = {
+		label = "Asparagus",
+		weight = 100,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Fresh asparagus spears.",
+	},
+
+	["spinach"] = {
+		label = "Spinach",
+		weight = 80,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Fresh spinach leaves.",
+	},
+
 	["garlic-bread"] = {
 		label = "Garlic Bread",
 		weight = 20,
@@ -2812,6 +2842,26 @@ return {
 		stack = true,
 		close = true,
 		description = "",
+	},
+
+	["cream"] = {
+		label = "Cream",
+		weight = 250,
+		degrade = 60 * 48,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Fresh cooking cream.",
+	},
+
+	["cheesecurds"] = {
+		label = "Cheese Curds",
+		weight = 150,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Fresh cheese curds.",
 	},
 
 	["carbonara"] = {
@@ -12690,6 +12740,16 @@ return {
 		stack = true,
 	},
 
+	['rawduck'] = {
+		label = 'Raw Duck',
+		weight = 200,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = 'Raw duck breast for cooking.',
+	},
+
 	['skin_deer_ruined'] = {
 		label = 'Tattered Deer Pelt',
 		weight = 200,
@@ -18717,6 +18777,8 @@ return {
 	['cucumber'] = {
 		label = 'Cucumber',
 		weight = 50,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
 		description = "Fresh cucumber from the farm."
@@ -22307,6 +22369,46 @@ return {
 		stack = true,
 		close = true,
 		description = 'Soy sauce for cooking.',
+	},
+
+	['worcestershiresauce'] = {
+		label = 'Worcestershire Sauce',
+		weight = 100,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = 'Worcestershire sauce for cooking.',
+	},
+
+	['hoisinsauce'] = {
+		label = 'Hoisin Sauce',
+		weight = 100,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = 'Hoisin sauce for cooking.',
+	},
+
+	['grenadine'] = {
+		label = 'Grenadine',
+		weight = 200,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = 'Sweet red syrup for cocktails.',
+	},
+
+	['limeliqueur'] = {
+		label = 'Lime Liqueur',
+		weight = 200,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = 'Lime liqueur for cocktails.',
 	},
 
 	['augmentedburger'] = {
