@@ -1265,13 +1265,13 @@ return {
 	Pharmacy = {
 		name = 'Pharmacy',
 		inventory = {
-			{ name = 'tylacare',           price = 20,  count = 200, currency = 'money' },
-			{ name = 'ibrofenix',          price = 20,  count = 200, currency = 'money' },
-			{ name = 'bandage',            price = 20,  count = 200, currency = 'money' },
-			{ name = 'dayrelief',          price = 50,  count = 200, currency = 'money' },
+			{ name = 'tylacare',           price = 75,  count = 200, currency = 'money' },
+			{ name = 'ibrofenix',          price = 75,  count = 200, currency = 'money' },
+			{ name = 'bandage',            price = 50,  count = 200, currency = 'money' },
+			{ name = 'dayrelief',          price = 75,  count = 200, currency = 'money' },
 			{ name = 'emptyvial',          price = 100, count = 200, currency = 'money' },
 			{ name = 'needle',             price = 200, count = 200, currency = 'money' },
-			{ name = 'doxallin',           price = 200, count = 200, currency = 'money' },
+			{ name = 'doxallin',           price = 75,  count = 200, currency = 'money' },
 			{ name = 'kq_rubbing_alcohol', price = 75,  count = 100, currency = 'money' },
 		},
 		targets = {
@@ -1293,13 +1293,13 @@ return {
 	Pharmacy2 = {
 		name = 'Pharmacy',
 		inventory = {
-			{ name = 'tylacare',           price = 20,  count = 200, currency = 'money' },
-			{ name = 'ibrofenix',          price = 20,  count = 200, currency = 'money' },
-			{ name = 'bandage',            price = 20,  count = 200, currency = 'money' },
-			{ name = 'dayrelief',          price = 50,  count = 200, currency = 'money' },
+			{ name = 'tylacare',           price = 75,  count = 200, currency = 'money' },
+			{ name = 'ibrofenix',          price = 75,  count = 200, currency = 'money' },
+			{ name = 'bandage',            price = 50,  count = 200, currency = 'money' },
+			{ name = 'dayrelief',          price = 75,  count = 200, currency = 'money' },
 			{ name = 'emptyvial',          price = 100, count = 200, currency = 'money' },
 			{ name = 'needle',             price = 200, count = 200, currency = 'money' },
-			{ name = 'doxallin',           price = 200, count = 200, currency = 'money' },
+			{ name = 'doxallin',           price = 75,  count = 200, currency = 'money' },
 			{ name = 'kq_rubbing_alcohol', price = 75,  count = 100, currency = 'money' },
 		},
 		targets = {
@@ -1315,13 +1315,13 @@ return {
 	Pharmacy3 = {
 		name = 'Pharmacy',
 		inventory = {
-			{ name = 'tylacare',           price = 20,  count = 200, currency = 'money' },
-			{ name = 'ibrofenix',          price = 20,  count = 200, currency = 'money' },
-			{ name = 'bandage',            price = 20,  count = 200, currency = 'money' },
-			{ name = 'dayrelief',          price = 50,  count = 200, currency = 'money' },
+			{ name = 'tylacare',           price = 75,  count = 200, currency = 'money' },
+			{ name = 'ibrofenix',          price = 75,  count = 200, currency = 'money' },
+			{ name = 'bandage',            price = 50,  count = 200, currency = 'money' },
+			{ name = 'dayrelief',          price = 75,  count = 200, currency = 'money' },
 			{ name = 'emptyvial',          price = 100, count = 200, currency = 'money' },
 			{ name = 'needle',             price = 200, count = 200, currency = 'money' },
-			{ name = 'doxallin',           price = 200, count = 200, currency = 'money' },
+			{ name = 'doxallin',           price = 75,  count = 200, currency = 'money' },
 			{ name = 'kq_rubbing_alcohol', price = 75,  count = 100, currency = 'money' },
 		},
 		targets = {
