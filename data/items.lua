@@ -19227,6 +19227,18 @@ return {
 		description = "20 Puffs",
 	},
 
+	["respiratory_rebreather"] = {
+		label = "HeX Respiratory Rebreather",
+		weight = 450,
+		stack = false,
+		close = true,
+		description = "Cybernetic lung implant that recycles oxygen underwater",
+		client = {
+			image = "respiratory_rebreather.png",
+			event = "qbx_divegear:client:useCyberRebreather",
+		},
+	},
+
 	["cybernetics_license"] = {
 		label = "Pillbox Cybernetics",
 		weight = 100,
