@@ -32,9 +32,13 @@ const InventoryControl: React.FC = () => {
   }));
 
   const inputHandler = (event: React.ChangeEvent<HTMLInputElement>) => {
-    event.target.valueAsNumber =
-      isNaN(event.target.valueAsNumber) || event.target.valueAsNumber < 0 ? 0 : Math.floor(event.target.valueAsNumber);
-    dispatch(setItemAmount(event.target.valueAsNumber));
+    const value = event.target.valueAsNumber;
+    dispatch(setItemAmount(isNaN(value) || value < 0 ? 0 : Math.floor(value)));
+  };
+
+  const closeInventory = () => {
+    dispatch(setItemAmount(0));
+    fetchNui('exit');
   };
 
   return (
@@ -45,7 +49,7 @@ const InventoryControl: React.FC = () => {
           <input
             className="inventory-control-input"
             type="number"
-            defaultValue={itemAmount}
+            value={itemAmount}
             onChange={inputHandler}
             min={0}
           />
@@ -65,7 +69,7 @@ const InventoryControl: React.FC = () => {
 
           <div className="inventory-control-button-wrapper">
             <div className="inventory-control-button-text">{Locale.ui_close || 'Close'}</div>
-            <div className="inventory-control-button" onClick={() => fetchNui('exit')}>
+            <div className="inventory-control-button" onClick={closeInventory}>
               <FaHandPeace className="inventory-control-icon" />
             </div>
           </div>

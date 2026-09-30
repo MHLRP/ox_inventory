@@ -4,6 +4,7 @@ import { fetchNui } from '../utils/fetchNui';
 import { closeTooltip } from '../store/tooltip';
 import { useAppDispatch } from '../store';
 import { closeContextMenu } from '../store/contextMenu';
+import { setItemAmount } from '../store/inventory';
 
 type FrameVisibleSetter = (bool: boolean) => void;
 
@@ -24,6 +25,7 @@ export const useExitListener = (visibleSetter: FrameVisibleSetter) => {
         setterRef.current(false);
         dispatch(closeTooltip());
         dispatch(closeContextMenu());
+        dispatch(setItemAmount(0));
         fetchNui('exit');
       }
     };
@@ -31,5 +33,5 @@ export const useExitListener = (visibleSetter: FrameVisibleSetter) => {
     window.addEventListener('keyup', keyHandler);
 
     return () => window.removeEventListener('keyup', keyHandler);
-  }, []);
+  }, [dispatch]);
 };
