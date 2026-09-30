@@ -1145,7 +1145,7 @@ return {
 		owner = false,
 		slots = 40,
 		weight = 50000,
-		groups = { ['thedarkdevils'] = 0 }
+		groups = { ['thedarkdevils'] = 5 }
 	},
 	{
 		coords = vec3(166.7504, 1216.5427, 222.3002),
