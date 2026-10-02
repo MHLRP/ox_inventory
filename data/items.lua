@@ -26712,4 +26712,205 @@ return {
 		close = true,
 		client = { image = "vanilla_syrup.png" },
 	},
+
+	["lunalux_keycard"] = {
+		label = "Luna Lux Keycard",
+		weight = 100,
+		stack = false,
+		close = false,
+		description = "A keycard for Luna Lux.",
+		client = {
+			image = "lunalux_keycard.png",
+		}
+	},
+
+	["lunalux_crystaltumbler"] = {
+		label = "Crystal Tumbler",
+		weight = 290,
+		stack = true,
+		close = true,
+		description = "A chilled pour served in a crystal tumbler.",
+	},
+
+	["lunalux_margarita"] = {
+		label = "Margarita",
+		weight = 290,
+		stack = true,
+		close = true,
+		description = "A salted margarita from Luna Lux.",
+	},
+
+	["lunalux_twilightdrink"] = {
+		label = "Twilight Drink",
+		weight = 290,
+		stack = true,
+		close = true,
+		description = "A signature Luna Lux cocktail.",
+	},
+
+	["lunalux_salad"] = {
+		label = "Luna Lux Salad",
+		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "A fresh house salad.",
+		client = {
+			image = "lunalux_salad.png",
+			status = { hunger = 40 },
+			prop = {
+				[1] = {
+					model = 'djs_fork',
+					bone = 57005,
+					pos = vec3(0.14, 0.02, 0.01),
+					rot = vec3(-118.0, 192.0, 24.0)
+				},
+				[2] = {
+					model = 'bowl_housesalad',
+					pos = vec3(-0.03, 0.01, 0.01),
+					rot = vec3(0.0, 0.0, -40.0)
+				},
+			},
+			anim = { dict = 'anim@eat@fork', clip = 'fork_clip' },
+			usetime = 8000,
+		},
+	},
+
+	["lunalux_tomatosoup"] = {
+		label = "Tomato Soup",
+		weight = 300,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "A bowl of tomato soup.",
+		client = {
+			image = "lunalux_tomatosoup.png",
+			status = { hunger = 35 },
+			prop = {
+				[1] = {
+					model = 'scully_spoon_pho',
+					bone = 57005,
+					pos = vec3(0.14, 0.02, 0.01),
+					rot = vec3(-118.0, 192.0, 24.0)
+				},
+				[2] = {
+					model = 'prop_cs_bowl_01b',
+					pos = vec3(-0.03, 0.01, 0.05),
+					rot = vec3(0.0, 0.0, -40.0)
+				},
+			},
+			anim = { dict = 'anim@eat@fork', clip = 'fork_clip' },
+			usetime = 8000,
+		},
+	},
+
+	["lunalux_mooncake"] = {
+		label = "Mooncake",
+		weight = 150,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "A sweet mooncake.",
+		client = {
+			image = "lunalux_mooncake.png",
+			status = { hunger = 30 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'pata_christmasfood6',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(150.0, 340.0, 170.0)
+			},
+			usetime = 7500,
+		}
+	},
+
+	["lunalux_duck"] = {
+		label = "Duck",
+		weight = 400,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "A plated duck dish.",
+		client = {
+			image = "lunalux_duck.png",
+			status = { hunger = 55 },
+			prop = {
+				[1] = {
+					model = 'djs_fork',
+					bone = 57005,
+					pos = vec3(0.14, 0.02, 0.01),
+					rot = vec3(-118.0, 192.0, 24.0)
+				},
+				[2] = {
+					model = 'bowl_housesalad',
+					pos = vec3(-0.03, 0.01, 0.01),
+					rot = vec3(0.0, 0.0, -40.0)
+				},
+			},
+			anim = { dict = 'anim@eat@fork', clip = 'fork_clip' },
+			usetime = 8000,
+		},
+	},
+
+	["lunalux_salmon"] = {
+		label = "Salmon",
+		weight = 400,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "A plated salmon dish.",
+		client = {
+			image = "lunalux_salmon.png",
+			status = { hunger = 55 },
+			prop = {
+				[1] = {
+					model = 'djs_fork',
+					bone = 57005,
+					pos = vec3(0.14, 0.02, 0.01),
+					rot = vec3(-118.0, 192.0, 24.0)
+				},
+				[2] = {
+					model = 'bowl_housesalad',
+					pos = vec3(-0.03, 0.01, 0.01),
+					rot = vec3(0.0, 0.0, -40.0)
+				},
+			},
+			anim = { dict = 'anim@eat@fork', clip = 'fork_clip' },
+			usetime = 8000,
+		},
+	},
+
+	["lunalux_steakroastpotato"] = {
+		label = "Steak and Roast Potato",
+		weight = 450,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		description = "Steak served with roast potato.",
+		client = {
+			image = "lunalux_steakroastpotato.png",
+			status = { hunger = 60 },
+			prop = {
+				[1] = {
+					model = 'djs_fork',
+					bone = 57005,
+					pos = vec3(0.14, 0.02, 0.01),
+					rot = vec3(-118.0, 192.0, 24.0)
+				},
+				[2] = {
+					model = 'bowl_housesalad',
+					pos = vec3(-0.03, 0.01, 0.01),
+					rot = vec3(0.0, 0.0, -40.0)
+				},
+			},
+			anim = { dict = 'anim@eat@fork', clip = 'fork_clip' },
+			usetime = 8000,
+		},
+	},
 }
