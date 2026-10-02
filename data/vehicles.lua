@@ -4,6 +4,12 @@ return {
 	-- 2	vehicle has no glovebox storage
 	-- 3	vehicle has trunk in the hood
 	Storage = {
+		-- 1 = no trunk. Ambulances use the rear for the stretcher, not storage.
+		[`ambulance`] = 1,
+		[`sandbulance`] = 1,
+		[`atlus`] = 1,
+		[`ambucara`] = 1,
+		[`monroeatlus`] = 1,
 		[`jester`] = 3,
 		[`adder`] = 3,
 		[`osiris`] = 1,
