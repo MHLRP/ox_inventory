@@ -19231,11 +19231,10 @@ return {
 		label = "HeX Respiratory Rebreather",
 		weight = 450,
 		stack = false,
-		close = true,
-		description = "Cybernetic lung implant that recycles oxygen underwater",
+		close = false,
+		description = "Cybernetic lung implant that recycles oxygen underwater. Installed by a Ripperdoc.",
 		client = {
 			image = "respiratory_rebreather.png",
-			event = "qbx_divegear:client:useCyberRebreather",
 		},
 	},
 
