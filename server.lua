@@ -64,9 +64,15 @@ function server.setPlayerInventory(player, data)
     if inv then
         inv.player = server.setPlayerData(player)
 
+        -- GetPlayerPed stays 0 until the server ticks. A tight loop here never
+        -- yields, so the tick never happens and clients time out.
+        local pedDeadline = GetGameTimer() + 15000
         repeat
             inv.player.ped = GetPlayerPed(player.source)
-        until inv.player.ped ~= 0
+            if inv.player.ped ~= 0 then break end
+            if not GetPlayerName(player.source) then return end
+            Wait(50)
+        until GetGameTimer() > pedDeadline
 
         if server.syncInventory then server.syncInventory(inv) end
         TriggerClientEvent('ox_inventory:setPlayerInventory', player.source, Inventory.Drops, inventory, totalWeight,
