@@ -7141,9 +7141,9 @@ return {
 		close = true,
 		consume = 0,
 		durability = true,
-		description = "Portable charger for your phone. Holds one full charge.",
+		description = "Portable charger for your phone and tablet. Holds one full charge.",
 		client = {
-			export = "lb-phone.usePowerbank",
+			export = "moonlit-batteries.usePowerbank",
 		},
 	},
 
