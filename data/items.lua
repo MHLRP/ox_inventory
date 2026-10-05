@@ -7138,6 +7138,13 @@ return {
 		label = "Power Bank",
 		weight = 50,
 		stack = false,
+		close = true,
+		consume = 0,
+		durability = true,
+		description = "Portable charger for your phone. Holds one full charge.",
+		client = {
+			export = "lb-phone.usePowerbank",
+		},
 	},
 
 	["simcard"] = {
