@@ -8543,10 +8543,13 @@ return {
 	['radio'] = {
 		label = 'Radio',
 		weight = 150,
+		stack = false,
 		allowArmed = true,
 		consume = 0,
+		durability = true,
+		description = 'Handheld radio.',
 		client = {
-			event = 'mm_radio:client:use'
+			export = 'moonlit-batteries.useRadio',
 		}
 	},
 
@@ -8559,13 +8562,29 @@ return {
 		}
 	},
 
-	['radiocell'] = {
+	['aacells'] = {
+		label = 'AA Cells',
+		weight = 100,
+		stack = true,
+		close = true,
+		consume = 0,
+		allowArmed = true,
+		description = 'A fresh set of batteries.',
+		client = {
+			export = 'moonlit-batteries.useAacells',
+		}
+	},
+
+	['aaacells'] = {
 		label = 'AAA Cells',
 		weight = 100,
 		stack = true,
+		close = true,
+		consume = 0,
 		allowArmed = true,
+		description = 'A fresh set of batteries.',
 		client = {
-			event = 'mm_radio:client:recharge'
+			export = 'moonlit-batteries.useAaacells',
 		}
 	},
 
@@ -12296,7 +12315,8 @@ return {
 		weight = 160,
 		stack = false,
 		close = true,
-		description = "Use /recordcam when used to send recording to database",
+		durability = true,
+		description = "Use /recordcam when used to send recording to database.",
 	},
 
 	['dashcam'] = {
