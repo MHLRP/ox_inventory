@@ -10,6 +10,8 @@ return {
 		[`atlus`] = 1,
 		[`ambucara`] = 1,
 		[`monroeatlus`] = 1,
+		[`iak_wheelchair`] = 1,
+		[`cyberwheelchair`] = 1,
 		[`jester`] = 3,
 		[`adder`] = 3,
 		[`osiris`] = 1,

@@ -1791,7 +1791,11 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 
 		if currentWeapon then
 			-- Soft-holster owns selected weapon in vehicles; never force re-equip here.
-			local skipWeaponSync = vehicleWeaponStowed
+			-- Carwash nozzle / fire hose are given by other resources. Forcing the
+			-- inventory weapon back (or RemoveAllPedWeapons) leaves the "[E] Put
+			-- down nozzle" prompt up while the key does nothing.
+			local externalToolWeapon = weaponHash == `WEAPON_NOZZLE` or weaponHash == `WEAPON_HOSE`
+			local skipWeaponSync = vehicleWeaponStowed or externalToolWeapon
 
 			if not skipWeaponSync and weaponHash ~= currentWeapon.hash and currentWeapon.timer then
 				local weaponCount = Items[currentWeapon.name]?.count

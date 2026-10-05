@@ -119,6 +119,7 @@ else
     ignoreweapons[`WEAPON_GARBAGEBAG`] = true
     ignoreweapons[`OBJECT`] = true
     ignoreweapons[`WEAPON_HOSE`] = true
+    ignoreweapons[`WEAPON_NOZZLE`] = true
 
     client.ignoreweapons = ignoreweapons
 

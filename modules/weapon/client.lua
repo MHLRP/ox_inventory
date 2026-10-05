@@ -15,13 +15,28 @@ local function vehicleIsCycle(vehicle)
 	return class == 8 or class == 13
 end
 
+-- Katanas draw from the back in moonlit-combat. Skip the front melee holster.
+local katanaWeapons = {
+	[`WEAPON_KATANA1`] = true,
+	[`WEAPON_KATANA2`] = true,
+	[`WEAPON_KATANA3`] = true,
+	[`WEAPON_KATANA4`] = true,
+	[`WEAPON_KATANA5`] = true,
+	[`WEAPON_KATANA6`] = true,
+	[`WEAPON_KATANA7`] = true,
+}
+
+local function isKatanaWeapon(hash)
+	return katanaWeapons[hash] == true
+end
+
 function Weapon.Equip(item, data, noWeaponAnim)
 	local playerPed = cache.ped
 	local coords = GetEntityCoords(playerPed, true)
     local sleep
 
 	if client.weaponanims then
-		if noWeaponAnim or (cache.vehicle and vehicleIsCycle(cache.vehicle)) then
+		if noWeaponAnim or isKatanaWeapon(data.hash) or (cache.vehicle and vehicleIsCycle(cache.vehicle)) then
 			goto skipAnim
 		end
 
@@ -101,7 +116,9 @@ function Weapon.Disarm(currentWeapon, noAnim)
         TriggerServerEvent('ox_inventory:updateWeapon')
 		SetPedAmmo(cache.ped, currentWeapon.hash, 0)
 
-		if client.weaponanims and not noAnim then
+		if isKatanaWeapon(currentWeapon.hash) and not noAnim and not (cache.vehicle and vehicleIsCycle(cache.vehicle)) then
+			TriggerEvent('moonlit-combat:sheatheKatana')
+		elseif client.weaponanims and not noAnim and not isKatanaWeapon(currentWeapon.hash) then
 			if cache.vehicle and vehicleIsCycle(cache.vehicle) then
 				goto skipAnim
 			end
