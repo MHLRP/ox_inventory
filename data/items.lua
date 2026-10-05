@@ -5582,7 +5582,7 @@ return {
 		label = "Toolbox",
 		weight = 1000,
 		stack = false,
-		close = true,
+		close = false,
 		consume = 0,
 		description = "An interactive toolbox",
 		client = {
