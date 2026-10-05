@@ -5581,8 +5581,9 @@ return {
 	["toolbox"] = {
 		label = "Toolbox",
 		weight = 1000,
-		stack = true,
-		close = false,
+		stack = false,
+		close = true,
+		consume = 0,
 		description = "An interactive toolbox",
 		client = {
 			event = 'qb-toolbox:client:placeToolbox'
