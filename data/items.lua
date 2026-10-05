@@ -8549,7 +8549,7 @@ return {
 		durability = true,
 		description = 'Handheld radio.',
 		client = {
-			export = 'moonlit-batteries.useRadio',
+			event = 'mm_radio:client:use',
 		}
 	},
 
