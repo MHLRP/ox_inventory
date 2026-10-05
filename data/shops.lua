@@ -3215,8 +3215,6 @@ return {
 
 	Farming = {
 		name = 'Farming - Supplies',
-		label = 'Browse Supplies',
-		icon = 'fa-solid fa-wheat-awn',
 		inventory = {
 			{ name = 'farmguide',        price = 10 },
 			{ name = 'watering_can',     price = 20 },
@@ -3247,15 +3245,6 @@ return {
 			{ name = 'bee_trap',         price = 120 },
 			{ name = 'beekeeping_guide', price = 12 },
 			{ name = 'beekeeper_suit',   price = 2500 },
-		},
-		targets = {
-			{
-				ped = `a_m_m_farmer_01`,
-				scenario = 'WORLD_HUMAN_SMOKING',
-				loc = vec3(2310.6460, 4885.6523, 40.8082),
-				heading = 45.8036,
-				distance = 2.0,
-			},
 		},
 	},
 }
