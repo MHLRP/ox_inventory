@@ -8784,14 +8784,6 @@ return {
 
 	--- USABLES: Tools
 
-	["advancedlockpick"] = {
-		label = "Advanced Lockpick",
-		weight = 500,
-		stack = true,
-		close = true,
-		description = "If you lose your keys a lot this is very useful... Also useful to open your beers",
-	},
-
 	["screwdriverset"] = {
 		label = "Toolkit",
 		weight = 1000,
@@ -8806,14 +8798,6 @@ return {
 		stack = true,
 		close = false,
 		description = "Very useful to repair a weapon..",
-	},
-
-	['lockpick'] = {
-		label = 'Lockpick',
-		weight = 10,
-		stack = true,
-		close = true,
-		description = ""
 	},
 
 	['safekey'] = {
@@ -13034,19 +13018,15 @@ return {
 		description = "Check vehicle status",
 	},
 
-	["keyring"] = {
-		label = "Keyring",
-		weight = 10,
-		stack = false,
-		close = true,
-		description = "Ring for your keys..",
-	},
-
 	['vehiclekeys'] = {
 		label = 'Vehicle Keys',
-		weight = 220,
+		weight = 50,
 		stack = false,
 		close = true,
+		description = 'Keys for a vehicle',
+		client = {
+			image = 'vehiclekeys.png',
+		},
 		buttons = {
 			{
 				label = 'Throw Keys',
@@ -13054,6 +13034,125 @@ return {
 					exports.MrNewbVehicleKeys:ThrowKeys(slot)
 				end,
 			},
+			{
+				label = 'Destroy Key',
+				action = function(slot)
+					exports.MrNewbVehicleKeys:DestroyKey(slot)
+				end,
+			},
+		},
+	},
+	
+	['lockpick'] = {
+		label = 'Lockpick',
+		weight = 20,
+		stack = true,
+		close = true,
+		description = 'A basic lockpick',
+		client = {
+			image = 'lockpick.png',
+		},
+	},
+	
+	['advancedlockpick'] = {
+		label = 'Advanced Lockpick',
+		weight = 200,
+		stack = true,
+		close = true,
+		description = 'An advanced lockpick for tougher locks',
+		client = {
+			image = 'advancedlockpick.png',
+		},
+	},
+	
+	-- Optional: only needed if Config.Hotwire.Item.Required = true
+	['hotwire_kit'] = {
+		label = 'Hotwire Kit',
+		weight = 200,
+		stack = true,
+		close = true,
+		description = 'Tools for bridging an ignition without a key',
+		client = {
+			image = 'hotwire_kit.png',
+		},
+	},
+	
+	['keyring'] = {
+		label = 'Keyring',
+		weight = 10,
+		stack = false,
+		close = true,
+		description = 'Stores multiple vehicle keys',
+		client = {
+			image = 'keyring.png',
+		},
+	},
+	
+	['rental_paperwork'] = {
+		label = 'Rental Paperwork',
+		weight = 50,
+		stack = false,
+		close = true,
+		description = 'Rental agreement for a vehicle',
+		client = {
+			image = 'rental_paperwork.png',
+		},
+	},
+	
+	['aftermarket_locks'] = {
+		label = 'Aftermarket Lock System',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = 'Install a new lock code on a vehicle you own',
+		client = {
+			image = 'aftermarket_locks.png',
+		},
+	},
+	
+	-- Locksmith job bench (configs/locksmith_job.lua → Bench.BlankKey)
+	['blank_key'] = {
+		label = 'Blank Key',
+		weight = 50,
+		stack = true,
+		close = true,
+		description = 'An uncut key blank for programming at a locksmith bench',
+		client = {
+			image = 'blank_key.png',
+		},
+	},
+	
+	-- Keyfob scanner (configs/locksmith_job.lua → LocksmithJob.Scanner.Item)
+	['keyfob_scanner'] = {
+		label = 'Keyfob Scanner',
+		weight = 200,
+		stack = false,
+		close = true,
+		description = 'Sniffs nearby keyfob signals to clone a key onto a blank',
+		client = {
+			image = 'keyfob_scanner.png',
+		},
+	},
+	
+	['ping_transmitter'] = {
+		label = 'Ping Transmitter',
+		weight = 150,
+		stack = true,
+		close = true,
+		description = 'Covert GPS device — install on a vehicle via target while in inventory',
+		client = {
+			image = 'ping_transmitter.png',
+		},
+	},
+	
+	['ping_receiver'] = {
+		label = 'Ping Receiver',
+		weight = 200,
+		stack = false,
+		close = true,
+		description = 'Ping the approximate location of vehicles you have tracked',
+		client = {
+			image = 'ping_receiver.png',
 		},
 	},
 
@@ -21960,14 +22059,6 @@ return {
 		close = true,
 	},
 
-	['aftermarket_locks'] = {
-		label = 'Aftermarket Lock System',
-		weight = 220,
-		stack = false,
-		close = true,
-		description = "A locksystem to replace locks in a car.",
-	},
-
 	-- MrNewbBeeKeeping
 	["beehive"] = {
 		label = "Beehive",
@@ -26048,7 +26139,7 @@ return {
 		weight = 1500,
 		stack = false,
 		close = true,
-		description = 'Plant under a vehicle. Requires an unlinked bomb detonator phone to arm.',
+		description = 'Target a vehicle to plant it underneath. Requires an unlinked bomb detonator phone.',
 		client = {
 			image = 'vehiclebomb.png',
 		}
@@ -26109,12 +26200,148 @@ return {
 		description = "A citrus energy drink that kicks your systems into overdrive.",
 	},
 
-	['weedenergydrink'] = {
-		label = 'Weed Energy',
-		weight = 200,
+	['citrusweedenergy'] = {
+		label = 'Citrus Weed Energy',
+		weight = 350,
+		decay = true,
 		stack = true,
 		close = true,
-		description = 'A refreshing drink that energizes your system.'
+		consume = 1,
+		description = 'A citrus weed energy drink that kicks your system into gear.',
+		client = {
+			status = { thirst = 30 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_energy_drink', pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 130.0) },
+			usetime = 5000,
+		},
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
+	},
+
+	['pinaweedenergy'] = {
+		label = 'Piña Weed Energy',
+		weight = 350,
+		decay = true,
+		stack = true,
+		close = true,
+		consume = 1,
+		description = 'A piña colada weed energy drink that kicks your system into gear.',
+		client = {
+			status = { thirst = 30 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_energy_drink', pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 130.0) },
+			usetime = 5000,
+		},
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
+	},
+
+	['lemonadeweedenergy'] = {
+		label = 'Lemonade Weed Energy',
+		weight = 350,
+		decay = true,
+		stack = true,
+		close = true,
+		consume = 1,
+		description = 'A lemonade weed energy drink that kicks your system into gear.',
+		client = {
+			status = { thirst = 30 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_energy_drink', pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 130.0) },
+			usetime = 5000,
+		},
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
+	},
+
+	['pineappleweedenergy'] = {
+		label = 'Pineapple Weed Energy',
+		weight = 350,
+		decay = true,
+		stack = true,
+		close = true,
+		consume = 1,
+		description = 'A pineapple weed energy drink that kicks your system into gear.',
+		client = {
+			status = { thirst = 30 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_energy_drink', pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 130.0) },
+			usetime = 5000,
+		},
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
+	},
+
+	['blueberryweedenergy'] = {
+		label = 'Blueberry Weed Energy',
+		weight = 350,
+		decay = true,
+		stack = true,
+		close = true,
+		consume = 1,
+		description = 'A blueberry weed energy drink that kicks your system into gear.',
+		client = {
+			status = { thirst = 30 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_energy_drink', pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 130.0) },
+			usetime = 5000,
+		},
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
+	},
+
+	['cherryweedenergy'] = {
+		label = 'Cherry Weed Energy',
+		weight = 350,
+		decay = true,
+		stack = true,
+		close = true,
+		consume = 1,
+		description = 'A cherry weed energy drink that kicks your system into gear.',
+		client = {
+			status = { thirst = 30 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_energy_drink', pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 130.0) },
+			usetime = 5000,
+		},
+		buttons = {
+			{
+				label = 'Place',
+				action = function(slot)
+					exports['qb-smallresources']:placeDropItem(slot)
+				end,
+			},
+		},
 	},
 
 	['rexs_menu'] = {

@@ -836,7 +836,12 @@ return {
 		name = 'Weed Energy Vending',
 		society = 'highnotes',
 		inventory = {
-			{ name = 'weedenergydrink', price = 50, count = 50 },
+			{ name = 'citrusweedenergy',    price = 50, count = 50 },
+			{ name = 'pinaweedenergy',      price = 50, count = 50 },
+			{ name = 'lemonadeweedenergy',  price = 50, count = 50 },
+			{ name = 'pineappleweedenergy', price = 50, count = 50 },
+			{ name = 'blueberryweedenergy', price = 50, count = 50 },
+			{ name = 'cherryweedenergy',    price = 50, count = 50 },
 		},
 	},
 
@@ -2212,6 +2217,22 @@ return {
 		},
 		targets = {
 			{ loc = vec3(-1030.0952, -1391.9253, 4.9732), length = 1.0, width = 1.0, heading = 253.8043, minZ = 4.0, maxZ = 6.5, distance = 2.0 },
+		},
+	},
+
+	LuxKeys = {
+		name = 'Front Desk',
+		groups = {
+			['lux'] = 6
+		},
+		inventory = {
+			{ name = 'lunalux_keycard',  price = 0 },
+		},
+		locations = {
+			vec3(101.730, -366.744, 43.449),
+		},
+		targets = {
+			{ loc = vec3(101.730, -366.744, 43.449), length = 1.0, width = 1.0, heading = 250.0, minZ = 42.4, maxZ = 44.6, distance = 2.0 },
 		},
 	},
 
