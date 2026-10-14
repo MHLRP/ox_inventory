@@ -832,16 +832,16 @@ return {
 		}
 	},
 
-	WeedEnergyVending = {
+    WeedEnergyVending = {
 		name = 'Weed Energy Vending',
 		society = 'highnotes',
 		inventory = {
-			{ name = 'citrusweedenergy',    price = 50, count = 50 },
-			{ name = 'pinaweedenergy',      price = 50, count = 50 },
-			{ name = 'lemonadeweedenergy',  price = 50, count = 50 },
-			{ name = 'pineappleweedenergy', price = 50, count = 50 },
-			{ name = 'blueberryweedenergy', price = 50, count = 50 },
-			{ name = 'cherryweedenergy',    price = 50, count = 50 },
+			{ name = 'citrusweedenergy',    price = 50, count = 10 },
+			{ name = 'pinaweedenergy',      price = 50, count = 10 },
+			{ name = 'lemonadeweedenergy',  price = 50, count = 10 },
+			{ name = 'pineappleweedenergy', price = 50, count = 10 },
+			{ name = 'blueberryweedenergy', price = 50, count = 10 },
+			{ name = 'cherryweedenergy',    price = 50, count = 10 },
 		},
 	},
 
@@ -1690,7 +1690,7 @@ return {
 			{ name = 'pitahummus',     price = 100, count = 30,  currency = 'money' },
 			{ name = 'olives',         price = 80,  count = 40,  currency = 'money' },
 			{ name = 'ouzo',           price = 90,  count = 30,  currency = 'money' },
-			{ name = 'pitagyros',      price = 110, count = 25,  currency = 'money' },
+			{ name = 'pitagyros',      price = 110, count = 75,  currency = 'money' },
 			{ name = 'greeksalad',     price = 80,  count = 40,  currency = 'money' },
 			{ name = 'pineapplejuice', price = 110, count = 25,  currency = 'money' },
 			{ name = 'peanutbowl',     price = 90,  count = 30,  currency = 'money' },
@@ -2426,11 +2426,10 @@ return {
 			{ name = 'lux_menu', price = 0 },
 		},
 		locations = {
-			vec3(79.093, -354.305, 205.905)
+			vec3(77.538, -347.184, 181.196),
 		},
 		targets = {
-			{ loc = vec3(79.093, -354.305, 205.905), length = 0.6, width = 0.5, heading = 160.0, minZ = 28.2, maxZ = 28.6, distance = 2 }
-
+			{ loc = vec3(77.538, -347.184, 181.196), length = 0.6, width = 0.5, heading = 160.0, minZ = 180.6, maxZ = 181.8, distance = 2 },
 		}
 	},
 

@@ -7310,7 +7310,7 @@ return {
 		close = true,
 		description = 'A hoverboard for tricks and stunts',
 		client = {
-			event = "bodhix-Retro:client:start"
+        event = "bodhix-Retro:client:start"
 		},
 	},
 
@@ -23025,40 +23025,12 @@ return {
 		},
 	},
 
-	["cyber_jetpack"] = {
+	['cyber_jetpack'] = {
+		label = 'Cyber Jetpack',
 		weight = 18000,
 		stack = false,
 		close = true,
-		description = "Cyber Jetpack",
-	},
-
-	['mando_jetpack'] = {
-		label = 'Mando Jetpack',
-		weight = 18000,
-		stack = false,
-		close = true,
-		description = "Mando Jetpack",
-	},
-	['optimus_jetpack'] = {
-		label = 'Optimus Jetpack',
-		weight = 18000,
-		stack = false,
-		close = true,
-		description = "Optimus Jetpack",
-	},
-	['dark_jetpack'] = {
-		label = 'Dark Jetpack',
-		weight = 18000,
-		stack = false,
-		close = true,
-		description = "Dark Jetpack",
-	},
-	['metal_jetpack'] = {
-		label = 'Metal Jetpack',
-		weight = 18000,
-		stack = false,
-		close = true,
-		description = "Metal Jetpack",
+		description = 'Cyberhex Jetpack.',
 	},
 
 	['kq_snowchain'] = {
