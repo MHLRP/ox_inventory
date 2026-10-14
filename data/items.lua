@@ -15798,7 +15798,7 @@ return {
 		consume = 0,
 		description = "A rolled grey yoga mat. Use to lay it out on the ground.",
 		server = {
-			export = 'qb-smallresources.useYogaMat',
+			export = 'moonlit-yogamat.useYogaMat',
 		},
 	},
 
@@ -15810,7 +15810,7 @@ return {
 		consume = 0,
 		description = "A rolled blue yoga mat. Use to lay it out on the ground.",
 		server = {
-			export = 'qb-smallresources.useYogaMat',
+			export = 'moonlit-yogamat.useYogaMat',
 		},
 	},
 
@@ -15822,7 +15822,7 @@ return {
 		consume = 0,
 		description = "A rolled red yoga mat. Use to lay it out on the ground.",
 		server = {
-			export = 'qb-smallresources.useYogaMat',
+			export = 'moonlit-yogamat.useYogaMat',
 		},
 	},
 
