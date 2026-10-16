@@ -6139,7 +6139,7 @@ return {
 		consume = 0,
 		description = 'A camera for capturing spookies.',
 		server = {
-			export = 'randol_ghosthunting.ghostcam',
+			export = 'moonlit-ghosthunting.ghostcam',
 		},
 	},
 
@@ -21089,6 +21089,17 @@ return {
 		description = "Hot Chocolate",
 		client = {
 			image = "hotchocolate.png",
+			status = { thirst = 30 },
+			anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+			prop = {
+				model = 'p_amb_coffeecup_01',
+				bone = 28422,
+				pos = vec3(0.0, 0.0, 0.0),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 5000,
+			cancel = true,
+			notification = 'You drank some hot chocolate'
 		}
 	},
 
