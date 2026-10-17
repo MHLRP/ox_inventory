@@ -662,15 +662,6 @@ return {
 		description = "Some delicious candy :O",
 	},
 
-	["kissmepop"] = {
-		label = "Kiss Me Pop",
-		weight = 1000,
-		decay = true,
-		stack = true,
-		close = true,
-		description = "Red Kiss Me Pop",
-	},
-
 	["lollipop1"] = {
 		label = "Lolli Pop (Red)",
 		weight = 1000,
@@ -4354,108 +4345,176 @@ return {
 		}
 	},
 
-	["viperspoison"] = {
-		label = "Viper's Poison",
+	["neonunicorn"] = {
+		label = "Neon Unicorn",
 		weight = 290,
 		stack = true,
 		close = true,
-		description = "A dangerous drink for daring souls.",
+		description = "Vodka, blue curacao, pineapple, and lime liqueur.",
 	},
 
-	["purevodkashot"] = {
-		label = "Pure Vodka Shot",
+	["chromekiss"] = {
+		label = "Chrome Kiss",
 		weight = 290,
 		stack = true,
 		close = true,
-		description = "A shot of the finest vodka.",
+		description = "Whiskey, lime, vanilla syrup, and cranberries.",
 	},
 
-	["lustshot"] = {
-		label = "Lust Shot",
+	["midnightvoltage"] = {
+		label = "Midnight Voltage",
 		weight = 290,
 		stack = true,
 		close = true,
-		description = "A shot of lust.",
+		description = "Wine, lime liqueur, and eCola.",
 	},
 
-	["oilslick"] = {
-		label = "Oil Slick",
+	["velvetdrink"] = {
+		label = "Velvet 404",
 		weight = 290,
 		stack = true,
 		close = true,
-		description = "Layered cyber-oil, blue curacao, and lime.",
+		description = "Vodka, vanilla, coffee, and hot chocolate.",
 	},
 
-	["nightsky"] = {
-		label = "Night Sky",
-		weight = 290,
-		stack = true,
-		close = true,
-		description = "A cocktail that captures the essence of the night.",
-	},
-
-	["vanillaunicorn"] = {
-		label = "Vanilla Unicorn",
-		weight = 290,
-		stack = true,
-		close = true,
-		description = "A sweet and whimsical drink.",
-	},
-
-	["bigdaddyshotdog"] = {
-		label = "Big Daddy's Hot Dog",
+	["chromeburger"] = {
+		label = "Chrome Burger",
 		degrade = 60 * 72,
-		weight = 250,
-		stack = true,
-		close = true,
-		description = "A loaded hot dog from the Vanilla Unicorn kitchen.",
-		client = {
-			image = "bigdaddyshotdog.png",
-		}
-	},
-
-	["dirtydancerchcknburg"] = {
-		label = "Dirty Dancer Chicken Burger",
-		degrade = 60 * 72,
+		decay = true,
 		weight = 300,
 		stack = true,
 		close = true,
-		description = "A chicken burger straight from the Vanilla Unicorn kitchen.",
+		description = "Patty, bun, cheddar, and lettuce.",
 		client = {
-			image = "dirtydancerchcknburg.png",
-		}
+			status = { hunger = 55, stress = -5 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0),
+			},
+			usetime = 7500,
+		},
 	},
 
-	["teasemetenderschckn"] = {
-		label = "Tease Me Tenders",
+	["cheesyburgers"] = {
+		label = "Unicorn Sliders",
 		degrade = 60 * 72,
+		decay = true,
+		weight = 280,
+		stack = true,
+		close = true,
+		description = "Sliders with cheddar and hollandaise.",
+		client = {
+			status = { hunger = 50, stress = -5 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0),
+			},
+			usetime = 7500,
+		},
+	},
+
+	["loadedjalapenonachos"] = {
+		label = "Loaded Data Chips",
+		degrade = 60 * 72,
+		decay = true,
 		weight = 250,
 		stack = true,
 		close = true,
-		description = "Honey-glazed chicken tenders from the Vanilla Unicorn kitchen.",
+		description = "Potato chips with cheese sauce, jalapeños, and white sauce.",
 		client = {
-			image = "teasemetenderschckn.png",
-		}
+			status = { hunger = 40, stress = -5 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_food_bs_chips',
+				bone = 18905,
+				pos = vec3(0.09, -0.06, 0.05),
+				rot = vec3(300.0, 150.0, 0.0),
+			},
+			usetime = 7500,
+		},
 	},
 
-	["tiemeupwires"] = {
-		label = "Tie Me Up Wires",
+	["vibrantstreettacos"] = {
+		label = "Neon Tacos",
 		degrade = 60 * 72,
-		weight = 150,
+		decay = true,
+		weight = 280,
 		stack = true,
 		close = true,
-		description = "Copper wires tied into a heart from the Vanilla Unicorn kitchen.",
+		description = "Chicken strips, tortillas, white sauce, and pickled onions.",
 		client = {
-			image = "tiemeupwires.png",
-		}
+			status = { hunger = 50, stress = -5 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_taco_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(150.0, 340.0, 170.0),
+			},
+			usetime = 7500,
+		},
 	},
 
-	["grapeseeddaquiri"] = {
-		label = "Grapeseed Daiquiri",
+	["boltburger"] = {
+		label = "Bolt Burger",
+		degrade = 60 * 72,
+		decay = true,
+		weight = 300,
+		stack = true,
+		close = true,
+		description = "Patty, bun, cheddar, and cyber nuts.",
+		client = {
+			status = { hunger = 55, stress = -5 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0),
+			},
+			usetime = 7500,
+		},
+	},
+
+	["cheesybaconjalapenofries"] = {
+		label = "Loaded Bolts",
+		degrade = 60 * 72,
+		decay = true,
+		weight = 250,
+		stack = true,
+		close = true,
+		description = "Potato, cheese sauce, onion, and ribbon cable.",
+		client = {
+			status = { hunger = 40, stress = -5 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_food_bs_chips',
+				bone = 18905,
+				pos = vec3(0.09, -0.06, 0.05),
+				rot = vec3(300.0, 150.0, 0.0),
+			},
+			usetime = 7500,
+		},
+	},
+
+	["cybercoregel"] = {
+		label = "Cybercore Gel",
+		degrade = 60 * 72,
 		weight = 290,
 		stack = true,
 		close = true,
-		description = "A refreshing daiquiri with a twist.",
+		description = "Wine, epoxy putty, thermal paste, coffee beans, and cranberries.",
+	},
+
+	["mechanicalbloodpack"] = {
+		label = "Mechanical Blood Pack",
+		degrade = 60 * 72,
+		weight = 290,
+		stack = true,
+		close = true,
+		description = "CyberHeX oil drink, cyber oil, vodka, and orange.",
 	},
 
 	--- USABLES: Donut Boxes
@@ -25883,14 +25942,6 @@ return {
 		stack = true,
 		close = true,
 		description = "Chai Spice",
-	},
-
-	["eyetini"] = {
-		label = "Eyetini",
-		weight = 100,
-		stack = true,
-		close = true,
-		description = "Eyetini",
 	},
 
 	['crafting_bench'] = {
