@@ -17378,6 +17378,7 @@ return {
 	["bottle_cola"] = {
 		label = "Cola",
 		weight = 350,
+		degrade = 60 * 72,
 		decay = true,
 		stack = true,
 		close = true,
@@ -17424,6 +17425,7 @@ return {
 	["bottle_orang"] = {
 		label = "Orang Tang",
 		weight = 350,
+		degrade = 60 * 72,
 		decay = true,
 		stack = true,
 		close = true,
@@ -17451,6 +17453,7 @@ return {
 	["bottle_tonic"] = {
 		label = "Tonic",
 		weight = 20,
+		degrade = 60 * 72,
 		decay = true,
 		stack = true,
 		close = true,
@@ -17505,6 +17508,7 @@ return {
 	["bottle_sprunk"] = {
 		label = "Sprunk",
 		weight = 20,
+		degrade = 60 * 72,
 		decay = true,
 		stack = true,
 		close = true,

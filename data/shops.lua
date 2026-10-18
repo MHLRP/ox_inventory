@@ -1904,7 +1904,7 @@ return {
 		},
 		inventory = {
 			-- Eco: $50–$2000. Money-makers toward top; pure RP at floor.
-			-- { name = 'jackolantern',     price = 50,    count = 75, currency = 'money' },
+			{ name = 'jackolantern',     price = 50,    count = 75, currency = 'money' },
 			{ name = 'valentinesbag',    price = 50,   count = 50,        currency = 'money' },
 			{ name = 'thermalpaste',     price = 75,   count = 50,        currency = 'money' },
 			{ name = 'miningdrill',      price = 700,  currency = 'money' },
