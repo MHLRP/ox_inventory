@@ -4377,6 +4377,22 @@ return {
 		description = "Vodka, vanilla, coffee, and hot chocolate.",
 	},
 
+	["neonunrise"] = {
+		label = "Neon Sunrise",
+		weight = 290,
+		stack = true,
+		close = true,
+		description = "Orange, pineapple, grenadine, and lime.",
+	},
+
+	["digitaldream"] = {
+		label = "Digital Dream",
+		weight = 290,
+		stack = true,
+		close = true,
+		description = "Carbonated water, pineapple, lime, and vanilla syrup.",
+	},
+
 	["chromeburger"] = {
 		label = "Chrome Burger",
 		degrade = 60 * 72,
