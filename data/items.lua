@@ -7385,7 +7385,7 @@ return {
 		close = true,
 		description = 'A hoverboard for tricks and stunts',
 		client = {
-        event = "bodhix-Retro:client:start"
+			event = 'moonlit-hoverboards:use'
 		},
 	},
 

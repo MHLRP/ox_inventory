@@ -783,12 +783,6 @@ return {
 			throwable = true,
 		},
 
-		['WEAPON_BRICK'] = {
-			label = 'Brick',
-			weight = 200,
-			throwable = true,
-		},
-
 		['WEAPON_BRICK2'] = {
 			label = 'Brick',
 			weight = 200,
