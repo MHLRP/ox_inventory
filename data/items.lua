@@ -304,7 +304,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -338,7 +338,7 @@ return {
 			},
 			usetime = 12000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -376,7 +376,7 @@ return {
 			anim = { dict = 'anim@eat@fork', clip = 'fork_clip' },
 			usetime = 8000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -414,7 +414,7 @@ return {
 			},
 			usetime = 12000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -452,7 +452,7 @@ return {
 			},
 			usetime = 12000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -490,7 +490,7 @@ return {
 			},
 			usetime = 12000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -519,7 +519,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -585,7 +585,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -623,7 +623,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -680,7 +680,7 @@ return {
 			},
 			usetime = 8000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -710,7 +710,7 @@ return {
 			},
 			usetime = 12000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -776,7 +776,7 @@ return {
 		stack = true,
 		close = true,
 		description = "",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -806,7 +806,7 @@ return {
 			},
 			usetime = 12000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -844,7 +844,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -921,7 +921,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -940,7 +940,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Crispy crisps",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -958,7 +958,7 @@ return {
 		stack = true,
 		close = true,
 		description = "",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1005,7 +1005,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1034,7 +1034,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1063,7 +1063,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1092,7 +1092,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1111,7 +1111,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Not made with real dogs or meat",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1140,7 +1140,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1249,7 +1249,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1274,7 +1274,7 @@ return {
 			usetime = 2500,
 			notification = 'You.. drank mustard'
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1299,7 +1299,7 @@ return {
 			usetime = 2500,
 			notification = 'You.. drank ketchup'
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1331,7 +1331,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1361,7 +1361,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1391,7 +1391,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1421,7 +1421,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1451,7 +1451,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1482,7 +1482,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1511,7 +1511,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1540,7 +1540,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1579,7 +1579,7 @@ return {
 			usetime = 3000,
 			notification = 'An apple a day keeps the doctor away!'
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1608,7 +1608,7 @@ return {
 			},
 			usetime = 3000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1637,7 +1637,7 @@ return {
 			},
 			usetime = 3000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1677,7 +1677,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1707,7 +1707,7 @@ return {
 			},
 			usetime = 12000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1736,7 +1736,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1766,7 +1766,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1796,7 +1796,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1827,7 +1827,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1857,7 +1857,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1887,7 +1887,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1917,7 +1917,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1947,7 +1947,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -1977,7 +1977,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -2007,7 +2007,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -2037,7 +2037,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -2067,7 +2067,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -2097,7 +2097,7 @@ return {
 			},
 			usetime = 12000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -2126,7 +2126,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -2156,7 +2156,7 @@ return {
 			},
 			usetime = 12000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -2174,7 +2174,7 @@ return {
 		stack = true,
 		close = true,
 		description = "",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -2203,7 +2203,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -2237,7 +2237,7 @@ return {
 			cancel = true,
 			notification = 'You drank some refreshing water'
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -2280,7 +2280,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -2310,7 +2310,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3189,7 +3189,7 @@ return {
 		stack = true,
 		close = true,
 		description = "This joint hit..",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3207,7 +3207,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Pump 4 Caffeine",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3225,7 +3225,7 @@ return {
 		stack = true,
 		close = true,
 		description = "As black as the color wheel lets it be",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3243,7 +3243,7 @@ return {
 		stack = true,
 		close = true,
 		description = "What even is a mocha",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3261,7 +3261,7 @@ return {
 		stack = true,
 		close = true,
 		description = "That might wake you up a smidge",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3279,7 +3279,7 @@ return {
 		stack = true,
 		close = true,
 		description = "American coffee, with an o",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3298,7 +3298,7 @@ return {
 		stack = true,
 		close = true,
 		description = "",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3322,7 +3322,7 @@ return {
 			usetime = 2500,
 			notification = 'You quenched your thirst with cola'
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3349,7 +3349,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3377,7 +3377,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3405,7 +3405,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3433,7 +3433,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3453,7 +3453,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Nothing like a good cold beer!",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3471,7 +3471,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Good ol imported beer from mexico",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3489,7 +3489,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Good ol imported beer from germany",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3507,7 +3507,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Good ol imported beer from italy",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3525,7 +3525,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Good ol imported stout from ireland",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3543,7 +3543,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Good ol homemade beer from the brewery",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3563,7 +3563,7 @@ return {
 		stack = true,
 		close = true,
 		description = "For all the thirsty out there",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3617,7 +3617,7 @@ return {
 		stack = true,
 		close = true,
 		description = "For all the thirsty out there",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3635,7 +3635,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3653,7 +3653,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3671,7 +3671,7 @@ return {
 		stack = true,
 		close = true,
 		description = "For those fancy events",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3689,7 +3689,7 @@ return {
 		stack = true,
 		close = true,
 		description = "A pirates drink for me",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3707,7 +3707,7 @@ return {
 		stack = true,
 		close = true,
 		description = "For extra kick, add snake venom",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3725,7 +3725,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Chilled like the mountains of Siberia",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3743,7 +3743,7 @@ return {
 		stack = true,
 		close = true,
 		description = "The cowboy's choice for getting plastered",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3761,7 +3761,7 @@ return {
 		stack = true,
 		close = true,
 		description = "For the refined taste buds you so clearly have",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3781,7 +3781,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3799,7 +3799,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3817,7 +3817,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3835,7 +3835,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3853,7 +3853,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3871,7 +3871,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3889,7 +3889,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3907,7 +3907,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3925,7 +3925,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3943,7 +3943,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3961,7 +3961,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3979,7 +3979,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -3997,7 +3997,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -4015,7 +4015,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -4033,7 +4033,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Like whiskey, but more ouch",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -6117,7 +6117,7 @@ return {
 		server = {
 			export = 'moonlit-boombox.useBoombox'
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -6321,7 +6321,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Walking stick for ya'll grannies out there.. HAHA",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -6438,7 +6438,7 @@ return {
 		stack = false,
 		close = true,
 		description = "News Camera",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -6503,7 +6503,7 @@ return {
 			disable = { move = false, car = false, combat = false },
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -7056,7 +7056,7 @@ return {
 			disable = { move = false, car = false, combat = false },
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -7445,7 +7445,7 @@ return {
 			disable = { move = true, car = true, combat = true },
 			usetime = 2500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -7536,7 +7536,7 @@ return {
 			},
 			disable = { move = true, car = true, combat = true },
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -7879,7 +7879,7 @@ return {
 		stack = false,
 		close = true,
 		description = "A medical bag used by paramedics, containing essential supplies for emergency care.",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -8055,7 +8055,7 @@ return {
 			disable = { move = false, car = true, combat = true },
 			usetime = 2500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -8318,7 +8318,7 @@ return {
 		label = 'Cigar',
 		weight = 115,
 		description = "God you are going to look so fucking cool smoking this",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -8335,7 +8335,7 @@ return {
 		stack = true,
 		close = true,
 		description = "",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -8352,7 +8352,7 @@ return {
 		stack = true,
 		close = true,
 		description = "",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -8461,7 +8461,7 @@ return {
 			prop = { model = `prop_cs_panties_02`, pos = vec3(0.03, 0.0, 0.02), rot = vec3(0.0, -13.5, -1.5) },
 			usetime = 2500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -8477,7 +8477,7 @@ return {
 		label = 'Vape',
 		weight = 200,
 		description = "No flavor.. just smoke.",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -8816,7 +8816,7 @@ return {
 			disable = { move = false, car = true, combat = false },
 			usetime = 8000
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -9151,7 +9151,7 @@ return {
 		stack = true,
 		close = true,
 		description = "This shit will turn you into a NoiseCloud rapper",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -9280,7 +9280,7 @@ return {
 		stack = true,
 		close = true,
 		description = "This shit hits different",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -9393,7 +9393,7 @@ return {
 		stack = true,
 		close = true,
 		description = "A cup of lean",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -10713,7 +10713,7 @@ return {
 		stack = true,
 		close = false,
 		description = "Some delicious shrooms",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -11234,7 +11234,7 @@ return {
 		stack = true,
 		close = true,
 		description = "",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -11619,7 +11619,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Some fabulous art!",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -11636,7 +11636,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Some fabulous art!",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -11653,7 +11653,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Some fabulous art!",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -11717,7 +11717,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Desktop",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -11734,7 +11734,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Monitor",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -11758,7 +11758,7 @@ return {
 		stack = true,
 		close = true,
 		description = "These bang!",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -11809,7 +11809,7 @@ return {
 			disable = { move = false, car = false, combat = true },
 			usetime = 16000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -11836,7 +11836,7 @@ return {
 			disable = { move = false, car = false, combat = true },
 			usetime = 16000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -11863,7 +11863,7 @@ return {
 			disable = { move = false, car = false, combat = true },
 			usetime = 16000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -11948,7 +11948,7 @@ return {
 			disable = { move = false, car = false, combat = true },
 			usetime = 16000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -12272,7 +12272,7 @@ return {
 			-- usetime = 5000,
 			event = "badge:openPD"
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -12300,7 +12300,7 @@ return {
 			-- usetime = 5000,
 			event = "badge:openPD"
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -12328,7 +12328,7 @@ return {
 			-- usetime = 5000,
 			event = "badge:openPD"
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -12356,7 +12356,7 @@ return {
 			-- usetime = 5000,
 			event = "badge:openPD"
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -12808,7 +12808,7 @@ return {
 			},
 			usetime = 8000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -13117,7 +13117,7 @@ return {
 			},
 		},
 	},
-	
+
 	['lockpick'] = {
 		label = 'Lockpick',
 		weight = 20,
@@ -13128,7 +13128,7 @@ return {
 			image = 'lockpick.png',
 		},
 	},
-	
+
 	['advancedlockpick'] = {
 		label = 'Advanced Lockpick',
 		weight = 200,
@@ -13139,7 +13139,7 @@ return {
 			image = 'advancedlockpick.png',
 		},
 	},
-	
+
 	-- Optional: only needed if Config.Hotwire.Item.Required = true
 	['hotwire_kit'] = {
 		label = 'Hotwire Kit',
@@ -13151,7 +13151,7 @@ return {
 			image = 'hotwire_kit.png',
 		},
 	},
-	
+
 	['keyring'] = {
 		label = 'Keyring',
 		weight = 10,
@@ -13162,7 +13162,7 @@ return {
 			image = 'keyring.png',
 		},
 	},
-	
+
 	['rental_paperwork'] = {
 		label = 'Rental Paperwork',
 		weight = 50,
@@ -13173,7 +13173,7 @@ return {
 			image = 'rental_paperwork.png',
 		},
 	},
-	
+
 	['aftermarket_locks'] = {
 		label = 'Aftermarket Lock System',
 		weight = 500,
@@ -13184,7 +13184,7 @@ return {
 			image = 'aftermarket_locks.png',
 		},
 	},
-	
+
 	-- Locksmith job bench (configs/locksmith_job.lua → Bench.BlankKey)
 	['blank_key'] = {
 		label = 'Blank Key',
@@ -13196,7 +13196,7 @@ return {
 			image = 'blank_key.png',
 		},
 	},
-	
+
 	-- Keyfob scanner (configs/locksmith_job.lua → LocksmithJob.Scanner.Item)
 	['keyfob_scanner'] = {
 		label = 'Keyfob Scanner',
@@ -13208,7 +13208,7 @@ return {
 			image = 'keyfob_scanner.png',
 		},
 	},
-	
+
 	['ping_transmitter'] = {
 		label = 'Ping Transmitter',
 		weight = 150,
@@ -13219,7 +13219,7 @@ return {
 			image = 'ping_transmitter.png',
 		},
 	},
-	
+
 	['ping_receiver'] = {
 		label = 'Ping Receiver',
 		weight = 200,
@@ -14451,7 +14451,7 @@ return {
 		client = {
 			image = "placeholder.png",
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -15470,7 +15470,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -15683,7 +15683,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -15738,7 +15738,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -15945,7 +15945,7 @@ return {
 		client = {
 			image = "bhoneyhazelnutoatlatte.png",
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -15990,7 +15990,7 @@ return {
 		client = {
 			image = "bstrawberryvanillaoatlatte.png",
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -16064,7 +16064,7 @@ return {
 		client = {
 			image = "bjavachipfrappuccino.png",
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -16123,7 +16123,7 @@ return {
 			usetime = 2500,
 			notification = 'You quenched your thirst with an orange slushie!'
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -16196,7 +16196,7 @@ return {
 		client = {
 			image = "bespresso.png",
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -16215,7 +16215,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Strawberry Cream Frappuccino",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -16293,7 +16293,7 @@ return {
 		client = {
 			image = "bcaramelfrappucino.png",
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -16329,7 +16329,7 @@ return {
 			usetime = 2500,
 			notification = 'You quenched your thirst with an lemon slushie!'
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -16351,7 +16351,7 @@ return {
 		client = {
 			image = "bespressomacchiato.png",
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -16381,7 +16381,7 @@ return {
 		stack = true,
 		close = true,
 		description = "Hot Chocolate",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -16403,7 +16403,7 @@ return {
 		client = {
 			image = "bicedcaffelatte.png",
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -16455,7 +16455,7 @@ return {
 		client = {
 			image = "bcoldbrewlatte.png",
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -17011,7 +17011,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -17039,7 +17039,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -17067,7 +17067,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -17095,7 +17095,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -17123,7 +17123,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -17151,7 +17151,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -17179,7 +17179,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -17207,7 +17207,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -17240,7 +17240,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -17268,7 +17268,7 @@ return {
 			},
 			usetime = 7500,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -17325,7 +17325,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -17353,7 +17353,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -17381,7 +17381,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -17405,7 +17405,7 @@ return {
 			usetime = 2500,
 			notification = 'You quenched your thirst with cola'
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -17428,7 +17428,7 @@ return {
 			usetime = 2500,
 			notification = 'You quenched your thirst with cola'
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -17456,7 +17456,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -17484,7 +17484,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -17511,7 +17511,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -17539,7 +17539,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -17566,7 +17566,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -17593,7 +17593,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -17620,7 +17620,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -17647,7 +17647,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -17674,7 +17674,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -17701,7 +17701,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -17728,7 +17728,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -17755,7 +17755,7 @@ return {
 			},
 			usetime = 5000,
 		},
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -18165,7 +18165,7 @@ return {
 		label = "Mixing Board",
 		weight = 360,
 		description = 'Pricey Mixer.',
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -20496,7 +20496,7 @@ return {
 		stack = true,
 		close = true,
 		description = "",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -20513,7 +20513,7 @@ return {
 		stack = true,
 		close = true,
 		description = "",
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -26002,7 +26002,7 @@ return {
 		stack = true,
 		close = true,
 		description = 'A small box',
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -26019,7 +26019,7 @@ return {
 		stack = true,
 		close = true,
 		description = 'A large box',
-	
+
 		buttons = {
 			{
 				label = 'Place',
@@ -26035,7 +26035,10 @@ return {
 		weight = 100,
 		stack = true,
 		close = true,
-		description = 'An item that can be used to install an antilag system on a vehicle',
+		description = 'Install an antilag system on a nearby empty vehicle (or use the vehicle target option).',
+		client = {
+			export = 'moonlit-antilag.useInstaller',
+		},
 	},
 
 	antilag_remover = {
@@ -26043,7 +26046,10 @@ return {
 		weight = 100,
 		stack = true,
 		close = true,
-		description = 'An item that can be used to remove an antilag system from a vehicle',
+		description = 'Remove an antilag system from a nearby vehicle (or use the vehicle target option).',
+		client = {
+			export = 'moonlit-antilag.useRemover',
+		},
 	},
 
 	['stopsign'] = {
