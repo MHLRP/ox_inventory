@@ -1021,7 +1021,6 @@ return {
 	BlackMarketCar = {
 		name = 'Car Market',
 		inventory = {
-			{ name = 'vehicle_cover',  price = 500,   currency = 'black_money' },
 			{ name = 'harness',        price = 4500,  currency = 'black_money' },
 			{ name = 'plateflipper',   price = 12000, currency = 'black_money' },
 			{ name = 'dongle',         price = 7000,  currency = 'black_money' },

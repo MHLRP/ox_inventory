@@ -12867,9 +12867,9 @@ return {
 	["huntinglicense"] = {
 		label = "Hunting License",
 		weight = 1,
-		stack = true,
-		close = true,
-		description = "Hunting License",
+		stack = false,
+		close = false,
+		description = "Permit to show you can hunt",
 	},
 
 	["meatdeer"] = {
