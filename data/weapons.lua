@@ -992,36 +992,43 @@ return {
 		['WEAPON_GLIZZY'] = {
 			label = 'Glizzy',
 			weight = 100,
+			durability = 0.1,
 		},
 
 		['WEAPON_BONG'] = {
 			label = 'Bong',
 			weight = 5,
+			durability = 0.1,
 		},
 
 		['WEAPON_FISH'] = {
 			label = 'Fish',
 			weight = 30,
+			durability = 0.1,
 		},
 
 		['WEAPON_SPATEL'] = {
 			label = 'Spatchula',
 			weight = 10,
+			durability = 0.1,
 		},
 
 		['WEAPON_KRUK'] = {
 			label = 'Chair',
 			weight = 100,
+			durability = 0.1,
 		},
 
 		['WEAPON_MAND'] = {
 			label = 'Oil Fryer',
 			weight = 60,
+			durability = 0.1,
 		},
 
 		['WEAPON_PAN'] = {
 			label = 'Frying Pan',
 			weight = 40,
+			durability = 0.1,
 		},
 		['WEAPON_FURY_FIGHTSTICK'] = {
 			label = 'Fightstick',

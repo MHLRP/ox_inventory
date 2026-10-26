@@ -3271,4 +3271,19 @@ return {
 			{ name = 'beekeeper_suit',   price = 2500 },
 		},
 	},
+
+	FutureShop = {
+		name = 'Future Shop',
+		inventory = {
+			{ name = 'hoverboard', price = 40000, count = 25, currency = 'money' },
+		},
+		targets = {
+			{
+				ped = `u_m_y_rsranger_01`,
+				scenario = 'WORLD_HUMAN_STAND_MOBILE',
+				loc = vec3(-1403.8107, -1417.5709, 5.6231),
+				heading = 31.1346,
+			}
+		}
+	},
 }
