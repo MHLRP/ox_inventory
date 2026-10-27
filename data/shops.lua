@@ -519,7 +519,7 @@ return {
 	},
 
 	GasNGo = {
-		name = 'GasNGo Store',
+		name = "Raven's Landing",
 		society = 'gasngo',
 		inventory = {
 			{ name = 'coffee',          price = 12 },
