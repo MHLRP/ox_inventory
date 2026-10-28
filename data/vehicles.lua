@@ -10,6 +10,9 @@ return {
 		[`atlus`] = 1,
 		[`ambucara`] = 1,
 		[`monroeatlus`] = 1,
+		-- Garbage trucks: rear is for job loading, not inventory storage
+		[`trash`] = 1,
+		[`trash2`] = 1,
 		[`iak_wheelchair`] = 0,
 		[`cyberwheelchair`] = 0,
 		[`jester`] = 3,
