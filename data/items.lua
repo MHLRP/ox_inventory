@@ -20615,11 +20615,11 @@ return {
 	},
 
 	["skateboard_02"] = {
-		label = "Chocolate Skateboard",
+		label = "Skateboard A",
 		weight = 100,
 		stack = false,
 		close = true,
-		description = "Chocolate Skateboard",
+		description = "Custom skateboard",
 		client = {
 			image = "skateboard_02.png",
 			event = "moonlit-boarding:Skateboard:PickPlace"
@@ -20635,11 +20635,11 @@ return {
 	},
 
 	["skateboard_03"] = {
-		label = "Strawberry Skateboard",
+		label = "Skateboard B",
 		weight = 100,
 		stack = false,
 		close = true,
-		description = "Strawberry Skateboard",
+		description = "Custom skateboard",
 		client = {
 			image = "skateboard_03.png",
 			event = "moonlit-boarding:Skateboard:PickPlace"
@@ -20649,6 +20649,106 @@ return {
 				label = "Show Board",
 				action = function()
 					TriggerEvent('moonlit-boarding:client:showoff', { item = "skateboard_03", skip = true })
+				end,
+			}
+		}
+	},
+
+	["skateboard_04"] = {
+		label = "Skateboard C",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "Custom skateboard",
+		client = {
+			image = "skateboard_04.png",
+			event = "moonlit-boarding:Skateboard:PickPlace"
+		},
+		buttons = {
+			{
+				label = "Show Board",
+				action = function()
+					TriggerEvent('moonlit-boarding:client:showoff', { item = "skateboard_04", skip = true })
+				end,
+			}
+		}
+	},
+
+	["skateboard_05"] = {
+		label = "Skateboard D",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "Custom skateboard",
+		client = {
+			image = "skateboard_05.png",
+			event = "moonlit-boarding:Skateboard:PickPlace"
+		},
+		buttons = {
+			{
+				label = "Show Board",
+				action = function()
+					TriggerEvent('moonlit-boarding:client:showoff', { item = "skateboard_05", skip = true })
+				end,
+			}
+		}
+	},
+
+	["skateboard_06"] = {
+		label = "Skateboard E",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "Custom skateboard",
+		client = {
+			image = "skateboard_06.png",
+			event = "moonlit-boarding:Skateboard:PickPlace"
+		},
+		buttons = {
+			{
+				label = "Show Board",
+				action = function()
+					TriggerEvent('moonlit-boarding:client:showoff', { item = "skateboard_06", skip = true })
+				end,
+			}
+		}
+	},
+
+	["skateboard_07"] = {
+		label = "Skateboard F",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "Custom skateboard",
+		client = {
+			image = "skateboard_07.png",
+			event = "moonlit-boarding:Skateboard:PickPlace"
+		},
+		buttons = {
+			{
+				label = "Show Board",
+				action = function()
+					TriggerEvent('moonlit-boarding:client:showoff', { item = "skateboard_07", skip = true })
+				end,
+			}
+		}
+	},
+
+	["skateboard_08"] = {
+		label = "Skateboard G",
+		weight = 100,
+		stack = false,
+		close = true,
+		description = "Custom skateboard",
+		client = {
+			image = "skateboard_08.png",
+			event = "moonlit-boarding:Skateboard:PickPlace"
+		},
+		buttons = {
+			{
+				label = "Show Board",
+				action = function()
+					TriggerEvent('moonlit-boarding:client:showoff', { item = "skateboard_08", skip = true })
 				end,
 			}
 		}

@@ -1871,8 +1871,13 @@ return {
 		},
 		inventory = {
 			{ name = 'skateboard_01', price = 50, count = 30, currency = 'money' },
-			{ name = 'skateboard_02', price = 50, count = 30, currency = 'money' },
-			{ name = 'skateboard_03', price = 50, count = 30, currency = 'money' },
+			{ name = 'skateboard_02', price = 75, count = 30, currency = 'money' },
+			{ name = 'skateboard_03', price = 75, count = 30, currency = 'money' },
+			{ name = 'skateboard_04', price = 75, count = 30, currency = 'money' },
+			{ name = 'skateboard_05', price = 75, count = 30, currency = 'money' },
+			{ name = 'skateboard_06', price = 75, count = 30, currency = 'money' },
+			{ name = 'skateboard_07', price = 75, count = 30, currency = 'money' },
+			{ name = 'skateboard_08', price = 75, count = 30, currency = 'money' },
 		},
 		targets = {
 			{
