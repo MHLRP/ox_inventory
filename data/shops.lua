@@ -487,6 +487,9 @@ return {
 
 	LTDGas = {
 		name = 'LTD Store',
+		blip = {
+			id = 52, colour = 0, scale = 0.6
+		},
 		inventory = {
 			{ name = 'water',           price = 10,  count = 100 },
 			{ name = 'sandwich',        price = 10,  count = 75 },
@@ -3276,6 +3279,8 @@ return {
 		name = 'Future Shop',
 		inventory = {
 			{ name = 'hoverboard', price = 40000, count = 25, currency = 'money' },
+			{ name = 'hoverboard_02', price = 45000, count = 25, currency = 'money' },
+			{ name = 'hoverboard_03', price = 50000, count = 25, currency = 'money' },
 		},
 		targets = {
 			{

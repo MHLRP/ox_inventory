@@ -7389,6 +7389,28 @@ return {
 		},
 	},
 
+	['hoverboard_02'] = {
+		label = 'Alien Hoverboard',
+		weight = 1000,
+		stack = false,
+		close = true,
+		description = 'A hoverboard for tricks and stunts',
+		client = {
+			event = 'moonlit-hoverboards:use'
+		},
+	},
+
+	['hoverboard_03'] = {
+		label = 'Hoverboard 03',
+		weight = 1000,
+		stack = false,
+		close = true,
+		description = 'A hoverboard for tricks and stunts',
+		client = {
+			event = 'moonlit-hoverboards:use'
+		},
+	},
+
 	["newsmic"] = {
 		label = "News Microphone",
 		weight = 100,
@@ -11935,20 +11957,7 @@ return {
 		weight = 100,
 		stack = true,
 		close = true,
-		consume = 0,
-		description = "Everyone could use one of these..",
-		client = {
-			anim = { dict = 'anim@safehouse@bong', clip = 'bong_stage3', flag = 49 },
-			prop = {
-				model = 'hei_heist_sh_bong_01',
-				pos = vec3(0.10, -0.25, 0.0),
-				rot = vec3(95.0, 190.0, 180.0),
-				bone = 18905
-			},
-			disable = { move = false, car = false, combat = true },
-			usetime = 16000,
-		},
-
+		description = "Pack some dry bud and take a hit..",
 		buttons = {
 			{
 				label = 'Place',
@@ -21029,7 +21038,10 @@ return {
 		weight = 1000,
 		stack = false,
 		close = true,
-		description = 'Vehicle spy spike strips',
+		description = 'Vehicle spy spike strips — open hatch in Vehicle Control → SPECIAL, then press E',
+		client = {
+			export = 'moonlit-vehcontrol.useSpySpikes',
+		},
 	},
 
 	["shitgpu"] = {
@@ -22455,7 +22467,10 @@ return {
 		weight = 150,
 		stack = false,
 		close = true,
-		description = 'A special lever that launches people out of a vehicle!',
+		description = 'A special lever that launches people out of a vehicle! — arm in Vehicle Control → SPECIAL, then press E',
+		client = {
+			export = 'moonlit-vehcontrol.OpenEjectorMenu',
+		},
 	},
 
 	-- Yellowpunk Items
