@@ -912,14 +912,14 @@ return {
 		groups = { ['secureindustries'] = 0 },
 	},
 	{
-		coords = vec3(-599.4645, -716.7106, 36.2849),
+		coords = vec3(518.2693, -3205.6621, 8.3639),
 		target = {
-			loc = vec3(-599.4645, -716.7106, 36.2849),
+			loc = vec3(518.2693, -3205.6621, 8.3639),
 			length = 1.2,
 			width = 5.6,
-			heading = 0,
-			minZ = 29.49,
-			maxZ = 32.09,
+			heading = 1.1253,
+			minZ = 7.36,
+			maxZ = 9.36,
 			label = 'Open Secure Industries Storage'
 		},
 		name = 'secureindustries2',
