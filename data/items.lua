@@ -7308,6 +7308,17 @@ return {
 		}
 	},
 
+	["holodeck"] = {
+		label = "Holodeck",
+		weight = 200,
+		stack = false,
+		close = true,
+		description = "Moonlit wrist holoterminal. Projects holographic AI voice uplinks on your arm.",
+		client = {
+			image = "holodeck.png",
+		}
+	},
+
 	["hackerphone"] = {
 		label = "root@hackerphone",
 		weight = 500,
@@ -22567,7 +22578,8 @@ return {
 		weight = 150,
 		stack = false,
 		close = true,
-		description = 'A special lever that launches people out of a vehicle! — arm in Vehicle Control → SPECIAL, then press E',
+		description =
+		'A special lever that launches people out of a vehicle!',
 		client = {
 			export = 'moonlit-vehcontrol.OpenEjectorMenu',
 		},
