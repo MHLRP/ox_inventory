@@ -7313,7 +7313,7 @@ return {
 		weight = 200,
 		stack = false,
 		close = true,
-		description = "Moonlit wrist holoterminal. Projects holographic AI voice uplinks on your arm.",
+		description = "Projects holographic voice uplinks on your arm.",
 		client = {
 			image = "holodeck.png",
 		}
