@@ -3288,6 +3288,7 @@ return {
 			{ name = 'hoverboard', price = 40000, count = 25, currency = 'money' },
 			{ name = 'hoverboard_02', price = 45000, count = 25, currency = 'money' },
 			{ name = 'hoverboard_03', price = 50000, count = 25, currency = 'money' },
+			{ name = 'hoverbomb', price = 55000, count = 25, currency = 'money' },
 		},
 		targets = {
 			{

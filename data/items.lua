@@ -7422,6 +7422,17 @@ return {
 		},
 	},
 
+	['hoverbomb'] = {
+		label = 'Hoverbomb',
+		weight = 1000,
+		stack = false,
+		close = true,
+		description = 'A hoverboard for tricks and stunts',
+		client = {
+			event = 'moonlit-hoverboards:use'
+		},
+	},
+
 	["newsmic"] = {
 		label = "News Microphone",
 		weight = 100,
