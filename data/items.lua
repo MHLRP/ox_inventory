@@ -21750,6 +21750,26 @@ return {
 		}
 	},
 
+	["powdered_donut"] = {
+		label = "Powdered Donut",
+		degrade = 60 * 72,
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "A soft donut covered in powdered sugar.",
+		client = {
+			status = { hunger = 60 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'donut',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(150.0, 340.0, 170.0)
+			},
+			usetime = 7500,
+			image = "powdered_donut.png",
+		}
+	},
+
 	["strawberrysmoothie"] = {
 		label = "Strawberry Smoothie",
 		degrade = 60 * 72,
@@ -25701,6 +25721,22 @@ return {
 		description = "Lavender Chai Latte",
 	},
 
+	["pumpkinspicelatte"] = {
+		label = "Pumpkin Spice Latte",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "A coffee latte flavored with pumpkin spice.",
+	},
+
+	["wintermintlatte"] = {
+		label = "Wintermint Latte",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "A coffee latte flavored with mint.",
+	},
+
 	["galaxycakepop"] = {
 		label = "Galaxy Cake Pop",
 		weight = 100,
@@ -27152,6 +27188,20 @@ return {
 		stack = true,
 		close = true,
 		client = { image = "vanilla_syrup.png" },
+	},
+	["mint_syrup"] = {
+		label = "Mint Syrup",
+		weight = 100,
+		stack = true,
+		close = true,
+		client = { image = "mint_syrup.png" },
+	},
+	["pumpkin_syrup"] = {
+		label = "Pumpkin Syrup",
+		weight = 100,
+		stack = true,
+		close = true,
+		client = { image = "pumpkin_syrup.png" },
 	},
 
 	["lunalux_keycard"] = {

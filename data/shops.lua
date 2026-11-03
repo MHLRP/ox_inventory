@@ -247,6 +247,8 @@ return {
 			{ name = 'citrus_syrup',           price = 10, count = 75,  currency = 'money' },
 			{ name = 'vanilla_syrup',          price = 10, count = 75,  currency = 'money' },
 			{ name = 'chocolate_syrup',        price = 10, count = 75,  currency = 'money' },
+			{ name = 'mint_syrup',              price = 10, count = 75,  currency = 'money' },
+			{ name = 'pumpkin_syrup',          price = 10, count = 75,  currency = 'money' },
 			{ name = 'apple_pie_filling',      price = 10, count = 75,  currency = 'money' },
 			{ name = 'citrus_glaze',           price = 10, count = 75,  currency = 'money' },
 			{ name = 'tortillas',              price = 10, count = 75,  currency = 'money' },
