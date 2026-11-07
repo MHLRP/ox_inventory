@@ -201,13 +201,6 @@ return {
 			ammoname = 'ammo-9'
 		},
 
-		['WEAPON_SCIFI'] = {
-			label = 'Sci-Fi Rifle',
-			weight = 3000,
-			durability = 0.03,
-			ammoname = 'ammo-rifle'
-		},
-
 		['WEAPON_ROOKVOLVER'] = {
 			label = 'Rook Revolver',
 			weight = 700,

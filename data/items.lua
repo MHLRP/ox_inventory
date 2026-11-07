@@ -19328,6 +19328,14 @@ return {
 		description = "Right Cyberleg Implant",
 	},
 
+	["chronosimplant"] = {
+		label = "CyberHeX Chronos Implant",
+		weight = 2500,
+		stack = false,
+		close = true,
+		description = " Skeleton implant",
+	},
+
 	["gorillaarms"] = {
 		label = "CyberHeX Gorilla Arms",
 		weight = 8000,
@@ -20608,11 +20616,12 @@ return {
 	["surfboard"] = {
 		label = "Surfboard",
 		weight = 100,
-		stack = true,
+		stack = false,
 		close = true,
 		description = "Surfboard",
 		client = {
 			image = "surfboard.png",
+			event = "moonlit-boarding:Surfboard:PickPlace"
 		}
 	},
 
