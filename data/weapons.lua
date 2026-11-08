@@ -782,6 +782,12 @@ return {
 			throwable = true,
 		},
 
+		['WEAPON_SHOE'] = {
+			label = 'Shoe',
+			weight = 75,
+			throwable = true,
+		},
+
 		['WEAPON_BEANBAG'] = {
 			label = 'Bean Bag Shotgun',
 			weight = 1400,
