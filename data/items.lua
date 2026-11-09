@@ -13034,6 +13034,7 @@ return {
 		weight = 200,
 		stack = false,
 		close = true,
+		consume = 0,
 		description = "Permanently change a vehicle's license plate text",
 		client = {
 			export = 'moonlit-customplates.useNativePlate',
@@ -13045,6 +13046,7 @@ return {
 		weight = 200,
 		stack = false,
 		close = true,
+		consume = 0,
 		description = "Apply a custom video screen plate",
 		client = {
 			export = 'moonlit-customplates.useDuiPlate',
@@ -15064,6 +15066,7 @@ return {
 		weight = 500,
 		stack = false,
 		close = true,
+		consume = 0,
 		description = 'A device used to measure window tint percentage',
 		client = {
 			export = 'moonlit-tintmeter.tintmeter',
@@ -21098,28 +21101,88 @@ return {
 
 	--- HOOKAH
 
-	['oceanbreeze'] = {
-		label = 'Ocean Breeze',
+	['cloudnine'] = {
+		label = 'Cloud Nine',
 		weight = 50,
 		stack = true,
 	},
-	['lavenderlush'] = {
-		label = 'Lavender Lush',
+	['champagnegummybears'] = {
+		label = 'Champagne Gummy Bears',
 		weight = 50,
 		stack = true,
 	},
-	['berryblaze'] = {
-		label = 'Berry Blaze',
+	['cottoncandy'] = {
+		label = 'Cotton Candy',
 		weight = 50,
 		stack = true,
 	},
-	['citrussunshine'] = {
-		label = 'Citrus Sunshine',
+	['bombpop'] = {
+		label = 'Bomb Pop',
 		weight = 50,
 		stack = true,
 	},
-	['limee'] = {
-		label = 'Lime',
+	['loverskiss'] = {
+		label = 'Lovers Kiss',
+		weight = 50,
+		stack = true,
+	},
+	['marshmallowpeeps'] = {
+		label = 'Marshmallow Peeps',
+		weight = 50,
+		stack = true,
+	},
+	['pepperminthotcocoa'] = {
+		label = 'Peppermint Hot Cocoa',
+		weight = 50,
+		stack = true,
+	},
+	['pinkhaze'] = {
+		label = 'Pink Haze',
+		weight = 50,
+		stack = true,
+	},
+	['rainbowsherbet'] = {
+		label = 'Rainbow Sherbet',
+		weight = 50,
+		stack = true,
+	},
+	['chocolatestrawberry'] = {
+		label = 'Chocolate Strawberry',
+		weight = 50,
+		stack = true,
+	},
+	['spicedchai'] = {
+		label = 'Spiced Chai',
+		weight = 50,
+		stack = true,
+	},
+	['shamrockshake'] = {
+		label = 'Shamrock Shake',
+		weight = 50,
+		stack = true,
+	},
+	['starbuzz'] = {
+		label = 'Starbuzz',
+		weight = 50,
+		stack = true,
+	},
+	['smores'] = {
+		label = "S'mores",
+		weight = 50,
+		stack = true,
+	},
+	['mangonada'] = {
+		label = 'Mangonada',
+		weight = 50,
+		stack = true,
+	},
+	['cyberdreams'] = {
+		label = 'Cyber Dreams',
+		weight = 50,
+		stack = true,
+	},
+	['candycorn'] = {
+		label = 'Candy Corn',
 		weight = 50,
 		stack = true,
 	},
@@ -21146,7 +21209,12 @@ return {
 	['hookah'] = {
 		label = 'Portable Hookah',
 		weight = 150,
-		stack = true,
+		stack = false,
+		close = true,
+		consume = 0,
+		client = {
+			export = 'moonlit-hookah.useHookah',
+		},
 	},
 
 	['bubblewand'] = {
@@ -26218,6 +26286,7 @@ return {
 		weight = 100,
 		stack = true,
 		close = true,
+		consume = 0,
 		description = 'Install an antilag system on a nearby empty vehicle (or use the vehicle target option).',
 		client = {
 			export = 'moonlit-antilag.useInstaller',
@@ -26229,6 +26298,7 @@ return {
 		weight = 100,
 		stack = true,
 		close = true,
+		consume = 0,
 		description = 'Remove an antilag system from a nearby vehicle (or use the vehicle target option).',
 		client = {
 			export = 'moonlit-antilag.useRemover',
