@@ -27041,6 +27041,8 @@ return {
 	["vanillacarbonmilkshake"] = {
 		label = "Vanilla Carbon Milkshake",
 		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
 		client = { image = "vanillacarbonmilkshake.png" },
@@ -27048,6 +27050,8 @@ return {
 	["thedoubletap"] = {
 		label = "The Double Tap",
 		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
 		client = { image = "thedoubletap.png" },
@@ -27055,6 +27059,8 @@ return {
 	["systemoverload"] = {
 		label = "System Overload",
 		weight = 250,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
 		client = { image = "systemoverload.png" },
@@ -27062,6 +27068,8 @@ return {
 	["staticcola"] = {
 		label = "Static Cola",
 		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
 		client = { image = "staticcola.png" },
@@ -27069,6 +27077,8 @@ return {
 	["rexsunit01burger"] = {
 		label = "Rex's Unit 01 Burger",
 		weight = 400,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
 		client = { image = "rexsunit01burger.png" },
@@ -27076,6 +27086,8 @@ return {
 	["neonapplepie"] = {
 		label = "Neon Apple Pie",
 		weight = 250,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
 		client = { image = "neonapplepie.png" },
@@ -27083,6 +27095,8 @@ return {
 	["midnightpattymelt"] = {
 		label = "Midnight Patty Melt",
 		weight = 400,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
 		client = { image = "midnightpattymelt.png" },
@@ -27090,6 +27104,8 @@ return {
 	["griddlefriedporkchop"] = {
 		label = "Griddle Fried Pork Chop",
 		weight = 450,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
 		client = { image = "griddlefriedpork chop.png" },
@@ -27097,6 +27113,8 @@ return {
 	["ghostsignal"] = {
 		label = "Ghost Signal",
 		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
 		client = { image = "ghostsignal.png" },
@@ -27104,6 +27122,8 @@ return {
 	["datarexcrunch"] = {
 		label = "Data Rex Crunch",
 		weight = 250,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
 		client = { image = "datarexcrunch.png" },
@@ -27111,6 +27131,8 @@ return {
 	["circuitboardnachos"] = {
 		label = "Circuit Board Nachos",
 		weight = 300,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
 		client = { image = "circuitboardnachos.png" },
@@ -27118,6 +27140,8 @@ return {
 	["chromeonionrings"] = {
 		label = "Chrome Onion Rings",
 		weight = 250,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
 		client = { image = "chromeonion rings.png" },
@@ -27125,6 +27149,8 @@ return {
 	["chocolatecarbonmilkshake"] = {
 		label = "Chocolate Carbon Milkshake",
 		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
 		client = { image = "chocolatecarbonmilkshake.png" },
@@ -27132,6 +27158,8 @@ return {
 	["chickenandwaffles"] = {
 		label = "Chicken and Waffles",
 		weight = 450,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
 		client = { image = "chickenandwaffles.png" },
@@ -27139,6 +27167,8 @@ return {
 	["bluescreenlemonade"] = {
 		label = "Blue Screen Lemonade",
 		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
 		client = { image = "bluescreenlemonade.png" },
@@ -27146,6 +27176,8 @@ return {
 	["allnighter"] = {
 		label = "All Nighter",
 		weight = 400,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
 		client = { image = "allnighter.png" },
@@ -27153,6 +27185,8 @@ return {
 	["blackoutfries"] = {
 		label = "Blackout Fries",
 		weight = 250,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
 		client = { image = "blackoutfries.png" },
@@ -27160,6 +27194,8 @@ return {
 	["diced_chicken"] = {
 		label = "Diced Chicken",
 		weight = 200,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
 		client = { image = "diced_chicken.png" },
