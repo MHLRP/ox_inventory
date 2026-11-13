@@ -7,12 +7,25 @@ local Utils = require 'modules.utils.client'
 local Weapon = require 'modules.weapon.client'
 local currentWeapon
 local vehicleWeaponStowed = false
+local vehicleWeaponUnstowUntil = 0
 local WEAPON_UNARMED = `WEAPON_UNARMED`
+--- Keep gun selected briefly after aim/fire so semi-autos don't restow between shots.
+local VEHICLE_WEAPON_UNSTOW_GRACE_MS = 500
+--- Hold unstow long enough for TaskReloadWeapon / clip fill while driving.
+local VEHICLE_WEAPON_RELOAD_GRACE_MS = 1500
 
 --- Bikes/bicycles keep the weapon selected (visible on-character / different drive-by rules).
 local function vehicleIsCycle(vehicle)
 	local class = GetVehicleClass(vehicle)
 	return class == 8 or class == 13
+end
+
+local function isVehicleWeaponControlPressed()
+	return IsControlPressed(0, 68) or IsControlJustPressed(0, 68) -- INPUT_VEH_AIM
+		or IsControlPressed(0, 69) or IsControlJustPressed(0, 69) -- INPUT_VEH_ATTACK
+		or IsControlPressed(0, 70) or IsControlJustPressed(0, 70) -- INPUT_VEH_ATTACK2
+		or IsControlPressed(0, 91) or IsControlJustPressed(0, 91) -- INPUT_VEH_PASSENGER_AIM
+		or IsControlPressed(0, 92) or IsControlJustPressed(0, 92) -- INPUT_VEH_PASSENGER_ATTACK
 end
 
 --- Real aim / drive-by only. Never use INPUT_AIM (25) alone — it can be held
@@ -22,19 +35,39 @@ local function shouldUseWeaponInVehicle()
 	return IsPlayerFreeAiming(cache.playerId)
 		or IsAimCamActive()
 		or GetPedConfigFlag(ped, 78, true)
-		or IsControlPressed(0, 68)  -- INPUT_VEH_AIM
-		or IsControlPressed(0, 69)  -- INPUT_VEH_ATTACK
-		or IsControlPressed(0, 70)  -- INPUT_VEH_ATTACK2
-		or IsControlPressed(0, 91)  -- INPUT_VEH_PASSENGER_AIM
-		or IsControlPressed(0, 92)  -- INPUT_VEH_PASSENGER_ATTACK
+		or isVehicleWeaponControlPressed()
 end
 
 local function shouldStowWeaponInVehicle(vehicle)
 	vehicle = vehicle or cache.vehicle
-	return currentWeapon
-		and vehicle
-		and not vehicleIsCycle(vehicle)
-		and not shouldUseWeaponInVehicle()
+	if not currentWeapon or not vehicle or vehicleIsCycle(vehicle) then
+		return false
+	end
+
+	if shouldUseWeaponInVehicle() then
+		return false
+	end
+
+	-- Grace window: pistols release attack between shots; don't slap UNARMED mid-burst.
+	return GetGameTimer() >= vehicleWeaponUnstowUntil
+end
+
+--- Soft-holster can leave total ammo on the weapon with an empty clip. Fix on unstow.
+local function syncVehicleWeaponClip(ped)
+	if not currentWeapon or not currentWeapon.hash then return end
+
+	local want = currentWeapon.metadata and currentWeapon.metadata.ammo
+	if type(want) ~= 'number' or want <= 0 then return end
+
+	local clipSize = GetMaxAmmoInClip(ped, currentWeapon.hash, true)
+	if clipSize <= 0 then return end
+
+	local _, ammoInClip = GetAmmoInClip(ped, currentWeapon.hash)
+	if ammoInClip >= math.min(want, clipSize) then return end
+
+	SetPedAmmo(ped, currentWeapon.hash, want)
+	SetAmmoInClip(ped, currentWeapon.hash, math.min(want, clipSize))
+	RefillAmmoInstantly(ped)
 end
 
 --- Soft-holster: keep ox currentWeapon, but select UNARMED so native AI + scripts
@@ -55,7 +88,19 @@ local function setVehicleWeaponStowed(stow)
 			SetCurrentPedWeapon(ped, currentWeapon.hash, true)
 			SetPedCurrentWeaponVisible(ped, true, false, false, false)
 		end
+		syncVehicleWeaponClip(ped)
 		vehicleWeaponStowed = false
+	end
+end
+
+local function holdVehicleWeaponUnstowed(ms)
+	vehicleWeaponUnstowUntil = GetGameTimer() + (ms or VEHICLE_WEAPON_UNSTOW_GRACE_MS)
+	if vehicleWeaponStowed then
+		setVehicleWeaponStowed(false)
+	elseif currentWeapon and GetSelectedPedWeapon(cache.ped) ~= currentWeapon.hash then
+		SetCurrentPedWeapon(cache.ped, currentWeapon.hash, true)
+		SetPedCurrentWeaponVisible(cache.ped, true, false, false, false)
+		syncVehicleWeaponClip(cache.ped)
 	end
 end
 
@@ -670,9 +715,13 @@ local function useSlot(slot, noAnim)
 					local sleep
 					currentWeapon, sleep = Weapon.Equip(item, data, noAnim)
 
-					-- Equip forces the weapon selected; soft-holster immediately in cars
-					-- so ambient AI never sees a one-frame "armed in vehicle" flash.
-					if shouldStowWeaponInVehicle() then
+					-- Fill clip while the gun is still selected, then soft-holster for NPCs.
+					if cache.vehicle and currentWeapon and not vehicleIsCycle(cache.vehicle) then
+						syncVehicleWeaponClip(cache.ped)
+						if shouldStowWeaponInVehicle() then
+							setVehicleWeaponStowed(true)
+						end
+					elseif shouldStowWeaponInVehicle() then
 						setVehicleWeaponStowed(true)
 					end
 
@@ -685,11 +734,20 @@ local function useSlot(slot, noAnim)
 
 				local clipSize = GetMaxAmmoInClip(playerPed, currentWeapon.hash, true)
 				local currentAmmo = GetAmmoInPedWeapon(playerPed, currentWeapon.hash)
+				local _, ammoInClip = GetAmmoInClip(playerPed, currentWeapon.hash)
 				local _, maxAmmo = GetMaxAmmo(playerPed, currentWeapon.hash)
 
 				if maxAmmo < clipSize then clipSize = maxAmmo end
 
-				if currentAmmo == clipSize then return end
+				-- Soft-holster can leave total ammo full while the clip is empty. Don't treat
+				-- that as "already loaded", and don't consume an ammo item to fix it.
+				if cache.vehicle and ammoInClip < clipSize and currentAmmo >= clipSize then
+					holdVehicleWeaponUnstowed(VEHICLE_WEAPON_RELOAD_GRACE_MS)
+					syncVehicleWeaponClip(playerPed)
+					return
+				end
+
+				if currentAmmo == clipSize and ammoInClip >= clipSize then return end
 
 				useItem(data, function(resp)
 					if not resp or resp.name ~= currentWeapon?.ammo then return end
@@ -749,6 +807,9 @@ local function useSlot(slot, noAnim)
 					AddAmmoToPed(playerPed, currentWeapon.hash, addAmmo)
 
 					if cache.vehicle then
+						-- Soft-holster leaves UNARMED selected; reload natives need the gun selected.
+						holdVehicleWeaponUnstowed(VEHICLE_WEAPON_RELOAD_GRACE_MS)
+
 						if cache.seat > -1 or IsVehicleStopped(cache.vehicle) then
 							TaskReloadWeapon(playerPed, true)
 						else
@@ -764,6 +825,8 @@ local function useSlot(slot, noAnim)
 								return ammo == newAmmo or nil
 							end)
 						end
+
+						syncVehicleWeaponClip(playerPed)
 					else
 						Wait(100)
 						MakePedReload(playerPed)
@@ -1840,9 +1903,12 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 		DisablePlayerVehicleRewards(playerId)
 
 		-- Soft-holster while driving: selected weapon stays UNARMED unless aiming / drive-by.
-		-- Native AI and reaction scripts key off GetSelectedPedWeapon / IsPedArmed.
+		-- Native AI sees no lap gun; un-stow only when pointed / firing (or during reload grace).
 		if currentWeapon and cache.vehicle and not vehicleIsCycle(cache.vehicle) then
 			if shouldUseWeaponInVehicle() then
+				holdVehicleWeaponUnstowed(VEHICLE_WEAPON_UNSTOW_GRACE_MS)
+			elseif GetGameTimer() < vehicleWeaponUnstowUntil then
+				-- Keep drawn for grace/reload; do not refresh the timer.
 				if vehicleWeaponStowed then
 					setVehicleWeaponStowed(false)
 				end
@@ -1852,6 +1918,7 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 				SetCurrentPedWeapon(playerPed, WEAPON_UNARMED, true)
 			end
 		elseif vehicleWeaponStowed then
+			vehicleWeaponUnstowUntil = 0
 			setVehicleWeaponStowed(false)
 		end
 

@@ -78,7 +78,8 @@ local greenleafTakeout = {
 	'coffeefrap', 'bstrawberrycreamfrappuccino', 'bjavachipfrappuccino', 'bhotchoc', 'bhoneyhazelnutoatlatte',
 	'bicedcaffelatte', 'bespresso', 'bespressomacchiato', 'bcaramelfrappucino', 'bcoldbrewlatte',
 	'bstrawberryvanillaoatlatte', 'coffee_black', 'whitetea', 'blacktea', 'greentea', 'coffee_cpcno',
-	'matchalavenderlatte', 'lavenderchailatte', 'loxwithcreamcheese', 'veggiewrap', 'baconeggncheese',
+	'matchalavenderlatte', 'lavenderchailatte', 'pumpkinspicelatte', 'wintermintlatte',
+	'loxwithcreamcheese', 'veggiewrap', 'baconeggncheese',
 	'eggsbenedict', 'breakfastwrap', 'horsepowerbowl', 'iremember', 'lugnutlatte', 'oilaide', 'roborita',
 	'steaksandwich', 'cyberbagel', 'cybercrackers', 'cybergranola', 'blackcyberoil',
 	'greencyberoil', 'greenleaf_menu'

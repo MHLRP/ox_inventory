@@ -10,11 +10,6 @@ anims[`GROUP_MELEE`] = { 'melee@holster', 'unholster', 200, 'melee@holster', 'ho
 anims[`GROUP_PISTOL`] = { 'reaction@intimidation@cop@unarmed', 'intro', 400, 'reaction@intimidation@cop@unarmed', 'outro', 450 }
 anims[`GROUP_STUNGUN`] = anims[`GROUP_PISTOL`]
 
-local function vehicleIsCycle(vehicle)
-	local class = GetVehicleClass(vehicle)
-	return class == 8 or class == 13
-end
-
 -- Katanas draw from the back in moonlit-combat. Skip the front melee holster.
 local katanaWeapons = {
 	[`WEAPON_KATANA1`] = true,
@@ -36,7 +31,9 @@ function Weapon.Equip(item, data, noWeaponAnim)
     local sleep
 
 	if client.weaponanims then
-		if noWeaponAnim or isKatanaWeapon(data.hash) or (cache.vehicle and vehicleIsCycle(cache.vehicle)) then
+		-- Skip standing draw anims in any vehicle (not just bikes). Soft-holster owns
+		-- selected weapon in cars; intimidation anims just delay equip / feel like "won't load".
+		if noWeaponAnim or isKatanaWeapon(data.hash) or cache.vehicle then
 			goto skipAnim
 		end
 
@@ -93,7 +90,16 @@ function Weapon.Equip(item, data, noWeaponAnim)
 	SetPedCurrentWeaponVisible(playerPed, true, false, false, false)
 	SetWeaponsNoAutoswap(true)
 	SetPedAmmo(playerPed, data.hash, ammo)
-	SetTimeout(0, function() RefillAmmoInstantly(playerPed) end)
+	-- In vehicles soft-holster may select UNARMED next frame; fill the clip now.
+	if cache.vehicle then
+		local clipSize = GetMaxAmmoInClip(playerPed, data.hash, true)
+		if clipSize > 0 and ammo > 0 then
+			SetAmmoInClip(playerPed, data.hash, math.min(ammo, clipSize))
+		end
+		RefillAmmoInstantly(playerPed)
+	else
+		SetTimeout(0, function() RefillAmmoInstantly(playerPed) end)
+	end
 
 	if item.group == `GROUP_PETROLCAN` or item.group == `GROUP_FIREEXTINGUISHER` then
 		item.metadata.ammo = item.metadata.durability
@@ -116,10 +122,10 @@ function Weapon.Disarm(currentWeapon, noAnim)
         TriggerServerEvent('ox_inventory:updateWeapon')
 		SetPedAmmo(cache.ped, currentWeapon.hash, 0)
 
-		if isKatanaWeapon(currentWeapon.hash) and not noAnim and not (cache.vehicle and vehicleIsCycle(cache.vehicle)) then
+		if isKatanaWeapon(currentWeapon.hash) and not noAnim and not cache.vehicle then
 			TriggerEvent('moonlit-combat:sheatheKatana')
 		elseif client.weaponanims and not noAnim and not isKatanaWeapon(currentWeapon.hash) then
-			if cache.vehicle and vehicleIsCycle(cache.vehicle) then
+			if cache.vehicle then
 				goto skipAnim
 			end
 
