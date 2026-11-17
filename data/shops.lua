@@ -219,6 +219,13 @@ return {
 		inventory = {
 			{ name = 'WEAPON_BAT',     price = 300, count = 15 },
 			{ name = 'WEAPON_KNIFE',   price = 200, count = 20 },
+			{ name = 'WEAPON_CYBERKNIFE_YELLOW', price = 400, count = 20 },
+			{ name = 'WEAPON_CYBERKNIFE_WHITE', price = 400, count = 20 },
+			{ name = 'WEAPON_CYBERKNIFE_RED', price = 400, count = 20 },
+			{ name = 'WEAPON_CYBERKNIFE_PURPLE', price = 400, count = 20 },
+			{ name = 'WEAPON_CYBERKNIFE_PINK', price = 400, count = 20 },
+			{ name = 'WEAPON_CYBERKNIFE_GREEN', price = 400, count = 20 },
+			{ name = 'WEAPON_CYBERKNIFE_BLUE', price = 400, count = 20 },
 			{ name = 'WEAPON_HATCHET', price = 250, count = 15 },
 		},
 		targets = {

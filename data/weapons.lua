@@ -509,6 +509,60 @@ return {
 			durability = 0.1,
 		},
 
+		['WEAPON_CYBERKNIFE_YELLOW'] = {
+			label = 'Yellow Cyber Knife',
+			weight = 300,
+			durability = 0.1,
+		},
+
+		['WEAPON_CYBERKNIFE_WHITE'] = {
+			label = 'White Cyber Knife',
+			weight = 300,
+			durability = 0.1,
+		},
+
+		['WEAPON_CYBERKNIFE_RED'] = {
+			label = 'Red Cyber Knife',
+			weight = 300,
+			durability = 0.1,
+		},
+
+		['WEAPON_CYBERKNIFE_PURPLE'] = {
+			label = 'Purple Cyber Knife',
+			weight = 300,
+			durability = 0.1,
+		},
+
+		['WEAPON_CYBERKNIFE_PINK'] = {
+			label = 'Pink Cyber Knife',
+			weight = 300,
+			durability = 0.1,
+		},
+
+		['WEAPON_CYBERKNIFE_GREEN'] = {
+			label = 'Green Cyber Knife',
+			weight = 300,
+			durability = 0.1,
+		},
+
+		['WEAPON_CYBERKNIFE_BLUE'] = {
+			label = 'Blue Cyber Knife',
+			weight = 300,
+			durability = 0.1,
+		},
+
+		['WEAPON_KARAMBIT_BLOOD'] = {
+			label = 'Blood Drip Karambit',
+			weight = 300,
+			durability = 0.1,
+		},
+
+		['WEAPON_KARAMBIT_GALAXY'] = {
+			label = 'Galaxy Karambit',
+			weight = 300,
+			durability = 0.1,
+		},
+
 		['WEAPON_MACHINEPISTOL'] = {
 			label = 'Machine Pistol',
 			weight = 1400,
