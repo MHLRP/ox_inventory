@@ -26,21 +26,43 @@ local function isVehicleWeaponControlPressed()
 		or IsControlPressed(0, 70) or IsControlJustPressed(0, 70) -- INPUT_VEH_ATTACK2
 		or IsControlPressed(0, 91) or IsControlJustPressed(0, 91) -- INPUT_VEH_PASSENGER_AIM
 		or IsControlPressed(0, 92) or IsControlJustPressed(0, 92) -- INPUT_VEH_PASSENGER_ATTACK
+		-- Disabled variants: other resources may DisableControlAction these; still count as intent.
+		or IsDisabledControlPressed(0, 68) or IsDisabledControlJustPressed(0, 68)
+		or IsDisabledControlPressed(0, 91) or IsDisabledControlJustPressed(0, 91)
+		or IsDisabledControlPressed(0, 92) or IsDisabledControlJustPressed(0, 92)
 end
 
---- Real aim / drive-by only. Never use INPUT_AIM (25) alone — it can be held
+--- Real aim / drive-by only. Never use INPUT_AIM (25) alone while drawn — it can be held
 --- without aim cam, which would un-stow a lap gun and panic ambient peds.
 local function shouldUseWeaponInVehicle()
 	local ped = cache.ped
-	return IsPlayerFreeAiming(cache.playerId)
+	if IsPlayerFreeAiming(cache.playerId)
 		or IsAimCamActive()
 		or GetPedConfigFlag(ped, 78, true)
-		or isVehicleWeaponControlPressed()
+		or isVehicleWeaponControlPressed() then
+		return true
+	end
+
+	-- Soft-holster deadlock: while UNARMED, passengers often never get INPUT_VEH_PASSENGER_AIM
+	-- (91) — RMB stays INPUT_AIM (25). Allow 25 only as an unstow trigger.
+	if vehicleWeaponStowed then
+		return IsControlPressed(0, 25) or IsControlJustPressed(0, 25)
+			or IsDisabledControlPressed(0, 25) or IsDisabledControlJustPressed(0, 25)
+	end
+
+	return false
 end
 
 local function shouldStowWeaponInVehicle(vehicle)
 	vehicle = vehicle or cache.vehicle
 	if not currentWeapon or not vehicle or vehicleIsCycle(vehicle) then
+		return false
+	end
+
+	-- Passengers must keep the gun selected: GTA won't start passenger drive-by aim (91)
+	-- from UNARMED, so soft-holstering them removes the crosshair entirely.
+	-- Soft-holster only hides the driver's lap gun from ambient AI.
+	if cache.seat ~= -1 then
 		return false
 	end
 
@@ -1556,8 +1578,23 @@ lib.onCache('seat', function(seat)
 		local hasWeapon = GetCurrentPedVehicleWeapon(cache.ped)
 
 		if hasWeapon then
-			return Utils.WeaponWheel(true)
+			Utils.WeaponWheel(true)
+		else
+			Utils.WeaponWheel(false)
 		end
+
+		-- Seat shuffle: passengers must not stay soft-holstered (blocks passenger aim).
+		if currentWeapon and cache.vehicle and not vehicleIsCycle(cache.vehicle) then
+			if seat > -1 then
+				if vehicleWeaponStowed then
+					vehicleWeaponUnstowUntil = 0
+					setVehicleWeaponStowed(false)
+				end
+			elseif not shouldUseWeaponInVehicle() then
+				setVehicleWeaponStowed(true)
+			end
+		end
+		return
 	end
 
 	Utils.WeaponWheel(false)
@@ -1575,8 +1612,12 @@ lib.onCache('vehicle', function(vehicle)
 		return
 	end
 
-	if currentWeapon and not vehicleIsCycle(vehicle) and not shouldUseWeaponInVehicle() then
+	-- Only soft-holster drivers; passengers need the weapon selected to aim.
+	if currentWeapon and not vehicleIsCycle(vehicle) and cache.seat == -1 and not shouldUseWeaponInVehicle() then
 		setVehicleWeaponStowed(true)
+	elseif vehicleWeaponStowed and cache.seat ~= -1 then
+		vehicleWeaponUnstowUntil = 0
+		setVehicleWeaponStowed(false)
 	end
 end)
 
@@ -1902,10 +1943,15 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 	client.tick = SetInterval(function()
 		DisablePlayerVehicleRewards(playerId)
 
-		-- Soft-holster while driving: selected weapon stays UNARMED unless aiming / drive-by.
-		-- Native AI sees no lap gun; un-stow only when pointed / firing (or during reload grace).
+		-- Soft-holster while driving (driver only): selected weapon stays UNARMED unless
+		-- aiming / drive-by. Passengers keep the gun selected so INPUT_VEH_PASSENGER_AIM works.
 		if currentWeapon and cache.vehicle and not vehicleIsCycle(cache.vehicle) then
-			if shouldUseWeaponInVehicle() then
+			if cache.seat ~= -1 then
+				if vehicleWeaponStowed then
+					vehicleWeaponUnstowUntil = 0
+					setVehicleWeaponStowed(false)
+				end
+			elseif shouldUseWeaponInVehicle() then
 				holdVehicleWeaponUnstowed(VEHICLE_WEAPON_UNSTOW_GRACE_MS)
 			elseif GetGameTimer() < vehicleWeaponUnstowUntil then
 				-- Keep drawn for grace/reload; do not refresh the timer.
