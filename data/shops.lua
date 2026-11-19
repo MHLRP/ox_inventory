@@ -2844,6 +2844,18 @@ return {
 	GroceryStoreFront = {
 		name = 'Grocery Store',
 		inventory = {
+			-- Rex Diner new store items
+			{ name = 'habanerodust',           price = 10, count = 75,        currency = 'money' },
+			{ name = 'tempurabatter',          price = 10, count = 75,        currency = 'money' },
+			{ name = 'sarsaparillasyrup',      price = 10, count = 75,        currency = 'money' },
+			{ name = 'kidneybeans',            price = 10, count = 75,        currency = 'money' },
+			{ name = 'spicy_mayo',             price = 10, count = 75,        currency = 'money' },
+			{ name = 'goldleaf',               price = 25, count = 50,        currency = 'money' },
+			{ name = 'guava',                  price = 12, count = 75,        currency = 'money' },
+			{ name = 'mexicanchocolate',       price = 12, count = 75,        currency = 'money' },
+			{ name = 'blueberry',              price = 20, count = 75,        currency = 'money' },
+			{ name = 'greentea',               price = 12, count = 75,        currency = 'money' },
+			{ name = 'extrato-menta',          price = 10, count = 75,        currency = 'money' },
 			{ name = 'flour',                  price = 10, count = 75,        currency = 'money' },
 			{ name = 'cinnamon',               price = 10, count = 75,        currency = 'money' },
 			{ name = 'softscoopmix',           price = 12, currency = 'money' },
