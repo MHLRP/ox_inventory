@@ -721,10 +721,6 @@ return {
 		},
 		inventory = {
 			{ name = 'cybernetics_license', label = 'Cybernetics License',  price = 0, metadata = { description = "Property of Pillbox Cybernetics Center" } },
-			{ name = 'centralchip',         label = 'Central Chip',         price = 0, metadata = { description = "Property of Pillbox Cybernetics Center" } },
-			{ name = 'nightvisionchip',     label = 'Nightvision Chip',     price = 0, metadata = { description = "Property of Pillbox Cybernetics Center" } },
-			{ name = 'enhancedchip',        label = 'Enhanced Vision Chip', price = 0, metadata = { description = "Property of Pillbox Cybernetics Center" } },
-			{ name = 'cybereye',            label = 'Cyber Eye',            price = 0, metadata = { description = "Property of Pillbox Cybernetics Center" } },
 		},
 		locations = {
 			vec3(327.521, -596.243, 42.222),

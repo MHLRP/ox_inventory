@@ -16627,7 +16627,7 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "Clothing_1_97.png",
+			image = "clothing_1_97.png",
 		}
 	},
 
@@ -16638,7 +16638,7 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "Clothing_1_12.png",
+			image = "clothing_1_12.png",
 		}
 	},
 
@@ -16649,7 +16649,7 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "Clothing_1_54.png",
+			image = "clothing_1_54.png",
 		}
 	},
 
@@ -16660,7 +16660,7 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "Clothing_1_95.png",
+			image = "clothing_1_95.png",
 		}
 	},
 
@@ -16671,7 +16671,7 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "Clothing_1_115.png",
+			image = "clothing_1_115.png",
 		}
 	},
 
@@ -16682,7 +16682,7 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "Clothing_1_1.png",
+			image = "clothing_1_1.png",
 		}
 	},
 
@@ -16726,7 +16726,7 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "Clothing_1_98.png",
+			image = "clothing_1_98.png",
 		}
 	},
 
@@ -16737,7 +16737,7 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "Clothing_1_4.png",
+			image = "clothing_1_4.png",
 		}
 	},
 
@@ -16759,7 +16759,7 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "Clothing_1_2.png",
+			image = "clothing_1_2.png",
 		}
 	},
 
@@ -16770,7 +16770,7 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "Clothing_1_3.png",
+			image = "clothing_1_3.png",
 		}
 	},
 
@@ -16792,7 +16792,7 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "Clothing_1_6.png",
+			image = "clothing_1_6.png",
 		}
 	},
 
@@ -16803,7 +16803,7 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "Clothing_1_69.png",
+			image = "clothing_1_69.png",
 		}
 	},
 
@@ -16825,7 +16825,7 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "Clothing_1_101.png",
+			image = "clothing_1_101.png",
 		}
 	},
 
@@ -16836,7 +16836,7 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "Clothing_1_30.png",
+			image = "clothing_1_30.png",
 		}
 	},
 
@@ -16847,7 +16847,7 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "Clothing_1_49.png",
+			image = "clothing_1_49.png",
 		}
 	},
 
@@ -16869,7 +16869,7 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "Clothing_1_28.png",
+			image = "clothing_1_28.png",
 		}
 	},
 
@@ -16880,7 +16880,7 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "Clothing_1_96.png",
+			image = "clothing_1_96.png",
 		}
 	},
 
@@ -16891,7 +16891,7 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "Clothing_1_50.png",
+			image = "clothing_1_50.png",
 		}
 	},
 
@@ -16902,7 +16902,7 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "Clothing_1_99.png",
+			image = "clothing_1_99.png",
 		}
 	},
 
@@ -16913,7 +16913,7 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "Clothing_1_94.png",
+			image = "clothing_1_94.png",
 		}
 	},
 
@@ -16924,7 +16924,7 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "Clothing_1_52.png",
+			image = "clothing_1_52.png",
 		}
 	},
 
@@ -16935,7 +16935,7 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "Clothing_1_15.png",
+			image = "clothing_1_15.png",
 		}
 	},
 
@@ -16957,7 +16957,7 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "Clothing_1_32.png",
+			image = "clothing_1_32.png",
 		}
 	},
 
@@ -16968,7 +16968,7 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "Clothing_1_14.png",
+			image = "clothing_1_14.png",
 		}
 	},
 
@@ -16979,7 +16979,7 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "Clothing_1_51.png",
+			image = "clothing_1_51.png",
 		}
 	},
 
@@ -16990,7 +16990,7 @@ return {
 		close = true,
 		description = "",
 		client = {
-			image = "Clothing_1_53.png",
+			image = "clothing_1_53.png",
 		}
 	},
 
@@ -23166,6 +23166,19 @@ return {
 		}
 	},
 
+	["tarotlenormanddeck"] = {
+		label = "Tarot Lenormand Deck",
+		weight = 100,
+		consume = 1,
+		stack = true,
+		close = true,
+		client = {
+			image = "tarotlenormanddeck.png",
+			export = "cdev_tarot.createDeckOXItem",
+			type = 'lenormand'
+		}
+	},
+
 	["merryweather_strike_carrier"] = {
 		label = "Merryweather Strike Carrier",
 		weight = 2000,
@@ -27108,7 +27121,7 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "griddlefriedpork chop.png" },
+		client = { image = "griddlefriedpork_chop.png" },
 	},
 	["ghostsignal"] = {
 		label = "Ghost Signal",
@@ -27144,7 +27157,7 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "chromeonion rings.png" },
+		client = { image = "chromeonion_rings.png" },
 	},
 	["chocolatecarbonmilkshake"] = {
 		label = "Chocolate Carbon Milkshake",
@@ -27529,5 +27542,359 @@ return {
 			anim = { dict = 'anim@eat@fork', clip = 'fork_clip' },
 			usetime = 8000,
 		},
+	},
+
+	--- New icon pack items (auto-added)
+
+	["blacklaceburger"] = {
+		label = "Black Lace Burger",
+		weight = 400,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "blacklaceburger.png" },
+	},
+	["braindance"] = {
+		label = "Braindance",
+		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "braindance.png" },
+	},
+	["chicken_fingers_pita"] = {
+		label = "Chicken Fingers Pita",
+		weight = 400,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "chicken_fingers_pita.png" },
+	},
+	["chooma_fries"] = {
+		label = "Chooma Fries",
+		weight = 250,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "chooma_fries.png" },
+	},
+	["chromejock"] = {
+		label = "Chrome Jock",
+		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "chromejock.png" },
+	},
+	["crimson_prince"] = {
+		label = "Crimson Prince",
+		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "crimson_prince.png" },
+	},
+	["cydoc1"] = {
+		label = "CyDoc 1",
+		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "cydoc1.png" },
+	},
+	["dinonugs"] = {
+		label = "Dino Nugs",
+		weight = 300,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "dinonugs.png" },
+	},
+	["doughboystack"] = {
+		label = "Dough Boy Stack",
+		weight = 450,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "doughboystack.png" },
+	},
+	["edgerunner"] = {
+		label = "Edgerunner",
+		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "edgerunner.png" },
+	},
+	["flatlinehotdog"] = {
+		label = "Flatline Hot Dog",
+		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "flatlinehotdog.png" },
+	},
+	["goldleaf"] = {
+		label = "Gold Leaf",
+		weight = 10,
+		stack = true,
+		close = true,
+		client = { image = "goldleaf.png" },
+	},
+	["good_rex_burrito"] = {
+		label = "Good Rex Burrito",
+		weight = 400,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "good_rex_burrito.png" },
+	},
+	["guava"] = {
+		label = "Guava",
+		weight = 100,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "guava.png" },
+	},
+	["gumball"] = {
+		label = "Gumball",
+		weight = 50,
+		stack = true,
+		close = true,
+		client = { image = "gumball.png" },
+	},
+	["habanerodust"] = {
+		label = "Habanero Dust",
+		weight = 50,
+		stack = true,
+		close = true,
+		client = { image = "habanerodust.png" },
+	},
+	["hydrerror"] = {
+		label = "Hydrerror",
+		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "hydrerror.png" },
+	},
+	["kidneybeans"] = {
+		label = "Kidney Beans",
+		weight = 100,
+		stack = true,
+		close = true,
+		client = { image = "kidneybeans.png" },
+	},
+	["mechnugs"] = {
+		label = "Mech Nugs",
+		weight = 300,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "mechnugs.png" },
+	},
+	["mexicanchocolate"] = {
+		label = "Mexican Chocolate",
+		weight = 200,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "mexicanchocolate.png" },
+	},
+	["minced_garlic"] = {
+		label = "Minced Garlic",
+		weight = 50,
+		stack = true,
+		close = true,
+		client = { image = "minced_garlic.png" },
+	},
+	["mind_eraser"] = {
+		label = "Mind Eraser",
+		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "mind_eraser.png" },
+	},
+	["mozstickprep"] = {
+		label = "Moz Stick Prep",
+		weight = 200,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "mozstickprep.png" },
+	},
+	["necromancerchckwaffles"] = {
+		label = "Necromancer Chicken Waffles",
+		weight = 450,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "necromancerchckwaffles.png" },
+	},
+	["nightmarketfish"] = {
+		label = "Night Market Fish",
+		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "nightmarketfish.png" },
+	},
+	["platinum_package"] = {
+		label = "Platinum Package",
+		weight = 500,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "platinum_package.png" },
+	},
+	["ripperdocchili"] = {
+		label = "Ripperdoc Chili",
+		weight = 400,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "ripperdocchili.png" },
+	},
+	["sarsaparillasyrup"] = {
+		label = "Sarsaparilla Syrup",
+		weight = 100,
+		stack = true,
+		close = true,
+		client = { image = "sarsaparillasyrup.png" },
+	},
+	["socket"] = {
+		label = "Socket",
+		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "socket.png" },
+	},
+	["spicy_mayo"] = {
+		label = "Spicy Mayo",
+		weight = 80,
+		stack = true,
+		close = true,
+		client = { image = "spicy_mayo.png" },
+	},
+	["tempurabatter"] = {
+		label = "Tempura Batter",
+		weight = 100,
+		stack = true,
+		close = true,
+		client = { image = "tempurabatter.png" },
+	},
+	["the_fixer"] = {
+		label = "The Fixer",
+		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "the_fixer.png" },
+	},
+	["thereaper"] = {
+		label = "The Reaper",
+		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "thereaper.png" },
+	},
+	["therimbo"] = {
+		label = "The Rimbo",
+		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "therimbo.png" },
+	},
+	["tomatosauce"] = {
+		label = "Tomato Sauce",
+		weight = 100,
+		stack = true,
+		close = true,
+		client = { image = "tomatosauce.png" },
+	},
+	["tortilla_soup"] = {
+		label = "Tortilla Soup",
+		weight = 300,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "tortilla_soup.png" },
+	},
+	["twilightfrenchtoast"] = {
+		label = "Twilight French Toast",
+		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "twilightfrenchtoast.png" },
+	},
+	["vampyre_byte"] = {
+		label = "Vampyre Byte",
+		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "vampyre_byte.png" },
+	},
+	["wing_dings"] = {
+		label = "Wing Dings",
+		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "wing_dings.png" },
+	},
+	["wulfbrew"] = {
+		label = "Wulf Brew",
+		weight = 350,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "wulfbrew.png" },
+	},
+	["xandersando"] = {
+		label = "Xander Sando",
+		weight = 400,
+		degrade = 60 * 72,
+		decay = true,
+		stack = true,
+		close = true,
+		client = { image = "xandersando.png" },
 	},
 }
