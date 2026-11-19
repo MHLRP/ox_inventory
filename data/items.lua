@@ -26716,8 +26716,21 @@ return {
 	['mozzarellasticks'] = {
 		label = 'Mozzarella Sticks',
 		weight = 300,
+		degrade = 60 * 72,
+		decay = true,
 		stack = true,
 		close = true,
+		client = {
+			image = "mozzarellasticks.png",
+			status = { hunger = 25 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 5000,
+		},
 	},
 
 	['nectarofthegods'] = {
@@ -27058,7 +27071,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "vanillacarbonmilkshake.png" },
+		client = {
+			image = "mozzarellasticks.png",
+			status = { hunger = 25 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 5000,
+		},
 	},
 	["thedoubletap"] = {
 		label = "The Double Tap",
@@ -27067,7 +27090,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "thedoubletap.png" },
+		client = {
+			image = "vanillacarbonmilkshake.png",
+			status = { thirst = 30 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = {
+				model = 'prop_ecola_can',
+				pos = vec3(0.01, 0.01, 0.06),
+				rot = vec3(5.0, 5.0, -180.5)
+			},
+			usetime = 3000,
+		},
 	},
 	["systemoverload"] = {
 		label = "System Overload",
@@ -27085,7 +27118,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "staticcola.png" },
+		client = {
+			image = "staticcola.png",
+			status = { thirst = 25 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = {
+				model = 'prop_ecola_can',
+				pos = vec3(0.01, 0.01, 0.06),
+				rot = vec3(5.0, 5.0, -180.5)
+			},
+			usetime = 3000,
+		},
 	},
 	["rexsunit01burger"] = {
 		label = "Rex's Unit 01 Burger",
@@ -27130,7 +27173,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "ghostsignal.png" },
+		client = {
+			image = "ghostsignal.png",
+			status = { thirst = 25 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = {
+				model = 'prop_ecola_can',
+				pos = vec3(0.01, 0.01, 0.06),
+				rot = vec3(5.0, 5.0, -180.5)
+			},
+			usetime = 3000,
+		},
 	},
 	["datarexcrunch"] = {
 		label = "Data Rex Crunch",
@@ -27148,7 +27201,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "circuitboardnachos.png" },
+		client = {
+			image = "circuitboardnachos.png",
+			status = { hunger = 30 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 5000,
+		},
 	},
 	["chromeonionrings"] = {
 		label = "Chrome Onion Rings",
@@ -27157,7 +27220,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "chromeonion_rings.png" },
+		client = {
+			image = "chromeonion_rings.png",
+			status = { hunger = 25 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 5000,
+		},
 	},
 	["chocolatecarbonmilkshake"] = {
 		label = "Chocolate Carbon Milkshake",
@@ -27553,7 +27626,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "blacklaceburger.png" },
+		client = {
+			image = "blacklaceburger.png",
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 5000,
+		},
 	},
 	["braindance"] = {
 		label = "Braindance",
@@ -27562,7 +27645,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "braindance.png" },
+		client = {
+			image = "braindance.png",
+			status = { thirst = 30 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = {
+				model = 'prop_ecola_can',
+				pos = vec3(0.01, 0.01, 0.06),
+				rot = vec3(5.0, 5.0, -180.5)
+			},
+			usetime = 3000,
+		},
 	},
 	["chicken_fingers_pita"] = {
 		label = "Chicken Fingers Pita",
@@ -27571,7 +27664,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "chicken_fingers_pita.png" },
+		client = {
+			image = "chicken_fingers_pita.png",
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 5000,
+		},
 	},
 	["chooma_fries"] = {
 		label = "Chooma Fries",
@@ -27580,7 +27683,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "chooma_fries.png" },
+		client = {
+			image = "chooma_fries.png",
+			status = { hunger = 25 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 5000,
+		},
 	},
 	["chromejock"] = {
 		label = "Chrome Jock",
@@ -27589,7 +27702,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "chromejock.png" },
+		client = {
+			image = "chromejock.png",
+			status = { thirst = 30 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = {
+				model = 'prop_ecola_can',
+				pos = vec3(0.01, 0.01, 0.06),
+				rot = vec3(5.0, 5.0, -180.5)
+			},
+			usetime = 3000,
+		},
 	},
 	["crimson_prince"] = {
 		label = "Crimson Prince",
@@ -27598,7 +27721,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "crimson_prince.png" },
+		client = {
+			image = "crimson_prince.png",
+			status = { thirst = 30 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = {
+				model = 'prop_ecola_can',
+				pos = vec3(0.01, 0.01, 0.06),
+				rot = vec3(5.0, 5.0, -180.5)
+			},
+			usetime = 3000,
+		},
 	},
 	["cydoc1"] = {
 		label = "CyDoc 1",
@@ -27607,7 +27740,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "cydoc1.png" },
+		client = {
+			image = "cydoc1.png",
+			status = { thirst = 25 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = {
+				model = 'prop_ecola_can',
+				pos = vec3(0.01, 0.01, 0.06),
+				rot = vec3(5.0, 5.0, -180.5)
+			},
+			usetime = 3000,
+		},
 	},
 	["dinonugs"] = {
 		label = "Dino Nugs",
@@ -27616,7 +27759,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "dinonugs.png" },
+		client = {
+			image = "dinonugs.png",
+			status = { hunger = 30 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 5000,
+		},
 	},
 	["doughboystack"] = {
 		label = "Dough Boy Stack",
@@ -27625,7 +27778,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "doughboystack.png" },
+		client = {
+			image = "doughboystack.png",
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 5000,
+		},
 	},
 	["edgerunner"] = {
 		label = "Edgerunner",
@@ -27634,7 +27797,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "edgerunner.png" },
+		client = {
+			image = "edgerunner.png",
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 5000,
+		},
 	},
 	["flatlinehotdog"] = {
 		label = "Flatline Hot Dog",
@@ -27643,7 +27816,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "flatlinehotdog.png" },
+		client = {
+			image = "flatlinehotdog.png",
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 5000,
+		},
 	},
 	["goldleaf"] = {
 		label = "Gold Leaf",
@@ -27659,7 +27842,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "good_rex_burrito.png" },
+		client = {
+			image = "good_rex_burrito.png",
+			status = { hunger = 35 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 5000,
+		},
 	},
 	["guava"] = {
 		label = "Guava",
@@ -27675,7 +27868,17 @@ return {
 		weight = 50,
 		stack = true,
 		close = true,
-		client = { image = "gumball.png" },
+		client = {
+			image = "gumball.png",
+			status = { thirst = 30 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = {
+				model = 'prop_ecola_can',
+				pos = vec3(0.01, 0.01, 0.06),
+				rot = vec3(5.0, 5.0, -180.5)
+			},
+			usetime = 3000,
+		},
 	},
 	["habanerodust"] = {
 		label = "Habanero Dust",
@@ -27691,7 +27894,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "hydrerror.png" },
+		client = {
+			image = "hydrerror.png",
+			status = { thirst = 30 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = {
+				model = 'prop_ecola_can',
+				pos = vec3(0.01, 0.01, 0.06),
+				rot = vec3(5.0, 5.0, -180.5)
+			},
+			usetime = 3000,
+		},
 	},
 	["kidneybeans"] = {
 		label = "Kidney Beans",
@@ -27707,7 +27920,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "mechnugs.png" },
+		client = {
+			image = "mechnugs.png",
+			status = { hunger = 30 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 5000,
+		},
 	},
 	["mexicanchocolate"] = {
 		label = "Mexican Chocolate",
@@ -27732,7 +27955,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "mind_eraser.png" },
+		client = {
+			image = "mind_eraser.png",
+			status = { thirst = 25 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = {
+				model = 'prop_ecola_can',
+				pos = vec3(0.01, 0.01, 0.06),
+				rot = vec3(5.0, 5.0, -180.5)
+			},
+			usetime = 3000,
+		},
 	},
 	["mozstickprep"] = {
 		label = "Moz Stick Prep",
@@ -27750,7 +27983,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "necromancerchckwaffles.png" },
+		client = {
+			image = "necromancerchckwaffles.png",
+			status = { hunger = 45 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 5000,
+		},
 	},
 	["nightmarketfish"] = {
 		label = "Night Market Fish",
@@ -27759,7 +28002,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "nightmarketfish.png" },
+		client = {
+			image = "nightmarketfish.png",
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 5000,
+		},
 	},
 	["platinum_package"] = {
 		label = "Platinum Package",
@@ -27768,7 +28021,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "platinum_package.png" },
+		client = {
+			image = "platinum_package.png",
+			status = { thirst = 30 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = {
+				model = 'prop_ecola_can',
+				pos = vec3(0.01, 0.01, 0.06),
+				rot = vec3(5.0, 5.0, -180.5)
+			},
+			usetime = 3000,
+		},
 	},
 	["ripperdocchili"] = {
 		label = "Ripperdoc Chili",
@@ -27777,7 +28040,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "ripperdocchili.png" },
+		client = {
+			image = "ripperdocchili.png",
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 5000,
+		},
 	},
 	["sarsaparillasyrup"] = {
 		label = "Sarsaparilla Syrup",
@@ -27793,7 +28066,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "socket.png" },
+		client = {
+			image = "socket.png",
+			status = { thirst = 30 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = {
+				model = 'prop_ecola_can',
+				pos = vec3(0.01, 0.01, 0.06),
+				rot = vec3(5.0, 5.0, -180.5)
+			},
+			usetime = 3000,
+		},
 	},
 	["spicy_mayo"] = {
 		label = "Spicy Mayo",
@@ -27816,7 +28099,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "the_fixer.png" },
+		client = {
+			image = "the_fixer.png",
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 5000,
+		},
 	},
 	["thereaper"] = {
 		label = "The Reaper",
@@ -27825,7 +28118,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "thereaper.png" },
+		client = {
+			image = "thereaper.png",
+			status = { thirst = 30 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = {
+				model = 'prop_ecola_can',
+				pos = vec3(0.01, 0.01, 0.06),
+				rot = vec3(5.0, 5.0, -180.5)
+			},
+			usetime = 3000,
+		},
 	},
 	["therimbo"] = {
 		label = "The Rimbo",
@@ -27834,7 +28137,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "therimbo.png" },
+		client = {
+			image = "therimbo.png",
+			status = { thirst = 30 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = {
+				model = 'prop_ecola_can',
+				pos = vec3(0.01, 0.01, 0.06),
+				rot = vec3(5.0, 5.0, -180.5)
+			},
+			usetime = 3000,
+		},
 	},
 	["tomatosauce"] = {
 		label = "Tomato Sauce",
@@ -27850,7 +28163,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "tortilla_soup.png" },
+		client = {
+			image = "tortilla_soup.png",
+			status = { hunger = 35 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 5000,
+		},
 	},
 	["twilightfrenchtoast"] = {
 		label = "Twilight French Toast",
@@ -27859,7 +28182,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "twilightfrenchtoast.png" },
+		client = {
+			image = "twilightfrenchtoast.png",
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 5000,
+		},
 	},
 	["vampyre_byte"] = {
 		label = "Vampyre Byte",
@@ -27868,7 +28201,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "vampyre_byte.png" },
+		client = {
+			image = "vampyre_byte.png",
+			status = { hunger = 35 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 5000,
+		},
 	},
 	["wing_dings"] = {
 		label = "Wing Dings",
@@ -27877,7 +28220,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "wing_dings.png" },
+		client = {
+			image = "wing_dings.png",
+			status = { hunger = 35 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 5000,
+		},
 	},
 	["wulfbrew"] = {
 		label = "Wulf Brew",
@@ -27886,7 +28239,17 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "wulfbrew.png" },
+		client = {
+			image = "wulfbrew.png",
+			status = { thirst = 25 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = {
+				model = 'prop_ecola_can',
+				pos = vec3(0.01, 0.01, 0.06),
+				rot = vec3(5.0, 5.0, -180.5)
+			},
+			usetime = 3000,
+		},
 	},
 	["xandersando"] = {
 		label = "Xander Sando",
@@ -27895,6 +28258,16 @@ return {
 		decay = true,
 		stack = true,
 		close = true,
-		client = { image = "xandersando.png" },
+		client = {
+			image = "xandersando.png",
+			status = { hunger = 40 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = {
+				model = 'prop_cs_burger_01',
+				pos = vec3(0.05, -0.02, -0.03),
+				rot = vec3(0.0, 0.0, 0.0)
+			},
+			usetime = 5000,
+		},
 	},
 }
