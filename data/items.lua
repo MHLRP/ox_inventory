@@ -7910,6 +7910,14 @@ return {
 		close = true,
 	},
 
+	['hoverboard2'] = {
+		label = 'Hoverboard',
+		weight = 540,
+		stack = false,
+		close = true,
+		description = 'A portable hoverboard you can place and pick up',
+	},
+
 	['medkit'] = {
 		label = 'Medical Kit',
 		weight = 1500,
