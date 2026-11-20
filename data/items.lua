@@ -28278,4 +28278,55 @@ return {
 			usetime = 5000,
 		},
 	},
+
+	-- Moonlit RotorBrawl
+	['spin_top'] = {
+		label = 'Battle Top',
+		weight = 200,
+		stack = false,
+		close = true,
+		description = 'Moonlit RotorBrawl battle top',
+		buttons = {
+			{
+				label = 'Disassemble',
+				action = function(slot)
+					TriggerEvent('spin_arena:cl:disassembleSlot', slot)
+				end,
+			},
+			{
+				label = 'Rename',
+				action = function(slot)
+					TriggerEvent('spin_arena:cl:renameSlot', slot)
+				end,
+			},
+			{
+				label = 'Paint',
+				action = function(slot)
+					TriggerEvent('spin_arena:cl:paintSlot', slot)
+				end,
+			},
+		},
+	},
+	['spin_part'] = {
+		label = 'Top Part',
+		weight = 50,
+		stack = true,
+		close = false,
+		description = 'Spare part for the RotorBrawl workshop',
+	},
+	['spin_launcher'] = {
+		label = 'Launcher',
+		weight = 150,
+		stack = false,
+		close = true,
+		description = 'Moonlit RotorBrawl top launcher',
+	},
+	['spin_repair_kit'] = {
+		label = 'Repair Kit',
+		weight = 100,
+		stack = true,
+		close = true,
+		description = 'Repairs a RotorBrawl battle top',
+	},
+
 }
