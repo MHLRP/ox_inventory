@@ -717,7 +717,7 @@ return {
 	Medicine4 = {
 		name = 'Cybernetics Cabinet',
 		groups = {
-			['ambulance'] = 3
+			['ambulance'] = 9
 		},
 		inventory = {
 			{ name = 'cybernetics_license', label = 'Cybernetics License',  price = 0, metadata = { description = "Property of Pillbox Cybernetics Center" } },
