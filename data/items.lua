@@ -21303,7 +21303,7 @@ return {
 	["thermalpaste"] = {
 		label = "Thermal Paste",
 		weight = 20,
-		stack = false,
+		stack = true,
 		close = true,
 		description = "Essential for keeping your CPU cool. Don't forget to apply it!"
 	},
