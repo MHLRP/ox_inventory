@@ -8842,14 +8842,22 @@ return {
 		}
 	},
 
-	["alcoholtester"] = {
-		label = "Alcohol Tester",
+	["breathalyzer"] = {
+		label = "Breathalyzer",
 		weight = 40,
 		stack = false,
 		close = true,
-		description = "For testing purposes..",
-		client = { image = "alcoholtester.png",
-		}
+		description = "VIGILEX AB-560 Breathalyzer",
+		client = { image = "breathalyzer.png" },
+	},
+
+	["breathalyzer_slip"] = {
+		label = "Breath test slip",
+		weight = 1,
+		stack = false,
+		close = true,
+		description = "Printed record of a breathalyzer test.",
+		client = { image = "breathalyzer_slip.png" },
 	},
 
 	['riotshield'] = {
