@@ -467,6 +467,14 @@ return {
 		},
 	},
 
+	-- Opened by moonlit-vendingmachines WorldShops (prop_gumball_01/02/03)
+	GumballShop = {
+		name = 'Gumball Machine',
+		inventory = {
+			{ name = 'candygumball', price = 25, currency = 'money' },
+		},
+	},
+
 	-- GeneralStore4 = {
 	-- 	name = 'General Store',
 	-- 	inventory = {

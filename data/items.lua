@@ -27896,6 +27896,19 @@ return {
 			usetime = 3000,
 		},
 	},
+	["candygumball"] = {
+		label = "Candy Gumball",
+		weight = 20,
+		stack = true,
+		close = true,
+		description = "A cheap machine gumball. Barely a snack.",
+		client = {
+			image = "candygumball.png",
+			status = { hunger = 5 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger' },
+			usetime = 2500,
+		},
+	},
 	["habanerodust"] = {
 		label = "Habanero Dust",
 		weight = 50,
