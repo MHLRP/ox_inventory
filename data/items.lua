@@ -18188,7 +18188,7 @@ return {
 		close = true,
 		description = "Blank poster for you to put your artwork on",
 		server = {
-			export = "of_whiteboard.place_image"
+			export = "moonlit-whiteboards.place_image"
 		},
 	},
 	['remove_poster'] = {
@@ -18198,7 +18198,7 @@ return {
 		close = true,
 		description = "Clean posters, billboards, etc.",
 		server = {
-			export = "of_whiteboard.remove_image"
+			export = "moonlit-whiteboards.remove_image"
 		},
 	},
 	["sportsjersey"] = {
