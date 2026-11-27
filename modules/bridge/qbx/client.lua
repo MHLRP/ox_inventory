@@ -2,18 +2,30 @@ AddStateBagChangeHandler('isLoggedIn', ('player:%s'):format(cache.serverId), fun
     if not value then client.onLogout() end
 end)
 
-RegisterNetEvent('qbx_core:client:onGroupUpdate', function(groupName, groupGrade)
-    local groups = PlayerData.groups
-    if not groupGrade then
-        groups[groupName] = nil
-    else
-        groups[groupName] = groupGrade
+local function getPrimaryGroups(jobOverride, gangOverride)
+    local data = exports.qbx_core:GetPlayerData()
+    local groups = {}
+    local job = jobOverride or (data and data.job)
+    local gang = gangOverride or (data and data.gang)
+    if job and job.name then
+        groups[job.name] = job.grade and job.grade.level or 0
     end
-    client.setPlayerData('groups', groups)
+    if gang and gang.name and gang.name ~= 'none' then
+        groups[gang.name] = gang.grade and gang.grade.level or 0
+    end
+    return groups
+end
+
+RegisterNetEvent('QBCore:Client:OnJobUpdate', function(job)
+    client.setPlayerData('groups', getPrimaryGroups(job, nil))
 end)
 
-RegisterNetEvent('qbx_core:client:setGroups', function(groups)
-    client.setPlayerData('groups', groups)
+RegisterNetEvent('QBCore:Client:OnGangUpdate', function(gang)
+    client.setPlayerData('groups', getPrimaryGroups(nil, gang))
+end)
+
+RegisterNetEvent('qbx_core:client:setGroups', function()
+    client.setPlayerData('groups', getPrimaryGroups())
 end)
 
 ---@diagnostic disable-next-line: duplicate-set-field

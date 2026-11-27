@@ -5,10 +5,31 @@ local QBX = exports.qbx_core
 
 AddEventHandler('qbx_core:server:playerLoggedOut', server.playerDropped)
 
-AddEventHandler('qbx_core:server:onGroupUpdate', function(source, groupName, groupGrade)
+local function getPrimaryGroups(playerData)
+    local groups = {}
+    if playerData.job and playerData.job.name then
+        groups[playerData.job.name] = playerData.job.grade and playerData.job.grade.level or 0
+    end
+    if playerData.gang and playerData.gang.name and playerData.gang.name ~= 'none' then
+        groups[playerData.gang.name] = playerData.gang.grade and playerData.gang.grade.level or 0
+    end
+    return groups
+end
+
+local function syncPrimaryGroups(source)
     local inventory = Inventory(source)
     if not inventory then return end
-    inventory.player.groups[groupName] = not groupGrade and nil or groupGrade
+    local player = QBX:GetPlayer(source)
+    if not player then return end
+    inventory.player.groups = getPrimaryGroups(player.PlayerData)
+end
+
+AddEventHandler('QBCore:Server:OnJobUpdate', function(source)
+    syncPrimaryGroups(source)
+end)
+
+AddEventHandler('QBCore:Server:OnGangUpdate', function(source)
+    syncPrimaryGroups(source)
 end)
 
 local function setupPlayer(playerData)
@@ -43,13 +64,13 @@ end
 
 ---@diagnostic disable-next-line: duplicate-set-field
 function server.setPlayerData(player)
-    local groups = QBX:GetGroups(player.source)
+    local groups = getPrimaryGroups(player)
     return {
         source = player.source,
         name = ('%s %s'):format(player.charinfo.firstname, player.charinfo.lastname),
         groups = groups,
-        sex = player.charinfo.gender,
-        dateofbirth = player.charinfo.birthdate,
+        sex = player.sex or (player.charinfo and player.charinfo.gender),
+        dateofbirth = player.dateofbirth or (player.charinfo and player.charinfo.birthdate),
     }
 end
 
