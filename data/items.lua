@@ -255,7 +255,23 @@ return {
 		weight = 1,
 		stack = true,
 		close = true,
-		description = 'Basketball'
+		description = 'Street Classic Basketball'
+	},
+
+	['basketball_02'] = {
+		label = 'Diamond Classic Basketball',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = 'Signature Diamond Casino leather basketball.',
+	},
+
+	['basketball_03'] = {
+		label = 'Diamond Gold Basketball',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = 'Luxury black & gold collector basketball.',
 	},
 
 	['football'] = {
